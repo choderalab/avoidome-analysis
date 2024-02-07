@@ -1,0 +1,30 @@
+- name: ABCB1
+  alternatives: P-gp, MDR1
+  uniprot: P08183
+- name: ABCG2
+  alternatives: BCRP, ABC-G2
+  uniprot: Q9UNQ0
+- name: ABCC1
+  alternatives: MRP1
+  uniprot: P33527
+- name: ABCB11
+  alternatives: BSEP
+  uniprot: O95342
+- name: SLC22A6
+  alternatives: OAT1
+  uniprot: Q4U2R8
+- name: SLC22A8
+  alternatives: OAT3
+  uniprot: Q8TCC7
+- name: OATP1B1
+  alternatives:
+  uniprot: Q9Y6L6
+- name: OATP1B3
+  alternatives:
+  uniprot: Q9NPD5
+- name: SLC15A1
+  alternatives: PEPT1
+  uniprot: P46059
+- name: SLC47A1
+  alternatives: MATE
+  uniprot: Q96FL8

@@ -1,0 +1,12 @@
+# I’d like to collect some of the resources that have previously been compiled for studying this.
+- title: ADMETlab
+  webservice: https://admet.scbdd.com/
+  paper: https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0283-x
+  github: https://github.com/ifyoungnet/ADMETlab
+  description: Not that useful. The predictive model is shared but not the uniprot ids / structures or code for acquiring them.
+
+- title: ADME SARfari
+  webservice: https://adme-sarfari.com/
+  paper: https://academic.oup.com/bioinformatics/article/31/10/1695/177165?login=true
+  github:
+  description: Deprecated. The website is down.

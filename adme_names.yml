@@ -128,8 +128,20 @@
   alternatives: ACM3_HUMAN, Muscarinic acetylcholine receptor M3 
   uniprot: P20309
 - name: nicotinic nAChR
-  alternatives: ACH10_HUMAN, Neuronal acetylcholine receptor subunit alpha-10 
+  alternatives: ACH10_HUMAN Neuronal acetylcholine receptor subunit alpha-10 
   uniprot: Q9GZZ6
+- name: nicotinic nAChR
+  alternatives: ACHA9_HUMAN Neuronal acetylcholine receptor subunit alpha-9 
+  uniprot: Q9UGM1
+- name: nicotinic nAChR
+  alternatives: ACHA7_HUMAN Neuronal acetylcholine receptor subunit alpha-7 
+  uniprot: P36544
+- name: nicotinic nAChR
+  alternatives: ACHA3_HUMAN Neuronal acetylcholine receptor subunit alpha-3 
+  uniprot: P32297
+- name: nicotinic nAChR
+  alternatives: ACHA5_HUMAN Neuronal acetylcholine receptor subunit alpha-5 
+  uniprot: P30532
 - name: Phosphodiesterase 3A
   alternatives: ASM3A_HUMAN, Acid sphingomyelinase-like phosphodiesterase 3a 
   uniprot: Q92484

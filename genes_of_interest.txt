@@ -1,0 +1,29 @@
+CYP1A2, CYP2B6, CYP2C9, CYP2C19, CYP2D6, CYP3A4
+Aldehyde oxidase, xanthine oxidase, monoamine oxidase A, monoamine oxidase B
+Aldehyde dehydrogenase ALDH1A1, alcohol dehydrogenase 1A
+Hydroxysteroid dehydrogenase 11beta (HSD11B1)
+Aldehyde reductase, flavin monooxygenase FMO1
+AHR (aryl hydrocarbon receptor), CAR (constitutive androstane receptor), PXR (pregnane X receptor)
+Sulfotransferase SULT1A1, Glutathione transferase GSTA1
+HSA, alpha1-acid glycoprotein
+HERG (Kv11.1), NaV1.5, Calcium L-channel, CaV 1.2, HTR2B 
+SERT
+SLC6A4
+DAT1
+SLC6A3
+NET noradrenaline transporter 
+NAT
+SLC6A2
+Adrenergic receptor A1 
+Adrenergic receptor A2
+Adrenergic receptor B1
+Adrenergic receptor B2
+Cannabinoid receptor CB1 
+Cannabinoid receptor CB2
+Muscarinic receptor M1 
+Muscarinic receptor M2
+Muscarinic receptor M3
+nicotinic nAChR
+Phosphodiesterase 3A
+GABA alpha 1
+Histamine H1

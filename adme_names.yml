@@ -1,0 +1,153 @@
+- name: CYP1A2
+  alternatives: CP1A2_HUMAN, Cytochrome P450 1A2 
+  uniprot: P05177
+- name:  CYP2B6
+  alternatives: CP2B6_HUMAN, Cytochrome P450 2B6 
+  uniprot: P20813
+- name:  CYP2C9
+  alternatives: CP2C9_HUMAN, Cytochrome P450 2C9 
+  uniprot: P11712
+- name:  CYP2C19
+  alternatives: CP2CJ_HUMAN, Cytochrome P450 2C19 
+  uniprot: P33261
+- name:  CYP2D6
+  alternatives: CP2D6_HUMAN, Cytochrome P450 2D6 
+  uniprot: P10635
+- name:  CYP3A4
+  alternatives: CP3A4_HUMAN, Cytochrome P450 3A4 
+  uniprot: P08684
+- name: Aldehyde oxidase
+  alternatives: AOXA_HUMAN, Aldehyde oxidase 
+  uniprot: Q06278
+- name:  xanthine oxidase
+  alternatives: XDH_HUMAN, Xanthine dehydrogenase/oxidase 
+  uniprot: P47989
+- name:  monoamine oxidase A
+  alternatives: AOFA_HUMAN, Amine oxidase [flavin-containing] A 
+  uniprot: P21397
+- name:  monoamine oxidase B
+  alternatives: AOFB_HUMAN, Amine oxidase [flavin-containing] B 
+  uniprot: P27338
+- name: Aldehyde dehydrogenase ALDH1A1
+  alternatives: AL1A1_HUMAN, Aldehyde dehydrogenase 1A1 
+  uniprot: P00352
+- name:  alcohol dehydrogenase 1A
+  alternatives: ADH1A_HUMAN, Alcohol dehydrogenase 1A 
+  uniprot: P07327
+- name: Hydroxysteroid dehydrogenase 11beta (HSD11B1)
+  alternatives: DHI1_HUMAN, 11-beta-hydroxysteroid dehydrogenase 1 
+  uniprot: P28845
+- name: Aldehyde reductase
+  alternatives: ARK73_HUMAN, Aflatoxin B1 aldehyde reductase member 3 
+  uniprot: O95154
+- name:  flavin monooxygenase FMO1
+  alternatives: FMO1_HUMAN, Flavin-containing monooxygenase 1 
+  uniprot: Q01740
+- name: AHR (aryl hydrocarbon receptor)
+  alternatives: AHR_HUMAN, Aryl hydrocarbon receptor 
+  uniprot: P35869
+- name:  CAR (constitutive androstane receptor)
+  alternatives: NR1I3_HUMAN, Nuclear receptor subfamily 1 group I member 3 
+  uniprot: Q14994
+- name:  PXR (pregnane X receptor)
+  alternatives: NR1I2_HUMAN, Nuclear receptor subfamily 1 group I member 2 
+  uniprot: O75469
+- name: Sulfotransferase SULT1A1
+  alternatives: ST1A1_HUMAN, Sulfotransferase 1A1 
+  uniprot: P50225
+- name:  Glutathione transferase GSTA1
+  alternatives: GSTA1_HUMAN, Glutathione S-transferase A1 
+  uniprot: P08263
+- name: HSA
+  alternatives: OXA1L_HUMAN, Mitochondrial inner membrane protein OXA1L 
+  uniprot: Q15070
+- name:  alpha1-acid glycoprotein
+  alternatives: A1AG1_HUMAN, Alpha-1-acid glycoprotein 1 
+  uniprot: P02763
+- name: HERG (Kv11.1)
+  alternatives: KCNH2_HUMAN, Potassium voltage-gated channel subfamily H member 2 
+  uniprot: Q12809
+- name:  NaV1.5
+  alternatives: SCN5A_HUMAN, Sodium channel protein type 5 subunit alpha 
+  uniprot: Q14524
+- name:  Calcium L-channel
+  alternatives: CACB1_HUMAN, Voltage-dependent L-type calcium channel subunit beta-1 
+  uniprot: Q02641
+- name:  CaV 1.2
+  alternatives: CAV1_HUMAN, Caveolin-1 
+  uniprot: Q03135
+- name:  HTR2B
+  alternatives: 5HT2B_HUMAN, 5-hydroxytryptamine receptor 2B 
+  uniprot: P41595
+- name: SERT
+  alternatives: SC6A4_HUMAN, Sodium-dependent serotonin transporter 
+  uniprot: P31645
+- name: SLC6A4
+  alternatives: SC6A4_HUMAN, Sodium-dependent serotonin transporter 
+  uniprot: P31645
+- name: DAT1
+  alternatives: DIDO1_HUMAN, Death-inducer obliterator 1 
+  uniprot: Q9BTC0
+- name: SLC6A3
+  alternatives: SC6A3_HUMAN, Sodium-dependent dopamine transporter 
+  uniprot: Q01959
+- name: NET noradrenaline transporter
+  alternatives: SC6A2_HUMAN, Sodium-dependent noradrenaline transporter 
+  uniprot: P23975
+- name: NAT
+  alternatives: NAT8_HUMAN, N-acetyltransferase 8 
+  uniprot: Q9UHE5
+- name: SLC6A2
+  alternatives: SC6A2_HUMAN, Sodium-dependent noradrenaline transporter 
+  uniprot: P23975
+- name: Adrenergic receptor A1
+  alternatives: ADA1A_HUMAN, Alpha-1A adrenergic receptor 
+  uniprot: P35348
+- name: Adrenergic receptor A2
+  alternatives: ADA2A_HUMAN, Alpha-2A adrenergic receptor 
+  uniprot: P08913
+- name: Adrenergic receptor B1
+  alternatives: ADRB1_HUMAN, Beta-1 adrenergic receptor 
+  uniprot: P08588
+- name: Adrenergic receptor B2
+  alternatives: ADRB2_HUMAN, Beta-2 adrenergic receptor 
+  uniprot: P07550
+- name: Cannabinoid receptor CB1
+  alternatives: CNRP1_HUMAN, CB1 cannabinoid receptor-interacting protein 1 
+  uniprot: Q96F85
+- name: Cannabinoid receptor CB2
+  alternatives: CNR2_HUMAN, Cannabinoid receptor 2 
+  uniprot: P34972
+- name: Muscarinic receptor M1
+  alternatives: ACM1_HUMAN, Muscarinic acetylcholine receptor M1 
+  uniprot: P11229
+- name: Muscarinic receptor M2
+  alternatives: ACM2_HUMAN, Muscarinic acetylcholine receptor M2 
+  uniprot: P08172
+- name: Muscarinic receptor M3
+  alternatives: ACM3_HUMAN, Muscarinic acetylcholine receptor M3 
+  uniprot: P20309
+- name: nicotinic nAChR
+  alternatives: ACH10_HUMAN Neuronal acetylcholine receptor subunit alpha-10 
+  uniprot: Q9GZZ6
+- name: nicotinic nAChR
+  alternatives: ACHA9_HUMAN Neuronal acetylcholine receptor subunit alpha-9 
+  uniprot: Q9UGM1
+- name: nicotinic nAChR
+  alternatives: ACHA7_HUMAN Neuronal acetylcholine receptor subunit alpha-7 
+  uniprot: P36544
+- name: nicotinic nAChR
+  alternatives: ACHA3_HUMAN Neuronal acetylcholine receptor subunit alpha-3 
+  uniprot: P32297
+- name: nicotinic nAChR
+  alternatives: ACHA5_HUMAN Neuronal acetylcholine receptor subunit alpha-5 
+  uniprot: P30532
+- name: Phosphodiesterase 3A
+  alternatives: ASM3A_HUMAN, Acid sphingomyelinase-like phosphodiesterase 3a 
+  uniprot: Q92484
+- name: GABA alpha 1
+  alternatives: GABPA_HUMAN, GA-binding protein alpha chain 
+  uniprot: Q06546
+- name: Histamine H1
+  alternatives: HRH1_HUMAN, Histamine H1 receptor 
+  uniprot: P35367

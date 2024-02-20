@@ -1,0 +1,6693 @@
+accession: P08183
+comments:
+- text:
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/2897240
+        id: '2897240'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/2897240
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/35970996
+        id: '35970996'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/35970996
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8898203
+        id: '8898203'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8898203
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9038218
+        id: '9038218'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9038218
+    value: Translocates drugs and phospholipids across the membrane (PubMed:8898203,
+      PubMed:2897240, PubMed:9038218, PubMed:35970996). Catalyzes the flop of phospholipids
+      from the cytoplasmic to the exoplasmic leaflet of the apical membrane. Participates
+      mainly to the flop of phosphatidylcholine, phosphatidylethanolamine, beta-D-glucosylceramides
+      and sphingomyelins (PubMed:8898203). Energy-dependent efflux pump responsible
+      for decreased drug accumulation in multidrug-resistant cells (PubMed:2897240,
+      PubMed:9038218, PubMed:35970996)
+  type: FUNCTION
+- reaction:
+    ecNumber: 7.6.2.2
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9038218
+        id: '9038218'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9038218
+    name: ATP + H2O + xenobioticSide 1 = ADP + phosphate + xenobioticSide 2.
+  type: CATALYTIC_ACTIVITY
+- reaction:
+    ecNumber: 7.6.2.1
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8898203
+        id: '8898203'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8898203
+    name: ATP + H2O + phospholipidSide 1 = ADP + phosphate + phospholipidSide 2.
+  type: CATALYTIC_ACTIVITY
+- reaction:
+    dbReferences:
+    - id: RHEA:36439
+      type: Rhea
+    - id: CHEBI:15377
+      type: ChEBI
+    - id: CHEBI:15378
+      type: ChEBI
+    - id: CHEBI:30616
+      type: ChEBI
+    - id: CHEBI:43474
+      type: ChEBI
+    - id: CHEBI:64612
+      type: ChEBI
+    - id: CHEBI:456216
+      type: ChEBI
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8898203
+        id: '8898203'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8898203
+    name: a 1,2-diacyl-sn-glycero-3-phosphoethanolamine(in) + ATP + H2O = a 1,2-diacyl-sn-glycero-3-phosphoethanolamine(out)
+      + ADP + H(+) + phosphate
+  type: CATALYTIC_ACTIVITY
+- reaction:
+    dbReferences:
+    - id: RHEA:38583
+      type: Rhea
+    - id: CHEBI:15377
+      type: ChEBI
+    - id: CHEBI:15378
+      type: ChEBI
+    - id: CHEBI:30616
+      type: ChEBI
+    - id: CHEBI:43474
+      type: ChEBI
+    - id: CHEBI:57643
+      type: ChEBI
+    - id: CHEBI:456216
+      type: ChEBI
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8898203
+        id: '8898203'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8898203
+    name: a 1,2-diacyl-sn-glycero-3-phosphocholine(out) + ATP + H2O = a 1,2-diacyl-sn-glycero-3-phosphocholine(in)
+      + ADP + H(+) + phosphate
+  type: CATALYTIC_ACTIVITY
+- reaction:
+    dbReferences:
+    - id: RHEA:38943
+      type: Rhea
+    - id: CHEBI:15377
+      type: ChEBI
+    - id: CHEBI:15378
+      type: ChEBI
+    - id: CHEBI:22801
+      type: ChEBI
+    - id: CHEBI:30616
+      type: ChEBI
+    - id: CHEBI:43474
+      type: ChEBI
+    - id: CHEBI:456216
+      type: ChEBI
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8898203
+        id: '8898203'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8898203
+    name: a beta-D-glucosyl-(1<->1')-N-acylsphing-4-enine(in) + ATP + H2O = a beta-D-glucosyl-(1<->1')-N-acylsphing-4-enine(out)
+      + ADP + H(+) + phosphate
+  type: CATALYTIC_ACTIVITY
+- reaction:
+    dbReferences:
+    - id: RHEA:38903
+      type: Rhea
+    - id: CHEBI:15377
+      type: ChEBI
+    - id: CHEBI:15378
+      type: ChEBI
+    - id: CHEBI:17636
+      type: ChEBI
+    - id: CHEBI:30616
+      type: ChEBI
+    - id: CHEBI:43474
+      type: ChEBI
+    - id: CHEBI:456216
+      type: ChEBI
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8898203
+        id: '8898203'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8898203
+    name: a sphingomyelin(in) + ATP + H2O = a sphingomyelin(out) + ADP + H(+) + phosphate
+  type: CATALYTIC_ACTIVITY
+- text:
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/35970996
+        id: '35970996'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/35970996
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8898203
+        id: '8898203'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8898203
+    value: Translocase activity is inhibited by verapamil and is sensitive to energy
+      depletion (PubMed:8898203). C1orf115 regulates drug efflux through modulation
+      of ABCB1 localization and activity (PubMed:35970996)
+  type: ACTIVITY_REGULATION
+- text:
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15488952
+        id: '15488952'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15488952
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24333728
+        id: '24333728'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24333728
+    value: Interacts with PSMB5. Finds in a complex with ABCB1, TFPI2 and PPP2R3C;
+      leading to the dephosphorylation of ABCB1
+  type: SUBUNIT
+- interactions:
+  - accession1: P08183
+    accession2: Q86VI4
+    experiments: 2
+    gene: LAPTM4B
+    interactor1: EBI-1057359
+    interactor2: EBI-3267258
+    organismDiffer: false
+  - accession1: P08183
+    accession2: Q99496
+    experiments: 2
+    gene: RNF2
+    interactor1: EBI-1057359
+    interactor2: EBI-722416
+    organismDiffer: false
+  type: INTERACTION
+- locations:
+  - location:
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/35970996
+          id: '35970996'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/35970996
+      value: Cell membrane
+    topology:
+      evidences:
+      - code: ECO:0000255
+        source:
+          id: PRU00441
+          name: PROSITE-ProRule
+          url: https://prosite.expasy.org/unirule/PRU00441
+      value: Multi-pass membrane protein
+  - location:
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/28408210
+          id: '28408210'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/28408210
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8898203
+          id: '8898203'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8898203
+      value: Apical cell membrane
+  - location:
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/35970996
+          id: '35970996'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/35970996
+      value: Cytoplasm
+  text:
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/28408210
+        id: '28408210'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/28408210
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/35970996
+        id: '35970996'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/35970996
+    value: ABCB1 localization is influenced by C1orf115 expression levels (plasma
+      membrane versus cytoplasm). Localized to the apical membrane of enterocytes
+      (PubMed:28408210)
+  type: SUBCELLULAR_LOCATION
+- event:
+  - Alternative splicing
+  isoforms:
+  - ids:
+    - P08183-1
+    name:
+      value: '1'
+    sequenceStatus: displayed
+  - ids:
+    - P08183-2
+    name:
+      value: '2'
+    sequence:
+    - VSP_055769
+    sequenceStatus: described
+  type: ALTERNATIVE_PRODUCTS
+- text:
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/28408210
+        id: '28408210'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/28408210
+    value: Expressed in small intestine (PubMed:28408210). Expressed in liver, kidney
+      and brain
+  type: TISSUE_SPECIFICITY
+- text:
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/2876781
+        id: '2876781'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/2876781
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/2897240
+        id: '2897240'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/2897240
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9038218
+        id: '9038218'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9038218
+    value: Genetic variation in ABCB1 may play a role in patients who do not respond
+      to drug treatment
+  type: POLYMORPHISM
+- acronym: IBD13
+  dbReference:
+    id: '612244'
+    type: MIM
+  description:
+    value: A chronic, relapsing inflammation of the gastrointestinal tract with a
+      complex etiology. It is subdivided into Crohn disease and ulcerative colitis
+      phenotypes. Crohn disease may affect any part of the gastrointestinal tract
+      from the mouth to the anus, but most frequently it involves the terminal ileum
+      and colon. Bowel inflammation is transmural and discontinuous; it may contain
+      granulomas or be associated with intestinal or perianal fistulas. In contrast,
+      in ulcerative colitis, the inflammation is continuous and limited to rectal
+      and colonic mucosal layers; fistulas and granulomas are not observed. Both diseases
+      include extraintestinal inflammation of the skin, eyes, or joints.
+  diseaseId: Inflammatory bowel disease 13
+  text:
+  - value: Disease susceptibility is associated with variants affecting the gene represented
+      in this entry
+  type: DISEASE
+- text:
+  - evidences:
+    - code: ECO:0000305
+    value: Belongs to the ABC transporter superfamily. ABCB family. Multidrug resistance
+      exporter (TC 3.A.1.201) subfamily
+  type: SIMILARITY
+- conflictType: ERRONEOUS_PREDICTION
+  evidences:
+  - code: ECO:0000305
+  sequence: AAM49149.1
+  type: SEQUENCE_CAUTION
+- name: Atlas of Genetics and Cytogenetics in Oncology and Haematology
+  type: WEBRESOURCE
+  url: https://atlasgeneticsoncology.org/gene/105/abcb1
+- name: NIEHS-SNPs
+  type: WEBRESOURCE
+  url: http://egp.gs.washington.edu/data/abcb1/
+- name: Wikipedia
+  text: P-glycoprotein entry
+  type: WEBRESOURCE
+  url: https://en.wikipedia.org/wiki/P-glycoprotein
+- name: ABCMdb
+  text: Database for mutations in ABC proteins
+  type: WEBRESOURCE
+  url: http://abcm2.hegelab.org/search
+dbReferences:
+- id: M14758
+  properties:
+    molecule type: mRNA
+    protein sequence ID: AAA59575.1
+  type: EMBL
+- id: M29447
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+  type: EMBL
+- id: M29424
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29425
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29426
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29427
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29428
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29429
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29430
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29431
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29432
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29433
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29434
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29435
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29436
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29437
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29438
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29439
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29440
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29441
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29442
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29443
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29444
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29445
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: M29446
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA59576.1
+    status: JOINED
+  type: EMBL
+- id: AF016535
+  properties:
+    molecule type: mRNA
+    protein sequence ID: AAB69423.1
+  type: EMBL
+- id: EU854148
+  properties:
+    molecule type: mRNA
+    protein sequence ID: ACF94688.1
+  type: EMBL
+- id: AY910577
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAW82430.1
+  type: EMBL
+- id: AK290159
+  properties:
+    molecule type: mRNA
+    protein sequence ID: BAF82848.1
+  type: EMBL
+- id: AC002457
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAM49149.1
+    status: ALT_SEQ
+  type: EMBL
+- id: AC005068
+  properties:
+    molecule type: Genomic_DNA
+    status: NOT_ANNOTATED_CDS
+  type: EMBL
+- id: M37724
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA88047.1
+  type: EMBL
+- id: M37725
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: AAA88048.1
+  type: EMBL
+- id: X58723
+  properties:
+    molecule type: Genomic_DNA
+    protein sequence ID: CAA41558.1
+  type: EMBL
+- id: CCDS5608.1
+  isoform: P08183-1
+  type: CCDS
+- id: A34914
+  properties:
+    entry name: DVHU1
+  type: PIR
+- id: NP_000918.2
+  isoform: P08183-1
+  properties:
+    nucleotide sequence ID: NM_000927.4
+  type: RefSeq
+- id: 6C0V
+  properties:
+    chains: A=1-1280
+    method: EM
+    resolution: 3.40 A
+  type: PDB
+- id: 6FN1
+  properties:
+    chains: A=32-1279
+    method: EM
+    resolution: 3.58 A
+  type: PDB
+- id: 6FN4
+  properties:
+    chains: A=1-1279
+    method: EM
+    resolution: 4.14 A
+  type: PDB
+- id: 6QEX
+  properties:
+    chains: A=1-1280
+    method: EM
+    resolution: 3.60 A
+  type: PDB
+- id: 7A65
+  properties:
+    chains: A=1-1280
+    method: EM
+    resolution: 3.90 A
+  type: PDB
+- id: 7A69
+  properties:
+    chains: A=1-1280
+    method: EM
+    resolution: 3.20 A
+  type: PDB
+- id: 7A6C
+  properties:
+    chains: A=1-1280
+    method: EM
+    resolution: 3.60 A
+  type: PDB
+- id: 7A6E
+  properties:
+    chains: A=1-1280
+    method: EM
+    resolution: 3.60 A
+  type: PDB
+- id: 7A6F
+  properties:
+    chains: A=1-1280
+    method: EM
+    resolution: 3.50 A
+  type: PDB
+- id: 7O9W
+  properties:
+    chains: A=1-1280
+    method: EM
+    resolution: 3.50 A
+  type: PDB
+- id: 6C0V
+  type: PDBsum
+- id: 6FN1
+  type: PDBsum
+- id: 6FN4
+  type: PDBsum
+- id: 6QEX
+  type: PDBsum
+- id: 7A65
+  type: PDBsum
+- id: 7A69
+  type: PDBsum
+- id: 7A6C
+  type: PDBsum
+- id: 7A6E
+  type: PDBsum
+- id: 7A6F
+  type: PDBsum
+- id: 7O9W
+  type: PDBsum
+- id: P08183
+  type: AlphaFoldDB
+- id: EMD-11666
+  type: EMDB
+- id: EMD-11667
+  type: EMDB
+- id: EMD-11670
+  type: EMDB
+- id: EMD-11671
+  type: EMDB
+- id: EMD-11672
+  type: EMDB
+- id: EMD-12765
+  type: EMDB
+- id: EMD-29511
+  type: EMDB
+- id: EMD-3421
+  type: EMDB
+- id: EMD-3422
+  type: EMDB
+- id: EMD-3423
+  type: EMDB
+- id: EMD-3424
+  type: EMDB
+- id: EMD-3425
+  type: EMDB
+- id: EMD-3426
+  type: EMDB
+- id: EMD-3427
+  type: EMDB
+- id: EMD-3428
+  type: EMDB
+- id: EMD-3429
+  type: EMDB
+- id: EMD-3430
+  type: EMDB
+- id: EMD-4281
+  type: EMDB
+- id: EMD-4282
+  type: EMDB
+- id: EMD-4539
+  type: EMDB
+- id: EMD-7325
+  type: EMDB
+- id: P08183
+  type: SMR
+- id: '111262'
+  properties:
+    interactions: '43'
+  type: BioGRID
+- id: P08183
+  type: CORUM
+- id: P08183
+  properties:
+    interactions: '10'
+  type: IntAct
+- id: P08183
+  type: MINT
+- id: 9606.ENSP00000478255
+  type: STRING
+- id: P08183
+  type: BindingDB
+- id: CHEMBL4302
+  type: ChEMBL
+- id: DB12001
+  properties:
+    generic name: Abemaciclib
+  type: DrugBank
+- id: DB14973
+  properties:
+    generic name: Abrocitinib
+  type: DrugBank
+- id: DB01193
+  properties:
+    generic name: Acebutolol
+  type: DrugBank
+- id: DB01418
+  properties:
+    generic name: Acenocoumarol
+  type: DrugBank
+- id: DB00316
+  properties:
+    generic name: Acetaminophen
+  type: DrugBank
+- id: DB00945
+  properties:
+    generic name: Acetylsalicylic acid
+  type: DrugBank
+- id: DB15568
+  properties:
+    generic name: Adagrasib
+  type: DrugBank
+- id: DB08916
+  properties:
+    generic name: Afatinib
+  type: DrugBank
+- id: DB00518
+  properties:
+    generic name: Albendazole
+  type: DrugBank
+- id: DB04630
+  properties:
+    generic name: Aldosterone
+  type: DrugBank
+- id: DB11363
+  properties:
+    generic name: Alectinib
+  type: DrugBank
+- id: DB00802
+  properties:
+    generic name: Alfentanil
+  type: DrugBank
+- id: DB00346
+  properties:
+    generic name: Alfuzosin
+  type: DrugBank
+- id: DB09026
+  properties:
+    generic name: Aliskiren
+  type: DrugBank
+- id: DB00523
+  properties:
+    generic name: Alitretinoin
+  type: DrugBank
+- id: DB12015
+  properties:
+    generic name: Alpelisib
+  type: DrugBank
+- id: DB14003
+  properties:
+    generic name: alpha-Tocopherol acetate
+  type: DrugBank
+- id: DB06403
+  properties:
+    generic name: Ambrisentan
+  type: DrugBank
+- id: DB01118
+  properties:
+    generic name: Amiodarone
+  type: DrugBank
+- id: DB06288
+  properties:
+    generic name: Amisulpride
+  type: DrugBank
+- id: DB00321
+  properties:
+    generic name: Amitriptyline
+  type: DrugBank
+- id: DB00381
+  properties:
+    generic name: Amlodipine
+  type: DrugBank
+- id: DB00613
+  properties:
+    generic name: Amodiaquine
+  type: DrugBank
+- id: DB00701
+  properties:
+    generic name: Amprenavir
+  type: DrugBank
+- id: DB00276
+  properties:
+    generic name: Amsacrine
+  type: DrugBank
+- id: DB01217
+  properties:
+    generic name: Anastrozole
+  type: DrugBank
+- id: DB06420
+  properties:
+    generic name: Annamycin
+  type: DrugBank
+- id: DB11901
+  properties:
+    generic name: Apalutamide
+  type: DrugBank
+- id: DB06605
+  properties:
+    generic name: Apixaban
+  type: DrugBank
+- id: DB05676
+  properties:
+    generic name: Apremilast
+  type: DrugBank
+- id: DB01169
+  properties:
+    generic name: Arsenic trioxide
+  type: DrugBank
+- id: DB09274
+  properties:
+    generic name: Artesunate
+  type: DrugBank
+- id: DB12597
+  properties:
+    generic name: Asciminib
+  type: DrugBank
+- id: DB00637
+  properties:
+    generic name: Astemizole
+  type: DrugBank
+- id: DB11586
+  properties:
+    generic name: Asunaprevir
+  type: DrugBank
+- id: DB01072
+  properties:
+    generic name: Atazanavir
+  type: DrugBank
+- id: DB16098
+  properties:
+    generic name: Atogepant
+  type: DrugBank
+- id: DB01076
+  properties:
+    generic name: Atorvastatin
+  type: DrugBank
+- id: DB01117
+  properties:
+    generic name: Atovaquone
+  type: DrugBank
+- id: DB00171
+  properties:
+    generic name: ATP
+  type: DrugBank
+- id: DB15011
+  properties:
+    generic name: Avacopan
+  type: DrugBank
+- id: DB06237
+  properties:
+    generic name: Avanafil
+  type: DrugBank
+- id: DB15233
+  properties:
+    generic name: Avapritinib
+  type: DrugBank
+- id: DB11995
+  properties:
+    generic name: Avatrombopag
+  type: DrugBank
+- id: DB06626
+  properties:
+    generic name: Axitinib
+  type: DrugBank
+- id: DB00993
+  properties:
+    generic name: Azathioprine
+  type: DrugBank
+- id: DB00972
+  properties:
+    generic name: Azelastine
+  type: DrugBank
+- id: DB08822
+  properties:
+    generic name: Azilsartan medoxomil
+  type: DrugBank
+- id: DB00207
+  properties:
+    generic name: Azithromycin
+  type: DrugBank
+- id: DB16407
+  properties:
+    generic name: Azvudine
+  type: DrugBank
+- id: DB13997
+  properties:
+    generic name: Baloxavir marboxil
+  type: DrugBank
+- id: DB11817
+  properties:
+    generic name: Baricitinib
+  type: DrugBank
+- id: DB00394
+  properties:
+    generic name: Beclomethasone dipropionate
+  type: DrugBank
+- id: DB15719
+  properties:
+    generic name: Belantamab mafodotin
+  type: DrugBank
+- id: DB05015
+  properties:
+    generic name: Belinostat
+  type: DrugBank
+- id: DB16703
+  properties:
+    generic name: Belumosudil
+  type: DrugBank
+- id: DB15463
+  properties:
+    generic name: Belzutifan
+  type: DrugBank
+- id: DB01086
+  properties:
+    generic name: Benzocaine
+  type: DrugBank
+- id: DB01244
+  properties:
+    generic name: Bepridil
+  type: DrugBank
+- id: DB15982
+  properties:
+    generic name: Berotralstat
+  type: DrugBank
+- id: DB00443
+  properties:
+    generic name: Betamethasone
+  type: DrugBank
+- id: DB14669
+  properties:
+    generic name: Betamethasone phosphate
+  type: DrugBank
+- id: DB12364
+  properties:
+    generic name: Betrixaban
+  type: DrugBank
+- id: DB01128
+  properties:
+    generic name: Bicalutamide
+  type: DrugBank
+- id: DB04851
+  properties:
+    generic name: Biricodar
+  type: DrugBank
+- id: DB00612
+  properties:
+    generic name: Bisoprolol
+  type: DrugBank
+- id: DB08873
+  properties:
+    generic name: Boceprevir
+  type: DrugBank
+- id: DB00188
+  properties:
+    generic name: Bortezomib
+  type: DrugBank
+- id: DB06616
+  properties:
+    generic name: Bosutinib
+  type: DrugBank
+- id: DB01200
+  properties:
+    generic name: Bromocriptine
+  type: DrugBank
+- id: DB01222
+  properties:
+    generic name: Budesonide
+  type: DrugBank
+- id: DB00921
+  properties:
+    generic name: Buprenorphine
+  type: DrugBank
+- id: DB00490
+  properties:
+    generic name: Buspirone
+  type: DrugBank
+- id: DB06772
+  properties:
+    generic name: Cabazitaxel
+  type: DrugBank
+- id: DB00248
+  properties:
+    generic name: Cabergoline
+  type: DrugBank
+- id: DB11751
+  properties:
+    generic name: Cabotegravir
+  type: DrugBank
+- id: DB04690
+  properties:
+    generic name: Camptothecin
+  type: DrugBank
+- id: DB08907
+  properties:
+    generic name: Canagliflozin
+  type: DrugBank
+- id: DB13919
+  properties:
+    generic name: Candesartan
+  type: DrugBank
+- id: DB00796
+  properties:
+    generic name: Candesartan cilexetil
+  type: DrugBank
+- id: DB09061
+  properties:
+    generic name: Cannabidiol
+  type: DrugBank
+- id: DB14737
+  properties:
+    generic name: Cannabinol
+  type: DrugBank
+- id: DB11791
+  properties:
+    generic name: Capmatinib
+  type: DrugBank
+- id: DB01197
+  properties:
+    generic name: Captopril
+  type: DrugBank
+- id: DB00564
+  properties:
+    generic name: Carbamazepine
+  type: DrugBank
+- id: DB08889
+  properties:
+    generic name: Carfilzomib
+  type: DrugBank
+- id: DB06016
+  properties:
+    generic name: Cariprazine
+  type: DrugBank
+- id: DB01136
+  properties:
+    generic name: Carvedilol
+  type: DrugBank
+- id: DB00520
+  properties:
+    generic name: Caspofungin
+  type: DrugBank
+- id: DB01212
+  properties:
+    generic name: Ceftriaxone
+  type: DrugBank
+- id: DB00482
+  properties:
+    generic name: Celecoxib
+  type: DrugBank
+- id: DB09063
+  properties:
+    generic name: Ceritinib
+  type: DrugBank
+- id: DB00439
+  properties:
+    generic name: Cerivastatin
+  type: DrugBank
+- id: DB06419
+  properties:
+    generic name: Cethromycin
+  type: DrugBank
+- id: DB00341
+  properties:
+    generic name: Cetirizine
+  type: DrugBank
+- id: DB07565
+  properties:
+    generic name: Chloramphenicol succinate
+  type: DrugBank
+- id: DB00608
+  properties:
+    generic name: Chloroquine
+  type: DrugBank
+- id: DB00477
+  properties:
+    generic name: Chlorpromazine
+  type: DrugBank
+- id: DB01239
+  properties:
+    generic name: Chlorprothixene
+  type: DrugBank
+- id: DB04540
+  properties:
+    generic name: Cholesterol
+  type: DrugBank
+- id: DB02659
+  properties:
+    generic name: Cholic Acid
+  type: DrugBank
+- id: DB01340
+  properties:
+    generic name: Cilazapril
+  type: DrugBank
+- id: DB00501
+  properties:
+    generic name: Cimetidine
+  type: DrugBank
+- id: DB00537
+  properties:
+    generic name: Ciprofloxacin
+  type: DrugBank
+- id: DB00215
+  properties:
+    generic name: Citalopram
+  type: DrugBank
+- id: DB01211
+  properties:
+    generic name: Clarithromycin
+  type: DrugBank
+- id: DB01190
+  properties:
+    generic name: Clindamycin
+  type: DrugBank
+- id: DB00349
+  properties:
+    generic name: Clobazam
+  type: DrugBank
+- id: DB00845
+  properties:
+    generic name: Clofazimine
+  type: DrugBank
+- id: DB00882
+  properties:
+    generic name: Clomifene
+  type: DrugBank
+- id: DB01242
+  properties:
+    generic name: Clomipramine
+  type: DrugBank
+- id: DB00758
+  properties:
+    generic name: Clopidogrel
+  type: DrugBank
+- id: DB00257
+  properties:
+    generic name: Clotrimazole
+  type: DrugBank
+- id: DB00363
+  properties:
+    generic name: Clozapine
+  type: DrugBank
+- id: DB09065
+  properties:
+    generic name: Cobicistat
+  type: DrugBank
+- id: DB05239
+  properties:
+    generic name: Cobimetinib
+  type: DrugBank
+- id: DB01394
+  properties:
+    generic name: Colchicine
+  type: DrugBank
+- id: DB02587
+  properties:
+    generic name: Colforsin
+  type: DrugBank
+- id: DB14062
+  properties:
+    generic name: Concanamycin A
+  type: DrugBank
+- id: DB00872
+  properties:
+    generic name: Conivaptan
+  type: DrugBank
+- id: DB00286
+  properties:
+    generic name: Conjugated estrogens
+  type: DrugBank
+- id: DB12483
+  properties:
+    generic name: Copanlisib
+  type: DrugBank
+- id: DB01380
+  properties:
+    generic name: Cortisone acetate
+  type: DrugBank
+- id: DB08865
+  properties:
+    generic name: Crizotinib
+  type: DrugBank
+- id: DB11672
+  properties:
+    generic name: Curcumin
+  type: DrugBank
+- id: DB14635
+  properties:
+    generic name: Curcumin sulfate
+  type: DrugBank
+- id: DB00091
+  properties:
+    generic name: Cyclosporine
+  type: DrugBank
+- id: DB06695
+  properties:
+    generic name: Dabigatran etexilate
+  type: DrugBank
+- id: DB08912
+  properties:
+    generic name: Dabrafenib
+  type: DrugBank
+- id: DB09102
+  properties:
+    generic name: Daclatasvir
+  type: DrugBank
+- id: DB11963
+  properties:
+    generic name: Dacomitinib
+  type: DrugBank
+- id: DB00970
+  properties:
+    generic name: Dactinomycin
+  type: DrugBank
+- id: DB06292
+  properties:
+    generic name: Dapagliflozin
+  type: DrugBank
+- id: DB00080
+  properties:
+    generic name: Daptomycin
+  type: DrugBank
+- id: DB12941
+  properties:
+    generic name: Darolutamide
+  type: DrugBank
+- id: DB01264
+  properties:
+    generic name: Darunavir
+  type: DrugBank
+- id: DB09183
+  properties:
+    generic name: Dasabuvir
+  type: DrugBank
+- id: DB01254
+  properties:
+    generic name: Dasatinib
+  type: DrugBank
+- id: DB00694
+  properties:
+    generic name: Daunorubicin
+  type: DrugBank
+- id: DB04840
+  properties:
+    generic name: Debrisoquine
+  type: DrugBank
+- id: DB01151
+  properties:
+    generic name: Desipramine
+  type: DrugBank
+- id: DB00967
+  properties:
+    generic name: Desloratadine
+  type: DrugBank
+- id: DB14071
+  properties:
+    generic name: Desmethylsertraline
+  type: DrugBank
+- id: DB16650
+  properties:
+    generic name: Deucravacitinib
+  type: DrugBank
+- id: DB01234
+  properties:
+    generic name: Dexamethasone
+  type: DrugBank
+- id: DB14649
+  properties:
+    generic name: Dexamethasone acetate
+  type: DrugBank
+- id: DB09213
+  properties:
+    generic name: Dexibuprofen
+  type: DrugBank
+- id: DB14068
+  properties:
+    generic name: Dexniguldipine
+  type: DrugBank
+- id: DB14063
+  properties:
+    generic name: Dexverapamil
+  type: DrugBank
+- id: DB00829
+  properties:
+    generic name: Diazepam
+  type: DrugBank
+- id: DB00586
+  properties:
+    generic name: Diclofenac
+  type: DrugBank
+- id: DB00255
+  properties:
+    generic name: Diethylstilbestrol
+  type: DrugBank
+- id: DB01396
+  properties:
+    generic name: Digitoxin
+  type: DrugBank
+- id: DB00390
+  properties:
+    generic name: Digoxin
+  type: DrugBank
+- id: DB00320
+  properties:
+    generic name: Dihydroergotamine
+  type: DrugBank
+- id: DB00343
+  properties:
+    generic name: Diltiazem
+  type: DrugBank
+- id: DB08995
+  properties:
+    generic name: Diosmin
+  type: DrugBank
+- id: DB00975
+  properties:
+    generic name: Dipyridamole
+  type: DrugBank
+- id: DB01248
+  properties:
+    generic name: Docetaxel
+  type: DrugBank
+- id: DB14067
+  properties:
+    generic name: Dofequidar
+  type: DrugBank
+- id: DB08930
+  properties:
+    generic name: Dolutegravir
+  type: DrugBank
+- id: DB01184
+  properties:
+    generic name: Domperidone
+  type: DrugBank
+- id: DB05928
+  properties:
+    generic name: Dovitinib
+  type: DrugBank
+- id: DB00590
+  properties:
+    generic name: Doxazosin
+  type: DrugBank
+- id: DB01142
+  properties:
+    generic name: Doxepin
+  type: DrugBank
+- id: DB00997
+  properties:
+    generic name: Doxorubicin
+  type: DrugBank
+- id: DB00470
+  properties:
+    generic name: Dronabinol
+  type: DrugBank
+- id: DB04855
+  properties:
+    generic name: Dronedarone
+  type: DrugBank
+- id: DB00476
+  properties:
+    generic name: Duloxetine
+  type: DrugBank
+- id: DB11952
+  properties:
+    generic name: Duvelisib
+  type: DrugBank
+- id: DB09075
+  properties:
+    generic name: Edoxaban
+  type: DrugBank
+- id: DB04881
+  properties:
+    generic name: Elacridar
+  type: DrugBank
+- id: DB11979
+  properties:
+    generic name: Elagolix
+  type: DrugBank
+- id: DB11574
+  properties:
+    generic name: Elbasvir
+  type: DrugBank
+- id: DB00216
+  properties:
+    generic name: Eletriptan
+  type: DrugBank
+- id: DB15444
+  properties:
+    generic name: Elexacaftor
+  type: DrugBank
+- id: DB09039
+  properties:
+    generic name: Eliglustat
+  type: DrugBank
+- id: DB14064
+  properties:
+    generic name: Emopamil
+  type: DrugBank
+- id: DB09038
+  properties:
+    generic name: Empagliflozin
+  type: DrugBank
+- id: DB00584
+  properties:
+    generic name: Enalapril
+  type: DrugBank
+- id: DB13874
+  properties:
+    generic name: Enasidenib
+  type: DrugBank
+- id: DB13007
+  properties:
+    generic name: Enfortumab vedotin
+  type: DrugBank
+- id: DB11986
+  properties:
+    generic name: Entrectinib
+  type: DrugBank
+- id: DB08899
+  properties:
+    generic name: Enzalutamide
+  type: DrugBank
+- id: DB00751
+  properties:
+    generic name: Epinastine
+  type: DrugBank
+- id: DB12147
+  properties:
+    generic name: Erdafitinib
+  type: DrugBank
+- id: DB01253
+  properties:
+    generic name: Ergometrine
+  type: DrugBank
+- id: DB00696
+  properties:
+    generic name: Ergotamine
+  type: DrugBank
+- id: DB00530
+  properties:
+    generic name: Erlotinib
+  type: DrugBank
+- id: DB11827
+  properties:
+    generic name: Ertugliflozin
+  type: DrugBank
+- id: DB00199
+  properties:
+    generic name: Erythromycin
+  type: DrugBank
+- id: DB01175
+  properties:
+    generic name: Escitalopram
+  type: DrugBank
+- id: DB00736
+  properties:
+    generic name: Esomeprazole
+  type: DrugBank
+- id: DB00783
+  properties:
+    generic name: Estradiol
+  type: DrugBank
+- id: DB13952
+  properties:
+    generic name: Estradiol acetate
+  type: DrugBank
+- id: DB13953
+  properties:
+    generic name: Estradiol benzoate
+  type: DrugBank
+- id: DB13954
+  properties:
+    generic name: Estradiol cypionate
+  type: DrugBank
+- id: DB13955
+  properties:
+    generic name: Estradiol dienanthate
+  type: DrugBank
+- id: DB13956
+  properties:
+    generic name: Estradiol valerate
+  type: DrugBank
+- id: DB01196
+  properties:
+    generic name: Estramustine
+  type: DrugBank
+- id: DB04573
+  properties:
+    generic name: Estriol
+  type: DrugBank
+- id: DB14641
+  properties:
+    generic name: Estriol tripropionate
+  type: DrugBank
+- id: DB00655
+  properties:
+    generic name: Estrone
+  type: DrugBank
+- id: DB00977
+  properties:
+    generic name: Ethinylestradiol
+  type: DrugBank
+- id: DB00773
+  properties:
+    generic name: Etoposide
+  type: DrugBank
+- id: DB06414
+  properties:
+    generic name: Etravirine
+  type: DrugBank
+- id: DB01590
+  properties:
+    generic name: Everolimus
+  type: DrugBank
+- id: DB00973
+  properties:
+    generic name: Ezetimibe
+  type: DrugBank
+- id: DB12466
+  properties:
+    generic name: Favipiravir
+  type: DrugBank
+- id: DB12500
+  properties:
+    generic name: Fedratinib
+  type: DrugBank
+- id: DB01023
+  properties:
+    generic name: Felodipine
+  type: DrugBank
+- id: DB00813
+  properties:
+    generic name: Fentanyl
+  type: DrugBank
+- id: DB06702
+  properties:
+    generic name: Fesoterodine
+  type: DrugBank
+- id: DB00950
+  properties:
+    generic name: Fexofenadine
+  type: DrugBank
+- id: DB08874
+  properties:
+    generic name: Fidaxomicin
+  type: DrugBank
+- id: DB14845
+  properties:
+    generic name: Filgotinib
+  type: DrugBank
+- id: DB08868
+  properties:
+    generic name: Fingolimod
+  type: DrugBank
+- id: DB01195
+  properties:
+    generic name: Flecainide
+  type: DrugBank
+- id: DB04908
+  properties:
+    generic name: Flibanserin
+  type: DrugBank
+- id: DB00196
+  properties:
+    generic name: Fluconazole
+  type: DrugBank
+- id: DB00472
+  properties:
+    generic name: Fluoxetine
+  type: DrugBank
+- id: DB00875
+  properties:
+    generic name: Flupentixol
+  type: DrugBank
+- id: DB00623
+  properties:
+    generic name: Fluphenazine
+  type: DrugBank
+- id: DB00690
+  properties:
+    generic name: Flurazepam
+  type: DrugBank
+- id: DB13867
+  properties:
+    generic name: Fluticasone
+  type: DrugBank
+- id: DB08906
+  properties:
+    generic name: Fluticasone furoate
+  type: DrugBank
+- id: DB00588
+  properties:
+    generic name: Fluticasone propionate
+  type: DrugBank
+- id: DB00176
+  properties:
+    generic name: Fluvoxamine
+  type: DrugBank
+- id: DB05449
+  properties:
+    generic name: FM-VP4
+  type: DrugBank
+- id: DB11796
+  properties:
+    generic name: Fostemsavir
+  type: DrugBank
+- id: DB15149
+  properties:
+    generic name: Futibatinib
+  type: DrugBank
+- id: DB00674
+  properties:
+    generic name: Galantamine
+  type: DrugBank
+- id: DB12923
+  properties:
+    generic name: Gallopamil
+  type: DrugBank
+- id: DB00317
+  properties:
+    generic name: Gefitinib
+  type: DrugBank
+- id: DB00441
+  properties:
+    generic name: Gemcitabine
+  type: DrugBank
+- id: DB01645
+  properties:
+    generic name: Genistein
+  type: DrugBank
+- id: DB12141
+  properties:
+    generic name: Gilteritinib
+  type: DrugBank
+- id: DB11978
+  properties:
+    generic name: Glasdegib
+  type: DrugBank
+- id: DB13879
+  properties:
+    generic name: Glecaprevir
+  type: DrugBank
+- id: DB01016
+  properties:
+    generic name: Glyburide
+  type: DrugBank
+- id: DB00027
+  properties:
+    generic name: Gramicidin D
+  type: DrugBank
+- id: DB12836
+  properties:
+    generic name: Grapiprant
+  type: DrugBank
+- id: DB11575
+  properties:
+    generic name: Grazoprevir
+  type: DrugBank
+- id: DB00365
+  properties:
+    generic name: Grepafloxacin
+  type: DrugBank
+- id: DB00502
+  properties:
+    generic name: Haloperidol
+  type: DrugBank
+- id: DB14070
+  properties:
+    generic name: HM-30181
+  type: DrugBank
+- id: DB14061
+  properties:
+    generic name: Hycanthone
+  type: DrugBank
+- id: DB00741
+  properties:
+    generic name: Hydrocortisone
+  type: DrugBank
+- id: DB14538
+  properties:
+    generic name: Hydrocortisone aceponate
+  type: DrugBank
+- id: DB14539
+  properties:
+    generic name: Hydrocortisone acetate
+  type: DrugBank
+- id: DB14540
+  properties:
+    generic name: Hydrocortisone butyrate
+  type: DrugBank
+- id: DB14541
+  properties:
+    generic name: Hydrocortisone cypionate
+  type: DrugBank
+- id: DB14542
+  properties:
+    generic name: Hydrocortisone phosphate
+  type: DrugBank
+- id: DB14543
+  properties:
+    generic name: Hydrocortisone probutate
+  type: DrugBank
+- id: DB14544
+  properties:
+    generic name: Hydrocortisone valerate
+  type: DrugBank
+- id: DB01611
+  properties:
+    generic name: Hydroxychloroquine
+  type: DrugBank
+- id: DB00557
+  properties:
+    generic name: Hydroxyzine
+  type: DrugBank
+- id: DB12471
+  properties:
+    generic name: Ibrexafungerp
+  type: DrugBank
+- id: DB01050
+  properties:
+    generic name: Ibuprofen
+  type: DrugBank
+- id: DB09054
+  properties:
+    generic name: Idelalisib
+  type: DrugBank
+- id: DB00619
+  properties:
+    generic name: Imatinib
+  type: DrugBank
+- id: DB00458
+  properties:
+    generic name: Imipramine
+  type: DrugBank
+- id: DB05039
+  properties:
+    generic name: Indacaterol
+  type: DrugBank
+- id: DB00224
+  properties:
+    generic name: Indinavir
+  type: DrugBank
+- id: DB00328
+  properties:
+    generic name: Indomethacin
+  type: DrugBank
+- id: DB11886
+  properties:
+    generic name: Infigratinib
+  type: DrugBank
+- id: DB05889
+  properties:
+    generic name: Inotuzumab ozogamicin
+  type: DrugBank
+- id: DB00762
+  properties:
+    generic name: Irinotecan
+  type: DrugBank
+- id: DB11633
+  properties:
+    generic name: Isavuconazole
+  type: DrugBank
+- id: DB06636
+  properties:
+    generic name: Isavuconazonium
+  type: DrugBank
+- id: DB11757
+  properties:
+    generic name: Istradefylline
+  type: DrugBank
+- id: DB01167
+  properties:
+    generic name: Itraconazole
+  type: DrugBank
+- id: DB08820
+  properties:
+    generic name: Ivacaftor
+  type: DrugBank
+- id: DB00602
+  properties:
+    generic name: Ivermectin
+  type: DrugBank
+- id: DB14568
+  properties:
+    generic name: Ivosidenib
+  type: DrugBank
+- id: DB04845
+  properties:
+    generic name: Ixabepilone
+  type: DrugBank
+- id: DB01587
+  properties:
+    generic name: Ketazolam
+  type: DrugBank
+- id: DB01026
+  properties:
+    generic name: Ketoconazole
+  type: DrugBank
+- id: DB00709
+  properties:
+    generic name: Lamivudine
+  type: DrugBank
+- id: DB00555
+  properties:
+    generic name: Lamotrigine
+  type: DrugBank
+- id: DB12799
+  properties:
+    generic name: Laniquidar
+  type: DrugBank
+- id: DB00448
+  properties:
+    generic name: Lansoprazole
+  type: DrugBank
+- id: DB01259
+  properties:
+    generic name: Lapatinib
+  type: DrugBank
+- id: DB14723
+  properties:
+    generic name: Larotrectinib
+  type: DrugBank
+- id: DB11732
+  properties:
+    generic name: Lasmiditan
+  type: DrugBank
+- id: DB09027
+  properties:
+    generic name: Ledipasvir
+  type: DrugBank
+- id: DB12825
+  properties:
+    generic name: Lefamulin
+  type: DrugBank
+- id: DB11951
+  properties:
+    generic name: Lemborexant
+  type: DrugBank
+- id: DB15673
+  properties:
+    generic name: Lenacapavir
+  type: DrugBank
+- id: DB00480
+  properties:
+    generic name: Lenalidomide
+  type: DrugBank
+- id: DB09078
+  properties:
+    generic name: Lenvatinib
+  type: DrugBank
+- id: DB12070
+  properties:
+    generic name: Letermovir
+  type: DrugBank
+- id: DB01006
+  properties:
+    generic name: Letrozole
+  type: DrugBank
+- id: DB09237
+  properties:
+    generic name: Levamlodipine
+  type: DrugBank
+- id: DB01202
+  properties:
+    generic name: Levetiracetam
+  type: DrugBank
+- id: DB01137
+  properties:
+    generic name: Levofloxacin
+  type: DrugBank
+- id: DB05667
+  properties:
+    generic name: Levoketoconazole
+  type: DrugBank
+- id: DB08918
+  properties:
+    generic name: Levomilnacipran
+  type: DrugBank
+- id: DB00451
+  properties:
+    generic name: Levothyroxine
+  type: DrugBank
+- id: DB00281
+  properties:
+    generic name: Lidocaine
+  type: DrugBank
+- id: DB08882
+  properties:
+    generic name: Linagliptin
+  type: DrugBank
+- id: DB00279
+  properties:
+    generic name: Liothyronine
+  type: DrugBank
+- id: DB01583
+  properties:
+    generic name: Liotrix
+  type: DrugBank
+- id: DB09198
+  properties:
+    generic name: Lobeglitazone
+  type: DrugBank
+- id: DB14065
+  properties:
+    generic name: Lomerizine
+  type: DrugBank
+- id: DB08827
+  properties:
+    generic name: Lomitapide
+  type: DrugBank
+- id: DB06448
+  properties:
+    generic name: Lonafarnib
+  type: DrugBank
+- id: DB16220
+  properties:
+    generic name: Lonapegsomatropin
+  type: DrugBank
+- id: DB16222
+  properties:
+    generic name: Loncastuximab tesirine
+  type: DrugBank
+- id: DB00836
+  properties:
+    generic name: Loperamide
+  type: DrugBank
+- id: DB01601
+  properties:
+    generic name: Lopinavir
+  type: DrugBank
+- id: DB00455
+  properties:
+    generic name: Loratadine
+  type: DrugBank
+- id: DB00678
+  properties:
+    generic name: Losartan
+  type: DrugBank
+- id: DB00227
+  properties:
+    generic name: Lovastatin
+  type: DrugBank
+- id: DB14146
+  properties:
+    generic name: Loxicodegol
+  type: DrugBank
+- id: DB09280
+  properties:
+    generic name: Lumacaftor
+  type: DrugBank
+- id: DB12674
+  properties:
+    generic name: Lurbinectedin
+  type: DrugBank
+- id: DB13125
+  properties:
+    generic name: Lusutrombopag
+  type: DrugBank
+- id: DB06234
+  properties:
+    generic name: Maribavir
+  type: DrugBank
+- id: DB14009
+  properties:
+    generic name: Medical Cannabis
+  type: DrugBank
+- id: DB00603
+  properties:
+    generic name: Medroxyprogesterone acetate
+  type: DrugBank
+- id: DB00253
+  properties:
+    generic name: Medrysone
+  type: DrugBank
+- id: DB00358
+  properties:
+    generic name: Mefloquine
+  type: DrugBank
+- id: DB00351
+  properties:
+    generic name: Megestrol acetate
+  type: DrugBank
+- id: DB00454
+  properties:
+    generic name: Meperidine
+  type: DrugBank
+- id: DB00333
+  properties:
+    generic name: Methadone
+  type: DrugBank
+- id: DB00563
+  properties:
+    generic name: Methotrexate
+  type: DrugBank
+- id: DB09241
+  properties:
+    generic name: Methylene blue
+  type: DrugBank
+- id: DB00959
+  properties:
+    generic name: Methylprednisolone
+  type: DrugBank
+- id: DB01233
+  properties:
+    generic name: Metoclopramide
+  type: DrugBank
+- id: DB00916
+  properties:
+    generic name: Metronidazole
+  type: DrugBank
+- id: DB01388
+  properties:
+    generic name: Mibefradil
+  type: DrugBank
+- id: DB01110
+  properties:
+    generic name: Miconazole
+  type: DrugBank
+- id: DB00834
+  properties:
+    generic name: Mifepristone
+  type: DrugBank
+- id: DB09031
+  properties:
+    generic name: Miltefosine
+  type: DrugBank
+- id: DB08893
+  properties:
+    generic name: Mirabegron
+  type: DrugBank
+- id: DB12489
+  properties:
+    generic name: Mirvetuximab soravtansine
+  type: DrugBank
+- id: DB16236
+  properties:
+    generic name: Mitapivat
+  type: DrugBank
+- id: DB00648
+  properties:
+    generic name: Mitotane
+  type: DrugBank
+- id: DB01204
+  properties:
+    generic name: Mitoxantrone
+  type: DrugBank
+- id: DB16390
+  properties:
+    generic name: Mobocertinib
+  type: DrugBank
+- id: DB11430
+  properties:
+    generic name: Monensin
+  type: DrugBank
+- id: DB00295
+  properties:
+    generic name: Morphine
+  type: DrugBank
+- id: DB00688
+  properties:
+    generic name: Mycophenolate mofetil
+  type: DrugBank
+- id: DB01203
+  properties:
+    generic name: Nadolol
+  type: DrugBank
+- id: DB01183
+  properties:
+    generic name: Naloxone
+  type: DrugBank
+- id: DB00788
+  properties:
+    generic name: Naproxen
+  type: DrugBank
+- id: DB03467
+  properties:
+    generic name: Naringenin
+  type: DrugBank
+- id: DB01149
+  properties:
+    generic name: Nefazodone
+  type: DrugBank
+- id: DB00220
+  properties:
+    generic name: Nelfinavir
+  type: DrugBank
+- id: DB11828
+  properties:
+    generic name: Neratinib
+  type: DrugBank
+- id: DB09048
+  properties:
+    generic name: Netupitant
+  type: DrugBank
+- id: DB00622
+  properties:
+    generic name: Nicardipine
+  type: DrugBank
+- id: DB01115
+  properties:
+    generic name: Nifedipine
+  type: DrugBank
+- id: DB09239
+  properties:
+    generic name: Niguldipine
+  type: DrugBank
+- id: DB04868
+  properties:
+    generic name: Nilotinib
+  type: DrugBank
+- id: DB09079
+  properties:
+    generic name: Nintedanib
+  type: DrugBank
+- id: DB11793
+  properties:
+    generic name: Niraparib
+  type: DrugBank
+- id: DB16691
+  properties:
+    generic name: Nirmatrelvir
+  type: DrugBank
+- id: DB00401
+  properties:
+    generic name: Nisoldipine
+  type: DrugBank
+- id: DB01054
+  properties:
+    generic name: Nitrendipine
+  type: DrugBank
+- id: DB00698
+  properties:
+    generic name: Nitrofurantoin
+  type: DrugBank
+- id: DB00585
+  properties:
+    generic name: Nizatidine
+  type: DrugBank
+- id: DB00717
+  properties:
+    generic name: Norethisterone
+  type: DrugBank
+- id: DB00957
+  properties:
+    generic name: Norgestimate
+  type: DrugBank
+- id: DB00540
+  properties:
+    generic name: Nortriptyline
+  type: DrugBank
+- id: DB00104
+  properties:
+    generic name: Octreotide
+  type: DrugBank
+- id: DB06670
+  properties:
+    generic name: Odanacatib
+  type: DrugBank
+- id: DB16261
+  properties:
+    generic name: Odevixibat
+  type: DrugBank
+- id: DB00334
+  properties:
+    generic name: Olanzapine
+  type: DrugBank
+- id: DB09074
+  properties:
+    generic name: Olaparib
+  type: DrugBank
+- id: DB00768
+  properties:
+    generic name: Olopatadine
+  type: DrugBank
+- id: DB16267
+  properties:
+    generic name: Olutasidenib
+  type: DrugBank
+- id: DB12455
+  properties:
+    generic name: Omadacycline
+  type: DrugBank
+- id: DB09296
+  properties:
+    generic name: Ombitasvir
+  type: DrugBank
+- id: DB00338
+  properties:
+    generic name: Omeprazole
+  type: DrugBank
+- id: DB14069
+  properties:
+    generic name: ONT-093
+  type: DrugBank
+- id: DB11632
+  properties:
+    generic name: Opicapone
+  type: DrugBank
+- id: DB09330
+  properties:
+    generic name: Osimertinib
+  type: DrugBank
+- id: DB00776
+  properties:
+    generic name: Oxcarbazepine
+  type: DrugBank
+- id: DB12612
+  properties:
+    generic name: Ozanimod
+  type: DrugBank
+- id: DB01229
+  properties:
+    generic name: Paclitaxel
+  type: DrugBank
+- id: DB11697
+  properties:
+    generic name: Pacritinib
+  type: DrugBank
+- id: DB09073
+  properties:
+    generic name: Palbociclib
+  type: DrugBank
+- id: DB01267
+  properties:
+    generic name: Paliperidone
+  type: DrugBank
+- id: DB06603
+  properties:
+    generic name: Panobinostat
+  type: DrugBank
+- id: DB00213
+  properties:
+    generic name: Pantoprazole
+  type: DrugBank
+- id: DB09297
+  properties:
+    generic name: Paritaprevir
+  type: DrugBank
+- id: DB00715
+  properties:
+    generic name: Paroxetine
+  type: DrugBank
+- id: DB06589
+  properties:
+    generic name: Pazopanib
+  type: DrugBank
+- id: DB15102
+  properties:
+    generic name: Pemigatinib
+  type: DrugBank
+- id: DB00652
+  properties:
+    generic name: Pentazocine
+  type: DrugBank
+- id: DB01174
+  properties:
+    generic name: Phenobarbital
+  type: DrugBank
+- id: DB00252
+  properties:
+    generic name: Phenytoin
+  type: DrugBank
+- id: DB13878
+  properties:
+    generic name: Pibrentasvir
+  type: DrugBank
+- id: DB01100
+  properties:
+    generic name: Pimozide
+  type: DrugBank
+- id: DB12582
+  properties:
+    generic name: Piperine
+  type: DrugBank
+- id: DB04951
+  properties:
+    generic name: Pirfenidone
+  type: DrugBank
+- id: DB08860
+  properties:
+    generic name: Pitavastatin
+  type: DrugBank
+- id: DB02261
+  properties:
+    generic name: Platelet Activating Factor
+  type: DrugBank
+- id: DB12240
+  properties:
+    generic name: Polatuzumab vedotin
+  type: DrugBank
+- id: DB09287
+  properties:
+    generic name: Polyethylene glycol
+  type: DrugBank
+- id: DB11077
+  properties:
+    generic name: Polyethylene glycol 400
+  type: DrugBank
+- id: DB08910
+  properties:
+    generic name: Pomalidomide
+  type: DrugBank
+- id: DB08901
+  properties:
+    generic name: Ponatinib
+  type: DrugBank
+- id: DB01263
+  properties:
+    generic name: Posaconazole
+  type: DrugBank
+- id: DB15822
+  properties:
+    generic name: Pralsetinib
+  type: DrugBank
+- id: DB00175
+  properties:
+    generic name: Pravastatin
+  type: DrugBank
+- id: DB00457
+  properties:
+    generic name: Prazosin
+  type: DrugBank
+- id: DB00860
+  properties:
+    generic name: Prednisolone
+  type: DrugBank
+- id: DB15566
+  properties:
+    generic name: Prednisolone acetate
+  type: DrugBank
+- id: DB14631
+  properties:
+    generic name: Prednisolone phosphate
+  type: DrugBank
+- id: DB00635
+  properties:
+    generic name: Prednisone
+  type: DrugBank
+- id: DB01087
+  properties:
+    generic name: Primaquine
+  type: DrugBank
+- id: DB00396
+  properties:
+    generic name: Progesterone
+  type: DrugBank
+- id: DB01069
+  properties:
+    generic name: Promethazine
+  type: DrugBank
+- id: DB01182
+  properties:
+    generic name: Propafenone
+  type: DrugBank
+- id: DB00818
+  properties:
+    generic name: Propofol
+  type: DrugBank
+- id: DB00571
+  properties:
+    generic name: Propranolol
+  type: DrugBank
+- id: DB00344
+  properties:
+    generic name: Protriptyline
+  type: DrugBank
+- id: DB06480
+  properties:
+    generic name: Prucalopride
+  type: DrugBank
+- id: DB04216
+  properties:
+    generic name: Quercetin
+  type: DrugBank
+- id: DB01224
+  properties:
+    generic name: Quetiapine
+  type: DrugBank
+- id: DB01103
+  properties:
+    generic name: Quinacrine
+  type: DrugBank
+- id: DB00908
+  properties:
+    generic name: Quinidine
+  type: DrugBank
+- id: DB00468
+  properties:
+    generic name: Quinine
+  type: DrugBank
+- id: DB00481
+  properties:
+    generic name: Raloxifene
+  type: DrugBank
+- id: DB00863
+  properties:
+    generic name: Ranitidine
+  type: DrugBank
+- id: DB00243
+  properties:
+    generic name: Ranolazine
+  type: DrugBank
+- id: DB00234
+  properties:
+    generic name: Reboxetine
+  type: DrugBank
+- id: DB08896
+  properties:
+    generic name: Regorafenib
+  type: DrugBank
+- id: DB11853
+  properties:
+    generic name: Relugolix
+  type: DrugBank
+- id: DB14761
+  properties:
+    generic name: Remdesivir
+  type: DrugBank
+- id: DB00206
+  properties:
+    generic name: Reserpine
+  type: DrugBank
+- id: DB11855
+  properties:
+    generic name: Revefenacin
+  type: DrugBank
+- id: DB14072
+  properties:
+    generic name: Reversin 121
+  type: DrugBank
+- id: DB03825
+  properties:
+    generic name: Rhodamine 6G
+  type: DrugBank
+- id: DB00615
+  properties:
+    generic name: Rifabutin
+  type: DrugBank
+- id: DB01045
+  properties:
+    generic name: Rifampicin
+  type: DrugBank
+- id: DB11753
+  properties:
+    generic name: Rifamycin
+  type: DrugBank
+- id: DB08864
+  properties:
+    generic name: Rilpivirine
+  type: DrugBank
+- id: DB12457
+  properties:
+    generic name: Rimegepant
+  type: DrugBank
+- id: DB08931
+  properties:
+    generic name: Riociguat
+  type: DrugBank
+- id: DB14840
+  properties:
+    generic name: Ripretinib
+  type: DrugBank
+- id: DB15305
+  properties:
+    generic name: Risdiplam
+  type: DrugBank
+- id: DB00734
+  properties:
+    generic name: Risperidone
+  type: DrugBank
+- id: DB00503
+  properties:
+    generic name: Ritonavir
+  type: DrugBank
+- id: DB06228
+  properties:
+    generic name: Rivaroxaban
+  type: DrugBank
+- id: DB09291
+  properties:
+    generic name: Rolapitant
+  type: DrugBank
+- id: DB06176
+  properties:
+    generic name: Romidepsin
+  type: DrugBank
+- id: DB00778
+  properties:
+    generic name: Roxithromycin
+  type: DrugBank
+- id: DB12332
+  properties:
+    generic name: Rucaparib
+  type: DrugBank
+- id: DB11544
+  properties:
+    generic name: Salinomycin
+  type: DrugBank
+- id: DB00360
+  properties:
+    generic name: Sapropterin
+  type: DrugBank
+- id: DB01232
+  properties:
+    generic name: Saquinavir
+  type: DrugBank
+- id: DB12541
+  properties:
+    generic name: SAR-405838
+  type: DrugBank
+- id: DB12035
+  properties:
+    generic name: Sarecycline
+  type: DrugBank
+- id: DB01037
+  properties:
+    generic name: Selegiline
+  type: DrugBank
+- id: DB11362
+  properties:
+    generic name: Selexipag
+  type: DrugBank
+- id: DB15685
+  properties:
+    generic name: Selpercatinib
+  type: DrugBank
+- id: DB11689
+  properties:
+    generic name: Selumetinib
+  type: DrugBank
+- id: DB01104
+  properties:
+    generic name: Sertraline
+  type: DrugBank
+- id: DB00203
+  properties:
+    generic name: Sildenafil
+  type: DrugBank
+- id: DB06207
+  properties:
+    generic name: Silodosin
+  type: DrugBank
+- id: DB06290
+  properties:
+    generic name: Simeprevir
+  type: DrugBank
+- id: DB00641
+  properties:
+    generic name: Simvastatin
+  type: DrugBank
+- id: DB00877
+  properties:
+    generic name: Sirolimus
+  type: DrugBank
+- id: DB01261
+  properties:
+    generic name: Sitagliptin
+  type: DrugBank
+- id: DB08934
+  properties:
+    generic name: Sofosbuvir
+  type: DrugBank
+- id: DB09099
+  properties:
+    generic name: Somatostatin
+  type: DrugBank
+- id: DB00052
+  properties:
+    generic name: Somatotropin
+  type: DrugBank
+- id: DB00398
+  properties:
+    generic name: Sorafenib
+  type: DrugBank
+- id: DB12713
+  properties:
+    generic name: Sotagliflozin
+  type: DrugBank
+- id: DB15569
+  properties:
+    generic name: Sotorasib
+  type: DrugBank
+- id: DB01208
+  properties:
+    generic name: Sparfloxacin
+  type: DrugBank
+- id: DB03203
+  properties:
+    generic name: Sphingosine
+  type: DrugBank
+- id: DB00421
+  properties:
+    generic name: Spironolactone
+  type: DrugBank
+- id: DB01323
+  properties:
+    generic name: St. John's Wort
+  type: DrugBank
+- id: DB02901
+  properties:
+    generic name: Stanolone
+  type: DrugBank
+- id: DB13951
+  properties:
+    generic name: Stanolone acetate
+  type: DrugBank
+- id: DB02010
+  properties:
+    generic name: Staurosporine
+  type: DrugBank
+- id: DB09118
+  properties:
+    generic name: Stiripentol
+  type: DrugBank
+- id: DB00428
+  properties:
+    generic name: Streptozocin
+  type: DrugBank
+- id: DB00391
+  properties:
+    generic name: Sulpiride
+  type: DrugBank
+- id: DB00669
+  properties:
+    generic name: Sumatriptan
+  type: DrugBank
+- id: DB01268
+  properties:
+    generic name: Sunitinib
+  type: DrugBank
+- id: DB09034
+  properties:
+    generic name: Suvorexant
+  type: DrugBank
+- id: DB00382
+  properties:
+    generic name: Tacrine
+  type: DrugBank
+- id: DB00864
+  properties:
+    generic name: Tacrolimus
+  type: DrugBank
+- id: DB11760
+  properties:
+    generic name: Talazoparib
+  type: DrugBank
+- id: DB11770
+  properties:
+    generic name: Talinolol
+  type: DrugBank
+- id: DB00675
+  properties:
+    generic name: Tamoxifen
+  type: DrugBank
+- id: DB06240
+  properties:
+    generic name: Tariquidar
+  type: DrugBank
+- id: DB04348
+  properties:
+    generic name: Taurocholic acid
+  type: DrugBank
+- id: DB12887
+  properties:
+    generic name: Tazemetostat
+  type: DrugBank
+- id: DB09161
+  properties:
+    generic name: Technetium Tc-99m sestamibi
+  type: DrugBank
+- id: DB09160
+  properties:
+    generic name: Technetium Tc-99m tetrofosmin
+  type: DrugBank
+- id: DB01079
+  properties:
+    generic name: Tegaserod
+  type: DrugBank
+- id: DB05521
+  properties:
+    generic name: Telaprevir
+  type: DrugBank
+- id: DB00966
+  properties:
+    generic name: Telmisartan
+  type: DrugBank
+- id: DB12095
+  properties:
+    generic name: Telotristat ethyl
+  type: DrugBank
+- id: DB00853
+  properties:
+    generic name: Temozolomide
+  type: DrugBank
+- id: DB06287
+  properties:
+    generic name: Temsirolimus
+  type: DrugBank
+- id: DB14126
+  properties:
+    generic name: Tenofovir
+  type: DrugBank
+- id: DB09299
+  properties:
+    generic name: Tenofovir alafenamide
+  type: DrugBank
+- id: DB00300
+  properties:
+    generic name: Tenofovir disoproxil
+  type: DrugBank
+- id: DB15133
+  properties:
+    generic name: Tepotinib
+  type: DrugBank
+- id: DB01162
+  properties:
+    generic name: Terazosin
+  type: DrugBank
+- id: DB00342
+  properties:
+    generic name: Terfenadine
+  type: DrugBank
+- id: DB04905
+  properties:
+    generic name: Tesmilifene
+  type: DrugBank
+- id: DB13943
+  properties:
+    generic name: Testosterone cypionate
+  type: DrugBank
+- id: DB13944
+  properties:
+    generic name: Testosterone enanthate
+  type: DrugBank
+- id: DB01420
+  properties:
+    generic name: Testosterone propionate
+  type: DrugBank
+- id: DB13946
+  properties:
+    generic name: Testosterone undecanoate
+  type: DrugBank
+- id: DB14066
+  properties:
+    generic name: Tetrandrine
+  type: DrugBank
+- id: DB11712
+  properties:
+    generic name: Tezacaftor
+  type: DrugBank
+- id: DB08816
+  properties:
+    generic name: Ticagrelor
+  type: DrugBank
+- id: DB00373
+  properties:
+    generic name: Timolol
+  type: DrugBank
+- id: DB04960
+  properties:
+    generic name: Tipifarnib
+  type: DrugBank
+- id: DB00932
+  properties:
+    generic name: Tipranavir
+  type: DrugBank
+- id: DB16732
+  properties:
+    generic name: Tisotumab vedotin
+  type: DrugBank
+- id: DB11800
+  properties:
+    generic name: Tivozanib
+  type: DrugBank
+- id: DB11635
+  properties:
+    generic name: Tocofersolan
+  type: DrugBank
+- id: DB11251
+  properties:
+    generic name: Tocopherol
+  type: DrugBank
+- id: DB06212
+  properties:
+    generic name: Tolvaptan
+  type: DrugBank
+- id: DB00273
+  properties:
+    generic name: Topiramate
+  type: DrugBank
+- id: DB01030
+  properties:
+    generic name: Topotecan
+  type: DrugBank
+- id: DB00539
+  properties:
+    generic name: Toremifene
+  type: DrugBank
+- id: DB14962
+  properties:
+    generic name: Trastuzumab deruxtecan
+  type: DrugBank
+- id: DB05773
+  properties:
+    generic name: Trastuzumab emtansine
+  type: DrugBank
+- id: DB00656
+  properties:
+    generic name: Trazodone
+  type: DrugBank
+- id: DB00831
+  properties:
+    generic name: Trifluoperazine
+  type: DrugBank
+- id: DB00508
+  properties:
+    generic name: Triflupromazine
+  type: DrugBank
+- id: DB15442
+  properties:
+    generic name: Trilaciclib
+  type: DrugBank
+- id: DB00440
+  properties:
+    generic name: Trimethoprim
+  type: DrugBank
+- id: DB00726
+  properties:
+    generic name: Trimipramine
+  type: DrugBank
+- id: DB13179
+  properties:
+    generic name: Troleandomycin
+  type: DrugBank
+- id: DB11652
+  properties:
+    generic name: Tucatinib
+  type: DrugBank
+- id: DB09270
+  properties:
+    generic name: Ubidecarenone
+  type: DrugBank
+- id: DB15328
+  properties:
+    generic name: Ubrogepant
+  type: DrugBank
+- id: DB14989
+  properties:
+    generic name: Umbralisib
+  type: DrugBank
+- id: DB09076
+  properties:
+    generic name: Umeclidinium
+  type: DrugBank
+- id: DB15091
+  properties:
+    generic name: Upadacitinib
+  type: DrugBank
+- id: DB14057
+  properties:
+    generic name: Valinomycin
+  type: DrugBank
+- id: DB11869
+  properties:
+    generic name: Valspodar
+  type: DrugBank
+- id: DB05294
+  properties:
+    generic name: Vandetanib
+  type: DrugBank
+- id: DB00862
+  properties:
+    generic name: Vardenafil
+  type: DrugBank
+- id: DB01339
+  properties:
+    generic name: Vecuronium
+  type: DrugBank
+- id: DB11613
+  properties:
+    generic name: Velpatasvir
+  type: DrugBank
+- id: DB08881
+  properties:
+    generic name: Vemurafenib
+  type: DrugBank
+- id: DB11581
+  properties:
+    generic name: Venetoclax
+  type: DrugBank
+- id: DB00285
+  properties:
+    generic name: Venlafaxine
+  type: DrugBank
+- id: DB00661
+  properties:
+    generic name: Verapamil
+  type: DrugBank
+- id: DB15456
+  properties:
+    generic name: Vericiguat
+  type: DrugBank
+- id: DB14895
+  properties:
+    generic name: Vibegron
+  type: DrugBank
+- id: DB04876
+  properties:
+    generic name: Vildagliptin
+  type: DrugBank
+- id: DB00570
+  properties:
+    generic name: Vinblastine
+  type: DrugBank
+- id: DB00541
+  properties:
+    generic name: Vincristine
+  type: DrugBank
+- id: DB11641
+  properties:
+    generic name: Vinflunine
+  type: DrugBank
+- id: DB08828
+  properties:
+    generic name: Vismodegib
+  type: DrugBank
+- id: DB04877
+  properties:
+    generic name: Voacamine
+  type: DrugBank
+- id: DB11693
+  properties:
+    generic name: Voclosporin
+  type: DrugBank
+- id: DB11739
+  properties:
+    generic name: Vonoprazan
+  type: DrugBank
+- id: DB09030
+  properties:
+    generic name: Vorapaxar
+  type: DrugBank
+- id: DB12026
+  properties:
+    generic name: Voxilaprevir
+  type: DrugBank
+- id: DB15035
+  properties:
+    generic name: Zanubrutinib
+  type: DrugBank
+- id: DB00495
+  properties:
+    generic name: Zidovudine
+  type: DrugBank
+- id: DB04832
+  properties:
+    generic name: Zimelidine
+  type: DrugBank
+- id: DB00246
+  properties:
+    generic name: Ziprasidone
+  type: DrugBank
+- id: DB00315
+  properties:
+    generic name: Zolmitriptan
+  type: DrugBank
+- id: DB00909
+  properties:
+    generic name: Zonisamide
+  type: DrugBank
+- id: DB06191
+  properties:
+    generic name: Zosuquidar
+  type: DrugBank
+- id: P08183
+  type: DrugCentral
+- id: '768'
+  type: GuidetoPHARMACOLOGY
+- id: SLP:000000385
+  type: SwissLipids
+- id: P08183
+  properties:
+    type: Curated
+  type: MoonDB
+- id: P08183
+  type: MoonProt
+- id: 3.A.1.201.1
+  properties:
+    family name: the atp-binding cassette (abc) superfamily
+  type: TCDB
+- id: P08183
+  properties:
+    glycosylation: 4 sites, 1 glycan
+  type: GlyCosmos
+- id: P08183
+  properties:
+    glycosylation: 4 sites, 1 O-linked glycan (1 site)
+  type: GlyGen
+- id: P08183
+  type: iPTMnet
+- id: P08183
+  type: PhosphoSitePlus
+- id: P08183
+  type: SwissPalm
+- id: ABCB1
+  type: BioMuta
+- id: '238054374'
+  type: DMDM
+- id: P08183
+  type: EPD
+- id: P08183
+  type: jPOST
+- id: P08183
+  type: MassIVE
+- id: P08183
+  type: MaxQB
+- id: 9606-ENSP00000478255
+  type: PaxDb
+- id: P08183
+  type: PeptideAtlas
+- id: '52080'
+  isoform: P08183-1
+  type: ProteomicsDB
+- id: '5934'
+  type: ProteomicsDB
+- id: P08183
+  type: Pumba
+- id: P08183
+  properties:
+    antibodies: 3 sequenced antibodies
+  type: ABCD
+- id: '3443'
+  properties:
+    antibodies: 1692 antibodies from 51 providers
+  type: Antibodypedia
+- id: P08183
+  properties:
+    antibodies: 6 antibodies
+  type: CPTC
+- id: '5243'
+  type: DNASU
+- id: ENST00000265724.8
+  isoform: P08183-1
+  properties:
+    gene ID: ENSG00000085563.15
+    protein sequence ID: ENSP00000265724.3
+  type: Ensembl
+- id: ENST00000543898.5
+  isoform: P08183-2
+  properties:
+    gene ID: ENSG00000085563.15
+    protein sequence ID: ENSP00000444095.1
+  type: Ensembl
+- id: ENST00000622132.5
+  isoform: P08183-1
+  properties:
+    gene ID: ENSG00000085563.15
+    protein sequence ID: ENSP00000478255.1
+  type: Ensembl
+- id: '5243'
+  type: GeneID
+- id: hsa:5243
+  type: KEGG
+- id: ENST00000622132.5
+  properties:
+    RefSeq nucleotide sequence ID: NM_001348946.2
+    RefSeq protein sequence ID: NP_001335875.1
+    protein sequence ID: ENSP00000478255.1
+  type: MANE-Select
+- id: uc003uiz.3
+  isoform: P08183-1
+  properties:
+    organism name: human
+  type: UCSC
+- id: HGNC:40
+  type: AGR
+- id: '5243'
+  type: CTD
+- id: '5243'
+  type: DisGeNET
+- id: ABCB1
+  type: GeneCards
+- id: HGNC:40
+  properties:
+    gene designation: ABCB1
+  type: HGNC
+- id: ENSG00000085563
+  properties:
+    expression patterns: Tissue enhanced (adrenal gland, intestine)
+  type: HPA
+- id: ABCB1
+  type: MalaCards
+- id: '171050'
+  properties:
+    type: gene
+  type: MIM
+- id: '612244'
+  properties:
+    type: phenotype
+  type: MIM
+- id: NX_P08183
+  type: neXtProt
+- id: ENSG00000085563
+  type: OpenTargets
+- id: '771'
+  properties:
+    disease: 'NON RARE IN EUROPE: Ulcerative colitis'
+  type: Orphanet
+- id: PA267
+  type: PharmGKB
+- id: HostDB:ENSG00000085563
+  type: VEuPathDB
+- id: KOG0055
+  properties:
+    taxonomic scope: Eukaryota
+  type: eggNOG
+- id: ENSGT00940000155287
+  type: GeneTree
+- id: CLU_000604_17_2_1
+  type: HOGENOM
+- id: P08183
+  type: InParanoid
+- id: RSDANFW
+  type: OMA
+- id: 5487044at2759
+  type: OrthoDB
+- id: P08183
+  type: PhylomeDB
+- id: TF105193
+  type: TreeFam
+- id: MetaCyc:HS01500-MONOMER
+  type: BioCyc
+- id: 7.6.2.2
+  properties:
+    organism ID: '2681'
+  type: BRENDA
+- id: 7.6.2.3
+  properties:
+    organism ID: '2681'
+  type: BRENDA
+- id: P08183
+  type: PathwayCommons
+- id: R-HSA-2161517
+  properties:
+    pathway name: Abacavir transmembrane transport
+  type: Reactome
+- id: R-HSA-382556
+  properties:
+    pathway name: ABC-family proteins mediated transport
+  type: Reactome
+- id: R-HSA-9754706
+  properties:
+    pathway name: Atorvastatin ADME
+  type: Reactome
+- id: R-HSA-9757110
+  properties:
+    pathway name: Prednisone ADME
+  type: Reactome
+- id: P08183
+  type: SignaLink
+- id: P08183
+  type: SIGNOR
+- id: '5243'
+  properties:
+    hits: 20 hits in 1159 CRISPR screens
+  type: BioGRID-ORCS
+- id: ABCB1
+  properties:
+    organism name: human
+  type: ChiTaRS
+- id: P-glycoprotein
+  type: GeneWiki
+- id: '5243'
+  type: GenomeRNAi
+- id: P08183
+  properties:
+    development level: Tchem
+  type: Pharos
+- id: PR:P08183
+  type: PRO
+- id: UP000005640
+  properties:
+    component: Chromosome 7
+  type: Proteomes
+- id: P08183
+  properties:
+    molecule type: Protein
+  type: RNAct
+- id: ENSG00000085563
+  properties:
+    expression patterns: Expressed in right adrenal gland and 156 other cell types
+      or tissues
+  type: Bgee
+- id: P08183
+  properties:
+    expression patterns: baseline and differential
+  type: ExpressionAtlas
+- id: P08183
+  properties:
+    organism ID: HS
+  type: Genevisible
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/28408210
+      id: '28408210'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/28408210
+  id: GO:0016324
+  properties:
+    source: IDA:UniProtKB
+    term: C:apical plasma membrane
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/19384922
+      id: '19384922'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/19384922
+  id: GO:0009986
+  properties:
+    source: IDA:DFLAT
+    term: C:cell surface
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/35970996
+      id: '35970996'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/35970996
+  id: GO:0005737
+  properties:
+    source: IDA:UniProtKB
+    term: C:cytoplasm
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/18619525
+      id: '18619525'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/18619525
+  id: GO:0098591
+  properties:
+    source: ISS:ARUK-UCL
+    term: C:external side of apical plasma membrane
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/19056867
+      id: '19056867'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/19056867
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/23533145
+      id: '23533145'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/23533145
+  id: GO:0070062
+  properties:
+    source: HDA:UniProtKB
+    term: C:extracellular exosome
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/26006083
+      id: '26006083'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/26006083
+  id: GO:0016020
+  properties:
+    source: IDA:ARUK-UCL
+    term: C:membrane
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/35970996
+      id: '35970996'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/35970996
+  id: GO:0005886
+  properties:
+    source: IDA:HPA
+    term: C:plasma membrane
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/26850595
+      id: '26850595'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/26850595
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/28757552
+      id: '28757552'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/28757552
+  id: GO:0008559
+  properties:
+    source: IDA:ARUK-UCL
+    term: F:ABC-type xenobiotic transporter activity
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/29371429
+      id: '29371429'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/29371429
+  id: GO:0005524
+  properties:
+    source: IDA:UniProtKB
+    term: F:ATP binding
+  type: GO
+- id: GO:0016887
+  properties:
+    source: IEA:InterPro
+    term: F:ATP hydrolysis activity
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/28757552
+      id: '28757552'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/28757552
+  id: GO:0042626
+  properties:
+    source: IDA:ARUK-UCL
+    term: F:ATPase-coupled transmembrane transporter activity
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/25986174
+      id: '25986174'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/25986174
+  id: GO:0046943
+  properties:
+    source: IMP:ARUK-UCL
+    term: F:carboxylic acid transmembrane transporter activity
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/8898203
+      id: '8898203'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/8898203
+  id: GO:0099038
+  properties:
+    source: IDA:BHF-UCL
+    term: F:ceramide floppase activity
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/26850595
+      id: '26850595'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/26850595
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/28587984
+      id: '28587984'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/28587984
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/28757552
+      id: '28757552'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/28757552
+  id: GO:0015562
+  properties:
+    source: IDA:ARUK-UCL
+    term: F:efflux transmembrane transporter activity
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/8898203
+      id: '8898203'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/8898203
+  id: GO:0140328
+  properties:
+    source: IMP:UniProtKB
+    term: F:floppase activity
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/8898203
+      id: '8898203'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/8898203
+  id: GO:0090554
+  properties:
+    source: IDA:BHF-UCL
+    term: F:phosphatidylcholine floppase activity
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/8898203
+      id: '8898203'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/8898203
+  id: GO:0090555
+  properties:
+    source: IDA:BHF-UCL
+    term: F:phosphatidylethanolamine flippase activity
+  type: GO
+- id: GO:0022857
+  properties:
+    source: ISS:ARUK-UCL
+    term: F:transmembrane transporter activity
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/26006083
+      id: '26006083'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/26006083
+  id: GO:0031625
+  properties:
+    source: IPI:ARUK-UCL
+    term: F:ubiquitin protein ligase binding
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/28587984
+      id: '28587984'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/28587984
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/28757552
+      id: '28757552'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/28757552
+  id: GO:0042910
+  properties:
+    source: IDA:ARUK-UCL
+    term: F:xenobiotic transmembrane transporter activity
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/25986174
+      id: '25986174'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/25986174
+  id: GO:1905039
+  properties:
+    source: IMP:ARUK-UCL
+    term: P:carboxylic acid transmembrane transport
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/8898203
+      id: '8898203'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/8898203
+  id: GO:0099040
+  properties:
+    source: IDA:BHF-UCL
+    term: P:ceramide translocation
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/28587984
+      id: '28587984'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/28587984
+  id: GO:0140115
+  properties:
+    source: IDA:ARUK-UCL
+    term: P:export across plasma membrane
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/19384922
+      id: '19384922'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/19384922
+  id: GO:0000086
+  properties:
+    source: IDA:DFLAT
+    term: P:G2/M transition of mitotic cell cycle
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/8898203
+      id: '8898203'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/8898203
+  id: GO:0045332
+  properties:
+    source: IDA:BHF-UCL
+    term: P:phospholipid translocation
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/7828597
+      id: '7828597'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/7828597
+  id: GO:1901529
+  properties:
+    source: IMP:CAFA
+    term: P:positive regulation of anion channel activity
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/7828597
+      id: '7828597'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/7828597
+  id: GO:2001225
+  properties:
+    source: IMP:CAFA
+    term: P:regulation of chloride transport
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/7828597
+      id: '7828597'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/7828597
+  id: GO:0047484
+  properties:
+    source: IMP:CAFA
+    term: P:regulation of response to osmotic stress
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/3022150
+      id: '3022150'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/3022150
+  id: GO:0009410
+  properties:
+    source: TAS:ProtInc
+    term: P:response to xenobiotic stimulus
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/19384922
+      id: '19384922'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/19384922
+  id: GO:0072089
+  properties:
+    source: IMP:DFLAT
+    term: P:stem cell proliferation
+  type: GO
+- id: GO:0046865
+  properties:
+    source: ISS:ARUK-UCL
+    term: P:terpenoid transport
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/28757552
+      id: '28757552'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/28757552
+  id: GO:0070633
+  properties:
+    source: IDA:ARUK-UCL
+    term: P:transepithelial transport
+  type: GO
+- id: GO:0055085
+  properties:
+    source: TAS:Reactome
+    term: P:transmembrane transport
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/26590417
+      id: '26590417'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/26590417
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/30280653
+      id: '30280653'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/30280653
+  id: GO:0150104
+  properties:
+    source: NAS:ARUK-UCL
+    term: P:transport across blood-brain barrier
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/26850595
+      id: '26850595'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/26850595
+  id: GO:1990961
+  properties:
+    source: IDA:ARUK-UCL
+    term: P:xenobiotic detoxification by transmembrane export across the plasma membrane
+  type: GO
+- id: GO:0006805
+  properties:
+    source: TAS:Reactome
+    term: P:xenobiotic metabolic process
+  type: GO
+- evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/25986174
+      id: '25986174'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/25986174
+  id: GO:1990962
+  properties:
+    source: IMP:ARUK-UCL
+    term: P:xenobiotic transport across blood-brain barrier
+  type: GO
+- id: cd18558
+  properties:
+    entry name: ABC_6TM_Pgp_ABCB1
+    match status: '1'
+  type: CDD
+- id: cd18578
+  properties:
+    entry name: ABC_6TM_Pgp_ABCB1_D2_like
+    match status: '1'
+  type: CDD
+- id: cd03249
+  properties:
+    entry name: ABC_MTABC3_MDL1_MDL2
+    match status: '2'
+  type: CDD
+- id: 1.20.1560.10
+  properties:
+    entry name: ABC transporter type 1, transmembrane domain
+    match status: '1'
+  type: Gene3D
+- id: 3.40.50.300
+  properties:
+    entry name: P-loop containing nucleotide triphosphate hydrolases
+    match status: '2'
+  type: Gene3D
+- id: IPR003593
+  properties:
+    entry name: AAA+_ATPase
+  type: InterPro
+- id: IPR011527
+  properties:
+    entry name: ABC1_TM_dom
+  type: InterPro
+- id: IPR036640
+  properties:
+    entry name: ABC1_TM_sf
+  type: InterPro
+- id: IPR003439
+  properties:
+    entry name: ABC_transporter-like_ATP-bd
+  type: InterPro
+- id: IPR017871
+  properties:
+    entry name: ABC_transporter-like_CS
+  type: InterPro
+- id: IPR027417
+  properties:
+    entry name: P-loop_NTPase
+  type: InterPro
+- id: IPR039421
+  properties:
+    entry name: Type_1_exporter
+  type: InterPro
+- id: PTHR24222
+  properties:
+    entry name: ABC TRANSPORTER B FAMILY
+    match status: '1'
+  type: PANTHER
+- id: PTHR24222:SF76
+  properties:
+    entry name: MYCOBACTIN IMPORT ATP-BINDING/PERMEASE PROTEIN IRTB
+    match status: '1'
+  type: PANTHER
+- id: PF00664
+  properties:
+    entry name: ABC_membrane
+    match status: '2'
+  type: Pfam
+- id: PF00005
+  properties:
+    entry name: ABC_tran
+    match status: '2'
+  type: Pfam
+- id: SM00382
+  properties:
+    entry name: AAA
+    match status: '2'
+  type: SMART
+- id: SSF90123
+  properties:
+    entry name: ABC transporter transmembrane region
+    match status: '2'
+  type: SUPFAM
+- id: SSF52540
+  properties:
+    entry name: P-loop containing nucleoside triphosphate hydrolases
+    match status: '2'
+  type: SUPFAM
+- id: PS50929
+  properties:
+    entry name: ABC_TM1F
+    match status: '2'
+  type: PROSITE
+- id: PS00211
+  properties:
+    entry name: ABC_TRANSPORTER_1
+    match status: '2'
+  type: PROSITE
+- id: PS50893
+  properties:
+    entry name: ABC_TRANSPORTER_2
+    match status: '2'
+  type: PROSITE
+features:
+- begin: '1'
+  category: MOLECULE_PROCESSING
+  description: ATP-dependent translocase ABCB1
+  end: '1280'
+  ftId: PRO_0000093332
+  molecule: ''
+  type: CHAIN
+- begin: '1'
+  category: TOPOLOGY
+  description: Cytoplasmic
+  end: '44'
+  evidences:
+  - code: ECO:0000250
+  molecule: ''
+  type: TOPO_DOM
+- begin: '45'
+  category: TOPOLOGY
+  description: Helical
+  end: '67'
+  evidences:
+  - code: ECO:0000255
+    source:
+      id: PRU00441
+      name: PROSITE-ProRule
+      url: https://prosite.expasy.org/unirule/PRU00441
+  molecule: ''
+  type: TRANSMEM
+- begin: '68'
+  category: TOPOLOGY
+  description: Extracellular
+  end: '116'
+  evidences:
+  - code: ECO:0000250
+  molecule: ''
+  type: TOPO_DOM
+- begin: '117'
+  category: TOPOLOGY
+  description: Helical
+  end: '137'
+  evidences:
+  - code: ECO:0000255
+    source:
+      id: PRU00441
+      name: PROSITE-ProRule
+      url: https://prosite.expasy.org/unirule/PRU00441
+  molecule: ''
+  type: TRANSMEM
+- begin: '138'
+  category: TOPOLOGY
+  description: Cytoplasmic
+  end: '186'
+  evidences:
+  - code: ECO:0000250
+  molecule: ''
+  type: TOPO_DOM
+- begin: '187'
+  category: TOPOLOGY
+  description: Helical
+  end: '208'
+  evidences:
+  - code: ECO:0000255
+    source:
+      id: PRU00441
+      name: PROSITE-ProRule
+      url: https://prosite.expasy.org/unirule/PRU00441
+  molecule: ''
+  type: TRANSMEM
+- begin: '209'
+  category: TOPOLOGY
+  description: Extracellular
+  end: '215'
+  evidences:
+  - code: ECO:0000250
+  molecule: ''
+  type: TOPO_DOM
+- begin: '216'
+  category: TOPOLOGY
+  description: Helical
+  end: '236'
+  evidences:
+  - code: ECO:0000255
+    source:
+      id: PRU00441
+      name: PROSITE-ProRule
+      url: https://prosite.expasy.org/unirule/PRU00441
+  molecule: ''
+  type: TRANSMEM
+- begin: '237'
+  category: TOPOLOGY
+  description: Cytoplasmic
+  end: '292'
+  evidences:
+  - code: ECO:0000250
+  molecule: ''
+  type: TOPO_DOM
+- begin: '293'
+  category: TOPOLOGY
+  description: Helical
+  end: '316'
+  evidences:
+  - code: ECO:0000255
+    source:
+      id: PRU00441
+      name: PROSITE-ProRule
+      url: https://prosite.expasy.org/unirule/PRU00441
+  molecule: ''
+  type: TRANSMEM
+- begin: '317'
+  category: TOPOLOGY
+  description: Extracellular
+  end: '330'
+  evidences:
+  - code: ECO:0000250
+  molecule: ''
+  type: TOPO_DOM
+- begin: '331'
+  category: TOPOLOGY
+  description: Helical
+  end: '352'
+  evidences:
+  - code: ECO:0000255
+    source:
+      id: PRU00441
+      name: PROSITE-ProRule
+      url: https://prosite.expasy.org/unirule/PRU00441
+  molecule: ''
+  type: TRANSMEM
+- begin: '353'
+  category: TOPOLOGY
+  description: Cytoplasmic
+  end: '711'
+  evidences:
+  - code: ECO:0000250
+  molecule: ''
+  type: TOPO_DOM
+- begin: '712'
+  category: TOPOLOGY
+  description: Helical
+  end: '732'
+  evidences:
+  - code: ECO:0000255
+    source:
+      id: PRU00441
+      name: PROSITE-ProRule
+      url: https://prosite.expasy.org/unirule/PRU00441
+  molecule: ''
+  type: TRANSMEM
+- begin: '733'
+  category: TOPOLOGY
+  description: Extracellular
+  end: '756'
+  evidences:
+  - code: ECO:0000250
+  molecule: ''
+  type: TOPO_DOM
+- begin: '757'
+  category: TOPOLOGY
+  description: Helical
+  end: '777'
+  evidences:
+  - code: ECO:0000255
+    source:
+      id: PRU00441
+      name: PROSITE-ProRule
+      url: https://prosite.expasy.org/unirule/PRU00441
+  molecule: ''
+  type: TRANSMEM
+- begin: '778'
+  category: TOPOLOGY
+  description: Cytoplasmic
+  end: '832'
+  evidences:
+  - code: ECO:0000250
+  molecule: ''
+  type: TOPO_DOM
+- begin: '833'
+  category: TOPOLOGY
+  description: Helical
+  end: '853'
+  evidences:
+  - code: ECO:0000255
+    source:
+      id: PRU00441
+      name: PROSITE-ProRule
+      url: https://prosite.expasy.org/unirule/PRU00441
+  molecule: ''
+  type: TRANSMEM
+- begin: '854'
+  category: TOPOLOGY
+  description: Extracellular
+  end: '854'
+  evidences:
+  - code: ECO:0000250
+  molecule: ''
+  type: TOPO_DOM
+- begin: '855'
+  category: TOPOLOGY
+  description: Helical
+  end: '874'
+  evidences:
+  - code: ECO:0000255
+    source:
+      id: PRU00441
+      name: PROSITE-ProRule
+      url: https://prosite.expasy.org/unirule/PRU00441
+  molecule: ''
+  type: TRANSMEM
+- begin: '875'
+  category: TOPOLOGY
+  description: Cytoplasmic
+  end: '934'
+  evidences:
+  - code: ECO:0000250
+  molecule: ''
+  type: TOPO_DOM
+- begin: '935'
+  category: TOPOLOGY
+  description: Helical
+  end: '957'
+  evidences:
+  - code: ECO:0000255
+    source:
+      id: PRU00441
+      name: PROSITE-ProRule
+      url: https://prosite.expasy.org/unirule/PRU00441
+  molecule: ''
+  type: TRANSMEM
+- begin: '958'
+  category: TOPOLOGY
+  description: Extracellular
+  end: '973'
+  evidences:
+  - code: ECO:0000250
+  molecule: ''
+  type: TOPO_DOM
+- begin: '974'
+  category: TOPOLOGY
+  description: Helical
+  end: '995'
+  evidences:
+  - code: ECO:0000255
+    source:
+      id: PRU00441
+      name: PROSITE-ProRule
+      url: https://prosite.expasy.org/unirule/PRU00441
+  molecule: ''
+  type: TRANSMEM
+- begin: '996'
+  category: TOPOLOGY
+  description: Cytoplasmic
+  end: '1280'
+  evidences:
+  - code: ECO:0000250
+  molecule: ''
+  type: TOPO_DOM
+- begin: '51'
+  category: DOMAINS_AND_SITES
+  description: ABC transmembrane type-1 1
+  end: '357'
+  evidences:
+  - code: ECO:0000255
+    source:
+      id: PRU00441
+      name: PROSITE-ProRule
+      url: https://prosite.expasy.org/unirule/PRU00441
+  molecule: ''
+  type: DOMAIN
+- begin: '392'
+  category: DOMAINS_AND_SITES
+  description: ABC transporter 1
+  end: '628'
+  evidences:
+  - code: ECO:0000255
+    source:
+      id: PRU00434
+      name: PROSITE-ProRule
+      url: https://prosite.expasy.org/unirule/PRU00434
+  molecule: ''
+  type: DOMAIN
+- begin: '711'
+  category: DOMAINS_AND_SITES
+  description: ABC transmembrane type-1 2
+  end: '1000'
+  evidences:
+  - code: ECO:0000255
+    source:
+      id: PRU00441
+      name: PROSITE-ProRule
+      url: https://prosite.expasy.org/unirule/PRU00441
+  molecule: ''
+  type: DOMAIN
+- begin: '1035'
+  category: DOMAINS_AND_SITES
+  description: ABC transporter 2
+  end: '1273'
+  evidences:
+  - code: ECO:0000255
+    source:
+      id: PRU00434
+      name: PROSITE-ProRule
+      url: https://prosite.expasy.org/unirule/PRU00434
+  molecule: ''
+  type: DOMAIN
+- begin: '646'
+  category: DOMAINS_AND_SITES
+  description: Disordered
+  end: '685'
+  evidences:
+  - code: ECO:0000256
+    source:
+      id: MobiDB-lite
+      name: SAM
+      url: https://www.uniprot.org/help/sam
+  molecule: ''
+  type: REGION
+- begin: '427'
+  category: DOMAINS_AND_SITES
+  description: ''
+  end: '434'
+  evidences:
+  - code: ECO:0000255
+    source:
+      id: PRU00434
+      name: PROSITE-ProRule
+      url: https://prosite.expasy.org/unirule/PRU00434
+  ligand:
+    dbReference:
+      id: CHEBI:30616
+      name: ChEBI
+    label: '1'
+    name: ATP
+  molecule: ''
+  type: BINDING
+- begin: '1070'
+  category: DOMAINS_AND_SITES
+  description: ''
+  end: '1077'
+  evidences:
+  - code: ECO:0000255
+    source:
+      id: PRU00434
+      name: PROSITE-ProRule
+      url: https://prosite.expasy.org/unirule/PRU00434
+  ligand:
+    dbReference:
+      id: CHEBI:30616
+      name: ChEBI
+    label: '2'
+    name: ATP
+  molecule: ''
+  type: BINDING
+- begin: '660'
+  category: PTM
+  description: Phosphoserine
+  end: '660'
+  evidences:
+  - code: ECO:0000250
+    source:
+      id: P06795
+      name: UniProtKB
+      url: https://www.uniprot.org/uniprot/P06795
+  molecule: ''
+  type: MOD_RES
+- begin: '91'
+  category: PTM
+  description: N-linked (GlcNAc...) asparagine
+  end: '91'
+  evidences:
+  - code: ECO:0000255
+  ftId: ''
+  molecule: ''
+  type: CARBOHYD
+- begin: '94'
+  category: PTM
+  description: N-linked (GlcNAc...) asparagine
+  end: '94'
+  evidences:
+  - code: ECO:0000255
+  ftId: ''
+  molecule: ''
+  type: CARBOHYD
+- begin: '99'
+  category: PTM
+  description: N-linked (GlcNAc...) asparagine
+  end: '99'
+  evidences:
+  - code: ECO:0000255
+  ftId: ''
+  molecule: ''
+  type: CARBOHYD
+- begin: '113'
+  category: VARIANTS
+  end: '177'
+  evidences:
+  - code: ECO:0000303
+    source:
+      id: Ref.4
+      name: Citation
+      url: https://www.uniprot.org/uniprot/P08183#ref4
+  ftId: VSP_055769
+  molecule: ''
+  type: VAR_SEQ
+- alternativeSequence: L
+  begin: '17'
+  category: VARIANTS
+  description: in dbSNP:rs28381804
+  end: '17'
+  evidences:
+  - code: ECO:0000269
+    source:
+      id: Ref.5
+      name: Citation
+      url: https://www.uniprot.org/uniprot/P08183#ref5
+  ftId: VAR_022276
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: D
+  begin: '21'
+  category: VARIANTS
+  description: in dbSNP:rs9282564
+  end: '21'
+  evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/10716719
+      id: '10716719'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/10716719
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/10790226
+      id: '10790226'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/10790226
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/11240981
+      id: '11240981'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/11240981
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/14702039
+      id: '14702039'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/14702039
+  - code: ECO:0000269
+    source:
+      id: Ref.5
+      name: Citation
+      url: https://www.uniprot.org/uniprot/P08183#ref5
+  ftId: VAR_014704
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: S
+  begin: '44'
+  category: VARIANTS
+  description: in dbSNP:rs1202183
+  end: '44'
+  ftId: VAR_055423
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: E
+  begin: '80'
+  category: VARIANTS
+  description: in dbSNP:rs9282565
+  end: '80'
+  ftId: VAR_055424
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: L
+  begin: '103'
+  category: VARIANTS
+  description: ''
+  end: '103'
+  evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/10716719
+      id: '10716719'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/10716719
+  ftId: VAR_015001
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: K
+  begin: '108'
+  category: VARIANTS
+  description: ''
+  end: '108'
+  evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/15618700
+      id: '15618700'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/15618700
+  ftId: VAR_018351
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: V
+  begin: '185'
+  category: VARIANTS
+  description: in a colchicine-selected multidrug-resistant cell line; confers increased
+    resistance to colchicine; dbSNP:rs1128501
+  end: '185'
+  evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/2876781
+      id: '2876781'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/2876781
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/2897240
+      id: '2897240'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/2897240
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/9038218
+      id: '9038218'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/9038218
+  ftId: VAR_015002
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: V
+  begin: '261'
+  category: VARIANTS
+  description: in dbSNP:rs36008564
+  end: '261'
+  ftId: VAR_055425
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: N
+  begin: '400'
+  category: VARIANTS
+  description: in dbSNP:rs2229109
+  end: '400'
+  evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/10716719
+      id: '10716719'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/10716719
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/11240981
+      id: '11240981'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/11240981
+  - code: ECO:0000269
+    source:
+      id: Ref.5
+      name: Citation
+      url: https://www.uniprot.org/uniprot/P08183#ref5
+  ftId: VAR_015003
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: K
+  begin: '566'
+  category: VARIANTS
+  description: in dbSNP:rs28381902
+  end: '566'
+  evidences:
+  - code: ECO:0000269
+    source:
+      id: Ref.5
+      name: Citation
+      url: https://www.uniprot.org/uniprot/P08183#ref5
+  ftId: VAR_022277
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: C
+  begin: '593'
+  category: VARIANTS
+  description: in dbSNP:rs28381914
+  end: '593'
+  evidences:
+  - code: ECO:0000269
+    source:
+      id: Ref.5
+      name: Citation
+      url: https://www.uniprot.org/uniprot/P08183#ref5
+  ftId: VAR_022278
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: T
+  begin: '599'
+  category: VARIANTS
+  description: in dbSNP:rs2235036
+  end: '599'
+  ftId: VAR_055426
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: C
+  begin: '669'
+  category: VARIANTS
+  description: in dbSNP:rs35023033
+  end: '669'
+  ftId: VAR_055427
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: M
+  begin: '801'
+  category: VARIANTS
+  description: in dbSNP:rs2235039
+  end: '801'
+  ftId: VAR_055428
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: V
+  begin: '829'
+  category: VARIANTS
+  description: in dbSNP:rs2032581
+  end: '829'
+  ftId: VAR_055429
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: V
+  begin: '836'
+  category: VARIANTS
+  description: in dbSNP:rs28381967
+  end: '836'
+  evidences:
+  - code: ECO:0000269
+    source:
+      id: Ref.5
+      name: Citation
+      url: https://www.uniprot.org/uniprot/P08183#ref5
+  ftId: VAR_022279
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: N
+  begin: '887'
+  category: VARIANTS
+  description: in a colorectal cancer sample; somatic mutation
+  end: '887'
+  evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/16959974
+      id: '16959974'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/16959974
+  ftId: VAR_035737
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: A
+  begin: '893'
+  category: VARIANTS
+  description: risk factor for IBD13; has decreased enzyme activity; dbSNP:rs2032582
+  end: '893'
+  evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/11240981
+      id: '11240981'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/11240981
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/11829140
+      id: '11829140'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/11829140
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/14610718
+      id: '14610718'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/14610718
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/1967175
+      id: '1967175'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/1967175
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/2876781
+      id: '2876781'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/2876781
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/9038218
+      id: '9038218'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/9038218
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/9473242
+      id: '9473242'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/9473242
+  - code: ECO:0000269
+    source:
+      id: Ref.5
+      name: Citation
+      url: https://www.uniprot.org/uniprot/P08183#ref5
+  ftId: VAR_013361
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: T
+  begin: '893'
+  category: VARIANTS
+  description: rare allele; dbSNP:rs2032582
+  end: '893'
+  evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/11240981
+      id: '11240981'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/11240981
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/11829140
+      id: '11829140'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/11829140
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/14610718
+      id: '14610718'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/14610718
+  ftId: VAR_013362
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: V
+  begin: '986'
+  category: VARIANTS
+  description: in dbSNP:rs926081975
+  end: '986'
+  ftId: VAR_018352
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: T
+  begin: '999'
+  category: VARIANTS
+  description: in dbSNP:rs72552784
+  end: '999'
+  evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/9473242
+      id: '9473242'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/9473242
+  ftId: VAR_015004
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: A
+  begin: '1051'
+  category: VARIANTS
+  description: in dbSNP:rs28401798
+  end: '1051'
+  evidences:
+  - code: ECO:0000269
+    source:
+      id: Ref.5
+      name: Citation
+      url: https://www.uniprot.org/uniprot/P08183#ref5
+  ftId: VAR_022280
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: P
+  begin: '1107'
+  category: VARIANTS
+  description: in dbSNP:rs55852620
+  end: '1107'
+  evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/11240981
+      id: '11240981'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/11240981
+  ftId: VAR_015005
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: T
+  begin: '1141'
+  category: VARIANTS
+  description: in dbSNP:rs2229107
+  end: '1141'
+  evidences:
+  - code: ECO:0000269
+    source:
+      id: Ref.5
+      name: Citation
+      url: https://www.uniprot.org/uniprot/P08183#ref5
+  ftId: VAR_022281
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: I
+  begin: '1251'
+  category: VARIANTS
+  description: in dbSNP:rs28364274
+  end: '1251'
+  evidences:
+  - code: ECO:0000269
+    source:
+      alternativeUrl: https://europepmc.org/abstract/MED/15618713
+      id: '15618713'
+      name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/15618713
+  - code: ECO:0000269
+    source:
+      id: Ref.5
+      name: Citation
+      url: https://www.uniprot.org/uniprot/P08183#ref5
+  ftId: VAR_018353
+  molecule: ''
+  type: VARIANT
+- alternativeSequence: R
+  begin: '23'
+  category: SEQUENCE_INFORMATION
+  description: in Ref. 9; CAA41558
+  end: '23'
+  evidences:
+  - code: ECO:0000305
+  molecule: ''
+  type: CONFLICT
+- alternativeSequence: ''
+  begin: '336'
+  category: SEQUENCE_INFORMATION
+  description: in Ref. 3; AAB69423
+  end: '336'
+  evidences:
+  - code: ECO:0000305
+  molecule: ''
+  type: CONFLICT
+- begin: '37'
+  category: STRUCTURAL
+  end: '39'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: TURN
+- begin: '40'
+  category: STRUCTURAL
+  end: '42'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7O9W
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7O9W
+  molecule: ''
+  type: TURN
+- begin: '45'
+  category: STRUCTURAL
+  end: '80'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '107'
+  category: STRUCTURAL
+  end: '156'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '162'
+  category: STRUCTURAL
+  end: '165'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '168'
+  category: STRUCTURAL
+  end: '186'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '188'
+  category: STRUCTURAL
+  end: '210'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '212'
+  category: STRUCTURAL
+  end: '236'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '241'
+  category: STRUCTURAL
+  end: '257'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '261'
+  category: STRUCTURAL
+  end: '267'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '270'
+  category: STRUCTURAL
+  end: '322'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '328'
+  category: STRUCTURAL
+  end: '346'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '349'
+  category: STRUCTURAL
+  end: '370'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '377'
+  category: STRUCTURAL
+  end: '379'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A6F
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A6F
+  molecule: ''
+  type: STRAND
+- begin: '392'
+  category: STRUCTURAL
+  end: '398'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '402'
+  category: STRUCTURAL
+  end: '404'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7O9W
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7O9W
+  molecule: ''
+  type: STRAND
+- begin: '410'
+  category: STRUCTURAL
+  end: '412'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 6C0V
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6C0V
+  molecule: ''
+  type: STRAND
+- begin: '415'
+  category: STRUCTURAL
+  end: '417'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '422'
+  category: STRUCTURAL
+  end: '426'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '433'
+  category: STRUCTURAL
+  end: '440'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '447'
+  category: STRUCTURAL
+  end: '457'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '458'
+  category: STRUCTURAL
+  end: '460'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '463'
+  category: STRUCTURAL
+  end: '468'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '470'
+  category: STRUCTURAL
+  end: '473'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '481'
+  category: STRUCTURAL
+  end: '483'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '484'
+  category: STRUCTURAL
+  end: '489'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '497'
+  category: STRUCTURAL
+  end: '506'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '507'
+  category: STRUCTURAL
+  end: '510'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A6F
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A6F
+  molecule: ''
+  type: TURN
+- begin: '511'
+  category: STRUCTURAL
+  end: '515'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '516'
+  category: STRUCTURAL
+  end: '518'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '519'
+  category: STRUCTURAL
+  end: '521'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: TURN
+- begin: '526'
+  category: STRUCTURAL
+  end: '528'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '533'
+  category: STRUCTURAL
+  end: '545'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '550'
+  category: STRUCTURAL
+  end: '556'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '559'
+  category: STRUCTURAL
+  end: '561'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 6C0V
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6C0V
+  molecule: ''
+  type: STRAND
+- begin: '563'
+  category: STRUCTURAL
+  end: '573'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '578'
+  category: STRUCTURAL
+  end: '585'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '590'
+  category: STRUCTURAL
+  end: '594'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: TURN
+- begin: '595'
+  category: STRUCTURAL
+  end: '602'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '605'
+  category: STRUCTURAL
+  end: '608'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '612'
+  category: STRUCTURAL
+  end: '618'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '621'
+  category: STRUCTURAL
+  end: '629'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '700'
+  category: STRUCTURAL
+  end: '703'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '704'
+  category: STRUCTURAL
+  end: '706'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: TURN
+- begin: '708'
+  category: STRUCTURAL
+  end: '736'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '739'
+  category: STRUCTURAL
+  end: '742'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '745'
+  category: STRUCTURAL
+  end: '797'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '801'
+  category: STRUCTURAL
+  end: '804'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '808'
+  category: STRUCTURAL
+  end: '811'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: TURN
+- begin: '812'
+  category: STRUCTURAL
+  end: '853'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '855'
+  category: STRUCTURAL
+  end: '861'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '862'
+  category: STRUCTURAL
+  end: '864'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: TURN
+- begin: '865'
+  category: STRUCTURAL
+  end: '880'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '887'
+  category: STRUCTURAL
+  end: '902'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '904'
+  category: STRUCTURAL
+  end: '910'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '914'
+  category: STRUCTURAL
+  end: '965'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '971'
+  category: STRUCTURAL
+  end: '981'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '982'
+  category: STRUCTURAL
+  end: '985'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: TURN
+- begin: '986'
+  category: STRUCTURAL
+  end: '994'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '999'
+  category: STRUCTURAL
+  end: '1013'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '1035'
+  category: STRUCTURAL
+  end: '1041'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '1045'
+  category: STRUCTURAL
+  end: '1047'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 6C0V
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6C0V
+  molecule: ''
+  type: STRAND
+- begin: '1048'
+  category: STRUCTURAL
+  end: '1052'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '1056'
+  category: STRUCTURAL
+  end: '1060'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '1066'
+  category: STRUCTURAL
+  end: '1069'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '1074'
+  category: STRUCTURAL
+  end: '1077'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '1078'
+  category: STRUCTURAL
+  end: '1083'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '1090'
+  category: STRUCTURAL
+  end: '1096'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '1101'
+  category: STRUCTURAL
+  end: '1103'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: TURN
+- begin: '1106'
+  category: STRUCTURAL
+  end: '1112'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '1114'
+  category: STRUCTURAL
+  end: '1116'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '1124'
+  category: STRUCTURAL
+  end: '1126'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 6C0V
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6C0V
+  molecule: ''
+  type: STRAND
+- begin: '1128'
+  category: STRUCTURAL
+  end: '1131'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '1142'
+  category: STRUCTURAL
+  end: '1151'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '1155'
+  category: STRUCTURAL
+  end: '1159'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '1161'
+  category: STRUCTURAL
+  end: '1163'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '1164'
+  category: STRUCTURAL
+  end: '1166'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 6C0V
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6C0V
+  molecule: ''
+  type: HELIX
+- begin: '1171'
+  category: STRUCTURAL
+  end: '1173'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '1178'
+  category: STRUCTURAL
+  end: '1190'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '1195'
+  category: STRUCTURAL
+  end: '1201'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '1208'
+  category: STRUCTURAL
+  end: '1222'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '1225'
+  category: STRUCTURAL
+  end: '1230'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '1235'
+  category: STRUCTURAL
+  end: '1238'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '1240'
+  category: STRUCTURAL
+  end: '1247'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '1250'
+  category: STRUCTURAL
+  end: '1256'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: STRAND
+- begin: '1257'
+  category: STRUCTURAL
+  end: '1262'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '1266'
+  category: STRUCTURAL
+  end: '1271'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7A69
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7A69
+  molecule: ''
+  type: HELIX
+- begin: '1272'
+  category: STRUCTURAL
+  end: '1274'
+  evidences:
+  - code: ECO:0007829
+    source:
+      id: 7O9W
+      name: PDB
+      url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7O9W
+  molecule: ''
+  type: STRAND
+gene:
+- name:
+    evidences:
+    - code: ECO:0000312
+      source:
+        id: HGNC:40
+        name: HGNC
+        url: https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=HGNC:40
+    value: ABCB1
+  synonyms:
+  - value: MDR1
+  - value: PGY1
+id: MDR1_HUMAN
+info:
+  created: '1988-08-01'
+  modified: '2024-01-24'
+  type: Swiss-Prot
+  version: 247
+keywords:
+- value: 3D-structure
+- value: Alternative splicing
+- value: ATP-binding
+- value: Cell membrane
+- value: Cytoplasm
+- value: Glycoprotein
+- value: Lipid transport
+- value: Membrane
+- value: Nucleotide-binding
+- value: Phosphoprotein
+- value: Reference proteome
+- value: Repeat
+- value: Translocase
+- value: Transmembrane
+- value: Transmembrane helix
+- value: Transport
+organism:
+  lineage:
+  - Eukaryota
+  - Metazoa
+  - Chordata
+  - Craniata
+  - Vertebrata
+  - Euteleostomi
+  - Mammalia
+  - Eutheria
+  - Euarchontoglires
+  - Primates
+  - Haplorrhini
+  - Catarrhini
+  - Hominidae
+  - Homo
+  names:
+  - type: scientific
+    value: Homo sapiens
+  - type: common
+    value: Human
+  taxonomy: 9606
+protein:
+  alternativeName:
+  - fullName:
+      evidences:
+      - code: ECO:0000305
+      value: ATP-binding cassette sub-family B member 1
+  - ecNumber:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9038218
+          id: '9038218'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9038218
+      value: 7.6.2.2
+    fullName:
+      value: Multidrug resistance protein 1
+  - fullName:
+      value: P-glycoprotein 1
+  - ecNumber:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8898203
+          id: '8898203'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8898203
+      value: 7.6.2.1
+    fullName:
+      evidences:
+      - code: ECO:0000305
+      value: Phospholipid transporter ABCB1
+  cdAntigenName:
+  - value: CD243
+  recommendedName:
+    fullName:
+      evidences:
+      - code: ECO:0000305
+      value: ATP-dependent translocase ABCB1
+proteinExistence: Evidence at protein level
+references:
+- citation:
+    authors:
+    - Chen C.-J.
+    - Chin J.E.
+    - Ueda K.
+    - Clark D.P.
+    - Pastan I.
+    - Gottesman M.M.
+    - Roninson I.B.
+    dbReferences:
+    - id: '2876781'
+      type: PubMed
+    - id: 10.1016/0092-8674(86)90595-7
+      type: DOI
+    location:
+      firstPage: '381'
+      lastPage: '389'
+      volume: '47'
+    publication:
+      journalName: Cell
+    publicationDate: '1986'
+    title: Internal duplication and homology with bacterial transport proteins in
+      the mdr1 (P-glycoprotein) gene from multidrug-resistant human cells.
+    type: journal article
+  scope:
+  - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+  - VARIANTS VAL-185 AND ALA-893
+  - POLYMORPHISM
+- citation:
+    authors:
+    - Chen C.-J.
+    - Clark D.P.
+    - Ueda K.
+    - Pastan I.
+    - Gottesman M.M.
+    - Roninson I.B.
+    dbReferences:
+    - id: '1967175'
+      type: PubMed
+    - id: 10.1016/s0021-9258(19)40260-3
+      type: DOI
+    location:
+      firstPage: '506'
+      lastPage: '514'
+      volume: '265'
+    publication:
+      journalName: J. Biol. Chem.
+    publicationDate: '1990'
+    title: Genomic organization of the human multidrug resistance (MDR1) gene and
+      origin of P-glycoproteins.
+    type: journal article
+  scope:
+  - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+  - VARIANT ALA-893
+- citation:
+    authors:
+    - Chen G.
+    - Duran G.E.
+    - Steger K.A.
+    - Lacayo N.J.
+    - Jaffrezou J.P.
+    - Dumontet C.
+    - Sikic B.I.
+    dbReferences:
+    - id: '9038218'
+      type: PubMed
+    - id: 10.1074/jbc.272.9.5974
+      type: DOI
+    location:
+      firstPage: '5974'
+      lastPage: '5982'
+      volume: '272'
+    publication:
+      journalName: J. Biol. Chem.
+    publicationDate: '1997'
+    title: Multidrug-resistant human sarcoma cells with a mutant P-glycoprotein, altered
+      phenotype, and resistance to cyclosporins.
+    type: journal article
+  scope:
+  - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+  - VARIANTS VAL-185 AND ALA-893
+  - POLYMORPHISM
+  - FUNCTION
+- citation:
+    authors:
+    - Jiang Y.
+    - Sun Q.
+    - Xie Z.
+    - Liu F.
+    - Xu W.
+    - Wang Y.
+    publication:
+      submissionDatabase: EMBL/GenBank/DDBJ databases
+    publicationDate: JUN-2008
+    title: Cloning of P-glycoprotein cDNA sequence from breast cancer MCF7 cell line.
+    type: submission
+  scope:
+  - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2)
+- citation:
+    consortiums:
+    - NIEHS SNPs program
+    publication:
+      submissionDatabase: EMBL/GenBank/DDBJ databases
+    publicationDate: JAN-2005
+    type: submission
+  scope:
+  - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+  - VARIANTS LEU-17; ASP-21; ASN-400; LYS-566; CYS-593; VAL-836; ALA-893; ALA-1051;
+    THR-1141 AND ILE-1251
+- citation:
+    authors:
+    - Ota T.
+    - Suzuki Y.
+    - Nishikawa T.
+    - Otsuki T.
+    - Sugiyama T.
+    - Irie R.
+    - Wakamatsu A.
+    - Hayashi K.
+    - Sato H.
+    - Nagai K.
+    - Kimura K.
+    - Makita H.
+    - Sekine M.
+    - Obayashi M.
+    - Nishi T.
+    - Shibahara T.
+    - Tanaka T.
+    - Ishii S.
+    - Yamamoto J.
+    - Saito K.
+    - Kawai Y.
+    - Isono Y.
+    - Nakamura Y.
+    - Nagahari K.
+    - Murakami K.
+    - Yasuda T.
+    - Iwayanagi T.
+    - Wagatsuma M.
+    - Shiratori A.
+    - Sudo H.
+    - Hosoiri T.
+    - Kaku Y.
+    - Kodaira H.
+    - Kondo H.
+    - Sugawara M.
+    - Takahashi M.
+    - Kanda K.
+    - Yokoi T.
+    - Furuya T.
+    - Kikkawa E.
+    - Omura Y.
+    - Abe K.
+    - Kamihara K.
+    - Katsuta N.
+    - Sato K.
+    - Tanikawa M.
+    - Yamazaki M.
+    - Ninomiya K.
+    - Ishibashi T.
+    - Yamashita H.
+    - Murakawa K.
+    - Fujimori K.
+    - Tanai H.
+    - Kimata M.
+    - Watanabe M.
+    - Hiraoka S.
+    - Chiba Y.
+    - Ishida S.
+    - Ono Y.
+    - Takiguchi S.
+    - Watanabe S.
+    - Yosida M.
+    - Hotuta T.
+    - Kusano J.
+    - Kanehori K.
+    - Takahashi-Fujii A.
+    - Hara H.
+    - Tanase T.-O.
+    - Nomura Y.
+    - Togiya S.
+    - Komai F.
+    - Hara R.
+    - Takeuchi K.
+    - Arita M.
+    - Imose N.
+    - Musashino K.
+    - Yuuki H.
+    - Oshima A.
+    - Sasaki N.
+    - Aotsuka S.
+    - Yoshikawa Y.
+    - Matsunawa H.
+    - Ichihara T.
+    - Shiohata N.
+    - Sano S.
+    - Moriya S.
+    - Momiyama H.
+    - Satoh N.
+    - Takami S.
+    - Terashima Y.
+    - Suzuki O.
+    - Nakagawa S.
+    - Senoh A.
+    - Mizoguchi H.
+    - Goto Y.
+    - Shimizu F.
+    - Wakebe H.
+    - Hishigaki H.
+    - Watanabe T.
+    - Sugiyama A.
+    - Takemoto M.
+    - Kawakami B.
+    - Yamazaki M.
+    - Watanabe K.
+    - Kumagai A.
+    - Itakura S.
+    - Fukuzumi Y.
+    - Fujimori Y.
+    - Komiyama M.
+    - Tashiro H.
+    - Tanigami A.
+    - Fujiwara T.
+    - Ono T.
+    - Yamada K.
+    - Fujii Y.
+    - Ozaki K.
+    - Hirao M.
+    - Ohmori Y.
+    - Kawabata A.
+    - Hikiji T.
+    - Kobatake N.
+    - Inagaki H.
+    - Ikema Y.
+    - Okamoto S.
+    - Okitani R.
+    - Kawakami T.
+    - Noguchi S.
+    - Itoh T.
+    - Shigeta K.
+    - Senba T.
+    - Matsumura K.
+    - Nakajima Y.
+    - Mizuno T.
+    - Morinaga M.
+    - Sasaki M.
+    - Togashi T.
+    - Oyama M.
+    - Hata H.
+    - Watanabe M.
+    - Komatsu T.
+    - Mizushima-Sugano J.
+    - Satoh T.
+    - Shirai Y.
+    - Takahashi Y.
+    - Nakagawa K.
+    - Okumura K.
+    - Nagase T.
+    - Nomura N.
+    - Kikuchi H.
+    - Masuho Y.
+    - Yamashita R.
+    - Nakai K.
+    - Yada T.
+    - Nakamura Y.
+    - Ohara O.
+    - Isogai T.
+    - Sugano S.
+    dbReferences:
+    - id: '14702039'
+      type: PubMed
+    - id: 10.1038/ng1285
+      type: DOI
+    location:
+      firstPage: '40'
+      lastPage: '45'
+      volume: '36'
+    publication:
+      journalName: Nat. Genet.
+    publicationDate: '2004'
+    title: Complete sequencing and characterization of 21,243 full-length human cDNAs.
+    type: journal article
+  scope:
+  - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)
+  - VARIANT ASP-21
+  source:
+    tissue:
+    - value: Thalamus
+- citation:
+    authors:
+    - Hillier L.W.
+    - Fulton R.S.
+    - Fulton L.A.
+    - Graves T.A.
+    - Pepin K.H.
+    - Wagner-McPherson C.
+    - Layman D.
+    - Maas J.
+    - Jaeger S.
+    - Walker R.
+    - Wylie K.
+    - Sekhon M.
+    - Becker M.C.
+    - O'Laughlin M.D.
+    - Schaller M.E.
+    - Fewell G.A.
+    - Delehaunty K.D.
+    - Miner T.L.
+    - Nash W.E.
+    - Cordes M.
+    - Du H.
+    - Sun H.
+    - Edwards J.
+    - Bradshaw-Cordum H.
+    - Ali J.
+    - Andrews S.
+    - Isak A.
+    - Vanbrunt A.
+    - Nguyen C.
+    - Du F.
+    - Lamar B.
+    - Courtney L.
+    - Kalicki J.
+    - Ozersky P.
+    - Bielicki L.
+    - Scott K.
+    - Holmes A.
+    - Harkins R.
+    - Harris A.
+    - Strong C.M.
+    - Hou S.
+    - Tomlinson C.
+    - Dauphin-Kohlberg S.
+    - Kozlowicz-Reilly A.
+    - Leonard S.
+    - Rohlfing T.
+    - Rock S.M.
+    - Tin-Wollam A.-M.
+    - Abbott A.
+    - Minx P.
+    - Maupin R.
+    - Strowmatt C.
+    - Latreille P.
+    - Miller N.
+    - Johnson D.
+    - Murray J.
+    - Woessner J.P.
+    - Wendl M.C.
+    - Yang S.-P.
+    - Schultz B.R.
+    - Wallis J.W.
+    - Spieth J.
+    - Bieri T.A.
+    - Nelson J.O.
+    - Berkowicz N.
+    - Wohldmann P.E.
+    - Cook L.L.
+    - Hickenbotham M.T.
+    - Eldred J.
+    - Williams D.
+    - Bedell J.A.
+    - Mardis E.R.
+    - Clifton S.W.
+    - Chissoe S.L.
+    - Marra M.A.
+    - Raymond C.
+    - Haugen E.
+    - Gillett W.
+    - Zhou Y.
+    - James R.
+    - Phelps K.
+    - Iadanoto S.
+    - Bubb K.
+    - Simms E.
+    - Levy R.
+    - Clendenning J.
+    - Kaul R.
+    - Kent W.J.
+    - Furey T.S.
+    - Baertsch R.A.
+    - Brent M.R.
+    - Keibler E.
+    - Flicek P.
+    - Bork P.
+    - Suyama M.
+    - Bailey J.A.
+    - Portnoy M.E.
+    - Torrents D.
+    - Chinwalla A.T.
+    - Gish W.R.
+    - Eddy S.R.
+    - McPherson J.D.
+    - Olson M.V.
+    - Eichler E.E.
+    - Green E.D.
+    - Waterston R.H.
+    - Wilson R.K.
+    dbReferences:
+    - id: '12853948'
+      type: PubMed
+    - id: 10.1038/nature01782
+      type: DOI
+    location:
+      firstPage: '157'
+      lastPage: '164'
+      volume: '424'
+    publication:
+      journalName: Nature
+    publicationDate: '2003'
+    title: The DNA sequence of human chromosome 7.
+    type: journal article
+  scope:
+  - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+- citation:
+    authors:
+    - Gekeler V.
+    - Weger S.
+    - Probst H.
+    dbReferences:
+    - id: '1972623'
+      type: PubMed
+    - id: 10.1016/0006-291x(90)90401-8
+      type: DOI
+    location:
+      firstPage: '796'
+      lastPage: '802'
+      volume: '169'
+    publication:
+      journalName: Biochem. Biophys. Res. Commun.
+    publicationDate: '1990'
+    title: mdr1/P-glycoprotein gene segments analyzed from various human leukemic
+      cell lines exhibiting different multidrug resistance profiles.
+    type: journal article
+  scope:
+  - NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 178-215 AND 800-856
+- citation:
+    authors:
+    - Kioka N.
+    - Tsubota J.
+    - Kakehi Y.
+    - Komano T.
+    - Gottesman M.M.
+    - Pastan I.
+    - Ueda K.
+    dbReferences:
+    - id: '2568832'
+      type: PubMed
+    - id: 10.1016/0006-291x(89)91985-2
+      type: DOI
+    location:
+      firstPage: '224'
+      lastPage: '231'
+      volume: '162'
+    publication:
+      journalName: Biochem. Biophys. Res. Commun.
+    publicationDate: '1989'
+    title: 'P-glycoprotein gene (MDR1) cDNA from human adrenal: normal P-glycoprotein
+      carries Gly185 with an altered pattern of multidrug resistance.'
+    type: journal article
+  scope:
+  - NUCLEOTIDE SEQUENCE [MRNA] OF 1-23 (ISOFORM 1/2)
+- citation:
+    authors:
+    - van Helvoort A.
+    - Smith A.J.
+    - Sprong H.
+    - Fritzsche I.
+    - Schinkel A.H.
+    - Borst P.
+    - van Meer G.
+    dbReferences:
+    - id: '8898203'
+      type: PubMed
+    - id: 10.1016/s0092-8674(00)81370-7
+      type: DOI
+    location:
+      firstPage: '507'
+      lastPage: '517'
+      volume: '87'
+    publication:
+      journalName: Cell
+    publicationDate: '1996'
+    title: MDR1 P-glycoprotein is a lipid translocase of broad specificity, while
+      MDR3 P-glycoprotein specifically translocates phosphatidylcholine.
+    type: journal article
+  scope:
+  - SUBCELLULAR LOCATION
+  - CATALYTIC ACTIVITY
+  - FUNCTION
+  - ACTIVITY REGULATION
+- citation:
+    authors:
+    - Kerb R.
+    - Hoffmeyer S.
+    - Brinkmann U.
+    dbReferences:
+    - id: '11258197'
+      type: PubMed
+    - id: 10.1517/14622416.2.1.51
+      type: DOI
+    location:
+      firstPage: '51'
+      lastPage: '64'
+      volume: '2'
+    publication:
+      journalName: Pharmacogenomics
+    publicationDate: '2001'
+    title: 'ABC drug transporters: hereditary polymorphisms and pharmacological impact
+      in MDR1, MRP1 and MRP2.'
+    type: journal article
+  scope:
+  - REVIEW
+- citation:
+    authors:
+    - Begley G.S.
+    - Horvath A.R.
+    - Taylor J.C.
+    - Higgins C.F.
+    dbReferences:
+    - id: '15488952'
+      type: PubMed
+    - id: 10.1016/j.molimm.2004.07.005
+      type: DOI
+    location:
+      firstPage: '137'
+      lastPage: '141'
+      volume: '42'
+    publication:
+      journalName: Mol. Immunol.
+    publicationDate: '2005'
+    title: Cytoplasmic domains of the transporter associated with antigen processing
+      and P-glycoprotein interact with subunits of the proteasome.
+    type: journal article
+  scope:
+  - INTERACTION WITH PSMB5
+- citation:
+    authors:
+    - Dephoure N.
+    - Zhou C.
+    - Villen J.
+    - Beausoleil S.A.
+    - Bakalarski C.E.
+    - Elledge S.J.
+    - Gygi S.P.
+    dbReferences:
+    - id: '18669648'
+      type: PubMed
+    - id: 10.1073/pnas.0805139105
+      type: DOI
+    location:
+      firstPage: '10762'
+      lastPage: '10767'
+      volume: '105'
+    publication:
+      journalName: Proc. Natl. Acad. Sci. U.S.A.
+    publicationDate: '2008'
+    title: A quantitative atlas of mitotic phosphorylation.
+    type: journal article
+  scope:
+  - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+  source:
+    tissue:
+    - value: Cervix carcinoma
+- citation:
+    authors:
+    - Burkard T.R.
+    - Planyavsky M.
+    - Kaupe I.
+    - Breitwieser F.P.
+    - Buerckstuemmer T.
+    - Bennett K.L.
+    - Superti-Furga G.
+    - Colinge J.
+    dbReferences:
+    - id: '21269460'
+      type: PubMed
+    - id: 10.1186/1752-0509-5-17
+      type: DOI
+    location:
+      firstPage: '17'
+      lastPage: '17'
+      volume: '5'
+    publication:
+      journalName: BMC Syst. Biol.
+    publicationDate: '2011'
+    title: Initial characterization of the human central proteome.
+    type: journal article
+  scope:
+  - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+- citation:
+    authors:
+    - Katayama K.
+    - Yamaguchi M.
+    - Noguchi K.
+    - Sugimoto Y.
+    dbReferences:
+    - id: '24333728'
+      type: PubMed
+    - id: 10.1016/j.canlet.2013.12.007
+      type: DOI
+    location:
+      firstPage: '124'
+      lastPage: '131'
+      volume: '345'
+    publication:
+      journalName: Cancer Lett.
+    publicationDate: '2014'
+    title: Protein phosphatase complex PP5/PPP2R3C dephosphorylates P-glycoprotein/ABCB1
+      and down-regulates the expression and function.
+    type: journal article
+  scope:
+  - INTERACTION WITH PPP2R3C
+- citation:
+    authors:
+    - Keiser M.
+    - Kaltheuner L.
+    - Wildberg C.
+    - Mueller J.
+    - Grube M.
+    - Partecke L.I.
+    - Heidecke C.D.
+    - Oswald S.
+    dbReferences:
+    - id: '28408210'
+      type: PubMed
+    - id: 10.1016/j.xphs.2017.04.001
+      type: DOI
+    location:
+      firstPage: '2657'
+      lastPage: '2663'
+      volume: '106'
+    publication:
+      journalName: J. Pharm. Sci.
+    publicationDate: '2017'
+    title: The Organic Anion-Transporting Peptide 2B1 Is Localized in the Basolateral
+      Membrane of the Human Jejunum and Caco-2 Monolayers.
+    type: journal article
+  scope:
+  - SUBCELLULAR LOCATION
+  - TISSUE SPECIFICITY
+- citation:
+    authors:
+    - Masud S.N.
+    - Chandrashekhar M.
+    - Aregger M.
+    - Tan G.
+    - Zhang X.
+    - Mero P.
+    - Pirman D.A.
+    - Zaslaver O.
+    - Smolen G.A.
+    - Lin Z.Y.
+    - Wong C.J.
+    - Boone C.
+    - Gingras A.C.
+    - Montenegro-Burke J.R.
+    - Moffat J.
+    dbReferences:
+    - id: '35970996'
+      type: PubMed
+    - id: 10.1038/s41589-022-01109-0
+      type: DOI
+    location:
+      firstPage: '0'
+      lastPage: '0'
+      volume: '0'
+    publication:
+      journalName: Nat. Chem. Biol.
+    publicationDate: '2022'
+    title: Chemical genomics with pyrvinium identifies C1orf115 as a regulator of
+      drug efflux.
+    type: journal article
+  scope:
+  - SUBCELLULAR LOCATION
+  - FUNCTION
+- citation:
+    authors:
+    - Choi K.H.
+    - Chen C.-J.
+    - Kriegler M.
+    - Roninson I.B.
+    dbReferences:
+    - id: '2897240'
+      type: PubMed
+    - id: 10.1016/0092-8674(88)90568-5
+      type: DOI
+    location:
+      firstPage: '519'
+      lastPage: '529'
+      volume: '53'
+    publication:
+      journalName: Cell
+    publicationDate: '1988'
+    title: An altered pattern of cross-resistance in multidrug-resistant human cells
+      results from spontaneous mutations in the mdr1 (P-glycoprotein) gene.
+    type: journal article
+  scope:
+  - VARIANT VAL-185
+  - POLYMORPHISM
+  - FUNCTION
+- citation:
+    authors:
+    - Mickley L.A.
+    - Lee J.-S.
+    - Weng Z.
+    - Zhan Z.
+    - Alvarez M.
+    - Wilson W.
+    - Bates S.E.
+    - Fojo T.
+    dbReferences:
+    - id: '9473242'
+      type: PubMed
+    location:
+      firstPage: '1749'
+      lastPage: '1756'
+      volume: '91'
+    publication:
+      journalName: Blood
+    publicationDate: '1998'
+    title: 'Genetic polymorphism in MDR-1: a tool for examining allelic expression
+      in normal cells, unselected and drug-selected cell lines, and human tumors.'
+    type: journal article
+  scope:
+  - VARIANTS ALA-893 AND THR-999
+- citation:
+    authors:
+    - Decleves X.
+    - Chevillard S.
+    - Charpentier C.
+    - Vielh P.
+    - Laplanche J.-L.
+    dbReferences:
+    - id: '10790226'
+      type: PubMed
+    - id: 10.1002/(sici)1098-1004(200005)15:5<486::aid-humu26>3.0.co;2-p
+      type: DOI
+    location:
+      firstPage: '486'
+      lastPage: '486'
+      volume: '15'
+    publication:
+      journalName: Hum. Mutat.
+    publicationDate: '2000'
+    title: A new polymorphism (N21D) in the exon 2 of the human MDR1 gene encoding
+      the P-glycoprotein.
+    type: journal article
+  scope:
+  - VARIANT ASP-21
+- citation:
+    authors:
+    - Hoffmeyer S.
+    - Burk O.
+    - von Richter O.
+    - Arnold H.P.
+    - Brockmoeller J.
+    - Johne A.
+    - Cascorbi I.
+    - Gerloff T.
+    - Roots I.
+    - Eichelbaum M.
+    - Brinkmann U.
+    dbReferences:
+    - id: '10716719'
+      type: PubMed
+    - id: 10.1073/pnas.97.7.3473
+      type: DOI
+    location:
+      firstPage: '3473'
+      lastPage: '3478'
+      volume: '97'
+    publication:
+      journalName: Proc. Natl. Acad. Sci. U.S.A.
+    publicationDate: '2000'
+    title: 'Functional polymorphisms of the human multidrug-resistance gene: multiple
+      sequence variations and correlation of one allele with P-glycoprotein expression
+      and activity in vivo.'
+    type: journal article
+  scope:
+  - VARIANTS ASP-21; LEU-103 AND ASN-400
+- citation:
+    authors:
+    - Cascorbi I.
+    - Gerloff T.
+    - Johne A.
+    - Meisel C.
+    - Hoffmeyer S.
+    - Schwab M.
+    - Schaeffeler E.
+    - Eichelbaum M.
+    - Brinkmann U.
+    - Roots I.
+    dbReferences:
+    - id: '11240981'
+      type: PubMed
+    - id: 10.1067/mcp.2001.114164
+      type: DOI
+    location:
+      firstPage: '169'
+      lastPage: '174'
+      volume: '69'
+    publication:
+      journalName: Clin. Pharmacol. Ther.
+    publicationDate: '2001'
+    title: Frequency of single nucleotide polymorphisms in the P-glycoprotein drug
+      transporter MDR1 gene in white subjects.
+    type: journal article
+  scope:
+  - VARIANTS ASP-21; ASN-400; ALA-893; THR-893 AND PRO-1107
+- citation:
+    authors:
+    - Honda T.
+    - Dan Y.
+    - Koyabu N.
+    - Ieiri I.
+    - Otsubo K.
+    - Higuchi S.
+    - Ohtani H.
+    - Sawada J.
+    dbReferences:
+    - id: '15618700'
+      type: PubMed
+    - id: 10.2133/dmpk.17.479
+      type: DOI
+    location:
+      firstPage: '479'
+      lastPage: '481'
+      volume: '17'
+    publication:
+      journalName: Drug Metab. Pharmacokinet.
+    publicationDate: '2002'
+    title: 'Polymorphism of MDR1 gene in healthy Japanese subjects: a novel SNP with
+      an amino acid substitution (Glu108Lys).'
+    type: journal article
+  scope:
+  - VARIANT LYS-108
+- citation:
+    authors:
+    - Itoda M.
+    - Saito Y.
+    - Komamura K.
+    - Ueno K.
+    - Kamakura S.
+    - Ozawa S.
+    - Sawada J.
+    dbReferences:
+    - id: '15618713'
+      type: PubMed
+    - id: 10.2133/dmpk.17.566
+      type: DOI
+    location:
+      firstPage: '566'
+      lastPage: '571'
+      volume: '17'
+    publication:
+      journalName: Drug Metab. Pharmacokinet.
+    publicationDate: '2002'
+    title: Twelve novel single nucleotide polymorphisms in ABCB1/MDR1 among Japanese
+      patients with ventricular tachycardia who were administered amiodarone.
+    type: journal article
+  scope:
+  - VARIANT ILE-1251
+- citation:
+    authors:
+    - Saito S.
+    - Iida A.
+    - Sekine A.
+    - Miura Y.
+    - Ogawa C.
+    - Kawauchi S.
+    - Higuchi S.
+    - Nakamura Y.
+    dbReferences:
+    - id: '11829140'
+      type: PubMed
+    - id: 10.1007/s10038-002-8653-6
+      type: DOI
+    location:
+      firstPage: '38'
+      lastPage: '50'
+      volume: '47'
+    publication:
+      journalName: J. Hum. Genet.
+    publicationDate: '2002'
+    title: Three hundred twenty-six genetic variations in genes encoding nine members
+      of ATP-binding cassette, subfamily B (ABCB/MDR/TAP), in the Japanese population.
+    type: journal article
+  scope:
+  - VARIANTS ALA-893 AND THR-893
+- citation:
+    authors:
+    - Brant S.R.
+    - Panhuysen C.I.M.
+    - Nicolae D.
+    - Reddy D.M.
+    - Bonen D.K.
+    - Karaliukas R.
+    - Zhang L.
+    - Swanson E.
+    - Datta L.W.
+    - Moran T.
+    - Ravenhill G.
+    - Duerr R.H.
+    - Achkar J.-P.
+    - Karban A.S.
+    - Cho J.H.
+    dbReferences:
+    - id: '14610718'
+      type: PubMed
+    - id: 10.1086/379927
+      type: DOI
+    location:
+      firstPage: '1282'
+      lastPage: '1292'
+      volume: '73'
+    publication:
+      journalName: Am. J. Hum. Genet.
+    publicationDate: '2003'
+    title: MDR1 Ala893 polymorphism is associated with inflammatory bowel disease.
+    type: journal article
+  scope:
+  - VARIANTS ALA-893 AND THR-893
+  - ASSOCIATION WITH SUSCEPTIBILITY TO IBD13
+- citation:
+    authors:
+    - Brant S.R.
+    - Panhuysen C.I.M.
+    - Nicolae D.
+    - Reddy D.M.
+    - Bonen D.K.
+    - Karaliukas R.
+    - Zhang L.
+    - Swanson E.
+    - Datta L.W.
+    - Moran T.
+    - Ravenhill G.
+    - Duerr R.H.
+    - Achkar J.-P.
+    - Karban A.S.
+    - Cho J.H.
+    location:
+      firstPage: '1080'
+      lastPage: '1080'
+      volume: '74'
+    publication:
+      journalName: Am. J. Hum. Genet.
+    publicationDate: '2004'
+    type: journal article
+  scope:
+  - ERRATUM OF PUBMED:14610718
+- citation:
+    authors:
+    - Sjoeblom T.
+    - Jones S.
+    - Wood L.D.
+    - Parsons D.W.
+    - Lin J.
+    - Barber T.D.
+    - Mandelker D.
+    - Leary R.J.
+    - Ptak J.
+    - Silliman N.
+    - Szabo S.
+    - Buckhaults P.
+    - Farrell C.
+    - Meeh P.
+    - Markowitz S.D.
+    - Willis J.
+    - Dawson D.
+    - Willson J.K.V.
+    - Gazdar A.F.
+    - Hartigan J.
+    - Wu L.
+    - Liu C.
+    - Parmigiani G.
+    - Park B.H.
+    - Bachman K.E.
+    - Papadopoulos N.
+    - Vogelstein B.
+    - Kinzler K.W.
+    - Velculescu V.E.
+    dbReferences:
+    - id: '16959974'
+      type: PubMed
+    - id: 10.1126/science.1133427
+      type: DOI
+    location:
+      firstPage: '268'
+      lastPage: '274'
+      volume: '314'
+    publication:
+      journalName: Science
+    publicationDate: '2006'
+    title: The consensus coding sequences of human breast and colorectal cancers.
+    type: journal article
+  scope:
+  - VARIANT [LARGE SCALE ANALYSIS] ASN-887
+secondaryAccession:
+- A8K294
+- B5AK60
+- Q12755
+- Q14812
+sequence:
+  length: 1280
+  mass: 141479
+  modified: '2009-05-26'
+  sequence: MDLEGDRNGGAKKKNFFKLNNKSEKDKKEKKPTVSVFSMFRYSNWLDKLYMVVGTLAAIIHGAGLPLMMLVFGEMTDIFANAGNLEDLMSNITNRSDINDTGFFMNLEEDMTRYAYYYSGIGAGVLVAAYIQVSFWCLAAGRQIHKIRKQFFHAIMRQEIGWFDVHDVGELNTRLTDDVSKINEGIGDKIGMFFQSMATFFTGFIVGFTRGWKLTLVILAISPVLGLSAAVWAKILSSFTDKELLAYAKAGAVAEEVLAAIRTVIAFGGQKKELERYNKNLEEAKRIGIKKAITANISIGAAFLLIYASYALAFWYGTTLVLSGEYSIGQVLTVFFSVLIGAFSVGQASPSIEAFANARGAAYEIFKIIDNKPSIDSYSKSGHKPDNIKGNLEFRNVHFSYPSRKEVKILKGLNLKVQSGQTVALVGNSGCGKSTTVQLMQRLYDPTEGMVSVDGQDIRTINVRFLREIIGVVSQEPVLFATTIAENIRYGRENVTMDEIEKAVKEANAYDFIMKLPHKFDTLVGERGAQLSGGQKQRIAIARALVRNPKILLLDEATSALDTESEAVVQVALDKARKGRTTIVIAHRLSTVRNADVIAGFDDGVIVEKGNHDELMKEKGIYFKLVTMQTAGNEVELENAADESKSEIDALEMSSNDSRSSLIRKRSTRRSVRGSQAQDRKLSTKEALDESIPPVSFWRIMKLNLTEWPYFVVGVFCAIINGGLQPAFAIIFSKIIGVFTRIDDPETKRQNSNLFSLLFLALGIISFITFFLQGFTFGKAGEILTKRLRYMVFRSMLRQDVSWFDDPKNTTGALTTRLANDAAQVKGAIGSRLAVITQNIANLGTGIIISFIYGWQLTLLLLAIVPIIAIAGVVEMKMLSGQALKDKKELEGSGKIATEAIENFRTVVSLTQEQKFEHMYAQSLQVPYRNSLRKAHIFGITFSFTQAMMYFSYAGCFRFGAYLVAHKLMSFEDVLLVFSAVVFGAMAVGQVSSFAPDYAKAKISAAHIIMIIEKTPLIDSYSTEGLMPNTLEGNVTFGEVVFNYPTRPDIPVLQGLSLEVKKGQTLALVGSSGCGKSTVVQLLERFYDPLAGKVLLDGKEIKRLNVQWLRAHLGIVSQEPILFDCSIAENIAYGDNSRVVSQEEIVRAAKEANIHAFIESLPNKYSTKVGDKGTQLSGGQKQRIAIARALVRQPHILLLDEATSALDTESEKVVQEALDKAREGRTCIVIAHRLSTIQNADLIVVFQNGRVKEHGTHQQLLAQKGIYFSMVSVQAGTKRQ
+  version: 3

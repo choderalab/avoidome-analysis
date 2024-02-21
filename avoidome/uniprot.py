@@ -7,6 +7,8 @@ from pydantic import BaseModel, Field
 import asapdiscovery.data.schema_v2.schema_base as schema_base
 from avoidome.schema import (
     ProteinEntity,
+)
+from avoidome.structures import (
     StructureEntry,
     ExperimentalStructure,
     PredictedStructure,

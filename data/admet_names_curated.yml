@@ -134,6 +134,7 @@
 - name: Adrenergic receptor B1
   alternatives: ADRB1_HUMAN, Beta-1 adrenergic receptor
   uniprot: P08588
+  admet_category: toxicity
 - name: Adrenergic receptor B2
   alternatives: ADRB2_HUMAN, Beta-2 adrenergic receptor
   uniprot: P07550
@@ -142,6 +143,7 @@
 - name: Cannabinoid receptor CB1
   alternatives: Cannabinoid receptor 1, CB-R, CB1
   uniprot: P21554
+  admet_category: toxicity
 - name: Cannabinoid receptor CB2
   alternatives: CNR2_HUMAN, Cannabinoid receptor 2
   uniprot: P34972

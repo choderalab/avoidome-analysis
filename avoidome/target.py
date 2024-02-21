@@ -1,16 +1,23 @@
 import numpy as np
-from pydantic import Field
+from pydantic import Field, BaseModel
 
-from avoidome.structures import StructureEntry, ExperimentalStructure, PredictedStructure
+from avoidome.structures import (
+    StructureEntry,
+    ExperimentalStructure,
+    PredictedStructure,
+)
+from avoidome.uniprot import UniprotEntry
 
 
-class TargetStructureData(Target):
+class TargetStructureData(BaseModel):
     """
     A class to represent a protein target
     """
 
-    name: str = Field(..., title="The name of the protein")
+    uniprot_id: str = Field(..., title="The UniProt ID of the protein")
+    target_name: str = Field(..., title="The name of the protein target")
     structures: list[StructureEntry] = Field(..., title="A list of structure entries")
+    sequence: str = Field(..., title="The sequence of the protein")
 
     @property
     def sequence_length(self) -> int:
@@ -44,4 +51,11 @@ class TargetStructureData(Target):
         return len([s for s in self.structures if isinstance(s, PredictedStructure)])
 
     @classmethod
-    def from_uniprot_entry
+    def from_uniprot_entry(cls, uniprot: UniprotEntry):
+        return cls(
+            uniprot_id=uniprot.uniprot_id,
+            target_name=uniprot.name,
+            sequence=uniprot.sequence,
+            structures=uniprot.get_experimental_structures()
+            + uniprot.get_alphafold_structures(),
+        )

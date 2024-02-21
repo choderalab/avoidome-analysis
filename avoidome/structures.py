@@ -2,6 +2,7 @@ import numpy as np
 from pydantic import BaseModel, Field
 
 from avoidome.schema import ProteinEntity
+from asapdiscovery.data.schema_v2.ligand import Ligand
 
 
 class StructureEntry(BaseModel):

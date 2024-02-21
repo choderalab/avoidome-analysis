@@ -1,0 +1,863 @@
+data:
+  accession: Q06546
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22306510
+          id: '22306510'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22306510
+      value: Transcription factor capable of interacting with purine rich repeats
+        (GA repeats). Positively regulates transcription of transcriptional repressor
+        RHIT/ZNF205 (PubMed:22306510)
+    type: FUNCTION
+  - text:
+    - value: (Microbial infection) Necessary for the expression of the Adenovirus
+        E4 gene
+    type: FUNCTION
+  - text:
+    - value: Heterotetramer of two alpha and two beta subunits
+    type: SUBUNIT
+  - interactions:
+    - accession1: Q06546
+      accession2: Q06547
+      experiments: 3
+      gene: GABPB1
+      interactor1: EBI-638925
+      interactor2: EBI-618165
+      organismDiffer: false
+    - accession1: Q06546
+      accession2: Q8TAK5
+      experiments: 4
+      gene: GABPB2
+      interactor1: EBI-638925
+      interactor2: EBI-8468945
+      organismDiffer: false
+    - accession1: Q06546
+      accession2: P51610
+      experiments: 2
+      gene: HCFC1
+      interactor1: EBI-638925
+      interactor2: EBI-396176
+      organismDiffer: false
+    - accession1: Q06546
+      accession2: O75716
+      experiments: 3
+      gene: STK16
+      interactor1: EBI-638925
+      interactor2: EBI-749295
+      organismDiffer: false
+    - accession1: Q06546
+      accession2: Q5TFG8
+      experiments: 3
+      gene: ZC2HC1B
+      interactor1: EBI-638925
+      interactor2: EBI-12275374
+      organismDiffer: false
+    type: INTERACTION
+  - locations:
+    - location:
+        value: Nucleus
+    type: SUBCELLULAR_LOCATION
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22306510
+          id: '22306510'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22306510
+      value: In spleen mRNA levels are higher in adult than in fetal tissue
+    type: DEVELOPMENTAL_STAGE
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the ETS family
+    type: SIMILARITY
+  dbReferences:
+  - id: D13318
+    properties:
+      molecule type: mRNA
+      protein sequence ID: BAA02575.1
+    type: EMBL
+  - id: U13044
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA65706.1
+    type: EMBL
+  - id: CCDS13575.1
+    type: CCDS
+  - id: A48146
+    properties:
+      entry name: A48146
+    type: PIR
+  - id: I38739
+    properties:
+      entry name: I38739
+    type: PIR
+  - id: NP_001184226.1
+    properties:
+      nucleotide sequence ID: NM_001197297.1
+    type: RefSeq
+  - id: NP_002031.2
+    properties:
+      nucleotide sequence ID: NM_002040.3
+    type: RefSeq
+  - id: XP_005260995.1
+    properties:
+      nucleotide sequence ID: XM_005260938.4
+    type: RefSeq
+  - id: XP_011527822.1
+    properties:
+      nucleotide sequence ID: XM_011529520.2
+    type: RefSeq
+  - id: XP_011527823.1
+    properties:
+      nucleotide sequence ID: XM_011529521.2
+    type: RefSeq
+  - id: XP_016883802.1
+    properties:
+      nucleotide sequence ID: XM_017028313.1
+    type: RefSeq
+  - id: Q06546
+    type: AlphaFoldDB
+  - id: Q06546
+    type: BMRB
+  - id: Q06546
+    type: SMR
+  - id: '108826'
+    properties:
+      interactions: '122'
+    type: BioGRID
+  - id: DIP-33980N
+    type: DIP
+  - id: Q06546
+    properties:
+      interactions: '26'
+    type: IntAct
+  - id: Q06546
+    type: MINT
+  - id: 9606.ENSP00000346886
+    type: STRING
+  - id: Q06546
+    properties:
+      glycosylation: 4 sites, 2 glycans
+    type: GlyCosmos
+  - id: Q06546
+    properties:
+      glycosylation: 7 sites, 2 O-linked glycans (7 sites)
+    type: GlyGen
+  - id: Q06546
+    type: iPTMnet
+  - id: Q06546
+    type: PhosphoSitePlus
+  - id: GABPA
+    type: BioMuta
+  - id: '729553'
+    type: DMDM
+  - id: Q06546
+    type: EPD
+  - id: Q06546
+    type: jPOST
+  - id: Q06546
+    type: MassIVE
+  - id: Q06546
+    type: MaxQB
+  - id: 9606-ENSP00000346886
+    type: PaxDb
+  - id: Q06546
+    type: PeptideAtlas
+  - id: '58457'
+    type: ProteomicsDB
+  - id: Q06546
+    type: Pumba
+  - id: '919'
+    properties:
+      antibodies: 448 antibodies from 32 providers
+    type: Antibodypedia
+  - id: '2551'
+    type: DNASU
+  - id: ENST00000354828.7
+    properties:
+      gene ID: ENSG00000154727.11
+      protein sequence ID: ENSP00000346886.3
+    type: Ensembl
+  - id: ENST00000400075.4
+    properties:
+      gene ID: ENSG00000154727.11
+      protein sequence ID: ENSP00000382948.3
+    type: Ensembl
+  - id: '2551'
+    type: GeneID
+  - id: hsa:2551
+    type: KEGG
+  - id: ENST00000400075.4
+    properties:
+      RefSeq nucleotide sequence ID: NM_002040.4
+      RefSeq protein sequence ID: NP_002031.2
+      protein sequence ID: ENSP00000382948.3
+    type: MANE-Select
+  - id: uc002ylx.5
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:4071
+    type: AGR
+  - id: '2551'
+    type: CTD
+  - id: '2551'
+    type: DisGeNET
+  - id: GABPA
+    type: GeneCards
+  - id: HGNC:4071
+    properties:
+      gene designation: GABPA
+    type: HGNC
+  - id: ENSG00000154727
+    properties:
+      expression patterns: Low tissue specificity
+    type: HPA
+  - id: '600609'
+    properties:
+      type: gene
+    type: MIM
+  - id: NX_Q06546
+    type: neXtProt
+  - id: ENSG00000154727
+    type: OpenTargets
+  - id: PA28485
+    type: PharmGKB
+  - id: HostDB:ENSG00000154727
+    type: VEuPathDB
+  - id: KOG3806
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000155799
+    type: GeneTree
+  - id: CLU_037064_0_0_1
+    type: HOGENOM
+  - id: Q06546
+    type: InParanoid
+  - id: YSFWLQD
+    type: OMA
+  - id: 3915960at2759
+    type: OrthoDB
+  - id: Q06546
+    type: PhylomeDB
+  - id: TF350537
+    type: TreeFam
+  - id: Q06546
+    type: PathwayCommons
+  - id: R-HSA-2151201
+    properties:
+      pathway name: Transcriptional activation of mitochondrial biogenesis
+    type: Reactome
+  - id: Q06546
+    type: SignaLink
+  - id: '2551'
+    properties:
+      hits: 546 hits in 1155 CRISPR screens
+    type: BioGRID-ORCS
+  - id: GABPA
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: GABPA
+    type: GeneWiki
+  - id: '2551'
+    type: GenomeRNAi
+  - id: Q06546
+    properties:
+      development level: Tbio
+    type: Pharos
+  - id: PR:Q06546
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 21
+    type: Proteomes
+  - id: Q06546
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000154727
+    properties:
+      expression patterns: Expressed in calcaneal tendon and 188 other cell types
+        or tissues
+    type: Bgee
+  - id: Q06546
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: Q06546
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22306510
+        id: '22306510'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22306510
+    id: GO:0000785
+    properties:
+      source: IDA:BHF-UCL
+      term: C:chromatin
+    type: GO
+  - id: GO:0005654
+    properties:
+      source: IDA:HPA
+      term: C:nucleoplasm
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9857059
+        id: '9857059'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9857059
+    id: GO:0005634
+    properties:
+      source: IDA:MGI
+      term: C:nucleus
+    type: GO
+  - id: GO:0003682
+    properties:
+      source: IEA:Ensembl
+      term: F:chromatin binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12750007
+        id: '12750007'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12750007
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22306510
+        id: '22306510'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22306510
+    id: GO:0001228
+    properties:
+      source: IDA:NTNU_SB
+      term: F:DNA-binding transcription activator activity, RNA polymerase II-specific
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/7590737
+        id: '7590737'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/7590737
+    id: GO:0003700
+    properties:
+      source: TAS:ProtInc
+      term: F:DNA-binding transcription factor activity
+    type: GO
+  - id: GO:0000981
+    properties:
+      source: ISA:NTNU_SB
+      term: F:DNA-binding transcription factor activity, RNA polymerase II-specific
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12750007
+        id: '12750007'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12750007
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22306510
+        id: '22306510'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22306510
+    id: GO:0000978
+    properties:
+      source: IDA:NTNU_SB
+      term: F:RNA polymerase II cis-regulatory region sequence-specific DNA binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/28473536
+        id: '28473536'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/28473536
+    id: GO:1990837
+    properties:
+      source: IDA:ARUK-UCL
+      term: F:sequence-specific double-stranded DNA binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9857059
+        id: '9857059'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9857059
+    id: GO:0000976
+    properties:
+      source: IDA:MGI
+      term: F:transcription cis-regulatory region binding
+    type: GO
+  - id: GO:0001825
+    properties:
+      source: IEA:Ensembl
+      term: P:blastocyst formation
+    type: GO
+  - id: GO:0045653
+    properties:
+      source: IEA:Ensembl
+      term: P:negative regulation of megakaryocyte differentiation
+    type: GO
+  - id: GO:0000122
+    properties:
+      source: IEA:Ensembl
+      term: P:negative regulation of transcription by RNA polymerase II
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24501276
+        id: '24501276'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24501276
+    id: GO:0045944
+    properties:
+      source: IDA:UniProtKB
+      term: P:positive regulation of transcription by RNA polymerase II
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0006357
+    properties:
+      source: IBA:GO_Central
+      term: P:regulation of transcription by RNA polymerase II
+    type: GO
+  - id: cd08534
+    properties:
+      entry name: SAM_PNT-GABP-alpha
+      match status: '1'
+    type: CDD
+  - id: cd17039
+    properties:
+      entry name: Ubl_ubiquitin_like
+      match status: '1'
+    type: CDD
+  - id: 1.10.150.50
+    properties:
+      entry name: Transcription Factor, Ets-1
+      match status: '1'
+    type: Gene3D
+  - id: 1.10.10.10
+    properties:
+      entry name: Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding
+        domain
+      match status: '1'
+    type: Gene3D
+  - id: IPR000418
+    properties:
+      entry name: Ets_dom
+    type: InterPro
+  - id: IPR046328
+    properties:
+      entry name: ETS_fam
+    type: InterPro
+  - id: IPR024668
+    properties:
+      entry name: GABP_asu_N
+    type: InterPro
+  - id: IPR003118
+    properties:
+      entry name: Pointed_dom
+    type: InterPro
+  - id: IPR013761
+    properties:
+      entry name: SAM/pointed_sf
+    type: InterPro
+  - id: IPR016312
+    properties:
+      entry name: TF_GA-bd_asu
+    type: InterPro
+  - id: IPR029071
+    properties:
+      entry name: Ubiquitin-like_domsf
+    type: InterPro
+  - id: IPR036388
+    properties:
+      entry name: WH-like_DNA-bd_sf
+    type: InterPro
+  - id: IPR036390
+    properties:
+      entry name: WH_DNA-bd_sf
+    type: InterPro
+  - id: PTHR11849
+    properties:
+      entry name: ETS
+      match status: '1'
+    type: PANTHER
+  - id: PTHR11849:SF195
+    properties:
+      entry name: GA-BINDING PROTEIN ALPHA CHAIN
+      match status: '1'
+    type: PANTHER
+  - id: PF00178
+    properties:
+      entry name: Ets
+      match status: '1'
+    type: Pfam
+  - id: PF11620
+    properties:
+      entry name: GABP-alpha
+      match status: '1'
+    type: Pfam
+  - id: PF02198
+    properties:
+      entry name: SAM_PNT
+      match status: '1'
+    type: Pfam
+  - id: PIRSF001703
+    properties:
+      entry name: GABP_alpha
+      match status: '1'
+    type: PIRSF
+  - id: PR00454
+    properties:
+      entry name: ETSDOMAIN
+    type: PRINTS
+  - id: SM00413
+    properties:
+      entry name: ETS
+      match status: '1'
+    type: SMART
+  - id: SM00251
+    properties:
+      entry name: SAM_PNT
+      match status: '1'
+    type: SMART
+  - id: SSF47769
+    properties:
+      entry name: SAM/Pointed domain
+      match status: '1'
+    type: SUPFAM
+  - id: SSF54236
+    properties:
+      entry name: Ubiquitin-like
+      match status: '1'
+    type: SUPFAM
+  - id: SSF46785
+    properties:
+      entry name: Winged helix' DNA-binding domain
+      match status: '1'
+    type: SUPFAM
+  - id: PS00345
+    properties:
+      entry name: ETS_DOMAIN_1
+      match status: '1'
+    type: PROSITE
+  - id: PS00346
+    properties:
+      entry name: ETS_DOMAIN_2
+      match status: '1'
+    type: PROSITE
+  - id: PS50061
+    properties:
+      entry name: ETS_DOMAIN_3
+      match status: '1'
+    type: PROSITE
+  - id: PS51433
+    properties:
+      entry name: PNT
+      match status: '1'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: GA-binding protein alpha chain
+    end: '454'
+    ftId: PRO_0000204127
+    molecule: ''
+    type: CHAIN
+  - begin: '168'
+    category: DOMAINS_AND_SITES
+    description: PNT
+    end: '251'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00762
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00762
+    molecule: ''
+    type: DOMAIN
+  - begin: '320'
+    category: DOMAINS_AND_SITES
+    description: ETS
+    end: '400'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00237
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00237
+    molecule: ''
+    type: DNA_BIND
+  - begin: '297'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '316'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '303'
+    category: PTM
+    description: Phosphoserine
+    end: '303'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23186163
+        id: '23186163'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23186163
+    molecule: ''
+    type: MOD_RES
+  - alternativeSequence: V
+    begin: '291'
+    category: VARIANTS
+    description: in dbSNP:rs2829897
+    end: '291'
+    ftId: VAR_020315
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: K
+    begin: '345'
+    category: VARIANTS
+    description: in dbSNP:rs2829900
+    end: '345'
+    ftId: VAR_020316
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: RC
+    begin: '289'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 2; AAA65706
+    end: '290'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: V
+    begin: '440'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 2; AAA65706
+    end: '440'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  gene:
+  - name:
+      value: GABPA
+    synonyms:
+    - value: E4TF1A
+  id: GABPA_HUMAN
+  info:
+    created: '1995-02-01'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 214
+  keywords:
+  - value: DNA-binding
+  - value: Nucleus
+  - value: Phosphoprotein
+  - value: Reference proteome
+  - value: Transcription
+  - value: Transcription regulation
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        value: Nuclear respiratory factor 2 subunit alpha
+    - fullName:
+        value: Transcription factor E4TF1-60
+    recommendedName:
+      fullName:
+        value: GA-binding protein alpha chain
+      shortName:
+      - value: GABP subunit alpha
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Watanabe H.
+      - Sawada J.
+      - Yano K.
+      - Yamaguchi K.
+      - Goto M.
+      - Handa H.
+      dbReferences:
+      - id: '8441384'
+        type: PubMed
+      - id: 10.1128/mcb.13.3.1385-1391.1993
+        type: DOI
+      location:
+        firstPage: '1385'
+        lastPage: '1391'
+        volume: '13'
+      publication:
+        journalName: Mol. Cell. Biol.
+      publicationDate: '1993'
+      title: cDNA cloning of transcription factor E4TF1 subunits with Ets and notch
+        motifs.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+  - citation:
+      authors:
+      - Gugneja S.
+      - Virbasius J.V.
+      - Scarpulla R.C.
+      dbReferences:
+      - id: '7799916'
+        type: PubMed
+      - id: 10.1128/mcb.15.1.102
+        type: DOI
+      location:
+        firstPage: '102'
+        lastPage: '111'
+        volume: '15'
+      publication:
+        journalName: Mol. Cell. Biol.
+      publicationDate: '1995'
+      title: Four structurally distinct, non-DNA-binding subunits of human nuclear
+        respiratory factor 2 share a conserved transcriptional activation domain.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+  - citation:
+      authors:
+      - Burkard T.R.
+      - Planyavsky M.
+      - Kaupe I.
+      - Breitwieser F.P.
+      - Buerckstuemmer T.
+      - Bennett K.L.
+      - Superti-Furga G.
+      - Colinge J.
+      dbReferences:
+      - id: '21269460'
+        type: PubMed
+      - id: 10.1186/1752-0509-5-17
+        type: DOI
+      location:
+        firstPage: '17'
+        lastPage: '17'
+        volume: '5'
+      publication:
+        journalName: BMC Syst. Biol.
+      publicationDate: '2011'
+      title: Initial characterization of the human central proteome.
+      type: journal article
+    scope:
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+  - citation:
+      authors:
+      - Zhou H.
+      - Di Palma S.
+      - Preisinger C.
+      - Peng M.
+      - Polat A.N.
+      - Heck A.J.
+      - Mohammed S.
+      dbReferences:
+      - id: '23186163'
+        type: PubMed
+      - id: 10.1021/pr300630k
+        type: DOI
+      location:
+        firstPage: '260'
+        lastPage: '271'
+        volume: '12'
+      publication:
+        journalName: J. Proteome Res.
+      publicationDate: '2013'
+      title: Toward a comprehensive characterization of a human cancer cell phosphoproteome.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-303
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Cervix carcinoma
+  - citation:
+      authors:
+      - Iida R.
+      - Ueki M.
+      - Yasuda T.
+      dbReferences:
+      - id: '22306510'
+        type: PubMed
+      - id: 10.1016/j.freeradbiomed.2012.01.003
+        type: DOI
+      location:
+        firstPage: '1413'
+        lastPage: '1422'
+        volume: '52'
+      publication:
+        journalName: Free Radic. Biol. Med.
+      publicationDate: '2012'
+      title: Identification of Rhit as a novel transcriptional repressor of human
+        Mpv17-like protein with a mitigating effect on mitochondrial dysfunction,
+        and its transcriptional regulation by FOXD3 and GABP.
+      type: journal article
+    scope:
+    - FUNCTION
+    - DEVELOPMENTAL STAGE
+  secondaryAccession:
+  - Q12939
+  sequence:
+    length: 454
+    mass: 51295
+    modified: '1995-02-01'
+    sequence: MTKREAEELIEIEIDGTEKAECTEESIVEQTYAPAECVSQAIDINEPIGNLKKLLEPRLQCSLDAHEICLQDIQLDPERSLFDQGVKTDGTVQLSVQVISYQGIEPKLNILEIVKPADTVEVVIDPDAHHAESEAHLVEEAQVITLDGTKHITTISDETSEQVTRWAAALEGYRKEQERLGIPYDPIQWSTDQVLHWVVWVMKEFSMTDIDLTTLNISGRELCSLNQEDFFQRVPRGEILWSHLELLRKYVLASQEQQMNEIVTIDQPVQIIPASVQSATPTTIKVINSSAKAAKVQRAPRISGEDRSSPGNRTGNNGQIQLWQFLLELLTDKDARDCISWVGDEGEFKLNQPELVAQKWGQRKNKPTMNYEKLSRALRYYYDGDMICKVQGKRFVYKFVCDLKTLIGYSAAELNRLVTECEQKKLAKMQLHGIAQPVTAVALATASLQTEKDN
+    version: 1
+uniprot_id: Q06546

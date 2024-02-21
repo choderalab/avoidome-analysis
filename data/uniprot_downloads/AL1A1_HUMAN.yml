@@ -1,0 +1,3818 @@
+data:
+  accession: P00352
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P24549
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P24549
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12941160
+          id: '12941160'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15623782
+          id: '15623782'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15623782
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17175089
+          id: '17175089'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17175089
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19296407
+          id: '19296407'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/25450233
+          id: '25450233'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/25450233
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26373694
+          id: '26373694'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26373694
+      value: Cytosolic dehydrogenase that catalyzes the irreversible oxidation of
+        a wide range of aldehydes to their corresponding carboxylic acid (PubMed:19296407,
+        PubMed:12941160, PubMed:15623782, PubMed:17175089, PubMed:26373694, PubMed:25450233).
+        Functions downstream of retinol dehydrogenases and catalyzes the oxidation
+        of retinaldehyde into retinoic acid, the second step in the oxidation of retinol/vitamin
+        A into retinoic acid (By similarity). This pathway is crucial to control the
+        levels of retinol and retinoic acid, two important molecules which excess
+        can be teratogenic and cytotoxic (By similarity). Also oxidizes aldehydes
+        resulting from lipid peroxidation like (E)-4-hydroxynon-2-enal/HNE, malonaldehyde
+        and hexanal that form protein adducts and are highly cytotoxic. By participating
+        for instance to the clearance of (E)-4-hydroxynon-2-enal/HNE in the lens epithelium
+        prevents the formation of HNE-protein adducts and lens opacification (PubMed:19296407,
+        PubMed:12941160, PubMed:15623782). Functions also downstream of fructosamine-3-kinase
+        in the fructosamine degradation pathway by catalyzing the oxidation of 3-deoxyglucosone,
+        the carbohydrate product of fructosamine 3-phosphate decomposition, which
+        is itself a potent glycating agent that may react with lysine and arginine
+        side-chains of proteins (PubMed:17175089). Has also an aminobutyraldehyde
+        dehydrogenase activity and is probably part of an alternative pathway for
+        the biosynthesis of GABA/4-aminobutanoate in midbrain, thereby playing a role
+        in GABAergic synaptic transmission (By similarity)
+    type: FUNCTION
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:16186
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19296407
+          id: '19296407'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+    reaction:
+      dbReferences:
+      - id: RHEA:16185
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:17478
+        type: ChEBI
+      - id: CHEBI:29067
+        type: ChEBI
+      - id: CHEBI:57540
+        type: ChEBI
+      - id: CHEBI:57945
+        type: ChEBI
+      ecNumber: 1.2.1.3
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12941160
+          id: '12941160'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15623782
+          id: '15623782'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15623782
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17175089
+          id: '17175089'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17175089
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19296407
+          id: '19296407'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+      name: an aldehyde + H2O + NAD(+) = a carboxylate + 2 H(+) + NADH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:42081
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P51647
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P51647
+    reaction:
+      dbReferences:
+      - id: RHEA:42080
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:17898
+        type: ChEBI
+      - id: CHEBI:35291
+        type: ChEBI
+      - id: CHEBI:57540
+        type: ChEBI
+      - id: CHEBI:57945
+        type: ChEBI
+      ecNumber: 1.2.1.36
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P51647
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P51647
+      name: all-trans-retinal + H2O + NAD(+) = all-trans-retinoate + 2 H(+) + NADH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:42085
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P51647
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P51647
+    reaction:
+      dbReferences:
+      - id: RHEA:42084
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:57540
+        type: ChEBI
+      - id: CHEBI:57945
+        type: ChEBI
+      - id: CHEBI:78273
+        type: ChEBI
+      - id: CHEBI:78630
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P51647
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P51647
+      name: 9-cis-retinal + H2O + NAD(+) = 9-cis-retinoate + 2 H(+) + NADH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:47133
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P51647
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P51647
+    reaction:
+      dbReferences:
+      - id: RHEA:47132
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:16066
+        type: ChEBI
+      - id: CHEBI:57540
+        type: ChEBI
+      - id: CHEBI:57945
+        type: ChEBI
+      - id: CHEBI:87435
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P51647
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P51647
+      name: 11-cis-retinal + H2O + NAD(+) = 11-cis-retinoate + 2 H(+) + NADH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:67333
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: Q8HYE4
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/Q8HYE4
+    reaction:
+      dbReferences:
+      - id: RHEA:67332
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:45487
+        type: ChEBI
+      - id: CHEBI:57540
+        type: ChEBI
+      - id: CHEBI:57945
+        type: ChEBI
+      - id: CHEBI:169952
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: Q8HYE4
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/Q8HYE4
+      name: 13-cis-retinal + H2O + NAD(+) = 13-cis-retinoate + 2 H(+) + NADH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:67245
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17175089
+          id: '17175089'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17175089
+    reaction:
+      dbReferences:
+      - id: RHEA:67244
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:57540
+        type: ChEBI
+      - id: CHEBI:57945
+        type: ChEBI
+      - id: CHEBI:57990
+        type: ChEBI
+      - id: CHEBI:60777
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17175089
+          id: '17175089'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17175089
+      name: 3-deoxyglucosone + H2O + NAD(+) = 2-dehydro-3-deoxy-D-gluconate + 2 H(+)
+        + NADH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:67249
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15623782
+          id: '15623782'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15623782
+    reaction:
+      dbReferences:
+      - id: RHEA:67248
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:57540
+        type: ChEBI
+      - id: CHEBI:57945
+        type: ChEBI
+      - id: CHEBI:58968
+        type: ChEBI
+      - id: CHEBI:142920
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12941160
+          id: '12941160'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15623782
+          id: '15623782'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15623782
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19296407
+          id: '19296407'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+      name: (E)-4-hydroxynon-2-enal + H2O + NAD(+) = (E)-4-hydroxynon-2-enoate + 2
+        H(+) + NADH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:67253
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19296407
+          id: '19296407'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+    reaction:
+      dbReferences:
+      - id: RHEA:67252
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:33190
+        type: ChEBI
+      - id: CHEBI:57540
+        type: ChEBI
+      - id: CHEBI:57945
+        type: ChEBI
+      - id: CHEBI:566274
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12941160
+          id: '12941160'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19296407
+          id: '19296407'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+      name: H2O + malonaldehyde + NAD(+) = 3-oxopropanoate + 2 H(+) + NADH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:67277
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12941160
+          id: '12941160'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+    reaction:
+      dbReferences:
+      - id: RHEA:67276
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:17120
+        type: ChEBI
+      - id: CHEBI:57540
+        type: ChEBI
+      - id: CHEBI:57945
+        type: ChEBI
+      - id: CHEBI:88528
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12941160
+          id: '12941160'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+      name: H2O + hexanal + NAD(+) = 2 H(+) + hexanoate + NADH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:67257
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19296407
+          id: '19296407'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+    reaction:
+      dbReferences:
+      - id: RHEA:67256
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:17153
+        type: ChEBI
+      - id: CHEBI:17272
+        type: ChEBI
+      - id: CHEBI:57540
+        type: ChEBI
+      - id: CHEBI:57945
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12941160
+          id: '12941160'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19296407
+          id: '19296407'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+      name: H2O + NAD(+) + propanal = 2 H(+) + NADH + propanoate
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:25295
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19296407
+          id: '19296407'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+    reaction:
+      dbReferences:
+      - id: RHEA:25294
+        type: Rhea
+      - id: CHEBI:15343
+        type: ChEBI
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:30089
+        type: ChEBI
+      - id: CHEBI:57540
+        type: ChEBI
+      - id: CHEBI:57945
+        type: ChEBI
+      ecNumber: 1.2.1.3
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19296407
+          id: '19296407'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+      name: acetaldehyde + H2O + NAD(+) = acetate + 2 H(+) + NADH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:11841
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19296407
+          id: '19296407'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+    reaction:
+      dbReferences:
+      - id: RHEA:11840
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:16150
+        type: ChEBI
+      - id: CHEBI:17169
+        type: ChEBI
+      - id: CHEBI:57540
+        type: ChEBI
+      - id: CHEBI:57945
+        type: ChEBI
+      ecNumber: 1.2.1.28
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17175089
+          id: '17175089'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17175089
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19296407
+          id: '19296407'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+      name: benzaldehyde + H2O + NAD(+) = benzoate + 2 H(+) + NADH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:19106
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P24549
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P24549
+    reaction:
+      dbReferences:
+      - id: RHEA:19105
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:57540
+        type: ChEBI
+      - id: CHEBI:57945
+        type: ChEBI
+      - id: CHEBI:58264
+        type: ChEBI
+      - id: CHEBI:59888
+        type: ChEBI
+      ecNumber: 1.2.1.19
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P24549
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P24549
+      name: 4-aminobutanal + H2O + NAD(+) = 4-aminobutanoate + 2 H(+) + NADH
+    type: CATALYTIC_ACTIVITY
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19296407
+          id: '19296407'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26373694
+          id: '26373694'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26373694
+      value: Inhibited by citral, disulfiram, and cyanamide. Activated by diethylstilbestrol
+        (PubMed:19296407). Inhibited by duocarmycin analogs (PubMed:26373694)
+    type: ACTIVITY_REGULATION
+  - kinetics:
+      km:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/19296407
+            id: '19296407'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+        value: 59.4 uM for NAD (at pH 8.0)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17175089
+            id: '17175089'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17175089
+        value: 85 uM for NAD (at pH 7.1 and 30 degrees Celsius)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17175089
+            id: '17175089'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17175089
+        value: 2 uM for benzaldehyde (at pH 7.1 and 30 degrees Celsius)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/19296407
+            id: '19296407'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+        value: 4.8 uM for (E)-4-hydroxynon-2-enal (at pH 8.0)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12941160
+            id: '12941160'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+        value: 17.9 uM for (E)-4-hydroxynon-2-enal (at pH 8.0 and 25 degrees Celsius)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12941160
+            id: '12941160'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+        value: 114.4 uM for malonaldehyde (at pH 8.0 and 25 degrees Celsius)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/19296407
+            id: '19296407'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+        value: 3.5 uM for malonaldehyde (at pH 8.0)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17175089
+            id: '17175089'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17175089
+        value: 95 uM for 3-deoxyglucosone (at pH 7.1 and 30 degrees Celsius)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/19296407
+            id: '19296407'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+        value: 238.2 uM for acetaldehyde (at pH 8.0)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/19296407
+            id: '19296407'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+        value: 121.4 uM for propanal (at pH 8.0)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12941160
+            id: '12941160'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+        value: 137.2 uM for propanal (at pH 8.0 and 25 degrees Celsius)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/25450233
+            id: '25450233'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/25450233
+        value: 15 uM for propanal (at pH 7.5)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12941160
+            id: '12941160'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+        value: 13.4 uM for hexanal (at pH 8.0 and 25 degrees Celsius)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/19296407
+            id: '19296407'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+        value: 142.2 uM for benzaldehyde (at pH 8.0)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/19296407
+            id: '19296407'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+        value: 177.1 uM for trans-2-heptenal (at pH 8.0)
+      vmax:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12941160
+            id: '12941160'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+        value: 254.6 nmol/min/mg enzyme with (E)-4-hydroxynon-2-enal (at pH 8.0 and
+          25 degrees Celsius)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/19296407
+            id: '19296407'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+        value: 135.0 nmol/min/mg enzyme with (E)-4-hydroxynon-2-enal (at pH 8.0)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12941160
+            id: '12941160'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+        value: 564.9 nmol/min/mg enzyme with malonaldehyde (at pH 8.0 and 25 degrees
+          Celsius)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/19296407
+            id: '19296407'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+        value: 381.6 nmol/min/mg enzyme with malonaldehyde (at pH 8.0)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17175089
+            id: '17175089'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17175089
+        value: 45.0 nmol/min/mg enzyme with 3-deoxyglucosone (at pH 7.1 and 30 degrees
+          Celsius)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/19296407
+            id: '19296407'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+        value: 631.4 nmol/min/mg enzyme with acetaldehyde (at pH 8.0)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12941160
+            id: '12941160'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+        value: 747.3 nmol/min/mg enzyme with propanal (at pH 8.0 and 25 degrees Celsius)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/19296407
+            id: '19296407'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+        value: 445.3 nmol/min/mg enzyme with propanal (at pH 8.0)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12941160
+            id: '12941160'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+        value: 707.1 nmol/min/mg enzyme with hexanal (at pH 8.0 and 25 degrees Celsius)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/19296407
+            id: '19296407'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+        value: 750.3 nmol/min/mg enzyme with benzaldehyde (at pH 8.0)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17175089
+            id: '17175089'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17175089
+        value: 72.0 nmol/min/mg enzyme with benzaldehyde (at pH 7.1 and 30 degrees
+          Celsius)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/19296407
+            id: '19296407'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+        value: 155.8 nmol/min/mg enzyme with trans-2-heptenal (at pH 8.0)
+    phDependence:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17175089
+          id: '17175089'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17175089
+      value: Optimum pH is 7.1-9 for the 3-deoxyglucosone dehydrogenase activity.
+    type: BIOPHYSICOCHEMICAL_PROPERTIES
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P51647
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P51647
+      value: Cofactor metabolism; retinol metabolism
+    type: PATHWAY
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P51977
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P51977
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/33495566
+          id: '33495566'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/33495566
+      value: Homotetramer (By similarity). Interacts with PRMT3; the interaction is
+        direct, inhibits ALDH1A1 aldehyde dehydrogenase activity and is independent
+        of the methyltransferase activity of PRMT3 (PubMed:33495566)
+    type: SUBUNIT
+  - interactions:
+    - accession1: P00352
+      accession2: P09172
+      experiments: 3
+      gene: DBH
+      interactor1: EBI-752170
+      interactor2: EBI-8589586
+      organismDiffer: false
+    - accession1: P00352
+      accession2: P14136
+      experiments: 3
+      gene: GFAP
+      interactor1: EBI-752170
+      interactor2: EBI-744302
+      organismDiffer: false
+    - accession1: P00352
+      accession2: Q8WXH2
+      experiments: 3
+      gene: JPH3
+      interactor1: EBI-752170
+      interactor2: EBI-1055254
+      organismDiffer: false
+    type: INTERACTION
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12941160
+            id: '12941160'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+        value: Cytoplasm, cytosol
+    - location:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: P24549
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P24549
+        value: Cell projection, axon
+    type: SUBCELLULAR_LOCATION
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17175089
+          id: '17175089'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17175089
+      value: Expressed by erythrocytes (at protein level)
+    type: TISSUE_SPECIFICITY
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P15437
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P15437
+      value: The N-terminus is blocked most probably by acetylation
+    type: PTM
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the aldehyde dehydrogenase family
+    type: SIMILARITY
+  - name: NIEHS-SNPs
+    type: WEBRESOURCE
+    url: http://egp.gs.washington.edu/data/aldh1a1/
+  dbReferences:
+  - id: M31994
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA51692.1
+    type: EMBL
+  - id: M31982
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA51692.1
+      status: JOINED
+    type: EMBL
+  - id: M31983
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA51692.1
+      status: JOINED
+    type: EMBL
+  - id: M31984
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA51692.1
+      status: JOINED
+    type: EMBL
+  - id: M31985
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA51692.1
+      status: JOINED
+    type: EMBL
+  - id: M31986
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA51692.1
+      status: JOINED
+    type: EMBL
+  - id: M31987
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA51692.1
+      status: JOINED
+    type: EMBL
+  - id: M31988
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA51692.1
+      status: JOINED
+    type: EMBL
+  - id: M31989
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA51692.1
+      status: JOINED
+    type: EMBL
+  - id: M31990
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA51692.1
+      status: JOINED
+    type: EMBL
+  - id: M31991
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA51692.1
+      status: JOINED
+    type: EMBL
+  - id: M31992
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA51692.1
+      status: JOINED
+    type: EMBL
+  - id: AF003341
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAC51652.1
+    type: EMBL
+  - id: AY390731
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAR92229.1
+    type: EMBL
+  - id: BT006921
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAP35567.1
+    type: EMBL
+  - id: AY338497
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAP88039.1
+    type: EMBL
+  - id: AL591031
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: CH471089
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW62543.1
+    type: EMBL
+  - id: BC001505
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH01505.1
+    type: EMBL
+  - id: S61235
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAD13925.1
+    type: EMBL
+  - id: M26761
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA35518.1
+    type: EMBL
+  - id: K03000
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA51695.1
+    type: EMBL
+  - id: CCDS6644.1
+    type: CCDS
+  - id: A33371
+    properties:
+      entry name: DEHUE1
+    type: PIR
+  - id: NP_000680.2
+    properties:
+      nucleotide sequence ID: NM_000689.4
+    type: RefSeq
+  - id: 4WB9
+    properties:
+      chains: A=1-501
+      method: X-ray
+      resolution: 2.07 A
+    type: PDB
+  - id: 4WJ9
+    properties:
+      chains: A=1-501
+      method: X-ray
+      resolution: 1.74 A
+    type: PDB
+  - id: 4WP7
+    properties:
+      chains: A=1-501
+      method: X-ray
+      resolution: 1.80 A
+    type: PDB
+  - id: 4WPN
+    properties:
+      chains: A=1-501
+      method: X-ray
+      resolution: 1.95 A
+    type: PDB
+  - id: 4X4L
+    properties:
+      chains: A=1-501
+      method: X-ray
+      resolution: 1.85 A
+    type: PDB
+  - id: 5AC2
+    properties:
+      chains: A=1-501
+      method: X-ray
+      resolution: 1.85 A
+    type: PDB
+  - id: 5L2M
+    properties:
+      chains: A=1-501
+      method: X-ray
+      resolution: 1.70 A
+    type: PDB
+  - id: 5L2N
+    properties:
+      chains: A=1-501
+      method: X-ray
+      resolution: 1.70 A
+    type: PDB
+  - id: 5L2O
+    properties:
+      chains: A/B/C/D/E/F/G/H=1-501
+      method: X-ray
+      resolution: 2.05 A
+    type: PDB
+  - id: 5TEI
+    properties:
+      chains: A=1-501
+      method: X-ray
+      resolution: 2.10 A
+    type: PDB
+  - id: 6DUM
+    properties:
+      chains: A=1-501
+      method: X-ray
+      resolution: 2.00 A
+    type: PDB
+  - id: 7JWS
+    properties:
+      chains: A=1-501
+      method: X-ray
+      resolution: 1.60 A
+    type: PDB
+  - id: 7JWT
+    properties:
+      chains: A=1-501
+      method: X-ray
+      resolution: 1.80 A
+    type: PDB
+  - id: 7JWU
+    properties:
+      chains: A=1-501
+      method: X-ray
+      resolution: 1.90 A
+    type: PDB
+  - id: 7JWV
+    properties:
+      chains: A=1-501
+      method: X-ray
+      resolution: 1.60 A
+    type: PDB
+  - id: 7JWW
+    properties:
+      chains: A=1-501
+      method: X-ray
+      resolution: 1.60 A
+    type: PDB
+  - id: 7UM9
+    properties:
+      chains: A=1-501
+      method: X-ray
+      resolution: 1.80 A
+    type: PDB
+  - id: 8D46
+    properties:
+      chains: A/B/C/D=1-501
+      method: EM
+      resolution: 2.84 A
+    type: PDB
+  - id: 8DNO
+    properties:
+      chains: A/B/C/D=1-501
+      method: EM
+      resolution: 3.40 A
+    type: PDB
+  - id: 8ENE
+    properties:
+      chains: A/B/C/D=1-501
+      method: EM
+      resolution: 2.64 A
+    type: PDB
+  - id: 4WB9
+    type: PDBsum
+  - id: 4WJ9
+    type: PDBsum
+  - id: 4WP7
+    type: PDBsum
+  - id: 4WPN
+    type: PDBsum
+  - id: 4X4L
+    type: PDBsum
+  - id: 5AC2
+    type: PDBsum
+  - id: 5L2M
+    type: PDBsum
+  - id: 5L2N
+    type: PDBsum
+  - id: 5L2O
+    type: PDBsum
+  - id: 5TEI
+    type: PDBsum
+  - id: 6DUM
+    type: PDBsum
+  - id: 7JWS
+    type: PDBsum
+  - id: 7JWT
+    type: PDBsum
+  - id: 7JWU
+    type: PDBsum
+  - id: 7JWV
+    type: PDBsum
+  - id: 7JWW
+    type: PDBsum
+  - id: 7UM9
+    type: PDBsum
+  - id: 8D46
+    type: PDBsum
+  - id: 8DNO
+    type: PDBsum
+  - id: 8ENE
+    type: PDBsum
+  - id: P00352
+    type: AlphaFoldDB
+  - id: EMD-27176
+    type: EMDB
+  - id: EMD-27575
+    type: EMDB
+  - id: EMD-28271
+    type: EMDB
+  - id: P00352
+    type: SMR
+  - id: '106718'
+    properties:
+      interactions: '69'
+    type: BioGRID
+  - id: P00352
+    properties:
+      interactions: '12'
+    type: IntAct
+  - id: 9606.ENSP00000297785
+    type: STRING
+  - id: P00352
+    type: BindingDB
+  - id: CHEMBL3577
+    type: ChEMBL
+  - id: DB04447
+    properties:
+      generic name: 1,4-Dithiothreitol
+    type: DrugBank
+  - id: DB09462
+    properties:
+      generic name: Glycerin
+    type: DrugBank
+  - id: DB00157
+    properties:
+      generic name: NADH
+    type: DrugBank
+  - id: DB00755
+    properties:
+      generic name: Tretinoin
+    type: DrugBank
+  - id: DB00162
+    properties:
+      generic name: Vitamin A
+    type: DrugBank
+  - id: P00352
+    type: DrugCentral
+  - id: P00352
+    properties:
+      glycosylation: 1 site, 1 O-linked glycan (1 site)
+    type: GlyGen
+  - id: P00352
+    type: iPTMnet
+  - id: P00352
+    type: MetOSite
+  - id: P00352
+    type: PhosphoSitePlus
+  - id: P00352
+    type: SwissPalm
+  - id: ALDH1A1
+    type: BioMuta
+  - id: '118495'
+    type: DMDM
+  - id: P00352
+    type: DOSAC-COBS-2DPAGE
+  - id: IPI00218914
+    type: REPRODUCTION-2DPAGE
+  - id: P00352
+    type: REPRODUCTION-2DPAGE
+  - id: P00352
+    type: SWISS-2DPAGE
+  - id: P00352
+    type: UCD-2DPAGE
+  - id: P00352
+    type: EPD
+  - id: P00352
+    type: jPOST
+  - id: P00352
+    type: MassIVE
+  - id: 9606-ENSP00000297785
+    type: PaxDb
+  - id: P00352
+    type: PeptideAtlas
+  - id: '51235'
+    type: ProteomicsDB
+  - id: P00352
+    type: Pumba
+  - id: '1064'
+    properties:
+      antibodies: 1149 antibodies from 47 providers
+    type: Antibodypedia
+  - id: '216'
+    type: DNASU
+  - id: ENST00000297785.8
+    properties:
+      gene ID: ENSG00000165092.13
+      protein sequence ID: ENSP00000297785.3
+    type: Ensembl
+  - id: '216'
+    type: GeneID
+  - id: hsa:216
+    type: KEGG
+  - id: ENST00000297785.8
+    properties:
+      RefSeq nucleotide sequence ID: NM_000689.5
+      RefSeq protein sequence ID: NP_000680.2
+      protein sequence ID: ENSP00000297785.3
+    type: MANE-Select
+  - id: HGNC:402
+    type: AGR
+  - id: '216'
+    type: CTD
+  - id: '216'
+    type: DisGeNET
+  - id: ALDH1A1
+    type: GeneCards
+  - id: HGNC:402
+    properties:
+      gene designation: ALDH1A1
+    type: HGNC
+  - id: ENSG00000165092
+    properties:
+      expression patterns: Tissue enhanced (liver)
+    type: HPA
+  - id: '100640'
+    properties:
+      type: gene
+    type: MIM
+  - id: NX_P00352
+    type: neXtProt
+  - id: ENSG00000165092
+    type: OpenTargets
+  - id: PA24692
+    type: PharmGKB
+  - id: HostDB:ENSG00000165092
+    type: VEuPathDB
+  - id: KOG2450
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000154609
+    type: GeneTree
+  - id: CLU_005391_0_2_1
+    type: HOGENOM
+  - id: P00352
+    type: InParanoid
+  - id: VRHVMIK
+    type: OMA
+  - id: 2291791at2759
+    type: OrthoDB
+  - id: P00352
+    type: PhylomeDB
+  - id: TF300455
+    type: TreeFam
+  - id: MetaCyc:HS09183-MONOMER
+    type: BioCyc
+  - id: 1.2.1.36
+    properties:
+      organism ID: '2681'
+    type: BRENDA
+  - id: P00352
+    type: PathwayCommons
+  - id: R-HSA-5365859
+    properties:
+      pathway name: RA biosynthesis pathway
+    type: Reactome
+  - id: R-HSA-70350
+    properties:
+      pathway name: Fructose catabolism
+    type: Reactome
+  - id: R-HSA-71384
+    properties:
+      pathway name: Ethanol oxidation
+    type: Reactome
+  - id: P00352
+    type: SABIO-RK
+  - id: P00352
+    type: SignaLink
+  - id: P00352
+    type: SIGNOR
+  - id: UPA00912
+    type: UniPathway
+  - id: '216'
+    properties:
+      hits: 10 hits in 1159 CRISPR screens
+    type: BioGRID-ORCS
+  - id: ALDH1A1
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: ALDH1A1
+    type: GeneWiki
+  - id: '216'
+    type: GenomeRNAi
+  - id: P00352
+    properties:
+      development level: Tchem
+    type: Pharos
+  - id: PR:P00352
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 9
+    type: Proteomes
+  - id: P00352
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000165092
+    properties:
+      expression patterns: Expressed in bronchial epithelial cell and 201 other cell
+        types or tissues
+    type: Bgee
+  - id: P00352
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: P00352
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - id: GO:0030424
+    properties:
+      source: ISS:UniProtKB
+      term: C:axon
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/2987944
+        id: '2987944'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/2987944
+    id: GO:0005737
+    properties:
+      source: TAS:ProtInc
+      term: C:cytoplasm
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12941160
+        id: '12941160'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+    id: GO:0005829
+    properties:
+      source: IDA:UniProtKB
+      term: C:cytosol
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19056867
+        id: '19056867'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19056867
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19199708
+        id: '19199708'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19199708
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23533145
+        id: '23533145'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23533145
+    id: GO:0070062
+    properties:
+      source: HDA:UniProtKB
+      term: C:extracellular exosome
+    type: GO
+  - id: GO:0045202
+    properties:
+      source: ISS:UniProtKB
+      term: C:synapse
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17175089
+        id: '17175089'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17175089
+    id: GO:0106373
+    properties:
+      source: IDA:UniProtKB
+      term: F:3-deoxyglucosone dehydrogenase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12941160
+        id: '12941160'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25450233
+        id: '25450233'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25450233
+    id: GO:0004029
+    properties:
+      source: IDA:UniProtKB
+      term: F:aldehyde dehydrogenase (NAD+) activity
+    type: GO
+  - id: GO:0019145
+    properties:
+      source: ISS:UniProtKB
+      term: F:aminobutyraldehyde dehydrogenase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1709013
+        id: '1709013'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1709013
+    id: GO:0005497
+    properties:
+      source: TAS:ProtInc
+      term: F:androgen binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0018479
+    properties:
+      source: IBA:GO_Central
+      term: F:benzaldehyde dehydrogenase (NAD+) activity
+    type: GO
+  - id: GO:0043878
+    properties:
+      source: IEA:RHEA
+      term: F:glyceraldehyde-3-phosphate dehydrogenase (NAD+) (non-phosphorylating)
+        activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1709013
+        id: '1709013'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1709013
+    id: GO:0005096
+    properties:
+      source: TAS:UniProtKB
+      term: F:GTPase activator activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12693930
+        id: '12693930'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12693930
+    id: GO:0051287
+    properties:
+      source: ISS:CAFA
+      term: F:NAD binding
+    type: GO
+  - id: GO:0001758
+    properties:
+      source: ISS:UniProtKB
+      term: F:retinal dehydrogenase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1709013
+        id: '1709013'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1709013
+    id: GO:0006081
+    properties:
+      source: TAS:ProtInc
+      term: P:cellular aldehyde metabolic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15623782
+        id: '15623782'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15623782
+    id: GO:0110095
+    properties:
+      source: IMP:UniProtKB
+      term: P:cellular detoxification of aldehyde
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17175089
+        id: '17175089'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17175089
+    id: GO:0030392
+    properties:
+      source: IDA:UniProtKB
+      term: P:fructosamine catabolic process
+    type: GO
+  - id: GO:0009449
+    properties:
+      source: ISS:UniProtKB
+      term: P:gamma-aminobutyric acid biosynthetic process
+    type: GO
+  - id: GO:0036438
+    properties:
+      source: ISS:UniProtKB
+      term: P:maintenance of lens transparency
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22561685
+        id: '22561685'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22561685
+    id: GO:0120163
+    properties:
+      source: ISS:YuBioLab
+      term: P:negative regulation of cold-induced thermogenesis
+    type: GO
+  - id: GO:0001523
+    properties:
+      source: ISS:UniProtKB
+      term: P:retinoid metabolic process
+    type: GO
+  - id: GO:0042572
+    properties:
+      source: IEA:UniProtKB-UniPathway
+      term: P:retinol metabolic process
+    type: GO
+  - id: cd07141
+    properties:
+      entry name: ALDH_F1AB_F2_RALDH1
+      match status: '1'
+    type: CDD
+  - id: IPR016161
+    properties:
+      entry name: Ald_DH/histidinol_DH
+    type: InterPro
+  - id: IPR016163
+    properties:
+      entry name: Ald_DH_C
+    type: InterPro
+  - id: IPR016160
+    properties:
+      entry name: Ald_DH_CS_CYS
+    type: InterPro
+  - id: IPR029510
+    properties:
+      entry name: Ald_DH_CS_GLU
+    type: InterPro
+  - id: IPR016162
+    properties:
+      entry name: Ald_DH_N
+    type: InterPro
+  - id: IPR015590
+    properties:
+      entry name: Aldehyde_DH_dom
+    type: InterPro
+  - id: PTHR11699
+    properties:
+      entry name: ALDEHYDE DEHYDROGENASE-RELATED
+      match status: '1'
+    type: PANTHER
+  - id: PTHR11699:SF140
+    properties:
+      entry name: RETINAL DEHYDROGENASE 1
+      match status: '1'
+    type: PANTHER
+  - id: PF00171
+    properties:
+      entry name: Aldedh
+      match status: '1'
+    type: Pfam
+  - id: SSF53720
+    properties:
+      entry name: ALDH-like
+      match status: '1'
+    type: SUPFAM
+  - id: PS00070
+    properties:
+      entry name: ALDEHYDE_DEHYDR_CYS
+      match status: '1'
+    type: PROSITE
+  - id: PS00687
+    properties:
+      entry name: ALDEHYDE_DEHYDR_GLU
+      match status: '1'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Removed
+    end: '1'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/6723659
+        id: '6723659'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/6723659
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22223895
+        id: '22223895'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22223895
+    molecule: ''
+    type: INIT_MET
+  - begin: '2'
+    category: MOLECULE_PROCESSING
+    description: Aldehyde dehydrogenase 1A1
+    end: '501'
+    ftId: PRO_0000056415
+    molecule: ''
+    type: CHAIN
+  - begin: '336'
+    category: DOMAINS_AND_SITES
+    description: Mediates interaction with PRMT3
+    end: '501'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/33495566
+        id: '33495566'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/33495566
+    molecule: ''
+    type: REGION
+  - begin: '269'
+    category: DOMAINS_AND_SITES
+    description: Proton acceptor
+    end: '269'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU10007
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU10007
+    - code: ECO:0000255
+      source:
+        id: PRU10008
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU10008
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/3676276
+        id: '3676276'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/3676276
+    molecule: ''
+    type: ACT_SITE
+  - begin: '303'
+    category: DOMAINS_AND_SITES
+    description: Nucleophile
+    end: '303'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU10007
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU10007
+    - code: ECO:0000255
+      source:
+        id: PRU10008
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU10008
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/3676276
+        id: '3676276'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/3676276
+    molecule: ''
+    type: ACT_SITE
+  - begin: '167'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '170'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25450233
+        id: '25450233'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25450233
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25634381
+        id: '25634381'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25634381
+    - code: ECO:0007744
+      source:
+        id: 4WB9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4WB9
+    - code: ECO:0007744
+      source:
+        id: 4X4L
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4X4L
+    ligand:
+      dbReference:
+        id: CHEBI:57540
+        name: ChEBI
+      name: NAD(+)
+    molecule: ''
+    type: BINDING
+  - begin: '193'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '196'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25450233
+        id: '25450233'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25450233
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25634381
+        id: '25634381'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25634381
+    - code: ECO:0007744
+      source:
+        id: 4WB9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4WB9
+    - code: ECO:0007744
+      source:
+        id: 4X4L
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4X4L
+    ligand:
+      dbReference:
+        id: CHEBI:57540
+        name: ChEBI
+      name: NAD(+)
+    molecule: ''
+    type: BINDING
+  - begin: '226'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '227'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25450233
+        id: '25450233'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25450233
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25634381
+        id: '25634381'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25634381
+    - code: ECO:0007744
+      source:
+        id: 4WB9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4WB9
+    - code: ECO:0007744
+      source:
+        id: 4X4L
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4X4L
+    ligand:
+      dbReference:
+        id: CHEBI:57540
+        name: ChEBI
+      name: NAD(+)
+    molecule: ''
+    type: BINDING
+  - begin: '246'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '247'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25450233
+        id: '25450233'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25450233
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25634381
+        id: '25634381'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25634381
+    - code: ECO:0007744
+      source:
+        id: 4WB9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4WB9
+    - code: ECO:0007744
+      source:
+        id: 4X4L
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4X4L
+    ligand:
+      dbReference:
+        id: CHEBI:57540
+        name: ChEBI
+      name: NAD(+)
+    molecule: ''
+    type: BINDING
+  - begin: '269'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '271'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25450233
+        id: '25450233'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25450233
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25634381
+        id: '25634381'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25634381
+    - code: ECO:0007744
+      source:
+        id: 4WB9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4WB9
+    - code: ECO:0007744
+      source:
+        id: 4X4L
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4X4L
+    ligand:
+      dbReference:
+        id: CHEBI:57540
+        name: ChEBI
+      name: NAD(+)
+    molecule: ''
+    type: BINDING
+  - begin: '349'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '353'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25450233
+        id: '25450233'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25450233
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25634381
+        id: '25634381'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25634381
+    - code: ECO:0007744
+      source:
+        id: 4WB9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4WB9
+    - code: ECO:0007744
+      source:
+        id: 4X4L
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4X4L
+    ligand:
+      dbReference:
+        id: CHEBI:57540
+        name: ChEBI
+      name: NAD(+)
+    molecule: ''
+    type: BINDING
+  - begin: '400'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '402'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25450233
+        id: '25450233'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25450233
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25634381
+        id: '25634381'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25634381
+    - code: ECO:0007744
+      source:
+        id: 4WB9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4WB9
+    - code: ECO:0007744
+      source:
+        id: 4X4L
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4X4L
+    ligand:
+      dbReference:
+        id: CHEBI:57540
+        name: ChEBI
+      name: NAD(+)
+    molecule: ''
+    type: BINDING
+  - begin: '170'
+    category: DOMAINS_AND_SITES
+    description: Transition state stabilizer
+    end: '170'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: P20000
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/P20000
+    molecule: ''
+    type: SITE
+  - begin: '2'
+    category: PTM
+    description: N-acetylserine
+    end: '2'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/6723659
+        id: '6723659'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/6723659
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22223895
+        id: '22223895'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22223895
+    molecule: ''
+    type: MOD_RES
+  - begin: '91'
+    category: PTM
+    description: N6-acetyllysine
+    end: '91'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19608861
+        id: '19608861'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19608861
+    molecule: ''
+    type: MOD_RES
+  - begin: '128'
+    category: PTM
+    description: N6-acetyllysine
+    end: '128'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19608861
+        id: '19608861'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19608861
+    molecule: ''
+    type: MOD_RES
+  - begin: '252'
+    category: PTM
+    description: N6-acetyllysine
+    end: '252'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19608861
+        id: '19608861'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19608861
+    molecule: ''
+    type: MOD_RES
+  - begin: '337'
+    category: PTM
+    description: Phosphothreonine
+    end: '337'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24275569
+        id: '24275569'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24275569
+    molecule: ''
+    type: MOD_RES
+  - begin: '353'
+    category: PTM
+    description: N6-acetyllysine
+    end: '353'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19608861
+        id: '19608861'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19608861
+    molecule: ''
+    type: MOD_RES
+  - begin: '367'
+    category: PTM
+    description: N6-acetyllysine
+    end: '367'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19608861
+        id: '19608861'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19608861
+    molecule: ''
+    type: MOD_RES
+  - begin: '410'
+    category: PTM
+    description: N6-acetyllysine
+    end: '410'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19608861
+        id: '19608861'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19608861
+    molecule: ''
+    type: MOD_RES
+  - begin: '413'
+    category: PTM
+    description: Phosphoserine
+    end: '413'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24275569
+        id: '24275569'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24275569
+    molecule: ''
+    type: MOD_RES
+  - begin: '419'
+    category: PTM
+    description: N6-acetyllysine
+    end: '419'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19608861
+        id: '19608861'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19608861
+    molecule: ''
+    type: MOD_RES
+  - begin: '435'
+    category: PTM
+    description: N6-acetyllysine
+    end: '435'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19608861
+        id: '19608861'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19608861
+    molecule: ''
+    type: MOD_RES
+  - begin: '495'
+    category: PTM
+    description: N6-acetyllysine
+    end: '495'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19608861
+        id: '19608861'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19608861
+    molecule: ''
+    type: MOD_RES
+  - alternativeSequence: S
+    begin: '121'
+    category: VARIANTS
+    description: in dbSNP:rs1049981
+    end: '121'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8214422
+        id: '8214422'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8214422
+    ftId: VAR_048901
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: R
+    begin: '125'
+    category: VARIANTS
+    description: in dbSNP:rs11554423
+    end: '125'
+    ftId: VAR_048902
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: F
+    begin: '177'
+    category: VARIANTS
+    description: in dbSNP:rs8187929
+    end: '177'
+    evidences:
+    - code: ECO:0000269
+      source:
+        id: Ref.5
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P00352#ref5
+    ftId: VAR_017778
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: A,S
+    begin: '302'
+    category: MUTAGENESIS
+    description: Does not prevent inhibition by duocarmycin analogs.
+    end: '302'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26373694
+        id: '26373694'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26373694
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: N
+    begin: '458'
+    category: MUTAGENESIS
+    description: No significant effect on aldehyde dehydrogenase activity. Prevents
+      the inhibition by ALDH1A1-specific inhibitors.
+    end: '458'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25634381
+        id: '25634381'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25634381
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: I
+    begin: '162'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 11; AAA35518 and 12; AAA51695
+    end: '162'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - begin: '22'
+    category: STRUCTURAL
+    end: '25'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '28'
+    category: STRUCTURAL
+    end: '30'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '37'
+    category: STRUCTURAL
+    end: '41'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '43'
+    category: STRUCTURAL
+    end: '45'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: TURN
+  - begin: '48'
+    category: STRUCTURAL
+    end: '53'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '57'
+    category: STRUCTURAL
+    end: '70'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '76'
+    category: STRUCTURAL
+    end: '79'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '82'
+    category: STRUCTURAL
+    end: '98'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '100'
+    category: STRUCTURAL
+    end: '111'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '115'
+    category: STRUCTURAL
+    end: '120'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '122'
+    category: STRUCTURAL
+    end: '136'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '137'
+    category: STRUCTURAL
+    end: '139'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '142'
+    category: STRUCTURAL
+    end: '145'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5L2O
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5L2O
+    molecule: ''
+    type: STRAND
+  - begin: '148'
+    category: STRUCTURAL
+    end: '159'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '161'
+    category: STRUCTURAL
+    end: '166'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '169'
+    category: STRUCTURAL
+    end: '171'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '172'
+    category: STRUCTURAL
+    end: '185'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '189'
+    category: STRUCTURAL
+    end: '193'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '200'
+    category: STRUCTURAL
+    end: '212'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '218'
+    category: STRUCTURAL
+    end: '221'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '226'
+    category: STRUCTURAL
+    end: '234'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '241'
+    category: STRUCTURAL
+    end: '246'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '248'
+    category: STRUCTURAL
+    end: '260'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '265'
+    category: STRUCTURAL
+    end: '269'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '275'
+    category: STRUCTURAL
+    end: '278'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '284'
+    category: STRUCTURAL
+    end: '296'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '297'
+    category: STRUCTURAL
+    end: '300'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '308'
+    category: STRUCTURAL
+    end: '312'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '313'
+    category: STRUCTURAL
+    end: '327'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '348'
+    category: STRUCTURAL
+    end: '363'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '367'
+    category: STRUCTURAL
+    end: '370'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '373'
+    category: STRUCTURAL
+    end: '379'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '385'
+    category: STRUCTURAL
+    end: '389'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '395'
+    category: STRUCTURAL
+    end: '398'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '403'
+    category: STRUCTURAL
+    end: '412'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '414'
+    category: STRUCTURAL
+    end: '422'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '428'
+    category: STRUCTURAL
+    end: '433'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '437'
+    category: STRUCTURAL
+    end: '446'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '450'
+    category: STRUCTURAL
+    end: '455'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '470'
+    category: STRUCTURAL
+    end: '472'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '473'
+    category: STRUCTURAL
+    end: '475'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  - begin: '479'
+    category: STRUCTURAL
+    end: '483'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '484'
+    category: STRUCTURAL
+    end: '486'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: HELIX
+  - begin: '487'
+    category: STRUCTURAL
+    end: '495'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7JWS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7JWS
+    molecule: ''
+    type: STRAND
+  gene:
+  - name:
+      evidences:
+      - code: ECO:0000312
+        source:
+          id: HGNC:402
+          name: HGNC
+          url: https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=HGNC:402
+      value: ALDH1A1
+    synonyms:
+    - value: ALDC
+    - evidences:
+      - code: ECO:0000312
+        source:
+          id: HGNC:402
+          name: HGNC
+          url: https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=HGNC:402
+      value: ALDH1
+    - evidences:
+      - code: ECO:0000312
+        source:
+          id: HGNC:402
+          name: HGNC
+          url: https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=HGNC:402
+      value: PUMB1
+  id: AL1A1_HUMAN
+  info:
+    created: '1986-07-21'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 223
+  keywords:
+  - value: 3D-structure
+  - value: Acetylation
+  - value: Cell projection
+  - value: Cytoplasm
+  - value: Direct protein sequencing
+  - value: Lipid metabolism
+  - value: NAD
+  - value: Nucleotide-binding
+  - value: Oxidoreductase
+  - value: Phosphoprotein
+  - value: Reference proteome
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        evidences:
+        - code: ECO:0000305
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17175089
+            id: '17175089'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17175089
+        value: 3-deoxyglucosone dehydrogenase
+    - fullName:
+        value: ALDH-E1
+    - fullName:
+        value: ALHDII
+    - fullName:
+        evidences:
+        - code: ECO:0000312
+          source:
+            id: HGNC:402
+            name: HGNC
+            url: https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=HGNC:402
+        value: Aldehyde dehydrogenase family 1 member A1
+    - fullName:
+        evidences:
+        - code: ECO:0000303
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/2591967
+            id: '2591967'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/2591967
+        value: Aldehyde dehydrogenase, cytosolic
+    - fullName:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: P51647
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P51647
+        value: Retinal dehydrogenase 1
+      shortName:
+      - evidences:
+        - code: ECO:0000250
+          source:
+            id: P51647
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P51647
+        value: RALDH 1
+      - evidences:
+        - code: ECO:0000250
+          source:
+            id: P51647
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P51647
+        value: RalDH1
+    recommendedName:
+      ecNumber:
+      - evidences:
+        - code: ECO:0000250
+          source:
+            id: P24549
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P24549
+        value: 1.2.1.19
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17175089
+            id: '17175089'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17175089
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/19296407
+            id: '19296407'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+        value: 1.2.1.28
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12941160
+            id: '12941160'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12941160
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15623782
+            id: '15623782'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15623782
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17175089
+            id: '17175089'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17175089
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/19296407
+            id: '19296407'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+        value: 1.2.1.3
+      - evidences:
+        - code: ECO:0000250
+          source:
+            id: P51647
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P51647
+        value: 1.2.1.36
+      fullName:
+        evidences:
+        - code: ECO:0000305
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/19296407
+            id: '19296407'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/19296407
+        value: Aldehyde dehydrogenase 1A1
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Hsu L.C.
+      - Chang W.-C.
+      - Yoshida A.
+      dbReferences:
+      - id: '2591967'
+        type: PubMed
+      - id: 10.1016/0888-7543(89)90127-4
+        type: DOI
+      location:
+        firstPage: '857'
+        lastPage: '865'
+        volume: '5'
+      publication:
+        journalName: Genomics
+      publicationDate: '1989'
+      title: Genomic structure of the human cytosolic aldehyde dehydrogenase gene.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+  - citation:
+      authors:
+      - Zheng C.F.
+      - Wang T.T.
+      - Weiner H.
+      dbReferences:
+      - id: '8214422'
+        type: PubMed
+      - id: 10.1111/j.1530-0277.1993.tb00849.x
+        type: DOI
+      location:
+        firstPage: '828'
+        lastPage: '831'
+        volume: '17'
+      publication:
+        journalName: Alcohol. Clin. Exp. Res.
+      publicationDate: '1993'
+      title: Cloning and expression of the full-length cDNAs encoding human liver
+        class 1 and class 2 aldehyde dehydrogenase.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+    - VARIANT SER-121
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Xiao T.
+      - Shoeb M.
+      - Siddiqui M.S.
+      - Zhang M.
+      - Ramana K.V.
+      - Srivastava S.K.
+      - Vasiliou V.
+      - Ansari N.H.
+      dbReferences:
+      - id: '19296407'
+        type: PubMed
+      - id: 10.1080/15287390802706371
+        type: DOI
+      location:
+        firstPage: '577'
+        lastPage: '584'
+        volume: '72'
+      publication:
+        journalName: J. Toxicol. Environ. Health Part A
+      publicationDate: '2009'
+      title: 'Molecular cloning and oxidative modification of human lens ALDH1A1:
+        implication in impaired detoxification of lipid aldehydes.'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - ACTIVITY REGULATION
+    source:
+      tissue:
+      - value: Lens
+  - citation:
+      authors:
+      - Kalnine N.
+      - Chen X.
+      - Rolfs A.
+      - Halleck A.
+      - Hines L.
+      - Eisenstein S.
+      - Koundinya M.
+      - Raphael J.
+      - Moreira D.
+      - Kelley T.
+      - LaBaer J.
+      - Lin Y.
+      - Phelan M.
+      - Farmer A.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: MAY-2003
+      title: Cloning of human full-length CDSs in BD Creator(TM) system donor vector.
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]
+  - citation:
+      consortiums:
+      - NIEHS SNPs program
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: JUL-2003
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+    - VARIANT PHE-177
+  - citation:
+      authors:
+      - Humphray S.J.
+      - Oliver K.
+      - Hunt A.R.
+      - Plumb R.W.
+      - Loveland J.E.
+      - Howe K.L.
+      - Andrews T.D.
+      - Searle S.
+      - Hunt S.E.
+      - Scott C.E.
+      - Jones M.C.
+      - Ainscough R.
+      - Almeida J.P.
+      - Ambrose K.D.
+      - Ashwell R.I.S.
+      - Babbage A.K.
+      - Babbage S.
+      - Bagguley C.L.
+      - Bailey J.
+      - Banerjee R.
+      - Barker D.J.
+      - Barlow K.F.
+      - Bates K.
+      - Beasley H.
+      - Beasley O.
+      - Bird C.P.
+      - Bray-Allen S.
+      - Brown A.J.
+      - Brown J.Y.
+      - Burford D.
+      - Burrill W.
+      - Burton J.
+      - Carder C.
+      - Carter N.P.
+      - Chapman J.C.
+      - Chen Y.
+      - Clarke G.
+      - Clark S.Y.
+      - Clee C.M.
+      - Clegg S.
+      - Collier R.E.
+      - Corby N.
+      - Crosier M.
+      - Cummings A.T.
+      - Davies J.
+      - Dhami P.
+      - Dunn M.
+      - Dutta I.
+      - Dyer L.W.
+      - Earthrowl M.E.
+      - Faulkner L.
+      - Fleming C.J.
+      - Frankish A.
+      - Frankland J.A.
+      - French L.
+      - Fricker D.G.
+      - Garner P.
+      - Garnett J.
+      - Ghori J.
+      - Gilbert J.G.R.
+      - Glison C.
+      - Grafham D.V.
+      - Gribble S.
+      - Griffiths C.
+      - Griffiths-Jones S.
+      - Grocock R.
+      - Guy J.
+      - Hall R.E.
+      - Hammond S.
+      - Harley J.L.
+      - Harrison E.S.I.
+      - Hart E.A.
+      - Heath P.D.
+      - Henderson C.D.
+      - Hopkins B.L.
+      - Howard P.J.
+      - Howden P.J.
+      - Huckle E.
+      - Johnson C.
+      - Johnson D.
+      - Joy A.A.
+      - Kay M.
+      - Keenan S.
+      - Kershaw J.K.
+      - Kimberley A.M.
+      - King A.
+      - Knights A.
+      - Laird G.K.
+      - Langford C.
+      - Lawlor S.
+      - Leongamornlert D.A.
+      - Leversha M.
+      - Lloyd C.
+      - Lloyd D.M.
+      - Lovell J.
+      - Martin S.
+      - Mashreghi-Mohammadi M.
+      - Matthews L.
+      - McLaren S.
+      - McLay K.E.
+      - McMurray A.
+      - Milne S.
+      - Nickerson T.
+      - Nisbett J.
+      - Nordsiek G.
+      - Pearce A.V.
+      - Peck A.I.
+      - Porter K.M.
+      - Pandian R.
+      - Pelan S.
+      - Phillimore B.
+      - Povey S.
+      - Ramsey Y.
+      - Rand V.
+      - Scharfe M.
+      - Sehra H.K.
+      - Shownkeen R.
+      - Sims S.K.
+      - Skuce C.D.
+      - Smith M.
+      - Steward C.A.
+      - Swarbreck D.
+      - Sycamore N.
+      - Tester J.
+      - Thorpe A.
+      - Tracey A.
+      - Tromans A.
+      - Thomas D.W.
+      - Wall M.
+      - Wallis J.M.
+      - West A.P.
+      - Whitehead S.L.
+      - Willey D.L.
+      - Williams S.A.
+      - Wilming L.
+      - Wray P.W.
+      - Young L.
+      - Ashurst J.L.
+      - Coulson A.
+      - Blocker H.
+      - Durbin R.M.
+      - Sulston J.E.
+      - Hubbard T.
+      - Jackson M.J.
+      - Bentley D.R.
+      - Beck S.
+      - Rogers J.
+      - Dunham I.
+      dbReferences:
+      - id: '15164053'
+        type: PubMed
+      - id: 10.1038/nature02465
+        type: DOI
+      location:
+        firstPage: '369'
+        lastPage: '374'
+        volume: '429'
+      publication:
+        journalName: Nature
+      publicationDate: '2004'
+      title: DNA sequence and analysis of human chromosome 9.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      authors:
+      - Mural R.J.
+      - Istrail S.
+      - Sutton G.G.
+      - Florea L.
+      - Halpern A.L.
+      - Mobarry C.M.
+      - Lippert R.
+      - Walenz B.
+      - Shatkay H.
+      - Dew I.
+      - Miller J.R.
+      - Flanigan M.J.
+      - Edwards N.J.
+      - Bolanos R.
+      - Fasulo D.
+      - Halldorsson B.V.
+      - Hannenhalli S.
+      - Turner R.
+      - Yooseph S.
+      - Lu F.
+      - Nusskern D.R.
+      - Shue B.C.
+      - Zheng X.H.
+      - Zhong F.
+      - Delcher A.L.
+      - Huson D.H.
+      - Kravitz S.A.
+      - Mouchard L.
+      - Reinert K.
+      - Remington K.A.
+      - Clark A.G.
+      - Waterman M.S.
+      - Eichler E.E.
+      - Adams M.D.
+      - Hunkapiller M.W.
+      - Myers E.W.
+      - Venter J.C.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: JUL-2005
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      consortiums:
+      - The MGC Project Team
+      dbReferences:
+      - id: '15489334'
+        type: PubMed
+      - id: 10.1101/gr.2596504
+        type: DOI
+      location:
+        firstPage: '2121'
+        lastPage: '2127'
+        volume: '14'
+      publication:
+        journalName: Genome Res.
+      publicationDate: '2004'
+      title: 'The status, quality, and expansion of the NIH full-length cDNA project:
+        the Mammalian Gene Collection (MGC).'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]
+    source:
+      tissue:
+      - value: Colon
+  - citation:
+      authors:
+      - Yoshida A.
+      - Hsu L.C.
+      - Yanagawa Y.
+      dbReferences:
+      - id: '8493914'
+        type: PubMed
+      - id: 10.1007/978-1-4615-2904-0_5
+        type: DOI
+      location:
+        firstPage: '37'
+        lastPage: '44'
+        volume: '328'
+      publication:
+        journalName: Adv. Exp. Med. Biol.
+      publicationDate: '1993'
+      title: 'Biological role of human cytosolic aldehyde dehydrogenase 1: hormonal
+        response, retinal oxidation and implication in testicular feminization.'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-6
+  - citation:
+      authors:
+      - Hempel J.
+      - von Bahr-Lindstroem H.
+      - Joernvall H.
+      dbReferences:
+      - id: '6723659'
+        type: PubMed
+      - id: 10.1111/j.1432-1033.1984.tb08150.x
+        type: DOI
+      location:
+        firstPage: '21'
+        lastPage: '35'
+        volume: '141'
+      publication:
+        journalName: Eur. J. Biochem.
+      publicationDate: '1984'
+      title: Aldehyde dehydrogenase from human liver. Primary structure of the cytoplasmic
+        isoenzyme.
+      type: journal article
+    scope:
+    - PROTEIN SEQUENCE OF 2-501
+    - ACETYLATION AT SER-2
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Yoshida A.
+      - Ikawa M.
+      - Hsu L.C.
+      - Tani K.
+      dbReferences:
+      - id: '4015823'
+        type: PubMed
+      - id: 10.1016/0741-8329(85)90024-2
+        type: DOI
+      location:
+        firstPage: '103'
+        lastPage: '106'
+        volume: '2'
+      publication:
+        journalName: Alcohol
+      publicationDate: '1985'
+      title: Molecular abnormality and cDNA cloning of human aldehyde dehydrogenases.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] OF 162-501
+  - citation:
+      authors:
+      - Hsu L.C.
+      - Tani K.
+      - Fujiyoshi T.
+      - Kurachi K.
+      - Yoshida A.
+      dbReferences:
+      - id: '2987944'
+        type: PubMed
+      - id: 10.1073/pnas.82.11.3771
+        type: DOI
+      location:
+        firstPage: '3771'
+        lastPage: '3775'
+        volume: '82'
+      publication:
+        journalName: Proc. Natl. Acad. Sci. U.S.A.
+      publicationDate: '1985'
+      title: Cloning of cDNAs for human aldehyde dehydrogenases 1 and 2.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] OF 162-501
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Abriola D.P.
+      - Fields R.
+      - Stein S.
+      - Mackerell A.D. Jr.
+      - Pietruszko R.
+      dbReferences:
+      - id: '3676276'
+        type: PubMed
+      - id: 10.1021/bi00392a015
+        type: DOI
+      location:
+        firstPage: '5679'
+        lastPage: '5684'
+        volume: '26'
+      publication:
+        journalName: Biochemistry
+      publicationDate: '1987'
+      title: Active site of human liver aldehyde dehydrogenase.
+      type: journal article
+    scope:
+    - PROTEIN SEQUENCE OF 266-273
+    - ACTIVE SITE
+    - NAD-BINDING
+  - citation:
+      authors:
+      - Agarwal D.P.
+      - Cohn P.
+      - Goedde H.W.
+      - Hempel J.
+      dbReferences:
+      - id: '2776714'
+        type: PubMed
+      - id: 10.1159/000469006
+        type: DOI
+      location:
+        firstPage: '47'
+        lastPage: '52'
+        volume: '42'
+      publication:
+        journalName: Enzyme
+      publicationDate: '1989'
+      title: 'Aldehyde dehydrogenase from human erythrocytes: structural relationship
+        to the liver cytosolic isozyme.'
+      type: journal article
+    scope:
+    - PARTIAL PROTEIN SEQUENCE
+    source:
+      tissue:
+      - value: Erythrocyte
+  - citation:
+      authors:
+      - Manzer R.
+      - Qamar L.
+      - Estey T.
+      - Pappa A.
+      - Petersen D.R.
+      - Vasiliou V.
+      dbReferences:
+      - id: '12941160'
+        type: PubMed
+      - id: 10.1089/104454903322216671
+        type: DOI
+      location:
+        firstPage: '329'
+        lastPage: '338'
+        volume: '22'
+      publication:
+        journalName: DNA Cell Biol.
+      publicationDate: '2003'
+      title: Molecular cloning and baculovirus expression of the rabbit corneal aldehyde
+        dehydrogenase (ALDH1A1) cDNA.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - SUBCELLULAR LOCATION
+  - citation:
+      authors:
+      - Choudhary S.
+      - Xiao T.
+      - Vergara L.A.
+      - Srivastava S.
+      - Nees D.
+      - Piatigorsky J.
+      - Ansari N.H.
+      dbReferences:
+      - id: '15623782'
+        type: PubMed
+      - id: 10.1167/iovs.04-0120
+        type: DOI
+      location:
+        firstPage: '259'
+        lastPage: '267'
+        volume: '46'
+      publication:
+        journalName: Invest. Ophthalmol. Vis. Sci.
+      publicationDate: '2005'
+      title: Role of aldehyde dehydrogenase isozymes in the defense of rat lens and
+        human lens epithelial cells against oxidative stress.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+  - citation:
+      authors:
+      - Collard F.
+      - Vertommen D.
+      - Fortpied J.
+      - Duester G.
+      - Van Schaftingen E.
+      dbReferences:
+      - id: '17175089'
+        type: PubMed
+      - id: 10.1016/j.biochi.2006.11.005
+        type: DOI
+      location:
+        firstPage: '369'
+        lastPage: '373'
+        volume: '89'
+      publication:
+        journalName: Biochimie
+      publicationDate: '2007'
+      title: Identification of 3-deoxyglucosone dehydrogenase as aldehyde dehydrogenase
+        1A1 (retinaldehyde dehydrogenase 1).
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - TISSUE SPECIFICITY
+  - citation:
+      authors:
+      - Choudhary C.
+      - Kumar C.
+      - Gnad F.
+      - Nielsen M.L.
+      - Rehman M.
+      - Walther T.C.
+      - Olsen J.V.
+      - Mann M.
+      dbReferences:
+      - id: '19608861'
+        type: PubMed
+      - id: 10.1126/science.1175371
+        type: DOI
+      location:
+        firstPage: '834'
+        lastPage: '840'
+        volume: '325'
+      publication:
+        journalName: Science
+      publicationDate: '2009'
+      title: Lysine acetylation targets protein complexes and co-regulates major cellular
+        functions.
+      type: journal article
+    scope:
+    - ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-91; LYS-128; LYS-252; LYS-353; LYS-367;
+      LYS-410; LYS-419; LYS-435 AND LYS-495
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+  - citation:
+      authors:
+      - Burkard T.R.
+      - Planyavsky M.
+      - Kaupe I.
+      - Breitwieser F.P.
+      - Buerckstuemmer T.
+      - Bennett K.L.
+      - Superti-Furga G.
+      - Colinge J.
+      dbReferences:
+      - id: '21269460'
+        type: PubMed
+      - id: 10.1186/1752-0509-5-17
+        type: DOI
+      location:
+        firstPage: '17'
+        lastPage: '17'
+        volume: '5'
+      publication:
+        journalName: BMC Syst. Biol.
+      publicationDate: '2011'
+      title: Initial characterization of the human central proteome.
+      type: journal article
+    scope:
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+  - citation:
+      authors:
+      - Bienvenut W.V.
+      - Sumpton D.
+      - Martinez A.
+      - Lilla S.
+      - Espagne C.
+      - Meinnel T.
+      - Giglione C.
+      dbReferences:
+      - id: '22223895'
+        type: PubMed
+      - id: 10.1074/mcp.m111.015131
+        type: DOI
+      location:
+        firstPage: M111.015131
+        lastPage: M111.015131
+        volume: '11'
+      publication:
+        journalName: Mol. Cell. Proteomics
+      publicationDate: '2012'
+      title: Comparative large-scale characterisation of plant vs. mammal proteins
+        reveals similar and idiosyncratic N-alpha acetylation features.
+      type: journal article
+    scope:
+    - ACETYLATION [LARGE SCALE ANALYSIS] AT SER-2
+    - CLEAVAGE OF INITIATOR METHIONINE [LARGE SCALE ANALYSIS]
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+  - citation:
+      authors:
+      - Bian Y.
+      - Song C.
+      - Cheng K.
+      - Dong M.
+      - Wang F.
+      - Huang J.
+      - Sun D.
+      - Wang L.
+      - Ye M.
+      - Zou H.
+      dbReferences:
+      - id: '24275569'
+        type: PubMed
+      - id: 10.1016/j.jprot.2013.11.014
+        type: DOI
+      location:
+        firstPage: '253'
+        lastPage: '262'
+        volume: '96'
+      publication:
+        journalName: J. Proteomics
+      publicationDate: '2014'
+      title: An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+        phosphoproteome.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-337 AND SER-413
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Verma M.
+      - Khan M.I.K.
+      - Kadumuri R.V.
+      - Chakrapani B.
+      - Awasthi S.
+      - Mahesh A.
+      - Govindaraju G.
+      - Chavali P.L.
+      - Rajavelu A.
+      - Chavali S.
+      - Dhayalan A.
+      dbReferences:
+      - id: '33495566'
+        type: PubMed
+      - id: 10.1038/s42003-020-01644-3
+        type: DOI
+      location:
+        firstPage: '109'
+        lastPage: '109'
+        volume: '4'
+      publication:
+        journalName: Commun. Biol.
+      publicationDate: '2021'
+      title: PRMT3 interacts with ALDH1A1 and regulates gene-expression by inhibiting
+        retinoic acid signaling.
+      type: journal article
+    scope:
+    - INTERACTION WITH PRMT3
+    - REGION
+  - citation:
+      authors:
+      - Koch M.F.
+      - Harteis S.
+      - Blank I.D.
+      - Pestel G.
+      - Tietze L.F.
+      - Ochsenfeld C.
+      - Schneider S.
+      - Sieber S.A.
+      dbReferences:
+      - id: '26373694'
+        type: PubMed
+      - id: 10.1002/anie.201505749
+        type: DOI
+      location:
+        firstPage: '13550'
+        lastPage: '13554'
+        volume: '54'
+      publication:
+        journalName: Angew. Chem. Int. Ed. Engl.
+      publicationDate: '2015'
+      title: Structural, biochemical, and computational studies reveal the mechanism
+        of selective aldehyde dehydrogenase 1A1 inhibition by cytotoxic duocarmycin
+        analogues.
+      type: journal article
+    evidences:
+    - code: ECO:0007744
+      source:
+        id: 5AC2
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5AC2
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (1.85 ANGSTROMS) IN COMPLEX WITH DUOCARMYCIN ANALOG
+    - FUNCTION
+    - ACTIVITY REGULATION
+    - MUTAGENESIS OF CYS-302
+  - citation:
+      authors:
+      - Morgan C.A.
+      - Hurley T.D.
+      dbReferences:
+      - id: '25450233'
+        type: PubMed
+      - id: 10.1016/j.cbi.2014.10.028
+        type: DOI
+      location:
+        firstPage: '29'
+        lastPage: '37'
+        volume: '234'
+      publication:
+        journalName: Chem. Biol. Interact.
+      publicationDate: '2015'
+      title: Development of a high-throughput in vitro assay to identify selective
+        inhibitors for human ALDH1A1.
+      type: journal article
+    evidences:
+    - code: ECO:0007744
+      source:
+        id: 4WB9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4WB9
+    - code: ECO:0007744
+      source:
+        id: 4WJ9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4WJ9
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (1.74 ANGSTROMS) OF VARIANT SER-121 ALONE AND IN COMPLEX
+      WITH NADH
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+  - citation:
+      authors:
+      - Morgan C.A.
+      - Hurley T.D.
+      dbReferences:
+      - id: '25634381'
+        type: PubMed
+      - id: 10.1021/jm501900s
+        type: DOI
+      location:
+        firstPage: '1964'
+        lastPage: '1975'
+        volume: '58'
+      publication:
+        journalName: J. Med. Chem.
+      publicationDate: '2015'
+      title: Characterization of two distinct structural classes of selective aldehyde
+        dehydrogenase 1A1 inhibitors.
+      type: journal article
+    evidences:
+    - code: ECO:0007744
+      source:
+        id: 4WP7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4WP7
+    - code: ECO:0007744
+      source:
+        id: 4WPN
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4WPN
+    - code: ECO:0007744
+      source:
+        id: 4X4L
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4X4L
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (1.80 ANGSTROMS) IN COMPLEX WITH NAD AND INHIBITORS
+    - MUTAGENESIS OF GLY-458
+  secondaryAccession:
+  - O00768
+  - Q5SYR1
+  sequence:
+    length: 501
+    mass: 54862
+    modified: '2007-01-23'
+    sequence: MSSSGTPDLPVLLTDLKIQYTKIFINNEWHDSVSGKKFPVFNPATEEELCQVEEGDKEDVDKAVKAARQAFQIGSPWRTMDASERGRLLYKLADLIERDRLLLATMESMNGGKLYSNAYLNDLAGCIKTLRYCAGWADKIQGRTIPIDGNFFTYTRHEPIGVCGQIIPWNFPLVMLIWKIGPALSCGNTVVVKPAEQTPLTALHVASLIKEAGFPPGVVNIVPGYGPTAGAAISSHMDIDKVAFTGSTEVGKLIKEAAGKSNLKRVTLELGGKSPCIVLADADLDNAVEFAHHGVFYHQGQCCIAASRIFVEESIYDEFVRRSVERAKKYILGNPLTPGVTQGPQIDKEQYDKILDLIESGKKEGAKLECGGGPWGNKGYFVQPTVFSNVTDEMRIAKEEIFGPVQQIMKFKSLDDVIKRANNTFYGLSAGVFTKDIDKAITISSALQAGTVWVNCYGVVSAQCPFGGFKMSGNGRELGEYGFHEYTEVKTVTVKISQKNS
+    version: 2
+uniprot_id: P00352

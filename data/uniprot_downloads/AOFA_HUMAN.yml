@@ -1,0 +1,3617 @@
+data:
+  accession: P21397
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P21396
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P21396
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18391214
+          id: '18391214'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18391214
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20493079
+          id: '20493079'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/24169519
+          id: '24169519'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/24169519
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8316221
+          id: '8316221'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8316221
+      value: Catalyzes the oxidative deamination of primary and some secondary amine
+        such as neurotransmitters, with concomitant reduction of oxygen to hydrogen
+        peroxide and has important functions in the metabolism of neuroactive and
+        vasoactive amines in the central nervous system and peripheral tissues (PubMed:20493079,
+        PubMed:8316221, PubMed:18391214, PubMed:24169519). Preferentially oxidizes
+        serotonin (PubMed:20493079, PubMed:24169519). Also catalyzes the oxidative
+        deamination of kynuramine to 3-(2-aminophenyl)-3-oxopropanal that can spontaneously
+        condense to 4-hydroxyquinoline (By similarity)
+    type: FUNCTION
+  - reaction:
+      dbReferences:
+      - id: RHEA:26414
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:16240
+        type: ChEBI
+      - id: CHEBI:17478
+        type: ChEBI
+      - id: CHEBI:58855
+        type: ChEBI
+      - id: CHEBI:65296
+        type: ChEBI
+      ecNumber: 1.4.3.4
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20493079
+          id: '20493079'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+      name: a secondary aliphatic amine + H2O + O2 = a primary amine + an aldehyde
+        + H2O2
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:51168
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:16240
+        type: ChEBI
+      - id: CHEBI:59338
+        type: ChEBI
+      - id: CHEBI:71406
+        type: ChEBI
+      - id: CHEBI:180943
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20493079
+          id: '20493079'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+      name: (R)-adrenaline + H2O + O2 = (R)-3,4-dihydroxymandelaldehyde + H2O2 + methylamine
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:16153
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:16240
+        type: ChEBI
+      - id: CHEBI:17478
+        type: ChEBI
+      - id: CHEBI:28938
+        type: ChEBI
+      - id: CHEBI:58001
+        type: ChEBI
+      ecNumber: 1.4.3.21
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18391214
+          id: '18391214'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18391214
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20493079
+          id: '20493079'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/24169519
+          id: '24169519'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/24169519
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8316221
+          id: '8316221'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8316221
+      name: an aliphatic amine + H2O + O2 = an aldehyde + H2O2 + NH4(+)
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:27946
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:16240
+        type: ChEBI
+      - id: CHEBI:27978
+        type: ChEBI
+      - id: CHEBI:28938
+        type: ChEBI
+      - id: CHEBI:59905
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20493079
+          id: '20493079'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+      name: dopamine + H2O + O2 = 3,4-dihydroxyphenylacetaldehyde + H2O2 + NH4(+)
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:30591
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:15621
+        type: ChEBI
+      - id: CHEBI:16240
+        type: ChEBI
+      - id: CHEBI:28938
+        type: ChEBI
+      - id: CHEBI:327995
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20493079
+          id: '20493079'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+      name: H2O + O2 + tyramine = (4-hydroxyphenyl)acetaldehyde + H2O2 + NH4(+)
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:69076
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:16240
+        type: ChEBI
+      - id: CHEBI:28938
+        type: ChEBI
+      - id: CHEBI:72587
+        type: ChEBI
+      - id: CHEBI:180943
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20493079
+          id: '20493079'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+      name: (R)-noradrenaline + H2O + O2 = (R)-3,4-dihydroxymandelaldehyde + H2O2
+        + NH4(+)
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:69072
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:16240
+        type: ChEBI
+      - id: CHEBI:28938
+        type: ChEBI
+      - id: CHEBI:50157
+        type: ChEBI
+      - id: CHEBI:350546
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20493079
+          id: '20493079'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/24169519
+          id: '24169519'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/24169519
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8316221
+          id: '8316221'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8316221
+      name: H2O + O2 + serotonin = (5-hydroxyindol-3-yl)acetaldehyde + H2O2 + NH4(+)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:59597
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18391214
+          id: '18391214'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18391214
+    reaction:
+      dbReferences:
+      - id: RHEA:59596
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:16240
+        type: ChEBI
+      - id: CHEBI:28938
+        type: ChEBI
+      - id: CHEBI:180898
+        type: ChEBI
+      - id: CHEBI:180899
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18391214
+          id: '18391214'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18391214
+      name: H2O + kynuramine + O2 = 3-(2-aminophenyl)-3-oxopropanal + H2O2 + NH4(+)
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:59416
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:16240
+        type: ChEBI
+      - id: CHEBI:18086
+        type: ChEBI
+      - id: CHEBI:28938
+        type: ChEBI
+      - id: CHEBI:57887
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P21396
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P21396
+      name: H2O + O2 + tryptamine = H2O2 + indole-3-acetaldehyde + NH4(+)
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:25265
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:16240
+        type: ChEBI
+      - id: CHEBI:16424
+        type: ChEBI
+      - id: CHEBI:28938
+        type: ChEBI
+      - id: CHEBI:225237
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P21396
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P21396
+      name: 2-phenylethylamine + H2O + O2 = 2-phenylacetaldehyde + H2O2 + NH4(+)
+    type: CATALYTIC_ACTIVITY
+  - cofactors:
+    - dbReference:
+        id: CHEBI:57692
+        type: CHEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16129825
+          id: '16129825'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16129825
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18391214
+          id: '18391214'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18391214
+      name: FAD
+    type: COFACTOR
+  - kinetics:
+      km:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/20493079
+            id: '20493079'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+        value: 208 uM for (R)-adrenaline
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/20493079
+            id: '20493079'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+        value: 212 uM for dopamine
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/20493079
+            id: '20493079'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+        value: 137 uM for serotonin
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/20493079
+            id: '20493079'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+        value: 284 uM for (R)-noradrenaline
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/20493079
+            id: '20493079'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+        value: 140 uM for 2-phenylethylamine
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/20493079
+            id: '20493079'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+        value: 127 uM for tyramine
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/8316221
+            id: '8316221'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/8316221
+        value: 127 uM for serotonin
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/18391214
+            id: '18391214'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/18391214
+        value: 0.117 mM for kynuramine (with the detergent-solubilized form)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/18391214
+            id: '18391214'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/18391214
+        value: 0.044 mM for kynuramine (with the membrane-bound form)
+      vmax:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/20493079
+            id: '20493079'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+        value: 379.0 pmol/min/mg enzyme toward (R)-adrenaline
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/20493079
+            id: '20493079'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+        value: 680.0 pmol/min/mg enzyme toward dopamine
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/20493079
+            id: '20493079'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+        value: 228.0 pmol/min/mg enzyme toward serotonin
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/20493079
+            id: '20493079'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+        value: 561.0 pmol/min/mg enzyme toward (R)-noradrenaline
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/20493079
+            id: '20493079'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+        value: 20.0 pmol/min/mg enzyme toward 2-phenylethylamine
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/20493079
+            id: '20493079'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+        value: 182.0 pmol/min/mg enzyme toward tyramine
+    type: BIOPHYSICOCHEMICAL_PROPERTIES
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16129825
+          id: '16129825'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16129825
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18391214
+          id: '18391214'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18391214
+      value: Monomer, homo- or heterodimer (containing two subunits of similar size).
+        Each subunit contains a covalently bound flavin. Enzymatically active as monomer
+    type: SUBUNIT
+  - interactions:
+    - accession1: P21397
+      accession2: P27338
+      experiments: 2
+      gene: MAOB
+      interactor1: EBI-1190845
+      interactor2: EBI-3911344
+      organismDiffer: false
+    type: INTERACTION
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: P21396
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P21396
+        value: Mitochondrion outer membrane
+      orientation:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: P21396
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P21396
+        value: Cytoplasmic side
+      topology:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: P21396
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P21396
+        value: Single-pass type IV membrane protein
+    type: SUBCELLULAR_LOCATION
+  - event:
+    - Alternative splicing
+    isoforms:
+    - ids:
+      - P21397-1
+      name:
+        value: '1'
+      sequenceStatus: displayed
+    - ids:
+      - P21397-2
+      name:
+        value: '2'
+      sequence:
+      - VSP_045173
+      sequenceStatus: described
+    type: ALTERNATIVE_PRODUCTS
+  - text:
+    - value: Heart, liver, duodenum, blood vessels and kidney
+    type: TISSUE_SPECIFICITY
+  - error: 6.0
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11812236
+        id: '11812236'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11812236
+    mass: 60512.0
+    method: ELECTROSPRAY
+    type: MASS_SPECTROMETRY
+  - text:
+    - value: A polymorphism 1.2 kb upstream of the MAOA coding sequences consists
+        of a 30-bp repeated sequence present in 3, 3.5, 4, or 5 copies. The polymorphism
+        affect transcriptional activity of the MAOA gene promoter. Alleles with 3.5
+        or 4 copies of the repeat sequence are transcribed 2 to 10 times more efficiently
+        than those with 3 or 5 copies of the repeat
+    type: POLYMORPHISM
+  - acronym: BRNRS
+    dbReference:
+      id: '300615'
+      type: MIM
+    description:
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8211186
+          id: '8211186'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8211186
+      value: A form of X-linked non-dysmorphic mild intellectual disability. Male
+        patients are affected by borderline intellectual deficit and exhibit abnormal
+        behavior, including disturbed regulation of impulsive aggression. Obligate
+        female carriers have normal intelligence and behavior.
+    diseaseId: Brunner syndrome
+    text:
+    - value: The disease is caused by variants affecting the gene represented in this
+        entry
+    type: DISEASE
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the flavin monoamine oxidase family
+    type: SIMILARITY
+  - name: Wikipedia
+    text: Monoamine oxidase entry
+    type: WEBRESOURCE
+    url: https://en.wikipedia.org/wiki/Monoamine_oxidase
+  - name: Protein Spotlight
+    text: Approaching happiness - Issue 172 of August 2015
+    type: WEBRESOURCE
+    url: https://web.expasy.org/spotlight/back_issues/172/
+  dbReferences:
+  - id: M69226
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA59549.1
+    type: EMBL
+  - id: M68840
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA59548.1
+    type: EMBL
+  - id: X60806
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: X60807
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: X60808
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: X60809
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: X60810
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: X60811
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: X60812
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: X60813
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: X60814
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: X60815
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: X60816
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: X60817
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: X60818
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: X60819
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: M68857
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA59547.1
+    type: EMBL
+  - id: M68843
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA59547.1
+      status: JOINED
+    type: EMBL
+  - id: M68844
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA59547.1
+      status: JOINED
+    type: EMBL
+  - id: M68845
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA59547.1
+      status: JOINED
+    type: EMBL
+  - id: M68846
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA59547.1
+      status: JOINED
+    type: EMBL
+  - id: M68847
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA59547.1
+      status: JOINED
+    type: EMBL
+  - id: M68848
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA59547.1
+      status: JOINED
+    type: EMBL
+  - id: M68849
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA59547.1
+      status: JOINED
+    type: EMBL
+  - id: M68850
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA59547.1
+      status: JOINED
+    type: EMBL
+  - id: M68851
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA59547.1
+      status: JOINED
+    type: EMBL
+  - id: M68852
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA59547.1
+      status: JOINED
+    type: EMBL
+  - id: M68853
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA59547.1
+      status: JOINED
+    type: EMBL
+  - id: M68854
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA59547.1
+      status: JOINED
+    type: EMBL
+  - id: M68855
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA59547.1
+      status: JOINED
+    type: EMBL
+  - id: M68856
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA59547.1
+      status: JOINED
+    type: EMBL
+  - id: AK293926
+    properties:
+      molecule type: mRNA
+      protein sequence ID: BAG57307.1
+    type: EMBL
+  - id: AL109855
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: BX530072
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: BX537147
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: BX537148
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: BC008064
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH08064.1
+    type: EMBL
+  - id: M89636
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB46385.1
+    type: EMBL
+  - id: S81371
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAD14361.1
+    type: EMBL
+  - id: S72704
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAD14113.1
+    type: EMBL
+  - id: CCDS14260.1
+    isoform: P21397-1
+    type: CCDS
+  - id: CCDS59163.1
+    isoform: P21397-2
+    type: CCDS
+  - id: A36175
+    properties:
+      entry name: A36175
+    type: PIR
+  - id: NP_000231.1
+    isoform: P21397-1
+    properties:
+      nucleotide sequence ID: NM_000240.3
+    type: RefSeq
+  - id: NP_001257387.1
+    isoform: P21397-2
+    properties:
+      nucleotide sequence ID: NM_001270458.1
+    type: RefSeq
+  - id: 2BXR
+    properties:
+      chains: A/B=1-527
+      method: X-ray
+      resolution: 3.00 A
+    type: PDB
+  - id: 2BXS
+    properties:
+      chains: A/B=1-527
+      method: X-ray
+      resolution: 3.15 A
+    type: PDB
+  - id: 2Z5X
+    properties:
+      chains: A=12-524
+      method: X-ray
+      resolution: 2.20 A
+    type: PDB
+  - id: 2Z5Y
+    properties:
+      chains: A=12-524
+      method: X-ray
+      resolution: 2.17 A
+    type: PDB
+  - id: 2BXR
+    type: PDBsum
+  - id: 2BXS
+    type: PDBsum
+  - id: 2Z5X
+    type: PDBsum
+  - id: 2Z5Y
+    type: PDBsum
+  - id: P21397
+    type: AlphaFoldDB
+  - id: P21397
+    type: SMR
+  - id: '110301'
+    properties:
+      interactions: '13'
+    type: BioGRID
+  - id: P21397
+    properties:
+      interactions: '7'
+    type: IntAct
+  - id: P21397
+    type: MINT
+  - id: 9606.ENSP00000340684
+    type: STRING
+  - id: P21397
+    type: BindingDB
+  - id: CHEMBL1951
+    type: ChEMBL
+  - id: DB01472
+    properties:
+      generic name: 4-Methoxyamphetamine
+    type: DrugBank
+  - id: DB00918
+    properties:
+      generic name: Almotriptan
+    type: DrugBank
+  - id: DB00182
+    properties:
+      generic name: Amphetamine
+    type: DrugBank
+  - id: DB06698
+    properties:
+      generic name: Betahistine
+    type: DrugBank
+  - id: DB04889
+    properties:
+      generic name: Bicifadine
+    type: DrugBank
+  - id: DB13876
+    properties:
+      generic name: Brofaromine
+    type: DrugBank
+  - id: DB01445
+    properties:
+      generic name: Bufotenine
+    type: DrugBank
+  - id: DB06774
+    properties:
+      generic name: Capsaicin
+    type: DrugBank
+  - id: DB04017
+    properties:
+      generic name: Clorgiline
+    type: DrugBank
+  - id: DB09130
+    properties:
+      generic name: Copper
+    type: DrugBank
+  - id: DB05205
+    properties:
+      generic name: CX157
+    type: DrugBank
+  - id: DB07641
+    properties:
+      generic name: Decyl(dimethyl)phosphine oxide
+    type: DrugBank
+  - id: DB00988
+    properties:
+      generic name: Dopamine
+    type: DrugBank
+  - id: DB01363
+    properties:
+      generic name: Ephedra sinica root
+    type: DrugBank
+  - id: DB00668
+    properties:
+      generic name: Epinephrine
+    type: DrugBank
+  - id: DB12329
+    properties:
+      generic name: Eravacycline
+    type: DrugBank
+  - id: DB01175
+    properties:
+      generic name: Escitalopram
+    type: DrugBank
+  - id: DB03147
+    properties:
+      generic name: Flavin adenine dinucleotide
+    type: DrugBank
+  - id: DB14914
+    properties:
+      generic name: Flortaucipir F-18
+    type: DrugBank
+  - id: DB00614
+    properties:
+      generic name: Furazolidone
+    type: DrugBank
+  - id: DB01381
+    properties:
+      generic name: Ginkgo biloba
+    type: DrugBank
+  - id: DB07919
+    properties:
+      generic name: Harmine
+    type: DrugBank
+  - id: DB04818
+    properties:
+      generic name: Iproniazid
+    type: DrugBank
+  - id: DB01247
+    properties:
+      generic name: Isocarboxazid
+    type: DrugBank
+  - id: DB00601
+    properties:
+      generic name: Linezolid
+    type: DrugBank
+  - id: DB01577
+    properties:
+      generic name: Metamfetamine
+    type: DrugBank
+  - id: DB00805
+    properties:
+      generic name: Minaprine
+    type: DrugBank
+  - id: DB01442
+    properties:
+      generic name: MMDA
+    type: DrugBank
+  - id: DB01171
+    properties:
+      generic name: Moclobemide
+    type: DrugBank
+  - id: DB08804
+    properties:
+      generic name: Nandrolone decanoate
+    type: DrugBank
+  - id: DB00952
+    properties:
+      generic name: Naratriptan
+    type: DrugBank
+  - id: DB04820
+    properties:
+      generic name: Nialamide
+    type: DrugBank
+  - id: DB00184
+    properties:
+      generic name: Nicotine
+    type: DrugBank
+  - id: DB04821
+    properties:
+      generic name: Nomifensine
+    type: DrugBank
+  - id: DB06412
+    properties:
+      generic name: Oxymetholone
+    type: DrugBank
+  - id: DB01626
+    properties:
+      generic name: Pargyline
+    type: DrugBank
+  - id: DB00780
+    properties:
+      generic name: Phenelzine
+    type: DrugBank
+  - id: DB00191
+    properties:
+      generic name: Phentermine
+    type: DrugBank
+  - id: DB00388
+    properties:
+      generic name: Phenylephrine
+    type: DrugBank
+  - id: DB00397
+    properties:
+      generic name: Phenylpropanolamine
+    type: DrugBank
+  - id: DB09244
+    properties:
+      generic name: Pirlindole
+    type: DrugBank
+  - id: DB04850
+    properties:
+      generic name: Posizolid
+    type: DrugBank
+  - id: DB00721
+    properties:
+      generic name: Procaine
+    type: DrugBank
+  - id: DB01168
+    properties:
+      generic name: Procarbazine
+    type: DrugBank
+  - id: DB00571
+    properties:
+      generic name: Propranolol
+    type: DrugBank
+  - id: DB00852
+    properties:
+      generic name: Pseudoephedrine
+    type: DrugBank
+  - id: DB09363
+    properties:
+      generic name: Rauwolfia serpentina root
+    type: DrugBank
+  - id: DB00140
+    properties:
+      generic name: Riboflavin
+    type: DrugBank
+  - id: DB00953
+    properties:
+      generic name: Rizatriptan
+    type: DrugBank
+  - id: DB06654
+    properties:
+      generic name: Safinamide
+    type: DrugBank
+  - id: DB01037
+    properties:
+      generic name: Selegiline
+    type: DrugBank
+  - id: DB01104
+    properties:
+      generic name: Sertraline
+    type: DrugBank
+  - id: DB00669
+    properties:
+      generic name: Sumatriptan
+    type: DrugBank
+  - id: DB14569
+    properties:
+      generic name: Tedizolid
+    type: DrugBank
+  - id: DB09042
+    properties:
+      generic name: Tedizolid phosphate
+    type: DrugBank
+  - id: DB00624
+    properties:
+      generic name: Testosterone
+    type: DrugBank
+  - id: DB13943
+    properties:
+      generic name: Testosterone cypionate
+    type: DrugBank
+  - id: DB13944
+    properties:
+      generic name: Testosterone enanthate
+    type: DrugBank
+  - id: DB13946
+    properties:
+      generic name: Testosterone undecanoate
+    type: DrugBank
+  - id: DB09245
+    properties:
+      generic name: Toloxatone
+    type: DrugBank
+  - id: DB00752
+    properties:
+      generic name: Tranylcypromine
+    type: DrugBank
+  - id: DB15328
+    properties:
+      generic name: Ubrogepant
+    type: DrugBank
+  - id: DB09185
+    properties:
+      generic name: Viloxazine
+    type: DrugBank
+  - id: DB04832
+    properties:
+      generic name: Zimelidine
+    type: DrugBank
+  - id: DB00315
+    properties:
+      generic name: Zolmitriptan
+    type: DrugBank
+  - id: DB00909
+    properties:
+      generic name: Zonisamide
+    type: DrugBank
+  - id: P21397
+    type: DrugCentral
+  - id: '2489'
+    type: GuidetoPHARMACOLOGY
+  - id: P21397
+    properties:
+      glycosylation: 1 site, 1 O-linked glycan (1 site)
+    type: GlyGen
+  - id: P21397
+    type: iPTMnet
+  - id: P21397
+    type: PhosphoSitePlus
+  - id: P21397
+    type: SwissPalm
+  - id: MAOA
+    type: BioMuta
+  - id: '113978'
+    type: DMDM
+  - id: P21397
+    type: EPD
+  - id: P21397
+    type: jPOST
+  - id: P21397
+    type: MassIVE
+  - id: P21397
+    type: MaxQB
+  - id: 9606-ENSP00000340684
+    type: PaxDb
+  - id: P21397
+    type: PeptideAtlas
+  - id: '4005'
+    type: ProteomicsDB
+  - id: '53866'
+    isoform: P21397-1
+    type: ProteomicsDB
+  - id: P21397
+    type: Pumba
+  - id: '10933'
+    properties:
+      antibodies: 545 antibodies from 40 providers
+    type: Antibodypedia
+  - id: '4128'
+    type: DNASU
+  - id: ENST00000338702.4
+    isoform: P21397-1
+    properties:
+      gene ID: ENSG00000189221.11
+      protein sequence ID: ENSP00000340684.3
+    type: Ensembl
+  - id: ENST00000542639.6
+    isoform: P21397-2
+    properties:
+      gene ID: ENSG00000189221.11
+      protein sequence ID: ENSP00000440846.1
+    type: Ensembl
+  - id: ENST00000688006.1
+    isoform: P21397-2
+    properties:
+      gene ID: ENSG00000189221.11
+      protein sequence ID: ENSP00000510311.1
+    type: Ensembl
+  - id: ENST00000689087.1
+    isoform: P21397-2
+    properties:
+      gene ID: ENSG00000189221.11
+      protein sequence ID: ENSP00000508997.1
+    type: Ensembl
+  - id: '4128'
+    type: GeneID
+  - id: hsa:4128
+    type: KEGG
+  - id: ENST00000338702.4
+    properties:
+      RefSeq nucleotide sequence ID: NM_000240.4
+      RefSeq protein sequence ID: NP_000231.1
+      protein sequence ID: ENSP00000340684.3
+    type: MANE-Select
+  - id: uc011mkw.3
+    isoform: P21397-1
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:6833
+    type: AGR
+  - id: '4128'
+    type: CTD
+  - id: '4128'
+    type: DisGeNET
+  - id: MAOA
+    type: GeneCards
+  - id: HGNC:6833
+    properties:
+      gene designation: MAOA
+    type: HGNC
+  - id: ENSG00000189221
+    properties:
+      expression patterns: Tissue enhanced (intestine)
+    type: HPA
+  - id: MAOA
+    type: MalaCards
+  - id: '300615'
+    properties:
+      type: phenotype
+    type: MIM
+  - id: '309850'
+    properties:
+      type: gene
+    type: MIM
+  - id: NX_P21397
+    type: neXtProt
+  - id: ENSG00000189221
+    type: OpenTargets
+  - id: '3057'
+    properties:
+      disease: Monoamine oxidase A deficiency
+    type: Orphanet
+  - id: PA236
+    type: PharmGKB
+  - id: HostDB:ENSG00000189221
+    type: VEuPathDB
+  - id: KOG0029
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000160514
+    type: GeneTree
+  - id: CLU_004498_0_1_1
+    type: HOGENOM
+  - id: P21397
+    type: InParanoid
+  - id: EWTRGAY
+    type: OMA
+  - id: 5471885at2759
+    type: OrthoDB
+  - id: P21397
+    type: PhylomeDB
+  - id: TF313314
+    type: TreeFam
+  - id: MetaCyc:HS01798-MONOMER
+    type: BioCyc
+  - id: 1.4.3.4
+    properties:
+      organism ID: '2681'
+    type: BRENDA
+  - id: P21397
+    type: PathwayCommons
+  - id: R-HSA-141333
+    properties:
+      pathway name: Biogenic amines are oxidatively deaminated to aldehydes by MAOA
+        and MAOB
+    type: Reactome
+  - id: R-HSA-181430
+    properties:
+      pathway name: Norepinephrine Neurotransmitter Release Cycle
+    type: Reactome
+  - id: R-HSA-379397
+    properties:
+      pathway name: Enzymatic degradation of dopamine by COMT
+    type: Reactome
+  - id: R-HSA-379398
+    properties:
+      pathway name: Enzymatic degradation of Dopamine by monoamine oxidase
+    type: Reactome
+  - id: R-HSA-379401
+    properties:
+      pathway name: Dopamine clearance from the synaptic cleft
+    type: Reactome
+  - id: R-HSA-380612
+    properties:
+      pathway name: Metabolism of serotonin
+    type: Reactome
+  - id: R-HSA-5579012
+    properties:
+      pathway name: Defective MAOA causes BRUNS
+    type: Reactome
+  - id: R-HSA-6785807
+    properties:
+      pathway name: Interleukin-4 and Interleukin-13 signaling
+    type: Reactome
+  - id: P21397
+    type: SABIO-RK
+  - id: P21397
+    type: SignaLink
+  - id: P21397
+    type: SIGNOR
+  - id: '4128'
+    properties:
+      hits: 7 hits in 781 CRISPR screens
+    type: BioGRID-ORCS
+  - id: MAOA
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: P21397
+    type: EvolutionaryTrace
+  - id: Monoamine_oxidase_A
+    type: GeneWiki
+  - id: '4128'
+    type: GenomeRNAi
+  - id: P21397
+    properties:
+      development level: Tclin
+    type: Pharos
+  - id: PR:P21397
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome X
+    type: Proteomes
+  - id: P21397
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000189221
+    properties:
+      expression patterns: Expressed in ileal mucosa and 201 other cell types or tissues
+    type: Bgee
+  - id: P21397
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: P21397
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - id: GO:0005829
+    properties:
+      source: IDA:HPA
+      term: C:cytosol
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24252804
+        id: '24252804'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24252804
+    id: GO:0005741
+    properties:
+      source: TAS:ParkinsonsUK-UCL
+      term: C:mitochondrial outer membrane
+    type: GO
+  - id: GO:0005739
+    properties:
+      source: IDA:HPA
+      term: C:mitochondrion
+    type: GO
+  - id: GO:0052595
+    properties:
+      source: IEA:RHEA
+      term: F:aliphatic amine oxidase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0050660
+    properties:
+      source: IBA:GO_Central
+      term: F:flavin adenine dinucleotide binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20493079
+        id: '20493079'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+    id: GO:0097621
+    properties:
+      source: IDA:UniProtKB
+      term: F:monoamine oxidase activity
+    type: GO
+  - id: GO:0052596
+    properties:
+      source: IEA:RHEA
+      term: F:phenethylamine:oxygen oxidoreductase (deaminating) activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20493079
+        id: '20493079'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+    id: GO:0008131
+    properties:
+      source: IDA:UniProtKB
+      term: F:primary amine oxidase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8211186
+        id: '8211186'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8211186
+    id: GO:0006576
+    properties:
+      source: TAS:ProtInc
+      term: P:biogenic amine metabolic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24252804
+        id: '24252804'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24252804
+    id: GO:0042420
+    properties:
+      source: TAS:ParkinsonsUK-UCL
+      term: P:dopamine catabolic process
+    type: GO
+  - id: GO:0009967
+    properties:
+      source: IEA:Ensembl
+      term: P:positive regulation of signal transduction
+    type: GO
+  - id: 3.90.660.10
+    properties:
+      match status: '1'
+    type: Gene3D
+  - id: 6.10.250.130
+    properties:
+      match status: '1'
+    type: Gene3D
+  - id: 3.50.50.60
+    properties:
+      entry name: FAD/NAD(P)-binding domain
+      match status: '1'
+    type: Gene3D
+  - id: 1.10.405.10
+    properties:
+      entry name: Guanine Nucleotide Dissociation Inhibitor, domain 1
+      match status: '1'
+    type: Gene3D
+  - id: IPR002937
+    properties:
+      entry name: Amino_oxidase
+    type: InterPro
+  - id: IPR036188
+    properties:
+      entry name: FAD/NAD-bd_sf
+    type: InterPro
+  - id: IPR001613
+    properties:
+      entry name: Flavin_amine_oxidase
+    type: InterPro
+  - id: PTHR43563
+    properties:
+      entry name: AMINE OXIDASE
+      match status: '1'
+    type: PANTHER
+  - id: PTHR43563:SF11
+    properties:
+      entry name: AMINE OXIDASE [FLAVIN-CONTAINING] A
+      match status: '1'
+    type: PANTHER
+  - id: PF01593
+    properties:
+      entry name: Amino_oxidase
+      match status: '1'
+    type: Pfam
+  - id: PR00757
+    properties:
+      entry name: AMINEOXDASEF
+    type: PRINTS
+  - id: SSF54373
+    properties:
+      entry name: FAD-linked reductases, C-terminal domain
+      match status: '1'
+    type: SUPFAM
+  - id: SSF51905
+    properties:
+      entry name: FAD/NAD(P)-binding domain
+      match status: '1'
+    type: SUPFAM
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Amine oxidase [flavin-containing] A
+    end: '527'
+    ftId: PRO_0000099850
+    molecule: ''
+    type: CHAIN
+  - begin: '1'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '497'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18391214
+        id: '18391214'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18391214
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '498'
+    category: TOPOLOGY
+    description: Helical; Anchor for type IV membrane protein
+    end: '518'
+    molecule: ''
+    type: TRANSMEM
+  - begin: '519'
+    category: TOPOLOGY
+    description: Mitochondrial intermembrane
+    end: '527'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18391214
+        id: '18391214'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18391214
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '520'
+    category: DOMAINS_AND_SITES
+    description: Interaction with membrane phospholipid headgroups
+    end: '522'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: REGION
+  - begin: '335'
+    category: DOMAINS_AND_SITES
+    description: Important for substrate specificity
+    end: '335'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: SITE
+  - begin: '374'
+    category: DOMAINS_AND_SITES
+    description: Important for catalytic activity
+    end: '374'
+    molecule: ''
+    type: SITE
+  - begin: '1'
+    category: PTM
+    description: N-acetylmethionine
+    end: '1'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11812236
+        id: '11812236'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11812236
+    molecule: ''
+    type: MOD_RES
+  - begin: '383'
+    category: PTM
+    description: Phosphoserine
+    end: '383'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: P21396
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/P21396
+    molecule: ''
+    type: MOD_RES
+  - begin: '406'
+    category: PTM
+    description: S-8alpha-FAD cysteine
+    end: '406'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18391214
+        id: '18391214'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18391214
+    - code: ECO:0007744
+      source:
+        id: 2BXR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2BXR
+    - code: ECO:0007744
+      source:
+        id: 2BXS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2BXS
+    - code: ECO:0007744
+      source:
+        id: 2Z5X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5X
+    - code: ECO:0007744
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: MOD_RES
+  - begin: '1'
+    category: VARIANTS
+    end: '133'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/14702039
+        id: '14702039'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/14702039
+    ftId: VSP_045173
+    molecule: ''
+    type: VAR_SEQ
+  - alternativeSequence: E
+    begin: '15'
+    category: VARIANTS
+    description: in a breast cancer sample; somatic mutation
+    end: '15'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16959974
+        id: '16959974'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16959974
+    ftId: VAR_036545
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: K
+    begin: '188'
+    category: VARIANTS
+    description: in dbSNP:rs77698881
+    end: '188'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21179162
+        id: '21179162'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21179162
+    ftId: VAR_064573
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: F
+    begin: '266'
+    category: VARIANTS
+    description: found in a family with Brunner syndrome-like behavioral disturbances;
+      likely pathogenic; reduced activity; dbSNP:rs587777457
+    end: '266'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24169519
+        id: '24169519'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24169519
+    ftId: VAR_071963
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: V
+    begin: '314'
+    category: VARIANTS
+    description: in dbSNP:rs1799835
+    end: '314'
+    ftId: VAR_014795
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: R
+    begin: '520'
+    category: VARIANTS
+    description: in dbSNP:rs1800466
+    end: '520'
+    ftId: VAR_014796
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: S
+    begin: '165'
+    category: MUTAGENESIS
+    description: No loss of activity.
+    end: '165'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8316221
+        id: '8316221'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8316221
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: S
+    begin: '266'
+    category: MUTAGENESIS
+    description: No loss of activity.
+    end: '266'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8316221
+        id: '8316221'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8316221
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: S
+    begin: '306'
+    category: MUTAGENESIS
+    description: No loss of activity.
+    end: '306'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8316221
+        id: '8316221'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8316221
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: S
+    begin: '321'
+    category: MUTAGENESIS
+    description: No loss of activity.
+    end: '321'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8316221
+        id: '8316221'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8316221
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: S
+    begin: '323'
+    category: MUTAGENESIS
+    description: No loss of activity.
+    end: '323'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8316221
+        id: '8316221'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8316221
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: S
+    begin: '374'
+    category: MUTAGENESIS
+    description: Complete loss of activity.
+    end: '374'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8316221
+        id: '8316221'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8316221
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: S
+    begin: '398'
+    category: MUTAGENESIS
+    description: No loss of activity.
+    end: '398'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8316221
+        id: '8316221'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8316221
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: S
+    begin: '406'
+    category: MUTAGENESIS
+    description: Complete loss of activity.
+    end: '406'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8316221
+        id: '8316221'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8316221
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: M
+    begin: '397'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 11; AA sequence
+    end: '397'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - begin: '15'
+    category: STRUCTURAL
+    end: '19'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '23'
+    category: STRUCTURAL
+    end: '34'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '39'
+    category: STRUCTURAL
+    end: '42'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '44'
+    category: STRUCTURAL
+    end: '49'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '54'
+    category: STRUCTURAL
+    end: '57'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5X
+    molecule: ''
+    type: STRAND
+  - begin: '58'
+    category: STRUCTURAL
+    end: '60'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: TURN
+  - begin: '61'
+    category: STRUCTURAL
+    end: '66'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '75'
+    category: STRUCTURAL
+    end: '83'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '88'
+    category: STRUCTURAL
+    end: '90'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '94'
+    category: STRUCTURAL
+    end: '101'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '104'
+    category: STRUCTURAL
+    end: '108'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '110'
+    category: STRUCTURAL
+    end: '112'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '118'
+    category: STRUCTURAL
+    end: '136'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '143'
+    category: STRUCTURAL
+    end: '145'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '149'
+    category: STRUCTURAL
+    end: '154'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '157'
+    category: STRUCTURAL
+    end: '164'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '168'
+    category: STRUCTURAL
+    end: '182'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '186'
+    category: STRUCTURAL
+    end: '188'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: TURN
+  - begin: '191'
+    category: STRUCTURAL
+    end: '199'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '200'
+    category: STRUCTURAL
+    end: '202'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: TURN
+  - begin: '204'
+    category: STRUCTURAL
+    end: '208'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '211'
+    category: STRUCTURAL
+    end: '213'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2BXS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2BXS
+    molecule: ''
+    type: STRAND
+  - begin: '216'
+    category: STRUCTURAL
+    end: '219'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '224'
+    category: STRUCTURAL
+    end: '234'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '235'
+    category: STRUCTURAL
+    end: '237'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '238'
+    category: STRUCTURAL
+    end: '241'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '244'
+    category: STRUCTURAL
+    end: '248'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '250'
+    category: STRUCTURAL
+    end: '258'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '263'
+    category: STRUCTURAL
+    end: '271'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '275'
+    category: STRUCTURAL
+    end: '278'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '281'
+    category: STRUCTURAL
+    end: '285'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '289'
+    category: STRUCTURAL
+    end: '295'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '303'
+    category: STRUCTURAL
+    end: '309'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '314'
+    category: STRUCTURAL
+    end: '317'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '320'
+    category: STRUCTURAL
+    end: '327'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '334'
+    category: STRUCTURAL
+    end: '338'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '348'
+    category: STRUCTURAL
+    end: '354'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '355'
+    category: STRUCTURAL
+    end: '361'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '366'
+    category: STRUCTURAL
+    end: '381'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '385'
+    category: STRUCTURAL
+    end: '387'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '390'
+    category: STRUCTURAL
+    end: '397'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '401'
+    category: STRUCTURAL
+    end: '403'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: TURN
+  - begin: '405'
+    category: STRUCTURAL
+    end: '407'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '415'
+    category: STRUCTURAL
+    end: '418'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '420'
+    category: STRUCTURAL
+    end: '422'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '430'
+    category: STRUCTURAL
+    end: '432'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '435'
+    category: STRUCTURAL
+    end: '437'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '439'
+    category: STRUCTURAL
+    end: '441'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '445'
+    category: STRUCTURAL
+    end: '462'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '464'
+    category: STRUCTURAL
+    end: '466'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2BXS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2BXS
+    molecule: ''
+    type: STRAND
+  - begin: '469'
+    category: STRUCTURAL
+    end: '471'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '479'
+    category: STRUCTURAL
+    end: '481'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: STRAND
+  - begin: '490'
+    category: STRUCTURAL
+    end: '494'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  - begin: '498'
+    category: STRUCTURAL
+    end: '520'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2Z5Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2Z5Y
+    molecule: ''
+    type: HELIX
+  gene:
+  - name:
+      evidences:
+      - code: ECO:0000312
+        source:
+          id: HGNC:6833
+          name: HGNC
+          url: https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=HGNC:6833
+      value: MAOA
+  id: AOFA_HUMAN
+  info:
+    created: '1991-05-01'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 236
+  keywords:
+  - value: 3D-structure
+  - value: Acetylation
+  - value: Alternative splicing
+  - value: Catecholamine metabolism
+  - value: Direct protein sequencing
+  - value: Disease variant
+  - value: FAD
+  - value: Flavoprotein
+  - value: Intellectual disability
+  - value: Membrane
+  - value: Mitochondrion
+  - value: Mitochondrion outer membrane
+  - value: Neurotransmitter degradation
+  - value: Oxidoreductase
+  - value: Phosphoprotein
+  - value: Reference proteome
+  - value: Transmembrane
+  - value: Transmembrane helix
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        value: Monoamine oxidase type A
+      shortName:
+      - value: MAO-A
+    recommendedName:
+      ecNumber:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/18391214
+            id: '18391214'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/18391214
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/20493079
+            id: '20493079'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/24169519
+            id: '24169519'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/24169519
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/8316221
+            id: '8316221'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/8316221
+        value: 1.4.3.21
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/20493079
+            id: '20493079'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/20493079
+        value: 1.4.3.4
+      fullName:
+        evidences:
+        - code: ECO:0000305
+        value: Amine oxidase [flavin-containing] A
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Hsu Y.-P.P.
+      - Weyler W.
+      - Chen S.
+      - Sims K.B.
+      - Rinehart W.B.
+      - Utterback M.C.
+      - Powell J.F.
+      - Breakefield X.O.
+      dbReferences:
+      - id: '3418353'
+        type: PubMed
+      - id: 10.1111/j.1471-4159.1988.tb03105.x
+        type: DOI
+      location:
+        firstPage: '1321'
+        lastPage: '1324'
+        volume: '51'
+      publication:
+        journalName: J. Neurochem.
+      publicationDate: '1988'
+      title: Structural features of human monoamine oxidase A elucidated from cDNA
+        and peptide sequences.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+  - citation:
+      authors:
+      - Bach A.W.J.
+      - Lan N.C.
+      - Johnson D.L.
+      - Abell C.W.
+      - Bembenek M.E.
+      - Kwan S.W.
+      - Seeburg P.H.
+      - Shih J.C.
+      dbReferences:
+      - id: '3387449'
+        type: PubMed
+      - id: 10.1073/pnas.85.13.4934
+        type: DOI
+      location:
+        firstPage: '4934'
+        lastPage: '4938'
+        volume: '85'
+      publication:
+        journalName: Proc. Natl. Acad. Sci. U.S.A.
+      publicationDate: '1988'
+      title: 'cDNA cloning of human liver monoamine oxidase A and B: molecular basis
+        of differences in enzymatic properties.'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Chen Z.-Y.
+      - Hotamisligil G.S.
+      - Huang J.-K.
+      - Wen L.
+      - Ezzeddine D.
+      - Aydin-Muderrisoglu N.
+      - Powell J.F.
+      - Huang R.H.
+      - Breakefield X.O.
+      - Craig I.
+      - Hsu Y.-P.P.
+      dbReferences:
+      - id: '1886775'
+        type: PubMed
+      - id: 10.1093/nar/19.16.4537
+        type: DOI
+      location:
+        firstPage: '4537'
+        lastPage: '4541'
+        volume: '19'
+      publication:
+        journalName: Nucleic Acids Res.
+      publicationDate: '1991'
+      title: Structure of the human gene for monoamine oxidase type A.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+  - citation:
+      authors:
+      - Grimsby J.
+      - Chen K.
+      - Wang L.J.
+      - Lan N.C.
+      - Shih J.C.
+      dbReferences:
+      - id: '2023912'
+        type: PubMed
+      - id: 10.1073/pnas.88.9.3637
+        type: DOI
+      location:
+        firstPage: '3637'
+        lastPage: '3641'
+        volume: '88'
+      publication:
+        journalName: Proc. Natl. Acad. Sci. U.S.A.
+      publicationDate: '1991'
+      title: Human monoamine oxidase A and B genes exhibit identical exon-intron organization.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+  - citation:
+      authors:
+      - Ota T.
+      - Suzuki Y.
+      - Nishikawa T.
+      - Otsuki T.
+      - Sugiyama T.
+      - Irie R.
+      - Wakamatsu A.
+      - Hayashi K.
+      - Sato H.
+      - Nagai K.
+      - Kimura K.
+      - Makita H.
+      - Sekine M.
+      - Obayashi M.
+      - Nishi T.
+      - Shibahara T.
+      - Tanaka T.
+      - Ishii S.
+      - Yamamoto J.
+      - Saito K.
+      - Kawai Y.
+      - Isono Y.
+      - Nakamura Y.
+      - Nagahari K.
+      - Murakami K.
+      - Yasuda T.
+      - Iwayanagi T.
+      - Wagatsuma M.
+      - Shiratori A.
+      - Sudo H.
+      - Hosoiri T.
+      - Kaku Y.
+      - Kodaira H.
+      - Kondo H.
+      - Sugawara M.
+      - Takahashi M.
+      - Kanda K.
+      - Yokoi T.
+      - Furuya T.
+      - Kikkawa E.
+      - Omura Y.
+      - Abe K.
+      - Kamihara K.
+      - Katsuta N.
+      - Sato K.
+      - Tanikawa M.
+      - Yamazaki M.
+      - Ninomiya K.
+      - Ishibashi T.
+      - Yamashita H.
+      - Murakawa K.
+      - Fujimori K.
+      - Tanai H.
+      - Kimata M.
+      - Watanabe M.
+      - Hiraoka S.
+      - Chiba Y.
+      - Ishida S.
+      - Ono Y.
+      - Takiguchi S.
+      - Watanabe S.
+      - Yosida M.
+      - Hotuta T.
+      - Kusano J.
+      - Kanehori K.
+      - Takahashi-Fujii A.
+      - Hara H.
+      - Tanase T.-O.
+      - Nomura Y.
+      - Togiya S.
+      - Komai F.
+      - Hara R.
+      - Takeuchi K.
+      - Arita M.
+      - Imose N.
+      - Musashino K.
+      - Yuuki H.
+      - Oshima A.
+      - Sasaki N.
+      - Aotsuka S.
+      - Yoshikawa Y.
+      - Matsunawa H.
+      - Ichihara T.
+      - Shiohata N.
+      - Sano S.
+      - Moriya S.
+      - Momiyama H.
+      - Satoh N.
+      - Takami S.
+      - Terashima Y.
+      - Suzuki O.
+      - Nakagawa S.
+      - Senoh A.
+      - Mizoguchi H.
+      - Goto Y.
+      - Shimizu F.
+      - Wakebe H.
+      - Hishigaki H.
+      - Watanabe T.
+      - Sugiyama A.
+      - Takemoto M.
+      - Kawakami B.
+      - Yamazaki M.
+      - Watanabe K.
+      - Kumagai A.
+      - Itakura S.
+      - Fukuzumi Y.
+      - Fujimori Y.
+      - Komiyama M.
+      - Tashiro H.
+      - Tanigami A.
+      - Fujiwara T.
+      - Ono T.
+      - Yamada K.
+      - Fujii Y.
+      - Ozaki K.
+      - Hirao M.
+      - Ohmori Y.
+      - Kawabata A.
+      - Hikiji T.
+      - Kobatake N.
+      - Inagaki H.
+      - Ikema Y.
+      - Okamoto S.
+      - Okitani R.
+      - Kawakami T.
+      - Noguchi S.
+      - Itoh T.
+      - Shigeta K.
+      - Senba T.
+      - Matsumura K.
+      - Nakajima Y.
+      - Mizuno T.
+      - Morinaga M.
+      - Sasaki M.
+      - Togashi T.
+      - Oyama M.
+      - Hata H.
+      - Watanabe M.
+      - Komatsu T.
+      - Mizushima-Sugano J.
+      - Satoh T.
+      - Shirai Y.
+      - Takahashi Y.
+      - Nakagawa K.
+      - Okumura K.
+      - Nagase T.
+      - Nomura N.
+      - Kikuchi H.
+      - Masuho Y.
+      - Yamashita R.
+      - Nakai K.
+      - Yada T.
+      - Nakamura Y.
+      - Ohara O.
+      - Isogai T.
+      - Sugano S.
+      dbReferences:
+      - id: '14702039'
+        type: PubMed
+      - id: 10.1038/ng1285
+        type: DOI
+      location:
+        firstPage: '40'
+        lastPage: '45'
+        volume: '36'
+      publication:
+        journalName: Nat. Genet.
+      publicationDate: '2004'
+      title: Complete sequencing and characterization of 21,243 full-length human
+        cDNAs.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2)
+    source:
+      tissue:
+      - value: Cerebellum
+  - citation:
+      authors:
+      - Ross M.T.
+      - Grafham D.V.
+      - Coffey A.J.
+      - Scherer S.
+      - McLay K.
+      - Muzny D.
+      - Platzer M.
+      - Howell G.R.
+      - Burrows C.
+      - Bird C.P.
+      - Frankish A.
+      - Lovell F.L.
+      - Howe K.L.
+      - Ashurst J.L.
+      - Fulton R.S.
+      - Sudbrak R.
+      - Wen G.
+      - Jones M.C.
+      - Hurles M.E.
+      - Andrews T.D.
+      - Scott C.E.
+      - Searle S.
+      - Ramser J.
+      - Whittaker A.
+      - Deadman R.
+      - Carter N.P.
+      - Hunt S.E.
+      - Chen R.
+      - Cree A.
+      - Gunaratne P.
+      - Havlak P.
+      - Hodgson A.
+      - Metzker M.L.
+      - Richards S.
+      - Scott G.
+      - Steffen D.
+      - Sodergren E.
+      - Wheeler D.A.
+      - Worley K.C.
+      - Ainscough R.
+      - Ambrose K.D.
+      - Ansari-Lari M.A.
+      - Aradhya S.
+      - Ashwell R.I.
+      - Babbage A.K.
+      - Bagguley C.L.
+      - Ballabio A.
+      - Banerjee R.
+      - Barker G.E.
+      - Barlow K.F.
+      - Barrett I.P.
+      - Bates K.N.
+      - Beare D.M.
+      - Beasley H.
+      - Beasley O.
+      - Beck A.
+      - Bethel G.
+      - Blechschmidt K.
+      - Brady N.
+      - Bray-Allen S.
+      - Bridgeman A.M.
+      - Brown A.J.
+      - Brown M.J.
+      - Bonnin D.
+      - Bruford E.A.
+      - Buhay C.
+      - Burch P.
+      - Burford D.
+      - Burgess J.
+      - Burrill W.
+      - Burton J.
+      - Bye J.M.
+      - Carder C.
+      - Carrel L.
+      - Chako J.
+      - Chapman J.C.
+      - Chavez D.
+      - Chen E.
+      - Chen G.
+      - Chen Y.
+      - Chen Z.
+      - Chinault C.
+      - Ciccodicola A.
+      - Clark S.Y.
+      - Clarke G.
+      - Clee C.M.
+      - Clegg S.
+      - Clerc-Blankenburg K.
+      - Clifford K.
+      - Cobley V.
+      - Cole C.G.
+      - Conquer J.S.
+      - Corby N.
+      - Connor R.E.
+      - David R.
+      - Davies J.
+      - Davis C.
+      - Davis J.
+      - Delgado O.
+      - Deshazo D.
+      - Dhami P.
+      - Ding Y.
+      - Dinh H.
+      - Dodsworth S.
+      - Draper H.
+      - Dugan-Rocha S.
+      - Dunham A.
+      - Dunn M.
+      - Durbin K.J.
+      - Dutta I.
+      - Eades T.
+      - Ellwood M.
+      - Emery-Cohen A.
+      - Errington H.
+      - Evans K.L.
+      - Faulkner L.
+      - Francis F.
+      - Frankland J.
+      - Fraser A.E.
+      - Galgoczy P.
+      - Gilbert J.
+      - Gill R.
+      - Gloeckner G.
+      - Gregory S.G.
+      - Gribble S.
+      - Griffiths C.
+      - Grocock R.
+      - Gu Y.
+      - Gwilliam R.
+      - Hamilton C.
+      - Hart E.A.
+      - Hawes A.
+      - Heath P.D.
+      - Heitmann K.
+      - Hennig S.
+      - Hernandez J.
+      - Hinzmann B.
+      - Ho S.
+      - Hoffs M.
+      - Howden P.J.
+      - Huckle E.J.
+      - Hume J.
+      - Hunt P.J.
+      - Hunt A.R.
+      - Isherwood J.
+      - Jacob L.
+      - Johnson D.
+      - Jones S.
+      - de Jong P.J.
+      - Joseph S.S.
+      - Keenan S.
+      - Kelly S.
+      - Kershaw J.K.
+      - Khan Z.
+      - Kioschis P.
+      - Klages S.
+      - Knights A.J.
+      - Kosiura A.
+      - Kovar-Smith C.
+      - Laird G.K.
+      - Langford C.
+      - Lawlor S.
+      - Leversha M.
+      - Lewis L.
+      - Liu W.
+      - Lloyd C.
+      - Lloyd D.M.
+      - Loulseged H.
+      - Loveland J.E.
+      - Lovell J.D.
+      - Lozado R.
+      - Lu J.
+      - Lyne R.
+      - Ma J.
+      - Maheshwari M.
+      - Matthews L.H.
+      - McDowall J.
+      - McLaren S.
+      - McMurray A.
+      - Meidl P.
+      - Meitinger T.
+      - Milne S.
+      - Miner G.
+      - Mistry S.L.
+      - Morgan M.
+      - Morris S.
+      - Mueller I.
+      - Mullikin J.C.
+      - Nguyen N.
+      - Nordsiek G.
+      - Nyakatura G.
+      - O'dell C.N.
+      - Okwuonu G.
+      - Palmer S.
+      - Pandian R.
+      - Parker D.
+      - Parrish J.
+      - Pasternak S.
+      - Patel D.
+      - Pearce A.V.
+      - Pearson D.M.
+      - Pelan S.E.
+      - Perez L.
+      - Porter K.M.
+      - Ramsey Y.
+      - Reichwald K.
+      - Rhodes S.
+      - Ridler K.A.
+      - Schlessinger D.
+      - Schueler M.G.
+      - Sehra H.K.
+      - Shaw-Smith C.
+      - Shen H.
+      - Sheridan E.M.
+      - Shownkeen R.
+      - Skuce C.D.
+      - Smith M.L.
+      - Sotheran E.C.
+      - Steingruber H.E.
+      - Steward C.A.
+      - Storey R.
+      - Swann R.M.
+      - Swarbreck D.
+      - Tabor P.E.
+      - Taudien S.
+      - Taylor T.
+      - Teague B.
+      - Thomas K.
+      - Thorpe A.
+      - Timms K.
+      - Tracey A.
+      - Trevanion S.
+      - Tromans A.C.
+      - d'Urso M.
+      - Verduzco D.
+      - Villasana D.
+      - Waldron L.
+      - Wall M.
+      - Wang Q.
+      - Warren J.
+      - Warry G.L.
+      - Wei X.
+      - West A.
+      - Whitehead S.L.
+      - Whiteley M.N.
+      - Wilkinson J.E.
+      - Willey D.L.
+      - Williams G.
+      - Williams L.
+      - Williamson A.
+      - Williamson H.
+      - Wilming L.
+      - Woodmansey R.L.
+      - Wray P.W.
+      - Yen J.
+      - Zhang J.
+      - Zhou J.
+      - Zoghbi H.
+      - Zorilla S.
+      - Buck D.
+      - Reinhardt R.
+      - Poustka A.
+      - Rosenthal A.
+      - Lehrach H.
+      - Meindl A.
+      - Minx P.J.
+      - Hillier L.W.
+      - Willard H.F.
+      - Wilson R.K.
+      - Waterston R.H.
+      - Rice C.M.
+      - Vaudin M.
+      - Coulson A.
+      - Nelson D.L.
+      - Weinstock G.
+      - Sulston J.E.
+      - Durbin R.M.
+      - Hubbard T.
+      - Gibbs R.A.
+      - Beck S.
+      - Rogers J.
+      - Bentley D.R.
+      dbReferences:
+      - id: '15772651'
+        type: PubMed
+      - id: 10.1038/nature03440
+        type: DOI
+      location:
+        firstPage: '325'
+        lastPage: '337'
+        volume: '434'
+      publication:
+        journalName: Nature
+      publicationDate: '2005'
+      title: The DNA sequence of the human X chromosome.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      consortiums:
+      - The MGC Project Team
+      dbReferences:
+      - id: '15489334'
+        type: PubMed
+      - id: 10.1101/gr.2596504
+        type: DOI
+      location:
+        firstPage: '2121'
+        lastPage: '2127'
+        volume: '14'
+      publication:
+        journalName: Genome Res.
+      publicationDate: '2004'
+      title: 'The status, quality, and expansion of the NIH full-length cDNA project:
+        the Mammalian Gene Collection (MGC).'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)
+    source:
+      tissue:
+      - value: Ovary
+  - citation:
+      authors:
+      - Zhu Q.S.
+      - Grimsby J.S.
+      - Chen K.
+      - Shih J.C.
+      dbReferences:
+      - id: '1432104'
+        type: PubMed
+      - id: 10.1523/jneurosci.12-11-04437.1992
+        type: DOI
+      location:
+        firstPage: '4437'
+        lastPage: '4446'
+        volume: '12'
+      publication:
+        journalName: J. Neurosci.
+      publicationDate: '1992'
+      title: Promoter organization and activity of human monoamine oxidase (MAO) A
+        and B genes.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-24
+  - citation:
+      authors:
+      - Denney R.M.
+      dbReferences:
+      - id: '8584674'
+        type: PubMed
+      - id: 10.1016/s0079-6123(08)61202-9
+        type: DOI
+      location:
+        firstPage: '57'
+        lastPage: '66'
+        volume: '106'
+      publication:
+        journalName: Prog. Brain Res.
+      publicationDate: '1995'
+      title: The promoter of the human monoamine oxidase A gene.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-27
+  - citation:
+      authors:
+      - Denney R.M.
+      - Sharma A.
+      - Dave S.K.
+      - Waguespack A.
+      dbReferences:
+      - id: '7519662'
+        type: PubMed
+      - id: 10.1046/j.1471-4159.1994.63030843.x
+        type: DOI
+      location:
+        firstPage: '843'
+        lastPage: '856'
+        volume: '63'
+      publication:
+        journalName: J. Neurochem.
+      publicationDate: '1994'
+      title: 'A new look at the promoter of the human monoamine oxidase A gene: mapping
+        transcription initiation sites and capacity to drive luciferase expression.'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-33
+  - citation:
+      authors:
+      - Chen S.-Y.
+      - Weyler W.
+      dbReferences:
+      - id: '3178846'
+        type: PubMed
+      - id: 10.1016/s0006-291x(88)80861-1
+        type: DOI
+      location:
+        firstPage: '445'
+        lastPage: '450'
+        volume: '156'
+      publication:
+        journalName: Biochem. Biophys. Res. Commun.
+      publicationDate: '1988'
+      title: Partial amino acid sequence analysis of human placenta monoamine oxidase
+        A and bovine liver monoamine oxidase B.
+      type: journal article
+    scope:
+    - PROTEIN SEQUENCE OF 31-45; 62-78; 109-129; 268-288; 298-315; 318-332; 336-352;
+      372-412; 430-440 AND 458-493
+    source:
+      tissue:
+      - value: Placenta
+  - citation:
+      authors:
+      - Li M.
+      - Hubalek F.
+      - Newton-Vinson P.
+      - Edmondson D.E.
+      dbReferences:
+      - id: '11812236'
+        type: PubMed
+      - id: 10.1006/prep.2001.1546
+        type: DOI
+      location:
+        firstPage: '152'
+        lastPage: '162'
+        volume: '24'
+      publication:
+        journalName: Protein Expr. Purif.
+      publicationDate: '2002'
+      title: 'High-level expression of human liver monoamine oxidase A in Pichia pastoris:
+        comparison with the enzyme expressed in Saccharomyces cerevisiae.'
+      type: journal article
+    scope:
+    - PARTIAL PROTEIN SEQUENCE
+    - ACETYLATION AT MET-1
+    - MASS SPECTROMETRY
+  - citation:
+      authors:
+      - O'Carroll A.M.
+      - Bardsley M.E.
+      - Tipton K.F.
+      dbReferences:
+      - id: '20493079'
+        type: PubMed
+      - id: 10.1016/0197-0186(86)90182-8
+        type: DOI
+      location:
+        firstPage: '493'
+        lastPage: '500'
+        volume: '8'
+      publication:
+        journalName: Neurochem. Int.
+      publicationDate: '1986'
+      title: The oxidation of adrenaline and noradrenaline by the two forms of monoamine
+        oxidase from human and rat brain.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+  - citation:
+      authors:
+      - Weyler W.
+      dbReferences:
+      - id: '2764901'
+        type: PubMed
+      - id: 10.1042/bj2600725
+        type: DOI
+      location:
+        firstPage: '725'
+        lastPage: '729'
+        volume: '260'
+      publication:
+        journalName: Biochem. J.
+      publicationDate: '1989'
+      title: Monoamine oxidase A from human placenta and monoamine oxidase B from
+        bovine liver both have one FAD per subunit.
+      type: journal article
+    scope:
+    - DETERMINATION OF PROTEIN-FAD RATIO
+    source:
+      tissue:
+      - value: Placenta
+  - citation:
+      authors:
+      - Wu H.F.
+      - Chen K.
+      - Shih J.C.
+      dbReferences:
+      - id: '8316221'
+        type: PubMed
+      location:
+        firstPage: '888'
+        lastPage: '893'
+        volume: '43'
+      publication:
+        journalName: Mol. Pharmacol.
+      publicationDate: '1993'
+      title: 'Site-directed mutagenesis of monoamine oxidase A and B: role of cysteines.'
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - MUTAGENESIS OF CYS-165; CYS-266; CYS-306; CYS-321; CYS-323; CYS-374; CYS-398
+      AND CYS-406
+  - citation:
+      authors:
+      - Brunner H.G.
+      - Nelen M.
+      - Breakefield X.O.
+      - Ropers H.-H.
+      - van Oost B.A.
+      dbReferences:
+      - id: '8211186'
+        type: PubMed
+      - id: 10.1126/science.8211186
+        type: DOI
+      location:
+        firstPage: '578'
+        lastPage: '580'
+        volume: '262'
+      publication:
+        journalName: Science
+      publicationDate: '1993'
+      title: Abnormal behavior associated with a point mutation in the structural
+        gene for monoamine oxidase A.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN BRNRS
+  - citation:
+      authors:
+      - Sabol S.Z.
+      - Hu S.
+      - Hamer D.
+      dbReferences:
+      - id: '9799080'
+        type: PubMed
+      - id: 10.1007/s004390050816
+        type: DOI
+      location:
+        firstPage: '273'
+        lastPage: '279'
+        volume: '103'
+      publication:
+        journalName: Hum. Genet.
+      publicationDate: '1998'
+      title: A functional polymorphism in the monoamine oxidase A gene promoter.
+      type: journal article
+    scope:
+    - POLYMORPHISM IN THE PROMOTER REGION
+  - citation:
+      authors:
+      - Bian Y.
+      - Song C.
+      - Cheng K.
+      - Dong M.
+      - Wang F.
+      - Huang J.
+      - Sun D.
+      - Wang L.
+      - Ye M.
+      - Zou H.
+      dbReferences:
+      - id: '24275569'
+        type: PubMed
+      - id: 10.1016/j.jprot.2013.11.014
+        type: DOI
+      location:
+        firstPage: '253'
+        lastPage: '262'
+        volume: '96'
+      publication:
+        journalName: J. Proteomics
+      publicationDate: '2014'
+      title: An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+        phosphoproteome.
+      type: journal article
+    scope:
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - De Colibus L.
+      - Li M.
+      - Binda C.
+      - Lustig A.
+      - Edmondson D.E.
+      - Mattevi A.
+      dbReferences:
+      - id: '16129825'
+        type: PubMed
+      - id: 10.1073/pnas.0505975102
+        type: DOI
+      location:
+        firstPage: '12684'
+        lastPage: '12689'
+        volume: '102'
+      publication:
+        journalName: Proc. Natl. Acad. Sci. U.S.A.
+      publicationDate: '2005'
+      title: 'Three-dimensional structure of human monoamine oxidase A (MAO A): relation
+        to the structures of rat MAO A and human MAO B.'
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (3.0 ANGSTROMS)
+    - COFACTOR
+    - SUBUNIT
+  - citation:
+      authors:
+      - Son S.-Y.
+      - Ma J.
+      - Kondou Y.
+      - Yoshimura M.
+      - Yamashita E.
+      - Tsukihara T.
+      dbReferences:
+      - id: '18391214'
+        type: PubMed
+      - id: 10.1073/pnas.0710626105
+        type: DOI
+      location:
+        firstPage: '5739'
+        lastPage: '5744'
+        volume: '105'
+      publication:
+        journalName: Proc. Natl. Acad. Sci. U.S.A.
+      publicationDate: '2008'
+      title: 'Structure of human monoamine oxidase A at 2.2-A resolution: the control
+        of opening the entry for substrates/inhibitors.'
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (2.17 ANGSTROMS) OF 12-524 IN COMPLEX WITH FAD AND THE
+      INHIBITOR HARMINE
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - COFACTOR
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - TOPOLOGY
+  - citation:
+      authors:
+      - Sjoeblom T.
+      - Jones S.
+      - Wood L.D.
+      - Parsons D.W.
+      - Lin J.
+      - Barber T.D.
+      - Mandelker D.
+      - Leary R.J.
+      - Ptak J.
+      - Silliman N.
+      - Szabo S.
+      - Buckhaults P.
+      - Farrell C.
+      - Meeh P.
+      - Markowitz S.D.
+      - Willis J.
+      - Dawson D.
+      - Willson J.K.V.
+      - Gazdar A.F.
+      - Hartigan J.
+      - Wu L.
+      - Liu C.
+      - Parmigiani G.
+      - Park B.H.
+      - Bachman K.E.
+      - Papadopoulos N.
+      - Vogelstein B.
+      - Kinzler K.W.
+      - Velculescu V.E.
+      dbReferences:
+      - id: '16959974'
+        type: PubMed
+      - id: 10.1126/science.1133427
+        type: DOI
+      location:
+        firstPage: '268'
+        lastPage: '274'
+        volume: '314'
+      publication:
+        journalName: Science
+      publicationDate: '2006'
+      title: The consensus coding sequences of human breast and colorectal cancers.
+      type: journal article
+    scope:
+    - VARIANT [LARGE SCALE ANALYSIS] GLU-15
+  - citation:
+      authors:
+      - Bevilacqua L.
+      - Doly S.
+      - Kaprio J.
+      - Yuan Q.
+      - Tikkanen R.
+      - Paunio T.
+      - Zhou Z.
+      - Wedenoja J.
+      - Maroteaux L.
+      - Diaz S.
+      - Belmer A.
+      - Hodgkinson C.A.
+      - Dell'osso L.
+      - Suvisaari J.
+      - Coccaro E.
+      - Rose R.J.
+      - Peltonen L.
+      - Virkkunen M.
+      - Goldman D.
+      dbReferences:
+      - id: '21179162'
+        type: PubMed
+      - id: 10.1038/nature09629
+        type: DOI
+      location:
+        firstPage: '1061'
+        lastPage: '1066'
+        volume: '468'
+      publication:
+        journalName: Nature
+      publicationDate: '2010'
+      title: A population-specific HTR2B stop codon predisposes to severe impulsivity.
+      type: journal article
+    scope:
+    - VARIANT LYS-188
+  - citation:
+      authors:
+      - Piton A.
+      - Poquet H.
+      - Redin C.
+      - Masurel A.
+      - Lauer J.
+      - Muller J.
+      - Thevenon J.
+      - Herenger Y.
+      - Chancenotte S.
+      - Bonnet M.
+      - Pinoit J.M.
+      - Huet F.
+      - Thauvin-Robinet C.
+      - Jaeger A.S.
+      - Le Gras S.
+      - Jost B.
+      - Gerard B.
+      - Peoc'h K.
+      - Launay J.M.
+      - Faivre L.
+      - Mandel J.L.
+      dbReferences:
+      - id: '24169519'
+        type: PubMed
+      - id: 10.1038/ejhg.2013.243
+        type: DOI
+      location:
+        firstPage: '776'
+        lastPage: '783'
+        volume: '22'
+      publication:
+        journalName: Eur. J. Hum. Genet.
+      publicationDate: '2014'
+      title: '20 ans apres: a second mutation in MAOA identified by targeted high-throughput
+        sequencing in a family with altered behavior and cognition.'
+      type: journal article
+    scope:
+    - VARIANT PHE-266
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - CHARACTERIZATION OF VARIANT PHE-266
+  secondaryAccession:
+  - B4DF46
+  - Q16426
+  sequence:
+    length: 527
+    mass: 59682
+    modified: '1991-05-01'
+    sequence: MENQEKASIAGHMFDVVVIGGGISGLSAAKLLTEYGVSVLVLEARDRVGGRTYTIRNEHVDYVDVGGAYVGPTQNRILRLSKELGIETYKVNVSERLVQYVKGKTYPFRGAFPPVWNPIAYLDYNNLWRTIDNMGKEIPTDAPWEAQHADKWDKMTMKELIDKICWTKTARRFAYLFVNINVTSEPHEVSALWFLWYVKQCGGTTRIFSVTNGGQERKFVGGSGQVSERIMDLLGDQVKLNHPVTHVDQSSDNIIIETLNHEHYECKYVINAIPPTLTAKIHFRPELPAERNQLIQRLPMGAVIKCMMYYKEAFWKKKDYCGCMIIEDEDAPISITLDDTKPDGSLPAIMGFILARKADRLAKLHKEIRKKKICELYAKVLGSQEALHPVHYEEKNWCEEQYSGGCYTAYFPPGIMTQYGRVIRQPVGRIFFAGTETATKWSGYMEGAVEAGERAAREVLNGLGKVTEKDIWVQEPESKDVPAVEITHTFWERNLPSVSGLLKIIGFSTSVTALGFVLYKYKLLPRS
+    version: 1
+uniprot_id: P21397

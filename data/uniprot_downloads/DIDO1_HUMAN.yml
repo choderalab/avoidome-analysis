@@ -1,0 +1,2991 @@
+data:
+  accession: Q9BTC0
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000250
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16127461
+          id: '16127461'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16127461
+      value: Putative transcription factor, weakly pro-apoptotic when overexpressed
+        (By similarity). Tumor suppressor. Required for early embryonic stem cell
+        development
+    type: FUNCTION
+  - molecule: Isoform 2
+    text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16127461
+          id: '16127461'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16127461
+      value: Displaces isoform 4 at the onset of differentiation, required for repression
+        of stemness genes
+    type: FUNCTION
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/23831028
+          id: '23831028'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/23831028
+      value: Interacts specifically (via PHD-type zinc finger) with histone H3 that
+        is trimethylated at 'Lys-4' (H3K4me3), histone phosphorylation at 'Thr-3'
+        or 'Thr-6' disrupts this binding and promotes translocation of DIDO1 from
+        chromatin to the mitotic spindle during mitosis
+    type: SUBUNIT
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000250
+        value: Cytoplasm
+    - location:
+        evidences:
+        - code: ECO:0000255
+          source:
+            id: PRU00651
+            name: PROSITE-ProRule
+            url: https://prosite.expasy.org/unirule/PRU00651
+        value: Nucleus
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/23831028
+            id: '23831028'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/23831028
+        value: Cytoplasm, cytoskeleton, spindle
+    text:
+    - evidences:
+      - code: ECO:0000250
+      value: Translocates to the nucleus after pro-apoptotic stimuli (By similarity).
+        Translocates to the mitotic spindle upon loss of interaction with H3K4me3
+        during early mitosis
+    type: SUBCELLULAR_LOCATION
+  - event:
+    - Alternative splicing
+    isoforms:
+    - ids:
+      - Q9BTC0-4
+      name:
+        value: '4'
+      sequenceStatus: displayed
+      synonyms:
+      - value: DIDO3
+    - ids:
+      - Q9BTC0-1
+      name:
+        value: '1'
+      sequence:
+      - VSP_017225
+      - VSP_017226
+      sequenceStatus: described
+      synonyms:
+      - value: DIDO2
+    - ids:
+      - Q9BTC0-2
+      name:
+        value: '2'
+      sequence:
+      - VSP_007209
+      - VSP_007210
+      sequenceStatus: described
+      synonyms:
+      - value: DIDO1
+    - ids:
+      - Q9BTC0-3
+      name:
+        value: '3'
+      sequence:
+      - VSP_007211
+      - VSP_007212
+      sequenceStatus: described
+      synonyms:
+      - value: a
+    type: ALTERNATIVE_PRODUCTS
+  - text:
+    - value: Ubiquitous
+    type: TISSUE_SPECIFICITY
+  - text:
+    - value: The PHD-type zinc finger forms an aromatic cage around H3K4me3
+    type: DOMAIN
+  - text:
+    - value: Defects in DIDO1 may be a cause of myeloid neoplasms
+    type: MISCELLANEOUS
+  - conflictType: ERRONEOUS_INITIATION
+    evidences:
+    - code: ECO:0000305
+    sequence: BAA20791.2
+    type: SEQUENCE_CAUTION
+  dbReferences:
+  - id: AY481571
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAS49898.1
+    type: EMBL
+  - id: AY481572
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAS49899.1
+    type: EMBL
+  - id: AB002331
+    properties:
+      molecule type: mRNA
+      protein sequence ID: BAA20791.2
+      status: ALT_INIT
+    type: EMBL
+  - id: AK002127
+    properties:
+      molecule type: mRNA
+      protein sequence ID: BAA92094.1
+    type: EMBL
+  - id: AL117379
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: AL035669
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: CH471077
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW75322.1
+    type: EMBL
+  - id: CH471077
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW75323.1
+    type: EMBL
+  - id: BC000770
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH00770.1
+    type: EMBL
+  - id: BC004237
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH04237.1
+    type: EMBL
+  - id: BC012757
+    properties:
+      molecule type: mRNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: BC014489
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH14489.1
+    type: EMBL
+  - id: BC137177
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAI37178.1
+    type: EMBL
+  - id: AL133063
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAB61387.1
+    type: EMBL
+  - id: CCDS13508.2
+    isoform: Q9BTC0-1
+    type: CCDS
+  - id: CCDS13509.1
+    isoform: Q9BTC0-3
+    type: CCDS
+  - id: CCDS33506.1
+    isoform: Q9BTC0-4
+    type: CCDS
+  - id: NP_001180298.1
+    isoform: Q9BTC0-4
+    properties:
+      nucleotide sequence ID: NM_001193369.1
+    type: RefSeq
+  - id: NP_001180299.1
+    isoform: Q9BTC0-1
+    properties:
+      nucleotide sequence ID: NM_001193370.1
+    type: RefSeq
+  - id: NP_071388.2
+    isoform: Q9BTC0-3
+    properties:
+      nucleotide sequence ID: NM_022105.4
+    type: RefSeq
+  - id: NP_149072.2
+    isoform: Q9BTC0-4
+    properties:
+      nucleotide sequence ID: NM_033081.2
+    type: RefSeq
+  - id: NP_542986.1
+    isoform: Q9BTC0-3
+    properties:
+      nucleotide sequence ID: NM_080796.3
+    type: RefSeq
+  - id: NP_542987.2
+    isoform: Q9BTC0-1
+    properties:
+      nucleotide sequence ID: NM_080797.3
+    type: RefSeq
+  - id: XP_011526811.1
+    properties:
+      nucleotide sequence ID: XM_011528509.2
+    type: RefSeq
+  - id: 2M3H
+    properties:
+      chains: A=265-322
+      method: NMR
+    type: PDB
+  - id: 4L7X
+    properties:
+      chains: A=266-325
+      method: X-ray
+      resolution: 1.35 A
+    type: PDB
+  - id: 2M3H
+    type: PDBsum
+  - id: 4L7X
+    type: PDBsum
+  - id: Q9BTC0
+    type: AlphaFoldDB
+  - id: Q9BTC0
+    type: BMRB
+  - id: Q9BTC0
+    type: SMR
+  - id: '116266'
+    properties:
+      interactions: '171'
+    type: BioGRID
+  - id: Q9BTC0
+    properties:
+      interactions: '36'
+    type: IntAct
+  - id: Q9BTC0
+    type: MINT
+  - id: 9606.ENSP00000266070
+    type: STRING
+  - id: Q9BTC0
+    type: CarbonylDB
+  - id: Q9BTC0
+    properties:
+      glycosylation: 12 sites, 2 glycans
+    type: GlyCosmos
+  - id: Q9BTC0
+    properties:
+      glycosylation: 26 sites, 2 O-linked glycans (26 sites)
+    type: GlyGen
+  - id: Q9BTC0
+    type: iPTMnet
+  - id: Q9BTC0
+    type: MetOSite
+  - id: Q9BTC0
+    type: PhosphoSitePlus
+  - id: Q9BTC0
+    type: SwissPalm
+  - id: DIDO1
+    type: BioMuta
+  - id: '116241332'
+    type: DMDM
+  - id: Q9BTC0
+    type: EPD
+  - id: Q9BTC0
+    type: jPOST
+  - id: Q9BTC0
+    type: MassIVE
+  - id: Q9BTC0
+    type: MaxQB
+  - id: 9606-ENSP00000266070
+    type: PaxDb
+  - id: Q9BTC0
+    type: PeptideAtlas
+  - id: '78967'
+    isoform: Q9BTC0-4
+    type: ProteomicsDB
+  - id: '78968'
+    isoform: Q9BTC0-1
+    type: ProteomicsDB
+  - id: '78969'
+    isoform: Q9BTC0-2
+    type: ProteomicsDB
+  - id: '78970'
+    isoform: Q9BTC0-3
+    type: ProteomicsDB
+  - id: Q9BTC0
+    type: Pumba
+  - id: '3820'
+    properties:
+      antibodies: 311 antibodies from 37 providers
+    type: Antibodypedia
+  - id: '11083'
+    type: DNASU
+  - id: ENST00000266070.8
+    isoform: Q9BTC0-4
+    properties:
+      gene ID: ENSG00000101191.17
+      protein sequence ID: ENSP00000266070.4
+    type: Ensembl
+  - id: ENST00000354665.8
+    isoform: Q9BTC0-3
+    properties:
+      gene ID: ENSG00000101191.17
+      protein sequence ID: ENSP00000346692.4
+    type: Ensembl
+  - id: ENST00000370366.1
+    isoform: Q9BTC0-2
+    properties:
+      gene ID: ENSG00000101191.17
+      protein sequence ID: ENSP00000359391.1
+    type: Ensembl
+  - id: ENST00000370368.5
+    isoform: Q9BTC0-3
+    properties:
+      gene ID: ENSG00000101191.17
+      protein sequence ID: ENSP00000359394.1
+    type: Ensembl
+  - id: ENST00000370371.8
+    isoform: Q9BTC0-3
+    properties:
+      gene ID: ENSG00000101191.17
+      protein sequence ID: ENSP00000359397.4
+    type: Ensembl
+  - id: ENST00000395340.5
+    isoform: Q9BTC0-1
+    properties:
+      gene ID: ENSG00000101191.17
+      protein sequence ID: ENSP00000378749.1
+    type: Ensembl
+  - id: ENST00000395343.6
+    isoform: Q9BTC0-4
+    properties:
+      gene ID: ENSG00000101191.17
+      protein sequence ID: ENSP00000378752.1
+    type: Ensembl
+  - id: '11083'
+    type: GeneID
+  - id: hsa:11083
+    type: KEGG
+  - id: ENST00000395343.6
+    properties:
+      RefSeq nucleotide sequence ID: NM_001193369.2
+      RefSeq protein sequence ID: NP_001180298.1
+      protein sequence ID: ENSP00000378752.1
+    type: MANE-Select
+  - id: uc002ydr.3
+    isoform: Q9BTC0-4
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:2680
+    type: AGR
+  - id: '11083'
+    type: CTD
+  - id: '11083'
+    type: DisGeNET
+  - id: DIDO1
+    type: GeneCards
+  - id: HGNC:2680
+    properties:
+      gene designation: DIDO1
+    type: HGNC
+  - id: ENSG00000101191
+    properties:
+      expression patterns: Low tissue specificity
+    type: HPA
+  - id: '604140'
+    properties:
+      type: gene
+    type: MIM
+  - id: NX_Q9BTC0
+    type: neXtProt
+  - id: ENSG00000101191
+    type: OpenTargets
+  - id: PA27147
+    type: PharmGKB
+  - id: HostDB:ENSG00000101191
+    type: VEuPathDB
+  - id: KOG1632
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: KOG1634
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000155532
+    type: GeneTree
+  - id: CLU_000673_1_0_1
+    type: HOGENOM
+  - id: Q9BTC0
+    type: InParanoid
+  - id: HPNQFDG
+    type: OMA
+  - id: 5406765at2759
+    type: OrthoDB
+  - id: Q9BTC0
+    type: PhylomeDB
+  - id: TF350578
+    type: TreeFam
+  - id: Q9BTC0
+    type: PathwayCommons
+  - id: R-HSA-1221632
+    isoform: Q9BTC0-1
+    properties:
+      pathway name: Meiotic synapsis
+    type: Reactome
+  - id: Q9BTC0
+    type: SignaLink
+  - id: Q9BTC0
+    type: SIGNOR
+  - id: '11083'
+    properties:
+      hits: 285 hits in 1165 CRISPR screens
+    type: BioGRID-ORCS
+  - id: DIDO1
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: DIDO1
+    type: GeneWiki
+  - id: '11083'
+    type: GenomeRNAi
+  - id: Q9BTC0
+    properties:
+      development level: Tbio
+    type: Pharos
+  - id: PR:Q9BTC0
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 20
+    type: Proteomes
+  - id: Q9BTC0
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000101191
+    properties:
+      expression patterns: Expressed in buccal mucosa cell and 197 other cell types
+        or tissues
+    type: Bgee
+  - id: Q9BTC0
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - id: GO:0005737
+    properties:
+      source: IEA:UniProtKB-SubCell
+      term: C:cytoplasm
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0005634
+    properties:
+      source: IBA:GO_Central
+      term: C:nucleus
+    type: GO
+  - id: GO:0005819
+    properties:
+      source: IEA:UniProtKB-SubCell
+      term: C:spindle
+    type: GO
+  - id: GO:0046872
+    properties:
+      source: IEA:UniProtKB-KW
+      term: F:metal ion binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22681889
+        id: '22681889'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22681889
+    id: GO:0003723
+    properties:
+      source: HDA:UniProtKB
+      term: F:RNA binding
+    type: GO
+  - id: GO:0097190
+    properties:
+      source: IEA:Ensembl
+      term: P:apoptotic signaling pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0006351
+    properties:
+      source: IBA:GO_Central
+      term: P:DNA-templated transcription
+    type: GO
+  - id: cd15639
+    properties:
+      entry name: PHD_DIDO1_like
+      match status: '1'
+    type: CDD
+  - id: cd21547
+    properties:
+      entry name: SPOC_DIDO1-like
+      match status: '1'
+    type: CDD
+  - id: 1.10.472.30
+    properties:
+      entry name: Transcription elongation factor S-II, central domain
+      match status: '1'
+    type: Gene3D
+  - id: 3.30.40.10
+    properties:
+      entry name: Zinc/RING finger domain, C3HC4 (zinc finger)
+      match status: '1'
+    type: Gene3D
+  - id: IPR033082
+    properties:
+      entry name: DIDO1_PHD
+    type: InterPro
+  - id: IPR012921
+    properties:
+      entry name: SPOC_C
+    type: InterPro
+  - id: IPR003618
+    properties:
+      entry name: TFIIS_cen_dom
+    type: InterPro
+  - id: IPR036575
+    properties:
+      entry name: TFIIS_cen_dom_sf
+    type: InterPro
+  - id: IPR019786
+    properties:
+      entry name: Zinc_finger_PHD-type_CS
+    type: InterPro
+  - id: IPR011011
+    properties:
+      entry name: Znf_FYVE_PHD
+    type: InterPro
+  - id: IPR001965
+    properties:
+      entry name: Znf_PHD
+    type: InterPro
+  - id: IPR019787
+    properties:
+      entry name: Znf_PHD-finger
+    type: InterPro
+  - id: IPR013083
+    properties:
+      entry name: Znf_RING/FYVE/PHD
+    type: InterPro
+  - id: PTHR11477:SF13
+    properties:
+      entry name: DEATH-INDUCER OBLITERATOR 1
+      match status: '1'
+    type: PANTHER
+  - id: PTHR11477
+    properties:
+      entry name: TRANSCRIPTION FACTOR S-II ZINC FINGER DOMAIN-CONTAINING PROTEIN
+      match status: '1'
+    type: PANTHER
+  - id: PF00628
+    properties:
+      entry name: PHD
+      match status: '1'
+    type: Pfam
+  - id: PF07744
+    properties:
+      entry name: SPOC
+      match status: '1'
+    type: Pfam
+  - id: PF07500
+    properties:
+      entry name: TFIIS_M
+      match status: '1'
+    type: Pfam
+  - id: SM00249
+    properties:
+      entry name: PHD
+      match status: '1'
+    type: SMART
+  - id: SM00510
+    properties:
+      entry name: TFS2M
+      match status: '1'
+    type: SMART
+  - id: SSF46942
+    properties:
+      entry name: Elongation factor TFIIS domain 2
+      match status: '1'
+    type: SUPFAM
+  - id: SSF57903
+    properties:
+      entry name: FYVE/PHD zinc finger
+      match status: '1'
+    type: SUPFAM
+  - id: PS51321
+    properties:
+      entry name: TFIIS_CENTRAL
+      match status: '1'
+    type: PROSITE
+  - id: PS01359
+    properties:
+      entry name: ZF_PHD_1
+      match status: '1'
+    type: PROSITE
+  - id: PS50016
+    properties:
+      entry name: ZF_PHD_2
+      match status: '1'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Death-inducer obliterator 1
+    end: '2240'
+    ftId: PRO_0000059324
+    molecule: ''
+    type: CHAIN
+  - begin: '670'
+    category: DOMAINS_AND_SITES
+    description: TFIIS central
+    end: '790'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00651
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00651
+    molecule: ''
+    type: DOMAIN
+  - begin: '268'
+    category: DOMAINS_AND_SITES
+    description: PHD-type
+    end: '322'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00146
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00146
+    molecule: ''
+    type: ZN_FING
+  - begin: '1'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '259'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '431'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '456'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '501'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '567'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '584'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '618'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '773'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '826'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '860'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '947'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '1013'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '1045'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '1206'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '1427'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '1453'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '1472'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '1517'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '2240'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '165'
+    category: DOMAINS_AND_SITES
+    description: Nuclear localization signal
+    end: '173'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: MOTIF
+  - begin: '185'
+    category: DOMAINS_AND_SITES
+    description: Nuclear localization signal
+    end: '193'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: MOTIF
+  - begin: '1'
+    category: SEQUENCE_INFORMATION
+    description: Basic and acidic residues
+    end: '44'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '65'
+    category: SEQUENCE_INFORMATION
+    description: Basic and acidic residues
+    end: '91'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '94'
+    category: SEQUENCE_INFORMATION
+    description: Polar residues
+    end: '134'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '136'
+    category: SEQUENCE_INFORMATION
+    description: Basic and acidic residues
+    end: '200'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '227'
+    category: SEQUENCE_INFORMATION
+    description: Basic and acidic residues
+    end: '259'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '433'
+    category: SEQUENCE_INFORMATION
+    description: Basic and acidic residues
+    end: '449'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '529'
+    category: SEQUENCE_INFORMATION
+    description: Basic and acidic residues
+    end: '543'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '773'
+    category: SEQUENCE_INFORMATION
+    description: Basic and acidic residues
+    end: '798'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '866'
+    category: SEQUENCE_INFORMATION
+    description: Basic and acidic residues
+    end: '894'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '1028'
+    category: SEQUENCE_INFORMATION
+    description: Polar residues
+    end: '1045'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '1206'
+    category: SEQUENCE_INFORMATION
+    description: Basic and acidic residues
+    end: '1221'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '1256'
+    category: SEQUENCE_INFORMATION
+    description: Pro residues
+    end: '1272'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '1290'
+    category: SEQUENCE_INFORMATION
+    description: Polar residues
+    end: '1315'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '1394'
+    category: SEQUENCE_INFORMATION
+    description: Basic and acidic residues
+    end: '1423'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '1532'
+    category: SEQUENCE_INFORMATION
+    description: Polar residues
+    end: '1557'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '1840'
+    category: SEQUENCE_INFORMATION
+    description: Basic and acidic residues
+    end: '1858'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '1998'
+    category: SEQUENCE_INFORMATION
+    description: Polar residues
+    end: '2012'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '2067'
+    category: SEQUENCE_INFORMATION
+    description: Basic and acidic residues
+    end: '2229'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '1'
+    category: PTM
+    description: N-acetylmethionine
+    end: '1'
+    evidences:
+    - code: ECO:0000269
+      source:
+        id: Ref.8
+        name: Citation
+        url: https://www.uniprot.org/uniprot/Q9BTC0#ref8
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19413330
+        id: '19413330'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19413330
+    molecule: ''
+    type: MOD_RES
+  - begin: '60'
+    category: PTM
+    description: Phosphoserine
+    end: '60'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23186163
+        id: '23186163'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23186163
+    molecule: ''
+    type: MOD_RES
+  - begin: '114'
+    category: PTM
+    description: Phosphoserine
+    end: '114'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q8C9B9
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q8C9B9
+    molecule: ''
+    type: MOD_RES
+  - begin: '151'
+    category: PTM
+    description: Phosphothreonine
+    end: '151'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18669648
+        id: '18669648'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18669648
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20068231
+        id: '20068231'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20068231
+    molecule: ''
+    type: MOD_RES
+  - begin: '152'
+    category: PTM
+    description: Phosphoserine
+    end: '152'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18669648
+        id: '18669648'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18669648
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20068231
+        id: '20068231'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20068231
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21406692
+        id: '21406692'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21406692
+    molecule: ''
+    type: MOD_RES
+  - begin: '154'
+    category: PTM
+    description: Phosphoserine
+    end: '154'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18669648
+        id: '18669648'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18669648
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20068231
+        id: '20068231'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20068231
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21406692
+        id: '21406692'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21406692
+    molecule: ''
+    type: MOD_RES
+  - begin: '523'
+    category: PTM
+    description: Phosphoserine
+    end: '523'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23186163
+        id: '23186163'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23186163
+    molecule: ''
+    type: MOD_RES
+  - begin: '805'
+    category: PTM
+    description: Phosphoserine
+    end: '805'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16964243
+        id: '16964243'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16964243
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18669648
+        id: '18669648'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18669648
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19690332
+        id: '19690332'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19690332
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20068231
+        id: '20068231'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20068231
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21406692
+        id: '21406692'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21406692
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23186163
+        id: '23186163'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23186163
+    molecule: ''
+    type: MOD_RES
+  - begin: '809'
+    category: PTM
+    description: Phosphoserine
+    end: '809'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16964243
+        id: '16964243'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16964243
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18669648
+        id: '18669648'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18669648
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19690332
+        id: '19690332'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19690332
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20068231
+        id: '20068231'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20068231
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23186163
+        id: '23186163'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23186163
+    molecule: ''
+    type: MOD_RES
+  - begin: '889'
+    category: PTM
+    description: Phosphoserine
+    end: '889'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q8C9B9
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q8C9B9
+    molecule: ''
+    type: MOD_RES
+  - begin: '898'
+    category: PTM
+    description: Phosphoserine
+    end: '898'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17081983
+        id: '17081983'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17081983
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18669648
+        id: '18669648'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18669648
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21406692
+        id: '21406692'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21406692
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23186163
+        id: '23186163'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23186163
+    molecule: ''
+    type: MOD_RES
+  - begin: '1019'
+    category: PTM
+    description: Phosphoserine
+    end: '1019'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18669648
+        id: '18669648'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18669648
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23186163
+        id: '23186163'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23186163
+    molecule: ''
+    type: MOD_RES
+  - begin: '1030'
+    category: PTM
+    description: Phosphoserine
+    end: '1030'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18669648
+        id: '18669648'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18669648
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20068231
+        id: '20068231'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20068231
+    molecule: ''
+    type: MOD_RES
+  - begin: '1040'
+    category: PTM
+    description: Phosphoserine
+    end: '1040'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18220336
+        id: '18220336'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18220336
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20068231
+        id: '20068231'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20068231
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21406692
+        id: '21406692'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21406692
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23186163
+        id: '23186163'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23186163
+    molecule: ''
+    type: MOD_RES
+  - begin: '1244'
+    category: PTM
+    description: Phosphotyrosine
+    end: '1244'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24275569
+        id: '24275569'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24275569
+    molecule: ''
+    type: MOD_RES
+  - begin: '1256'
+    category: PTM
+    description: Phosphothreonine
+    end: '1256'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q8C9B9
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q8C9B9
+    molecule: ''
+    type: MOD_RES
+  - begin: '1260'
+    category: PTM
+    description: Phosphoserine
+    end: '1260'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18669648
+        id: '18669648'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18669648
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21406692
+        id: '21406692'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21406692
+    molecule: ''
+    type: MOD_RES
+  - begin: '1312'
+    category: PTM
+    description: Phosphoserine
+    end: '1312'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20068231
+        id: '20068231'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20068231
+    molecule: ''
+    type: MOD_RES
+  - begin: '1456'
+    category: PTM
+    description: Phosphoserine
+    end: '1456'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17081983
+        id: '17081983'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17081983
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18220336
+        id: '18220336'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18220336
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18669648
+        id: '18669648'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18669648
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20068231
+        id: '20068231'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20068231
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21406692
+        id: '21406692'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21406692
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23186163
+        id: '23186163'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23186163
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24275569
+        id: '24275569'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24275569
+    molecule: ''
+    type: MOD_RES
+  - begin: '1469'
+    category: PTM
+    description: Phosphothreonine
+    end: '1469'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18669648
+        id: '18669648'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18669648
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23186163
+        id: '23186163'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23186163
+    molecule: ''
+    type: MOD_RES
+  - begin: '1522'
+    category: PTM
+    description: Phosphoserine
+    end: '1522'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20068231
+        id: '20068231'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20068231
+    molecule: ''
+    type: MOD_RES
+  - begin: '1714'
+    category: PTM
+    description: Phosphoserine
+    end: '1714'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18669648
+        id: '18669648'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18669648
+    molecule: ''
+    type: MOD_RES
+  - begin: '1835'
+    category: PTM
+    description: Omega-N-methylarginine
+    end: '1835'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24129315
+        id: '24129315'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24129315
+    molecule: ''
+    type: MOD_RES
+  - begin: '1893'
+    category: PTM
+    description: Asymmetric dimethylarginine
+    end: '1893'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24129315
+        id: '24129315'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24129315
+    molecule: ''
+    type: MOD_RES
+  - begin: '1894'
+    category: PTM
+    description: Asymmetric dimethylarginine
+    end: '1894'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24129315
+        id: '24129315'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24129315
+    molecule: ''
+    type: MOD_RES
+  - begin: '1977'
+    category: PTM
+    description: Asymmetric dimethylarginine
+    end: '1977'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24129315
+        id: '24129315'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24129315
+    molecule: ''
+    type: MOD_RES
+  - begin: '1982'
+    category: PTM
+    description: Asymmetric dimethylarginine
+    end: '1982'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24129315
+        id: '24129315'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24129315
+    molecule: ''
+    type: MOD_RES
+  - begin: '1993'
+    category: PTM
+    description: Asymmetric dimethylarginine
+    end: '1993'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24129315
+        id: '24129315'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24129315
+    molecule: ''
+    type: MOD_RES
+  - begin: '2008'
+    category: PTM
+    description: Asymmetric dimethylarginine
+    end: '2008'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24129315
+        id: '24129315'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24129315
+    molecule: ''
+    type: MOD_RES
+  - begin: '2024'
+    category: PTM
+    description: Asymmetric dimethylarginine
+    end: '2024'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24129315
+        id: '24129315'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24129315
+    molecule: ''
+    type: MOD_RES
+  - begin: '247'
+    category: PTM
+    description: Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)
+    end: '247'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/28112733
+        id: '28112733'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/28112733
+    molecule: ''
+    type: CROSSLNK
+  - begin: '879'
+    category: PTM
+    description: Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)
+    end: '879'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/28112733
+        id: '28112733'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/28112733
+    molecule: ''
+    type: CROSSLNK
+  - begin: '530'
+    category: VARIANTS
+    end: '562'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/14702039
+        id: '14702039'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/14702039
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15489334
+        id: '15489334'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15489334
+    ftId: VSP_007211
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '530'
+    category: VARIANTS
+    end: '544'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15489334
+        id: '15489334'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15489334
+    ftId: VSP_007209
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '545'
+    category: VARIANTS
+    end: '2240'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15489334
+        id: '15489334'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15489334
+    ftId: VSP_007210
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '563'
+    category: VARIANTS
+    end: '2240'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/14702039
+        id: '14702039'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/14702039
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15489334
+        id: '15489334'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15489334
+    ftId: VSP_007212
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '1182'
+    category: VARIANTS
+    end: '1189'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15489334
+        id: '15489334'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15489334
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16127461
+        id: '16127461'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16127461
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9205841
+        id: '9205841'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9205841
+    ftId: VSP_017225
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '1190'
+    category: VARIANTS
+    end: '2240'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15489334
+        id: '15489334'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15489334
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16127461
+        id: '16127461'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16127461
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9205841
+        id: '9205841'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9205841
+    ftId: VSP_017226
+    molecule: ''
+    type: VAR_SEQ
+  - alternativeSequence: L
+    begin: '13'
+    category: VARIANTS
+    description: in dbSNP:rs6090161
+    end: '13'
+    ftId: VAR_028310
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: L
+    begin: '276'
+    category: VARIANTS
+    description: in dbSNP:rs6090160
+    end: '276'
+    ftId: VAR_028311
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: T
+    begin: '544'
+    category: VARIANTS
+    description: in dbSNP:rs1883848
+    end: '544'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16127461
+        id: '16127461'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16127461
+    ftId: VAR_057093
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: T
+    begin: '556'
+    category: VARIANTS
+    description: in dbSNP:rs1883847
+    end: '556'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16127461
+        id: '16127461'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16127461
+    ftId: VAR_057094
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: G
+    begin: '793'
+    category: VARIANTS
+    description: in dbSNP:rs750077
+    end: '793'
+    ftId: VAR_057095
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: Q
+    begin: '1220'
+    category: VARIANTS
+    description: in dbSNP:rs6011441
+    end: '1220'
+    ftId: VAR_057096
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: C
+    begin: '1708'
+    category: VARIANTS
+    description: in dbSNP:rs41282984
+    end: '1708'
+    ftId: VAR_061740
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: T
+    begin: '291'
+    category: MUTAGENESIS
+    description: Abolishes binding to H3K4me3.
+    end: '291'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23831028
+        id: '23831028'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23831028
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: E
+    begin: '252'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 4; BAA92094
+    end: '252'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - begin: '271'
+    category: STRUCTURAL
+    end: '274'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4L7X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4L7X
+    molecule: ''
+    type: TURN
+  - begin: '277'
+    category: STRUCTURAL
+    end: '280'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2M3H
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2M3H
+    molecule: ''
+    type: STRAND
+  - begin: '282'
+    category: STRUCTURAL
+    end: '284'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4L7X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4L7X
+    molecule: ''
+    type: STRAND
+  - begin: '286'
+    category: STRUCTURAL
+    end: '288'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4L7X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4L7X
+    molecule: ''
+    type: TURN
+  - begin: '291'
+    category: STRUCTURAL
+    end: '293'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4L7X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4L7X
+    molecule: ''
+    type: STRAND
+  - begin: '294'
+    category: STRUCTURAL
+    end: '297'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4L7X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4L7X
+    molecule: ''
+    type: HELIX
+  - begin: '301'
+    category: STRUCTURAL
+    end: '310'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4L7X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4L7X
+    molecule: ''
+    type: HELIX
+  - begin: '317'
+    category: STRUCTURAL
+    end: '319'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4L7X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4L7X
+    molecule: ''
+    type: TURN
+  - alternativeSequence: L
+    begin: '535'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 7; AAH00770
+    end: '535'
+    evidences:
+    - code: ECO:0000305
+    molecule: Q9BTC0-2
+    type: CONFLICT
+  gene:
+  - name:
+      value: DIDO1
+    synonyms:
+    - value: C20orf158
+    - value: DATF1
+    - value: KIAA0333
+  id: DIDO1_HUMAN
+  info:
+    created: '2003-04-23'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 205
+  keywords:
+  - value: 3D-structure
+  - value: Acetylation
+  - value: Alternative splicing
+  - value: Apoptosis
+  - value: Cytoplasm
+  - value: Cytoskeleton
+  - value: Direct protein sequencing
+  - value: Isopeptide bond
+  - value: Metal-binding
+  - value: Methylation
+  - value: Nucleus
+  - value: Phosphoprotein
+  - value: Reference proteome
+  - value: Ubl conjugation
+  - value: Zinc
+  - value: Zinc-finger
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        value: Death-associated transcription factor 1
+      shortName:
+      - value: DATF-1
+    recommendedName:
+      fullName:
+        value: Death-inducer obliterator 1
+      shortName:
+      - value: DIO-1
+      - value: hDido1
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Futterer A.
+      - Campanero M.R.
+      - Leonardo E.
+      - Criado L.M.
+      - Flores J.M.
+      - Hernandez J.M.
+      - San Miguel J.F.
+      - Martinez-A C.
+      dbReferences:
+      - id: '16127461'
+        type: PubMed
+      - id: 10.1172/jci24177
+        type: DOI
+      location:
+        firstPage: '2351'
+        lastPage: '2362'
+        volume: '115'
+      publication:
+        journalName: J. Clin. Invest.
+      publicationDate: '2005'
+      title: Dido gene expression alterations are implicated in the induction of hematological
+        myeloid neoplasms.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 4)
+    - FUNCTION
+    - ROLE IN MYELOID NEOPLASMS
+    - VARIANTS THR-544 AND THR-556
+  - citation:
+      authors:
+      - Nagase T.
+      - Ishikawa K.
+      - Nakajima D.
+      - Ohira M.
+      - Seki N.
+      - Miyajima N.
+      - Tanaka A.
+      - Kotani H.
+      - Nomura N.
+      - Ohara O.
+      dbReferences:
+      - id: '9205841'
+        type: PubMed
+      - id: 10.1093/dnares/4.2.141
+        type: DOI
+      location:
+        firstPage: '141'
+        lastPage: '150'
+        volume: '4'
+      publication:
+        journalName: DNA Res.
+      publicationDate: '1997'
+      title: Prediction of the coding sequences of unidentified human genes. VII.
+        The complete sequences of 100 new cDNA clones from brain which can code for
+        large proteins in vitro.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)
+    source:
+      tissue:
+      - value: Brain
+  - citation:
+      authors:
+      - Ohara O.
+      - Nagase T.
+      - Kikuno R.
+      - Nomura N.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: JAN-2005
+      type: submission
+    scope:
+    - SEQUENCE REVISION
+  - citation:
+      authors:
+      - Ota T.
+      - Suzuki Y.
+      - Nishikawa T.
+      - Otsuki T.
+      - Sugiyama T.
+      - Irie R.
+      - Wakamatsu A.
+      - Hayashi K.
+      - Sato H.
+      - Nagai K.
+      - Kimura K.
+      - Makita H.
+      - Sekine M.
+      - Obayashi M.
+      - Nishi T.
+      - Shibahara T.
+      - Tanaka T.
+      - Ishii S.
+      - Yamamoto J.
+      - Saito K.
+      - Kawai Y.
+      - Isono Y.
+      - Nakamura Y.
+      - Nagahari K.
+      - Murakami K.
+      - Yasuda T.
+      - Iwayanagi T.
+      - Wagatsuma M.
+      - Shiratori A.
+      - Sudo H.
+      - Hosoiri T.
+      - Kaku Y.
+      - Kodaira H.
+      - Kondo H.
+      - Sugawara M.
+      - Takahashi M.
+      - Kanda K.
+      - Yokoi T.
+      - Furuya T.
+      - Kikkawa E.
+      - Omura Y.
+      - Abe K.
+      - Kamihara K.
+      - Katsuta N.
+      - Sato K.
+      - Tanikawa M.
+      - Yamazaki M.
+      - Ninomiya K.
+      - Ishibashi T.
+      - Yamashita H.
+      - Murakawa K.
+      - Fujimori K.
+      - Tanai H.
+      - Kimata M.
+      - Watanabe M.
+      - Hiraoka S.
+      - Chiba Y.
+      - Ishida S.
+      - Ono Y.
+      - Takiguchi S.
+      - Watanabe S.
+      - Yosida M.
+      - Hotuta T.
+      - Kusano J.
+      - Kanehori K.
+      - Takahashi-Fujii A.
+      - Hara H.
+      - Tanase T.-O.
+      - Nomura Y.
+      - Togiya S.
+      - Komai F.
+      - Hara R.
+      - Takeuchi K.
+      - Arita M.
+      - Imose N.
+      - Musashino K.
+      - Yuuki H.
+      - Oshima A.
+      - Sasaki N.
+      - Aotsuka S.
+      - Yoshikawa Y.
+      - Matsunawa H.
+      - Ichihara T.
+      - Shiohata N.
+      - Sano S.
+      - Moriya S.
+      - Momiyama H.
+      - Satoh N.
+      - Takami S.
+      - Terashima Y.
+      - Suzuki O.
+      - Nakagawa S.
+      - Senoh A.
+      - Mizoguchi H.
+      - Goto Y.
+      - Shimizu F.
+      - Wakebe H.
+      - Hishigaki H.
+      - Watanabe T.
+      - Sugiyama A.
+      - Takemoto M.
+      - Kawakami B.
+      - Yamazaki M.
+      - Watanabe K.
+      - Kumagai A.
+      - Itakura S.
+      - Fukuzumi Y.
+      - Fujimori Y.
+      - Komiyama M.
+      - Tashiro H.
+      - Tanigami A.
+      - Fujiwara T.
+      - Ono T.
+      - Yamada K.
+      - Fujii Y.
+      - Ozaki K.
+      - Hirao M.
+      - Ohmori Y.
+      - Kawabata A.
+      - Hikiji T.
+      - Kobatake N.
+      - Inagaki H.
+      - Ikema Y.
+      - Okamoto S.
+      - Okitani R.
+      - Kawakami T.
+      - Noguchi S.
+      - Itoh T.
+      - Shigeta K.
+      - Senba T.
+      - Matsumura K.
+      - Nakajima Y.
+      - Mizuno T.
+      - Morinaga M.
+      - Sasaki M.
+      - Togashi T.
+      - Oyama M.
+      - Hata H.
+      - Watanabe M.
+      - Komatsu T.
+      - Mizushima-Sugano J.
+      - Satoh T.
+      - Shirai Y.
+      - Takahashi Y.
+      - Nakagawa K.
+      - Okumura K.
+      - Nagase T.
+      - Nomura N.
+      - Kikuchi H.
+      - Masuho Y.
+      - Yamashita R.
+      - Nakai K.
+      - Yada T.
+      - Nakamura Y.
+      - Ohara O.
+      - Isogai T.
+      - Sugano S.
+      dbReferences:
+      - id: '14702039'
+        type: PubMed
+      - id: 10.1038/ng1285
+        type: DOI
+      location:
+        firstPage: '40'
+        lastPage: '45'
+        volume: '36'
+      publication:
+        journalName: Nat. Genet.
+      publicationDate: '2004'
+      title: Complete sequencing and characterization of 21,243 full-length human
+        cDNAs.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 3)
+    source:
+      tissue:
+      - value: Placenta
+  - citation:
+      authors:
+      - Deloukas P.
+      - Matthews L.H.
+      - Ashurst J.L.
+      - Burton J.
+      - Gilbert J.G.R.
+      - Jones M.
+      - Stavrides G.
+      - Almeida J.P.
+      - Babbage A.K.
+      - Bagguley C.L.
+      - Bailey J.
+      - Barlow K.F.
+      - Bates K.N.
+      - Beard L.M.
+      - Beare D.M.
+      - Beasley O.P.
+      - Bird C.P.
+      - Blakey S.E.
+      - Bridgeman A.M.
+      - Brown A.J.
+      - Buck D.
+      - Burrill W.D.
+      - Butler A.P.
+      - Carder C.
+      - Carter N.P.
+      - Chapman J.C.
+      - Clamp M.
+      - Clark G.
+      - Clark L.N.
+      - Clark S.Y.
+      - Clee C.M.
+      - Clegg S.
+      - Cobley V.E.
+      - Collier R.E.
+      - Connor R.E.
+      - Corby N.R.
+      - Coulson A.
+      - Coville G.J.
+      - Deadman R.
+      - Dhami P.D.
+      - Dunn M.
+      - Ellington A.G.
+      - Frankland J.A.
+      - Fraser A.
+      - French L.
+      - Garner P.
+      - Grafham D.V.
+      - Griffiths C.
+      - Griffiths M.N.D.
+      - Gwilliam R.
+      - Hall R.E.
+      - Hammond S.
+      - Harley J.L.
+      - Heath P.D.
+      - Ho S.
+      - Holden J.L.
+      - Howden P.J.
+      - Huckle E.
+      - Hunt A.R.
+      - Hunt S.E.
+      - Jekosch K.
+      - Johnson C.M.
+      - Johnson D.
+      - Kay M.P.
+      - Kimberley A.M.
+      - King A.
+      - Knights A.
+      - Laird G.K.
+      - Lawlor S.
+      - Lehvaeslaiho M.H.
+      - Leversha M.A.
+      - Lloyd C.
+      - Lloyd D.M.
+      - Lovell J.D.
+      - Marsh V.L.
+      - Martin S.L.
+      - McConnachie L.J.
+      - McLay K.
+      - McMurray A.A.
+      - Milne S.A.
+      - Mistry D.
+      - Moore M.J.F.
+      - Mullikin J.C.
+      - Nickerson T.
+      - Oliver K.
+      - Parker A.
+      - Patel R.
+      - Pearce T.A.V.
+      - Peck A.I.
+      - Phillimore B.J.C.T.
+      - Prathalingam S.R.
+      - Plumb R.W.
+      - Ramsay H.
+      - Rice C.M.
+      - Ross M.T.
+      - Scott C.E.
+      - Sehra H.K.
+      - Shownkeen R.
+      - Sims S.
+      - Skuce C.D.
+      - Smith M.L.
+      - Soderlund C.
+      - Steward C.A.
+      - Sulston J.E.
+      - Swann R.M.
+      - Sycamore N.
+      - Taylor R.
+      - Tee L.
+      - Thomas D.W.
+      - Thorpe A.
+      - Tracey A.
+      - Tromans A.C.
+      - Vaudin M.
+      - Wall M.
+      - Wallis J.M.
+      - Whitehead S.L.
+      - Whittaker P.
+      - Willey D.L.
+      - Williams L.
+      - Williams S.A.
+      - Wilming L.
+      - Wray P.W.
+      - Hubbard T.
+      - Durbin R.M.
+      - Bentley D.R.
+      - Beck S.
+      - Rogers J.
+      dbReferences:
+      - id: '11780052'
+        type: PubMed
+      - id: 10.1038/414865a
+        type: DOI
+      location:
+        firstPage: '865'
+        lastPage: '871'
+        volume: '414'
+      publication:
+        journalName: Nature
+      publicationDate: '2001'
+      title: The DNA sequence and comparative analysis of human chromosome 20.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      authors:
+      - Mural R.J.
+      - Istrail S.
+      - Sutton G.G.
+      - Florea L.
+      - Halpern A.L.
+      - Mobarry C.M.
+      - Lippert R.
+      - Walenz B.
+      - Shatkay H.
+      - Dew I.
+      - Miller J.R.
+      - Flanigan M.J.
+      - Edwards N.J.
+      - Bolanos R.
+      - Fasulo D.
+      - Halldorsson B.V.
+      - Hannenhalli S.
+      - Turner R.
+      - Yooseph S.
+      - Lu F.
+      - Nusskern D.R.
+      - Shue B.C.
+      - Zheng X.H.
+      - Zhong F.
+      - Delcher A.L.
+      - Huson D.H.
+      - Kravitz S.A.
+      - Mouchard L.
+      - Reinert K.
+      - Remington K.A.
+      - Clark A.G.
+      - Waterman M.S.
+      - Eichler E.E.
+      - Adams M.D.
+      - Hunkapiller M.W.
+      - Myers E.W.
+      - Venter J.C.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: SEP-2005
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      consortiums:
+      - The MGC Project Team
+      dbReferences:
+      - id: '15489334'
+        type: PubMed
+      - id: 10.1101/gr.2596504
+        type: DOI
+      location:
+        firstPage: '2121'
+        lastPage: '2127'
+        volume: '14'
+      publication:
+        journalName: Genome Res.
+      publicationDate: '2004'
+      title: 'The status, quality, and expansion of the NIH full-length cDNA project:
+        the Mammalian Gene Collection (MGC).'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1; 3 AND 2)
+    source:
+      tissue:
+      - value: Brain
+      - value: Colon
+      - value: Kidney
+      - value: Muscle
+      - value: Placenta
+  - citation:
+      authors:
+      - Bienvenut W.V.
+      - Lilla S.
+      - von Kriegsheim A.
+      - Lempens A.
+      - Kolch W.
+      publication:
+        submissionDatabase: UniProtKB
+      publicationDate: DEC-2008
+      type: submission
+    scope:
+    - PROTEIN SEQUENCE OF 1-14; 74-82; 519-529; 613-626; 1218-1230; 1334-1347; 1439-1447
+      AND 1743-1754
+    - ACETYLATION AT MET-1
+    - IDENTIFICATION BY MASS SPECTROMETRY
+    source:
+      tissue:
+      - value: Ovarian carcinoma
+  - citation:
+      authors:
+      - Bechtel S.
+      - Rosenfelder H.
+      - Duda A.
+      - Schmidt C.P.
+      - Ernst U.
+      - Wellenreuther R.
+      - Mehrle A.
+      - Schuster C.
+      - Bahr A.
+      - Bloecker H.
+      - Heubner D.
+      - Hoerlein A.
+      - Michel G.
+      - Wedler H.
+      - Koehrer K.
+      - Ottenwaelder B.
+      - Poustka A.
+      - Wiemann S.
+      - Schupp I.
+      dbReferences:
+      - id: '17974005'
+        type: PubMed
+      - id: 10.1186/1471-2164-8-399
+        type: DOI
+      location:
+        firstPage: '399'
+        lastPage: '399'
+        volume: '8'
+      publication:
+        journalName: BMC Genomics
+      publicationDate: '2007'
+      title: The full-ORF clone resource of the German cDNA consortium.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 1623-2240 (ISOFORM 4)
+    source:
+      tissue:
+      - value: Testis
+  - citation:
+      authors:
+      - Olsen J.V.
+      - Blagoev B.
+      - Gnad F.
+      - Macek B.
+      - Kumar C.
+      - Mortensen P.
+      - Mann M.
+      dbReferences:
+      - id: '17081983'
+        type: PubMed
+      - id: 10.1016/j.cell.2006.09.026
+        type: DOI
+      location:
+        firstPage: '635'
+        lastPage: '648'
+        volume: '127'
+      publication:
+        journalName: Cell
+      publicationDate: '2006'
+      title: Global, in vivo, and site-specific phosphorylation dynamics in signaling
+        networks.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-898 AND SER-1456
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Cervix carcinoma
+  - citation:
+      authors:
+      - Beausoleil S.A.
+      - Villen J.
+      - Gerber S.A.
+      - Rush J.
+      - Gygi S.P.
+      dbReferences:
+      - id: '16964243'
+        type: PubMed
+      - id: 10.1038/nbt1240
+        type: DOI
+      location:
+        firstPage: '1285'
+        lastPage: '1292'
+        volume: '24'
+      publication:
+        journalName: Nat. Biotechnol.
+      publicationDate: '2006'
+      title: A probability-based approach for high-throughput protein phosphorylation
+        analysis and site localization.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-805 AND SER-809
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Cervix carcinoma
+  - citation:
+      authors:
+      - Cantin G.T.
+      - Yi W.
+      - Lu B.
+      - Park S.K.
+      - Xu T.
+      - Lee J.-D.
+      - Yates J.R. III
+      dbReferences:
+      - id: '18220336'
+        type: PubMed
+      - id: 10.1021/pr0705441
+        type: DOI
+      location:
+        firstPage: '1346'
+        lastPage: '1351'
+        volume: '7'
+      publication:
+        journalName: J. Proteome Res.
+      publicationDate: '2008'
+      title: Combining protein-based IMAC, peptide-based IMAC, and MudPIT for efficient
+        phosphoproteomic analysis.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-1040 AND SER-1456
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Cervix carcinoma
+  - citation:
+      authors:
+      - Dephoure N.
+      - Zhou C.
+      - Villen J.
+      - Beausoleil S.A.
+      - Bakalarski C.E.
+      - Elledge S.J.
+      - Gygi S.P.
+      dbReferences:
+      - id: '18669648'
+        type: PubMed
+      - id: 10.1073/pnas.0805139105
+        type: DOI
+      location:
+        firstPage: '10762'
+        lastPage: '10767'
+        volume: '105'
+      publication:
+        journalName: Proc. Natl. Acad. Sci. U.S.A.
+      publicationDate: '2008'
+      title: A quantitative atlas of mitotic phosphorylation.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-151; SER-152; SER-154; SER-805;
+      SER-809; SER-898; SER-1019; SER-1030; SER-1260; SER-1456; THR-1469 AND SER-1714
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Cervix carcinoma
+  - citation:
+      authors:
+      - Gauci S.
+      - Helbig A.O.
+      - Slijper M.
+      - Krijgsveld J.
+      - Heck A.J.
+      - Mohammed S.
+      dbReferences:
+      - id: '19413330'
+        type: PubMed
+      - id: 10.1021/ac9004309
+        type: DOI
+      location:
+        firstPage: '4493'
+        lastPage: '4501'
+        volume: '81'
+      publication:
+        journalName: Anal. Chem.
+      publicationDate: '2009'
+      title: Lys-N and trypsin cover complementary parts of the phosphoproteome in
+        a refined SCX-based approach.
+      type: journal article
+    scope:
+    - ACETYLATION [LARGE SCALE ANALYSIS] AT MET-1
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+  - citation:
+      authors:
+      - Mayya V.
+      - Lundgren D.H.
+      - Hwang S.-I.
+      - Rezaul K.
+      - Wu L.
+      - Eng J.K.
+      - Rodionov V.
+      - Han D.K.
+      dbReferences:
+      - id: '19690332'
+        type: PubMed
+      - id: 10.1126/scisignal.2000007
+        type: DOI
+      location:
+        firstPage: RA46
+        lastPage: RA46
+        volume: '2'
+      publication:
+        journalName: Sci. Signal.
+      publicationDate: '2009'
+      title: Quantitative phosphoproteomic analysis of T cell receptor signaling reveals
+        system-wide modulation of protein-protein interactions.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-805 AND SER-809
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Leukemic T-cell
+  - citation:
+      authors:
+      - Olsen J.V.
+      - Vermeulen M.
+      - Santamaria A.
+      - Kumar C.
+      - Miller M.L.
+      - Jensen L.J.
+      - Gnad F.
+      - Cox J.
+      - Jensen T.S.
+      - Nigg E.A.
+      - Brunak S.
+      - Mann M.
+      dbReferences:
+      - id: '20068231'
+        type: PubMed
+      - id: 10.1126/scisignal.2000475
+        type: DOI
+      location:
+        firstPage: RA3
+        lastPage: RA3
+        volume: '3'
+      publication:
+        journalName: Sci. Signal.
+      publicationDate: '2010'
+      title: Quantitative phosphoproteomics reveals widespread full phosphorylation
+        site occupancy during mitosis.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-151; SER-152; SER-154; SER-805;
+      SER-809; SER-1030; SER-1040; SER-1312; SER-1456 AND SER-1522
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Cervix carcinoma
+  - citation:
+      authors:
+      - Burkard T.R.
+      - Planyavsky M.
+      - Kaupe I.
+      - Breitwieser F.P.
+      - Buerckstuemmer T.
+      - Bennett K.L.
+      - Superti-Furga G.
+      - Colinge J.
+      dbReferences:
+      - id: '21269460'
+        type: PubMed
+      - id: 10.1186/1752-0509-5-17
+        type: DOI
+      location:
+        firstPage: '17'
+        lastPage: '17'
+        volume: '5'
+      publication:
+        journalName: BMC Syst. Biol.
+      publicationDate: '2011'
+      title: Initial characterization of the human central proteome.
+      type: journal article
+    scope:
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+  - citation:
+      authors:
+      - Rigbolt K.T.
+      - Prokhorova T.A.
+      - Akimov V.
+      - Henningsen J.
+      - Johansen P.T.
+      - Kratchmarova I.
+      - Kassem M.
+      - Mann M.
+      - Olsen J.V.
+      - Blagoev B.
+      dbReferences:
+      - id: '21406692'
+        type: PubMed
+      - id: 10.1126/scisignal.2001570
+        type: DOI
+      location:
+        firstPage: RS3
+        lastPage: RS3
+        volume: '4'
+      publication:
+        journalName: Sci. Signal.
+      publicationDate: '2011'
+      title: System-wide temporal characterization of the proteome and phosphoproteome
+        of human embryonic stem cell differentiation.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-152; SER-154; SER-805; SER-898;
+      SER-1040; SER-1260 AND SER-1456
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+  - citation:
+      authors:
+      - Zhou H.
+      - Di Palma S.
+      - Preisinger C.
+      - Peng M.
+      - Polat A.N.
+      - Heck A.J.
+      - Mohammed S.
+      dbReferences:
+      - id: '23186163'
+        type: PubMed
+      - id: 10.1021/pr300630k
+        type: DOI
+      location:
+        firstPage: '260'
+        lastPage: '271'
+        volume: '12'
+      publication:
+        journalName: J. Proteome Res.
+      publicationDate: '2013'
+      title: Toward a comprehensive characterization of a human cancer cell phosphoproteome.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-60; SER-523; SER-805; SER-809;
+      SER-898; SER-1019; SER-1040; SER-1456 AND THR-1469
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Cervix carcinoma
+      - value: Erythroleukemia
+  - citation:
+      authors:
+      - Bian Y.
+      - Song C.
+      - Cheng K.
+      - Dong M.
+      - Wang F.
+      - Huang J.
+      - Sun D.
+      - Wang L.
+      - Ye M.
+      - Zou H.
+      dbReferences:
+      - id: '24275569'
+        type: PubMed
+      - id: 10.1016/j.jprot.2013.11.014
+        type: DOI
+      location:
+        firstPage: '253'
+        lastPage: '262'
+        volume: '96'
+      publication:
+        journalName: J. Proteomics
+      publicationDate: '2014'
+      title: An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+        phosphoproteome.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-1244 AND SER-1456
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Guo A.
+      - Gu H.
+      - Zhou J.
+      - Mulhern D.
+      - Wang Y.
+      - Lee K.A.
+      - Yang V.
+      - Aguiar M.
+      - Kornhauser J.
+      - Jia X.
+      - Ren J.
+      - Beausoleil S.A.
+      - Silva J.C.
+      - Vemulapalli V.
+      - Bedford M.T.
+      - Comb M.J.
+      dbReferences:
+      - id: '24129315'
+        type: PubMed
+      - id: 10.1074/mcp.o113.027870
+        type: DOI
+      location:
+        firstPage: '372'
+        lastPage: '387'
+        volume: '13'
+      publication:
+        journalName: Mol. Cell. Proteomics
+      publicationDate: '2014'
+      title: Immunoaffinity enrichment and mass spectrometry analysis of protein methylation.
+      type: journal article
+    scope:
+    - METHYLATION [LARGE SCALE ANALYSIS] AT ARG-1835; ARG-1893; ARG-1894; ARG-1977;
+      ARG-1982; ARG-1993; ARG-2008 AND ARG-2024
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Colon carcinoma
+  - citation:
+      authors:
+      - Hendriks I.A.
+      - Lyon D.
+      - Young C.
+      - Jensen L.J.
+      - Vertegaal A.C.
+      - Nielsen M.L.
+      dbReferences:
+      - id: '28112733'
+        type: PubMed
+      - id: 10.1038/nsmb.3366
+        type: DOI
+      location:
+        firstPage: '325'
+        lastPage: '336'
+        volume: '24'
+      publication:
+        journalName: Nat. Struct. Mol. Biol.
+      publicationDate: '2017'
+      title: Site-specific mapping of the human SUMO proteome reveals co-modification
+        with phosphorylation.
+      type: journal article
+    scope:
+    - SUMOYLATION [LARGE SCALE ANALYSIS] AT LYS-247 AND LYS-879
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+  - citation:
+      authors:
+      - Gatchalian J.
+      - Futterer A.
+      - Rothbart S.B.
+      - Tong Q.
+      - Rincon-Arano H.
+      - Sanchez de Diego A.
+      - Groudine M.
+      - Strahl B.D.
+      - Martinez-A C.
+      - van Wely K.H.
+      - Kutateladze T.G.
+      dbReferences:
+      - id: '23831028'
+        type: PubMed
+      - id: 10.1016/j.celrep.2013.06.014
+        type: DOI
+      location:
+        firstPage: '148'
+        lastPage: '158'
+        volume: '4'
+      publication:
+        journalName: Cell Rep.
+      publicationDate: '2013'
+      title: Dido3 PHD modulates cell differentiation and division.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (1.35 ANGSTROMS) OF 266-325 IN COMPLEX WITH METHYLATED
+      HISTONE H3 PEPTIDE
+    - FUNCTION (ISOFORMS 2 AND 4)
+    - SUBUNIT
+    - SUBCELLULAR LOCATION
+    - MUTAGENESIS OF TRP-291
+  secondaryAccession:
+  - A8MY65
+  - B9EH82
+  - E1P5I1
+  - O15043
+  - Q3ZTL7
+  - Q3ZTL8
+  - Q4VXS1
+  - Q4VXS2
+  - Q4VXV8
+  - Q4VXV9
+  - Q96D72
+  - Q9BQW0
+  - Q9BW03
+  - Q9H4G6
+  - Q9H4G7
+  - Q9NTU8
+  - Q9NUM8
+  - Q9UFB6
+  sequence:
+    length: 2240
+    mass: 243873
+    modified: '2006-10-17'
+    sequence: MDDKGDPSNEEAPKAIKPTSKEFRKTWGFRRTTIAKREGAGDAEADPLEPPPPQQQLGLSLRRSGRQPKRTERVEQFLTIARRRGRRSMPVSLEDSGEPTSCPATDAETASEGSVESASETRSGPQSASTAVKERPASSEKVKGGDDHDDTSDSDSDGLTLKELQNRLRRKREQEPTERPLKGIQSRLRKKRREEGPAETVGSEASDTVEGVLPSKQEPENDQGVVSQAGKDDRESKLEGKAAQDIKDEEPGDLGRPKPECEGYDPNALYCICRQPHNNRFMICCDRCEEWFHGDCVGISEARGRLLERNGEDYICPNCTILQVQDETHSETADQQEAKWRPGDADGTDCTSIGTIEQKSSEDQGIKGRIEKAANPSGKKKLKIFQPVIEAPGASKCIGPGCCHVAQPDSVYCSNDCILKHAAATMKFLSSGKEQKPKPKEKMKMKPEKPSLPKCGAQAGIKISSVHKRPAPEKKETTVKKAVVVPARSEALGKEAACESSTPSWASDHNYNAVKPEKTAAPSPSLLYKSTKEDRRSEEKAAAMAASKKTAPPGSAVGKQPAPRNLVPKKSSFANVAAATPAIKKPPSGFKGTIPKRPWLSATPSSGASAARQAGPAPAAATAASKKFPGSAALVGAVRKPVVPSVPMASPAPGRLGAMSAAPSQPNSQIRQNIRRSLKEILWKRVNDSDDLIMTENEVGKIALHIEKEMFNLFQVTDNRYKSKYRSIMFNLKDPKNQGLFHRVLREEISLAKLVRLKPEELVSKELSTWKERPARSVMESRTKLHNESKKTAPRQEAIPDLEDSPPVSDSEEQQESARAVPEKSTAPLLDVFSSMLKDTTSQHRAHLFDLNCKICTGQVPSAEDEPAPKKQKLSASVKKEDLKSKHDSSAPDPAPDSADEVMPEAVPEVASEPGLESASHPNVDRTYFPGPPGDGHPEPSPLEDLSPCPASCGSGVVTTVTVSGRDPRTAPSSSCTAVASAASRPDSTHMVEARQDVPKPVLTSVMVPKSILAKPSSSPDPRYLSVPPSPNISTSESRSPPEGDTTLFLSRLSTIWKGFINMQSVAKFVTKAYPVSGCFDYLSEDLPDTIHIGGRIAPKTVWDYVGKLKSSVSKELCLIRFHPATEEEEVAYISLYSYFSSRGRFGVVANNNRHVKDLYLIPLSAQDPVPSKLLPFEGPGLESPRPNIILGLVICQKIKRPANSGELDKMDEKRTRLQPEEADVPAYPKVATVPQSEKKPSKYPLCSADAAVSTTPPGSPPPPPPLPEPPVLKVLSSLKPAAPSPATAATTAAAASTAASSTASSASKTASPLEHILQTLFGKKKSFDPSAREPPGSTAGLPQEPKTTAEDGVPAPPLLDPIVQQFGQFSKDKALEEEEDDRPYDPEEEYDPERAFDTQLVERGRRHEVERAPEAAAAEREEVAYDPEDETILEEAKVTVDDLPNRMCADVRRNSVERPAEPVAGAATPSLVEQQKMLEELNKQIEEQKRQLEEQEEALRQQRAAVGVSMAHFSVSDALMSPPPKSSLPKAELFQQEQQSADKPASLPPASQASNHRDPRQARRLATETGEGEGEPLSRLSARGAQGALPERDASRGGLVGQAPMPVPEEKEPASSPWASGEKPPAGSEQDGWKAEPGEGTRPATVGDSSARPARRVLLPTPPCGALQPGFPLQHDGERDPFTCPGFASQDKALGSAQYEDPRNLHSAGRSSSPAGETEGDREPQARPGEGTAPLPPPGQKVGGSQPPFQGQREPGPHALGMSGLHGPNFPGPRGPAPPFPEENIASNDGPRGPPPARFGAQKGPIPSLFSGQHGPPPYGDSRGPSPSYLGGPRGVAPSQFEERKDPHGEKREFQDAPYNEVTGAPAQFEGTEQAPFLGSRGGAPFQFGGQRRPLLSQLKGPRGGPPPSQFGGQRGPPPGHFVGPRGPHPSQFETARGPHPNQFEGPRGQAPNFMPGPRGIQPQQFEDQRVHSPPRFTNQRAPAPLQFGGLRGSAPFSEKNEQTPSRFHFQGQAPQVMKPGPRPLLELPSHPPQHRKDRWEEAGPPSALSSSAPGQGPEADGQWASADFREGKGHEYRNQTFEGRQRERFDVGPKEKPLEEPDAQGRASEDRRRERERGRNWSRERDWDRPREWDRHRDKDSSRDWDRNRERSANRDREREADRGKEWDRSRERSRNRERERDRRRDRDRSRSRERDRDKARDRERGRDRKDRSKSKESARDPKPEASRASDAGTASQA
+    version: 5
+uniprot_id: Q9BTC0

@@ -1,7 +1,29 @@
 """
 This module contains functions to request and parse data from the UniProt API
 """
+
 import requests, sys
+from pydantic import BaseModel, Field
+import asapdiscovery.data.schema_v2.schema_base as schema_base
+from avoidome.schema import (
+    ProteinEntity,
+    StructureEntry,
+    ExperimentalStructure,
+    PredictedStructure,
+)
+
+
+def request_uniprot(uniprot_id):
+    """
+    A function to request a protein entry from the UniProt API
+    """
+    requestURL = f"https://www.ebi.ac.uk/proteins/api/proteins/{uniprot_id}"
+    r = requests.get(requestURL, headers={"Accept": "application/json"})
+    if not r.ok:
+        r.raise_for_status()
+        sys.exit()
+    return r.json()
+
 
 def request_alphafold(uniprot_id):
     """
@@ -15,63 +37,99 @@ def request_alphafold(uniprot_id):
     return r.json()
 
 
-def request_uniprot(uniprot_id):
+def download_alphafold_structure(model_url):
     """
-    A function to request a protein entry from the UniProt API
+    A function to download a predicted structure from the AlphaFold API
     """
-    requestURL = f"https://www.ebi.ac.uk/proteins/api/proteins/{uniprot_id}"
-    r = requests.get(requestURL, headers={ "Accept" : "application/json"})
+    r = requests.get(model_url)
     if not r.ok:
         r.raise_for_status()
         sys.exit()
-    return r.json()
+    return r.content
 
 
-
-def parse_resolved_chains(chain_str):
+class UniprotEntry(schema_base.DataModelAbstractBase):
     """
-    A function to parse resolved chains for a particular uniprot id from a Uniprot string
+    A class to represent a uniprot entry
     """
-    chain_letters = chain_str.split('=')[0].split('/')
-    start, end = chain_str.split('=')[1].split('-')
 
-    resolved_chains = []
-    for chain in chain_letters:
-        resolved_chains.append(ResolvedChain(chain_id=chain, start=int(start), end=int(end)))
-    return resolved_chains
+    uniprot_id: str = Field(..., title="The UniProt ID of the protein")
+    data: dict = Field(..., title="The data associated with the UniProt ID")
 
+    def __str__(self):
+        return self.uniprot_id
 
-def parse_uniprot_accession(target_name: str, uniprot_id: str, uniprot_dict: dict) -> Target:
-    """
-    A function to parse the UniProt accession from a UniProt API response
-    """
-    pdb_ids = [ref for ref in uniprot_dict['dbReferences'] if ref['type'] == 'PDB']
-    af_ids = [ref for ref in uniprot_dict['dbReferences'] if ref['type'] == 'AlphaFoldDB']
+    @property
+    def sequence(self):
+        return self.data["sequence"]["sequence"]
 
-    refs = []
-    for ref in pdb_ids:
-        properties = ref['properties']
-        refs.append(ExperimentalStructure(
-            uniprot_id=uniprot_id,
-            pdb_id=ref['id'],
-            method=properties['method'],
-            resolution=properties['resolution'].split(' ')[0],
-            resolved_chains=parse_resolved_chains(properties['chains'])
-        ))
-    for ref in af_ids:
-        r = request_alphafold(uniprot_id)
-        summary_data = r['structures'][0]['summary']
-        refs.append(PredictedStructure(
-            uniprot_id=uniprot_id,
-            af_id=summary_data['model_identifier'],
-            uniprot_start=summary_data['uniprot_start'],
-            uniprot_end=summary_data['uniprot_end'],
-            confidence=summary_data['confidence_avg_local_score']
+    @property
+    def sequence_length(self):
+        return len(self.sequence)
 
-        ))
-    return Target(
-        name=target_name,
-        uniprot_id=uniprot_id,
-        sequence=uniprot_dict['sequence']['sequence'],
-        structures=refs
-    )
+    @property
+    def name(self):
+        return self.data["id"]
+
+    @classmethod
+    def from_uniprot_id(cls, uniprot_id: str):
+        return cls(uniprot_id=uniprot_id, data=request_uniprot(uniprot_id))
+
+    def get_experimental_structures(self) -> list[ExperimentalStructure]:
+        """
+        A function to get the experimental structures from the UniProt entry
+        :return:
+        """
+        experimental_structures = []
+        for ref in self.data["dbReferences"]:
+            if ref["type"] == "PDB" and ref["properties"]["method"] != "NMR":
+                properties = ref["properties"]
+                chain_str = properties["chains"]
+
+                components = []
+                for entry in chain_str.split(", "):
+                    chain_letters = entry.split("=")[0].split("/")
+                    start, end = entry.split("=")[1].split("-")
+                    for chain in chain_letters:
+                        components.append(
+                            ProteinEntity(
+                                name=self.name,
+                                uniprot_id=self.uniprot_id,
+                                sequence=self.sequence,
+                                start=int(start),
+                                end=int(end),
+                            )
+                        )
+
+                experimental_structures.append(
+                    ExperimentalStructure(
+                        pdb_id=ref["id"],
+                        method=properties["method"],
+                        resolution=properties["resolution"].split(" ")[0],
+                        components=components,
+                    )
+                )
+        return experimental_structures
+
+    def get_alphafold_structures(self):
+        af_ids = [
+            ref for ref in self.data["dbReferences"] if ref["type"] == "AlphaFoldDB"
+        ]
+        r = request_alphafold(self.uniprot_id)
+        summary_data = r["structures"][0]["summary"]
+        return [
+            PredictedStructure(
+                af_id=summary_data["model_identifier"],
+                confidence=summary_data["confidence_avg_local_score"],
+                model_url=summary_data["model_url"],
+                components=[
+                    ProteinEntity(
+                        name=self.name,
+                        uniprot_id=self.uniprot_id,
+                        sequence=self.sequence,
+                        start=summary_data["uniprot_start"],
+                        end=summary_data["uniprot_end"],
+                    )
+                ],
+            )
+        ]

@@ -1,0 +1,2712 @@
+data:
+  accession: P08263
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11152686
+          id: '11152686'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11152686
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16624487
+          id: '16624487'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16624487
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9084911
+          id: '9084911'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9084911
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20606271
+          id: '20606271'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20606271
+      value: Glutathione S-transferase that catalyzes the nucleophilic attack of the
+        sulfur atom of glutathione on the electrophilic groups of a wide range of
+        exogenous and endogenous compounds (Probable). Involved in the formation of
+        glutathione conjugates of both prostaglandin A2 (PGA2) and prostaglandin J2
+        (PGJ2) (PubMed:9084911). It also catalyzes the isomerization of D5-androstene-3,17-dione
+        (AD) into D4-androstene-3,17-dione and may therefore play an important role
+        in hormone biosynthesis (PubMed:11152686). Through its glutathione-dependent
+        peroxidase activity toward the fatty acid hydroperoxide (13S)-hydroperoxy-(9Z,11E)-octadecadienoate/13-HPODE
+        it is also involved in the metabolism of oxidized linoleic acid (PubMed:16624487)
+    type: FUNCTION
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:16438
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20606271
+          id: '20606271'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20606271
+    reaction:
+      dbReferences:
+      - id: RHEA:16437
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:16042
+        type: ChEBI
+      - id: CHEBI:17792
+        type: ChEBI
+      - id: CHEBI:57925
+        type: ChEBI
+      - id: CHEBI:90779
+        type: ChEBI
+      ecNumber: 2.5.1.18
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20606271
+          id: '20606271'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20606271
+      name: glutathione + RX = a halide anion + an S-substituted glutathione + H(+)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:50797
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9084911
+          id: '9084911'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9084911
+    reaction:
+      dbReferences:
+      - id: RHEA:50796
+        type: Rhea
+      - id: CHEBI:57925
+        type: ChEBI
+      - id: CHEBI:133370
+        type: ChEBI
+      - id: CHEBI:133768
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9084911
+          id: '9084911'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9084911
+      name: glutathione + prostaglandin A2 = prostaglandin A2-S-(R)-glutathione
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:50805
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9084911
+          id: '9084911'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9084911
+    reaction:
+      dbReferences:
+      - id: RHEA:50804
+        type: Rhea
+      - id: CHEBI:57925
+        type: ChEBI
+      - id: CHEBI:133396
+        type: ChEBI
+      - id: CHEBI:133771
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9084911
+          id: '9084911'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9084911
+      name: glutathione + prostaglandin J2 = prostaglandin J2-S-(R)-glutathione
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:48889
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16624487
+          id: '16624487'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16624487
+    reaction:
+      dbReferences:
+      - id: RHEA:48888
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:57466
+        type: ChEBI
+      - id: CHEBI:57925
+        type: ChEBI
+      - id: CHEBI:58297
+        type: ChEBI
+      - id: CHEBI:90850
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16624487
+          id: '16624487'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16624487
+      name: (13S)-hydroperoxy-(9Z,11E)-octadecadienoate + 2 glutathione = (13S)-hydroxy-(9Z,11E)-octadecadienoate
+        + glutathione disulfide + H2O
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:43937
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11152686
+          id: '11152686'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11152686
+    reaction:
+      dbReferences:
+      - id: RHEA:43936
+        type: Rhea
+      - id: CHEBI:16422
+        type: ChEBI
+      - id: CHEBI:83865
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11152686
+          id: '11152686'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11152686
+      name: androst-5-ene-3,17-dione = androst-4-ene-3,17-dione
+    type: CATALYTIC_ACTIVITY
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11152686
+          id: '11152686'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11152686
+      value: The isomerase activity is inhibited by S-methylglutathione (GSMe)
+    type: ACTIVITY_REGULATION
+  - kinetics:
+      km:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/9084911
+            id: '9084911'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/9084911
+        value: 160 uM for prostaglandin A2 (at pH 7.0 and 37 degrees Celsius)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/11152686
+            id: '11152686'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/11152686
+        value: 160 uM for glutathione (at pH 8.0)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/11152686
+            id: '11152686'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/11152686
+        value: 58 uM for androst-5-ene-3,17-dione (at pH 8.0)
+      text:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/11152686
+            id: '11152686'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/11152686
+        value: kcat is 29.3 sec(-1) for the isomerization of androst-5-ene-3,17-dione.
+      vmax:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/9084911
+            id: '9084911'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/9084911
+        value: 121.0 nmol/min/mg enzyme for the formation of the glutathione-S-conjugate
+          of prostaglandin A2 (at pH 7.0 and 37 degrees Celsius)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/11152686
+            id: '11152686'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/11152686
+        value: 40.0 umol/min/mg enzyme for the isomerization of androst-5-ene-3,17-dione
+          (at pH 8.0)
+    phDependence:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11152686
+          id: '11152686'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11152686
+      value: Optimum pH is 8.0 for the isomerization of androst-5-ene-3,17-dione.
+    type: BIOPHYSICOCHEMICAL_PROPERTIES
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12211029
+          id: '12211029'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12211029
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15333749
+          id: '15333749'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15333749
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15893769
+          id: '15893769'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15893769
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16421451
+          id: '16421451'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16421451
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19618965
+          id: '19618965'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19618965
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20606271
+          id: '20606271'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20606271
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8331657
+          id: '8331657'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8331657
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8591048
+          id: '8591048'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8591048
+      value: Homodimer or heterodimer of GSTA1 and GSTA2
+    type: SUBUNIT
+  - locations:
+    - location:
+        value: Cytoplasm
+    type: SUBCELLULAR_LOCATION
+  - text:
+    - value: Liver
+    type: TISSUE_SPECIFICITY
+  - text:
+    - value: The C-terminal domain may form a component of the hydrophobic substrate-binding
+        site, but in contrast appears not to be directly involved in GSH binding and
+        is not absolutely essential for catalytic activity
+    type: DOMAIN
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the GST superfamily. Alpha family
+    type: SIMILARITY
+  dbReferences:
+  - id: M15872
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA70226.1
+    type: EMBL
+  - id: M21758
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA52615.1
+    type: EMBL
+  - id: M25627
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA36174.1
+    type: EMBL
+  - id: M14777
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA52618.1
+    type: EMBL
+  - id: S76235
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB20973.1
+    type: EMBL
+  - id: S76221
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB20973.1
+      status: JOINED
+    type: EMBL
+  - id: S76223
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB20973.1
+      status: JOINED
+    type: EMBL
+  - id: S76225
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB20973.1
+      status: JOINED
+    type: EMBL
+  - id: S76228
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB20973.1
+      status: JOINED
+    type: EMBL
+  - id: S76232
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB20973.1
+      status: JOINED
+    type: EMBL
+  - id: S49975
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAB24012.1
+    type: EMBL
+  - id: AY532928
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAT06769.1
+    type: EMBL
+  - id: CR407656
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAG28584.1
+    type: EMBL
+  - id: AL590363
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: CH471081
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAX04385.1
+    type: EMBL
+  - id: BC053578
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH53578.1
+    type: EMBL
+  - id: BC110891
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAI10892.1
+    type: EMBL
+  - id: CCDS4945.1
+    type: CCDS
+  - id: A25909
+    properties:
+      entry name: A56666
+    type: PIR
+  - id: S29657
+    properties:
+      entry name: S29657
+    type: PIR
+  - id: NP_665683.1
+    properties:
+      nucleotide sequence ID: NM_145740.4
+    type: RefSeq
+  - id: 1GSD
+    properties:
+      chains: A/B/C/D=2-222
+      method: X-ray
+      resolution: 2.50 A
+    type: PDB
+  - id: 1GSE
+    properties:
+      chains: A/B=2-222
+      method: X-ray
+      resolution: 2.00 A
+    type: PDB
+  - id: 1GSF
+    properties:
+      chains: A/B/C/D=2-222
+      method: X-ray
+      resolution: 2.70 A
+    type: PDB
+  - id: 1GUH
+    properties:
+      chains: A/B/C/D=2-222
+      method: X-ray
+      resolution: 2.60 A
+    type: PDB
+  - id: 1K3L
+    properties:
+      chains: A/B=2-222
+      method: X-ray
+      resolution: 1.50 A
+    type: PDB
+  - id: 1K3O
+    properties:
+      chains: A/B=2-222
+      method: X-ray
+      resolution: 1.80 A
+    type: PDB
+  - id: 1K3Y
+    properties:
+      chains: A/B=2-222
+      method: X-ray
+      resolution: 1.30 A
+    type: PDB
+  - id: 1LBK
+    properties:
+      chains: A/B=208-213
+      method: X-ray
+      resolution: 1.86 A
+    type: PDB
+  - id: 1PKW
+    properties:
+      chains: A/B=1-222
+      method: X-ray
+      resolution: 2.00 A
+    type: PDB
+  - id: 1PKZ
+    properties:
+      chains: A/B=1-222
+      method: X-ray
+      resolution: 2.10 A
+    type: PDB
+  - id: 1PL1
+    properties:
+      chains: A/B=1-222
+      method: X-ray
+      resolution: 1.75 A
+    type: PDB
+  - id: 1PL2
+    properties:
+      chains: A/B=1-222
+      method: X-ray
+      resolution: 1.80 A
+    type: PDB
+  - id: 1USB
+    properties:
+      chains: A/B=2-222
+      method: X-ray
+      resolution: 2.07 A
+    type: PDB
+  - id: 1XWG
+    properties:
+      chains: A/B=2-222
+      method: X-ray
+      resolution: 1.85 A
+    type: PDB
+  - id: 1YDK
+    properties:
+      chains: A/B=1-222
+      method: X-ray
+      resolution: 1.95 A
+    type: PDB
+  - id: 2R3X
+    properties:
+      chains: A/B=1-222
+      method: X-ray
+      resolution: 1.80 A
+    type: PDB
+  - id: 2R6K
+    properties:
+      chains: A/B=1-222
+      method: X-ray
+      resolution: 2.51 A
+    type: PDB
+  - id: 3I69
+    properties:
+      chains: A/B/C/D/E/F/G/H=1-222
+      method: X-ray
+      resolution: 2.38 A
+    type: PDB
+  - id: 3I6A
+    properties:
+      chains: A/B/C/D/E/F/G/H=1-222
+      method: X-ray
+      resolution: 1.98 A
+    type: PDB
+  - id: 3IK9
+    properties:
+      chains: A/B/C/D/E/F/G/H=1-222
+      method: X-ray
+      resolution: 2.20 A
+    type: PDB
+  - id: 3KTL
+    properties:
+      chains: A/B=2-222
+      method: X-ray
+      resolution: 1.75 A
+    type: PDB
+  - id: 3L0H
+    properties:
+      chains: A/B=1-222
+      method: X-ray
+      resolution: 2.13 A
+    type: PDB
+  - id: 3Q74
+    properties:
+      chains: A/B=2-222
+      method: X-ray
+      resolution: 1.79 A
+    type: PDB
+  - id: 3U6V
+    properties:
+      chains: A/B=1-222
+      method: X-ray
+      resolution: 2.20 A
+    type: PDB
+  - id: 3ZFB
+    properties:
+      chains: A/B=1-222
+      method: X-ray
+      resolution: 1.86 A
+    type: PDB
+  - id: 3ZFL
+    properties:
+      chains: A/B=1-222
+      method: X-ray
+      resolution: 1.88 A
+    type: PDB
+  - id: 4HJ2
+    properties:
+      chains: A/B=4-220
+      method: X-ray
+      resolution: 2.10 A
+    type: PDB
+  - id: 5JCU
+    properties:
+      chains: A/B/C/D=2-222
+      method: X-ray
+      resolution: 1.93 A
+    type: PDB
+  - id: 5LCZ
+    properties:
+      chains: A/B=1-100, A/B=201-222
+      method: X-ray
+      resolution: 2.33 A
+    type: PDB
+  - id: 5LD0
+    properties:
+      chains: A=1-85, A=214-222
+      method: X-ray
+      resolution: 1.60 A
+    type: PDB
+  - id: 6ATO
+    properties:
+      chains: A/B=2-222
+      method: X-ray
+      resolution: 1.55 A
+    type: PDB
+  - id: 6ATP
+    properties:
+      chains: A/B=2-222
+      method: X-ray
+      resolution: 1.70 A
+    type: PDB
+  - id: 6ATQ
+    properties:
+      chains: A/B=2-222
+      method: X-ray
+      resolution: 2.00 A
+    type: PDB
+  - id: 6ATR
+    properties:
+      chains: A/B=2-222
+      method: X-ray
+      resolution: 1.29 A
+    type: PDB
+  - id: 6YAW
+    properties:
+      chains: A/B=1-222
+      method: X-ray
+      resolution: 2.19 A
+    type: PDB
+  - id: 7BIB
+    properties:
+      chains: A/B=1-222
+      method: X-ray
+      resolution: 2.03 A
+    type: PDB
+  - id: 7BIC
+    properties:
+      chains: A/B/C/D=1-222
+      method: X-ray
+      resolution: 2.46 A
+    type: PDB
+  - id: 8BHC
+    properties:
+      chains: A/B/C/D=1-222
+      method: X-ray
+      resolution: 1.56 A
+    type: PDB
+  - id: 8BHE
+    properties:
+      chains: A/B=1-222
+      method: X-ray
+      resolution: 1.87 A
+    type: PDB
+  - id: 1GSD
+    type: PDBsum
+  - id: 1GSE
+    type: PDBsum
+  - id: 1GSF
+    type: PDBsum
+  - id: 1GUH
+    type: PDBsum
+  - id: 1K3L
+    type: PDBsum
+  - id: 1K3O
+    type: PDBsum
+  - id: 1K3Y
+    type: PDBsum
+  - id: 1LBK
+    type: PDBsum
+  - id: 1PKW
+    type: PDBsum
+  - id: 1PKZ
+    type: PDBsum
+  - id: 1PL1
+    type: PDBsum
+  - id: 1PL2
+    type: PDBsum
+  - id: 1USB
+    type: PDBsum
+  - id: 1XWG
+    type: PDBsum
+  - id: 1YDK
+    type: PDBsum
+  - id: 2R3X
+    type: PDBsum
+  - id: 2R6K
+    type: PDBsum
+  - id: 3I69
+    type: PDBsum
+  - id: 3I6A
+    type: PDBsum
+  - id: 3IK9
+    type: PDBsum
+  - id: 3KTL
+    type: PDBsum
+  - id: 3L0H
+    type: PDBsum
+  - id: 3Q74
+    type: PDBsum
+  - id: 3U6V
+    type: PDBsum
+  - id: 3ZFB
+    type: PDBsum
+  - id: 3ZFL
+    type: PDBsum
+  - id: 4HJ2
+    type: PDBsum
+  - id: 5JCU
+    type: PDBsum
+  - id: 5LCZ
+    type: PDBsum
+  - id: 5LD0
+    type: PDBsum
+  - id: 6ATO
+    type: PDBsum
+  - id: 6ATP
+    type: PDBsum
+  - id: 6ATQ
+    type: PDBsum
+  - id: 6ATR
+    type: PDBsum
+  - id: 6YAW
+    type: PDBsum
+  - id: 7BIB
+    type: PDBsum
+  - id: 7BIC
+    type: PDBsum
+  - id: 8BHC
+    type: PDBsum
+  - id: 8BHE
+    type: PDBsum
+  - id: P08263
+    type: AlphaFoldDB
+  - id: P08263
+    type: SMR
+  - id: '109193'
+    properties:
+      interactions: '22'
+    type: BioGRID
+  - id: P08263
+    properties:
+      interactions: '12'
+    type: IntAct
+  - id: 9606.ENSP00000335620
+    type: STRING
+  - id: P08263
+    type: BindingDB
+  - id: CHEMBL3409
+    type: ChEMBL
+  - id: DB02486
+    properties:
+      generic name: 2-Hydroxyethyl Disulfide
+    type: DrugBank
+  - id: DB00321
+    properties:
+      generic name: Amitriptyline
+    type: DrugBank
+  - id: DB00993
+    properties:
+      generic name: Azathioprine
+    type: DrugBank
+  - id: DB01008
+    properties:
+      generic name: Busulfan
+    type: DrugBank
+  - id: DB00291
+    properties:
+      generic name: Chlorambucil
+    type: DrugBank
+  - id: DB11672
+    properties:
+      generic name: Curcumin
+    type: DrugBank
+  - id: DB03619
+    properties:
+      generic name: Deoxycholic acid
+    type: DrugBank
+  - id: DB00143
+    properties:
+      generic name: Glutathione
+    type: DrugBank
+  - id: DB03310
+    properties:
+      generic name: Glutathione disulfide
+    type: DrugBank
+  - id: DB03003
+    properties:
+      generic name: Glutathione sulfonic acid
+    type: DrugBank
+  - id: DB13014
+    properties:
+      generic name: Hypericin
+    type: DrugBank
+  - id: DB02943
+    properties:
+      generic name: N-(4-Aminobutanoyl)-S-(4-methoxybenzyl)-L-cysteinylglycine
+    type: DrugBank
+  - id: DB03602
+    properties:
+      generic name: S-benzylglutathione
+    type: DrugBank
+  - id: DB04132
+    properties:
+      generic name: S-Hexylglutathione
+    type: DrugBank
+  - id: DB01915
+    properties:
+      generic name: S-Hydroxycysteine
+    type: DrugBank
+  - id: P08263
+    type: DrugCentral
+  - id: SLP:000001476
+    type: SwissLipids
+  - id: P08263
+    type: iPTMnet
+  - id: P08263
+    type: PhosphoSitePlus
+  - id: GSTA1
+    type: BioMuta
+  - id: '121730'
+    type: DMDM
+  - id: IPI00657682
+    type: REPRODUCTION-2DPAGE
+  - id: P08263
+    type: jPOST
+  - id: P08263
+    type: MassIVE
+  - id: P08263
+    type: MaxQB
+  - id: 9606-ENSP00000335620
+    type: PaxDb
+  - id: P08263
+    type: PeptideAtlas
+  - id: '52103'
+    type: ProteomicsDB
+  - id: '30937'
+    properties:
+      antibodies: 552 antibodies from 34 providers
+    type: Antibodypedia
+  - id: '2938'
+    type: DNASU
+  - id: ENST00000334575.6
+    properties:
+      gene ID: ENSG00000243955.6
+      protein sequence ID: ENSP00000335620.5
+    type: Ensembl
+  - id: '2938'
+    type: GeneID
+  - id: hsa:2938
+    type: KEGG
+  - id: ENST00000334575.6
+    properties:
+      RefSeq nucleotide sequence ID: NM_145740.5
+      RefSeq protein sequence ID: NP_665683.1
+      protein sequence ID: ENSP00000335620.5
+    type: MANE-Select
+  - id: uc003paz.4
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:4626
+    type: AGR
+  - id: '2938'
+    type: CTD
+  - id: '2938'
+    type: DisGeNET
+  - id: GSTA1
+    type: GeneCards
+  - id: HGNC:4626
+    properties:
+      gene designation: GSTA1
+    type: HGNC
+  - id: ENSG00000243955
+    properties:
+      expression patterns: Tissue enhanced (adrenal gland, kidney, liver)
+    type: HPA
+  - id: '138359'
+    properties:
+      type: gene
+    type: MIM
+  - id: NX_P08263
+    type: neXtProt
+  - id: ENSG00000243955
+    type: OpenTargets
+  - id: PA29016
+    type: PharmGKB
+  - id: HostDB:ENSG00000243955
+    type: VEuPathDB
+  - id: KOG1695
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000164034
+    type: GeneTree
+  - id: CLU_039475_4_0_1
+    type: HOGENOM
+  - id: P08263
+    type: InParanoid
+  - id: NEMIIVL
+    type: OMA
+  - id: 3412208at2759
+    type: OrthoDB
+  - id: P08263
+    type: PhylomeDB
+  - id: TF105321
+    type: TreeFam
+  - id: MetaCyc:G66-32542-MONOMER
+    type: BioCyc
+  - id: 2.5.1.18
+    properties:
+      organism ID: '2681'
+    type: BRENDA
+  - id: P08263
+    type: PathwayCommons
+  - id: R-HSA-156590
+    properties:
+      pathway name: Glutathione conjugation
+    type: Reactome
+  - id: R-HSA-189483
+    properties:
+      pathway name: Heme degradation
+    type: Reactome
+  - id: R-HSA-9748787
+    properties:
+      pathway name: Azathioprine ADME
+    type: Reactome
+  - id: R-HSA-9818027
+    properties:
+      pathway name: NFE2L2 regulating anti-oxidant/detoxification enzymes
+    type: Reactome
+  - id: P08263
+    type: SABIO-RK
+  - id: P08263
+    type: SignaLink
+  - id: P08263
+    type: SIGNOR
+  - id: '2938'
+    properties:
+      hits: 12 hits in 1067 CRISPR screens
+    type: BioGRID-ORCS
+  - id: GSTA1
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: P08263
+    type: EvolutionaryTrace
+  - id: Glutathione_S-transferase_A1
+    type: GeneWiki
+  - id: '2938'
+    type: GenomeRNAi
+  - id: P08263
+    properties:
+      development level: Tchem
+    type: Pharos
+  - id: PR:P08263
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 6
+    type: Proteomes
+  - id: P08263
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000243955
+    properties:
+      expression patterns: Expressed in bronchial epithelial cell and 137 other cell
+        types or tissues
+    type: Bgee
+  - id: P08263
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: P08263
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - id: GO:0005829
+    properties:
+      source: IDA:HPA
+      term: C:cytosol
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19056867
+        id: '19056867'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19056867
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23533145
+        id: '23533145'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23533145
+    id: GO:0070062
+    properties:
+      source: HDA:UniProtKB
+      term: C:extracellular exosome
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16624487
+        id: '16624487'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16624487
+    id: GO:0005504
+    properties:
+      source: IPI:BHF-UCL
+      term: F:fatty acid binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16624487
+        id: '16624487'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16624487
+    id: GO:0004602
+    properties:
+      source: IDA:BHF-UCL
+      term: F:glutathione peroxidase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20606271
+        id: '20606271'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20606271
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9084911
+        id: '9084911'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9084911
+    id: GO:0004364
+    properties:
+      source: IDA:UniProtKB
+      term: F:glutathione transferase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11152686
+        id: '11152686'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11152686
+    id: GO:0004769
+    properties:
+      source: IDA:UniProtKB
+      term: F:steroid delta-isomerase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21492153
+        id: '21492153'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21492153
+    id: GO:0030855
+    properties:
+      source: IEP:UniProtKB
+      term: P:epithelial cell differentiation
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9084911
+        id: '9084911'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9084911
+    id: GO:1901687
+    properties:
+      source: IDA:UniProtKB
+      term: P:glutathione derivative biosynthetic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20606271
+        id: '20606271'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20606271
+    id: GO:0006749
+    properties:
+      source: IDA:UniProtKB
+      term: P:glutathione metabolic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16624487
+        id: '16624487'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16624487
+    id: GO:0043651
+    properties:
+      source: IDA:BHF-UCL
+      term: P:linoleic acid metabolic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9084911
+        id: '9084911'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9084911
+    id: GO:0006693
+    properties:
+      source: IDA:UniProtKB
+      term: P:prostaglandin metabolic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0006805
+    properties:
+      source: IBA:GO_Central
+      term: P:xenobiotic metabolic process
+    type: GO
+  - id: cd03208
+    properties:
+      entry name: GST_C_Alpha
+      match status: '1'
+    type: CDD
+  - id: cd03077
+    properties:
+      entry name: GST_N_Alpha
+      match status: '1'
+    type: CDD
+  - id: DP01506
+    type: DisProt
+  - id: 1.20.1050.10
+    properties:
+      match status: '1'
+    type: Gene3D
+  - id: 3.40.30.10
+    properties:
+      entry name: Glutaredoxin
+      match status: '1'
+    type: Gene3D
+  - id: IPR010987
+    properties:
+      entry name: Glutathione-S-Trfase_C-like
+    type: InterPro
+  - id: IPR036282
+    properties:
+      entry name: Glutathione-S-Trfase_C_sf
+    type: InterPro
+  - id: IPR040079
+    properties:
+      entry name: Glutathione_S-Trfase
+    type: InterPro
+  - id: IPR004045
+    properties:
+      entry name: Glutathione_S-Trfase_N
+    type: InterPro
+  - id: IPR003080
+    properties:
+      entry name: GST_alpha
+    type: InterPro
+  - id: IPR004046
+    properties:
+      entry name: GST_C
+    type: InterPro
+  - id: IPR036249
+    properties:
+      entry name: Thioredoxin-like_sf
+    type: InterPro
+  - id: PTHR11571
+    properties:
+      entry name: GLUTATHIONE S-TRANSFERASE
+      match status: '1'
+    type: PANTHER
+  - id: PTHR11571:SF157
+    properties:
+      entry name: GLUTATHIONE S-TRANSFERASE A1
+      match status: '1'
+    type: PANTHER
+  - id: PF00043
+    properties:
+      entry name: GST_C
+      match status: '1'
+    type: Pfam
+  - id: PF02798
+    properties:
+      entry name: GST_N
+      match status: '1'
+    type: Pfam
+  - id: PR01266
+    properties:
+      entry name: GSTRNSFRASEA
+    type: PRINTS
+  - id: SFLDG01205
+    properties:
+      entry name: AMPS.1
+      match status: '1'
+    type: SFLD
+  - id: SFLDS00019
+    properties:
+      entry name: Glutathione_Transferase_(cytos
+      match status: '1'
+    type: SFLD
+  - id: SSF47616
+    properties:
+      entry name: GST C-terminal domain-like
+      match status: '1'
+    type: SUPFAM
+  - id: SSF52833
+    properties:
+      entry name: Thioredoxin-like
+      match status: '1'
+    type: SUPFAM
+  - id: PS50405
+    properties:
+      entry name: GST_CTER
+      match status: '1'
+    type: PROSITE
+  - id: PS50404
+    properties:
+      entry name: GST_NTER
+      match status: '1'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Glutathione S-transferase A1
+    end: '222'
+    ftId: PRO_0000423203
+    molecule: ''
+    type: CHAIN
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Removed; alternate
+    end: '1'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: P30115
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/P30115
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8431482
+        id: '8431482'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8431482
+    molecule: ''
+    type: INIT_MET
+  - begin: '2'
+    category: MOLECULE_PROCESSING
+    description: Glutathione S-transferase A1, N-terminally processed
+    end: '222'
+    ftId: PRO_0000185783
+    molecule: ''
+    type: CHAIN
+  - begin: '3'
+    category: DOMAINS_AND_SITES
+    description: GST N-terminal
+    end: '83'
+    molecule: ''
+    type: DOMAIN
+  - begin: '85'
+    category: DOMAINS_AND_SITES
+    description: GST C-terminal
+    end: '207'
+    molecule: ''
+    type: DOMAIN
+  - begin: '9'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '9'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16421451
+        id: '16421451'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16421451
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19618965
+        id: '19618965'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19618965
+    ligand:
+      dbReference:
+        id: CHEBI:57925
+        name: ChEBI
+      name: glutathione
+    molecule: ''
+    type: BINDING
+  - begin: '45'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '45'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16421451
+        id: '16421451'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16421451
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19618965
+        id: '19618965'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19618965
+    ligand:
+      dbReference:
+        id: CHEBI:57925
+        name: ChEBI
+      name: glutathione
+    molecule: ''
+    type: BINDING
+  - begin: '54'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '55'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16421451
+        id: '16421451'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16421451
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19618965
+        id: '19618965'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19618965
+    ligand:
+      dbReference:
+        id: CHEBI:57925
+        name: ChEBI
+      name: glutathione
+    molecule: ''
+    type: BINDING
+  - begin: '67'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '68'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16421451
+        id: '16421451'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16421451
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19618965
+        id: '19618965'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19618965
+    ligand:
+      dbReference:
+        id: CHEBI:57925
+        name: ChEBI
+      name: glutathione
+    molecule: ''
+    type: BINDING
+  - begin: '1'
+    category: PTM
+    description: N-acetylmethionine
+    end: '1'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: P80894
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/P80894
+    molecule: ''
+    type: MOD_RES
+  - begin: '2'
+    category: PTM
+    description: N-acetylalanine; in Glutathione S-transferase A1, N-terminally processed
+    end: '2'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: P30115
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/P30115
+    molecule: ''
+    type: MOD_RES
+  - begin: '4'
+    category: PTM
+    description: N6-succinyllysine
+    end: '4'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: P30115
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/P30115
+    molecule: ''
+    type: MOD_RES
+  - alternativeSequence: I
+    begin: '19'
+    category: VARIANTS
+    description: in dbSNP:rs1051578
+    end: '19'
+    ftId: VAR_033978
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: Q
+    begin: '113'
+    category: VARIANTS
+    description: in dbSNP:rs1051745
+    end: '113'
+    ftId: VAR_049482
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: Q
+    begin: '117'
+    category: VARIANTS
+    description: in dbSNP:rs1051757
+    end: '117'
+    ftId: VAR_049483
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: F
+    begin: '9'
+    category: MUTAGENESIS
+    description: Decreased isomerase activity.
+    end: '9'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11152686
+        id: '11152686'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11152686
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A,V
+    begin: '71'
+    category: MUTAGENESIS
+    description: No significant effect on enzyme activity. Reduces protein stability.
+    end: '71'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20606271
+        id: '20606271'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20606271
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: H
+    begin: '216'
+    category: MUTAGENESIS
+    description: Confers ability to hydrolyze S-glutathionyl benzoate to glutathione
+      and benzoic acid.
+    end: '216'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15333749
+        id: '15333749'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15333749
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: C
+    begin: '18'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36174
+    end: '18'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: T
+    begin: '51'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 7; AAT06769
+    end: '51'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: AML
+    begin: '56'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36174
+    end: '58'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: L
+    begin: '212'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 13; AA sequence
+    end: '212'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: S
+    begin: '216'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 12; AA sequence
+    end: '216'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - begin: '6'
+    category: STRUCTURAL
+    end: '13'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6ATR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6ATR
+    molecule: ''
+    type: STRAND
+  - begin: '14'
+    category: STRUCTURAL
+    end: '16'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6ATR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6ATR
+    molecule: ''
+    type: TURN
+  - begin: '17'
+    category: STRUCTURAL
+    end: '25'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6ATR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6ATR
+    molecule: ''
+    type: HELIX
+  - begin: '31'
+    category: STRUCTURAL
+    end: '35'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6ATR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6ATR
+    molecule: ''
+    type: STRAND
+  - begin: '38'
+    category: STRUCTURAL
+    end: '46'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6ATR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6ATR
+    molecule: ''
+    type: HELIX
+  - begin: '57'
+    category: STRUCTURAL
+    end: '60'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6ATR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6ATR
+    molecule: ''
+    type: STRAND
+  - begin: '63'
+    category: STRUCTURAL
+    end: '67'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6ATR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6ATR
+    molecule: ''
+    type: STRAND
+  - begin: '68'
+    category: STRUCTURAL
+    end: '78'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6ATR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6ATR
+    molecule: ''
+    type: HELIX
+  - begin: '86'
+    category: STRUCTURAL
+    end: '108'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6ATR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6ATR
+    molecule: ''
+    type: HELIX
+  - begin: '109'
+    category: STRUCTURAL
+    end: '111'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6ATR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6ATR
+    molecule: ''
+    type: HELIX
+  - begin: '114'
+    category: STRUCTURAL
+    end: '130'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6ATR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6ATR
+    molecule: ''
+    type: HELIX
+  - begin: '132'
+    category: STRUCTURAL
+    end: '143'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6ATR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6ATR
+    molecule: ''
+    type: HELIX
+  - begin: '146'
+    category: STRUCTURAL
+    end: '149'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6ATR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6ATR
+    molecule: ''
+    type: STRAND
+  - begin: '155'
+    category: STRUCTURAL
+    end: '170'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6ATR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6ATR
+    molecule: ''
+    type: HELIX
+  - begin: '172'
+    category: STRUCTURAL
+    end: '177'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6ATR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6ATR
+    molecule: ''
+    type: TURN
+  - begin: '179'
+    category: STRUCTURAL
+    end: '190'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6ATR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6ATR
+    molecule: ''
+    type: HELIX
+  - begin: '192'
+    category: STRUCTURAL
+    end: '198'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6ATR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6ATR
+    molecule: ''
+    type: HELIX
+  - begin: '210'
+    category: STRUCTURAL
+    end: '220'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6ATR
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6ATR
+    molecule: ''
+    type: HELIX
+  gene:
+  - name:
+      value: GSTA1
+  id: GSTA1_HUMAN
+  info:
+    created: '1988-08-01'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 230
+  keywords:
+  - value: 3D-structure
+  - value: Acetylation
+  - value: Cytoplasm
+  - value: Direct protein sequencing
+  - value: Isomerase
+  - value: Lipid metabolism
+  - value: Oxidoreductase
+  - value: Peroxidase
+  - value: Reference proteome
+  - value: Transferase
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - ecNumber:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16624487
+            id: '16624487'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16624487
+        value: 1.11.1.-
+      fullName:
+        evidences:
+        - code: ECO:0000305
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16624487
+            id: '16624487'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16624487
+        value: 13-hydroperoxyoctadecadienoate peroxidase
+    - ecNumber:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/11152686
+            id: '11152686'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/11152686
+        value: 5.3.3.-
+      fullName:
+        evidences:
+        - code: ECO:0000305
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/11152686
+            id: '11152686'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/11152686
+        value: Androst-5-ene-3,17-dione isomerase
+    - fullName:
+        value: GST HA subunit 1
+    - fullName:
+        value: GST class-alpha member 1
+    - fullName:
+        value: GST-epsilon
+    - fullName:
+        value: GSTA1-1
+    - fullName:
+        value: GTH1
+    component:
+    - recommendedName:
+        fullName:
+          value: Glutathione S-transferase A1, N-terminally processed
+    recommendedName:
+      ecNumber:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/20606271
+            id: '20606271'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/20606271
+        value: 2.5.1.18
+      fullName:
+        evidences:
+        - code: ECO:0000305
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/20606271
+            id: '20606271'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/20606271
+        - code: ECO:0000305
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/9084911
+            id: '9084911'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/9084911
+        value: Glutathione S-transferase A1
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Tu C.-P.D.
+      - Qian B.
+      dbReferences:
+      - id: '3800996'
+        type: PubMed
+      - id: 10.1016/s0006-291x(86)80358-8
+        type: DOI
+      location:
+        firstPage: '229'
+        lastPage: '237'
+        volume: '141'
+      publication:
+        journalName: Biochem. Biophys. Res. Commun.
+      publicationDate: '1986'
+      title: 'Human liver glutathione S-transferases: complete primary sequence of
+        an Ha subunit cDNA.'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+  - citation:
+      authors:
+      - Rhoads D.M.
+      - Zarlengo R.P.
+      - Tu C.-P.D.
+      dbReferences:
+      - id: '3036131'
+        type: PubMed
+      - id: 10.1016/0006-291x(87)91345-3
+        type: DOI
+      location:
+        firstPage: '474'
+        lastPage: '481'
+        volume: '145'
+      publication:
+        journalName: Biochem. Biophys. Res. Commun.
+      publicationDate: '1987'
+      title: The basic glutathione S-transferases from human livers are products of
+        separate genes.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+  - citation:
+      authors:
+      - Tu C.-P.D.
+      - Qian B.
+      dbReferences:
+      - id: '3678589'
+        type: PubMed
+      - id: 10.1042/bst0150734
+        type: DOI
+      location:
+        firstPage: '734'
+        lastPage: '736'
+        volume: '15'
+      publication:
+        journalName: Biochem. Soc. Trans.
+      publicationDate: '1987'
+      title: Nucleotide sequence of the human liver glutathione S-transferase subunit
+        1 cDNA.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Board P.G.
+      - Webb G.C.
+      dbReferences:
+      - id: '3031680'
+        type: PubMed
+      - id: 10.1073/pnas.84.8.2377
+        type: DOI
+      location:
+        firstPage: '2377'
+        lastPage: '2381'
+        volume: '84'
+      publication:
+        journalName: Proc. Natl. Acad. Sci. U.S.A.
+      publicationDate: '1987'
+      title: Isolation of a cDNA clone and localization of human glutathione S-transferase
+        2 genes to chromosome band 6p12.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+  - citation:
+      authors:
+      - Rozen F.
+      - Nguyen T.
+      - Pickett C.B.
+      dbReferences:
+      - id: '1731620'
+        type: PubMed
+      - id: 10.1016/0003-9861(92)90035-u
+        type: DOI
+      location:
+        firstPage: '589'
+        lastPage: '593'
+        volume: '292'
+      publication:
+        journalName: Arch. Biochem. Biophys.
+      publicationDate: '1992'
+      title: Isolation and characterization of a human glutathione S-transferase Ha1
+        subunit gene.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+  - citation:
+      authors:
+      - Stenberg G.
+      - Bjornestedt R.
+      - Mannervik B.
+      dbReferences:
+      - id: '1330133'
+        type: PubMed
+      - id: 10.1016/1046-5928(92)90060-a
+        type: DOI
+      location:
+        firstPage: '80'
+        lastPage: '84'
+        volume: '3'
+      publication:
+        journalName: Protein Expr. Purif.
+      publicationDate: '1992'
+      title: Heterologous expression of recombinant human glutathione transferase
+        A1-1 from a hepatoma cell line.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+  - citation:
+      authors:
+      - Chen P.
+      - Zhang C.
+      - Xie D.
+      - Wu Y.
+      - Han L.
+      - Chen L.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: JAN-2004
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Mungall A.J.
+      - Palmer S.A.
+      - Sims S.K.
+      - Edwards C.A.
+      - Ashurst J.L.
+      - Wilming L.
+      - Jones M.C.
+      - Horton R.
+      - Hunt S.E.
+      - Scott C.E.
+      - Gilbert J.G.R.
+      - Clamp M.E.
+      - Bethel G.
+      - Milne S.
+      - Ainscough R.
+      - Almeida J.P.
+      - Ambrose K.D.
+      - Andrews T.D.
+      - Ashwell R.I.S.
+      - Babbage A.K.
+      - Bagguley C.L.
+      - Bailey J.
+      - Banerjee R.
+      - Barker D.J.
+      - Barlow K.F.
+      - Bates K.
+      - Beare D.M.
+      - Beasley H.
+      - Beasley O.
+      - Bird C.P.
+      - Blakey S.E.
+      - Bray-Allen S.
+      - Brook J.
+      - Brown A.J.
+      - Brown J.Y.
+      - Burford D.C.
+      - Burrill W.
+      - Burton J.
+      - Carder C.
+      - Carter N.P.
+      - Chapman J.C.
+      - Clark S.Y.
+      - Clark G.
+      - Clee C.M.
+      - Clegg S.
+      - Cobley V.
+      - Collier R.E.
+      - Collins J.E.
+      - Colman L.K.
+      - Corby N.R.
+      - Coville G.J.
+      - Culley K.M.
+      - Dhami P.
+      - Davies J.
+      - Dunn M.
+      - Earthrowl M.E.
+      - Ellington A.E.
+      - Evans K.A.
+      - Faulkner L.
+      - Francis M.D.
+      - Frankish A.
+      - Frankland J.
+      - French L.
+      - Garner P.
+      - Garnett J.
+      - Ghori M.J.
+      - Gilby L.M.
+      - Gillson C.J.
+      - Glithero R.J.
+      - Grafham D.V.
+      - Grant M.
+      - Gribble S.
+      - Griffiths C.
+      - Griffiths M.N.D.
+      - Hall R.
+      - Halls K.S.
+      - Hammond S.
+      - Harley J.L.
+      - Hart E.A.
+      - Heath P.D.
+      - Heathcott R.
+      - Holmes S.J.
+      - Howden P.J.
+      - Howe K.L.
+      - Howell G.R.
+      - Huckle E.
+      - Humphray S.J.
+      - Humphries M.D.
+      - Hunt A.R.
+      - Johnson C.M.
+      - Joy A.A.
+      - Kay M.
+      - Keenan S.J.
+      - Kimberley A.M.
+      - King A.
+      - Laird G.K.
+      - Langford C.
+      - Lawlor S.
+      - Leongamornlert D.A.
+      - Leversha M.
+      - Lloyd C.R.
+      - Lloyd D.M.
+      - Loveland J.E.
+      - Lovell J.
+      - Martin S.
+      - Mashreghi-Mohammadi M.
+      - Maslen G.L.
+      - Matthews L.
+      - McCann O.T.
+      - McLaren S.J.
+      - McLay K.
+      - McMurray A.
+      - Moore M.J.F.
+      - Mullikin J.C.
+      - Niblett D.
+      - Nickerson T.
+      - Novik K.L.
+      - Oliver K.
+      - Overton-Larty E.K.
+      - Parker A.
+      - Patel R.
+      - Pearce A.V.
+      - Peck A.I.
+      - Phillimore B.J.C.T.
+      - Phillips S.
+      - Plumb R.W.
+      - Porter K.M.
+      - Ramsey Y.
+      - Ranby S.A.
+      - Rice C.M.
+      - Ross M.T.
+      - Searle S.M.
+      - Sehra H.K.
+      - Sheridan E.
+      - Skuce C.D.
+      - Smith S.
+      - Smith M.
+      - Spraggon L.
+      - Squares S.L.
+      - Steward C.A.
+      - Sycamore N.
+      - Tamlyn-Hall G.
+      - Tester J.
+      - Theaker A.J.
+      - Thomas D.W.
+      - Thorpe A.
+      - Tracey A.
+      - Tromans A.
+      - Tubby B.
+      - Wall M.
+      - Wallis J.M.
+      - West A.P.
+      - White S.S.
+      - Whitehead S.L.
+      - Whittaker H.
+      - Wild A.
+      - Willey D.J.
+      - Wilmer T.E.
+      - Wood J.M.
+      - Wray P.W.
+      - Wyatt J.C.
+      - Young L.
+      - Younger R.M.
+      - Bentley D.R.
+      - Coulson A.
+      - Durbin R.M.
+      - Hubbard T.
+      - Sulston J.E.
+      - Dunham I.
+      - Rogers J.
+      - Beck S.
+      dbReferences:
+      - id: '14574404'
+        type: PubMed
+      - id: 10.1038/nature02055
+        type: DOI
+      location:
+        firstPage: '805'
+        lastPage: '811'
+        volume: '425'
+      publication:
+        journalName: Nature
+      publicationDate: '2003'
+      title: The DNA sequence and analysis of human chromosome 6.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      authors:
+      - Mural R.J.
+      - Istrail S.
+      - Sutton G.G.
+      - Florea L.
+      - Halpern A.L.
+      - Mobarry C.M.
+      - Lippert R.
+      - Walenz B.
+      - Shatkay H.
+      - Dew I.
+      - Miller J.R.
+      - Flanigan M.J.
+      - Edwards N.J.
+      - Bolanos R.
+      - Fasulo D.
+      - Halldorsson B.V.
+      - Hannenhalli S.
+      - Turner R.
+      - Yooseph S.
+      - Lu F.
+      - Nusskern D.R.
+      - Shue B.C.
+      - Zheng X.H.
+      - Zhong F.
+      - Delcher A.L.
+      - Huson D.H.
+      - Kravitz S.A.
+      - Mouchard L.
+      - Reinert K.
+      - Remington K.A.
+      - Clark A.G.
+      - Waterman M.S.
+      - Eichler E.E.
+      - Adams M.D.
+      - Hunkapiller M.W.
+      - Myers E.W.
+      - Venter J.C.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: JUL-2005
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      consortiums:
+      - The MGC Project Team
+      dbReferences:
+      - id: '15489334'
+        type: PubMed
+      - id: 10.1101/gr.2596504
+        type: DOI
+      location:
+        firstPage: '2121'
+        lastPage: '2127'
+        volume: '14'
+      publication:
+        journalName: Genome Res.
+      publicationDate: '2004'
+      title: 'The status, quality, and expansion of the NIH full-length cDNA project:
+        the Mammalian Gene Collection (MGC).'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]
+    source:
+      tissue:
+      - value: Brain
+  - citation:
+      authors:
+      - Chow N.W.
+      - Whang-Peng J.
+      - Kao-Shan C.S.
+      - Tam M.F.
+      - Lai H.-C.J.
+      - Tu C.-P.D.
+      dbReferences:
+      - id: '3138230'
+        type: PubMed
+      - id: 10.1016/s0021-9258(18)37626-9
+        type: DOI
+      location:
+        firstPage: '12797'
+        lastPage: '12800'
+        volume: '263'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '1988'
+      title: Human glutathione S-transferases. The Ha multigene family encodes products
+        of different but overlapping substrate specificities.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE OF 1-9
+  - citation:
+      authors:
+      - Ahmad H.
+      - Singhal S.S.
+      - Saxena M.
+      - Awasthi Y.C.
+      dbReferences:
+      - id: '8431482'
+        type: PubMed
+      - id: 10.1016/0167-4838(93)90234-i
+        type: DOI
+      location:
+        firstPage: '333'
+        lastPage: '336'
+        volume: '1161'
+      publication:
+        journalName: Biochim. Biophys. Acta
+      publicationDate: '1993'
+      title: Characterization of two novel subunits of the alpha-class glutathione
+        S-transferases of human liver.
+      type: journal article
+    scope:
+    - PROTEIN SEQUENCE OF 2-170; 188-195 AND 209-222
+  - citation:
+      authors:
+      - Hayes J.D.
+      - Kerr L.A.
+      - Cronshaw A.D.
+      dbReferences:
+      - id: '2604726'
+        type: PubMed
+      - id: 10.1042/bj2640437
+        type: DOI
+      location:
+        firstPage: '437'
+        lastPage: '445'
+        volume: '264'
+      publication:
+        journalName: Biochem. J.
+      publicationDate: '1989'
+      title: Evidence that glutathione S-transferases B1B1 and B2B2 are the products
+        of separate genes and that their expression in human liver is subject to inter-individual
+        variation. Molecular relationships between the B1 and B2 subunits and other
+        alpha class glutathione S-transferases.
+      type: journal article
+    scope:
+    - PROTEIN SEQUENCE OF 16-36; 63-155 AND 208-212
+  - citation:
+      authors:
+      - Board P.G.
+      - Mannervik B.
+      dbReferences:
+      - id: '2018473'
+        type: PubMed
+      - id: 10.1042/bj2750171
+        type: DOI
+      location:
+        firstPage: '171'
+        lastPage: '174'
+        volume: '275'
+      publication:
+        journalName: Biochem. J.
+      publicationDate: '1991'
+      title: The contribution of the C-terminal sequence to the catalytic activity
+        of GST2, a human alpha-class glutathione transferase.
+      type: journal article
+    scope:
+    - PROTEIN SEQUENCE OF 200-222
+  - citation:
+      authors:
+      - Bogaards J.J.
+      - Venekamp J.C.
+      - van Bladeren P.J.
+      dbReferences:
+      - id: '9084911'
+        type: PubMed
+      - id: 10.1021/tx9601770
+        type: DOI
+      location:
+        firstPage: '310'
+        lastPage: '317'
+        volume: '10'
+      publication:
+        journalName: Chem. Res. Toxicol.
+      publicationDate: '1997'
+      title: Stereoselective conjugation of prostaglandin A2 and prostaglandin J2
+        with glutathione, catalyzed by the human glutathione S-transferases A1-1,
+        A2-2, M1a-1a, and P1-1.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+  - citation:
+      authors:
+      - Pettersson P.L.
+      - Mannervik B.
+      dbReferences:
+      - id: '11152686'
+        type: PubMed
+      - id: 10.1074/jbc.m009146200
+        type: DOI
+      location:
+        firstPage: '11698'
+        lastPage: '11704'
+        volume: '276'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2001'
+      title: The role of glutathione in the isomerization of delta 5-androstene-3,17-dione
+        catalyzed by human glutathione transferase A1-1.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - ACTIVITY REGULATION
+    - MUTAGENESIS OF TYR-9
+  - citation:
+      authors:
+      - Seeley S.K.
+      - Poposki J.A.
+      - Maksimchuk J.
+      - Tebbe J.
+      - Gaudreau J.
+      - Mannervik B.
+      - Bull A.W.
+      dbReferences:
+      - id: '16624487'
+        type: PubMed
+      - id: 10.1016/j.bbagen.2006.02.020
+        type: DOI
+      location:
+        firstPage: '1064'
+        lastPage: '1070'
+        volume: '1760'
+      publication:
+        journalName: Biochim. Biophys. Acta
+      publicationDate: '2006'
+      title: 'Metabolism of oxidized linoleic acid by glutathione transferases: peroxidase
+        activity toward 13-hydroperoxyoctadecadienoic acid.'
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+  - citation:
+      authors:
+      - Bian Y.
+      - Song C.
+      - Cheng K.
+      - Dong M.
+      - Wang F.
+      - Huang J.
+      - Sun D.
+      - Wang L.
+      - Ye M.
+      - Zou H.
+      dbReferences:
+      - id: '24275569'
+        type: PubMed
+      - id: 10.1016/j.jprot.2013.11.014
+        type: DOI
+      location:
+        firstPage: '253'
+        lastPage: '262'
+        volume: '96'
+      publication:
+        journalName: J. Proteomics
+      publicationDate: '2014'
+      title: An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+        phosphoproteome.
+      type: journal article
+    scope:
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Sinning I.
+      - Kleywegt G.J.
+      - Cowan S.W.
+      - Reinemer P.
+      - Dirr H.W.
+      - Huber R.
+      - Gilliland G.L.
+      - Armstrong R.N.
+      - Ji X.
+      - Board P.G.
+      - Olin B.
+      - Mannervik B.
+      - Jones T.A.
+      dbReferences:
+      - id: '8331657'
+        type: PubMed
+      - id: 10.1006/jmbi.1993.1376
+        type: DOI
+      location:
+        firstPage: '192'
+        lastPage: '212'
+        volume: '232'
+      publication:
+        journalName: J. Mol. Biol.
+      publicationDate: '1993'
+      title: Structure determination and refinement of human alpha class glutathione
+        transferase A1-1, and a comparison with the Mu and Pi class enzymes.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (2.6 ANGSTROMS) IN COMPLEX WITH S-BENZYL-GLUTATHIONE
+    - SUBUNIT
+  - citation:
+      authors:
+      - Cameron A.D.
+      - Sinning I.
+      - L'Hermite G.
+      - Olin B.
+      - Board P.G.
+      - Mannervik B.
+      - Jones T.A.
+      dbReferences:
+      - id: '8591048'
+        type: PubMed
+      - id: 10.1016/s0969-2126(01)00206-4
+        type: DOI
+      location:
+        firstPage: '717'
+        lastPage: '727'
+        volume: '3'
+      publication:
+        journalName: Structure
+      publicationDate: '1995'
+      title: Structural analysis of human alpha-class glutathione transferase A1-1
+        in the apo-form and in complexes with ethacrynic acid and its glutathione
+        conjugate.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS) IN COMPLEXES WITH ETHACRYNIC ACID AND
+      GLUTATHIONE
+    - SUBUNIT
+  - citation:
+      authors:
+      - Le Trong I.
+      - Stenkamp R.E.
+      - Ibarra C.
+      - Atkins W.M.
+      - Adman E.T.
+      dbReferences:
+      - id: '12211029'
+        type: PubMed
+      - id: 10.1002/prot.10162
+        type: DOI
+      location:
+        firstPage: '618'
+        lastPage: '627'
+        volume: '48'
+      publication:
+        journalName: Proteins
+      publicationDate: '2002'
+      title: 1.3-A resolution structure of human glutathione S-transferase with S-hexyl
+        glutathione bound reveals possible extended ligandin binding site.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (1.3 ANGSTROMS) IN COMPLEXES WITH S-HEXYL GLUTATHIONE
+    - SUBUNIT
+  - citation:
+      authors:
+      - Hederos S.
+      - Broo K.S.
+      - Jakobsson E.
+      - Kleywegt G.J.
+      - Mannervik B.
+      - Baltzer L.
+      dbReferences:
+      - id: '15333749'
+        type: PubMed
+      - id: 10.1073/pnas.0403045101
+        type: DOI
+      location:
+        firstPage: '13163'
+        lastPage: '13167'
+        volume: '101'
+      publication:
+        journalName: Proc. Natl. Acad. Sci. U.S.A.
+      publicationDate: '2004'
+      title: Incorporation of a single His residue by rational design enables thiol-ester
+        hydrolysis by human glutathione transferase A1-1.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (2.07 ANGSTROMS) IN COMPLEX WITH S-BENZYLGLUTATHIONE
+    - MUTAGENESIS OF ALA-216
+  - citation:
+      authors:
+      - Kuhnert D.C.
+      - Sayed Y.
+      - Mosebi S.
+      - Sayed M.
+      - Sewell T.
+      - Dirr H.W.
+      dbReferences:
+      - id: '15893769'
+        type: PubMed
+      - id: 10.1016/j.jmb.2005.04.025
+        type: DOI
+      location:
+        firstPage: '825'
+        lastPage: '838'
+        volume: '349'
+      publication:
+        journalName: J. Mol. Biol.
+      publicationDate: '2005'
+      title: 'Tertiary interactions stabilise the C-terminal region of human glutathione
+        transferase A1-1: a crystallographic and calorimetric study.'
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (1.95 ANGSTROMS) OF MUTANT ALA-219 IN COMPLEX WITH S-HEXYLGLUTATHIONE
+  - citation:
+      authors:
+      - Grahn E.
+      - Novotny M.
+      - Jakobsson E.
+      - Gustafsson A.
+      - Grehn L.
+      - Olin B.
+      - Madsen D.
+      - Wahlberg M.
+      - Mannervik B.
+      - Kleywegt G.J.
+      dbReferences:
+      - id: '16421451'
+        type: PubMed
+      - id: 10.1107/s0907444905039296
+        type: DOI
+      location:
+        firstPage: '197'
+        lastPage: '207'
+        volume: '62'
+      publication:
+        journalName: Acta Crystallogr. D
+      publicationDate: '2006'
+      title: New crystal structures of human glutathione transferase A1-1 shed light
+        on glutathione binding and the conformation of the C-terminal helix.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (1.75 ANGSTROMS) IN COMPLEX WITH GLUTATHIONE
+    - SUBUNIT
+  - citation:
+      authors:
+      - Balogh L.M.
+      - Le Trong I.
+      - Kripps K.A.
+      - Tars K.
+      - Stenkamp R.E.
+      - Mannervik B.
+      - Atkins W.M.
+      dbReferences:
+      - id: '19618965'
+        type: PubMed
+      - id: 10.1021/bi900895b
+        type: DOI
+      location:
+        firstPage: '7698'
+        lastPage: '7704'
+        volume: '48'
+      publication:
+        journalName: Biochemistry
+      publicationDate: '2009'
+      title: Structural analysis of a glutathione transferase A1-1 mutant tailored
+        for high catalytic efficiency with toxic alkenals.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (1.98 ANGSTROMS) OF 1-210 IN COMPLEX WITH GLUTATHIONE
+  - citation:
+      authors:
+      - Achilonu I.
+      - Gildenhuys S.
+      - Fisher L.
+      - Burke J.
+      - Fanucchi S.
+      - Sewell B.T.
+      - Fernandes M.
+      - Dirr H.W.
+      dbReferences:
+      - id: '20606271'
+        type: PubMed
+      - id: 10.1107/s1744309110019135
+        type: DOI
+      location:
+        firstPage: '776'
+        lastPage: '780'
+        volume: '66'
+      publication:
+        journalName: Acta Crystallogr. F
+      publicationDate: '2010'
+      title: The role of a topologically conserved isoleucine in glutathione transferase
+        structure, stability and function.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (1.75 ANGSTROMS) OF MUTANTS ALA-71 AND VAL-71 IN COMPLEX
+      WITH S-HEXYLGLUTATHIONE
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - MUTAGENESIS OF ILE-71
+  secondaryAccession:
+  - Q14750
+  - Q5GHF8
+  - Q5SZC1
+  sequence:
+    length: 222
+    mass: 25631
+    modified: '2007-01-23'
+    sequence: MAEKPKLHYFNARGRMESTRWLLAAAGVEFEEKFIKSAEDLDKLRNDGYLMFQQVPMVEIDGMKLVQTRAILNYIASKYNLYGKDIKERALIDMYIEGIADLGEMILLLPVCPPEEKDAKLALIKEKIKNRYFPAFEKVLKSHGQDYLVGNKLSRADIHLVELLYYVEELDSSLISSFPLLKALKTRISNLPTVKKFLQPGSPRKPPMDEKSLEEARKIFRF
+    version: 3
+uniprot_id: P08263

@@ -1,0 +1,2404 @@
+data:
+  accession: P32297
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/31708116
+          id: '31708116'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/31708116
+      value: After binding acetylcholine, the AChR responds by an extensive change
+        in conformation that affects all subunits and leads to opening of an ion-conducting
+        channel across the plasma membrane
+    type: FUNCTION
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P04757
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P04757
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15609996
+          id: '15609996'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15609996
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16120769
+          id: '16120769'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16120769
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26265139
+          id: '26265139'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26265139
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/27344019
+          id: '27344019'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/27344019
+      value: 'Neuronal AChR is composed of two different types of subunits: alpha
+        and beta. Alpha-3 subunit can be combined to beta-2 or beta-4 to give rise
+        to functional receptors. Part of a complex composed of STUB1/CHIP, VCP/p97,
+        CHRNA3, and UBXN2A that modulates the ubiquitination and endoplasmic reticulum-associated
+        degradation (ERAD) of CHRNA3 (PubMed:26265139). Within the complex UBXN2A
+        acts as a scaffold protein required for the interaction of CHRNA3 with VCP/p97,
+        this interaction also inhibits CHRNA3 ubiquitination by STUB1/CHIP and subsequently
+        ERAD (PubMed:26265139). Interacts with UBXN2A (via SEP domain), the interaction
+        is required for the interaction of CHRNA3 in the STUB1-VCP-UBXN2A complex
+        (PubMed:26265139). Interacts with RIC3; which is required for proper folding
+        and assembly (PubMed:16120769). Interacts with LYPD6 (PubMed:27344019). The
+        heteropentamer alpha-3-beta-2 interacts with alpha-conotoxins ImI and ImII
+        (PubMed:15609996). The heteropentamer alpha-3-beta-2 interacts with alpha-conotoxins
+        ImI, ImII, PnIA, GID and MII (By similarity). The heteropentamer alpha-3-beta-4
+        interacts with the alpha-conotoxin ImI (PubMed:15609996)'
+    type: SUBUNIT
+  - locations:
+    - location:
+        value: Postsynaptic cell membrane
+      topology:
+        value: Multi-pass membrane protein
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/31708116
+            id: '31708116'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/31708116
+        value: Cell membrane
+      topology:
+        value: Multi-pass membrane protein
+    - location:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: P04757
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P04757
+        value: Endoplasmic reticulum
+    - location:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: P04757
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P04757
+        value: Golgi apparatus
+    text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P04757
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P04757
+      value: Interaction with UBXN2A/UBXD4 promotes translocation to the plasma membrane
+    type: SUBCELLULAR_LOCATION
+  - event:
+    - Alternative splicing
+    isoforms:
+    - ids:
+      - P32297-2
+      name:
+        value: '2'
+      sequenceStatus: displayed
+    - ids:
+      - P32297-1
+      name:
+        value: '1'
+      sequence:
+      - VSP_037750
+      sequenceStatus: described
+    - ids:
+      - P32297-3
+      name:
+        value: '3'
+      sequence:
+      - VSP_037751
+      sequenceStatus: described
+    type: ALTERNATIVE_PRODUCTS
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P04757
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P04757
+      value: Ubiquitinated; by STUB1/CHIP and thereafter degraded by the 26S proteosome
+        complex
+    type: PTM
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18385676
+          id: '18385676'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18385676
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18385720
+          id: '18385720'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18385720
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18385738
+          id: '18385738'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18385738
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18385739
+          id: '18385739'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18385739
+      value: Genetic variations in CHRNA3 have been associated with susceptibility
+        to smoking-related behavioral traits and lung cancer, contributing to the
+        smoking quantitative trait locus 3 (SQTL3) [MIM:612052]
+    type: POLYMORPHISM
+  - acronym: BAIPRCK
+    dbReference:
+      id: '191800'
+      type: MIM
+    description:
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/31708116
+          id: '31708116'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/31708116
+      value: An autosomal recessive disease characterized by impaired innervation
+        and autonomic dysfunction of the urinary bladder, hydronephrosis, vesicoureteral
+        reflux, small kidneys, recurrent urinary tract infections, and progressive
+        renal insufficiency. Additional autonomic features are impaired pupillary
+        reflex and orthostatic hypotension. The disease manifests in utero or early
+        childhood.
+    diseaseId: Bladder dysfunction, autonomic, with impaired pupillary reflex and
+      secondary CAKUT
+    text:
+    - value: The disease is caused by variants affecting the gene represented in this
+        entry
+    type: DISEASE
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the ligand-gated ion channel (TC 1.A.9) family. Acetylcholine
+        receptor (TC 1.A.9.1) subfamily. Alpha-3/CHRNA3 sub-subfamily
+    type: SIMILARITY
+  dbReferences:
+  - id: M86383
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAC84176.1
+    type: EMBL
+  - id: M37981
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA59942.1
+    type: EMBL
+  - id: U62432
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAB40110.1
+    type: EMBL
+  - id: Y08418
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAA69695.1
+    type: EMBL
+  - id: AJ007783
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA07682.1
+    type: EMBL
+  - id: AJ007784
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA07682.1
+      status: JOINED
+    type: EMBL
+  - id: AJ007785
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA07682.1
+      status: JOINED
+    type: EMBL
+  - id: AJ007786
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA07682.1
+      status: JOINED
+    type: EMBL
+  - id: AJ007787
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA07682.1
+      status: JOINED
+    type: EMBL
+  - id: BT006646
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAP35292.1
+    type: EMBL
+  - id: BT006897
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAP35543.1
+    type: EMBL
+  - id: AC027228
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: AC067863
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: BC000513
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH00513.1
+    type: EMBL
+  - id: BC001642
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH01642.1
+    type: EMBL
+  - id: BC002996
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH02996.1
+    type: EMBL
+  - id: BC006114
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH06114.1
+    type: EMBL
+  - id: BC098443
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH98443.1
+    type: EMBL
+  - id: AF385584
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAK68110.1
+    type: EMBL
+  - id: X53559
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAA37625.1
+    type: EMBL
+  - id: CCDS10305.1
+    isoform: P32297-2
+    type: CCDS
+  - id: CCDS53964.1
+    isoform: P32297-3
+    type: CCDS
+  - id: A37040
+    properties:
+      entry name: A37040
+    type: PIR
+  - id: A53956
+    properties:
+      entry name: A53956
+    type: PIR
+  - id: NP_000734.2
+    isoform: P32297-2
+    properties:
+      nucleotide sequence ID: NM_000743.4
+    type: RefSeq
+  - id: NP_001160166.1
+    isoform: P32297-3
+    properties:
+      nucleotide sequence ID: NM_001166694.1
+    type: RefSeq
+  - id: 4ZK4
+    properties:
+      chains: A/B/C/D/E=215-230
+      method: X-ray
+      resolution: 1.90 A
+    type: PDB
+  - id: 5SYO
+    properties:
+      chains: A/B/C/D/E=215-230
+      method: X-ray
+      resolution: 2.00 A
+    type: PDB
+  - id: 5TVC
+    properties:
+      chains: A/B/C/D/E=215-230
+      method: X-ray
+      resolution: 1.93 A
+    type: PDB
+  - id: 6PV7
+    properties:
+      chains: A/D=32-378, A/D=434-505
+      method: EM
+      resolution: 3.34 A
+    type: PDB
+  - id: 6PV8
+    properties:
+      chains: A/D=32-378, A/D=434-505
+      method: EM
+      resolution: 3.87 A
+    type: PDB
+  - id: 4ZK4
+    type: PDBsum
+  - id: 5SYO
+    type: PDBsum
+  - id: 5TVC
+    type: PDBsum
+  - id: 6PV7
+    type: PDBsum
+  - id: 6PV8
+    type: PDBsum
+  - id: P32297
+    type: AlphaFoldDB
+  - id: EMD-20487
+    type: EMDB
+  - id: EMD-20488
+    type: EMDB
+  - id: P32297
+    type: SMR
+  - id: '107558'
+    properties:
+      interactions: '36'
+    type: BioGRID
+  - id: CPX-187
+    properties:
+      entry name: Neuronal nicotinic acetylcholine receptor complex, alpha3-alpha5-beta2
+    type: ComplexPortal
+  - id: CPX-210
+    properties:
+      entry name: Neuronal nicotinic acetylcholine receptor complex, alpha3-alpha5-beta4
+    type: ComplexPortal
+  - id: CPX-213
+    properties:
+      entry name: Neuronal nicotinic acetylcholine receptor complex, alpha3-alpha6-beta4
+    type: ComplexPortal
+  - id: CPX-2192
+    properties:
+      entry name: Neuronal nicotinic acetylcholine receptor complex, alpha3-alpha6-beta2-beta3
+    type: ComplexPortal
+  - id: CPX-2193
+    properties:
+      entry name: Neuronal nicotinic acetylcholine receptor complex, alpha3-beta2
+    type: ComplexPortal
+  - id: CPX-2200
+    properties:
+      entry name: Neuronal nicotinic acetylcholine receptor complex, alpha3-beta4
+    type: ComplexPortal
+  - id: P32297
+    properties:
+      interactions: '31'
+    type: IntAct
+  - id: 9606.ENSP00000315602
+    type: STRING
+  - id: P32297
+    type: BindingDB
+  - id: CHEMBL3068
+    type: ChEMBL
+  - id: DB00915
+    properties:
+      generic name: Amantadine
+    type: DrugBank
+  - id: DB01156
+    properties:
+      generic name: Bupropion
+    type: DrugBank
+  - id: DB00237
+    properties:
+      generic name: Butabarbital
+    type: DrugBank
+  - id: DB00565
+    properties:
+      generic name: Cisatracurium
+    type: DrugBank
+  - id: DB09028
+    properties:
+      generic name: Cytisine
+    type: DrugBank
+  - id: DB00514
+    properties:
+      generic name: Dextromethorphan
+    type: DrugBank
+  - id: DB07720
+    properties:
+      generic name: Epibatidine
+    type: DrugBank
+  - id: DB00898
+    properties:
+      generic name: Ethanol
+    type: DrugBank
+  - id: DB00472
+    properties:
+      generic name: Fluoxetine
+    type: DrugBank
+  - id: DB05710
+    properties:
+      generic name: Gantacurium
+    type: DrugBank
+  - id: DB01227
+    properties:
+      generic name: Levacetylmethadol
+    type: DrugBank
+  - id: DB00848
+    properties:
+      generic name: Levamisole
+    type: DrugBank
+  - id: DB00333
+    properties:
+      generic name: Methadone
+    type: DrugBank
+  - id: DB00184
+    properties:
+      generic name: Nicotine
+    type: DrugBank
+  - id: DB01090
+    properties:
+      generic name: Pentolinium
+    type: DrugBank
+  - id: DB00202
+    properties:
+      generic name: Succinylcholine
+    type: DrugBank
+  - id: DB01273
+    properties:
+      generic name: Varenicline
+    type: DrugBank
+  - id: P32297
+    type: DrugCentral
+  - id: '464'
+    type: GuidetoPHARMACOLOGY
+  - id: P32297
+    properties:
+      glycosylation: 2 sites, No reported glycans
+    type: GlyCosmos
+  - id: P32297
+    properties:
+      glycosylation: 2 sites
+    type: GlyGen
+  - id: P32297
+    type: iPTMnet
+  - id: P32297
+    type: PhosphoSitePlus
+  - id: CHRNA3
+    type: BioMuta
+  - id: '254763435'
+    type: DMDM
+  - id: P32297
+    type: MassIVE
+  - id: 9606-ENSP00000315602
+    type: PaxDb
+  - id: P32297
+    type: PeptideAtlas
+  - id: '54858'
+    isoform: P32297-2
+    type: ProteomicsDB
+  - id: '54859'
+    isoform: P32297-1
+    type: ProteomicsDB
+  - id: '54860'
+    isoform: P32297-3
+    type: ProteomicsDB
+  - id: '15113'
+    properties:
+      antibodies: 323 antibodies from 33 providers
+    type: Antibodypedia
+  - id: '1136'
+    type: DNASU
+  - id: ENST00000326828.6
+    isoform: P32297-2
+    properties:
+      gene ID: ENSG00000080644.16
+      protein sequence ID: ENSP00000315602.5
+    type: Ensembl
+  - id: ENST00000348639.7
+    isoform: P32297-3
+    properties:
+      gene ID: ENSG00000080644.16
+      protein sequence ID: ENSP00000267951.4
+    type: Ensembl
+  - id: ENST00000559658.5
+    isoform: P32297-2
+    properties:
+      gene ID: ENSG00000080644.16
+      protein sequence ID: ENSP00000452896.1
+    type: Ensembl
+  - id: '1136'
+    type: GeneID
+  - id: hsa:1136
+    type: KEGG
+  - id: ENST00000326828.6
+    properties:
+      RefSeq nucleotide sequence ID: NM_000743.5
+      RefSeq protein sequence ID: NP_000734.2
+      protein sequence ID: ENSP00000315602.5
+    type: MANE-Select
+  - id: uc002beb.4
+    isoform: P32297-2
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:1957
+    type: AGR
+  - id: '1136'
+    type: CTD
+  - id: '1136'
+    type: DisGeNET
+  - id: CHRNA3
+    type: GeneCards
+  - id: HGNC:1957
+    properties:
+      gene designation: CHRNA3
+    type: HGNC
+  - id: ENSG00000080644
+    properties:
+      expression patterns: Group enriched (adrenal gland, lymphoid tissue, retina)
+    type: HPA
+  - id: CHRNA3
+    type: MalaCards
+  - id: '118503'
+    properties:
+      type: gene
+    type: MIM
+  - id: '191800'
+    properties:
+      type: phenotype
+    type: MIM
+  - id: '612052'
+    properties:
+      type: phenotype
+    type: MIM
+  - id: NX_P32297
+    type: neXtProt
+  - id: ENSG00000080644
+    type: OpenTargets
+  - id: PA113
+    type: PharmGKB
+  - id: HostDB:ENSG00000080644
+    type: VEuPathDB
+  - id: KOG3645
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000158487
+    type: GeneTree
+  - id: CLU_018074_1_0_1
+    type: HOGENOM
+  - id: P32297
+    type: InParanoid
+  - id: QDTACSC
+    type: OMA
+  - id: 5489962at2759
+    type: OrthoDB
+  - id: P32297
+    type: PhylomeDB
+  - id: TF315605
+    type: TreeFam
+  - id: P32297
+    type: PathwayCommons
+  - id: R-HSA-629587
+    properties:
+      pathway name: Highly sodium permeable postsynaptic acetylcholine nicotinic receptors
+    type: Reactome
+  - id: R-HSA-629594
+    properties:
+      pathway name: Highly calcium permeable postsynaptic nicotinic acetylcholine
+        receptors
+    type: Reactome
+  - id: R-HSA-629597
+    properties:
+      pathway name: Highly calcium permeable nicotinic acetylcholine receptors
+    type: Reactome
+  - id: P32297
+    type: SignaLink
+  - id: '1136'
+    properties:
+      hits: 12 hits in 1166 CRISPR screens
+    type: BioGRID-ORCS
+  - id: CHRNA3
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: CHRNA3
+    type: GeneWiki
+  - id: '1136'
+    type: GenomeRNAi
+  - id: P32297
+    properties:
+      development level: Tclin
+    type: Pharos
+  - id: PR:P32297
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 15
+    type: Proteomes
+  - id: P32297
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000080644
+    properties:
+      expression patterns: Expressed in pigmented layer of retina and 139 other cell
+        types or tissues
+    type: Bgee
+  - id: P32297
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: P32297
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8906617
+        id: '8906617'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8906617
+    id: GO:0005892
+    properties:
+      source: IDA:UniProtKB
+      term: C:acetylcholine-gated channel complex
+    type: GO
+  - id: GO:0030425
+    properties:
+      source: ISS:UniProtKB
+      term: C:dendrite
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8906617
+        id: '8906617'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8906617
+    id: GO:0016020
+    properties:
+      source: NAS:UniProtKB
+      term: C:membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0043005
+    properties:
+      source: IBA:GO_Central
+      term: C:neuron projection
+    type: GO
+  - id: GO:0043025
+    properties:
+      source: ISS:UniProtKB
+      term: C:neuronal cell body
+    type: GO
+  - id: GO:0016607
+    properties:
+      source: IDA:HPA
+      term: C:nuclear speck
+    type: GO
+  - id: GO:0005886
+    properties:
+      source: IDA:HPA
+      term: C:plasma membrane
+    type: GO
+  - id: GO:0044853
+    properties:
+      source: ISS:ARUK-UCL
+      term: C:plasma membrane raft
+    type: GO
+  - id: GO:0014069
+    properties:
+      source: ISS:UniProtKB
+      term: C:postsynaptic density
+    type: GO
+  - id: GO:0045211
+    properties:
+      source: IEA:UniProtKB-SubCell
+      term: C:postsynaptic membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0045202
+    properties:
+      source: IBA:GO_Central
+      term: C:synapse
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8906617
+        id: '8906617'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8906617
+    id: GO:0042166
+    properties:
+      source: IC:UniProtKB
+      term: F:acetylcholine binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8906617
+        id: '8906617'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8906617
+    id: GO:0015464
+    properties:
+      source: IDA:UniProtKB
+      term: F:acetylcholine receptor activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8906617
+        id: '8906617'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8906617
+    id: GO:0022848
+    properties:
+      source: IDA:UniProtKB
+      term: F:acetylcholine-gated monoatomic cation-selective channel activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20438829
+        id: '20438829'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20438829
+    id: GO:0015276
+    properties:
+      source: TAS:DFLAT
+      term: F:ligand-gated monoatomic ion channel activity
+    type: GO
+  - id: GO:0095500
+    properties:
+      source: ISS:ARUK-UCL
+      term: P:acetylcholine receptor signaling pathway
+    type: GO
+  - id: GO:0007171
+    properties:
+      source: ISS:UniProtKB
+      term: P:activation of transmembrane receptor protein tyrosine kinase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18227835
+        id: '18227835'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18227835
+    id: GO:0035095
+    properties:
+      source: IMP:UniProtKB
+      term: P:behavioral response to nicotine
+    type: GO
+  - id: GO:0060079
+    properties:
+      source: ISS:UniProtKB
+      term: P:excitatory postsynaptic potential
+    type: GO
+  - id: GO:0007626
+    properties:
+      source: ISS:UniProtKB
+      term: P:locomotory behavior
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8906617
+        id: '8906617'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8906617
+    id: GO:0006811
+    properties:
+      source: NAS:UniProtKB
+      term: P:monoatomic ion transport
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11450844
+        id: '11450844'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11450844
+    id: GO:0007399
+    properties:
+      source: IMP:UniProtKB
+      term: P:nervous system development
+    type: GO
+  - id: GO:0014056
+    properties:
+      source: ISS:UniProtKB
+      term: P:regulation of acetylcholine secretion, neurotransmission
+    type: GO
+  - id: GO:0048814
+    properties:
+      source: ISS:UniProtKB
+      term: P:regulation of dendrite morphogenesis
+    type: GO
+  - id: GO:0042391
+    properties:
+      source: ISS:UniProtKB
+      term: P:regulation of membrane potential
+    type: GO
+  - id: GO:0006940
+    properties:
+      source: ISS:UniProtKB
+      term: P:regulation of smooth muscle contraction
+    type: GO
+  - id: GO:1905144
+    properties:
+      source: ISS:ARUK-UCL
+      term: P:response to acetylcholine
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0035094
+    properties:
+      source: IBA:GO_Central
+      term: P:response to nicotine
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8906617
+        id: '8906617'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8906617
+    id: GO:0007165
+    properties:
+      source: IDA:UniProtKB
+      term: P:signal transduction
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11450844
+        id: '11450844'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11450844
+    id: GO:0060084
+    properties:
+      source: IMP:UniProtKB
+      term: P:synaptic transmission involved in micturition
+    type: GO
+  - id: GO:0007271
+    properties:
+      source: ISS:UniProtKB
+      term: P:synaptic transmission, cholinergic
+    type: GO
+  - id: cd19016
+    properties:
+      entry name: LGIC_ECD_nAChR_A3
+      match status: '1'
+    type: CDD
+  - id: cd19064
+    properties:
+      entry name: LGIC_TM_nAChR
+      match status: '1'
+    type: CDD
+  - id: 2.70.170.10
+    properties:
+      entry name: Neurotransmitter-gated ion-channel ligand-binding domain
+      match status: '1'
+    type: Gene3D
+  - id: 1.20.58.390
+    properties:
+      entry name: Neurotransmitter-gated ion-channel transmembrane domain
+      match status: '2'
+    type: Gene3D
+  - id: IPR006202
+    properties:
+      entry name: Neur_chan_lig-bd
+    type: InterPro
+  - id: IPR036734
+    properties:
+      entry name: Neur_chan_lig-bd_sf
+    type: InterPro
+  - id: IPR006201
+    properties:
+      entry name: Neur_channel
+    type: InterPro
+  - id: IPR036719
+    properties:
+      entry name: Neuro-gated_channel_TM_sf
+    type: InterPro
+  - id: IPR038050
+    properties:
+      entry name: Neuro_actylchol_rec
+    type: InterPro
+  - id: IPR006029
+    properties:
+      entry name: Neurotrans-gated_channel_TM
+    type: InterPro
+  - id: IPR018000
+    properties:
+      entry name: Neurotransmitter_ion_chnl_CS
+    type: InterPro
+  - id: IPR002394
+    properties:
+      entry name: Nicotinic_acetylcholine_rcpt
+    type: InterPro
+  - id: TIGR00860
+    properties:
+      entry name: LIC
+      match status: '1'
+    type: NCBIfam
+  - id: PTHR18945:SF831
+    properties:
+      entry name: NEURONAL ACETYLCHOLINE RECEPTOR SUBUNIT ALPHA-3
+      match status: '1'
+    type: PANTHER
+  - id: PTHR18945
+    properties:
+      entry name: NEUROTRANSMITTER GATED ION CHANNEL
+      match status: '1'
+    type: PANTHER
+  - id: PF02931
+    properties:
+      entry name: Neur_chan_LBD
+      match status: '1'
+    type: Pfam
+  - id: PF02932
+    properties:
+      entry name: Neur_chan_memb
+      match status: '1'
+    type: Pfam
+  - id: PR00254
+    properties:
+      entry name: NICOTINICR
+    type: PRINTS
+  - id: PR00252
+    properties:
+      entry name: NRIONCHANNEL
+    type: PRINTS
+  - id: SSF90112
+    properties:
+      entry name: Neurotransmitter-gated ion-channel transmembrane pore
+      match status: '1'
+    type: SUPFAM
+  - id: SSF63712
+    properties:
+      entry name: Nicotinic receptor ligand binding domain-like
+      match status: '1'
+    type: SUPFAM
+  - id: PS00236
+    properties:
+      entry name: NEUROTR_ION_CHANNEL
+      match status: '1'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: ''
+    end: '31'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: SIGNAL
+  - begin: '32'
+    category: MOLECULE_PROCESSING
+    description: Neuronal acetylcholine receptor subunit alpha-3
+    end: '505'
+    ftId: PRO_0000000346
+    molecule: ''
+    type: CHAIN
+  - begin: '32'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '240'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '241'
+    category: TOPOLOGY
+    description: Helical
+    end: '265'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '273'
+    category: TOPOLOGY
+    description: Helical
+    end: '291'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '307'
+    category: TOPOLOGY
+    description: Helical
+    end: '328'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '329'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '477'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '478'
+    category: TOPOLOGY
+    description: Helical
+    end: '497'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '413'
+    category: PTM
+    description: Phosphoserine
+    end: '413'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: P04757
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/P04757
+    molecule: ''
+    type: MOD_RES
+  - begin: '416'
+    category: PTM
+    description: Phosphoserine
+    end: '416'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: P04757
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/P04757
+    molecule: ''
+    type: MOD_RES
+  - begin: '55'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '55'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '172'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '172'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '159'
+    category: PTM
+    description: ''
+    end: '173'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: DISULFID
+  - begin: '223'
+    category: PTM
+    description: Associated with receptor activation
+    end: '224'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: DISULFID
+  - begin: '1'
+    category: VARIANTS
+    end: '6'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1989896
+        id: '1989896'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1989896
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/2336208
+        id: '2336208'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/2336208
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9009220
+        id: '9009220'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9009220
+    ftId: VSP_037750
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '464'
+    category: VARIANTS
+    end: '505'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15489334
+        id: '15489334'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15489334
+    - code: ECO:0000303
+      source:
+        id: Ref.7
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P32297#ref7
+    ftId: VSP_037751
+    molecule: ''
+    type: VAR_SEQ
+  - alternativeSequence: ''
+    begin: '23'
+    category: VARIANTS
+    description: ''
+    end: '23'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15489334
+        id: '15489334'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15489334
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8906617
+        id: '8906617'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8906617
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9009220
+        id: '9009220'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9009220
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9921897
+        id: '9921897'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9921897
+    ftId: VAR_013240
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: H
+    begin: '37'
+    category: VARIANTS
+    description: in dbSNP:rs8192475
+    end: '37'
+    ftId: VAR_059110
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: ''
+    begin: '340'
+    category: VARIANTS
+    description: in BAIPRCK; loss-of-function variant affecting ion transmembrane
+      transport in response to acetylcholine; does not localize to plasma membrane
+    end: '505'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/31708116
+        id: '31708116'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/31708116
+    ftId: VAR_083543
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: ALAAPGAVA
+    begin: '5'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 2; AAA59942
+    end: '14'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: CRA
+    begin: '12'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; AAC84176
+    end: '15'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: G
+    begin: '102'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; AAC84176
+    end: '102'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: TT
+    begin: '134'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; AAC84176
+    end: '135'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: S
+    begin: '237'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; AAC84176
+    end: '237'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: V
+    begin: '432'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; AAC84176
+    end: '432'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - begin: '33'
+    category: STRUCTURAL
+    end: '42'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: HELIX
+  - begin: '60'
+    category: STRUCTURAL
+    end: '75'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: STRAND
+  - begin: '76'
+    category: STRUCTURAL
+    end: '79'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: TURN
+  - begin: '80'
+    category: STRUCTURAL
+    end: '92'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: STRAND
+  - begin: '94'
+    category: STRUCTURAL
+    end: '96'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: STRAND
+  - begin: '100'
+    category: STRUCTURAL
+    end: '105'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: TURN
+  - begin: '108'
+    category: STRUCTURAL
+    end: '112'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: STRAND
+  - begin: '113'
+    category: STRUCTURAL
+    end: '115'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: TURN
+  - begin: '124'
+    category: STRUCTURAL
+    end: '126'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: STRAND
+  - begin: '137'
+    category: STRUCTURAL
+    end: '142'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: STRAND
+  - begin: '145'
+    category: STRUCTURAL
+    end: '149'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: STRAND
+  - begin: '152'
+    category: STRUCTURAL
+    end: '157'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: STRAND
+  - begin: '164'
+    category: STRUCTURAL
+    end: '168'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: STRAND
+  - begin: '170'
+    category: STRUCTURAL
+    end: '177'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: STRAND
+  - begin: '179'
+    category: STRUCTURAL
+    end: '181'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: STRAND
+  - begin: '184'
+    category: STRUCTURAL
+    end: '186'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: TURN
+  - begin: '187'
+    category: STRUCTURAL
+    end: '195'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: STRAND
+  - begin: '205'
+    category: STRUCTURAL
+    end: '211'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: STRAND
+  - begin: '215'
+    category: STRUCTURAL
+    end: '220'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4ZK4
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4ZK4
+    molecule: ''
+    type: STRAND
+  - begin: '225'
+    category: STRUCTURAL
+    end: '230'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4ZK4
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4ZK4
+    molecule: ''
+    type: STRAND
+  - begin: '245'
+    category: STRUCTURAL
+    end: '249'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: HELIX
+  - begin: '250'
+    category: STRUCTURAL
+    end: '256'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: HELIX
+  - begin: '261'
+    category: STRUCTURAL
+    end: '264'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: HELIX
+  - begin: '272'
+    category: STRUCTURAL
+    end: '293'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: HELIX
+  - begin: '303'
+    category: STRUCTURAL
+    end: '329'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: HELIX
+  - begin: '333'
+    category: STRUCTURAL
+    end: '335'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: TURN
+  - begin: '341'
+    category: STRUCTURAL
+    end: '344'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: HELIX
+  - begin: '345'
+    category: STRUCTURAL
+    end: '349'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: HELIX
+  - begin: '350'
+    category: STRUCTURAL
+    end: '353'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: HELIX
+  - begin: '442'
+    category: STRUCTURAL
+    end: '493'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: HELIX
+  - begin: '494'
+    category: STRUCTURAL
+    end: '499'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6PV7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6PV7
+    molecule: ''
+    type: TURN
+  gene:
+  - name:
+      value: CHRNA3
+    synonyms:
+    - value: NACHRA3
+  id: ACHA3_HUMAN
+  info:
+    created: '1993-10-01'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 223
+  keywords:
+  - value: 3D-structure
+  - value: Alternative splicing
+  - value: Cell membrane
+  - value: Disease variant
+  - value: Disulfide bond
+  - value: Endoplasmic reticulum
+  - value: Glycoprotein
+  - value: Golgi apparatus
+  - value: Ion channel
+  - value: Ion transport
+  - value: Ligand-gated ion channel
+  - value: Membrane
+  - value: Phosphoprotein
+  - value: Postsynaptic cell membrane
+  - value: Receptor
+  - value: Reference proteome
+  - value: Signal
+  - value: Synapse
+  - value: Transmembrane
+  - value: Transmembrane helix
+  - value: Transport
+  - value: Ubl conjugation
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    recommendedName:
+      fullName:
+        value: Neuronal acetylcholine receptor subunit alpha-3
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Fornasari D.
+      - Chini B.
+      - Tarroni P.
+      - Clementi F.
+      dbReferences:
+      - id: '2336208'
+        type: PubMed
+      - id: 10.1016/0304-3940(90)90287-j
+        type: DOI
+      location:
+        firstPage: '351'
+        lastPage: '356'
+        volume: '111'
+      publication:
+        journalName: Neurosci. Lett.
+      publicationDate: '1990'
+      title: Molecular cloning of human neuronal nicotinic receptor alpha 3-subunit.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+  - citation:
+      authors:
+      - Mihovilovic M.
+      - Roses A.D.
+      dbReferences:
+      - id: '1989896'
+        type: PubMed
+      - id: 10.1016/0014-4886(91)90004-v
+        type: DOI
+      location:
+        firstPage: '175'
+        lastPage: '180'
+        volume: '111'
+      publication:
+        journalName: Exp. Neurol.
+      publicationDate: '1991'
+      title: Expression of mRNAs in human thymus coding for the alpha 3 subunit of
+        a neuronal acetylcholine receptor.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    source:
+      tissue:
+      - value: Thymus
+  - citation:
+      authors:
+      - Elliott K.J.
+      - Ellis S.B.
+      - Berckhan K.J.
+      - Urrutia A.
+      - Chavez-Noriega L.E.
+      - Johnson E.C.
+      - Velicelebi G.
+      - Harpold M.M.
+      dbReferences:
+      - id: '8906617'
+        type: PubMed
+      - id: 10.1007/bf02736842
+        type: DOI
+      location:
+        firstPage: '217'
+        lastPage: '228'
+        volume: '7'
+      publication:
+        journalName: J. Mol. Neurosci.
+      publicationDate: '1996'
+      title: Comparative structure of human neuronal alpha 2-alpha 7 and beta 2-beta
+        4 nicotinic acetylcholine receptor subunits and functional expression of the
+        alpha 2, alpha 3, alpha 4, alpha 7, beta 2, and beta 4 subunits.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2)
+    - VARIANT LEU-23 DEL
+  - citation:
+      authors:
+      - Groot Kormelink P.J.
+      - Luyten W.H.M.L.
+      dbReferences:
+      - id: '9009220'
+        type: PubMed
+      - id: 10.1016/s0014-5793(96)01383-x
+        type: DOI
+      location:
+        firstPage: '309'
+        lastPage: '314'
+        volume: '400'
+      publication:
+        journalName: FEBS Lett.
+      publicationDate: '1997'
+      title: Cloning and sequence of full-length cDNAs encoding the human neuronal
+        nicotinic acetylcholine receptor (nAChR) subunits beta3 and beta4 and expression
+        of seven nAChR subunits in the human neuroblastoma cell line SH-SY5Y and/or
+        IMR-32.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    - VARIANT LEU-23 DEL
+  - citation:
+      authors:
+      - Rempel N.
+      - Heyers S.
+      - Engels H.
+      - Sleegers E.
+      - Steinlein O.K.
+      dbReferences:
+      - id: '9921897'
+        type: PubMed
+      - id: 10.1007/s004390050885
+        type: DOI
+      location:
+        firstPage: '645'
+        lastPage: '653'
+        volume: '103'
+      publication:
+        journalName: Hum. Genet.
+      publicationDate: '1998'
+      title: The structures of the human neuronal nicotinic acetylcholine receptor
+        beta2- and alpha3-subunit genes (CHRNB2 and CHRNA3).
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORM 2)
+    - VARIANT LEU-23 DEL
+  - citation:
+      authors:
+      - Lev-Lehman E.
+      - Bercovich D.
+      - Xu W.
+      - Stockton D.W.
+      - Beaudet A.L.
+      dbReferences:
+      - id: '11450844'
+        type: PubMed
+      - id: 10.1007/pl00010921
+        type: DOI
+      location:
+        firstPage: '362'
+        lastPage: '366'
+        volume: '46'
+      publication:
+        journalName: J. Hum. Genet.
+      publicationDate: '2001'
+      title: Characterization of the human beta4 nAChR gene and polymorphisms in CHRNA3
+        and CHRNB4.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+  - citation:
+      authors:
+      - Kalnine N.
+      - Chen X.
+      - Rolfs A.
+      - Halleck A.
+      - Hines L.
+      - Eisenstein S.
+      - Koundinya M.
+      - Raphael J.
+      - Moreira D.
+      - Kelley T.
+      - LaBaer J.
+      - Lin Y.
+      - Phelan M.
+      - Farmer A.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: MAY-2003
+      title: Cloning of human full-length CDSs in BD Creator(TM) system donor vector.
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 2 AND 3)
+  - citation:
+      authors:
+      - Zody M.C.
+      - Garber M.
+      - Sharpe T.
+      - Young S.K.
+      - Rowen L.
+      - O'Neill K.
+      - Whittaker C.A.
+      - Kamal M.
+      - Chang J.L.
+      - Cuomo C.A.
+      - Dewar K.
+      - FitzGerald M.G.
+      - Kodira C.D.
+      - Madan A.
+      - Qin S.
+      - Yang X.
+      - Abbasi N.
+      - Abouelleil A.
+      - Arachchi H.M.
+      - Baradarani L.
+      - Birditt B.
+      - Bloom S.
+      - Bloom T.
+      - Borowsky M.L.
+      - Burke J.
+      - Butler J.
+      - Cook A.
+      - DeArellano K.
+      - DeCaprio D.
+      - Dorris L. III
+      - Dors M.
+      - Eichler E.E.
+      - Engels R.
+      - Fahey J.
+      - Fleetwood P.
+      - Friedman C.
+      - Gearin G.
+      - Hall J.L.
+      - Hensley G.
+      - Johnson E.
+      - Jones C.
+      - Kamat A.
+      - Kaur A.
+      - Locke D.P.
+      - Madan A.
+      - Munson G.
+      - Jaffe D.B.
+      - Lui A.
+      - Macdonald P.
+      - Mauceli E.
+      - Naylor J.W.
+      - Nesbitt R.
+      - Nicol R.
+      - O'Leary S.B.
+      - Ratcliffe A.
+      - Rounsley S.
+      - She X.
+      - Sneddon K.M.B.
+      - Stewart S.
+      - Sougnez C.
+      - Stone S.M.
+      - Topham K.
+      - Vincent D.
+      - Wang S.
+      - Zimmer A.R.
+      - Birren B.W.
+      - Hood L.
+      - Lander E.S.
+      - Nusbaum C.
+      dbReferences:
+      - id: '16572171'
+        type: PubMed
+      - id: 10.1038/nature04601
+        type: DOI
+      location:
+        firstPage: '671'
+        lastPage: '675'
+        volume: '440'
+      publication:
+        journalName: Nature
+      publicationDate: '2006'
+      title: Analysis of the DNA sequence and duplication history of human chromosome
+        15.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      consortiums:
+      - The MGC Project Team
+      dbReferences:
+      - id: '15489334'
+        type: PubMed
+      - id: 10.1101/gr.2596504
+        type: DOI
+      location:
+        firstPage: '2121'
+        lastPage: '2127'
+        volume: '14'
+      publication:
+        journalName: Genome Res.
+      publicationDate: '2004'
+      title: 'The status, quality, and expansion of the NIH full-length cDNA project:
+        the Mammalian Gene Collection (MGC).'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 2 AND 3)
+    - VARIANT LEU-23 DEL
+    source:
+      tissue:
+      - value: Brain
+      - value: Lung
+  - citation:
+      authors:
+      - Arredondo J.
+      - Grando S.A.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: MAY-2001
+      title: Cloning cholinergic receptors in human keratinocytes.
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] OF 7-495 (ISOFORMS 1/2)
+    source:
+      tissue:
+      - value: Keratinocyte
+  - citation:
+      authors:
+      - Anand R.
+      - Lindstrom J.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: JUN-1990
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] OF 32-505 (ISOFORMS 1/2)
+    source:
+      tissue:
+      - value: Brain
+  - citation:
+      authors:
+      - Ellison M.
+      - Gao F.
+      - Wang H.L.
+      - Sine S.M.
+      - McIntosh J.M.
+      - Olivera B.M.
+      dbReferences:
+      - id: '15609996'
+        type: PubMed
+      - id: 10.1021/bi048918g
+        type: DOI
+      location:
+        firstPage: '16019'
+        lastPage: '16026'
+        volume: '43'
+      publication:
+        journalName: Biochemistry
+      publicationDate: '2004'
+      title: Alpha-conotoxins ImI and ImII target distinct regions of the human alpha7
+        nicotinic acetylcholine receptor and distinguish human nicotinic receptor
+        subtypes.
+      type: journal article
+    scope:
+    - SUBUNIT
+  - citation:
+      authors:
+      - Lansdell S.J.
+      - Gee V.J.
+      - Harkness P.C.
+      - Doward A.I.
+      - Baker E.R.
+      - Gibb A.J.
+      - Millar N.S.
+      dbReferences:
+      - id: '16120769'
+        type: PubMed
+      - id: 10.1124/mol.105.017459
+        type: DOI
+      location:
+        firstPage: '1431'
+        lastPage: '1438'
+        volume: '68'
+      publication:
+        journalName: Mol. Pharmacol.
+      publicationDate: '2005'
+      title: RIC-3 enhances functional expression of multiple nicotinic acetylcholine
+        receptor subtypes in mammalian cells.
+      type: journal article
+    scope:
+    - INTERACTION WITH RIC3
+  - citation:
+      authors:
+      - Chanock S.J.
+      - Hunter D.J.
+      dbReferences:
+      - id: '18385720'
+        type: PubMed
+      - id: 10.1038/452537a
+        type: DOI
+      location:
+        firstPage: '537'
+        lastPage: '538'
+        volume: '452'
+      publication:
+        journalName: Nature
+      publicationDate: '2008'
+      title: 'Genomics: when the smoke clears.'
+      type: journal article
+    scope:
+    - INVOLVEMENT IN SQTL3 AND LUNG CANCER
+  - citation:
+      authors:
+      - Hung R.J.
+      - McKay J.D.
+      - Gaborieau V.
+      - Boffetta P.
+      - Hashibe M.
+      - Zaridze D.
+      - Mukeria A.
+      - Szeszenia-Dabrowska N.
+      - Lissowska J.
+      - Rudnai P.
+      - Fabianova E.
+      - Mates D.
+      - Bencko V.
+      - Foretova L.
+      - Janout V.
+      - Chen C.
+      - Goodman G.
+      - Field J.K.
+      - Liloglou T.
+      - Xinarianos G.
+      - Cassidy A.
+      - McLaughlin J.
+      - Liu G.
+      - Narod S.
+      - Krokan H.E.
+      - Skorpen F.
+      - Elvestad M.B.
+      - Hveem K.
+      - Vatten L.
+      - Linseisen J.
+      - Clavel-Chapelon F.
+      - Vineis P.
+      - Bueno-de-Mesquita H.B.
+      - Lund E.
+      - Martinez C.
+      - Bingham S.
+      - Rasmuson T.
+      - Hainaut P.
+      - Riboli E.
+      - Ahrens W.
+      - Benhamou S.
+      - Lagiou P.
+      - Trichopoulos D.
+      - Holcatova I.
+      - Merletti F.
+      - Kjaerheim K.
+      - Agudo A.
+      - Macfarlane G.
+      - Talamini R.
+      - Simonato L.
+      - Lowry R.
+      - Conway D.I.
+      - Znaor A.
+      - Healy C.
+      - Zelenika D.
+      - Boland A.
+      - Delepine M.
+      - Foglio M.
+      - Lechner D.
+      - Matsuda F.
+      - Blanche H.
+      - Gut I.
+      - Heath S.
+      - Lathrop M.
+      - Brennan P.
+      dbReferences:
+      - id: '18385738'
+        type: PubMed
+      - id: 10.1038/nature06885
+        type: DOI
+      location:
+        firstPage: '633'
+        lastPage: '637'
+        volume: '452'
+      publication:
+        journalName: Nature
+      publicationDate: '2008'
+      title: A susceptibility locus for lung cancer maps to nicotinic acetylcholine
+        receptor subunit genes on 15q25.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN SQTL3 AND LUNG CANCER
+  - citation:
+      authors:
+      - Thorgeirsson T.E.
+      - Geller F.
+      - Sulem P.
+      - Rafnar T.
+      - Wiste A.
+      - Magnusson K.P.
+      - Manolescu A.
+      - Thorleifsson G.
+      - Stefansson H.
+      - Ingason A.
+      - Stacey S.N.
+      - Bergthorsson J.T.
+      - Thorlacius S.
+      - Gudmundsson J.
+      - Jonsson T.
+      - Jakobsdottir M.
+      - Saemundsdottir J.
+      - Olafsdottir O.
+      - Gudmundsson L.J.
+      - Bjornsdottir G.
+      - Kristjansson K.
+      - Skuladottir H.
+      - Isaksson H.J.
+      - Gudbjartsson T.
+      - Jones G.T.
+      - Mueller T.
+      - Gottsaeter A.
+      - Flex A.
+      - Aben K.K.H.
+      - de Vegt F.
+      - Mulders P.F.A.
+      - Isla D.
+      - Vidal M.J.
+      - Asin L.
+      - Saez B.
+      - Murillo L.
+      - Blondal T.
+      - Kolbeinsson H.
+      - Stefansson J.G.
+      - Hansdottir I.
+      - Runarsdottir V.
+      - Pola R.
+      - Lindblad B.
+      - van Rij A.M.
+      - Dieplinger B.
+      - Haltmayer M.
+      - Mayordomo J.I.
+      - Kiemeney L.A.
+      - Matthiasson S.E.
+      - Oskarsson H.
+      - Tyrfingsson T.
+      - Gudbjartsson D.F.
+      - Gulcher J.R.
+      - Jonsson S.
+      - Thorsteinsdottir U.
+      - Kong A.
+      - Stefansson K.
+      dbReferences:
+      - id: '18385739'
+        type: PubMed
+      - id: 10.1038/nature06846
+        type: DOI
+      location:
+        firstPage: '638'
+        lastPage: '642'
+        volume: '452'
+      publication:
+        journalName: Nature
+      publicationDate: '2008'
+      title: A variant associated with nicotine dependence, lung cancer and peripheral
+        arterial disease.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN SQTL3 AND LUNG CANCER
+  - citation:
+      authors:
+      - Amos C.I.
+      - Wu X.
+      - Broderick P.
+      - Gorlov I.P.
+      - Gu J.
+      - Eisen T.
+      - Dong Q.
+      - Zhang Q.
+      - Gu X.
+      - Vijayakrishnan J.
+      - Sullivan K.
+      - Matakidou A.
+      - Wang Y.
+      - Mills G.
+      - Doheny K.
+      - Tsai Y.-Y.
+      - Chen W.V.
+      - Shete S.
+      - Spitz M.R.
+      - Houlston R.S.
+      dbReferences:
+      - id: '18385676'
+        type: PubMed
+      - id: 10.1038/ng.109
+        type: DOI
+      location:
+        firstPage: '616'
+        lastPage: '622'
+        volume: '40'
+      publication:
+        journalName: Nat. Genet.
+      publicationDate: '2008'
+      title: Genome-wide association scan of tag SNPs identifies a susceptibility
+        locus for lung cancer at 15q25.1.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN SQTL3 AND LUNG CANCER
+  - citation:
+      authors:
+      - Teng Y.
+      - Rezvani K.
+      - De Biasi M.
+      dbReferences:
+      - id: '26265139'
+        type: PubMed
+      - id: 10.1016/j.bcp.2015.08.084
+        type: DOI
+      location:
+        firstPage: '518'
+        lastPage: '530'
+        volume: '97'
+      publication:
+        journalName: Biochem. Pharmacol.
+      publicationDate: '2015'
+      title: UBXN2A regulates nicotinic receptor degradation by modulating the E3
+        ligase activity of CHIP.
+      type: journal article
+    scope:
+    - IDENTIFICATION IN A COMPLEX WITH STUB1; VCP AND UBXN2A
+    - INTERACTION WITH UBXN2A
+  - citation:
+      authors:
+      - Arvaniti M.
+      - Jensen M.M.
+      - Soni N.
+      - Wang H.
+      - Klein A.B.
+      - Thiriet N.
+      - Pinborg L.H.
+      - Muldoon P.P.
+      - Wienecke J.
+      - Imad Damaj M.
+      - Kohlmeier K.A.
+      - Gondre-Lewis M.C.
+      - Mikkelsen J.D.
+      - Thomsen M.S.
+      dbReferences:
+      - id: '27344019'
+        type: PubMed
+      - id: 10.1111/jnc.13718
+        type: DOI
+      location:
+        firstPage: '806'
+        lastPage: '820'
+        volume: '138'
+      publication:
+        journalName: J. Neurochem.
+      publicationDate: '2016'
+      title: Functional interaction between Lypd6 and nicotinic acetylcholine receptors.
+      type: journal article
+    scope:
+    - INTERACTION WITH LYPD6
+  - citation:
+      authors:
+      - Mann N.
+      - Kause F.
+      - Henze E.K.
+      - Gharpure A.
+      - Shril S.
+      - Connaughton D.M.
+      - Nakayama M.
+      - Klaembt V.
+      - Majmundar A.J.
+      - Wu C.W.
+      - Kolvenbach C.M.
+      - Dai R.
+      - Chen J.
+      - van der Ven A.T.
+      - Ityel H.
+      - Tooley M.J.
+      - Kari J.A.
+      - Bownass L.
+      - El Desoky S.
+      - De Franco E.
+      - Shalaby M.
+      - Tasic V.
+      - Bauer S.B.
+      - Lee R.S.
+      - Beckel J.M.
+      - Yu W.
+      - Mane S.M.
+      - Lifton R.P.
+      - Reutter H.
+      - Ellard S.
+      - Hibbs R.E.
+      - Kawate T.
+      - Hildebrandt F.
+      dbReferences:
+      - id: '31708116'
+        type: PubMed
+      - id: 10.1016/j.ajhg.2019.10.004
+        type: DOI
+      location:
+        firstPage: '1286'
+        lastPage: '1293'
+        volume: '105'
+      publication:
+        journalName: Am. J. Hum. Genet.
+      publicationDate: '2019'
+      title: CAKUT and autonomic dysfunction caused by acetylcholine receptor mutations.
+      type: journal article
+    scope:
+    - FUNCTION
+    - SUBCELLULAR LOCATION
+    - INVOLVEMENT IN BAIPRCK
+    - VARIANT BAIPRCK 340-SER--ALA-505 DEL
+    - CHARACTERIZATION OF VARIANT BAIPRCK 340-SER--ALA-505 DEL
+  secondaryAccession:
+  - Q15823
+  - Q4KMN8
+  - Q86U77
+  - Q96RH3
+  - Q99553
+  - Q9BQ93
+  - Q9BRR4
+  sequence:
+    length: 505
+    mass: 57480
+    modified: '2009-07-28'
+    sequence: MGSGPLSLPLALSPPRLLLLLLLSLLPVARASEAEHRLFERLFEDYNEIIRPVANVSDPVIIHFEVSMSQLVKVDEVNQIMETNLWLKQIWNDYKLKWNPSDYGGAEFMRVPAQKIWKPDIVLYNNAVGDFQVDDKTKALLKYTGEVTWIPPAIFKSSCKIDVTYFPFDYQNCTMKFGSWSYDKAKIDLVLIGSSMNLKDYWESGEWAIIKAPGYKHDIKYNCCEEIYPDITYSLYIRRLPLFYTINLIIPCLLISFLTVLVFYLPSDCGEKVTLCISVLLSLTVFLLVITETIPSTSLVIPLIGEYLLFTMIFVTLSIVITVFVLNVHYRTPTTHTMPSWVKTVFLNLLPRVMFMTRPTSNEGNAQKPRPLYGAELSNLNCFSRAESKGCKEGYPCQDGMCGYCHHRRIKISNFSANLTRSSSSESVDAVLSLSALSPEIKEAIQSVKYIAENMKAQNEAKEIQDDWKYVAMVIDRIFLWVFTLVCILGTAGLFLQPLMAREDA
+    version: 4
+uniprot_id: P32297

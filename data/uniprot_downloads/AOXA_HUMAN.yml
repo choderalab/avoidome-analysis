@@ -1,0 +1,4811 @@
+data:
+  accession: Q06278
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20444863
+          id: '20444863'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20444863
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22031625
+          id: '22031625'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22031625
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22279051
+          id: '22279051'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22279051
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22522748
+          id: '22522748'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22522748
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22996261
+          id: '22996261'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22996261
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/23857892
+          id: '23857892'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/23857892
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26322824
+          id: '26322824'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7786031
+          id: '7786031'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7786031
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9224775
+          id: '9224775'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9224775
+      value: Oxidase with broad substrate specificity, oxidizing aromatic azaheterocycles,
+        such as N1-methylnicotinamide, N-methylphthalazinium and phthalazine, as well
+        as aldehydes, such as benzaldehyde, retinal, pyridoxal, and vanillin. Plays
+        a key role in the metabolism of xenobiotics and drugs containing aromatic
+        azaheterocyclic substituents. Participates in the bioactivation of prodrugs
+        such as famciclovir, catalyzing the oxidation step from 6-deoxypenciclovir
+        to penciclovir, which is a potent antiviral agent. Is probably involved in
+        the regulation of reactive oxygen species homeostasis. May be a prominent
+        source of superoxide generation via the one-electron reduction of molecular
+        oxygen. May also catalyze nitric oxide (NO) production via the reduction of
+        nitrite to NO with NADH or aldehyde as electron donor. May play a role in
+        adipogenesis
+    type: FUNCTION
+  - reaction:
+      dbReferences:
+      - id: RHEA:16829
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:16240
+        type: ChEBI
+      - id: CHEBI:17478
+        type: ChEBI
+      - id: CHEBI:29067
+        type: ChEBI
+      ecNumber: 1.2.3.1
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22996261
+          id: '22996261'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22996261
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26322824
+          id: '26322824'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+      name: an aldehyde + H2O + O2 = a carboxylate + H(+) + H2O2
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:56736
+        type: Rhea
+      - id: CHEBI:15035
+        type: ChEBI
+      - id: CHEBI:15036
+        type: ChEBI
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:16240
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: O54754
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/O54754
+      name: H2O + O2 + retinal = H(+) + H2O2 + retinoate
+    type: CATALYTIC_ACTIVITY
+  - cofactors:
+    - dbReference:
+        id: CHEBI:190135
+        type: CHEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22279051
+          id: '22279051'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22279051
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26322824
+          id: '26322824'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26842593
+          id: '26842593'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+      name: '[2Fe-2S] cluster'
+    text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22279051
+          id: '22279051'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22279051
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26322824
+          id: '26322824'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+      value: Binds 2 [2Fe-2S] clusters per subunit
+    type: COFACTOR
+  - cofactors:
+    - dbReference:
+        id: CHEBI:57692
+        type: CHEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22279051
+          id: '22279051'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22279051
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26322824
+          id: '26322824'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+      name: FAD
+    text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22279051
+          id: '22279051'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22279051
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26322824
+          id: '26322824'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+      value: Binds 1 FAD per subunit
+    type: COFACTOR
+  - cofactors:
+    - dbReference:
+        id: CHEBI:71302
+        type: CHEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22279051
+          id: '22279051'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22279051
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26322824
+          id: '26322824'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26842593
+          id: '26842593'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+      name: Mo-molybdopterin
+    text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22279051
+          id: '22279051'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22279051
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26322824
+          id: '26322824'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+      value: Binds 1 Mo-molybdopterin (Mo-MPT) cofactor per subunit
+    type: COFACTOR
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22031625
+          id: '22031625'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22031625
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22522748
+          id: '22522748'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22522748
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22996261
+          id: '22996261'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22996261
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26322824
+          id: '26322824'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26842593
+          id: '26842593'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9224775
+          id: '9224775'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9224775
+      value: Is very potently inhibited by raloxifene (PubMed:26842593). Also inhibited
+        by estradiol, ethinyl estradiol, hydralazine, menadione, isovanillin and thioridazine.
+        Not inhibited by allopurinol, a xanthine dehydrogenase potent inhibitor (PubMed:22031625,
+        PubMed:22522748, PubMed:22996261, PubMed:9224775, PubMed:26322824)
+    type: ACTIVITY_REGULATION
+  - kinetics:
+      km:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/26842593
+            id: '26842593'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+        value: 4.6 uM for benzaldehyde (in the presence of 2,6-dichlorophenol indophenol
+          as electron acceptor)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/26842593
+            id: '26842593'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+        value: 45.18 uM for benzaldehyde (in the presence of ferricyanide as electron
+          acceptor)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/22279051
+            id: '22279051'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/22279051
+        value: 1.3 uM for phthalazine (at 25 degrees Celsius and pH 7.5)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/26842593
+            id: '26842593'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+        value: 8.96 uM for phthalazine (in the presence of 2,6-dichlorophenol indophenol
+          as electron acceptor)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/26842593
+            id: '26842593'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+        value: 125.7 uM for phthalazine (in the presence of ferricyanide as electron
+          acceptor)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/26842593
+            id: '26842593'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+        value: 0.78 uM for phenanthridine (in the pres 2,6-dichlorophenol indophenol
+          as electron acceptor)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/26842593
+            id: '26842593'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+        value: 25.5 uM for phenanthridine (in the presence of ferricyanide as electron
+          acceptor)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/26842593
+            id: '26842593'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+        value: 26.53 uM for phenanthridine (in the presence of molecular oxygen as
+          electron acceptor)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/22279051
+            id: '22279051'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/22279051
+        value: 3.9 uM for phenanthridine (at 25 degrees Celsius and pH 7.5)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/22279051
+            id: '22279051'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/22279051
+        value: 5.2 uM for chloroquinazolinone (at 25 degrees Celsius and pH 7.5)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/9224775
+            id: '9224775'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/9224775
+        value: 0.42 mM for 6-deoxypenciclovir (at 37 degrees Celsius and pH 7)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/9224775
+            id: '9224775'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/9224775
+        value: 0.15 mM for famciclovir (at 37 degrees Celsius and pH 7)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/22996261
+            id: '22996261'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/22996261
+        value: 6.3 uM for N-[(2-dimethylamino)ethyl]acridine-4-carboxamide (at 37
+          degrees Celsius and pH 7.4)
+      text:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/22279051
+            id: '22279051'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/22279051
+        value: kcat is 6.4 min(-1) for benzaldehyde oxidation, 5.6 min(-1) for phthalazine
+          oxidation, 12.2 min(-1) for phenanthridine oxidation and 5.6 min(-1) for
+          chloroquinazolinone oxidation.
+      vmax:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/9224775
+            id: '9224775'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/9224775
+        value: 16.0 nmol/min/mg enzyme with 6-deoxypenciclovir as substrate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/9224775
+            id: '9224775'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/9224775
+        value: 61.0 nmol/min/mg enzyme with famciclovir as substrate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/22996261
+            id: '22996261'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/22996261
+        value: 2.3 nmol/min/mg enzyme with N-[(2-dimethylamino)ethyl]acridine-4-carboxamide
+          as substrate
+    type: BIOPHYSICOCHEMICAL_PROPERTIES
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26322824
+          id: '26322824'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26842593
+          id: '26842593'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+      value: Homodimer
+    type: SUBUNIT
+  - interactions:
+    - accession1: Q06278
+      accession2: Q06278
+      experiments: 2
+      gene: AOX1
+      interactor1: EBI-3926368
+      interactor2: EBI-3926368
+      organismDiffer: false
+    type: INTERACTION
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/18671973
+            id: '18671973'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/18671973
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/20444863
+            id: '20444863'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/20444863
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/23857892
+            id: '23857892'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/23857892
+        value: Cytoplasm
+    type: SUBCELLULAR_LOCATION
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18066686
+          id: '18066686'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18066686
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18671973
+          id: '18671973'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18671973
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20444863
+          id: '20444863'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20444863
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22031625
+          id: '22031625'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22031625
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22522748
+          id: '22522748'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22522748
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/23857892
+          id: '23857892'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/23857892
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8248161
+          id: '8248161'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8248161
+      value: Abundant in liver, expressed in adipose tissue and at lower levels in
+        lung, skeletal muscle, pancreas. In contrast to mice, no significant gender
+        difference in AOX1 expression level (at protein level)
+    type: TISSUE_SPECIFICITY
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18671973
+          id: '18671973'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18671973
+      value: Not detected in preadipocytes but strongly induced in mature adipocytes
+    type: DEVELOPMENTAL_STAGE
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17022944
+          id: '17022944'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17022944
+      value: In liver, is down-regulated by adiponectin and by the PPARA agonist,
+        fenofibric acid
+    type: INDUCTION
+  - text:
+    - evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22335465
+          id: '22335465'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22335465
+      value: AOX genes evolved from a xanthine oxidoreductase ancestral precursor
+        via a series of gene duplication and suppression/deletion events. Different
+        animal species contain a different complement of AOX genes encoding an equivalent
+        number of AOX isoenzymes. In mammals, the two extremes are represented by
+        certain rodents such as mice and rats, which are endowed with 4 AOX genes,
+        and by humans, whose genome is characterized by a single active gene (PubMed:22335465)
+    type: MISCELLANEOUS
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the xanthine dehydrogenase family
+    type: SIMILARITY
+  - text:
+    - evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8248161
+          id: '8248161'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8248161
+      value: Was originally thought to be a xanthine dehydrogenase
+    type: CAUTION
+  - conflictType: FRAMESHIFT
+    evidences:
+    - code: ECO:0000305
+    sequence: AAA96650.1
+    type: SEQUENCE_CAUTION
+  - conflictType: FRAMESHIFT
+    evidences:
+    - code: ECO:0000305
+    sequence: AAB83966.1
+    type: SEQUENCE_CAUTION
+  dbReferences:
+  - id: L11005
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA96650.1
+      status: ALT_FRAME
+    type: EMBL
+  - id: AF017060
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: ALT_FRAME
+    type: EMBL
+  - id: AF009441
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009442
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009443
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009444
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009445
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009446
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009447
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009448
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009449
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009450
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009451
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009452
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009453
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009454
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009455
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009456
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009457
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009458
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009459
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009460
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009461
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009462
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009463
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009464
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009465
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009466
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009467
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009468
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009469
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009470
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009471
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009472
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009473
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF009474
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83966.1
+      status: JOINED
+    type: EMBL
+  - id: AF010260
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83968.1
+    type: EMBL
+  - id: AB046692
+    properties:
+      molecule type: mRNA
+      protein sequence ID: BAB40305.1
+    type: EMBL
+  - id: AC007163
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAX93285.1
+    type: EMBL
+  - id: AC080164
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAY24265.1
+    type: EMBL
+  - id: CH471063
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW70209.1
+    type: EMBL
+  - id: BC117179
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAI17180.1
+    type: EMBL
+  - id: BC117181
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAI17182.1
+    type: EMBL
+  - id: CCDS33360.1
+    type: CCDS
+  - id: A49634
+    properties:
+      entry name: A49634
+    type: PIR
+  - id: NP_001150.3
+    properties:
+      nucleotide sequence ID: NM_001159.3
+    type: RefSeq
+  - id: 4UHW
+    properties:
+      chains: A=1-1338
+      method: X-ray
+      resolution: 2.60 A
+    type: PDB
+  - id: 4UHX
+    properties:
+      chains: A=1-1338
+      method: X-ray
+      resolution: 2.70 A
+    type: PDB
+  - id: 5EPG
+    properties:
+      chains: A=1-1338
+      method: X-ray
+      resolution: 3.39 A
+    type: PDB
+  - id: 6Q6Q
+    properties:
+      chains: A=1-1338
+      method: X-ray
+      resolution: 3.10 A
+    type: PDB
+  - id: 7OPN
+    properties:
+      chains: A/B=1-1338
+      method: X-ray
+      resolution: 2.60 A
+    type: PDB
+  - id: 7ORC
+    properties:
+      chains: A/B=1-1338
+      method: X-ray
+      resolution: 2.70 A
+    type: PDB
+  - id: 8EMT
+    properties:
+      chains: A/B=1-1338
+      method: EM
+      resolution: 2.92 A
+    type: PDB
+  - id: 4UHW
+    type: PDBsum
+  - id: 4UHX
+    type: PDBsum
+  - id: 5EPG
+    type: PDBsum
+  - id: 6Q6Q
+    type: PDBsum
+  - id: 7OPN
+    type: PDBsum
+  - id: 7ORC
+    type: PDBsum
+  - id: 8EMT
+    type: PDBsum
+  - id: Q06278
+    type: AlphaFoldDB
+  - id: EMD-28264
+    type: EMDB
+  - id: Q06278
+    type: SMR
+  - id: '106813'
+    properties:
+      interactions: '11'
+    type: BioGRID
+  - id: DIP-61698N
+    type: DIP
+  - id: Q06278
+    properties:
+      interactions: '5'
+    type: IntAct
+  - id: 9606.ENSP00000363832
+    type: STRING
+  - id: Q06278
+    type: BindingDB
+  - id: CHEMBL3257
+    type: ChEMBL
+  - id: DB00437
+    properties:
+      generic name: Allopurinol
+    type: DrugBank
+  - id: DB00513
+    properties:
+      generic name: Aminocaproic acid
+    type: DrugBank
+  - id: DB00484
+    properties:
+      generic name: Brimonidine
+    type: DrugBank
+  - id: DB11791
+    properties:
+      generic name: Capmatinib
+    type: DrugBank
+  - id: DB00924
+    properties:
+      generic name: Cyclobenzaprine
+    type: DrugBank
+  - id: DB03516
+    properties:
+      generic name: Eniluracil
+    type: DrugBank
+  - id: DB00426
+    properties:
+      generic name: Famciclovir
+    type: DrugBank
+  - id: DB12466
+    properties:
+      generic name: Favipiravir
+    type: DrugBank
+  - id: DB09054
+    properties:
+      generic name: Idelalisib
+    type: DrugBank
+  - id: DB09078
+    properties:
+      generic name: Lenvatinib
+    type: DrugBank
+  - id: DB00170
+    properties:
+      generic name: Menadione
+    type: DrugBank
+  - id: DB01033
+    properties:
+      generic name: Mercaptopurine
+    type: DrugBank
+  - id: DB00563
+    properties:
+      generic name: Methotrexate
+    type: DrugBank
+  - id: DB08840
+    properties:
+      generic name: N-methylnicotinamide
+    type: DrugBank
+  - id: DB00157
+    properties:
+      generic name: NADH
+    type: DrugBank
+  - id: DB00339
+    properties:
+      generic name: Pyrazinamide
+    type: DrugBank
+  - id: DB00481
+    properties:
+      generic name: Raloxifene
+    type: DrugBank
+  - id: DB04827
+    properties:
+      generic name: Urethane
+    type: DrugBank
+  - id: DB00962
+    properties:
+      generic name: Zaleplon
+    type: DrugBank
+  - id: DB00246
+    properties:
+      generic name: Ziprasidone
+    type: DrugBank
+  - id: DB00909
+    properties:
+      generic name: Zonisamide
+    type: DrugBank
+  - id: Q06278
+    type: DrugCentral
+  - id: '3186'
+    type: GuidetoPHARMACOLOGY
+  - id: Q06278
+    type: iPTMnet
+  - id: Q06278
+    type: PhosphoSitePlus
+  - id: AOX1
+    type: BioMuta
+  - id: '215273968'
+    type: DMDM
+  - id: Q06278
+    type: EPD
+  - id: Q06278
+    type: jPOST
+  - id: Q06278
+    type: MassIVE
+  - id: Q06278
+    type: MaxQB
+  - id: 9606-ENSP00000363832
+    type: PaxDb
+  - id: Q06278
+    type: PeptideAtlas
+  - id: '58430'
+    type: ProteomicsDB
+  - id: '34105'
+    properties:
+      antibodies: 267 antibodies from 28 providers
+    type: Antibodypedia
+  - id: '316'
+    type: DNASU
+  - id: ENST00000374700.7
+    properties:
+      gene ID: ENSG00000138356.14
+      protein sequence ID: ENSP00000363832.2
+    type: Ensembl
+  - id: '316'
+    type: GeneID
+  - id: hsa:316
+    type: KEGG
+  - id: ENST00000374700.7
+    properties:
+      RefSeq nucleotide sequence ID: NM_001159.4
+      RefSeq protein sequence ID: NP_001150.3
+      protein sequence ID: ENSP00000363832.2
+    type: MANE-Select
+  - id: uc002uvx.4
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:553
+    type: AGR
+  - id: '316'
+    type: CTD
+  - id: '316'
+    type: DisGeNET
+  - id: AOX1
+    type: GeneCards
+  - id: HGNC:553
+    properties:
+      gene designation: AOX1
+    type: HGNC
+  - id: ENSG00000138356
+    properties:
+      expression patterns: Group enriched (adrenal gland, liver)
+    type: HPA
+  - id: '602841'
+    properties:
+      type: gene
+    type: MIM
+  - id: NX_Q06278
+    type: neXtProt
+  - id: ENSG00000138356
+    type: OpenTargets
+  - id: PA24842
+    type: PharmGKB
+  - id: HostDB:ENSG00000138356
+    type: VEuPathDB
+  - id: KOG0430
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00950000183114
+    type: GeneTree
+  - id: CLU_001681_1_2_1
+    type: HOGENOM
+  - id: Q06278
+    type: InParanoid
+  - id: QCRWKVG
+    type: OMA
+  - id: 5485853at2759
+    type: OrthoDB
+  - id: Q06278
+    type: PhylomeDB
+  - id: TF353036
+    type: TreeFam
+  - id: MetaCyc:ENSG00000138356-MONOMER
+    type: BioCyc
+  - id: 1.2.3.1
+    properties:
+      organism ID: '2681'
+    type: BRENDA
+  - id: Q06278
+    type: PathwayCommons
+  - id: R-HSA-964975
+    properties:
+      pathway name: Vitamin B6 activation to pyridoxal phosphate
+    type: Reactome
+  - id: Q06278
+    type: SABIO-RK
+  - id: Q06278
+    type: SignaLink
+  - id: '316'
+    properties:
+      hits: 14 hits in 1150 CRISPR screens
+    type: BioGRID-ORCS
+  - id: AOX1
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: Aldehyde_oxidase_1
+    type: GeneWiki
+  - id: '316'
+    type: GenomeRNAi
+  - id: Q06278
+    properties:
+      development level: Tchem
+    type: Pharos
+  - id: PR:Q06278
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 2
+    type: Proteomes
+  - id: Q06278
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000138356
+    properties:
+      expression patterns: Expressed in right adrenal gland cortex and 162 other cell
+        types or tissues
+    type: Bgee
+  - id: Q06278
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: Q06278
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20444863
+        id: '20444863'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20444863
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23857892
+        id: '23857892'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23857892
+    id: GO:0005829
+    properties:
+      source: IDA:UniProtKB
+      term: C:cytosol
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19056867
+        id: '19056867'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19056867
+    id: GO:0070062
+    properties:
+      source: HDA:UniProtKB
+      term: C:extracellular exosome
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    id: GO:0051537
+    properties:
+      source: IDA:UniProtKB
+      term: F:2 iron, 2 sulfur cluster binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22279051
+        id: '22279051'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22279051
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    id: GO:0004031
+    properties:
+      source: IDA:UniProtKB
+      term: F:aldehyde oxidase activity
+    type: GO
+  - id: GO:0071949
+    properties:
+      source: IEA:InterPro
+      term: F:FAD binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    id: GO:0050660
+    properties:
+      source: IDA:UniProtKB
+      term: F:flavin adenine dinucleotide binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    id: GO:0042802
+    properties:
+      source: IPI:IntAct
+      term: F:identical protein binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    id: GO:0005506
+    properties:
+      source: IDA:UniProtKB
+      term: F:iron ion binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    id: GO:0043546
+    properties:
+      source: IDA:UniProtKB
+      term: F:molybdopterin cofactor binding
+    type: GO
+  - id: GO:0051287
+    properties:
+      source: IEA:InterPro
+      term: F:NAD binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    id: GO:0042803
+    properties:
+      source: IDA:UniProtKB
+      term: F:protein homodimerization activity
+    type: GO
+  - id: GO:0006629
+    properties:
+      source: IEA:UniProtKB-KW
+      term: P:lipid metabolic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20444863
+        id: '20444863'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20444863
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22031625
+        id: '22031625'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22031625
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22522748
+        id: '22522748'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22522748
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23857892
+        id: '23857892'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23857892
+    id: GO:0006805
+    properties:
+      source: IDA:UniProtKB
+      term: P:xenobiotic metabolic process
+    type: GO
+  - id: 3.10.20.30
+    properties:
+      match status: '1'
+    type: Gene3D
+  - id: 3.30.465.10
+    properties:
+      match status: '1'
+    type: Gene3D
+  - id: 1.10.150.120
+    properties:
+      entry name: '[2Fe-2S]-binding domain'
+      match status: '1'
+    type: Gene3D
+  - id: 3.90.1170.50
+    properties:
+      entry name: Aldehyde oxidase/xanthine dehydrogenase, a/b hammerhead
+      match status: '1'
+    type: Gene3D
+  - id: 3.30.365.10
+    properties:
+      entry name: Aldehyde oxidase/xanthine dehydrogenase, molybdopterin binding domain
+      match status: '4'
+    type: Gene3D
+  - id: 3.30.390.50
+    properties:
+      entry name: CO dehydrogenase flavoprotein, C-terminal domain
+      match status: '1'
+    type: Gene3D
+  - id: 3.30.43.10
+    properties:
+      entry name: Uridine Diphospho-n-acetylenolpyruvylglucosamine Reductase, domain
+        2
+      match status: '1'
+    type: Gene3D
+  - id: IPR002888
+    properties:
+      entry name: 2Fe-2S-bd
+    type: InterPro
+  - id: IPR036884
+    properties:
+      entry name: 2Fe-2S-bd_dom_sf
+    type: InterPro
+  - id: IPR036010
+    properties:
+      entry name: 2Fe-2S_ferredoxin-like_sf
+    type: InterPro
+  - id: IPR001041
+    properties:
+      entry name: 2Fe-2S_ferredoxin-type
+    type: InterPro
+  - id: IPR006058
+    properties:
+      entry name: 2Fe2S_fd_BS
+    type: InterPro
+  - id: IPR000674
+    properties:
+      entry name: Ald_Oxase/Xan_DH_a/b
+    type: InterPro
+  - id: IPR036856
+    properties:
+      entry name: Ald_Oxase/Xan_DH_a/b_sf
+    type: InterPro
+  - id: IPR016208
+    properties:
+      entry name: Ald_Oxase/xanthine_DH
+    type: InterPro
+  - id: IPR014313
+    properties:
+      entry name: Aldehyde_oxidase
+    type: InterPro
+  - id: IPR008274
+    properties:
+      entry name: AldOxase/xan_DH_MoCoBD1
+    type: InterPro
+  - id: IPR046867
+    properties:
+      entry name: AldOxase/xan_DH_MoCoBD2
+    type: InterPro
+  - id: IPR037165
+    properties:
+      entry name: AldOxase/xan_DH_Mopterin-bd_sf
+    type: InterPro
+  - id: IPR012675
+    properties:
+      entry name: Beta-grasp_dom_sf
+    type: InterPro
+  - id: IPR005107
+    properties:
+      entry name: CO_DH_flav_C
+    type: InterPro
+  - id: IPR036683
+    properties:
+      entry name: CO_DH_flav_C_dom_sf
+    type: InterPro
+  - id: IPR016166
+    properties:
+      entry name: FAD-bd_PCMH
+    type: InterPro
+  - id: IPR036318
+    properties:
+      entry name: FAD-bd_PCMH-like_sf
+    type: InterPro
+  - id: IPR016167
+    properties:
+      entry name: FAD-bd_PCMH_sub1
+    type: InterPro
+  - id: IPR016169
+    properties:
+      entry name: FAD-bd_PCMH_sub2
+    type: InterPro
+  - id: IPR002346
+    properties:
+      entry name: Mopterin_DH_FAD-bd
+    type: InterPro
+  - id: IPR022407
+    properties:
+      entry name: OxRdtase_Mopterin_BS
+    type: InterPro
+  - id: TIGR02969
+    properties:
+      entry name: mam_aldehyde_ox
+      match status: '1'
+    type: NCBIfam
+  - id: PTHR45444
+    properties:
+      entry name: XANTHINE DEHYDROGENASE
+      match status: '1'
+    type: PANTHER
+  - id: PTHR45444:SF3
+    properties:
+      entry name: XANTHINE DEHYDROGENASE
+      match status: '1'
+    type: PANTHER
+  - id: PF01315
+    properties:
+      entry name: Ald_Xan_dh_C
+      match status: '1'
+    type: Pfam
+  - id: PF03450
+    properties:
+      entry name: CO_deh_flav_C
+      match status: '1'
+    type: Pfam
+  - id: PF00941
+    properties:
+      entry name: FAD_binding_5
+      match status: '1'
+    type: Pfam
+  - id: PF00111
+    properties:
+      entry name: Fer2
+      match status: '1'
+    type: Pfam
+  - id: PF01799
+    properties:
+      entry name: Fer2_2
+      match status: '1'
+    type: Pfam
+  - id: PF02738
+    properties:
+      entry name: MoCoBD_1
+      match status: '1'
+    type: Pfam
+  - id: PF20256
+    properties:
+      entry name: MoCoBD_2
+      match status: '1'
+    type: Pfam
+  - id: PIRSF000127
+    properties:
+      entry name: Xanthine_DH
+      match status: '1'
+    type: PIRSF
+  - id: SM01008
+    properties:
+      entry name: Ald_Xan_dh_C
+      match status: '1'
+    type: SMART
+  - id: SM01092
+    properties:
+      entry name: CO_deh_flav_C
+      match status: '1'
+    type: SMART
+  - id: SSF54292
+    properties:
+      entry name: 2Fe-2S ferredoxin-like
+      match status: '1'
+    type: SUPFAM
+  - id: SSF55447
+    properties:
+      entry name: CO dehydrogenase flavoprotein C-terminal domain-like
+      match status: '1'
+    type: SUPFAM
+  - id: SSF47741
+    properties:
+      entry name: CO dehydrogenase ISP C-domain like
+      match status: '1'
+    type: SUPFAM
+  - id: SSF54665
+    properties:
+      entry name: CO dehydrogenase molybdoprotein N-domain-like
+      match status: '1'
+    type: SUPFAM
+  - id: SSF56176
+    properties:
+      entry name: FAD-binding/transporter-associated domain-like
+      match status: '1'
+    type: SUPFAM
+  - id: SSF56003
+    properties:
+      entry name: Molybdenum cofactor-binding domain
+      match status: '1'
+    type: SUPFAM
+  - id: PS00197
+    properties:
+      entry name: 2FE2S_FER_1
+      match status: '1'
+    type: PROSITE
+  - id: PS51085
+    properties:
+      entry name: 2FE2S_FER_2
+      match status: '1'
+    type: PROSITE
+  - id: PS51387
+    properties:
+      entry name: FAD_PCMH
+      match status: '1'
+    type: PROSITE
+  - id: PS00559
+    properties:
+      entry name: MOLYBDOPTERIN_EUK
+      match status: '1'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Aldehyde oxidase
+    end: '1338'
+    ftId: PRO_0000166104
+    molecule: ''
+    type: CHAIN
+  - begin: '5'
+    category: DOMAINS_AND_SITES
+    description: 2Fe-2S ferredoxin-type
+    end: '92'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00465
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00465
+    molecule: ''
+    type: DOMAIN
+  - begin: '236'
+    category: DOMAINS_AND_SITES
+    description: FAD-binding PCMH-type
+    end: '421'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00718
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00718
+    molecule: ''
+    type: DOMAIN
+  - begin: '1270'
+    category: DOMAINS_AND_SITES
+    description: Proton acceptor; for azaheterocycle hydroxylase activity
+    end: '1270'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: O54754
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/O54754
+    molecule: ''
+    type: ACT_SITE
+  - begin: '44'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '44'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    ligand:
+      dbReference:
+        id: CHEBI:190135
+        name: ChEBI
+      label: '1'
+      name: '[2Fe-2S] cluster'
+    molecule: ''
+    type: BINDING
+  - begin: '49'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '49'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    - code: ECO:0007744
+      source:
+        id: 5EPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5EPG
+    ligand:
+      dbReference:
+        id: CHEBI:190135
+        name: ChEBI
+      label: '1'
+      name: '[2Fe-2S] cluster'
+    molecule: ''
+    type: BINDING
+  - begin: '52'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '52'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    - code: ECO:0007744
+      source:
+        id: 5EPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5EPG
+    ligand:
+      dbReference:
+        id: CHEBI:190135
+        name: ChEBI
+      label: '1'
+      name: '[2Fe-2S] cluster'
+    molecule: ''
+    type: BINDING
+  - begin: '74'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '74'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    - code: ECO:0007744
+      source:
+        id: 5EPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5EPG
+    ligand:
+      dbReference:
+        id: CHEBI:190135
+        name: ChEBI
+      label: '1'
+      name: '[2Fe-2S] cluster'
+    molecule: ''
+    type: BINDING
+  - begin: '113'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '113'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    ligand:
+      dbReference:
+        id: CHEBI:71302
+        name: ChEBI
+      name: Mo-molybdopterin
+    molecule: ''
+    type: BINDING
+  - begin: '114'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '114'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    - code: ECO:0007744
+      source:
+        id: 5EPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5EPG
+    ligand:
+      dbReference:
+        id: CHEBI:190135
+        name: ChEBI
+      label: '2'
+      name: '[2Fe-2S] cluster'
+    molecule: ''
+    type: BINDING
+  - begin: '117'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '117'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    - code: ECO:0007744
+      source:
+        id: 5EPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5EPG
+    ligand:
+      dbReference:
+        id: CHEBI:190135
+        name: ChEBI
+      label: '2'
+      name: '[2Fe-2S] cluster'
+    molecule: ''
+    type: BINDING
+  - begin: '149'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '149'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    - code: ECO:0007744
+      source:
+        id: 5EPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5EPG
+    ligand:
+      dbReference:
+        id: CHEBI:190135
+        name: ChEBI
+      label: '2'
+      name: '[2Fe-2S] cluster'
+    molecule: ''
+    type: BINDING
+  - begin: '151'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '151'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    - code: ECO:0007744
+      source:
+        id: 5EPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5EPG
+    ligand:
+      dbReference:
+        id: CHEBI:190135
+        name: ChEBI
+      label: '2'
+      name: '[2Fe-2S] cluster'
+    molecule: ''
+    type: BINDING
+  - begin: '151'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '151'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    - code: ECO:0007744
+      source:
+        id: 5EPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5EPG
+    ligand:
+      dbReference:
+        id: CHEBI:71302
+        name: ChEBI
+      name: Mo-molybdopterin
+    molecule: ''
+    type: BINDING
+  - begin: '264'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '271'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    - code: ECO:0007744
+      source:
+        id: 5EPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5EPG
+    ligand:
+      dbReference:
+        id: CHEBI:57692
+        name: ChEBI
+      name: FAD
+    molecule: ''
+    type: BINDING
+  - begin: '345'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '345'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    ligand:
+      dbReference:
+        id: CHEBI:57692
+        name: ChEBI
+      name: FAD
+    molecule: ''
+    type: BINDING
+  - begin: '354'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '354'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    - code: ECO:0007744
+      source:
+        id: 5EPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5EPG
+    ligand:
+      dbReference:
+        id: CHEBI:57692
+        name: ChEBI
+      name: FAD
+    molecule: ''
+    type: BINDING
+  - begin: '358'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '358'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    - code: ECO:0007744
+      source:
+        id: 5EPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5EPG
+    ligand:
+      dbReference:
+        id: CHEBI:57692
+        name: ChEBI
+      name: FAD
+    molecule: ''
+    type: BINDING
+  - begin: '367'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '367'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    - code: ECO:0007744
+      source:
+        id: 5EPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5EPG
+    ligand:
+      dbReference:
+        id: CHEBI:57692
+        name: ChEBI
+      name: FAD
+    molecule: ''
+    type: BINDING
+  - begin: '411'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '411'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    - code: ECO:0007744
+      source:
+        id: 5EPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5EPG
+    ligand:
+      dbReference:
+        id: CHEBI:57692
+        name: ChEBI
+      name: FAD
+    molecule: ''
+    type: BINDING
+  - begin: '806'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '807'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    - code: ECO:0007744
+      source:
+        id: 5EPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5EPG
+    ligand:
+      dbReference:
+        id: CHEBI:71302
+        name: ChEBI
+      name: Mo-molybdopterin
+    molecule: ''
+    type: BINDING
+  - begin: '1047'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '1047'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    - code: ECO:0007744
+      source:
+        id: 5EPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5EPG
+    ligand:
+      dbReference:
+        id: CHEBI:71302
+        name: ChEBI
+      name: Mo-molybdopterin
+    molecule: ''
+    type: BINDING
+  - begin: '1088'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '1091'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    - code: ECO:0007744
+      source:
+        id: 5EPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5EPG
+    ligand:
+      dbReference:
+        id: CHEBI:71302
+        name: ChEBI
+      name: Mo-molybdopterin
+    molecule: ''
+    type: BINDING
+  - begin: '1203'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '1203'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    - code: ECO:0007744
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    - code: ECO:0007744
+      source:
+        id: 5EPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5EPG
+    ligand:
+      dbReference:
+        id: CHEBI:71302
+        name: ChEBI
+      name: Mo-molybdopterin
+    molecule: ''
+    type: BINDING
+  - begin: '1268'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '1268'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26322824
+        id: '26322824'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+    - code: ECO:0007744
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    ligand:
+      dbReference:
+        id: CHEBI:71302
+        name: ChEBI
+      name: Mo-molybdopterin
+    molecule: ''
+    type: BINDING
+  - begin: '1068'
+    category: PTM
+    description: Phosphoserine
+    end: '1068'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24275569
+        id: '24275569'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24275569
+    molecule: ''
+    type: MOD_RES
+  - alternativeSequence: R
+    begin: '314'
+    category: VARIANTS
+    description: in dbSNP:rs58185012
+    end: '314'
+    ftId: VAR_061136
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: C
+    begin: '802'
+    category: VARIANTS
+    description: decreases homodimerization but nearly no effect on kinetic parameters;
+      dbSNP:rs41309768
+    end: '802'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22279051
+        id: '22279051'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22279051
+    ftId: VAR_047517
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: H
+    begin: '921'
+    category: VARIANTS
+    description: increases homodimerization; abolishes enzymatic activity on phenanthridine;
+      decreases turnover number with benzaldehyde, phtalazine and chloroquinazolinone
+      as substrate, while nearly no effect on the KM; dbSNP:rs56199635
+    end: '921'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22279051
+        id: '22279051'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22279051
+    ftId: VAR_070256
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: S
+    begin: '1135'
+    category: VARIANTS
+    description: increases homodimerization and turnover number with phenanthridine
+      as substrate; nearly no effect on kinetic parameters with benzaldehyde, phtalazine
+      and chloroquinazolinone as substrate; dbSNP:rs55754655
+    end: '1135'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22279051
+        id: '22279051'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22279051
+    ftId: VAR_070257
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: L
+    begin: '1271'
+    category: VARIANTS
+    description: no effect on dimerization; no effect on oxidase activity; dbSNP:rs141786030
+    end: '1271'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22279051
+        id: '22279051'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22279051
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    ftId: VAR_070258
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: R
+    begin: '1297'
+    category: VARIANTS
+    description: increases homodimerization and turnover number with phenanthridine
+      as substrate; nearly no effect on kinetic parameters with benzaldehyde, phtalazine
+      and chloroquinazolinone as substrate; dbSNP:rs3731722
+    end: '1297'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22279051
+        id: '22279051'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22279051
+    ftId: VAR_047518
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: W
+    begin: '44'
+    category: MUTAGENESIS
+    description: Disrupts protein stability.
+    end: '44'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: R
+    begin: '1269'
+    category: MUTAGENESIS
+    description: No effect on dimerization. Loss of oxidase activity.
+    end: '1269'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26842593
+        id: '26842593'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26842593
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: P
+    begin: '41'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; AAA96650 and 2; AAB83966
+    end: '41'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: P
+    begin: '127'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; AAA96650 and 2; AAB83966
+    end: '127'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: H
+    begin: '152'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; AAA96650 and 2; AAB83966
+    end: '152'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: D
+    begin: '227'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; AAA96650 and 2; AAB83966
+    end: '227'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: D
+    begin: '251'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; AAA96650
+    end: '251'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: I
+    begin: '418'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; AAA96650 and 2; AAB83966
+    end: '418'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: L
+    begin: '501'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 2; AAB83966
+    end: '501'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: N
+    begin: '627'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 2; AAB83966
+    end: '627'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: V
+    begin: '929'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; AAA96650 and 2; AAB83966
+    end: '929'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: A
+    begin: '1019'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; AAA96650 and 2; AAB83966
+    end: '1019'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - begin: '6'
+    category: STRUCTURAL
+    end: '11'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '14'
+    category: STRUCTURAL
+    end: '20'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '27'
+    category: STRUCTURAL
+    end: '33'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '45'
+    category: STRUCTURAL
+    end: '49'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '53'
+    category: STRUCTURAL
+    end: '60'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '61'
+    category: STRUCTURAL
+    end: '64'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: TURN
+  - begin: '65'
+    category: STRUCTURAL
+    end: '72'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '73'
+    category: STRUCTURAL
+    end: '75'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '78'
+    category: STRUCTURAL
+    end: '81'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '85'
+    category: STRUCTURAL
+    end: '87'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '89'
+    category: STRUCTURAL
+    end: '92'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '95'
+    category: STRUCTURAL
+    end: '97'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    molecule: ''
+    type: STRAND
+  - begin: '101'
+    category: STRUCTURAL
+    end: '108'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '118'
+    category: STRUCTURAL
+    end: '131'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '137'
+    category: STRUCTURAL
+    end: '143'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '144'
+    category: STRUCTURAL
+    end: '146'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '150'
+    category: STRUCTURAL
+    end: '152'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '155'
+    category: STRUCTURAL
+    end: '162'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '163'
+    category: STRUCTURAL
+    end: '165'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7OPN
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7OPN
+    molecule: ''
+    type: TURN
+  - begin: '204'
+    category: STRUCTURAL
+    end: '206'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '212'
+    category: STRUCTURAL
+    end: '214'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    molecule: ''
+    type: HELIX
+  - begin: '220'
+    category: STRUCTURAL
+    end: '226'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '234'
+    category: STRUCTURAL
+    end: '237'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '242'
+    category: STRUCTURAL
+    end: '245'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '249'
+    category: STRUCTURAL
+    end: '258'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '271'
+    category: STRUCTURAL
+    end: '277'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '283'
+    category: STRUCTURAL
+    end: '286'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '292'
+    category: STRUCTURAL
+    end: '295'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '297'
+    category: STRUCTURAL
+    end: '299'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '301'
+    category: STRUCTURAL
+    end: '307'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '312'
+    category: STRUCTURAL
+    end: '325'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '328'
+    category: STRUCTURAL
+    end: '330'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7OPN
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7OPN
+    molecule: ''
+    type: TURN
+  - begin: '332'
+    category: STRUCTURAL
+    end: '343'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '347'
+    category: STRUCTURAL
+    end: '352'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '355'
+    category: STRUCTURAL
+    end: '361'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '369'
+    category: STRUCTURAL
+    end: '374'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '378'
+    category: STRUCTURAL
+    end: '382'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '387'
+    category: STRUCTURAL
+    end: '391'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '394'
+    category: STRUCTURAL
+    end: '397'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '401'
+    category: STRUCTURAL
+    end: '403'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: TURN
+  - begin: '410'
+    category: STRUCTURAL
+    end: '417'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '423'
+    category: STRUCTURAL
+    end: '430'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '432'
+    category: STRUCTURAL
+    end: '437'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '440'
+    category: STRUCTURAL
+    end: '448'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '451'
+    category: STRUCTURAL
+    end: '453'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '458'
+    category: STRUCTURAL
+    end: '469'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '474'
+    category: STRUCTURAL
+    end: '480'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '484'
+    category: STRUCTURAL
+    end: '486'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7OPN
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7OPN
+    molecule: ''
+    type: STRAND
+  - begin: '487'
+    category: STRUCTURAL
+    end: '498'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '512'
+    category: STRUCTURAL
+    end: '537'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '539'
+    category: STRUCTURAL
+    end: '541'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: TURN
+  - begin: '547'
+    category: STRUCTURAL
+    end: '549'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: TURN
+  - begin: '550'
+    category: STRUCTURAL
+    end: '552'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '562'
+    category: STRUCTURAL
+    end: '566'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '572'
+    category: STRUCTURAL
+    end: '574'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHX
+    molecule: ''
+    type: STRAND
+  - begin: '589'
+    category: STRUCTURAL
+    end: '593'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '600'
+    category: STRUCTURAL
+    end: '602'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '610'
+    category: STRUCTURAL
+    end: '616'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '620'
+    category: STRUCTURAL
+    end: '628'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '630'
+    category: STRUCTURAL
+    end: '633'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '638'
+    category: STRUCTURAL
+    end: '642'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '644'
+    category: STRUCTURAL
+    end: '646'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '648'
+    category: STRUCTURAL
+    end: '650'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '651'
+    category: STRUCTURAL
+    end: '663'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7OPN
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7OPN
+    molecule: ''
+    type: STRAND
+  - begin: '666'
+    category: STRUCTURAL
+    end: '668'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '674'
+    category: STRUCTURAL
+    end: '682'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '683'
+    category: STRUCTURAL
+    end: '690'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '694'
+    category: STRUCTURAL
+    end: '699'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '709'
+    category: STRUCTURAL
+    end: '711'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '721'
+    category: STRUCTURAL
+    end: '726'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '728'
+    category: STRUCTURAL
+    end: '731'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '732'
+    category: STRUCTURAL
+    end: '734'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '736'
+    category: STRUCTURAL
+    end: '745'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '756'
+    category: STRUCTURAL
+    end: '762'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '769'
+    category: STRUCTURAL
+    end: '773'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '778'
+    category: STRUCTURAL
+    end: '789'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '793'
+    category: STRUCTURAL
+    end: '795'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '796'
+    category: STRUCTURAL
+    end: '801'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '812'
+    category: STRUCTURAL
+    end: '828'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '832'
+    category: STRUCTURAL
+    end: '835'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '838'
+    category: STRUCTURAL
+    end: '844'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '851'
+    category: STRUCTURAL
+    end: '859'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '865'
+    category: STRUCTURAL
+    end: '878'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '884'
+    category: STRUCTURAL
+    end: '893'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '894'
+    category: STRUCTURAL
+    end: '897'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: TURN
+  - begin: '901'
+    category: STRUCTURAL
+    end: '911'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '921'
+    category: STRUCTURAL
+    end: '924'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: TURN
+  - begin: '925'
+    category: STRUCTURAL
+    end: '943'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '947'
+    category: STRUCTURAL
+    end: '954'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '958'
+    category: STRUCTURAL
+    end: '961'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '967'
+    category: STRUCTURAL
+    end: '969'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '971'
+    category: STRUCTURAL
+    end: '984'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '986'
+    category: STRUCTURAL
+    end: '999'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '1001'
+    category: STRUCTURAL
+    end: '1016'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '1019'
+    category: STRUCTURAL
+    end: '1021'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7OPN
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7OPN
+    molecule: ''
+    type: STRAND
+  - begin: '1022'
+    category: STRUCTURAL
+    end: '1024'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '1026'
+    category: STRUCTURAL
+    end: '1032'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '1038'
+    category: STRUCTURAL
+    end: '1043'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '1047'
+    category: STRUCTURAL
+    end: '1049'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '1051'
+    category: STRUCTURAL
+    end: '1062'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '1067'
+    category: STRUCTURAL
+    end: '1069'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '1077'
+    category: STRUCTURAL
+    end: '1079'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: TURN
+  - begin: '1088'
+    category: STRUCTURAL
+    end: '1090'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6Q6Q
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6Q6Q
+    molecule: ''
+    type: STRAND
+  - begin: '1091'
+    category: STRUCTURAL
+    end: '1115'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '1118'
+    category: STRUCTURAL
+    end: '1120'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6Q6Q
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6Q6Q
+    molecule: ''
+    type: STRAND
+  - begin: '1122'
+    category: STRUCTURAL
+    end: '1131'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '1137'
+    category: STRUCTURAL
+    end: '1142'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '1148'
+    category: STRUCTURAL
+    end: '1150'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '1151'
+    category: STRUCTURAL
+    end: '1154'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: TURN
+  - begin: '1155'
+    category: STRUCTURAL
+    end: '1157'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '1160'
+    category: STRUCTURAL
+    end: '1174'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '1175'
+    category: STRUCTURAL
+    end: '1177'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: TURN
+  - begin: '1180'
+    category: STRUCTURAL
+    end: '1190'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '1197'
+    category: STRUCTURAL
+    end: '1215'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '1232'
+    category: STRUCTURAL
+    end: '1234'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '1241'
+    category: STRUCTURAL
+    end: '1243'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '1246'
+    category: STRUCTURAL
+    end: '1252'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: STRAND
+  - begin: '1262'
+    category: STRUCTURAL
+    end: '1264'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '1271'
+    category: STRUCTURAL
+    end: '1276'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '1277'
+    category: STRUCTURAL
+    end: '1293'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '1308'
+    category: STRUCTURAL
+    end: '1314'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '1318'
+    category: STRUCTURAL
+    end: '1322'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  - begin: '1328'
+    category: STRUCTURAL
+    end: '1330'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4UHW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4UHW
+    molecule: ''
+    type: HELIX
+  gene:
+  - name:
+      evidences:
+      - code: ECO:0000312
+        source:
+          id: HGNC:553
+          name: HGNC
+          url: https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=HGNC:553
+      value: AOX1
+    synonyms:
+    - value: AO
+  id: AOXA_HUMAN
+  info:
+    created: '1994-06-01'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 214
+  keywords:
+  - value: 2Fe-2S
+  - value: 3D-structure
+  - value: Cytoplasm
+  - value: FAD
+  - value: Flavoprotein
+  - value: Iron
+  - value: Iron-sulfur
+  - value: Lipid metabolism
+  - value: Metal-binding
+  - value: Molybdenum
+  - value: Oxidoreductase
+  - value: Phosphoprotein
+  - value: Reference proteome
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        value: Aldehyde oxidase 1
+    - ecNumber:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/7786031
+            id: '7786031'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/7786031
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/9224775
+            id: '9224775'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/9224775
+        value: 1.17.3.-
+      fullName:
+        evidences:
+        - code: ECO:0000305
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/7786031
+            id: '7786031'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/7786031
+        - code: ECO:0000305
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/9224775
+            id: '9224775'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/9224775
+        value: Azaheterocycle hydroxylase
+    recommendedName:
+      ecNumber:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/22996261
+            id: '22996261'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/22996261
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/26322824
+            id: '26322824'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/26322824
+        value: 1.2.3.1
+      fullName:
+        evidences:
+        - code: ECO:0000312
+          source:
+            id: HGNC:553
+            name: HGNC
+            url: https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=HGNC:553
+        value: Aldehyde oxidase
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Wright R.M.
+      - Vaitaitis G.M.
+      - Wilson C.M.
+      - Repine T.B.
+      - Terada L.S.
+      - Repine J.E.
+      dbReferences:
+      - id: '8248161'
+        type: PubMed
+      - id: 10.1073/pnas.90.22.10690
+        type: DOI
+      location:
+        firstPage: '10690'
+        lastPage: '10694'
+        volume: '90'
+      publication:
+        journalName: Proc. Natl. Acad. Sci. U.S.A.
+      publicationDate: '1993'
+      title: cDNA cloning, characterization, and tissue-specific expression of human
+        xanthine dehydrogenase/xanthine oxidase.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+    - TISSUE SPECIFICITY
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Wright R.M.
+      - Weigel L.K.
+      - Varella-Garcia M.
+      - Vaitaitis G.
+      - Repine J.E.
+      location:
+        firstPage: '135'
+        lastPage: '144'
+        volume: '3'
+      publication:
+        journalName: Redox Rep.
+      publicationDate: '1997'
+      title: Molecular cloning, refined chromosomal mapping, and structural analysis
+        of the human gene encoding aldehyde oxidase (AOX1), a candidate for the ALS2
+        gene.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+  - citation:
+      authors:
+      - Ichida K.
+      - Matsumura T.
+      - Sakuma R.
+      - Hosoya T.
+      - Nishino T.
+      dbReferences:
+      - id: '11302742'
+        type: PubMed
+      - id: 10.1006/bbrc.2001.4719
+        type: DOI
+      location:
+        firstPage: '1194'
+        lastPage: '1200'
+        volume: '282'
+      publication:
+        journalName: Biochem. Biophys. Res. Commun.
+      publicationDate: '2001'
+      title: Mutation of human molybdenum cofactor sulfurase gene is responsible to
+        classical xanthinuria type II.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Hillier L.W.
+      - Graves T.A.
+      - Fulton R.S.
+      - Fulton L.A.
+      - Pepin K.H.
+      - Minx P.
+      - Wagner-McPherson C.
+      - Layman D.
+      - Wylie K.
+      - Sekhon M.
+      - Becker M.C.
+      - Fewell G.A.
+      - Delehaunty K.D.
+      - Miner T.L.
+      - Nash W.E.
+      - Kremitzki C.
+      - Oddy L.
+      - Du H.
+      - Sun H.
+      - Bradshaw-Cordum H.
+      - Ali J.
+      - Carter J.
+      - Cordes M.
+      - Harris A.
+      - Isak A.
+      - van Brunt A.
+      - Nguyen C.
+      - Du F.
+      - Courtney L.
+      - Kalicki J.
+      - Ozersky P.
+      - Abbott S.
+      - Armstrong J.
+      - Belter E.A.
+      - Caruso L.
+      - Cedroni M.
+      - Cotton M.
+      - Davidson T.
+      - Desai A.
+      - Elliott G.
+      - Erb T.
+      - Fronick C.
+      - Gaige T.
+      - Haakenson W.
+      - Haglund K.
+      - Holmes A.
+      - Harkins R.
+      - Kim K.
+      - Kruchowski S.S.
+      - Strong C.M.
+      - Grewal N.
+      - Goyea E.
+      - Hou S.
+      - Levy A.
+      - Martinka S.
+      - Mead K.
+      - McLellan M.D.
+      - Meyer R.
+      - Randall-Maher J.
+      - Tomlinson C.
+      - Dauphin-Kohlberg S.
+      - Kozlowicz-Reilly A.
+      - Shah N.
+      - Swearengen-Shahid S.
+      - Snider J.
+      - Strong J.T.
+      - Thompson J.
+      - Yoakum M.
+      - Leonard S.
+      - Pearman C.
+      - Trani L.
+      - Radionenko M.
+      - Waligorski J.E.
+      - Wang C.
+      - Rock S.M.
+      - Tin-Wollam A.-M.
+      - Maupin R.
+      - Latreille P.
+      - Wendl M.C.
+      - Yang S.-P.
+      - Pohl C.
+      - Wallis J.W.
+      - Spieth J.
+      - Bieri T.A.
+      - Berkowicz N.
+      - Nelson J.O.
+      - Osborne J.
+      - Ding L.
+      - Meyer R.
+      - Sabo A.
+      - Shotland Y.
+      - Sinha P.
+      - Wohldmann P.E.
+      - Cook L.L.
+      - Hickenbotham M.T.
+      - Eldred J.
+      - Williams D.
+      - Jones T.A.
+      - She X.
+      - Ciccarelli F.D.
+      - Izaurralde E.
+      - Taylor J.
+      - Schmutz J.
+      - Myers R.M.
+      - Cox D.R.
+      - Huang X.
+      - McPherson J.D.
+      - Mardis E.R.
+      - Clifton S.W.
+      - Warren W.C.
+      - Chinwalla A.T.
+      - Eddy S.R.
+      - Marra M.A.
+      - Ovcharenko I.
+      - Furey T.S.
+      - Miller W.
+      - Eichler E.E.
+      - Bork P.
+      - Suyama M.
+      - Torrents D.
+      - Waterston R.H.
+      - Wilson R.K.
+      dbReferences:
+      - id: '15815621'
+        type: PubMed
+      - id: 10.1038/nature03466
+        type: DOI
+      location:
+        firstPage: '724'
+        lastPage: '731'
+        volume: '434'
+      publication:
+        journalName: Nature
+      publicationDate: '2005'
+      title: Generation and annotation of the DNA sequences of human chromosomes 2
+        and 4.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      authors:
+      - Mural R.J.
+      - Istrail S.
+      - Sutton G.G.
+      - Florea L.
+      - Halpern A.L.
+      - Mobarry C.M.
+      - Lippert R.
+      - Walenz B.
+      - Shatkay H.
+      - Dew I.
+      - Miller J.R.
+      - Flanigan M.J.
+      - Edwards N.J.
+      - Bolanos R.
+      - Fasulo D.
+      - Halldorsson B.V.
+      - Hannenhalli S.
+      - Turner R.
+      - Yooseph S.
+      - Lu F.
+      - Nusskern D.R.
+      - Shue B.C.
+      - Zheng X.H.
+      - Zhong F.
+      - Delcher A.L.
+      - Huson D.H.
+      - Kravitz S.A.
+      - Mouchard L.
+      - Reinert K.
+      - Remington K.A.
+      - Clark A.G.
+      - Waterman M.S.
+      - Eichler E.E.
+      - Adams M.D.
+      - Hunkapiller M.W.
+      - Myers E.W.
+      - Venter J.C.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: JUL-2005
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      consortiums:
+      - The MGC Project Team
+      dbReferences:
+      - id: '15489334'
+        type: PubMed
+      - id: 10.1101/gr.2596504
+        type: DOI
+      location:
+        firstPage: '2121'
+        lastPage: '2127'
+        volume: '14'
+      publication:
+        journalName: Genome Res.
+      publicationDate: '2004'
+      title: 'The status, quality, and expansion of the NIH full-length cDNA project:
+        the Mammalian Gene Collection (MGC).'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]
+    source:
+      tissue:
+      - value: Colon
+  - citation:
+      authors:
+      - Beedham C.
+      - Critchley D.J.
+      - Rance D.J.
+      dbReferences:
+      - id: '7786031'
+        type: PubMed
+      - id: 10.1006/abbi.1995.1320
+        type: DOI
+      location:
+        firstPage: '481'
+        lastPage: '490'
+        volume: '319'
+      publication:
+        journalName: Arch. Biochem. Biophys.
+      publicationDate: '1995'
+      title: 'Substrate specificity of human liver aldehyde oxidase toward substituted
+        quinazolines and phthalazines: a comparison with hepatic enzyme from guinea
+        pig, rabbit, and baboon.'
+      type: journal article
+    scope:
+    - FUNCTION AS AZAHETEROCYCLE OXIDASE
+    - SUBSTRATE SPECIFICITY
+  - citation:
+      authors:
+      - Rashidi M.R.
+      - Smith J.A.
+      - Clarke S.E.
+      - Beedham C.
+      dbReferences:
+      - id: '9224775'
+        type: PubMed
+      location:
+        firstPage: '805'
+        lastPage: '813'
+        volume: '25'
+      publication:
+        journalName: Drug Metab. Dispos.
+      publicationDate: '1997'
+      title: In vitro oxidation of famciclovir and 6-deoxypenciclovir by aldehyde
+        oxidase from human, guinea pig, rabbit, and rat liver.
+      type: journal article
+    scope:
+    - FUNCTION AS AZAHETEROCYCLE OXIDASE
+    - CATALYTIC ACTIVITY
+    - ACTIVITY REGULATION
+    - BIOPHYSICOCHEMICAL PROPERTIES
+  - citation:
+      authors:
+      - Neumeier M.
+      - Weigert J.
+      - Schaeffler A.
+      - Weiss T.S.
+      - Schmidl C.
+      - Buettner R.
+      - Bollheimer C.
+      - Aslanidis C.
+      - Schoelmerich J.
+      - Buechler C.
+      dbReferences:
+      - id: '17022944'
+        type: PubMed
+      - id: 10.1016/j.bbrc.2006.09.101
+        type: DOI
+      location:
+        firstPage: '731'
+        lastPage: '735'
+        volume: '350'
+      publication:
+        journalName: Biochem. Biophys. Res. Commun.
+      publicationDate: '2006'
+      title: Aldehyde oxidase 1 is highly abundant in hepatic steatosis and is down-regulated
+        by adiponectin and fenofibric acid in hepatocytes in vitro.
+      type: journal article
+    scope:
+    - INDUCTION
+  - citation:
+      authors:
+      - Garattini E.
+      - Fratelli M.
+      - Terao M.
+      dbReferences:
+      - id: '18066686'
+        type: PubMed
+      - id: 10.1007/s00018-007-7398-y
+        type: DOI
+      location:
+        firstPage: '1019'
+        lastPage: '1048'
+        volume: '65'
+      publication:
+        journalName: Cell. Mol. Life Sci.
+      publicationDate: '2008'
+      title: 'Mammalian aldehyde oxidases: genetics, evolution and biochemistry.'
+      type: journal article
+    scope:
+    - REVIEW
+    - NOMENCLATURE
+    - TISSUE SPECIFICITY
+  - citation:
+      authors:
+      - Weigert J.
+      - Neumeier M.
+      - Bauer S.
+      - Mages W.
+      - Schnitzbauer A.A.
+      - Obed A.
+      - Groeschl B.
+      - Hartmann A.
+      - Schaeffler A.
+      - Aslanidis C.
+      - Schoelmerich J.
+      - Buechler C.
+      dbReferences:
+      - id: '18671973'
+        type: PubMed
+      - id: 10.1016/j.febslet.2008.07.034
+        type: DOI
+      location:
+        firstPage: '2965'
+        lastPage: '2972'
+        volume: '582'
+      publication:
+        journalName: FEBS Lett.
+      publicationDate: '2008'
+      title: Small-interference RNA-mediated knock-down of aldehyde oxidase 1 in 3T3-L1
+        cells impairs adipogenesis and adiponectin release.
+      type: journal article
+    scope:
+    - TISSUE SPECIFICITY
+    - DEVELOPMENTAL STAGE
+    - SUBCELLULAR LOCATION
+  - citation:
+      authors:
+      - Zientek M.
+      - Jiang Y.
+      - Youdim K.
+      - Obach R.S.
+      dbReferences:
+      - id: '20444863'
+        type: PubMed
+      - id: 10.1124/dmd.110.033555
+        type: DOI
+      location:
+        firstPage: '1322'
+        lastPage: '1327'
+        volume: '38'
+      publication:
+        journalName: Drug Metab. Dispos.
+      publicationDate: '2010'
+      title: In vitro-in vivo correlation for intrinsic clearance for drugs metabolized
+        by human aldehyde oxidase.
+      type: journal article
+    scope:
+    - FUNCTION AS DRUG-METABOLIZING ENZYME
+    - SUBSTRATE SPECIFICITY
+    - TISSUE SPECIFICITY
+    - SUBCELLULAR LOCATION
+  - citation:
+      authors:
+      - Hutzler J.M.
+      - Yang Y.S.
+      - Albaugh D.
+      - Fullenwider C.L.
+      - Schmenk J.
+      - Fisher M.B.
+      dbReferences:
+      - id: '22031625'
+        type: PubMed
+      - id: 10.1124/dmd.111.042861
+        type: DOI
+      location:
+        firstPage: '267'
+        lastPage: '275'
+        volume: '40'
+      publication:
+        journalName: Drug Metab. Dispos.
+      publicationDate: '2012'
+      title: Characterization of aldehyde oxidase enzyme activity in cryopreserved
+        human hepatocytes.
+      type: journal article
+    scope:
+    - FUNCTION AS DRUG-METABOLIZING ENZYME
+    - ACTIVITY REGULATION
+    - SUBSTRATE SPECIFICITY
+    - TISSUE SPECIFICITY
+  - citation:
+      authors:
+      - Strelevitz T.J.
+      - Orozco C.C.
+      - Obach R.S.
+      dbReferences:
+      - id: '22522748'
+        type: PubMed
+      - id: 10.1124/dmd.112.045195
+        type: DOI
+      location:
+        firstPage: '1441'
+        lastPage: '1448'
+        volume: '40'
+      publication:
+        journalName: Drug Metab. Dispos.
+      publicationDate: '2012'
+      title: 'Hydralazine as a selective probe inactivator of aldehyde oxidase in
+        human hepatocytes: estimation of the contribution of aldehyde oxidase to metabolic
+        clearance.'
+      type: journal article
+    scope:
+    - FUNCTION AS DRUG-METABOLIZING ENZYME
+    - ACTIVITY REGULATION
+    - SUBSTRATE SPECIFICITY
+    - TISSUE SPECIFICITY
+  - citation:
+      authors:
+      - Garattini E.
+      - Terao M.
+      dbReferences:
+      - id: '22335465'
+        type: PubMed
+      - id: 10.1517/17425255.2012.663352
+        type: DOI
+      location:
+        firstPage: '487'
+        lastPage: '503'
+        volume: '8'
+      publication:
+        journalName: Expert Opin. Drug Metab. Toxicol.
+      publicationDate: '2012'
+      title: The role of aldehyde oxidase in drug metabolism.
+      type: journal article
+    scope:
+    - REVIEW
+  - citation:
+      authors:
+      - Barr J.T.
+      - Jones J.P.
+      dbReferences:
+      - id: '22996261'
+        type: PubMed
+      - id: 10.1124/dmd.112.048546
+        type: DOI
+      location:
+        firstPage: '24'
+        lastPage: '29'
+        volume: '41'
+      publication:
+        journalName: Drug Metab. Dispos.
+      publicationDate: '2013'
+      title: Evidence for substrate-dependent inhibition profiles for human liver
+        aldehyde oxidase.
+      type: journal article
+    scope:
+    - FUNCTION AS AZAHETEROCYCLE OXIDASE
+    - CATALYTIC ACTIVITY
+    - ACTIVITY REGULATION
+    - BIOPHYSICOCHEMICAL PROPERTIES
+  - citation:
+      authors:
+      - Fu C.
+      - Di L.
+      - Han X.
+      - Soderstrom C.
+      - Snyder M.
+      - Troutman M.D.
+      - Obach R.S.
+      - Zhang H.
+      dbReferences:
+      - id: '23857892'
+        type: PubMed
+      - id: 10.1124/dmd.113.053082
+        type: DOI
+      location:
+        firstPage: '1797'
+        lastPage: '1804'
+        volume: '41'
+      publication:
+        journalName: Drug Metab. Dispos.
+      publicationDate: '2013'
+      title: 'Aldehyde oxidase 1 (AOX1) in human liver cytosols: quantitative characterization
+        of AOX1 expression level and activity relationship.'
+      type: journal article
+    scope:
+    - FUNCTION AS DRUG-METABOLIZING ENZYME
+    - SUBSTRATE SPECIFICITY
+    - TISSUE SPECIFICITY
+    - SUBCELLULAR LOCATION
+    - IDENTIFICATION BY MASS SPECTROMETRY
+  - citation:
+      authors:
+      - Bian Y.
+      - Song C.
+      - Cheng K.
+      - Dong M.
+      - Wang F.
+      - Huang J.
+      - Sun D.
+      - Wang L.
+      - Ye M.
+      - Zou H.
+      dbReferences:
+      - id: '24275569'
+        type: PubMed
+      - id: 10.1016/j.jprot.2013.11.014
+        type: DOI
+      location:
+        firstPage: '253'
+        lastPage: '262'
+        volume: '96'
+      publication:
+        journalName: J. Proteomics
+      publicationDate: '2014'
+      title: An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+        phosphoproteome.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-1068
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Coelho C.
+      - Foti A.
+      - Hartmann T.
+      - Santos-Silva T.
+      - Leimkuhler S.
+      - Romao M.J.
+      dbReferences:
+      - id: '26322824'
+        type: PubMed
+      - id: 10.1038/nchembio.1895
+        type: DOI
+      location:
+        firstPage: '779'
+        lastPage: '783'
+        volume: '11'
+      publication:
+        journalName: Nat. Chem. Biol.
+      publicationDate: '2015'
+      title: Structural insights into xenobiotic and inhibitor binding to human aldehyde
+        oxidase.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (2.60 ANGSTROMS) IN COMPLEX WITH FAD; IRON-SULFUR (2FE-2S);
+      MOLYBDOPTERIN; AN INHIBITOR AND SUBSTRATE
+    - SUBUNIT
+    - CATALYTIC ACTIVITY
+    - ACTIVITY REGULATION
+    - FUNCTION
+    - COFACTOR
+  - citation:
+      authors:
+      - Foti A.
+      - Hartmann T.
+      - Coelho C.
+      - Santos-Silva T.
+      - Romao M.J.
+      - Leimkuhler S.
+      dbReferences:
+      - id: '26842593'
+        type: PubMed
+      - id: 10.1124/dmd.115.068395
+        type: DOI
+      location:
+        firstPage: '1277'
+        lastPage: '1285'
+        volume: '44'
+      publication:
+        journalName: Drug Metab. Dispos.
+      publicationDate: '2016'
+      title: Optimization of the Expression of Human Aldehyde Oxidase for Investigations
+        of Single-Nucleotide Polymorphisms.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (3.39 ANGSTROMS) OF VARIANT LEU-1271 IN COMPLEX WITH FAD;
+      IRON-SULFUR (2FE-2S) AND MOLYBDOPTERIN
+    - CHARACTERIZATION OF VARIANT LEU-1271
+    - FUNCTION
+    - SUBUNIT
+    - COFACTOR
+    - MUTAGENESIS OF CYS-44 AND GLY-1269
+    - BIOPHYSICOCHEMICAL PROPERTIES
+  - citation:
+      authors:
+      - Hartmann T.
+      - Terao M.
+      - Garattini E.
+      - Teutloff C.
+      - Alfaro J.F.
+      - Jones J.P.
+      - Leimkuehler S.
+      dbReferences:
+      - id: '22279051'
+        type: PubMed
+      - id: 10.1124/dmd.111.043828
+        type: DOI
+      location:
+        firstPage: '856'
+        lastPage: '864'
+        volume: '40'
+      publication:
+        journalName: Drug Metab. Dispos.
+      publicationDate: '2012'
+      title: The impact of single nucleotide polymorphisms on human aldehyde oxidase.
+      type: journal article
+    scope:
+    - VARIANTS CYS-802; HIS-921; SER-1135; LEU-1271 AND ARG-1297
+    - CHARACTERIZATION OF VARIANTS CYS-802; HIS-921; SER-1135 AND ARG-1297
+    - FUNCTION AS OXIDASE
+    - HOMODIMER
+    - COFACTOR
+    - SUBSTRATE SPECIFICITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+  secondaryAccession:
+  - O14765
+  - Q53RR8
+  - Q53TV3
+  - Q9BYF0
+  - Q9UPG6
+  sequence:
+    length: 1338
+    mass: 147918
+    modified: '2008-11-25'
+    sequence: MDRASELLFYVNGRKVIEKNVDPETMLLPYLRKKLRLTGTKYGCGGGGCGACTVMISRYNPITKRIRHHPANACLIPICSLYGAAVTTVEGIGSTHTRIHPVQERIAKCHGTQCGFCTPGMVMSIYTLLRNHPEPTLDQLTDALGGNLCRCTGYRPIIDACKTFCKTSGCCQSKENGVCCLDQGINGLPEFEEGSKTSPKLFAEEEFLPLDPTQELIFPPELMIMAEKQSQRTRVFGSERMMWFSPVTLKELLEFKFKYPQAPVIMGNTSVGPEVKFKGVFHPVIISPDRIEELSVVNHAYNGLTLGAGLSLAQVKDILADVVQKLPEEKTQMYHALLKHLGTLAGSQIRNMASLGGHIISRHPDSDLNPILAVGNCTLNLLSKEGKRQIPLNEQFLSKCPNADLKPQEILVSVNIPYSRKWEFVSAFRQAQRQENALAIVNSGMRVFFGEGDGIIRELCISYGGVGPATICAKNSCQKLIGRHWNEQMLDIACRLILNEVSLLGSAPGGKVEFKRTLIISFLFKFYLEVSQILKKMDPVHYPSLADKYESALEDLHSKHHCSTLKYQNIGPKQHPEDPIGHPIMHLSGVKHATGEAIYCDDMPLVDQELFLTFVTSSRAHAKIVSIDLSEALSMPGVVDIMTAEHLSDVNSFCFFTEAEKFLATDKVFCVGQLVCAVLADSEVQAKRAAKRVKIVYQDLEPLILTIEESIQHNSSFKPERKLEYGNVDEAFKVVDQILEGEIHMGGQEHFYMETQSMLVVPKGEDQEMDVYVSTQFPKYIQDIVASTLKLPANKVMCHVRRVGGAFGGKVLKTGIIAAVTAFAANKHGRAVRCVLERGEDMLITGGRHPYLGKYKAGFMNDGRILALDMEHYSNAGASLDESLFVIEMGLLKMDNAYKFPNLRCRGWACRTNLPSNTAFRGFGFPQAALITESCITEVAAKCGLSPEKVRIINMYKEIDQTPYKQEINAKNLIQCWRECMAMSSYSLRKVAVEKFNAENYWKKKGLAMVPLKFPVGLGSRAAGQAAALVHIYLDGSVLVTHGGIEMGQGVHTKMIQVVSRELRMPMSNVHLRGTSTETVPNANISGGSVVADLNGLAVKDACQTLLKRLEPIISKNPKGTWKDWAQTAFDESINLSAVGYFRGYESDMNWEKGEGQPFEYFVYGAACSEVEIDCLTGDHKNIRTDIVMDVGCSINPAIDIGQIEGAFIQGMGLYTIEELNYSPQGILHTRGPDQYKIPAICDMPTELHIALLPPSQNSNTLYSSKGLGESGVFLGCSVFFAIHDAVSAARQERGLHGPLTLNSPLTPEKIRMACEDKFTKMIPRDEPGSYVPWNVPI
+    version: 2
+uniprot_id: Q06278

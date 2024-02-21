@@ -1,0 +1,4520 @@
+data:
+  accession: P31645
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P31652
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P31652
+      - code: ECO:0000250
+        source:
+          id: Q60857
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/Q60857
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10407194
+          id: '10407194'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10407194
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12869649
+          id: '12869649'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12869649
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17506858
+          id: '17506858'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17506858
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18317590
+          id: '18317590'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18317590
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21730057
+          id: '21730057'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21730057
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/27049939
+          id: '27049939'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/27756841
+          id: '27756841'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/27756841
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/34851672
+          id: '34851672'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/34851672
+      value: Serotonin transporter that cotransports serotonin with one Na(+) ion
+        in exchange for one K(+) ion and possibly one proton in an overall electroneutral
+        transport cycle. Transports serotonin across the plasma membrane from the
+        extracellular compartment to the cytosol thus limiting serotonin intercellular
+        signaling (PubMed:27756841, PubMed:34851672, PubMed:21730057, PubMed:10407194,
+        PubMed:27049939, PubMed:12869649). Essential for serotonin homeostasis in
+        the central nervous system. In the developing somatosensory cortex, acts in
+        glutamatergic neurons to control serotonin uptake and its trophic functions
+        accounting for proper spatial organization of cortical neurons and elaboration
+        of sensory circuits. In the mature cortex, acts primarily in brainstem raphe
+        neurons to mediate serotonin uptake from the synaptic cleft back into the
+        pre-synaptic terminal thus terminating serotonin signaling at the synapse
+        (By similarity). Modulates mucosal serotonin levels in the gastrointestinal
+        tract through uptake and clearance of serotonin in enterocytes. Required for
+        enteric neurogenesis and gastrointestinal reflexes (By similarity). Regulates
+        blood serotonin levels by ensuring rapid high affinity uptake of serotonin
+        from plasma to platelets, where it is further stored in dense granules via
+        vesicular monoamine transporters and then released upon stimulation (PubMed:17506858,
+        PubMed:18317590). Mechanistically, the transport cycle starts with an outward-open
+        conformation having Na1(+) and Cl(-) sites occupied. The binding of a second
+        extracellular Na2(+) ion and serotonin substrate leads to structural changes
+        to outward-occluded to inward-occluded to inward-open, where the Na2(+) ion
+        and serotonin are released into the cytosol. Binding of intracellular K(+)
+        ion induces conformational transitions to inward-occluded to outward-open
+        and completes the cycle by releasing K(+) possibly together with a proton
+        bound to Asp-98 into the extracellular compartment. Na1(+) and Cl(-) ions
+        remain bound throughout the transport cycle (PubMed:27756841, PubMed:34851672,
+        PubMed:21730057, PubMed:10407194, PubMed:27049939, PubMed:12869649). Additionally,
+        displays serotonin-induced channel-like conductance for monovalent cations,
+        mainly Na(+) ions. The channel activity is uncoupled from the transport cycle
+        and may contribute to the membrane resting potential or excitability (By similarity)
+    type: FUNCTION
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:75840
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10407194
+          id: '10407194'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10407194
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12869649
+          id: '12869649'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12869649
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21730057
+          id: '21730057'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21730057
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/27049939
+          id: '27049939'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/27756841
+          id: '27756841'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/27756841
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/34851672
+          id: '34851672'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/34851672
+    reaction:
+      dbReferences:
+      - id: RHEA:75839
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:29101
+        type: ChEBI
+      - id: CHEBI:29103
+        type: ChEBI
+      - id: CHEBI:350546
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10407194
+          id: '10407194'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10407194
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12869649
+          id: '12869649'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12869649
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21730057
+          id: '21730057'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21730057
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/27049939
+          id: '27049939'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/27756841
+          id: '27756841'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/27756841
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/34851672
+          id: '34851672'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/34851672
+      name: H(+)(in) + K(+)(in) + Na(+)(out) + serotonin(out) = H(+)(out) + K(+)(out)
+        + Na(+)(in) + serotonin(in)
+    type: CATALYTIC_ACTIVITY
+  - kinetics:
+      km:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12869649
+            id: '12869649'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12869649
+        value: 1.28 uM for serotonin
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17506858
+            id: '17506858'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17506858
+        value: 0.98 uM for serotonin
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/10407194
+            id: '10407194'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/10407194
+        value: 0.28 uM for serotonin
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/27049939
+            id: '27049939'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+        value: 1.9 uM for serotonin
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/21730057
+            id: '21730057'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/21730057
+        value: 0.9 uM for serotonin
+      vmax:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12869649
+            id: '12869649'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12869649
+        value: 1.73 pmol/min/mg enzyme for serotonin
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17506858
+            id: '17506858'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17506858
+        value: 1.58 pmol/min/mg enzyme for serotonin
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/10407194
+            id: '10407194'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/10407194
+        value: 15.0 pmol/min/mg enzyme for serotonin
+    type: BIOPHYSICOCHEMICAL_PROPERTIES
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P31652
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P31652
+      - code: ECO:0000250
+        source:
+          id: Q60857
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/Q60857
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16803896
+          id: '16803896'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16803896
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16870614
+          id: '16870614'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16870614
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18317590
+          id: '18317590'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18317590
+      value: Monomer or homooligomer (By similarity). Interacts with TGFB1I1 (PubMed:16803896).
+        Interacts with SEC23A, SEC24C and PATJ. Interacts with NOS1; the interaction
+        may diminish the cell surface localization of SERT in the brain and, correspondingly,
+        reduce serotonin reuptake. Interacts with filamentous actin and STX1A (By
+        similarity). Interacts (via the N-terminus) with STX1A (via the H3 domain);
+        this interaction regulates SLC4A6 channel conductance (By similarity). Interacts
+        (via C-terminus) with SCAMP2; the interaction is direct and retains transporter
+        molecules intracellularly (PubMed:16870614). Interacts with ITGAV:ITGB3 (PubMed:18317590).
+        Interacts (via C-terminus) with ITGB3; this interaction regulates SLC6A4 trafficking
+        (PubMed:18317590)
+    type: SUBUNIT
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12869649
+            id: '12869649'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12869649
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16870614
+            id: '16870614'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16870614
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17506858
+            id: '17506858'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17506858
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/27049939
+            id: '27049939'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+        value: Cell membrane
+      topology:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/27049939
+            id: '27049939'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+        value: Multi-pass membrane protein
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16870614
+            id: '16870614'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16870614
+        value: Endomembrane system
+      topology:
+        evidences:
+        - code: ECO:0000255
+        value: Multi-pass membrane protein
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16870614
+            id: '16870614'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16870614
+        value: Endosome membrane
+      topology:
+        evidences:
+        - code: ECO:0000255
+        value: Multi-pass membrane protein
+    - location:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: Q60857
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/Q60857
+        value: Synapse
+    - location:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: Q60857
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/Q60857
+        value: Cell junction, focal adhesion
+    - location:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: Q60857
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/Q60857
+        value: Cell projection, neuron projection
+    text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P31652
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P31652
+      - code: ECO:0000250
+        source:
+          id: Q60857
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/Q60857
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16870614
+          id: '16870614'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16870614
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17506858
+          id: '17506858'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17506858
+      value: Could be part of recycling endosomes (PubMed:16870614). Density of transporter
+        molecules on the plasma membrane is itself regulated by STX1A (By similarity).
+        Density of transporter molecules on the plasma membrane is also regulated
+        by serotonin (PubMed:17506858). Density of transporter molecules seems to
+        be modulated by ITGAV:ITGB3 (By similarity)
+    type: SUBCELLULAR_LOCATION
+  - event:
+    - Alternative splicing
+    isoforms:
+    - ids:
+      - P31645-1
+      name:
+        value: '1'
+      sequenceStatus: displayed
+    - ids:
+      - P31645-2
+      name:
+        value: '2'
+      sequence:
+      - VSP_046553
+      sequenceStatus: described
+    type: ALTERNATIVE_PRODUCTS
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17506858
+          id: '17506858'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17506858
+      value: Expressed in platelets (at protein level)
+    type: TISSUE_SPECIFICITY
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17913921
+          id: '17913921'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17913921
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21992875
+          id: '21992875'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21992875
+      value: Phosphorylation at Thr-276 increases 5-HT uptake and is required for
+        cGMP-mediated SERT regulation
+    type: PTM
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12869766
+          id: '12869766'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12869766
+      value: A polymorphism in the promoter region (5-HTT gene-linked polymorphic
+        region, 5-HTTLPR) is located approximately 1 kb upstream of the transcription
+        initiation site and is composed of 16 repeat elements. The polymorphism consists
+        of a 44-bp insertion or deletion involving repeat elements 6 to 8. The short
+        allele is associated with lower transcriptional efficiency of the promoter
+        compared with the long allele. Over half of the Caucasian population has a
+        short allele. Individuals with one or two copies of the short allele exhibit
+        more depressive symptoms, diagnosable depression and suicidality in relation
+        to stressful life events than individuals homozygous for the long allele
+    type: POLYMORPHISM
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15108187
+          id: '15108187'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15108187
+      value: The 5-HTTLPR polymorphism may influence susceptibility to anxiety [MIM:607834]
+    type: POLYMORPHISM
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12869649
+          id: '12869649'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12869649
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/14593431
+          id: '14593431'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/14593431
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17913921
+          id: '17913921'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17913921
+      value: The polymorphism Val-425 seems to be linked to a susceptibility to obsessive-compulsive
+        disorder (OCD) [MIM:164230]
+    type: POLYMORPHISM
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15635638
+          id: '15635638'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15635638
+      value: Genetic variations in SLC6A4 determine the genetic susceptibility to
+        alcoholism [MIM:103780]
+    type: POLYMORPHISM
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15995945
+          id: '15995945'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15995945
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18957375
+          id: '18957375'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18957375
+      value: Polymorphisms that alter SLC6A4 expression or function may increase the
+        susceptibility to autism
+    type: POLYMORPHISM
+  - text:
+    - value: This protein is the target of psychomotor stimulants such as amphetamines
+        or cocaine
+    type: MISCELLANEOUS
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family.
+        SLC6A4 subfamily
+    type: SIMILARITY
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19270731
+          id: '19270731'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19270731
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/30707744
+          id: '30707744'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/30707744
+      value: Was reported to interact with VIM, however the paper was retracted as
+        some results and conclusions are not reliable
+    type: CAUTION
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18227069
+          id: '18227069'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18227069
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/31201246
+          id: '31201246'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/31201246
+      value: Was reported to interact with RAB4 and to be induced by serotonin, however
+        the paper was retracted as some results and conclusions are not reliable
+    type: CAUTION
+  - name: Wikipedia
+    text: Serotonin transporter entry
+    type: WEBRESOURCE
+    url: https://en.wikipedia.org/wiki/Serotonin_transporter
+  - name: Protein Spotlight
+    text: Love, love, love... -Issue 123 of November 2010
+    type: WEBRESOURCE
+    url: https://web.expasy.org/spotlight/back_issues/123
+  - name: NIEHS-SNPs
+    type: WEBRESOURCE
+    url: http://egp.gs.washington.edu/data/slc6a4/
+  dbReferences:
+  - id: X70697
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAA50029.1
+    type: EMBL
+  - id: L05568
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA35492.1
+    type: EMBL
+  - id: AY902473
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAW80933.1
+    type: EMBL
+  - id: EU099989
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: ABV02581.1
+    type: EMBL
+  - id: BC069484
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH69484.1
+    type: EMBL
+  - id: U79746
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB93475.1
+    type: EMBL
+  - id: AK308014
+    properties:
+      molecule type: mRNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: CCDS11256.1
+    isoform: P31645-1
+    type: CCDS
+  - id: A47398
+    properties:
+      entry name: A47398
+    type: PIR
+  - id: NP_001036.1
+    isoform: P31645-1
+    properties:
+      nucleotide sequence ID: NM_001045.5
+    type: RefSeq
+  - id: 5I6X
+    properties:
+      chains: A=76-618
+      method: X-ray
+      resolution: 3.14 A
+    type: PDB
+  - id: 5I6Z
+    properties:
+      chains: A=76-618
+      method: X-ray
+      resolution: 4.53 A
+    type: PDB
+  - id: 5I71
+    properties:
+      chains: A=76-618
+      method: X-ray
+      resolution: 3.15 A
+    type: PDB
+  - id: 5I73
+    properties:
+      chains: A=76-618
+      method: X-ray
+      resolution: 3.24 A
+    type: PDB
+  - id: 5I74
+    properties:
+      chains: A=76-618
+      method: X-ray
+      resolution: 3.40 A
+    type: PDB
+  - id: 5I75
+    properties:
+      chains: A=76-618
+      method: X-ray
+      resolution: 3.49 A
+    type: PDB
+  - id: 6AWN
+    properties:
+      chains: A=76-618
+      method: X-ray
+      resolution: 3.62 A
+    type: PDB
+  - id: 6AWO
+    properties:
+      chains: A=76-618
+      method: X-ray
+      resolution: 3.53 A
+    type: PDB
+  - id: 6AWP
+    properties:
+      chains: A=76-618
+      method: X-ray
+      resolution: 3.80 A
+    type: PDB
+  - id: 6AWQ
+    properties:
+      chains: A=76-618
+      method: X-ray
+      resolution: 4.05 A
+    type: PDB
+  - id: 6DZV
+    properties:
+      chains: A=79-615
+      method: EM
+      resolution: 4.20 A
+    type: PDB
+  - id: 6DZW
+    properties:
+      chains: A=79-615
+      method: EM
+      resolution: 4.30 A
+    type: PDB
+  - id: 6DZY
+    properties:
+      chains: A=79-615
+      method: EM
+      resolution: 4.10 A
+    type: PDB
+  - id: 6DZZ
+    properties:
+      chains: A=78-617
+      method: EM
+      resolution: 3.60 A
+    type: PDB
+  - id: 6VRH
+    properties:
+      chains: A=1-630
+      method: EM
+      resolution: 3.30 A
+    type: PDB
+  - id: 6VRK
+    properties:
+      chains: A=1-630
+      method: EM
+      resolution: 4.10 A
+    type: PDB
+  - id: 6VRL
+    properties:
+      chains: A=1-630
+      method: EM
+      resolution: 3.80 A
+    type: PDB
+  - id: 6W2B
+    properties:
+      chains: A=76-618
+      method: X-ray
+      resolution: 4.70 A
+    type: PDB
+  - id: 6W2C
+    properties:
+      chains: A=76-618
+      method: X-ray
+      resolution: 6.30 A
+    type: PDB
+  - id: 7LI6
+    properties:
+      chains: A=79-617
+      method: EM
+      resolution: 3.50 A
+    type: PDB
+  - id: 7LI7
+    properties:
+      chains: A=79-615
+      method: EM
+      resolution: 4.10 A
+    type: PDB
+  - id: 7LI8
+    properties:
+      chains: A=79-617
+      method: EM
+      resolution: 3.90 A
+    type: PDB
+  - id: 7LI9
+    properties:
+      chains: A=79-617
+      method: EM
+      resolution: 3.90 A
+    type: PDB
+  - id: 7LIA
+    properties:
+      chains: A=79-617
+      method: EM
+      resolution: 3.30 A
+    type: PDB
+  - id: 7LWD
+    properties:
+      chains: A=77-617
+      method: EM
+      resolution: 3.65 A
+    type: PDB
+  - id: 7MGW
+    properties:
+      chains: A=79-615
+      method: EM
+      resolution: 3.50 A
+    type: PDB
+  - id: 7TXT
+    properties:
+      chains: S=77-617
+      method: EM
+      resolution: 3.00 A
+    type: PDB
+  - id: 5I6X
+    type: PDBsum
+  - id: 5I6Z
+    type: PDBsum
+  - id: 5I71
+    type: PDBsum
+  - id: 5I73
+    type: PDBsum
+  - id: 5I74
+    type: PDBsum
+  - id: 5I75
+    type: PDBsum
+  - id: 6AWN
+    type: PDBsum
+  - id: 6AWO
+    type: PDBsum
+  - id: 6AWP
+    type: PDBsum
+  - id: 6AWQ
+    type: PDBsum
+  - id: 6DZV
+    type: PDBsum
+  - id: 6DZW
+    type: PDBsum
+  - id: 6DZY
+    type: PDBsum
+  - id: 6DZZ
+    type: PDBsum
+  - id: 6VRH
+    type: PDBsum
+  - id: 6VRK
+    type: PDBsum
+  - id: 6VRL
+    type: PDBsum
+  - id: 6W2B
+    type: PDBsum
+  - id: 6W2C
+    type: PDBsum
+  - id: 7LI6
+    type: PDBsum
+  - id: 7LI7
+    type: PDBsum
+  - id: 7LI8
+    type: PDBsum
+  - id: 7LI9
+    type: PDBsum
+  - id: 7LIA
+    type: PDBsum
+  - id: 7LWD
+    type: PDBsum
+  - id: 7MGW
+    type: PDBsum
+  - id: 7TXT
+    type: PDBsum
+  - id: P31645
+    type: AlphaFoldDB
+  - id: EMD-21368
+    type: EMDB
+  - id: EMD-21369
+    type: EMDB
+  - id: EMD-21370
+    type: EMDB
+  - id: EMD-23361
+    type: EMDB
+  - id: EMD-23362
+    type: EMDB
+  - id: EMD-23363
+    type: EMDB
+  - id: EMD-23364
+    type: EMDB
+  - id: EMD-23365
+    type: EMDB
+  - id: EMD-23545
+    type: EMDB
+  - id: EMD-23830
+    type: EMDB
+  - id: EMD-26160
+    type: EMDB
+  - id: EMD-8940
+    type: EMDB
+  - id: EMD-8941
+    type: EMDB
+  - id: EMD-8942
+    type: EMDB
+  - id: EMD-8943
+    type: EMDB
+  - id: P31645
+    type: SMR
+  - id: '112423'
+    properties:
+      interactions: '23'
+    type: BioGRID
+  - id: P31645
+    properties:
+      interactions: '3'
+    type: IntAct
+  - id: P31645
+    type: MINT
+  - id: 9606.ENSP00000261707
+    type: STRING
+  - id: P31645
+    type: BindingDB
+  - id: CHEMBL228
+    type: ChEMBL
+  - id: DB01472
+    properties:
+      generic name: 4-Methoxyamphetamine
+    type: DrugBank
+  - id: DB04836
+    properties:
+      generic name: Amineptine
+    type: DrugBank
+  - id: DB05964
+    properties:
+      generic name: Amitifadine
+    type: DrugBank
+  - id: DB00321
+    properties:
+      generic name: Amitriptyline
+    type: DrugBank
+  - id: DB00543
+    properties:
+      generic name: Amoxapine
+    type: DrugBank
+  - id: DB00182
+    properties:
+      generic name: Amphetamine
+    type: DrugBank
+  - id: DB01238
+    properties:
+      generic name: Aripiprazole
+    type: DrugBank
+  - id: DB00289
+    properties:
+      generic name: Atomoxetine
+    type: DrugBank
+  - id: DB00245
+    properties:
+      generic name: Benzatropine
+    type: DrugBank
+  - id: DB04889
+    properties:
+      generic name: Bicifadine
+    type: DrugBank
+  - id: DB09016
+    properties:
+      generic name: Butriptyline
+    type: DrugBank
+  - id: DB01114
+    properties:
+      generic name: Chlorpheniramine
+    type: DrugBank
+  - id: DB00215
+    properties:
+      generic name: Citalopram
+    type: DrugBank
+  - id: DB01242
+    properties:
+      generic name: Clomipramine
+    type: DrugBank
+  - id: DB00907
+    properties:
+      generic name: Cocaine
+    type: DrugBank
+  - id: DB05688
+    properties:
+      generic name: CRx-119
+    type: DrugBank
+  - id: DB00924
+    properties:
+      generic name: Cyclobenzaprine
+    type: DrugBank
+  - id: DB12305
+    properties:
+      generic name: Dasotraline
+    type: DrugBank
+  - id: DB01151
+    properties:
+      generic name: Desipramine
+    type: DrugBank
+  - id: DB06700
+    properties:
+      generic name: Desvenlafaxine
+    type: DrugBank
+  - id: DB01191
+    properties:
+      generic name: Dexfenfluramine
+    type: DrugBank
+  - id: DB06701
+    properties:
+      generic name: Dexmethylphenidate
+    type: DrugBank
+  - id: DB00514
+    properties:
+      generic name: Dextromethorphan
+    type: DrugBank
+  - id: DB00988
+    properties:
+      generic name: Dopamine
+    type: DrugBank
+  - id: DB09167
+    properties:
+      generic name: Dosulepin
+    type: DrugBank
+  - id: DB01142
+    properties:
+      generic name: Doxepin
+    type: DrugBank
+  - id: DB00476
+    properties:
+      generic name: Duloxetine
+    type: DrugBank
+  - id: DB01363
+    properties:
+      generic name: Ephedra sinica root
+    type: DrugBank
+  - id: DB01175
+    properties:
+      generic name: Escitalopram
+    type: DrugBank
+  - id: DB09194
+    properties:
+      generic name: Etoperidone
+    type: DrugBank
+  - id: DB00574
+    properties:
+      generic name: Fenfluramine
+    type: DrugBank
+  - id: DB00472
+    properties:
+      generic name: Fluoxetine
+    type: DrugBank
+  - id: DB00176
+    properties:
+      generic name: Fluvoxamine
+    type: DrugBank
+  - id: DB00458
+    properties:
+      generic name: Imipramine
+    type: DrugBank
+  - id: DB08918
+    properties:
+      generic name: Levomilnacipran
+    type: DrugBank
+  - id: DB09195
+    properties:
+      generic name: Lorpiprazole
+    type: DrugBank
+  - id: DB00408
+    properties:
+      generic name: Loxapine
+    type: DrugBank
+  - id: DB06077
+    properties:
+      generic name: Lumateperone
+    type: DrugBank
+  - id: DB00579
+    properties:
+      generic name: Mazindol
+    type: DrugBank
+  - id: DB00454
+    properties:
+      generic name: Meperidine
+    type: DrugBank
+  - id: DB01577
+    properties:
+      generic name: Metamfetamine
+    type: DrugBank
+  - id: DB06148
+    properties:
+      generic name: Mianserin
+    type: DrugBank
+  - id: DB01454
+    properties:
+      generic name: Midomafetamine
+    type: DrugBank
+  - id: DB04896
+    properties:
+      generic name: Milnacipran
+    type: DrugBank
+  - id: DB00805
+    properties:
+      generic name: Minaprine
+    type: DrugBank
+  - id: DB00370
+    properties:
+      generic name: Mirtazapine
+    type: DrugBank
+  - id: DB01442
+    properties:
+      generic name: MMDA
+    type: DrugBank
+  - id: DB01149
+    properties:
+      generic name: Nefazodone
+    type: DrugBank
+  - id: DB09186
+    properties:
+      generic name: Nisoxetine
+    type: DrugBank
+  - id: DB04821
+    properties:
+      generic name: Nomifensine
+    type: DrugBank
+  - id: DB00540
+    properties:
+      generic name: Nortriptyline
+    type: DrugBank
+  - id: DB05422
+    properties:
+      generic name: OPC-14523
+    type: DrugBank
+  - id: DB00715
+    properties:
+      generic name: Paroxetine
+    type: DrugBank
+  - id: DB00191
+    properties:
+      generic name: Phentermine
+    type: DrugBank
+  - id: DB00721
+    properties:
+      generic name: Procaine
+    type: DrugBank
+  - id: DB00344
+    properties:
+      generic name: Protriptyline
+    type: DrugBank
+  - id: DB00852
+    properties:
+      generic name: Pseudoephedrine
+    type: DrugBank
+  - id: DB08839
+    properties:
+      generic name: Serotonin
+    type: DrugBank
+  - id: DB01104
+    properties:
+      generic name: Sertraline
+    type: DrugBank
+  - id: DB01105
+    properties:
+      generic name: Sibutramine
+    type: DrugBank
+  - id: DB06204
+    properties:
+      generic name: Tapentadol
+    type: DrugBank
+  - id: DB01079
+    properties:
+      generic name: Tegaserod
+    type: DrugBank
+  - id: DB06156
+    properties:
+      generic name: Tesofensine
+    type: DrugBank
+  - id: DB00193
+    properties:
+      generic name: Tramadol
+    type: DrugBank
+  - id: DB00656
+    properties:
+      generic name: Trazodone
+    type: DrugBank
+  - id: DB00726
+    properties:
+      generic name: Trimipramine
+    type: DrugBank
+  - id: DB00285
+    properties:
+      generic name: Venlafaxine
+    type: DrugBank
+  - id: DB00661
+    properties:
+      generic name: Verapamil
+    type: DrugBank
+  - id: DB06684
+    properties:
+      generic name: Vilazodone
+    type: DrugBank
+  - id: DB09068
+    properties:
+      generic name: Vortioxetine
+    type: DrugBank
+  - id: DB04832
+    properties:
+      generic name: Zimelidine
+    type: DrugBank
+  - id: DB09225
+    properties:
+      generic name: Zotepine
+    type: DrugBank
+  - id: P31645
+    type: DrugCentral
+  - id: '928'
+    type: GuidetoPHARMACOLOGY
+  - id: 2.A.22.1.1
+    properties:
+      family name: the neurotransmitter:sodium symporter (nss) family
+    type: TCDB
+  - id: P31645
+    properties:
+      glycosylation: 2 sites, No reported glycans
+    type: GlyCosmos
+  - id: P31645
+    properties:
+      glycosylation: 2 sites
+    type: GlyGen
+  - id: P31645
+    type: iPTMnet
+  - id: P31645
+    type: PhosphoSitePlus
+  - id: SLC6A4
+    type: BioMuta
+  - id: '400630'
+    type: DMDM
+  - id: P31645
+    type: MassIVE
+  - id: 9606-ENSP00000261707
+    type: PaxDb
+  - id: P31645
+    type: PeptideAtlas
+  - id: '54798'
+    isoform: P31645-1
+    type: ProteomicsDB
+  - id: P31645
+    properties:
+      antibodies: 2 sequenced antibodies
+    type: ABCD
+  - id: '26840'
+    properties:
+      antibodies: 398 antibodies from 36 providers
+    type: Antibodypedia
+  - id: '6532'
+    type: DNASU
+  - id: ENST00000261707.7
+    isoform: P31645-1
+    properties:
+      gene ID: ENSG00000108576.10
+      protein sequence ID: ENSP00000261707.3
+    type: Ensembl
+  - id: ENST00000401766.6
+    isoform: P31645-1
+    properties:
+      gene ID: ENSG00000108576.10
+      protein sequence ID: ENSP00000385822.2
+    type: Ensembl
+  - id: ENST00000650711.1
+    isoform: P31645-1
+    properties:
+      gene ID: ENSG00000108576.10
+      protein sequence ID: ENSP00000498537.1
+    type: Ensembl
+  - id: '6532'
+    type: GeneID
+  - id: hsa:6532
+    type: KEGG
+  - id: ENST00000650711.1
+    properties:
+      RefSeq nucleotide sequence ID: NM_001045.6
+      RefSeq protein sequence ID: NP_001036.1
+      protein sequence ID: ENSP00000498537.1
+    type: MANE-Select
+  - id: uc002hey.6
+    isoform: P31645-1
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:11050
+    type: AGR
+  - id: '6532'
+    type: CTD
+  - id: '6532'
+    type: DisGeNET
+  - id: SLC6A4
+    type: GeneCards
+  - id: HGNC:11050
+    properties:
+      gene designation: SLC6A4
+    type: HGNC
+  - id: ENSG00000108576
+    properties:
+      expression patterns: Group enriched (intestine, lung, placenta)
+    type: HPA
+  - id: SLC6A4
+    type: MalaCards
+  - id: '103780'
+    properties:
+      type: phenotype
+    type: MIM
+  - id: '164230'
+    properties:
+      type: phenotype
+    type: MIM
+  - id: '182138'
+    properties:
+      type: gene
+    type: MIM
+  - id: '607834'
+    properties:
+      type: phenotype
+    type: MIM
+  - id: NX_P31645
+    type: neXtProt
+  - id: ENSG00000108576
+    type: OpenTargets
+  - id: PA312
+    type: PharmGKB
+  - id: HostDB:ENSG00000108576
+    type: VEuPathDB
+  - id: KOG3659
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000157855
+    type: GeneTree
+  - id: P31645
+    type: InParanoid
+  - id: IAMMKGS
+    type: OMA
+  - id: 3084493at2759
+    type: OrthoDB
+  - id: P31645
+    type: PhylomeDB
+  - id: TF343812
+    type: TreeFam
+  - id: P31645
+    type: PathwayCommons
+  - id: R-HSA-380615
+    properties:
+      pathway name: Serotonin clearance from the synaptic cleft
+    type: Reactome
+  - id: P31645
+    type: SignaLink
+  - id: P31645
+    type: SIGNOR
+  - id: '6532'
+    properties:
+      hits: 15 hits in 1162 CRISPR screens
+    type: BioGRID-ORCS
+  - id: Serotonin_transporter
+    type: GeneWiki
+  - id: '6532'
+    type: GenomeRNAi
+  - id: P31645
+    properties:
+      development level: Tclin
+    type: Pharos
+  - id: PR:P31645
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 17
+    type: Proteomes
+  - id: P31645
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000108576
+    properties:
+      expression patterns: Expressed in right lung and 112 other cell types or tissues
+    type: Bgee
+  - id: P31645
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: P31645
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17506858
+        id: '17506858'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17506858
+    id: GO:0012505
+    properties:
+      source: IDA:UniProtKB
+      term: C:endomembrane system
+    type: GO
+  - id: GO:0010008
+    properties:
+      source: IEA:UniProtKB-SubCell
+      term: C:endosome membrane
+    type: GO
+  - id: GO:0005925
+    properties:
+      source: ISS:UniProtKB
+      term: C:focal adhesion
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16870614
+        id: '16870614'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16870614
+    id: GO:0045121
+    properties:
+      source: IDA:UniProtKB
+      term: C:membrane raft
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0043005
+    properties:
+      source: IBA:GO_Central
+      term: C:neuron projection
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12869649
+        id: '12869649'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12869649
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16870614
+        id: '16870614'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16870614
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17506858
+        id: '17506858'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17506858
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18317590
+        id: '18317590'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18317590
+    id: GO:0005886
+    properties:
+      source: IDA:UniProtKB
+      term: C:plasma membrane
+    type: GO
+  - id: GO:0045211
+    properties:
+      source: IEA:Ensembl
+      term: C:postsynaptic membrane
+    type: GO
+  - id: GO:0042734
+    properties:
+      source: IEA:Ensembl
+      term: C:presynaptic membrane
+    type: GO
+  - id: GO:0099154
+    properties:
+      source: IEA:Ensembl
+      term: C:serotonergic synapse
+    type: GO
+  - id: GO:0045202
+    properties:
+      source: ISS:UniProtKB
+      term: C:synapse
+    type: GO
+  - id: GO:0051015
+    properties:
+      source: ISS:UniProtKB
+      term: F:actin filament binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27756841
+        id: '27756841'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27756841
+    id: GO:0015297
+    properties:
+      source: IDA:UniProtKB
+      term: F:antiporter activity
+    type: GO
+  - id: GO:0019811
+    properties:
+      source: IEA:Ensembl
+      term: F:cocaine binding
+    type: GO
+  - id: GO:0042802
+    properties:
+      source: ISS:UniProtKB
+      term: F:identical protein binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18317590
+        id: '18317590'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18317590
+    id: GO:0005178
+    properties:
+      source: IDA:UniProtKB
+      term: F:integrin binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16024787
+        id: '16024787'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16024787
+    id: GO:0008504
+    properties:
+      source: IDA:MGI
+      term: F:monoamine transmembrane transporter activity
+    type: GO
+  - id: GO:0005261
+    properties:
+      source: ISS:UniProtKB
+      term: F:monoatomic cation channel activity
+    type: GO
+  - id: GO:0005326
+    properties:
+      source: ISS:ARUK-UCL
+      term: F:neurotransmitter transmembrane transporter activity
+    type: GO
+  - id: GO:0050998
+    properties:
+      source: IEA:Ensembl
+      term: F:nitric-oxide synthase binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/34851672
+        id: '34851672'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/34851672
+    id: GO:0051378
+    properties:
+      source: IDA:UniProtKB
+      term: F:serotonin binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10407194
+        id: '10407194'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10407194
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17506858
+        id: '17506858'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17506858
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8987735
+        id: '8987735'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8987735
+    id: GO:0005335
+    properties:
+      source: IDA:UniProtKB
+      term: F:serotonin:sodium:chloride symporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/34851672
+        id: '34851672'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/34851672
+    id: GO:0031402
+    properties:
+      source: IDA:UniProtKB
+      term: F:sodium ion binding
+    type: GO
+  - id: GO:0017075
+    properties:
+      source: IEA:Ensembl
+      term: F:syntaxin-1 binding
+    type: GO
+  - id: GO:0048854
+    properties:
+      source: ISS:BHF-UCL
+      term: P:brain morphogenesis
+    type: GO
+  - id: GO:0071321
+    properties:
+      source: IEA:Ensembl
+      term: P:cellular response to cGMP
+    type: GO
+  - id: GO:0071300
+    properties:
+      source: IEA:Ensembl
+      term: P:cellular response to retinoic acid
+    type: GO
+  - id: GO:0007623
+    properties:
+      source: IEA:Ensembl
+      term: P:circadian rhythm
+    type: GO
+  - id: GO:0048484
+    properties:
+      source: IEA:Ensembl
+      term: P:enteric nervous system development
+    type: GO
+  - id: GO:0051899
+    properties:
+      source: ISS:UniProtKB
+      term: P:membrane depolarization
+    type: GO
+  - id: GO:0007613
+    properties:
+      source: IEA:Ensembl
+      term: P:memory
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16024787
+        id: '16024787'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16024787
+    id: GO:0015844
+    properties:
+      source: IDA:MGI
+      term: P:monoamine transport
+    type: GO
+  - id: GO:0021941
+    properties:
+      source: IEA:Ensembl
+      term: P:negative regulation of cerebellar granule cell precursor proliferation
+    type: GO
+  - id: GO:0045665
+    properties:
+      source: IEA:Ensembl
+      term: P:negative regulation of neuron differentiation
+    type: GO
+  - id: GO:0046621
+    properties:
+      source: ISS:BHF-UCL
+      term: P:negative regulation of organ growth
+    type: GO
+  - id: GO:0032227
+    properties:
+      source: IEA:Ensembl
+      term: P:negative regulation of synaptic transmission, dopaminergic
+    type: GO
+  - id: GO:0006836
+    properties:
+      source: ISS:ARUK-UCL
+      term: P:neurotransmitter transport
+    type: GO
+  - id: GO:0070527
+    properties:
+      source: ISS:UniProtKB
+      term: P:platelet aggregation
+    type: GO
+  - id: GO:0045787
+    properties:
+      source: IEA:Ensembl
+      term: P:positive regulation of cell cycle
+    type: GO
+  - id: GO:0010628
+    properties:
+      source: IEA:Ensembl
+      term: P:positive regulation of gene expression
+    type: GO
+  - id: GO:0014064
+    properties:
+      source: IEA:Ensembl
+      term: P:positive regulation of serotonin secretion
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18378990
+        id: '18378990'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18378990
+    id: GO:0090067
+    properties:
+      source: IMP:UniProtKB
+      term: P:regulation of thalamus size
+    type: GO
+  - id: GO:0032355
+    properties:
+      source: IEA:Ensembl
+      term: P:response to estradiol
+    type: GO
+  - id: GO:0001666
+    properties:
+      source: IEA:Ensembl
+      term: P:response to hypoxia
+    type: GO
+  - id: GO:0007584
+    properties:
+      source: IEA:Ensembl
+      term: P:response to nutrient
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17575980
+        id: '17575980'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17575980
+    id: GO:0009636
+    properties:
+      source: IDA:UniProtKB
+      term: P:response to toxic substance
+    type: GO
+  - id: GO:0009410
+    properties:
+      source: IEA:Ensembl
+      term: P:response to xenobiotic stimulus
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16870614
+        id: '16870614'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16870614
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17506858
+        id: '17506858'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17506858
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18317590
+        id: '18317590'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18317590
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21730057
+        id: '21730057'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21730057
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27756841
+        id: '27756841'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27756841
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8987735
+        id: '8987735'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8987735
+    id: GO:0051610
+    properties:
+      source: IDA:UniProtKB
+      term: P:serotonin uptake
+    type: GO
+  - id: GO:0035176
+    properties:
+      source: ISS:BHF-UCL
+      term: P:social behavior
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0035725
+    properties:
+      source: IBA:GO_Central
+      term: P:sodium ion transmembrane transport
+    type: GO
+  - id: GO:0042713
+    properties:
+      source: IEA:Ensembl
+      term: P:sperm ejaculation
+    type: GO
+  - id: GO:0042310
+    properties:
+      source: IEA:Ensembl
+      term: P:vasoconstriction
+    type: GO
+  - id: cd11513
+    properties:
+      entry name: SLC6sbd_SERT
+      match status: '1'
+    type: CDD
+  - id: IPR000175
+    properties:
+      entry name: Na/ntran_symport
+    type: InterPro
+  - id: IPR013086
+    properties:
+      entry name: Na/ntran_symport_serotonin_N
+    type: InterPro
+  - id: IPR037272
+    properties:
+      entry name: SNS_sf
+    type: InterPro
+  - id: NF037979
+    properties:
+      entry name: Na_transp
+      match status: '1'
+    type: NCBIfam
+  - id: PTHR11616:SF105
+    properties:
+      entry name: SODIUM-DEPENDENT SEROTONIN TRANSPORTER
+      match status: '1'
+    type: PANTHER
+  - id: PTHR11616
+    properties:
+      entry name: SODIUM/CHLORIDE DEPENDENT TRANSPORTER
+      match status: '1'
+    type: PANTHER
+  - id: PF03491
+    properties:
+      entry name: 5HT_transport_N
+      match status: '1'
+    type: Pfam
+  - id: PF00209
+    properties:
+      entry name: SNF
+      match status: '1'
+    type: Pfam
+  - id: PR01203
+    properties:
+      entry name: 5HTTRANSPORT
+    type: PRINTS
+  - id: PR00176
+    properties:
+      entry name: NANEUSMPORT
+    type: PRINTS
+  - id: SSF161070
+    properties:
+      entry name: SNF-like
+      match status: '1'
+    type: SUPFAM
+  - id: PS00610
+    properties:
+      entry name: NA_NEUROTRAN_SYMP_1
+      match status: '1'
+    type: PROSITE
+  - id: PS00754
+    properties:
+      entry name: NA_NEUROTRAN_SYMP_2
+      match status: '1'
+    type: PROSITE
+  - id: PS50267
+    properties:
+      entry name: NA_NEUROTRAN_SYMP_3
+      match status: '1'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Sodium-dependent serotonin transporter
+    end: '630'
+    ftId: PRO_0000214757
+    molecule: ''
+    type: CHAIN
+  - begin: '1'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '87'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '88'
+    category: TOPOLOGY
+    description: Helical; Name=1
+    end: '112'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27049939
+        id: '27049939'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+    molecule: ''
+    type: TRANSMEM
+  - begin: '113'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '115'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '116'
+    category: TOPOLOGY
+    description: Helical; Name=2
+    end: '135'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27049939
+        id: '27049939'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+    molecule: ''
+    type: TRANSMEM
+  - begin: '136'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '160'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '161'
+    category: TOPOLOGY
+    description: Helical; Name=3
+    end: '186'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27049939
+        id: '27049939'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+    molecule: ''
+    type: TRANSMEM
+  - begin: '187'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '252'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '253'
+    category: TOPOLOGY
+    description: Helical; Name=4
+    end: '271'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27049939
+        id: '27049939'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+    molecule: ''
+    type: TRANSMEM
+  - begin: '272'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '277'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '278'
+    category: TOPOLOGY
+    description: Helical; Name=5
+    end: '297'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27049939
+        id: '27049939'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+    molecule: ''
+    type: TRANSMEM
+  - begin: '298'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '324'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '325'
+    category: TOPOLOGY
+    description: Helical; Name=6
+    end: '347'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27049939
+        id: '27049939'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+    molecule: ''
+    type: TRANSMEM
+  - begin: '348'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '360'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '361'
+    category: TOPOLOGY
+    description: Helical; Name=7
+    end: '380'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27049939
+        id: '27049939'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+    molecule: ''
+    type: TRANSMEM
+  - begin: '381'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '421'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '422'
+    category: TOPOLOGY
+    description: Helical; Name=8
+    end: '443'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27049939
+        id: '27049939'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+    molecule: ''
+    type: TRANSMEM
+  - begin: '444'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '463'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '464'
+    category: TOPOLOGY
+    description: Helical; Name=9
+    end: '483'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27049939
+        id: '27049939'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+    molecule: ''
+    type: TRANSMEM
+  - begin: '484'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '494'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '495'
+    category: TOPOLOGY
+    description: Helical; Name=10
+    end: '516'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27049939
+        id: '27049939'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+    molecule: ''
+    type: TRANSMEM
+  - begin: '517'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '538'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '539'
+    category: TOPOLOGY
+    description: Helical; Name=11
+    end: '558'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27049939
+        id: '27049939'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+    molecule: ''
+    type: TRANSMEM
+  - begin: '559'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '574'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '575'
+    category: TOPOLOGY
+    description: Helical; Name=12
+    end: '595'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27049939
+        id: '27049939'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+    molecule: ''
+    type: TRANSMEM
+  - begin: '596'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '630'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '1'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '59'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '616'
+    category: DOMAINS_AND_SITES
+    description: Interaction with RAB4A
+    end: '624'
+    molecule: ''
+    type: REGION
+  - begin: '1'
+    category: SEQUENCE_INFORMATION
+    description: Polar residues
+    end: '15'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '94'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '94'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/34851672
+        id: '34851672'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/34851672
+    - code: ECO:0000312
+      source:
+        id: 7LIA
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7LIA
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '1'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '96'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '96'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/34851672
+        id: '34851672'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/34851672
+    - code: ECO:0000305
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27049939
+        id: '27049939'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+    - code: ECO:0000312
+      source:
+        id: 7LIA
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7LIA
+    - code: ECO:0007744
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '2'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '97'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '97'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/34851672
+        id: '34851672'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/34851672
+    - code: ECO:0000312
+      source:
+        id: 7LIA
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7LIA
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '1'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '98'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '98'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/34851672
+        id: '34851672'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/34851672
+    - code: ECO:0000312
+      source:
+        id: 7LIA
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7LIA
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '2'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '98'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '98'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/34851672
+        id: '34851672'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/34851672
+    - code: ECO:0000312
+      source:
+        id: 7MGW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7MGW
+    ligand:
+      dbReference:
+        id: CHEBI:350546
+        name: ChEBI
+      name: serotonin
+    molecule: ''
+    type: BINDING
+  - begin: '101'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '101'
+    evidences:
+    - code: ECO:0000305
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27049939
+        id: '27049939'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+    - code: ECO:0007744
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '2'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '336'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '336'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/34851672
+        id: '34851672'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/34851672
+    - code: ECO:0000305
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27049939
+        id: '27049939'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+    - code: ECO:0000312
+      source:
+        id: 7LIA
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7LIA
+    - code: ECO:0007744
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '2'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '368'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '368'
+    evidences:
+    - code: ECO:0000305
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27049939
+        id: '27049939'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+    - code: ECO:0007744
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '2'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '434'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '434'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '1'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '437'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '437'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/34851672
+        id: '34851672'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/34851672
+    - code: ECO:0000312
+      source:
+        id: 7LIA
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7LIA
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '1'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '438'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '438'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '1'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '439'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '439'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/34851672
+        id: '34851672'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/34851672
+    - code: ECO:0000312
+      source:
+        id: 7LIA
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7LIA
+    - code: ECO:0000312
+      source:
+        id: 7MGW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7MGW
+    ligand:
+      dbReference:
+        id: CHEBI:350546
+        name: ChEBI
+      name: serotonin
+    molecule: ''
+    type: BINDING
+  - begin: '494'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '494'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/34851672
+        id: '34851672'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/34851672
+    - code: ECO:0000312
+      source:
+        id: 7MGW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7MGW
+    ligand:
+      dbReference:
+        id: CHEBI:350546
+        name: ChEBI
+      name: serotonin
+    molecule: ''
+    type: BINDING
+  - begin: '495'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '495'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/34851672
+        id: '34851672'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/34851672
+    - code: ECO:0000312
+      source:
+        id: 7LIA
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7LIA
+    ligand:
+      dbReference:
+        id: CHEBI:350546
+        name: ChEBI
+      name: serotonin
+    molecule: ''
+    type: BINDING
+  - begin: '556'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '556'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/34851672
+        id: '34851672'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/34851672
+    - code: ECO:0000312
+      source:
+        id: 7LIA
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7LIA
+    - code: ECO:0000312
+      source:
+        id: 7MGW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7MGW
+    ligand:
+      dbReference:
+        id: CHEBI:350546
+        name: ChEBI
+      name: serotonin
+    molecule: ''
+    type: BINDING
+  - begin: '559'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '559'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/34851672
+        id: '34851672'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/34851672
+    - code: ECO:0000312
+      source:
+        id: 7LIA
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7LIA
+    - code: ECO:0000312
+      source:
+        id: 7MGW
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7MGW
+    ligand:
+      dbReference:
+        id: CHEBI:350546
+        name: ChEBI
+      name: serotonin
+    molecule: ''
+    type: BINDING
+  - begin: '47'
+    category: PTM
+    description: Phosphotyrosine
+    end: '47'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21992875
+        id: '21992875'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21992875
+    molecule: ''
+    type: MOD_RES
+  - begin: '142'
+    category: PTM
+    description: Phosphotyrosine
+    end: '142'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21992875
+        id: '21992875'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21992875
+    molecule: ''
+    type: MOD_RES
+  - begin: '276'
+    category: PTM
+    description: Phosphothreonine; by PKG
+    end: '276'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17913921
+        id: '17913921'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17913921
+    molecule: ''
+    type: MOD_RES
+  - begin: '208'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '208'
+    evidences:
+    - code: ECO:0000255
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27049939
+        id: '27049939'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '217'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '217'
+    evidences:
+    - code: ECO:0000255
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27049939
+        id: '27049939'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27049939
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '200'
+    category: PTM
+    description: ''
+    end: '209'
+    evidences:
+    - code: ECO:0007744
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    - code: ECO:0007744
+      source:
+        id: 5I6Z
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6Z
+    - code: ECO:0007744
+      source:
+        id: 5I71
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I71
+    - code: ECO:0007744
+      source:
+        id: 5I73
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I73
+    - code: ECO:0007744
+      source:
+        id: 5I74
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I74
+    - code: ECO:0007744
+      source:
+        id: 5I75
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I75
+    molecule: ''
+    type: DISULFID
+  - begin: '1'
+    category: VARIANTS
+    end: '1'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/14702039
+        id: '14702039'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/14702039
+    ftId: VSP_046553
+    molecule: ''
+    type: VAR_SEQ
+  - alternativeSequence: A
+    begin: '56'
+    category: VARIANTS
+    description: found in 15 autistic individuals, decreased expression at the cell
+      surface; increased affinity for serotonin; increased serotonin transport capacity;
+      loss of regulation through cGMP and MAP kinases pathways; hypoplasia of the
+      enteric nervous system and decreased gastrointestinal peristaltic reflexes shown
+      by a mouse knockin model of the mutation; dbSNP:rs6355
+    end: '56'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10391209
+        id: '10391209'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10391209
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15995945
+        id: '15995945'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15995945
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18957375
+        id: '18957375'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18957375
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27111230
+        id: '27111230'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27111230
+    ftId: VAR_014181
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: N
+    begin: '201'
+    category: VARIANTS
+    description: in dbSNP:rs2228673
+    end: '201'
+    ftId: VAR_029158
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: L
+    begin: '425'
+    category: VARIANTS
+    description: found in 2 autistic individuals; increased affinity for serotonin;
+      increased serotonin transport rate; dbSNP:rs28914832
+    end: '425'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15995945
+        id: '15995945'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15995945
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18957375
+        id: '18957375'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18957375
+    ftId: VAR_036788
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: V
+    begin: '425'
+    category: VARIANTS
+    description: linked with susceptibility to obsessive-compulsive disorder; increased
+      serotonin transport capacity; dbSNP:rs28914832
+    end: '425'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12869649
+        id: '12869649'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12869649
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/14593431
+        id: '14593431'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/14593431
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17913921
+        id: '17913921'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17913921
+    ftId: VAR_026751
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: L
+    begin: '465'
+    category: VARIANTS
+    description: found in 2 autistic individuals; increased expression at the cell
+      surface; increased affinity for serotonin; dbSNP:rs28914833
+    end: '465'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15995945
+        id: '15995945'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15995945
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18957375
+        id: '18957375'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18957375
+    ftId: VAR_036789
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: V
+    begin: '550'
+    category: VARIANTS
+    description: found in 2 autistic individuals; increased expression at the cell
+      surface; increased affinity for serotonin; dbSNP:rs28914834
+    end: '550'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15995945
+        id: '15995945'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15995945
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18957375
+        id: '18957375'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18957375
+    ftId: VAR_036790
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: N
+    begin: '605'
+    category: VARIANTS
+    description: in dbSNP:rs6352
+    end: '605'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10391209
+        id: '10391209'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10391209
+    ftId: VAR_014182
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: A,C
+    begin: '101'
+    category: MUTAGENESIS
+    description: Disrupts chloride ion dependence of serotonin transport. Results
+      in larger serotonin-induced currents independent of the chloride ion gradient.
+      Increases serotonin transport rate; when associated with C-336. Decreases expression
+      at the cell surface.
+    end: '101'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21730057
+        id: '21730057'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21730057
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: C
+    begin: '336'
+    category: MUTAGENESIS
+    description: Impairs serotonin transport. Results in chloride ion-independent
+      serotonin transport; when associated with A-101 or C-101.
+    end: '336'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21730057
+        id: '21730057'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21730057
+    molecule: ''
+    type: MUTAGEN
+  - begin: '85'
+    category: STRUCTURAL
+    end: '96'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '99'
+    category: STRUCTURAL
+    end: '111'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '114'
+    category: STRUCTURAL
+    end: '117'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '118'
+    category: STRUCTURAL
+    end: '127'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '129'
+    category: STRUCTURAL
+    end: '143'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '149'
+    category: STRUCTURAL
+    end: '152'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '156'
+    category: STRUCTURAL
+    end: '159'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '160'
+    category: STRUCTURAL
+    end: '173'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '176'
+    category: STRUCTURAL
+    end: '188'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '189'
+    category: STRUCTURAL
+    end: '191'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I74
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I74
+    molecule: ''
+    type: HELIX
+  - begin: '192'
+    category: STRUCTURAL
+    end: '194'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: STRAND
+  - begin: '196'
+    category: STRUCTURAL
+    end: '198'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: TURN
+  - begin: '202'
+    category: STRUCTURAL
+    end: '204'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: STRAND
+  - begin: '207'
+    category: STRUCTURAL
+    end: '209'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: STRAND
+  - begin: '212'
+    category: STRUCTURAL
+    end: '214'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: STRAND
+  - begin: '227'
+    category: STRUCTURAL
+    end: '234'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '235'
+    category: STRUCTURAL
+    end: '237'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I74
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I74
+    molecule: ''
+    type: TURN
+  - begin: '239'
+    category: STRUCTURAL
+    end: '241'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '244'
+    category: STRUCTURAL
+    end: '247'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: STRAND
+  - begin: '253'
+    category: STRUCTURAL
+    end: '270'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '274'
+    category: STRUCTURAL
+    end: '284'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '287'
+    category: STRUCTURAL
+    end: '300'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '303'
+    category: STRUCTURAL
+    end: '305'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: TURN
+  - begin: '306'
+    category: STRUCTURAL
+    end: '313'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '317'
+    category: STRUCTURAL
+    end: '321'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '323'
+    category: STRUCTURAL
+    end: '337'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '340'
+    category: STRUCTURAL
+    end: '342'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I71
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I71
+    molecule: ''
+    type: STRAND
+  - begin: '343'
+    category: STRUCTURAL
+    end: '349'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '353'
+    category: STRUCTURAL
+    end: '355'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: STRAND
+  - begin: '358'
+    category: STRUCTURAL
+    end: '389'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '396'
+    category: STRUCTURAL
+    end: '398'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '403'
+    category: STRUCTURAL
+    end: '407'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '409'
+    category: STRUCTURAL
+    end: '415'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '417'
+    category: STRUCTURAL
+    end: '419'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6VRH
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6VRH
+    molecule: ''
+    type: STRAND
+  - begin: '420'
+    category: STRUCTURAL
+    end: '453'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '455'
+    category: STRUCTURAL
+    end: '457'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6VRH
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6VRH
+    molecule: ''
+    type: TURN
+  - begin: '458'
+    category: STRUCTURAL
+    end: '460'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6VRH
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6VRH
+    molecule: ''
+    type: STRAND
+  - begin: '462'
+    category: STRUCTURAL
+    end: '477'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '478'
+    category: STRUCTURAL
+    end: '480'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: TURN
+  - begin: '485'
+    category: STRUCTURAL
+    end: '494'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '497'
+    category: STRUCTURAL
+    end: '513'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '514'
+    category: STRUCTURAL
+    end: '517'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: TURN
+  - begin: '518'
+    category: STRUCTURAL
+    end: '528'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '529'
+    category: STRUCTURAL
+    end: '531'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I73
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I73
+    molecule: ''
+    type: STRAND
+  - begin: '535'
+    category: STRUCTURAL
+    end: '542'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '544'
+    category: STRUCTURAL
+    end: '558'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '574'
+    category: STRUCTURAL
+    end: '583'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '584'
+    category: STRUCTURAL
+    end: '587'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: TURN
+  - begin: '588'
+    category: STRUCTURAL
+    end: '599'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  - begin: '604'
+    category: STRUCTURAL
+    end: '612'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5I6X
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5I6X
+    molecule: ''
+    type: HELIX
+  gene:
+  - name:
+      value: SLC6A4
+    synonyms:
+    - value: HTT
+    - value: SERT
+  id: SC6A4_HUMAN
+  info:
+    created: '1993-07-01'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 216
+  keywords:
+  - value: 3D-structure
+  - value: Alternative splicing
+  - value: Antiport
+  - value: Cell junction
+  - value: Cell membrane
+  - value: Cell projection
+  - value: Disulfide bond
+  - value: Endosome
+  - value: Glycoprotein
+  - value: Membrane
+  - value: Metal-binding
+  - value: Neurotransmitter transport
+  - value: Phosphoprotein
+  - value: Reference proteome
+  - value: Sodium
+  - value: Synapse
+  - value: Transmembrane
+  - value: Transmembrane helix
+  - value: Transport
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        value: 5HT transporter
+      shortName:
+      - value: 5HTT
+    - fullName:
+        value: Solute carrier family 6 member 4
+    recommendedName:
+      fullName:
+        value: Sodium-dependent serotonin transporter
+      shortName:
+      - evidences:
+        - code: ECO:0000250
+          source:
+            id: P31652
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P31652
+        value: SERT
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Lesch K.P.
+      - Wolozin B.L.
+      - Estler H.C.
+      - Murphy D.L.
+      - Riederer P.
+      dbReferences:
+      - id: '8452685'
+        type: PubMed
+      - id: 10.1007/bf01244919
+        type: DOI
+      location:
+        firstPage: '67'
+        lastPage: '73'
+        volume: '91'
+      publication:
+        journalName: J. Neural Transm.
+      publicationDate: '1993'
+      title: Isolation of a cDNA encoding the human brain serotonin transporter.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    source:
+      tissue:
+      - value: Brain
+  - citation:
+      authors:
+      - Ramamoorthy S.
+      - Bauman A.L.
+      - Moore K.R.
+      - Han H.
+      - Yang-Feng T.
+      - Chang A.S.
+      - Ganapathy V.
+      - Blakely R.D.
+      dbReferences:
+      - id: '7681602'
+        type: PubMed
+      - id: 10.1073/pnas.90.6.2542
+        type: DOI
+      location:
+        firstPage: '2542'
+        lastPage: '2546'
+        volume: '90'
+      publication:
+        journalName: Proc. Natl. Acad. Sci. U.S.A.
+      publicationDate: '1993'
+      title: 'Antidepressant- and cocaine-sensitive human serotonin transporter: molecular
+        cloning, expression, and chromosomal localization.'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+  - citation:
+      authors:
+      - Lesch K.P.
+      - Wolozin B.L.
+      - Murphy D.L.
+      - Reiderer P.
+      dbReferences:
+      - id: '7684072'
+        type: PubMed
+      - id: 10.1111/j.1471-4159.1993.tb03522.x
+        type: DOI
+      location:
+        firstPage: '2319'
+        lastPage: '2322'
+        volume: '60'
+      publication:
+        journalName: J. Neurochem.
+      publicationDate: '1993'
+      title: 'Primary structure of the human platelet serotonin uptake site: identity
+        with the brain serotonin transporter.'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    source:
+      tissue:
+      - value: Platelet
+  - citation:
+      authors:
+      - Iceta R.
+      - Mesonero J.E.
+      - Aramayona J.J.
+      - Alcalde A.I.
+      dbReferences:
+      - id: '16601320'
+        type: PubMed
+      location:
+        firstPage: '119'
+        lastPage: '130'
+        volume: '57'
+      publication:
+        journalName: J. Physiol. Pharmacol.
+      publicationDate: '2006'
+      title: Molecular characterization and intracellular regulation of the human
+        serotonin transporter in Caco-2 cells.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+  - citation:
+      consortiums:
+      - NIEHS SNPs program
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: AUG-2007
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+  - citation:
+      consortiums:
+      - The MGC Project Team
+      dbReferences:
+      - id: '15489334'
+        type: PubMed
+      - id: 10.1101/gr.2596504
+        type: DOI
+      location:
+        firstPage: '2121'
+        lastPage: '2127'
+        volume: '14'
+      publication:
+        journalName: Genome Res.
+      publicationDate: '2004'
+      title: 'The status, quality, and expansion of the NIH full-length cDNA project:
+        the Mammalian Gene Collection (MGC).'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)
+  - citation:
+      authors:
+      - Bradley C.C.
+      - Blakely R.D.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: JUN-1997
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-114
+    source:
+      tissue:
+      - value: Placenta
+  - citation:
+      authors:
+      - Ota T.
+      - Suzuki Y.
+      - Nishikawa T.
+      - Otsuki T.
+      - Sugiyama T.
+      - Irie R.
+      - Wakamatsu A.
+      - Hayashi K.
+      - Sato H.
+      - Nagai K.
+      - Kimura K.
+      - Makita H.
+      - Sekine M.
+      - Obayashi M.
+      - Nishi T.
+      - Shibahara T.
+      - Tanaka T.
+      - Ishii S.
+      - Yamamoto J.
+      - Saito K.
+      - Kawai Y.
+      - Isono Y.
+      - Nakamura Y.
+      - Nagahari K.
+      - Murakami K.
+      - Yasuda T.
+      - Iwayanagi T.
+      - Wagatsuma M.
+      - Shiratori A.
+      - Sudo H.
+      - Hosoiri T.
+      - Kaku Y.
+      - Kodaira H.
+      - Kondo H.
+      - Sugawara M.
+      - Takahashi M.
+      - Kanda K.
+      - Yokoi T.
+      - Furuya T.
+      - Kikkawa E.
+      - Omura Y.
+      - Abe K.
+      - Kamihara K.
+      - Katsuta N.
+      - Sato K.
+      - Tanikawa M.
+      - Yamazaki M.
+      - Ninomiya K.
+      - Ishibashi T.
+      - Yamashita H.
+      - Murakawa K.
+      - Fujimori K.
+      - Tanai H.
+      - Kimata M.
+      - Watanabe M.
+      - Hiraoka S.
+      - Chiba Y.
+      - Ishida S.
+      - Ono Y.
+      - Takiguchi S.
+      - Watanabe S.
+      - Yosida M.
+      - Hotuta T.
+      - Kusano J.
+      - Kanehori K.
+      - Takahashi-Fujii A.
+      - Hara H.
+      - Tanase T.-O.
+      - Nomura Y.
+      - Togiya S.
+      - Komai F.
+      - Hara R.
+      - Takeuchi K.
+      - Arita M.
+      - Imose N.
+      - Musashino K.
+      - Yuuki H.
+      - Oshima A.
+      - Sasaki N.
+      - Aotsuka S.
+      - Yoshikawa Y.
+      - Matsunawa H.
+      - Ichihara T.
+      - Shiohata N.
+      - Sano S.
+      - Moriya S.
+      - Momiyama H.
+      - Satoh N.
+      - Takami S.
+      - Terashima Y.
+      - Suzuki O.
+      - Nakagawa S.
+      - Senoh A.
+      - Mizoguchi H.
+      - Goto Y.
+      - Shimizu F.
+      - Wakebe H.
+      - Hishigaki H.
+      - Watanabe T.
+      - Sugiyama A.
+      - Takemoto M.
+      - Kawakami B.
+      - Yamazaki M.
+      - Watanabe K.
+      - Kumagai A.
+      - Itakura S.
+      - Fukuzumi Y.
+      - Fujimori Y.
+      - Komiyama M.
+      - Tashiro H.
+      - Tanigami A.
+      - Fujiwara T.
+      - Ono T.
+      - Yamada K.
+      - Fujii Y.
+      - Ozaki K.
+      - Hirao M.
+      - Ohmori Y.
+      - Kawabata A.
+      - Hikiji T.
+      - Kobatake N.
+      - Inagaki H.
+      - Ikema Y.
+      - Okamoto S.
+      - Okitani R.
+      - Kawakami T.
+      - Noguchi S.
+      - Itoh T.
+      - Shigeta K.
+      - Senba T.
+      - Matsumura K.
+      - Nakajima Y.
+      - Mizuno T.
+      - Morinaga M.
+      - Sasaki M.
+      - Togashi T.
+      - Oyama M.
+      - Hata H.
+      - Watanabe M.
+      - Komatsu T.
+      - Mizushima-Sugano J.
+      - Satoh T.
+      - Shirai Y.
+      - Takahashi Y.
+      - Nakagawa K.
+      - Okumura K.
+      - Nagase T.
+      - Nomura N.
+      - Kikuchi H.
+      - Masuho Y.
+      - Yamashita R.
+      - Nakai K.
+      - Yada T.
+      - Nakamura Y.
+      - Ohara O.
+      - Isogai T.
+      - Sugano S.
+      dbReferences:
+      - id: '14702039'
+        type: PubMed
+      - id: 10.1038/ng1285
+        type: DOI
+      location:
+        firstPage: '40'
+        lastPage: '45'
+        volume: '36'
+      publication:
+        journalName: Nat. Genet.
+      publicationDate: '2004'
+      title: Complete sequencing and characterization of 21,243 full-length human
+        cDNAs.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 1-317 (ISOFORM 2)
+    source:
+      tissue:
+      - value: Lung
+  - citation:
+      authors:
+      - Mortensen O.V.
+      - Kristensen A.S.
+      - Rudnick G.
+      - Wiborg O.
+      dbReferences:
+      - id: '10407194'
+        type: PubMed
+      - id: 10.1016/s0169-328x(99)00178-3
+        type: DOI
+      location:
+        firstPage: '120'
+        lastPage: '126'
+        volume: '71'
+      publication:
+        journalName: Brain Res. Mol. Brain Res.
+      publicationDate: '1999'
+      title: Molecular cloning, expression and characterization of a bovine serotonin
+        transporter.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+  - citation:
+      authors:
+      - Carneiro A.M.D.
+      - Blakely R.D.
+      dbReferences:
+      - id: '16803896'
+        type: PubMed
+      - id: 10.1074/jbc.m603877200
+        type: DOI
+      location:
+        firstPage: '24769'
+        lastPage: '24780'
+        volume: '281'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2006'
+      title: Serotonin-, protein kinase C-, and Hic-5-associated redistribution of
+        the platelet serotonin transporter.
+      type: journal article
+    scope:
+    - INTERACTION WITH TGFB1I1
+  - citation:
+      authors:
+      - Mueller H.K.
+      - Wiborg O.
+      - Haase J.
+      dbReferences:
+      - id: '16870614'
+        type: PubMed
+      - id: 10.1074/jbc.m602848200
+        type: DOI
+      location:
+        firstPage: '28901'
+        lastPage: '28909'
+        volume: '281'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2006'
+      title: Subcellular redistribution of the serotonin transporter by secretory
+        carrier membrane protein 2.
+      type: journal article
+    scope:
+    - INTERACTION WITH SCAMP2
+    - SUBCELLULAR LOCATION
+  - citation:
+      authors:
+      - Brenner B.
+      - Harney J.T.
+      - Ahmed B.A.
+      - Jeffus B.C.
+      - Unal R.
+      - Mehta J.L.
+      - Kilic F.
+      dbReferences:
+      - id: '17506858'
+        type: PubMed
+      - id: 10.1111/j.1471-4159.2007.04542.x
+        type: DOI
+      location:
+        firstPage: '206'
+        lastPage: '215'
+        volume: '102'
+      publication:
+        journalName: J. Neurochem.
+      publicationDate: '2007'
+      title: Plasma serotonin levels and the platelet serotonin transporter.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TISSUE SPECIFICITY
+    - SUBCELLULAR LOCATION
+    - TRANSPORTER ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+  - citation:
+      authors:
+      - Zhang Y.W.
+      - Gesmonde J.
+      - Ramamoorthy S.
+      - Rudnick G.
+      dbReferences:
+      - id: '17913921'
+        type: PubMed
+      - id: 10.1523/jneurosci.0034-07.2007
+        type: DOI
+      location:
+        firstPage: '10878'
+        lastPage: '10886'
+        volume: '27'
+      publication:
+        journalName: J. Neurosci.
+      publicationDate: '2007'
+      title: Serotonin transporter phosphorylation by cGMP-dependent protein kinase
+        is altered by a mutation associated with obsessive compulsive disorder.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION AT THR-276
+    - VARIANT VAL-425
+  - citation:
+      authors:
+      - Ahmed B.A.
+      - Jeffus B.C.
+      - Bukhari S.I.
+      - Harney J.T.
+      - Unal R.
+      - Lupashin V.V.
+      - van der Sluijs P.
+      - Kilic F.
+      dbReferences:
+      - id: '18227069'
+        type: PubMed
+      - id: 10.1074/jbc.m706367200
+        type: DOI
+      location:
+        firstPage: '9388'
+        lastPage: '9398'
+        volume: '283'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2008'
+      title: Serotonin transamidates Rab4 and facilitates its binding to the C terminus
+        of serotonin transporter.
+      type: journal article
+    scope:
+    - RETRACTED PAPER
+  - citation:
+      authors:
+      - Ahmed B.A.
+      - Jeffus B.C.
+      - Bukhari S.I.A.
+      - Harney J.T.
+      - Unal R.
+      - Lupashin V.V.
+      - van der Sluijs P.
+      - Kilic F.
+      dbReferences:
+      - id: '31201246'
+        type: PubMed
+      - id: 10.1074/jbc.w119.009467
+        type: DOI
+      location:
+        firstPage: '9658'
+        lastPage: '9658'
+        volume: '294'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2019'
+      type: journal article
+    scope:
+    - RETRACTION NOTICE OF PUBMED:18227069
+  - citation:
+      authors:
+      - Ahmed B.A.
+      - Bukhari I.A.
+      - Jeffus B.C.
+      - Harney J.T.
+      - Thyparambil S.
+      - Ziu E.
+      - Fraer M.
+      - Rusch N.J.
+      - Zimniak P.
+      - Lupashin V.
+      - Tang D.
+      - Kilic F.
+      dbReferences:
+      - id: '19270731'
+        type: PubMed
+      - id: 10.1371/journal.pone.0004730
+        type: DOI
+      location:
+        firstPage: E4730
+        lastPage: E4730
+        volume: '4'
+      publication:
+        journalName: PLoS ONE
+      publicationDate: '2009'
+      title: The cellular distribution of serotonin transporter is impeded on serotonin-altered
+        vimentin network.
+      type: journal article
+    scope:
+    - RETRACTED PAPER
+  - citation:
+      authors:
+      - Ahmed B.A.
+      - Bukhari I.A.
+      - Jeffus B.C.
+      - Harney J.T.
+      - Thyparambil S.
+      - Ziu E.
+      - Fraer M.
+      - Rusch N.J.
+      - Zimniak P.
+      - Lupashin V.
+      - Tang D.
+      - Kilic F.
+      dbReferences:
+      - id: '30707744'
+        type: PubMed
+      - id: 10.1371/journal.pone.0211966
+        type: DOI
+      location:
+        firstPage: e0211966
+        lastPage: e0211966
+        volume: '14'
+      publication:
+        journalName: PLoS ONE
+      publicationDate: '2019'
+      title: 'Retraction: The Cellular Distribution of Serotonin Transporter Is Impeded
+        on Serotonin-Altered Vimentin Network.'
+      type: journal article
+    scope:
+    - RETRACTION NOTICE OF PUBMED:19270731
+  - citation:
+      authors:
+      - Carneiro A.M.
+      - Cook E.H.
+      - Murphy D.L.
+      - Blakely R.D.
+      dbReferences:
+      - id: '18317590'
+        type: PubMed
+      - id: 10.1172/jci33374
+        type: DOI
+      location:
+        firstPage: '1544'
+        lastPage: '1552'
+        volume: '118'
+      publication:
+        journalName: J. Clin. Invest.
+      publicationDate: '2008'
+      title: Interactions between integrin alphaIIbbeta3 and the serotonin transporter
+        regulate serotonin transport and platelet aggregation in mice and humans.
+      type: journal article
+    scope:
+    - FUNCTION
+    - INTERACTION WITH ITGAV:ITGB3
+  - citation:
+      authors:
+      - Henry L.K.
+      - Iwamoto H.
+      - Field J.R.
+      - Kaufmann K.
+      - Dawson E.S.
+      - Jacobs M.T.
+      - Adams C.
+      - Felts B.
+      - Zdravkovic I.
+      - Armstrong V.
+      - Combs S.
+      - Solis E. Jr.
+      - Rudnick G.
+      - Noskov S.Y.
+      - DeFelice L.J.
+      - Meiler J.
+      - Blakely R.D.
+      dbReferences:
+      - id: '21730057'
+        type: PubMed
+      - id: 10.1074/jbc.m111.250308
+        type: DOI
+      location:
+        firstPage: '30823'
+        lastPage: '30836'
+        volume: '286'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2011'
+      title: A conserved asparagine residue in transmembrane segment 1 (TM1) of serotonin
+        transporter dictates chloride-coupled neurotransmitter transport.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - MUTAGENESIS OF ASN-101 AND SER-336
+  - citation:
+      authors:
+      - Annamalai B.
+      - Mannangatti P.
+      - Arapulisamy O.
+      - Shippenberg T.S.
+      - Jayanthi L.D.
+      - Ramamoorthy S.
+      dbReferences:
+      - id: '21992875'
+        type: PubMed
+      - id: 10.1124/mol.111.073171
+        type: DOI
+      location:
+        firstPage: '73'
+        lastPage: '85'
+        volume: '81'
+      publication:
+        journalName: Mol. Pharmacol.
+      publicationDate: '2012'
+      title: 'Tyrosine phosphorylation of the human serotonin transporter: a role
+        in the transporter stability and function.'
+      type: journal article
+    scope:
+    - PHOSPHORYLATION AT TYR-47 AND TYR-142
+  - citation:
+      authors:
+      - Hasenhuetl P.S.
+      - Freissmuth M.
+      - Sandtner W.
+      dbReferences:
+      - id: '27756841'
+        type: PubMed
+      - id: 10.1074/jbc.m116.753319
+        type: DOI
+      location:
+        firstPage: '25864'
+        lastPage: '25876'
+        volume: '291'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2016'
+      title: Electrogenic Binding of Intracellular Cations Defines a Kinetic Decision
+        Point in the Transport Cycle of the Human Serotonin Transporter.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+  - citation:
+      authors:
+      - Coleman J.A.
+      - Green E.M.
+      - Gouaux E.
+      dbReferences:
+      - id: '27049939'
+        type: PubMed
+      - id: 10.1038/nature17629
+        type: DOI
+      location:
+        firstPage: '334'
+        lastPage: '339'
+        volume: '532'
+      publication:
+        journalName: Nature
+      publicationDate: '2016'
+      title: X-ray structures and mechanism of the human serotonin transporter.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (3.14 ANGSTROMS) OF 76-618 IN COMPLEXES WITH SODIUM IONS
+      AND THE ANTIDEPRESSANTS CITALOPRAM AND PAROXETINE
+    - FUNCTION
+    - SUBCELLULAR LOCATION
+    - TOPOLOGY
+    - GLYCOSYLATION AT ASN-208 AND ASN-217
+    - DISULFIDE BONDS
+    - TRANSPORTER ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+  - citation:
+      authors:
+      - Yang D.
+      - Gouaux E.
+      dbReferences:
+      - id: '34851672'
+        type: PubMed
+      - id: 10.1126/sciadv.abl3857
+        type: DOI
+      location:
+        firstPage: eabl3857
+        lastPage: eabl3857
+        volume: '7'
+      publication:
+        journalName: Sci. Adv.
+      publicationDate: '2021'
+      title: Illumination of serotonin transporter mechanism and role of the allosteric
+        site.
+      type: journal article
+    scope:
+    - STRUCTURE BY ELECTRON MICROSCOPY (3.30 ANGSTROMS) OF 79-617 IN COMPLEX WITH
+      SEROTONIN AND SODIUM IONS
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+    - REACTION MECHANISM
+  - citation:
+      authors:
+      - Cargill M.
+      - Altshuler D.
+      - Ireland J.
+      - Sklar P.
+      - Ardlie K.
+      - Patil N.
+      - Shaw N.
+      - Lane C.R.
+      - Lim E.P.
+      - Kalyanaraman N.
+      - Nemesh J.
+      - Ziaugra L.
+      - Friedland L.
+      - Rolfe A.
+      - Warrington J.
+      - Lipshutz R.
+      - Daley G.Q.
+      - Lander E.S.
+      dbReferences:
+      - id: '10391209'
+        type: PubMed
+      - id: 10.1038/10290
+        type: DOI
+      location:
+        firstPage: '231'
+        lastPage: '238'
+        volume: '22'
+      publication:
+        journalName: Nat. Genet.
+      publicationDate: '1999'
+      title: Characterization of single-nucleotide polymorphisms in coding regions
+        of human genes.
+      type: journal article
+    scope:
+    - VARIANTS ALA-56 AND ASN-605
+  - citation:
+      authors:
+      - Cargill M.
+      - Altshuler D.
+      - Ireland J.
+      - Sklar P.
+      - Ardlie K.
+      - Patil N.
+      - Shaw N.
+      - Lane C.R.
+      - Lim E.P.
+      - Kalyanaraman N.
+      - Nemesh J.
+      - Ziaugra L.
+      - Friedland L.
+      - Rolfe A.
+      - Warrington J.
+      - Lipshutz R.
+      - Daley G.Q.
+      - Lander E.S.
+      location:
+        firstPage: '373'
+        lastPage: '373'
+        volume: '23'
+      publication:
+        journalName: Nat. Genet.
+      publicationDate: '1999'
+      type: journal article
+    scope:
+    - ERRATUM OF PUBMED:10391209
+  - citation:
+      authors:
+      - Ozaki N.
+      - Goldman D.
+      - Kaye W.H.
+      - Plotnicov K.
+      - Greenberg B.D.
+      - Lappalainen J.
+      - Rudnick G.
+      - Murphy D.L.
+      dbReferences:
+      - id: '14593431'
+        type: PubMed
+      - id: 10.1038/sj.mp.4001365
+        type: DOI
+      location:
+        firstPage: '933'
+        lastPage: '936'
+        volume: '8'
+      publication:
+        journalName: Mol. Psychiatry
+      publicationDate: '2003'
+      title: Serotonin transporter missense mutation associated with a complex neuropsychiatric
+        phenotype.
+      type: journal article
+    scope:
+    - VARIANT VAL-425
+  - citation:
+      authors:
+      - Kilic F.
+      - Murphy D.L.
+      - Rudnick G.
+      dbReferences:
+      - id: '12869649'
+        type: PubMed
+      - id: 10.1124/mol.64.2.440
+        type: DOI
+      location:
+        firstPage: '440'
+        lastPage: '446'
+        volume: '64'
+      publication:
+        journalName: Mol. Pharmacol.
+      publicationDate: '2003'
+      title: A human serotonin transporter mutation causes constitutive activation
+        of transport activity.
+      type: journal article
+    scope:
+    - CHARACTERIZATION OF VARIANT VAL-425
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - SUBCELLULAR LOCATION
+  - citation:
+      authors:
+      - Caspi A.
+      - Sugden K.
+      - Moffitt T.E.
+      - Taylor A.
+      - Craig I.W.
+      - Harrington H.
+      - McClay J.
+      - Mill J.
+      - Martin J.
+      - Braithwaite A.
+      - Poulton R.
+      dbReferences:
+      - id: '12869766'
+        type: PubMed
+      - id: 10.1126/science.1083968
+        type: DOI
+      location:
+        firstPage: '386'
+        lastPage: '389'
+        volume: '301'
+      publication:
+        journalName: Science
+      publicationDate: '2003'
+      title: 'Influence of life stress on depression: moderation by a polymorphism
+        in the 5-HTT gene.'
+      type: journal article
+    scope:
+    - POLYMORPHISM IN THE PROMOTER REGION
+  - citation:
+      authors:
+      - Sen S.
+      - Burmeister M.
+      - Ghosh D.
+      dbReferences:
+      - id: '15108187'
+        type: PubMed
+      - id: 10.1002/ajmg.b.20158
+        type: DOI
+      location:
+        firstPage: '85'
+        lastPage: '89'
+        volume: 127B
+      publication:
+        journalName: Am. J. Med. Genet. B Neuropsychiatr. Genet.
+      publicationDate: '2004'
+      title: Meta-analysis of the association between a serotonin transporter promoter
+        polymorphism (5-HTTLPR) and anxiety-related personality traits.
+      type: journal article
+    scope:
+    - POLYMORPHISM IN THE PROMOTER REGION
+    - INVOLVEMENT IN SUSCEPTIBILITY TO ANXIETY
+  - citation:
+      authors:
+      - Sutcliffe J.S.
+      - Delahanty R.J.
+      - Prasad H.C.
+      - McCauley J.L.
+      - Han Q.
+      - Jiang L.
+      - Li C.
+      - Folstein S.E.
+      - Blakely R.D.
+      dbReferences:
+      - id: '15995945'
+        type: PubMed
+      - id: 10.1086/432648
+        type: DOI
+      location:
+        firstPage: '265'
+        lastPage: '279'
+        volume: '77'
+      publication:
+        journalName: Am. J. Hum. Genet.
+      publicationDate: '2005'
+      title: Allelic heterogeneity at the serotonin transporter locus (SLC6A4) confers
+        susceptibility to autism and rigid-compulsive behaviors.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN SUSCEPTIBILITY TO AUTISM
+    - VARIANTS ALA-56; LEU-425; LEU-465 AND VAL-550
+    - CHARACTERIZATION OF VARIANT ALA-56
+  - citation:
+      authors:
+      - Feinn R.
+      - Nellissery M.
+      - Kranzler H.R.
+      dbReferences:
+      - id: '15635638'
+        type: PubMed
+      - id: 10.1002/ajmg.b.30132
+        type: DOI
+      location:
+        firstPage: '79'
+        lastPage: '84'
+        volume: '133'
+      publication:
+        journalName: Am. J. Med. Genet. B Neuropsychiatr. Genet.
+      publicationDate: '2005'
+      title: Meta-analysis of the association of a functional serotonin transporter
+        promoter polymorphism with alcohol dependence.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN SUSCEPTIBILITY TO ALCOHOLISM
+  - citation:
+      authors:
+      - Prasad H.C.
+      - Steiner J.A.
+      - Sutcliffe J.S.
+      - Blakely R.D.
+      dbReferences:
+      - id: '18957375'
+        type: PubMed
+      - id: 10.1098/rstb.2008.0143
+        type: DOI
+      location:
+        firstPage: '163'
+        lastPage: '173'
+        volume: '364'
+      publication:
+        journalName: Philos. Trans. R. Soc. Lond., B, Biol. Sci.
+      publicationDate: '2009'
+      title: Enhanced activity of human serotonin transporter variants associated
+        with autism.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN SUSCEPTIBILITY TO AUTISM
+    - CHARACTERIZATION OF VARIANTS ALA-56; LEU-425; LEU-465 AND VAL-550
+    - POLYMORPHISM
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+  - citation:
+      authors:
+      - Margolis K.G.
+      - Li Z.
+      - Stevanovic K.
+      - Saurman V.
+      - Israelyan N.
+      - Anderson G.M.
+      - Snyder I.
+      - Veenstra-VanderWeele J.
+      - Blakely R.D.
+      - Gershon M.D.
+      dbReferences:
+      - id: '27111230'
+        type: PubMed
+      - id: 10.1172/jci84877
+        type: DOI
+      location:
+        firstPage: '2221'
+        lastPage: '2235'
+        volume: '126'
+      publication:
+        journalName: J. Clin. Invest.
+      publicationDate: '2016'
+      title: Serotonin transporter variant drives preventable gastrointestinal abnormalities
+        in development and function.
+      type: journal article
+    scope:
+    - CHARACTERIZATION OF VARIANT ALA-56
+  secondaryAccession:
+  - Q5EE02
+  sequence:
+    length: 630
+    mass: 70325
+    modified: '1993-07-01'
+    sequence: METTPLNSQKQLSACEDGEDCQENGVLQKVVPTPGDKVESGQISNGYSAVPSPGAGDDTRHSIPATTTTLVAELHQGERETWGKKVDFLLSVIGYAVDLGNVWRFPYICYQNGGGAFLLPYTIMAIFGGIPLFYMELALGQYHRNGCISIWRKICPIFKGIGYAICIIAFYIASYYNTIMAWALYYLISSFTDQLPWTSCKNSWNTGNCTNYFSEDNITWTLHSTSPAEEFYTRHVLQIHRSKGLQDLGGISWQLALCIMLIFTVIYFSIWKGVKTSGKVVWVTATFPYIILSVLLVRGATLPGAWRGVLFYLKPNWQKLLETGVWIDAAAQIFFSLGPGFGVLLAFASYNKFNNNCYQDALVTSVVNCMTSFVSGFVIFTVLGYMAEMRNEDVSEVAKDAGPSLLFITYAEAIANMPASTFFAIIFFLMLITLGLDSTFAGLEGVITAVLDEFPHVWAKRRERFVLAVVITCFFGSLVTLTFGGAYVVKLLEEYATGPAVLTVALIEAVAVSWFYGITQFCRDVKEMLGFSPGWFWRICWVAISPLFLLFIICSFLMSPPQLRLFQYNYPYWSIILGYCIGTSSFICIPTYIAYRLIITPGTFKERIIKSITPETPTEIPCGDIRLNAV
+    version: 1
+uniprot_id: P31645

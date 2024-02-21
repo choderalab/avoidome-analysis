@@ -1,0 +1,2353 @@
+data:
+  accession: P20309
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7565628
+          id: '7565628'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7565628
+      value: The muscarinic acetylcholine receptor mediates various cellular responses,
+        including inhibition of adenylate cyclase, breakdown of phosphoinositides
+        and modulation of potassium channels through the action of G proteins. Primary
+        transducing effect is Pi turnover
+    type: FUNCTION
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: Q9ERZ3
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/Q9ERZ3
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21056967
+          id: '21056967'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21056967
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/23521066
+          id: '23521066'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/23521066
+      value: Homodimer; the dimers can form tetramers (PubMed:23521066). Interacts
+        with NALCN (By similarity). Interacts with TMEM147 (PubMed:21056967)
+    type: SUBUNIT
+  - interactions:
+    - accession1: P20309
+      accession2: P08912
+      experiments: 7
+      gene: CHRM5
+      interactor1: EBI-2687785
+      interactor2: EBI-6655256
+      organismDiffer: false
+    - accession1: P20309
+      accession2: Q8IZF0
+      experiments: 3
+      gene: NALCN
+      interactor1: EBI-2687785
+      interactor2: EBI-7085333
+      organismDiffer: false
+    type: INTERACTION
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/21056967
+            id: '21056967'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/21056967
+        value: Cell membrane
+      topology:
+        evidences:
+        - code: ECO:0000255
+        value: Multi-pass membrane protein
+    - location:
+        value: Postsynaptic cell membrane
+      topology:
+        evidences:
+        - code: ECO:0000255
+        value: Multi-pass membrane protein
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15870063
+            id: '15870063'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15870063
+        value: Basolateral cell membrane
+      topology:
+        evidences:
+        - code: ECO:0000255
+        value: Multi-pass membrane protein
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/21056967
+            id: '21056967'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/21056967
+        value: Endoplasmic reticulum membrane
+      topology:
+        evidences:
+        - code: ECO:0000255
+        value: Multi-pass membrane protein
+    text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21056967
+          id: '21056967'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21056967
+      value: Colocalizes with TMEM147 in the endoplasmic reticulum (ER) membrane.
+        TMEM147 impairs its trafficking to the cell membrane leading to its retention
+        in the ER membrane
+    type: SUBCELLULAR_LOCATION
+  - acronym: PBS
+    dbReference:
+      id: '100100'
+      type: MIM
+    description:
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22077972
+          id: '22077972'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22077972
+      value: A syndrome characterized by thin abdominal musculature with overlying
+        lax skin, cryptorchism, megacystis with disorganized detrusor muscle, and
+        urinary tract abnormalities.
+    diseaseId: Prune belly syndrome
+    text:
+    - value: The disease is caused by variants affecting the gene represented in this
+        entry
+    type: DISEASE
+  - text:
+    - evidences:
+      - code: ECO:0000255
+        source:
+          id: PRU00521
+          name: PROSITE-ProRule
+          url: https://prosite.expasy.org/unirule/PRU00521
+      value: Belongs to the G-protein coupled receptor 1 family. Muscarinic acetylcholine
+        receptor subfamily. CHRM3 sub-subfamily
+    type: SIMILARITY
+  dbReferences:
+  - id: X15266
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA33337.1
+    type: EMBL
+  - id: U29589
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA70337.1
+    type: EMBL
+  - id: AB041395
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: BAA94480.1
+    type: EMBL
+  - id: AF498917
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAM18940.1
+    type: EMBL
+  - id: AL356361
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: BC096844
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH96844.1
+    type: EMBL
+  - id: BC121026
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAI21027.1
+    type: EMBL
+  - id: AF279779
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAG30036.1
+    type: EMBL
+  - id: CCDS1616.1
+    type: CCDS
+  - id: S10128
+    properties:
+      entry name: S10128
+    type: PIR
+  - id: NP_000731.1
+    properties:
+      nucleotide sequence ID: NM_000740.3
+    type: RefSeq
+  - id: NP_001334645.1
+    properties:
+      nucleotide sequence ID: NM_001347716.1
+    type: RefSeq
+  - id: XP_005273089.1
+    properties:
+      nucleotide sequence ID: XM_005273032.3
+    type: RefSeq
+  - id: XP_011542343.1
+    properties:
+      nucleotide sequence ID: XM_011544041.2
+    type: RefSeq
+  - id: XP_011542345.1
+    properties:
+      nucleotide sequence ID: XM_011544043.2
+    type: RefSeq
+  - id: XP_011542346.1
+    properties:
+      nucleotide sequence ID: XM_011544044.2
+    type: RefSeq
+  - id: XP_011542348.1
+    properties:
+      nucleotide sequence ID: XM_011544046.2
+    type: RefSeq
+  - id: XP_011542349.1
+    properties:
+      nucleotide sequence ID: XM_011544047.2
+    type: RefSeq
+  - id: XP_016855641.1
+    properties:
+      nucleotide sequence ID: XM_017000152.1
+    type: RefSeq
+  - id: XP_016855642.1
+    properties:
+      nucleotide sequence ID: XM_017000153.1
+    type: RefSeq
+  - id: XP_016855643.1
+    properties:
+      nucleotide sequence ID: XM_017000154.1
+    type: RefSeq
+  - id: XP_016855644.1
+    properties:
+      nucleotide sequence ID: XM_017000155.1
+    type: RefSeq
+  - id: XP_016855645.1
+    properties:
+      nucleotide sequence ID: XM_017000156.1
+    type: RefSeq
+  - id: XP_016855646.1
+    properties:
+      nucleotide sequence ID: XM_017000157.1
+    type: RefSeq
+  - id: XP_016855647.1
+    properties:
+      nucleotide sequence ID: XM_017000158.1
+    type: RefSeq
+  - id: XP_016855648.1
+    properties:
+      nucleotide sequence ID: XM_017000159.1
+    type: RefSeq
+  - id: XP_016855649.1
+    properties:
+      nucleotide sequence ID: XM_017000160.1
+    type: RefSeq
+  - id: XP_016855650.1
+    properties:
+      nucleotide sequence ID: XM_017000161.1
+    type: RefSeq
+  - id: XP_016855651.1
+    properties:
+      nucleotide sequence ID: XM_017000162.1
+    type: RefSeq
+  - id: XP_016855652.1
+    properties:
+      nucleotide sequence ID: XM_017000163.1
+    type: RefSeq
+  - id: 2CSA
+    properties:
+      chains: A=271-289
+      method: NMR
+    type: PDB
+  - id: 8E9W
+    properties:
+      chains: A=46-590
+      method: EM
+      resolution: 2.69 A
+    type: PDB
+  - id: 8E9Y
+    properties:
+      chains: A=46-590
+      method: EM
+      resolution: 2.79 A
+    type: PDB
+  - id: 8E9Z
+    properties:
+      chains: A=46-590
+      method: EM
+      resolution: 2.69 A
+    type: PDB
+  - id: 8EA0
+    properties:
+      chains: A=46-590
+      method: EM
+      resolution: 2.56 A
+    type: PDB
+  - id: 2CSA
+    type: PDBsum
+  - id: 8E9W
+    type: PDBsum
+  - id: 8E9Y
+    type: PDBsum
+  - id: 8E9Z
+    type: PDBsum
+  - id: 8EA0
+    type: PDBsum
+  - id: P20309
+    type: AlphaFoldDB
+  - id: EMD-27966
+    type: EMDB
+  - id: EMD-27968
+    type: EMDB
+  - id: EMD-27969
+    type: EMDB
+  - id: EMD-27970
+    type: EMDB
+  - id: P20309
+    type: SMR
+  - id: '107553'
+    properties:
+      interactions: '80'
+    type: BioGRID
+  - id: DIP-44291N
+    type: DIP
+  - id: P20309
+    properties:
+      interactions: '65'
+    type: IntAct
+  - id: P20309
+    type: MINT
+  - id: 9606.ENSP00000255380
+    type: STRING
+  - id: P20309
+    type: BindingDB
+  - id: CHEMBL245
+    type: ChEMBL
+  - id: DB03128
+    properties:
+      generic name: Acetylcholine
+    type: DrugBank
+  - id: DB08897
+    properties:
+      generic name: Aclidinium
+    type: DrugBank
+  - id: DB05752
+    properties:
+      generic name: ALKS 27
+    type: DrugBank
+  - id: DB00321
+    properties:
+      generic name: Amitriptyline
+    type: DrugBank
+  - id: DB00543
+    properties:
+      generic name: Amoxapine
+    type: DrugBank
+  - id: DB00517
+    properties:
+      generic name: Anisotropine methylbromide
+    type: DrugBank
+  - id: DB04365
+    properties:
+      generic name: Arecoline
+    type: DrugBank
+  - id: DB01238
+    properties:
+      generic name: Aripiprazole
+    type: DrugBank
+  - id: DB14185
+    properties:
+      generic name: Aripiprazole lauroxil
+    type: DrugBank
+  - id: DB00572
+    properties:
+      generic name: Atropine
+    type: DrugBank
+  - id: DB00767
+    properties:
+      generic name: Benzquinamide
+    type: DrugBank
+  - id: DB01019
+    properties:
+      generic name: Bethanechol
+    type: DrugBank
+  - id: DB00835
+    properties:
+      generic name: Brompheniramine
+    type: DrugBank
+  - id: DB09300
+    properties:
+      generic name: Butylscopolamine
+    type: DrugBank
+  - id: DB00411
+    properties:
+      generic name: Carbamoylcholine
+    type: DrugBank
+  - id: DB00185
+    properties:
+      generic name: Cevimeline
+    type: DrugBank
+  - id: DB00477
+    properties:
+      generic name: Chlorpromazine
+    type: DrugBank
+  - id: DB01239
+    properties:
+      generic name: Chlorprothixene
+    type: DrugBank
+  - id: DB00568
+    properties:
+      generic name: Cinnarizine
+    type: DrugBank
+  - id: DB00363
+    properties:
+      generic name: Clozapine
+    type: DrugBank
+  - id: DB00434
+    properties:
+      generic name: Cyproheptadine
+    type: DrugBank
+  - id: DB00496
+    properties:
+      generic name: Darifenacin
+    type: DrugBank
+  - id: DB01151
+    properties:
+      generic name: Desipramine
+    type: DrugBank
+  - id: DB00804
+    properties:
+      generic name: Dicyclomine
+    type: DrugBank
+  - id: DB13720
+    properties:
+      generic name: Diphemanil
+    type: DrugBank
+  - id: DB01231
+    properties:
+      generic name: Diphenidol
+    type: DrugBank
+  - id: DB00280
+    properties:
+      generic name: Disopyramide
+    type: DrugBank
+  - id: DB09167
+    properties:
+      generic name: Dosulepin
+    type: DrugBank
+  - id: DB01142
+    properties:
+      generic name: Doxepin
+    type: DrugBank
+  - id: DB00366
+    properties:
+      generic name: Doxylamine
+    type: DrugBank
+  - id: DB09194
+    properties:
+      generic name: Etoperidone
+    type: DrugBank
+  - id: DB06702
+    properties:
+      generic name: Fesoterodine
+    type: DrugBank
+  - id: DB00986
+    properties:
+      generic name: Glycopyrronium
+    type: DrugBank
+  - id: DB00502
+    properties:
+      generic name: Haloperidol
+    type: DrugBank
+  - id: DB06787
+    properties:
+      generic name: Hexocyclium
+    type: DrugBank
+  - id: DB11181
+    properties:
+      generic name: Homatropine
+    type: DrugBank
+  - id: DB00725
+    properties:
+      generic name: Homatropine methylbromide
+    type: DrugBank
+  - id: DB00424
+    properties:
+      generic name: Hyoscyamine
+    type: DrugBank
+  - id: DB09262
+    properties:
+      generic name: Imidafenacin
+    type: DrugBank
+  - id: DB00458
+    properties:
+      generic name: Imipramine
+    type: DrugBank
+  - id: DB00332
+    properties:
+      generic name: Ipratropium
+    type: DrugBank
+  - id: DB01625
+    properties:
+      generic name: Isopropamide
+    type: DrugBank
+  - id: DB01221
+    properties:
+      generic name: Ketamine
+    type: DrugBank
+  - id: DB00408
+    properties:
+      generic name: Loxapine
+    type: DrugBank
+  - id: DB00934
+    properties:
+      generic name: Maprotiline
+    type: DrugBank
+  - id: DB04843
+    properties:
+      generic name: Mepenzolate
+    type: DrugBank
+  - id: DB00454
+    properties:
+      generic name: Meperidine
+    type: DrugBank
+  - id: DB06709
+    properties:
+      generic name: Methacholine
+    type: DrugBank
+  - id: DB00940
+    properties:
+      generic name: Methantheline
+    type: DrugBank
+  - id: DB01403
+    properties:
+      generic name: Methotrimeprazine
+    type: DrugBank
+  - id: DB00462
+    properties:
+      generic name: Methscopolamine bromide
+    type: DrugBank
+  - id: DB00340
+    properties:
+      generic name: Metixene
+    type: DrugBank
+  - id: DB01226
+    properties:
+      generic name: Mivacurium
+    type: DrugBank
+  - id: DB00622
+    properties:
+      generic name: Nicardipine
+    type: DrugBank
+  - id: DB00540
+    properties:
+      generic name: Nortriptyline
+    type: DrugBank
+  - id: DB00334
+    properties:
+      generic name: Olanzapine
+    type: DrugBank
+  - id: DB01062
+    properties:
+      generic name: Oxybutynin
+    type: DrugBank
+  - id: DB00383
+    properties:
+      generic name: Oxyphencyclimine
+    type: DrugBank
+  - id: DB01337
+    properties:
+      generic name: Pancuronium
+    type: DrugBank
+  - id: DB00715
+    properties:
+      generic name: Paroxetine
+    type: DrugBank
+  - id: DB01085
+    properties:
+      generic name: Pilocarpine
+    type: DrugBank
+  - id: DB01338
+    properties:
+      generic name: Pipecuronium
+    type: DrugBank
+  - id: DB06153
+    properties:
+      generic name: Pizotifen
+    type: DrugBank
+  - id: DB00387
+    properties:
+      generic name: Procyclidine
+    type: DrugBank
+  - id: DB01069
+    properties:
+      generic name: Promethazine
+    type: DrugBank
+  - id: DB00777
+    properties:
+      generic name: Propiomazine
+    type: DrugBank
+  - id: DB12278
+    properties:
+      generic name: Propiverine
+    type: DrugBank
+  - id: DB01224
+    properties:
+      generic name: Quetiapine
+    type: DrugBank
+  - id: DB11855
+    properties:
+      generic name: Revefenacin
+    type: DrugBank
+  - id: DB13581
+    properties:
+      generic name: Rociverine
+    type: DrugBank
+  - id: DB00747
+    properties:
+      generic name: Scopolamine
+    type: DrugBank
+  - id: DB01591
+    properties:
+      generic name: Solifenacin
+    type: DrugBank
+  - id: DB00202
+    properties:
+      generic name: Succinylcholine
+    type: DrugBank
+  - id: DB00342
+    properties:
+      generic name: Terfenadine
+    type: DrugBank
+  - id: DB00599
+    properties:
+      generic name: Thiopental
+    type: DrugBank
+  - id: DB11235
+    properties:
+      generic name: Thonzylamine
+    type: DrugBank
+  - id: DB01409
+    properties:
+      generic name: Tiotropium
+    type: DrugBank
+  - id: DB01036
+    properties:
+      generic name: Tolterodine
+    type: DrugBank
+  - id: DB00193
+    properties:
+      generic name: Tramadol
+    type: DrugBank
+  - id: DB00505
+    properties:
+      generic name: Tridihexethyl
+    type: DrugBank
+  - id: DB00376
+    properties:
+      generic name: Trihexyphenidyl
+    type: DrugBank
+  - id: DB09089
+    properties:
+      generic name: Trimebutine
+    type: DrugBank
+  - id: DB00726
+    properties:
+      generic name: Trimipramine
+    type: DrugBank
+  - id: DB00809
+    properties:
+      generic name: Tropicamide
+    type: DrugBank
+  - id: DB00209
+    properties:
+      generic name: Trospium
+    type: DrugBank
+  - id: DB09076
+    properties:
+      generic name: Umeclidinium
+    type: DrugBank
+  - id: DB09185
+    properties:
+      generic name: Viloxazine
+    type: DrugBank
+  - id: DB00246
+    properties:
+      generic name: Ziprasidone
+    type: DrugBank
+  - id: P20309
+    type: DrugCentral
+  - id: '15'
+    type: GuidetoPHARMACOLOGY
+  - id: P20309
+    properties:
+      glycosylation: 5 sites, No reported glycans
+    type: GlyCosmos
+  - id: P20309
+    properties:
+      glycosylation: 6 sites, 1 O-linked glycan (1 site)
+    type: GlyGen
+  - id: P20309
+    type: iPTMnet
+  - id: P20309
+    type: PhosphoSitePlus
+  - id: P20309
+    type: SwissPalm
+  - id: CHRM3
+    type: BioMuta
+  - id: '113125'
+    type: DMDM
+  - id: P20309
+    type: jPOST
+  - id: P20309
+    type: MassIVE
+  - id: P20309
+    type: MaxQB
+  - id: 9606-ENSP00000255380
+    type: PaxDb
+  - id: P20309
+    type: PeptideAtlas
+  - id: '53745'
+    type: ProteomicsDB
+  - id: '4169'
+    properties:
+      antibodies: 402 antibodies from 37 providers
+    type: Antibodypedia
+  - id: '1131'
+    type: DNASU
+  - id: ENST00000255380.8
+    properties:
+      gene ID: ENSG00000133019.12
+      protein sequence ID: ENSP00000255380.4
+    type: Ensembl
+  - id: ENST00000615928.5
+    properties:
+      gene ID: ENSG00000133019.12
+      protein sequence ID: ENSP00000482377.1
+    type: Ensembl
+  - id: ENST00000675184.1
+    properties:
+      gene ID: ENSG00000133019.12
+      protein sequence ID: ENSP00000502349.1
+    type: Ensembl
+  - id: ENST00000676153.1
+    properties:
+      gene ID: ENSG00000133019.12
+      protein sequence ID: ENSP00000502667.1
+    type: Ensembl
+  - id: ENST00000676433.1
+    properties:
+      gene ID: ENSG00000133019.12
+      protein sequence ID: ENSP00000502013.1
+    type: Ensembl
+  - id: '1131'
+    type: GeneID
+  - id: hsa:1131
+    type: KEGG
+  - id: ENST00000676153.1
+    properties:
+      RefSeq nucleotide sequence ID: NM_001375978.1
+      RefSeq protein sequence ID: NP_001362907.1
+      protein sequence ID: ENSP00000502667.1
+    type: MANE-Select
+  - id: uc001hyp.4
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:1952
+    type: AGR
+  - id: '1131'
+    type: CTD
+  - id: '1131'
+    type: DisGeNET
+  - id: CHRM3
+    type: GeneCards
+  - id: HGNC:1952
+    properties:
+      gene designation: CHRM3
+    type: HGNC
+  - id: ENSG00000133019
+    properties:
+      expression patterns: Tissue enhanced (salivary)
+    type: HPA
+  - id: CHRM3
+    type: MalaCards
+  - id: '100100'
+    properties:
+      type: phenotype
+    type: MIM
+  - id: '118494'
+    properties:
+      type: gene
+    type: MIM
+  - id: NX_P20309
+    type: neXtProt
+  - id: ENSG00000133019
+    type: OpenTargets
+  - id: '2970'
+    properties:
+      disease: Prune belly syndrome
+    type: Orphanet
+  - id: PA112
+    type: PharmGKB
+  - id: HostDB:ENSG00000133019
+    type: VEuPathDB
+  - id: KOG4220
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000160084
+    type: GeneTree
+  - id: CLU_009579_11_2_1
+    type: HOGENOM
+  - id: P20309
+    type: InParanoid
+  - id: ISASWIH
+    type: OMA
+  - id: 4136179at2759
+    type: OrthoDB
+  - id: P20309
+    type: PhylomeDB
+  - id: TF320495
+    type: TreeFam
+  - id: P20309
+    type: PathwayCommons
+  - id: R-HSA-390648
+    properties:
+      pathway name: Muscarinic acetylcholine receptors
+    type: Reactome
+  - id: R-HSA-399997
+    properties:
+      pathway name: Acetylcholine regulates insulin secretion
+    type: Reactome
+  - id: R-HSA-416476
+    properties:
+      pathway name: G alpha (q) signalling events
+    type: Reactome
+  - id: P20309
+    type: SignaLink
+  - id: P20309
+    type: SIGNOR
+  - id: '1131'
+    properties:
+      hits: 9 hits in 1158 CRISPR screens
+    type: BioGRID-ORCS
+  - id: CHRM3
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: P20309
+    type: EvolutionaryTrace
+  - id: Muscarinic_acetylcholine_receptor_M3
+    type: GeneWiki
+  - id: '1131'
+    type: GenomeRNAi
+  - id: P20309
+    properties:
+      development level: Tclin
+    type: Pharos
+  - id: PR:P20309
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 1
+    type: Proteomes
+  - id: P20309
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000133019
+    properties:
+      expression patterns: Expressed in endothelial cell and 156 other cell types
+        or tissues
+    type: Bgee
+  - id: P20309
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: P20309
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17478539
+        id: '17478539'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17478539
+    id: GO:0009925
+    properties:
+      source: IDA:ARUK-UCL
+      term: C:basal plasma membrane
+    type: GO
+  - id: GO:0016323
+    properties:
+      source: IEA:UniProtKB-SubCell
+      term: C:basolateral plasma membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0030425
+    properties:
+      source: IBA:GO_Central
+      term: C:dendrite
+    type: GO
+  - id: GO:0005789
+    properties:
+      source: IEA:UniProtKB-SubCell
+      term: C:endoplasmic reticulum membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21056967
+        id: '21056967'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21056967
+    id: GO:0005886
+    properties:
+      source: IDA:UniProtKB
+      term: C:plasma membrane
+    type: GO
+  - id: GO:0045211
+    properties:
+      source: IEA:UniProtKB-SubCell
+      term: C:postsynaptic membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0045202
+    properties:
+      source: IBA:GO_Central
+      term: C:synapse
+    type: GO
+  - id: GO:0042166
+    properties:
+      source: ISS:UniProtKB
+      term: F:acetylcholine binding
+    type: GO
+  - id: GO:0016907
+    properties:
+      source: ISS:UniProtKB
+      term: F:G protein-coupled acetylcholine receptor activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0004993
+    properties:
+      source: IBA:GO_Central
+      term: F:G protein-coupled serotonin receptor activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1905013
+        id: '1905013'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1905013
+    id: GO:0004435
+    properties:
+      source: TAS:ProtInc
+      term: F:phosphatidylinositol phospholipase C activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10940357
+        id: '10940357'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10940357
+    id: GO:0038023
+    properties:
+      source: TAS:ProtInc
+      term: F:signaling receptor activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17478539
+        id: '17478539'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17478539
+    id: GO:0095500
+    properties:
+      source: IDA:ARUK-UCL
+      term: P:acetylcholine receptor signaling pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0007197
+    properties:
+      source: IBA:GO_Central
+      term: P:adenylate cyclase-inhibiting G protein-coupled acetylcholine receptor
+        signaling pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17478539
+        id: '17478539'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17478539
+    id: GO:0019722
+    properties:
+      source: IDA:ARUK-UCL
+      term: P:calcium-mediated signaling
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0007268
+    properties:
+      source: IBA:GO_Central
+      term: P:chemical synaptic transmission
+    type: GO
+  - id: GO:0007213
+    properties:
+      source: ISS:UniProtKB
+      term: P:G protein-coupled acetylcholine receptor signaling pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9603968
+        id: '9603968'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9603968
+    id: GO:0007186
+    properties:
+      source: TAS:ProtInc
+      term: P:G protein-coupled receptor signaling pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0007187
+    properties:
+      source: IBA:GO_Central
+      term: P:G protein-coupled receptor signaling pathway, coupled to cyclic nucleotide
+        second messenger
+    type: GO
+  - id: GO:0099105
+    properties:
+      source: IEA:Ensembl
+      term: P:ion channel modulating, G protein-coupled receptor signaling pathway
+    type: GO
+  - id: GO:1990806
+    properties:
+      source: IEA:Ensembl
+      term: P:ligand-gated ion channel signaling pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/2739737
+        id: '2739737'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/2739737
+    id: GO:0007399
+    properties:
+      source: TAS:ProtInc
+      term: P:nervous system development
+    type: GO
+  - id: GO:0007207
+    properties:
+      source: IEA:Ensembl
+      term: P:phospholipase C-activating G protein-coupled acetylcholine receptor
+        signaling pathway
+    type: GO
+  - id: GO:0032024
+    properties:
+      source: IEA:Ensembl
+      term: P:positive regulation of insulin secretion
+    type: GO
+  - id: GO:0045987
+    properties:
+      source: IEA:Ensembl
+      term: P:positive regulation of smooth muscle contraction
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10051746
+        id: '10051746'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10051746
+    id: GO:0036211
+    properties:
+      source: TAS:ProtInc
+      term: P:protein modification process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17478539
+        id: '17478539'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17478539
+    id: GO:0032412
+    properties:
+      source: IDA:ARUK-UCL
+      term: P:regulation of monoatomic ion transmembrane transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0003056
+    properties:
+      source: IBA:GO_Central
+      term: P:regulation of vascular associated smooth muscle contraction
+    type: GO
+  - id: GO:0046541
+    properties:
+      source: IEA:Ensembl
+      term: P:saliva secretion
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10940357
+        id: '10940357'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10940357
+    id: GO:0007165
+    properties:
+      source: TAS:ProtInc
+      term: P:signal transduction
+    type: GO
+  - id: GO:0006939
+    properties:
+      source: IEA:Ensembl
+      term: P:smooth muscle contraction
+    type: GO
+  - id: cd15299
+    properties:
+      entry name: 7tmA_mAChR_M3
+      match status: '1'
+    type: CDD
+  - id: 1.20.1070.10
+    properties:
+      entry name: Rhodopsin 7-helix transmembrane proteins
+      match status: '2'
+    type: Gene3D
+  - id: IPR000276
+    properties:
+      entry name: GPCR_Rhodpsn
+    type: InterPro
+  - id: IPR017452
+    properties:
+      entry name: GPCR_Rhodpsn_7TM
+    type: InterPro
+  - id: IPR001183
+    properties:
+      entry name: Musac_Ach_M3_rcpt
+    type: InterPro
+  - id: IPR000995
+    properties:
+      entry name: Musac_Ach_rcpt
+    type: InterPro
+  - id: PTHR24247
+    properties:
+      entry name: 5-HYDROXYTRYPTAMINE RECEPTOR
+      match status: '1'
+    type: PANTHER
+  - id: PTHR24247:SF183
+    properties:
+      entry name: MUSCARINIC ACETYLCHOLINE RECEPTOR M3
+      match status: '1'
+    type: PANTHER
+  - id: PF00001
+    properties:
+      entry name: 7tm_1
+      match status: '2'
+    type: Pfam
+  - id: PR00237
+    properties:
+      entry name: GPCRRHODOPSN
+    type: PRINTS
+  - id: PR00243
+    properties:
+      entry name: MUSCARINICR
+    type: PRINTS
+  - id: PR00540
+    properties:
+      entry name: MUSCRINICM3R
+    type: PRINTS
+  - id: SM01381
+    properties:
+      entry name: 7TM_GPCR_Srsx
+      match status: '1'
+    type: SMART
+  - id: SSF81321
+    properties:
+      entry name: Family A G protein-coupled receptor-like
+      match status: '1'
+    type: SUPFAM
+  - id: PS00237
+    properties:
+      entry name: G_PROTEIN_RECEP_F1_1
+      match status: '1'
+    type: PROSITE
+  - id: PS50262
+    properties:
+      entry name: G_PROTEIN_RECEP_F1_2
+      match status: '1'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Muscarinic acetylcholine receptor M3
+    end: '590'
+    ftId: PRO_0000069029
+    molecule: ''
+    type: CHAIN
+  - begin: '1'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '67'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '68'
+    category: TOPOLOGY
+    description: Helical; Name=1
+    end: '91'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TRANSMEM
+  - begin: '92'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '104'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '105'
+    category: TOPOLOGY
+    description: Helical; Name=2
+    end: '130'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TRANSMEM
+  - begin: '131'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '142'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '143'
+    category: TOPOLOGY
+    description: Helical; Name=3
+    end: '164'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TRANSMEM
+  - begin: '165'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '184'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '185'
+    category: TOPOLOGY
+    description: Helical; Name=4
+    end: '206'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TRANSMEM
+  - begin: '207'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '229'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '230'
+    category: TOPOLOGY
+    description: Helical; Name=5
+    end: '252'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TRANSMEM
+  - begin: '253'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '491'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '492'
+    category: TOPOLOGY
+    description: Helical; Name=6
+    end: '514'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TRANSMEM
+  - begin: '515'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '526'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '527'
+    category: TOPOLOGY
+    description: Helical; Name=7
+    end: '546'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TRANSMEM
+  - begin: '547'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '590'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '323'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '357'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '275'
+    category: DOMAINS_AND_SITES
+    description: Basolateral sorting signal
+    end: '281'
+    molecule: ''
+    type: MOTIF
+  - begin: '323'
+    category: SEQUENCE_INFORMATION
+    description: Polar residues
+    end: '352'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '385'
+    category: PTM
+    description: Phosphoserine
+    end: '385'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q9ERZ3
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q9ERZ3
+    molecule: ''
+    type: MOD_RES
+  - begin: '5'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '5'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '6'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '6'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '15'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '15'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '41'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '41'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '48'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '48'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '141'
+    category: PTM
+    description: ''
+    end: '221'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00521
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00521
+    molecule: ''
+    type: DISULFID
+  - begin: '517'
+    category: PTM
+    description: ''
+    end: '520'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00521
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00521
+    molecule: ''
+    type: DISULFID
+  - alternativeSequence: I
+    begin: '65'
+    category: VARIANTS
+    description: in dbSNP:rs2067481
+    end: '65'
+    ftId: VAR_033461
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: P
+    begin: '431'
+    category: VARIANTS
+    description: in dbSNP:rs16839102
+    end: '431'
+    ftId: VAR_049368
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: A
+    begin: '276'
+    category: MUTAGENESIS
+    description: Loss of basolateral sorting.
+    end: '276'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15870063
+        id: '15870063'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15870063
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: D
+    begin: '276'
+    category: MUTAGENESIS
+    description: Loss of basolateral sorting. No effect on basolateral sorting; when
+      associated with L-280 and L-281.
+    end: '276'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15870063
+        id: '15870063'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15870063
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A
+    begin: '280'
+    category: MUTAGENESIS
+    description: Loss of basolateral sorting.
+    end: '280'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15870063
+        id: '15870063'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15870063
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: L
+    begin: '280'
+    category: MUTAGENESIS
+    description: No effect on basolateral sorting.
+    end: '280'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15870063
+        id: '15870063'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15870063
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A
+    begin: '281'
+    category: MUTAGENESIS
+    description: Loss of basolateral sorting.
+    end: '281'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15870063
+        id: '15870063'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15870063
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: L
+    begin: '281'
+    category: MUTAGENESIS
+    description: No effect on basolateral sorting.
+    end: '281'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15870063
+        id: '15870063'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15870063
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: RLS
+    begin: '382'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 7; AAG30036
+    end: '384'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - begin: '65'
+    category: STRUCTURAL
+    end: '95'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8EA0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8EA0
+    molecule: ''
+    type: HELIX
+  - begin: '97'
+    category: STRUCTURAL
+    end: '99'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8E9W
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8E9W
+    molecule: ''
+    type: HELIX
+  - begin: '102'
+    category: STRUCTURAL
+    end: '104'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8EA0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8EA0
+    molecule: ''
+    type: HELIX
+  - begin: '105'
+    category: STRUCTURAL
+    end: '119'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8EA0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8EA0
+    molecule: ''
+    type: HELIX
+  - begin: '121'
+    category: STRUCTURAL
+    end: '130'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8EA0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8EA0
+    molecule: ''
+    type: HELIX
+  - begin: '131'
+    category: STRUCTURAL
+    end: '133'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8E9Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8E9Y
+    molecule: ''
+    type: STRAND
+  - begin: '138'
+    category: STRUCTURAL
+    end: '171'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8EA0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8EA0
+    molecule: ''
+    type: HELIX
+  - begin: '173'
+    category: STRUCTURAL
+    end: '175'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8EA0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8EA0
+    molecule: ''
+    type: TURN
+  - begin: '176'
+    category: STRUCTURAL
+    end: '179'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8EA0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8EA0
+    molecule: ''
+    type: HELIX
+  - begin: '182'
+    category: STRUCTURAL
+    end: '210'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8EA0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8EA0
+    molecule: ''
+    type: HELIX
+  - begin: '211'
+    category: STRUCTURAL
+    end: '213'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8EA0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8EA0
+    molecule: ''
+    type: STRAND
+  - begin: '224'
+    category: STRUCTURAL
+    end: '228'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8EA0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8EA0
+    molecule: ''
+    type: STRAND
+  - begin: '231'
+    category: STRUCTURAL
+    end: '239'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8EA0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8EA0
+    molecule: ''
+    type: HELIX
+  - begin: '241'
+    category: STRUCTURAL
+    end: '264'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8EA0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8EA0
+    molecule: ''
+    type: HELIX
+  - begin: '280'
+    category: STRUCTURAL
+    end: '283'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CSA
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CSA
+    molecule: ''
+    type: STRAND
+  - begin: '489'
+    category: STRUCTURAL
+    end: '502'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8EA0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8EA0
+    molecule: ''
+    type: HELIX
+  - begin: '505'
+    category: STRUCTURAL
+    end: '516'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8EA0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8EA0
+    molecule: ''
+    type: HELIX
+  - begin: '518'
+    category: STRUCTURAL
+    end: '521'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8E9Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8E9Y
+    molecule: ''
+    type: STRAND
+  - begin: '523'
+    category: STRUCTURAL
+    end: '533'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8EA0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8EA0
+    molecule: ''
+    type: HELIX
+  - begin: '535'
+    category: STRUCTURAL
+    end: '544'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8EA0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8EA0
+    molecule: ''
+    type: HELIX
+  - begin: '545'
+    category: STRUCTURAL
+    end: '547'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8EA0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8EA0
+    molecule: ''
+    type: TURN
+  - begin: '549'
+    category: STRUCTURAL
+    end: '560'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 8EA0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/8EA0
+    molecule: ''
+    type: HELIX
+  gene:
+  - name:
+      value: CHRM3
+  id: ACM3_HUMAN
+  info:
+    created: '1991-02-01'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 217
+  keywords:
+  - value: 3D-structure
+  - value: Cell membrane
+  - value: Disulfide bond
+  - value: Endoplasmic reticulum
+  - value: G-protein coupled receptor
+  - value: Glycoprotein
+  - value: Membrane
+  - value: Phosphoprotein
+  - value: Postsynaptic cell membrane
+  - value: Receptor
+  - value: Reference proteome
+  - value: Synapse
+  - value: Transducer
+  - value: Transmembrane
+  - value: Transmembrane helix
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    recommendedName:
+      fullName:
+        value: Muscarinic acetylcholine receptor M3
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Peralta E.G.
+      - Ashkenazi A.
+      - Winslow J.W.
+      - Smith D.H.
+      - Ramachandran J.
+      - Capon D.J.
+      dbReferences:
+      - id: '3443095'
+        type: PubMed
+      - id: 10.1002/j.1460-2075.1987.tb02733.x
+        type: DOI
+      location:
+        firstPage: '3923'
+        lastPage: '3929'
+        volume: '6'
+      publication:
+        journalName: EMBO J.
+      publicationDate: '1987'
+      title: Distinct primary structures, ligand-binding properties and tissue-specific
+        expression of four human muscarinic acetylcholine receptors.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+  - citation:
+      authors:
+      - Bonner T.I.
+      - Young A.C.
+      - Brann M.R.
+      - Buckley N.J.
+      dbReferences:
+      - id: '3272174'
+        type: PubMed
+      - id: 10.1016/0896-6273(88)90190-0
+        type: DOI
+      location:
+        firstPage: '403'
+        lastPage: '410'
+        volume: '1'
+      publication:
+        journalName: Neuron
+      publicationDate: '1988'
+      title: Cloning and expression of the human and rat m5 muscarinic acetylcholine
+        receptor genes.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+  - citation:
+      authors:
+      - Kitano T.
+      - Liu Y.-H.
+      - Ueda S.
+      - Saitou N.
+      dbReferences:
+      - id: '15014171'
+        type: PubMed
+      - id: 10.1093/molbev/msh100
+        type: DOI
+      location:
+        firstPage: '936'
+        lastPage: '944'
+        volume: '21'
+      publication:
+        journalName: Mol. Biol. Evol.
+      publicationDate: '2004'
+      title: Human-specific amino acid changes found in 103 protein-coding genes.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+  - citation:
+      authors:
+      - Puhl H.L. III
+      - Ikeda S.R.
+      - Aronstam R.S.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: APR-2002
+      title: cDNA clones of human proteins involved in signal transduction sequenced
+        by the Guthrie cDNA resource center (www.cdna.org).
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]
+    source:
+      tissue:
+      - value: Brain
+  - citation:
+      authors:
+      - Gregory S.G.
+      - Barlow K.F.
+      - McLay K.E.
+      - Kaul R.
+      - Swarbreck D.
+      - Dunham A.
+      - Scott C.E.
+      - Howe K.L.
+      - Woodfine K.
+      - Spencer C.C.A.
+      - Jones M.C.
+      - Gillson C.
+      - Searle S.
+      - Zhou Y.
+      - Kokocinski F.
+      - McDonald L.
+      - Evans R.
+      - Phillips K.
+      - Atkinson A.
+      - Cooper R.
+      - Jones C.
+      - Hall R.E.
+      - Andrews T.D.
+      - Lloyd C.
+      - Ainscough R.
+      - Almeida J.P.
+      - Ambrose K.D.
+      - Anderson F.
+      - Andrew R.W.
+      - Ashwell R.I.S.
+      - Aubin K.
+      - Babbage A.K.
+      - Bagguley C.L.
+      - Bailey J.
+      - Beasley H.
+      - Bethel G.
+      - Bird C.P.
+      - Bray-Allen S.
+      - Brown J.Y.
+      - Brown A.J.
+      - Buckley D.
+      - Burton J.
+      - Bye J.
+      - Carder C.
+      - Chapman J.C.
+      - Clark S.Y.
+      - Clarke G.
+      - Clee C.
+      - Cobley V.
+      - Collier R.E.
+      - Corby N.
+      - Coville G.J.
+      - Davies J.
+      - Deadman R.
+      - Dunn M.
+      - Earthrowl M.
+      - Ellington A.G.
+      - Errington H.
+      - Frankish A.
+      - Frankland J.
+      - French L.
+      - Garner P.
+      - Garnett J.
+      - Gay L.
+      - Ghori M.R.J.
+      - Gibson R.
+      - Gilby L.M.
+      - Gillett W.
+      - Glithero R.J.
+      - Grafham D.V.
+      - Griffiths C.
+      - Griffiths-Jones S.
+      - Grocock R.
+      - Hammond S.
+      - Harrison E.S.I.
+      - Hart E.
+      - Haugen E.
+      - Heath P.D.
+      - Holmes S.
+      - Holt K.
+      - Howden P.J.
+      - Hunt A.R.
+      - Hunt S.E.
+      - Hunter G.
+      - Isherwood J.
+      - James R.
+      - Johnson C.
+      - Johnson D.
+      - Joy A.
+      - Kay M.
+      - Kershaw J.K.
+      - Kibukawa M.
+      - Kimberley A.M.
+      - King A.
+      - Knights A.J.
+      - Lad H.
+      - Laird G.
+      - Lawlor S.
+      - Leongamornlert D.A.
+      - Lloyd D.M.
+      - Loveland J.
+      - Lovell J.
+      - Lush M.J.
+      - Lyne R.
+      - Martin S.
+      - Mashreghi-Mohammadi M.
+      - Matthews L.
+      - Matthews N.S.W.
+      - McLaren S.
+      - Milne S.
+      - Mistry S.
+      - Moore M.J.F.
+      - Nickerson T.
+      - O'Dell C.N.
+      - Oliver K.
+      - Palmeiri A.
+      - Palmer S.A.
+      - Parker A.
+      - Patel D.
+      - Pearce A.V.
+      - Peck A.I.
+      - Pelan S.
+      - Phelps K.
+      - Phillimore B.J.
+      - Plumb R.
+      - Rajan J.
+      - Raymond C.
+      - Rouse G.
+      - Saenphimmachak C.
+      - Sehra H.K.
+      - Sheridan E.
+      - Shownkeen R.
+      - Sims S.
+      - Skuce C.D.
+      - Smith M.
+      - Steward C.
+      - Subramanian S.
+      - Sycamore N.
+      - Tracey A.
+      - Tromans A.
+      - Van Helmond Z.
+      - Wall M.
+      - Wallis J.M.
+      - White S.
+      - Whitehead S.L.
+      - Wilkinson J.E.
+      - Willey D.L.
+      - Williams H.
+      - Wilming L.
+      - Wray P.W.
+      - Wu Z.
+      - Coulson A.
+      - Vaudin M.
+      - Sulston J.E.
+      - Durbin R.M.
+      - Hubbard T.
+      - Wooster R.
+      - Dunham I.
+      - Carter N.P.
+      - McVean G.
+      - Ross M.T.
+      - Harrow J.
+      - Olson M.V.
+      - Beck S.
+      - Rogers J.
+      - Bentley D.R.
+      dbReferences:
+      - id: '16710414'
+        type: PubMed
+      - id: 10.1038/nature04727
+        type: DOI
+      location:
+        firstPage: '315'
+        lastPage: '321'
+        volume: '441'
+      publication:
+        journalName: Nature
+      publicationDate: '2006'
+      title: The DNA sequence and biological annotation of human chromosome 1.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      consortiums:
+      - The MGC Project Team
+      dbReferences:
+      - id: '15489334'
+        type: PubMed
+      - id: 10.1101/gr.2596504
+        type: DOI
+      location:
+        firstPage: '2121'
+        lastPage: '2127'
+        volume: '14'
+      publication:
+        journalName: Genome Res.
+      publicationDate: '2004'
+      title: 'The status, quality, and expansion of the NIH full-length cDNA project:
+        the Mammalian Gene Collection (MGC).'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]
+  - citation:
+      authors:
+      - Speek M.
+      dbReferences:
+      - id: '11238933'
+        type: PubMed
+      - id: 10.1128/mcb.21.6.1973-1985.2001
+        type: DOI
+      location:
+        firstPage: '1973'
+        lastPage: '1985'
+        volume: '21'
+      publication:
+        journalName: Mol. Cell. Biol.
+      publicationDate: '2001'
+      title: Antisense promoter of human L1 retrotransposon drives transcription of
+        adjacent cellular genes.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] OF 1-384
+    source:
+      tissue:
+      - value: Teratocarcinoma
+  - citation:
+      authors:
+      - Yang J.
+      - Williams J.A.
+      - Yule D.I.
+      - Logsdon C.D.
+      dbReferences:
+      - id: '7565628'
+        type: PubMed
+      location:
+        firstPage: '477'
+        lastPage: '485'
+        volume: '48'
+      publication:
+        journalName: Mol. Pharmacol.
+      publicationDate: '1995'
+      title: Mutation of carboxyl-terminal threonine residues in human M3 muscarinic
+        acetylcholine receptor modulates the extent of sequestration and desensitization.
+      type: journal article
+    scope:
+    - FUNCTION
+  - citation:
+      authors:
+      - Weber S.
+      - Thiele H.
+      - Mir S.
+      - Toliat M.R.
+      - Sozeri B.
+      - Reutter H.
+      - Draaken M.
+      - Ludwig M.
+      - Altmuller J.
+      - Frommolt P.
+      - Stuart H.M.
+      - Ranjzad P.
+      - Hanley N.A.
+      - Jennings R.
+      - Newman W.G.
+      - Wilcox D.T.
+      - Thiel U.
+      - Schlingmann K.P.
+      - Beetz R.
+      - Hoyer P.F.
+      - Konrad M.
+      - Schaefer F.
+      - Nurnberg P.
+      - Woolf A.S.
+      dbReferences:
+      - id: '22077972'
+        type: PubMed
+      - id: 10.1016/j.ajhg.2011.10.007
+        type: DOI
+      location:
+        firstPage: '668'
+        lastPage: '674'
+        volume: '89'
+      publication:
+        journalName: Am. J. Hum. Genet.
+      publicationDate: '2011'
+      title: Muscarinic acetylcholine receptor M3 mutation causes urinary bladder
+        disease and a prune-belly-like syndrome.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN PBS
+  - citation:
+      authors:
+      - Rosemond E.
+      - Rossi M.
+      - McMillin S.M.
+      - Scarselli M.
+      - Donaldson J.G.
+      - Wess J.
+      dbReferences:
+      - id: '21056967'
+        type: PubMed
+      - id: 10.1124/mol.110.067363
+        type: DOI
+      location:
+        firstPage: '251'
+        lastPage: '261'
+        volume: '79'
+      publication:
+        journalName: Mol. Pharmacol.
+      publicationDate: '2011'
+      title: Regulation of M(3) muscarinic receptor expression and function by transmembrane
+        protein 147.
+      type: journal article
+    scope:
+    - SUBCELLULAR LOCATION
+    - INTERACTION WITH TMEM147
+  - citation:
+      authors:
+      - Patowary S.
+      - Alvarez-Curto E.
+      - Xu T.R.
+      - Holz J.D.
+      - Oliver J.A.
+      - Milligan G.
+      - Raicu V.
+      dbReferences:
+      - id: '23521066'
+        type: PubMed
+      - id: 10.1042/bj20121902
+        type: DOI
+      location:
+        firstPage: '303'
+        lastPage: '312'
+        volume: '452'
+      publication:
+        journalName: Biochem. J.
+      publicationDate: '2013'
+      title: The muscarinic M3 acetylcholine receptor exists as two differently sized
+        complexes at the plasma membrane.
+      type: journal article
+    scope:
+    - SUBUNIT
+    - SUBCELLULAR LOCATION
+  - citation:
+      authors:
+      - Iverson H.A.
+      - Fox D. III
+      - Nadler L.S.
+      - Klevit R.E.
+      - Nathanson N.M.
+      dbReferences:
+      - id: '15870063'
+        type: PubMed
+      - id: 10.1074/jbc.m501264200
+        type: DOI
+      location:
+        firstPage: '24568'
+        lastPage: '24575'
+        volume: '280'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2005'
+      title: Identification and structural determination of the M(3) muscarinic acetylcholine
+        receptor basolateral sorting signal.
+      type: journal article
+    scope:
+    - STRUCTURE BY NMR OF 271-289
+    - MUTAGENESIS OF GLU-276; PHE-280 AND VAL-281
+    - SUBCELLULAR LOCATION
+  secondaryAccession:
+  - Q0VAJ8
+  - Q4QRI3
+  - Q5VXY2
+  - Q9HB60
+  sequence:
+    length: 590
+    mass: 66128
+    modified: '1991-02-01'
+    sequence: MTLHNNSTTSPLFPNISSSWIHSPSDAGLPPGTVTHFGSYNVSRAAGNFSSPDGTTDDPLGGHTVWQVVFIAFLTGILALVTIIGNILVIVSFKVNKQLKTVNNYFLLSLACADLIIGVISMNLFTTYIIMNRWALGNLACDLWLAIDYVASNASVMNLLVISFDRYFSITRPLTYRAKRTTKRAGVMIGLAWVISFVLWAPAILFWQYFVGKRTVPPGECFIQFLSEPTITFGTAIAAFYMPVTIMTILYWRIYKETEKRTKELAGLQASGTEAETENFVHPTGSSRSCSSYELQQQSMKRSNRRKYGRCHFWFTTKSWKPSSEQMDQDHSSSDSWNNNDAAASLENSASSDEEDIGSETRAIYSIVLKLPGHSTILNSTKLPSSDNLQVPEEELGMVDLERKADKLQAQKSVDDGGSFPKSFSKLPIQLESAVDTAKTSDVNSSVGKSTATLPLSFKEATLAKRFALKTRSQITKRKRMSLVKEKKAAQTLSAILLAFIITWTPYNIMVLVNTFCDSCIPKTFWNLGYWLCYINSTVNPVCYALCNKTFRTTFKMLLLCQCDKKKRRKQQYQQRQSVIFHKRAPEQAL
+    version: 1
+uniprot_id: P20309

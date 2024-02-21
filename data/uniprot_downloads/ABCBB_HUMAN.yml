@@ -1,0 +1,6514 @@
+data:
+  accession: O95342
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15791618
+          id: '15791618'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15791618
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15901796
+          id: '15901796'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15901796
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18245269
+          id: '18245269'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18245269
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18985798
+          id: '18985798'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18985798
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19228692
+          id: '19228692'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19228692
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20010382
+          id: '20010382'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20010382
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20398791
+          id: '20398791'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20398791
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22262466
+          id: '22262466'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22262466
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/24711118
+          id: '24711118'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/24711118
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/29507376
+          id: '29507376'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/29507376
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/32203132
+          id: '32203132'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/32203132
+      value: Catalyzes the transport of the major hydrophobic bile salts, such as
+        taurine and glycine-conjugated cholic acid across the canalicular membrane
+        of hepatocytes in an ATP-dependent manner, therefore participates in hepatic
+        bile acid homeostasis and consequently to lipid homeostasis through regulation
+        of biliary lipid secretion in a bile salts dependent manner (PubMed:16332456,
+        PubMed:22262466, PubMed:15791618, PubMed:18985798, PubMed:19228692, PubMed:20398791,
+        PubMed:24711118, PubMed:29507376, PubMed:20010382, PubMed:32203132). Transports
+        taurine-conjugated bile salts more rapidly than glycine-conjugated bile salts
+        (PubMed:16332456). Also transports non-bile acid compounds, such as pravastatin
+        and fexofenadine in an ATP-dependent manner and may be involved in their biliary
+        excretion (PubMed:15901796, PubMed:18245269)
+    type: FUNCTION
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:50049
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+    reaction:
+      dbReferences:
+      - id: RHEA:50048
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:29747
+        type: ChEBI
+      - id: CHEBI:30616
+        type: ChEBI
+      - id: CHEBI:43474
+        type: ChEBI
+      - id: CHEBI:456216
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+      name: ATP + cholate(in) + H2O = ADP + cholate(out) + H(+) + phosphate
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:50053
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15791618
+          id: '15791618'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15791618
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15901796
+          id: '15901796'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15901796
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18985798
+          id: '18985798'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18985798
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19228692
+          id: '19228692'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19228692
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20010382
+          id: '20010382'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20010382
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20398791
+          id: '20398791'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20398791
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22262466
+          id: '22262466'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22262466
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/24711118
+          id: '24711118'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/24711118
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/29507376
+          id: '29507376'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/29507376
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/32203132
+          id: '32203132'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/32203132
+    reaction:
+      dbReferences:
+      - id: RHEA:50052
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:30616
+        type: ChEBI
+      - id: CHEBI:36257
+        type: ChEBI
+      - id: CHEBI:43474
+        type: ChEBI
+      - id: CHEBI:456216
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15791618
+          id: '15791618'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15791618
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15901796
+          id: '15901796'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15901796
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18985798
+          id: '18985798'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18985798
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19228692
+          id: '19228692'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19228692
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20010382
+          id: '20010382'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20010382
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20398791
+          id: '20398791'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20398791
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22262466
+          id: '22262466'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22262466
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/24711118
+          id: '24711118'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/24711118
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/29507376
+          id: '29507376'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/29507376
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/32203132
+          id: '32203132'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/32203132
+      name: ATP + H2O + taurocholate(in) = ADP + H(+) + phosphate + taurocholate(out)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:50057
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15791618
+          id: '15791618'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15791618
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/32203132
+          id: '32203132'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/32203132
+    reaction:
+      dbReferences:
+      - id: RHEA:50056
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:29746
+        type: ChEBI
+      - id: CHEBI:30616
+        type: ChEBI
+      - id: CHEBI:43474
+        type: ChEBI
+      - id: CHEBI:456216
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15791618
+          id: '15791618'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15791618
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/32203132
+          id: '32203132'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/32203132
+      name: ATP + glycocholate(in) + H2O = ADP + glycocholate(out) + H(+) + phosphate
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:50061
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+    reaction:
+      dbReferences:
+      - id: RHEA:50060
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:30616
+        type: ChEBI
+      - id: CHEBI:36252
+        type: ChEBI
+      - id: CHEBI:43474
+        type: ChEBI
+      - id: CHEBI:456216
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+      name: ATP + glycochenodeoxycholate(in) + H2O = ADP + glycochenodeoxycholate(out)
+        + H(+) + phosphate
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:50065
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+    reaction:
+      dbReferences:
+      - id: RHEA:50064
+        type: Rhea
+      - id: CHEBI:9407
+        type: ChEBI
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:30616
+        type: ChEBI
+      - id: CHEBI:43474
+        type: ChEBI
+      - id: CHEBI:456216
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+      name: ATP + H2O + taurochenodeoxycholate(in) = ADP + H(+) + phosphate + taurochenodeoxycholate(out)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:50069
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+    reaction:
+      dbReferences:
+      - id: RHEA:50068
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:30616
+        type: ChEBI
+      - id: CHEBI:43474
+        type: ChEBI
+      - id: CHEBI:132030
+        type: ChEBI
+      - id: CHEBI:456216
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+      name: ATP + glycoursodeoxycholate(in) + H2O = ADP + glycoursodeoxycholate(out)
+        + H(+) + phosphate
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:50073
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/32203132
+          id: '32203132'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/32203132
+    reaction:
+      dbReferences:
+      - id: RHEA:50072
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:30616
+        type: ChEBI
+      - id: CHEBI:43474
+        type: ChEBI
+      - id: CHEBI:132028
+        type: ChEBI
+      - id: CHEBI:456216
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/32203132
+          id: '32203132'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/32203132
+      name: ATP + H2O + tauroursodeoxycholate(in) = ADP + H(+) + phosphate + tauroursodeoxycholate(out)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:50081
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+    reaction:
+      dbReferences:
+      - id: RHEA:50080
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:30616
+        type: ChEBI
+      - id: CHEBI:36261
+        type: ChEBI
+      - id: CHEBI:43474
+        type: ChEBI
+      - id: CHEBI:456216
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+      name: ATP + H2O + taurodeoxycholate(in) = ADP + H(+) + phosphate + taurodeoxycholate(out)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:50085
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+    reaction:
+      dbReferences:
+      - id: RHEA:50084
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:30616
+        type: ChEBI
+      - id: CHEBI:43474
+        type: ChEBI
+      - id: CHEBI:58301
+        type: ChEBI
+      - id: CHEBI:456216
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+      name: ATP + H2O + taurolithocholate 3-sulfate(in) = ADP + H(+) + phosphate +
+        taurolithocholate 3-sulfate(out)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:63909
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15901796
+          id: '15901796'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15901796
+    reaction:
+      dbReferences:
+      - id: RHEA:63908
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:30616
+        type: ChEBI
+      - id: CHEBI:43474
+        type: ChEBI
+      - id: CHEBI:63660
+        type: ChEBI
+      - id: CHEBI:456216
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15901796
+          id: '15901796'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15901796
+      name: ATP + H2O + pravastatin(in) = ADP + H(+) + phosphate + pravastatin(out)
+    type: CATALYTIC_ACTIVITY
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15901796
+          id: '15901796'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15901796
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16332456
+          id: '16332456'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18985798
+          id: '18985798'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18985798
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19228692
+          id: '19228692'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19228692
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20398791
+          id: '20398791'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20398791
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/24711118
+          id: '24711118'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/24711118
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/32203132
+          id: '32203132'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/32203132
+      value: The uptake of taurocholate is inhibited by taurolithocholate sulfate
+        with an IC(50) of 9 uM (PubMed:16332456). Pravastatin competitively inhibits
+        the transport of taurocholic acid (PubMed:18985798, PubMed:15901796). Cyclosporin
+        A, glibenclamide, rifampicin and troglitazonestrongly competitively inhibit
+        the transport activity of taurocholate (PubMed:18985798, PubMed:32203132).
+        The canalicular transport activity of taurocholate is strongly dependent on
+        canalicular membrane cholesterol content (PubMed:19228692). The uptake of
+        taurocholate is increased by short- and medium-chain fatty acids (PubMed:20398791).
+        Cholesterol increases transport capacity of taurocholate without affecting
+        the affinity for the substrate (PubMed:24711118)
+    type: ACTIVITY_REGULATION
+  - kinetics:
+      km:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17264802
+            id: '17264802'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17264802
+        value: 30.4 uM for taurocholate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16332456
+            id: '16332456'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+        value: 6.2 uM for taurocholate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16332456
+            id: '16332456'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+        value: 21.7 uM for glycocholate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16332456
+            id: '16332456'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+        value: 6.6 uM for taurochenodeoxycholate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16332456
+            id: '16332456'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+        value: 7.5 uM for glycochenodeoxycholate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16332456
+            id: '16332456'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+        value: 9.5 uM for taurolithocholate sulfate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15791618
+            id: '15791618'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15791618
+        value: 4.61 uM for taurocholate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15901796
+            id: '15901796'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15901796
+        value: 4.64 uM for taurocholate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15901796
+            id: '15901796'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15901796
+        value: 124 uM for pravastatin
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/18985798
+            id: '18985798'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/18985798
+        value: 19.9 uM for taurocholate
+      vmax:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17264802
+            id: '17264802'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17264802
+        value: 232.0 pmol/min/mg enzyme for taurocholate transport
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16332456
+            id: '16332456'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+        value: 2510.0 pmol/min/mg enzyme for taurocholate transport
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15791618
+            id: '15791618'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15791618
+        value: 2310.0 pmol/min/mg enzyme for taurocholate transport
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15901796
+            id: '15901796'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15901796
+        value: 4290.0 pmol/min/mg enzyme for taurocholate transport
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15901796
+            id: '15901796'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15901796
+        value: 1220.0 pmol/min/mg enzyme for pravastatin transport
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/18985798
+            id: '18985798'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/18985798
+        value: 98.5 pmol/min/mg enzyme for taurocholate transport
+    type: BIOPHYSICOCHEMICAL_PROPERTIES
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: O70127
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/O70127
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22262466
+          id: '22262466'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22262466
+      value: Interacts with HAX1 (By similarity). Interacts with the adapter protein
+        complex 2 (AP-2) throught AP2A2 or AP2A1; this interaction regulates cell
+        membrane expression of ABCB11 through its internalization in a clathrin-dependent
+        manner and its subsequent degradation (PubMed:22262466)
+    type: SUBUNIT
+  - interactions:
+    - accession1: O95342
+      accession2: Q96D03
+      experiments: 3
+      gene: DDIT4L
+      interactor1: EBI-3914067
+      interactor2: EBI-742054
+      organismDiffer: false
+    type: INTERACTION
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15791618
+            id: '15791618'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15791618
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/22262466
+            id: '22262466'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/22262466
+        value: Apical cell membrane
+      topology:
+        evidences:
+        - code: ECO:0000255
+        value: Multi-pass membrane protein
+    - location:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: O70127
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/O70127
+        value: Recycling endosome membrane
+      topology:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: O70127
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/O70127
+        value: Multi-pass membrane protein
+    - location:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: O70127
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/O70127
+        value: Endosome
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/20010382
+            id: '20010382'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/20010382
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/22262466
+            id: '22262466'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/22262466
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/29507376
+            id: '29507376'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/29507376
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/30431138
+            id: '30431138'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/30431138
+        value: Cell membrane
+      topology:
+        evidences:
+        - code: ECO:0000255
+        value: Multi-pass membrane protein
+    text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: O70127
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/O70127
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20398791
+          id: '20398791'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20398791
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22262466
+          id: '22262466'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22262466
+      value: Internalized at the canalicular membrane through interaction with the
+        adapter protein complex 2 (AP-2) (PubMed:22262466). At steady state, localizes
+        in the canalicular membrane but is also present in recycling endosomes. ABCB11
+        constantly and rapidly exchanges between the two sites through tubulo-vesicles
+        carriers that move along microtubules. Microtubule-dependent trafficking of
+        ABCB11 is enhanced by taurocholate and cAMP and regulated by STK11 through
+        a PKA-mediated pathway. Trafficking of newly synthesized ABCB11 through endosomal
+        compartment to the bile canalicular membrane is accelerated by cAMP but not
+        by taurocholate (By similarity). Cell membrane expression is up-regulated
+        by short- and medium-chain fatty acids (PubMed:20398791)
+    type: SUBCELLULAR_LOCATION
+  - text:
+    - value: Expressed predominantly, if not exclusively in the liver, where it was
+        further localized to the canalicular microvilli and to subcanalicular vesicles
+        of the hepatocytes by in situ
+    type: TISSUE_SPECIFICITY
+  - text:
+    - value: Multifunctional polypeptide with two homologous halves, each containing
+        a hydrophobic membrane-anchoring domain and an ATP binding cassette (ABC)
+        domain
+    type: DOMAIN
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15791618
+          id: '15791618'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15791618
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18829893
+          id: '18829893'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18829893
+      value: N-glycosylated
+    type: PTM
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18829893
+          id: '18829893'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18829893
+      value: Ubiquitinated; short-chain ubiquitination regulates cell-Surface expression
+        of ABCB11
+    type: PTM
+  - acronym: PFIC2
+    dbReference:
+      id: '601847'
+      type: MIM
+    description:
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10579978
+          id: '10579978'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10579978
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11815775
+          id: '11815775'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11815775
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15791618
+          id: '15791618'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15791618
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18829893
+          id: '18829893'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18829893
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20010382
+          id: '20010382'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20010382
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/24969679
+          id: '24969679'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/24969679
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/29507376
+          id: '29507376'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/29507376
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9806540
+          id: '9806540'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9806540
+      value: A disorder characterized by early onset of cholestasis that progresses
+        to hepatic fibrosis, cirrhosis, and end-stage liver disease before adulthood.
+        PFIC2 inheritance is autosomal recessive.
+    diseaseId: Cholestasis, progressive familial intrahepatic, 2
+    text:
+    - value: The disease is caused by variants affecting the gene represented in this
+        entry
+    type: DISEASE
+  - acronym: BRIC2
+    dbReference:
+      id: '605479'
+      type: MIM
+    description:
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15300568
+          id: '15300568'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15300568
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16039748
+          id: '16039748'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16039748
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/24711118
+          id: '24711118'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/24711118
+      value: A disorder characterized by intermittent episodes of cholestasis without
+        progression to liver failure. There is initial elevation of serum bile acids,
+        followed by cholestatic jaundice which generally spontaneously resolves after
+        periods of weeks to months. The cholestatic attacks vary in severity and duration.
+        Patients are asymptomatic between episodes, both clinically and biochemically.
+    diseaseId: Cholestasis, benign recurrent intrahepatic, 2
+    text:
+    - value: The disease is caused by variants affecting the gene represented in this
+        entry
+    type: DISEASE
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the ABC transporter superfamily. ABCB family. Multidrug resistance
+        exporter (TC 3.A.1.201) subfamily
+    type: SIMILARITY
+  - name: ABCMdb
+    text: Database for mutations in ABC proteins
+    type: WEBRESOURCE
+    url: http://abcm2.hegelab.org/search
+  dbReferences:
+  - id: AF091582
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAC77455.1
+    type: EMBL
+  - id: AF136523
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAD28285.1
+    type: EMBL
+  - id: AC008177
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAY24305.1
+    type: EMBL
+  - id: AC093723
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: AC069137
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: CCDS46444.1
+    type: CCDS
+  - id: NP_003733.2
+    properties:
+      nucleotide sequence ID: NM_003742.2
+    type: RefSeq
+  - id: 6LR0
+    properties:
+      chains: U=1-1321
+      method: EM
+      resolution: 3.50 A
+    type: PDB
+  - id: 7DV5
+    properties:
+      chains: U=46-1315
+      method: EM
+      resolution: 3.70 A
+    type: PDB
+  - id: 7E1A
+    properties:
+      chains: U=1-1321
+      method: EM
+      resolution: 3.66 A
+    type: PDB
+  - id: 6LR0
+    type: PDBsum
+  - id: 7DV5
+    type: PDBsum
+  - id: 7E1A
+    type: PDBsum
+  - id: O95342
+    type: AlphaFoldDB
+  - id: EMD-30870
+    type: EMDB
+  - id: EMD-30938
+    type: EMDB
+  - id: EMD-31583
+    type: EMDB
+  - id: EMD-32261
+    type: EMDB
+  - id: EMD-4536
+    type: EMDB
+  - id: O95342
+    type: SMR
+  - id: '114199'
+    properties:
+      interactions: '10'
+    type: BioGRID
+  - id: O95342
+    properties:
+      interactions: '5'
+    type: IntAct
+  - id: 9606.ENSP00000497931
+    type: STRING
+  - id: O95342
+    type: BindingDB
+  - id: CHEMBL6020
+    type: ChEMBL
+  - id: DB01118
+    properties:
+      generic name: Amiodarone
+    type: DrugBank
+  - id: DB00637
+    properties:
+      generic name: Astemizole
+    type: DrugBank
+  - id: DB01072
+    properties:
+      generic name: Atazanavir
+    type: DrugBank
+  - id: DB00335
+    properties:
+      generic name: Atenolol
+    type: DrugBank
+  - id: DB01076
+    properties:
+      generic name: Atorvastatin
+    type: DrugBank
+  - id: DB00171
+    properties:
+      generic name: ATP
+    type: DrugBank
+  - id: DB00572
+    properties:
+      generic name: Atropine
+    type: DrugBank
+  - id: DB15233
+    properties:
+      generic name: Avapritinib
+    type: DrugBank
+  - id: DB15719
+    properties:
+      generic name: Belantamab mafodotin
+    type: DrugBank
+  - id: DB12319
+    properties:
+      generic name: Benzbromarone
+    type: DrugBank
+  - id: DB00559
+    properties:
+      generic name: Bosentan
+    type: DrugBank
+  - id: DB12151
+    properties:
+      generic name: Brincidofovir
+    type: DrugBank
+  - id: DB01222
+    properties:
+      generic name: Budesonide
+    type: DrugBank
+  - id: DB00833
+    properties:
+      generic name: Cefaclor
+    type: DrugBank
+  - id: DB00482
+    properties:
+      generic name: Celecoxib
+    type: DrugBank
+  - id: DB00439
+    properties:
+      generic name: Cerivastatin
+    type: DrugBank
+  - id: DB00477
+    properties:
+      generic name: Chlorpromazine
+    type: DrugBank
+  - id: DB02659
+    properties:
+      generic name: Cholic Acid
+    type: DrugBank
+  - id: DB00501
+    properties:
+      generic name: Cimetidine
+    type: DrugBank
+  - id: DB01211
+    properties:
+      generic name: Clarithromycin
+    type: DrugBank
+  - id: DB00257
+    properties:
+      generic name: Clotrimazole
+    type: DrugBank
+  - id: DB00091
+    properties:
+      generic name: Cyclosporine
+    type: DrugBank
+  - id: DB03619
+    properties:
+      generic name: Deoxycholic acid
+    type: DrugBank
+  - id: DB01234
+    properties:
+      generic name: Dexamethasone
+    type: DrugBank
+  - id: DB14649
+    properties:
+      generic name: Dexamethasone acetate
+    type: DrugBank
+  - id: DB00586
+    properties:
+      generic name: Diclofenac
+    type: DrugBank
+  - id: DB00255
+    properties:
+      generic name: Diethylstilbestrol
+    type: DrugBank
+  - id: DB00390
+    properties:
+      generic name: Digoxin
+    type: DrugBank
+  - id: DB13345
+    properties:
+      generic name: Dihydroergocristine
+    type: DrugBank
+  - id: DB00975
+    properties:
+      generic name: Dipyridamole
+    type: DrugBank
+  - id: DB00822
+    properties:
+      generic name: Disulfiram
+    type: DrugBank
+  - id: DB00997
+    properties:
+      generic name: Doxorubicin
+    type: DrugBank
+  - id: DB00625
+    properties:
+      generic name: Efavirenz
+    type: DrugBank
+  - id: DB00199
+    properties:
+      generic name: Erythromycin
+    type: DrugBank
+  - id: DB00977
+    properties:
+      generic name: Ethinylestradiol
+    type: DrugBank
+  - id: DB00973
+    properties:
+      generic name: Ezetimibe
+    type: DrugBank
+  - id: DB01023
+    properties:
+      generic name: Felodipine
+    type: DrugBank
+  - id: DB01039
+    properties:
+      generic name: Fenofibrate
+    type: DrugBank
+  - id: DB00301
+    properties:
+      generic name: Flucloxacillin
+    type: DrugBank
+  - id: DB00693
+    properties:
+      generic name: Fluorescein
+    type: DrugBank
+  - id: DB00176
+    properties:
+      generic name: Fluvoxamine
+    type: DrugBank
+  - id: DB02703
+    properties:
+      generic name: Fusidic acid
+    type: DrugBank
+  - id: DB00222
+    properties:
+      generic name: Glimepiride
+    type: DrugBank
+  - id: DB01067
+    properties:
+      generic name: Glipizide
+    type: DrugBank
+  - id: DB01016
+    properties:
+      generic name: Glyburide
+    type: DrugBank
+  - id: DB02123
+    properties:
+      generic name: Glycochenodeoxycholic Acid
+    type: DrugBank
+  - id: DB13751
+    properties:
+      generic name: Glycyrrhizic acid
+    type: DrugBank
+  - id: DB00619
+    properties:
+      generic name: Imatinib
+    type: DrugBank
+  - id: DB00224
+    properties:
+      generic name: Indinavir
+    type: DrugBank
+  - id: DB09374
+    properties:
+      generic name: Indocyanine green acid form
+    type: DrugBank
+  - id: DB00328
+    properties:
+      generic name: Indomethacin
+    type: DrugBank
+  - id: DB11886
+    properties:
+      generic name: Infigratinib
+    type: DrugBank
+  - id: DB00270
+    properties:
+      generic name: Isradipine
+    type: DrugBank
+  - id: DB01026
+    properties:
+      generic name: Ketoconazole
+    type: DrugBank
+  - id: DB09078
+    properties:
+      generic name: Lenvatinib
+    type: DrugBank
+  - id: DB12070
+    properties:
+      generic name: Letermovir
+    type: DrugBank
+  - id: DB01601
+    properties:
+      generic name: Lopinavir
+    type: DrugBank
+  - id: DB00455
+    properties:
+      generic name: Loratadine
+    type: DrugBank
+  - id: DB00678
+    properties:
+      generic name: Losartan
+    type: DrugBank
+  - id: DB00227
+    properties:
+      generic name: Lovastatin
+    type: DrugBank
+  - id: DB00834
+    properties:
+      generic name: Mifepristone
+    type: DrugBank
+  - id: DB00788
+    properties:
+      generic name: Naproxen
+    type: DrugBank
+  - id: DB01149
+    properties:
+      generic name: Nefazodone
+    type: DrugBank
+  - id: DB00220
+    properties:
+      generic name: Nelfinavir
+    type: DrugBank
+  - id: DB00622
+    properties:
+      generic name: Nicardipine
+    type: DrugBank
+  - id: DB01115
+    properties:
+      generic name: Nifedipine
+    type: DrugBank
+  - id: DB01054
+    properties:
+      generic name: Nitrendipine
+    type: DrugBank
+  - id: DB00698
+    properties:
+      generic name: Nitrofurantoin
+    type: DrugBank
+  - id: DB05990
+    properties:
+      generic name: Obeticholic acid
+    type: DrugBank
+  - id: DB01165
+    properties:
+      generic name: Ofloxacin
+    type: DrugBank
+  - id: DB00275
+    properties:
+      generic name: Olmesartan
+    type: DrugBank
+  - id: DB01229
+    properties:
+      generic name: Paclitaxel
+    type: DrugBank
+  - id: DB01174
+    properties:
+      generic name: Phenobarbital
+    type: DrugBank
+  - id: DB12712
+    properties:
+      generic name: Pilsicainide
+    type: DrugBank
+  - id: DB08860
+    properties:
+      generic name: Pitavastatin
+    type: DrugBank
+  - id: DB15822
+    properties:
+      generic name: Pralsetinib
+    type: DrugBank
+  - id: DB05804
+    properties:
+      generic name: Prasterone sulfate
+    type: DrugBank
+  - id: DB00175
+    properties:
+      generic name: Pravastatin
+    type: DrugBank
+  - id: DB00396
+    properties:
+      generic name: Progesterone
+    type: DrugBank
+  - id: DB00908
+    properties:
+      generic name: Quinidine
+    type: DrugBank
+  - id: DB00243
+    properties:
+      generic name: Ranolazine
+    type: DrugBank
+  - id: DB14761
+    properties:
+      generic name: Remdesivir
+    type: DrugBank
+  - id: DB00912
+    properties:
+      generic name: Repaglinide
+    type: DrugBank
+  - id: DB00206
+    properties:
+      generic name: Reserpine
+    type: DrugBank
+  - id: DB01045
+    properties:
+      generic name: Rifampicin
+    type: DrugBank
+  - id: DB00503
+    properties:
+      generic name: Ritonavir
+    type: DrugBank
+  - id: DB06176
+    properties:
+      generic name: Romidepsin
+    type: DrugBank
+  - id: DB00412
+    properties:
+      generic name: Rosiglitazone
+    type: DrugBank
+  - id: DB01098
+    properties:
+      generic name: Rosuvastatin
+    type: DrugBank
+  - id: DB01232
+    properties:
+      generic name: Saquinavir
+    type: DrugBank
+  - id: DB06290
+    properties:
+      generic name: Simeprevir
+    type: DrugBank
+  - id: DB00641
+    properties:
+      generic name: Simvastatin
+    type: DrugBank
+  - id: DB00421
+    properties:
+      generic name: Spironolactone
+    type: DrugBank
+  - id: DB01015
+    properties:
+      generic name: Sulfamethoxazole
+    type: DrugBank
+  - id: DB01138
+    properties:
+      generic name: Sulfinpyrazone
+    type: DrugBank
+  - id: DB00675
+    properties:
+      generic name: Tamoxifen
+    type: DrugBank
+  - id: DB04348
+    properties:
+      generic name: Taurocholic acid
+    type: DrugBank
+  - id: DB08834
+    properties:
+      generic name: Tauroursodeoxycholic acid
+    type: DrugBank
+  - id: DB00966
+    properties:
+      generic name: Telmisartan
+    type: DrugBank
+  - id: DB15133
+    properties:
+      generic name: Tepotinib
+    type: DrugBank
+  - id: DB00342
+    properties:
+      generic name: Terfenadine
+    type: DrugBank
+  - id: DB00911
+    properties:
+      generic name: Tinidazole
+    type: DrugBank
+  - id: DB00932
+    properties:
+      generic name: Tipranavir
+    type: DrugBank
+  - id: DB00197
+    properties:
+      generic name: Troglitazone
+    type: DrugBank
+  - id: DB01586
+    properties:
+      generic name: Ursodeoxycholic acid
+    type: DrugBank
+  - id: DB14057
+    properties:
+      generic name: Valinomycin
+    type: DrugBank
+  - id: DB00570
+    properties:
+      generic name: Vinblastine
+    type: DrugBank
+  - id: DB00541
+    properties:
+      generic name: Vincristine
+    type: DrugBank
+  - id: O95342
+    type: DrugCentral
+  - id: '778'
+    type: GuidetoPHARMACOLOGY
+  - id: SLP:000001597
+    type: SwissLipids
+  - id: 3.A.1.201.2
+    properties:
+      family name: the atp-binding cassette (abc) superfamily
+    type: TCDB
+  - id: O95342
+    properties:
+      glycosylation: 4 sites, No reported glycans
+    type: GlyCosmos
+  - id: O95342
+    properties:
+      glycosylation: 4 sites
+    type: GlyGen
+  - id: O95342
+    type: iPTMnet
+  - id: O95342
+    type: PhosphoSitePlus
+  - id: ABCB11
+    type: BioMuta
+  - id: O95342
+    type: EPD
+  - id: O95342
+    type: jPOST
+  - id: O95342
+    type: MassIVE
+  - id: O95342
+    type: MaxQB
+  - id: 9606-ENSP00000263817
+    type: PaxDb
+  - id: O95342
+    type: PeptideAtlas
+  - id: '50810'
+    type: ProteomicsDB
+  - id: O95342
+    type: Pumba
+  - id: '1033'
+    properties:
+      antibodies: 286 antibodies from 34 providers
+    type: Antibodypedia
+  - id: '8647'
+    type: DNASU
+  - id: ENST00000650372.1
+    properties:
+      gene ID: ENSG00000073734.10
+      protein sequence ID: ENSP00000497931.1
+    type: Ensembl
+  - id: '8647'
+    type: GeneID
+  - id: hsa:8647
+    type: KEGG
+  - id: ENST00000650372.1
+    properties:
+      RefSeq nucleotide sequence ID: NM_003742.4
+      RefSeq protein sequence ID: NP_003733.2
+      protein sequence ID: ENSP00000497931.1
+    type: MANE-Select
+  - id: uc002ueo.2
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:42
+    type: AGR
+  - id: '8647'
+    type: CTD
+  - id: '8647'
+    type: DisGeNET
+  - id: ABCB11
+    type: GeneCards
+  - id: HGNC:42
+    properties:
+      gene designation: ABCB11
+    type: HGNC
+  - id: ENSG00000073734
+    properties:
+      expression patterns: Tissue enriched (liver)
+    type: HPA
+  - id: ABCB11
+    type: MalaCards
+  - id: '601847'
+    properties:
+      type: phenotype
+    type: MIM
+  - id: '603201'
+    properties:
+      type: gene
+    type: MIM
+  - id: '605479'
+    properties:
+      type: phenotype
+    type: MIM
+  - id: NX_O95342
+    type: neXtProt
+  - id: ENSG00000073734
+    type: OpenTargets
+  - id: '99961'
+    properties:
+      disease: Benign recurrent intrahepatic cholestasis type 2
+    type: Orphanet
+  - id: '69665'
+    properties:
+      disease: Intrahepatic cholestasis of pregnancy
+    type: Orphanet
+  - id: '79304'
+    properties:
+      disease: Progressive familial intrahepatic cholestasis type 2
+    type: Orphanet
+  - id: PA374
+    type: PharmGKB
+  - id: HostDB:ENSG00000073734
+    type: VEuPathDB
+  - id: KOG0055
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000157564
+    type: GeneTree
+  - id: CLU_000604_17_2_1
+    type: HOGENOM
+  - id: O95342
+    type: InParanoid
+  - id: GFGQEEQ
+    type: OMA
+  - id: 5487044at2759
+    type: OrthoDB
+  - id: O95342
+    type: PhylomeDB
+  - id: TF105193
+    type: TreeFam
+  - id: O95342
+    type: PathwayCommons
+  - id: R-HSA-159418
+    properties:
+      pathway name: Recycling of bile acids and salts
+    type: Reactome
+  - id: R-HSA-193368
+    properties:
+      pathway name: Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol
+    type: Reactome
+  - id: R-HSA-5678520
+    properties:
+      pathway name: Defective ABCB11 causes PFIC2 and BRIC2
+    type: Reactome
+  - id: O95342
+    type: SignaLink
+  - id: '8647'
+    properties:
+      hits: 8 hits in 1148 CRISPR screens
+    type: BioGRID-ORCS
+  - id: ABCB11
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: ABCB11
+    type: GeneWiki
+  - id: '8647'
+    type: GenomeRNAi
+  - id: O95342
+    properties:
+      development level: Tchem
+    type: Pharos
+  - id: PR:O95342
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 2
+    type: Proteomes
+  - id: O95342
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000073734
+    properties:
+      expression patterns: Expressed in right lobe of liver and 97 other cell types
+        or tissues
+    type: Bgee
+  - id: O95342
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: O95342
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15791618
+        id: '15791618'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15791618
+    id: GO:0016324
+    properties:
+      source: IMP:UniProtKB
+      term: C:apical plasma membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15791618
+        id: '15791618'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15791618
+    id: GO:0009986
+    properties:
+      source: IMP:UniProtKB
+      term: C:cell surface
+    type: GO
+  - id: GO:0005768
+    properties:
+      source: ISS:UniProtKB
+      term: C:endosome
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19056867
+        id: '19056867'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19056867
+    id: GO:0070062
+    properties:
+      source: HDA:UniProtKB
+      term: C:extracellular exosome
+    type: GO
+  - id: GO:0000139
+    properties:
+      source: IEA:Ensembl
+      term: C:Golgi membrane
+    type: GO
+  - id: GO:0046581
+    properties:
+      source: IEA:Ensembl
+      term: C:intercellular canaliculus
+    type: GO
+  - id: GO:0046691
+    properties:
+      source: ISS:UniProtKB
+      term: C:intracellular canaliculus
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22262466
+        id: '22262466'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22262466
+    id: GO:0005886
+    properties:
+      source: IDA:UniProtKB
+      term: C:plasma membrane
+    type: GO
+  - id: GO:0055037
+    properties:
+      source: ISS:UniProtKB
+      term: C:recycling endosome
+    type: GO
+  - id: GO:0055038
+    properties:
+      source: ISS:UniProtKB
+      term: C:recycling endosome membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18985798
+        id: '18985798'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18985798
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/32203132
+        id: '32203132'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/32203132
+    id: GO:0015432
+    properties:
+      source: IDA:UniProtKB
+      term: F:ABC-type bile acid transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18245269
+        id: '18245269'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18245269
+    id: GO:0008559
+    properties:
+      source: IMP:UniProtKB
+      term: F:ABC-type xenobiotic transporter activity
+    type: GO
+  - id: GO:0005524
+    properties:
+      source: IEA:UniProtKB-KW
+      term: F:ATP binding
+    type: GO
+  - id: GO:0016887
+    properties:
+      source: IEA:InterPro
+      term: F:ATP hydrolysis activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20010382
+        id: '20010382'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20010382
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20398791
+        id: '20398791'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20398791
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/29507376
+        id: '29507376'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/29507376
+    id: GO:0015125
+    properties:
+      source: IMP:UniProtKB
+      term: F:bile acid transmembrane transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/32203132
+        id: '32203132'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/32203132
+    id: GO:0015126
+    properties:
+      source: IDA:UniProtKB
+      term: F:canalicular bile acid transmembrane transporter activity
+    type: GO
+  - id: GO:0015144
+    properties:
+      source: IEA:Ensembl
+      term: F:carbohydrate transmembrane transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18985798
+        id: '18985798'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18985798
+    id: GO:0015721
+    properties:
+      source: IDA:UniProtKB
+      term: P:bile acid and bile salt transport
+    type: GO
+  - id: GO:0006699
+    properties:
+      source: TAS:Reactome
+      term: P:bile acid biosynthetic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/32203132
+        id: '32203132'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/32203132
+    id: GO:0008206
+    properties:
+      source: IDA:UniProtKB
+      term: P:bile acid metabolic process
+    type: GO
+  - id: GO:0038183
+    properties:
+      source: IEA:Ensembl
+      term: P:bile acid signaling pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/32203132
+        id: '32203132'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/32203132
+    id: GO:0015722
+    properties:
+      source: IDA:UniProtKB
+      term: P:canalicular bile acid transport
+    type: GO
+  - id: GO:0042632
+    properties:
+      source: ISS:UniProtKB
+      term: P:cholesterol homeostasis
+    type: GO
+  - id: GO:0006631
+    properties:
+      source: ISS:UniProtKB
+      term: P:fatty acid metabolic process
+    type: GO
+  - id: GO:0055088
+    properties:
+      source: ISS:UniProtKB
+      term: P:lipid homeostasis
+    type: GO
+  - id: GO:0055091
+    properties:
+      source: ISS:UniProtKB
+      term: P:phospholipid homeostasis
+    type: GO
+  - id: GO:0120189
+    properties:
+      source: ISS:UniProtKB
+      term: P:positive regulation of bile acid secretion
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18829893
+        id: '18829893'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18829893
+    id: GO:0016567
+    properties:
+      source: IMP:UniProtKB
+      term: P:protein ubiquitination
+    type: GO
+  - id: GO:1904251
+    properties:
+      source: ISS:UniProtKB
+      term: P:regulation of bile acid metabolic process
+    type: GO
+  - id: GO:0031998
+    properties:
+      source: ISS:UniProtKB
+      term: P:regulation of fatty acid beta-oxidation
+    type: GO
+  - id: GO:0043627
+    properties:
+      source: IEA:Ensembl
+      term: P:response to estrogen
+    type: GO
+  - id: GO:0045471
+    properties:
+      source: IEA:Ensembl
+      term: P:response to ethanol
+    type: GO
+  - id: GO:0014070
+    properties:
+      source: IEA:Ensembl
+      term: P:response to organic cyclic compound
+    type: GO
+  - id: GO:0006979
+    properties:
+      source: IEA:Ensembl
+      term: P:response to oxidative stress
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0055085
+    properties:
+      source: IBA:GO_Central
+      term: P:transmembrane transport
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18245269
+        id: '18245269'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18245269
+    id: GO:0046618
+    properties:
+      source: IMP:UniProtKB
+      term: P:xenobiotic export from cell
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18245269
+        id: '18245269'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18245269
+    id: GO:0006805
+    properties:
+      source: IMP:UniProtKB
+      term: P:xenobiotic metabolic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15901796
+        id: '15901796'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15901796
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18245269
+        id: '18245269'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18245269
+    id: GO:0006855
+    properties:
+      source: IMP:UniProtKB
+      term: P:xenobiotic transmembrane transport
+    type: GO
+  - id: cd18577
+    properties:
+      entry name: ABC_6TM_Pgp_ABCB1_D1_like
+      match status: '1'
+    type: CDD
+  - id: cd18578
+    properties:
+      entry name: ABC_6TM_Pgp_ABCB1_D2_like
+      match status: '1'
+    type: CDD
+  - id: cd03249
+    properties:
+      entry name: ABC_MTABC3_MDL1_MDL2
+      match status: '2'
+    type: CDD
+  - id: 1.20.1560.10
+    properties:
+      entry name: ABC transporter type 1, transmembrane domain
+      match status: '1'
+    type: Gene3D
+  - id: 3.40.50.300
+    properties:
+      entry name: P-loop containing nucleotide triphosphate hydrolases
+      match status: '2'
+    type: Gene3D
+  - id: IPR003593
+    properties:
+      entry name: AAA+_ATPase
+    type: InterPro
+  - id: IPR011527
+    properties:
+      entry name: ABC1_TM_dom
+    type: InterPro
+  - id: IPR036640
+    properties:
+      entry name: ABC1_TM_sf
+    type: InterPro
+  - id: IPR003439
+    properties:
+      entry name: ABC_transporter-like_ATP-bd
+    type: InterPro
+  - id: IPR017871
+    properties:
+      entry name: ABC_transporter-like_CS
+    type: InterPro
+  - id: IPR027417
+    properties:
+      entry name: P-loop_NTPase
+    type: InterPro
+  - id: IPR039421
+    properties:
+      entry name: Type_1_exporter
+    type: InterPro
+  - id: PTHR24222
+    properties:
+      entry name: ABC TRANSPORTER B FAMILY
+      match status: '1'
+    type: PANTHER
+  - id: PTHR24222:SF76
+    properties:
+      entry name: MYCOBACTIN IMPORT ATP-BINDING/PERMEASE PROTEIN IRTB
+      match status: '1'
+    type: PANTHER
+  - id: PF00664
+    properties:
+      entry name: ABC_membrane
+      match status: '2'
+    type: Pfam
+  - id: PF00005
+    properties:
+      entry name: ABC_tran
+      match status: '2'
+    type: Pfam
+  - id: SM00382
+    properties:
+      entry name: AAA
+      match status: '2'
+    type: SMART
+  - id: SSF90123
+    properties:
+      entry name: ABC transporter transmembrane region
+      match status: '2'
+    type: SUPFAM
+  - id: SSF52540
+    properties:
+      entry name: P-loop containing nucleoside triphosphate hydrolases
+      match status: '2'
+    type: SUPFAM
+  - id: PS50929
+    properties:
+      entry name: ABC_TM1F
+      match status: '2'
+    type: PROSITE
+  - id: PS00211
+    properties:
+      entry name: ABC_TRANSPORTER_1
+      match status: '1'
+    type: PROSITE
+  - id: PS50893
+    properties:
+      entry name: ABC_TRANSPORTER_2
+      match status: '2'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Bile salt export pump
+    end: '1321'
+    ftId: PRO_0000093296
+    molecule: ''
+    type: CHAIN
+  - begin: '1'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '62'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '63'
+    category: TOPOLOGY
+    description: Helical
+    end: '83'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00441
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00441
+    molecule: ''
+    type: TRANSMEM
+  - begin: '84'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '147'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '148'
+    category: TOPOLOGY
+    description: Helical
+    end: '168'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00441
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00441
+    molecule: ''
+    type: TRANSMEM
+  - begin: '169'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '215'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '216'
+    category: TOPOLOGY
+    description: Helical
+    end: '236'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00441
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00441
+    molecule: ''
+    type: TRANSMEM
+  - begin: '237'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '240'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '241'
+    category: TOPOLOGY
+    description: Helical
+    end: '261'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00441
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00441
+    molecule: ''
+    type: TRANSMEM
+  - begin: '262'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '319'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '320'
+    category: TOPOLOGY
+    description: Helical
+    end: '340'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00441
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00441
+    molecule: ''
+    type: TRANSMEM
+  - begin: '341'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '353'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '354'
+    category: TOPOLOGY
+    description: Helical
+    end: '374'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00441
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00441
+    molecule: ''
+    type: TRANSMEM
+  - begin: '375'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '755'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '756'
+    category: TOPOLOGY
+    description: Helical
+    end: '776'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00441
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00441
+    molecule: ''
+    type: TRANSMEM
+  - begin: '777'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '794'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '795'
+    category: TOPOLOGY
+    description: Helical
+    end: '815'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00441
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00441
+    molecule: ''
+    type: TRANSMEM
+  - begin: '816'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '869'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '870'
+    category: TOPOLOGY
+    description: Helical
+    end: '890'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00441
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00441
+    molecule: ''
+    type: TRANSMEM
+  - begin: '891'
+    category: TOPOLOGY
+    description: Helical
+    end: '911'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00441
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00441
+    molecule: ''
+    type: TRANSMEM
+  - begin: '912'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '979'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '980'
+    category: TOPOLOGY
+    description: Helical
+    end: '1000'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00441
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00441
+    molecule: ''
+    type: TRANSMEM
+  - begin: '1001'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '1011'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '1012'
+    category: TOPOLOGY
+    description: Helical
+    end: '1032'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00441
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00441
+    molecule: ''
+    type: TRANSMEM
+  - begin: '1033'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '1321'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '62'
+    category: DOMAINS_AND_SITES
+    description: ABC transmembrane type-1 1
+    end: '385'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00441
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00441
+    molecule: ''
+    type: DOMAIN
+  - begin: '420'
+    category: DOMAINS_AND_SITES
+    description: ABC transporter 1
+    end: '656'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00434
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00434
+    molecule: ''
+    type: DOMAIN
+  - begin: '755'
+    category: DOMAINS_AND_SITES
+    description: ABC transmembrane type-1 2
+    end: '1043'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00441
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00441
+    molecule: ''
+    type: DOMAIN
+  - begin: '1078'
+    category: DOMAINS_AND_SITES
+    description: ABC transporter 2
+    end: '1316'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00434
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00434
+    molecule: ''
+    type: DOMAIN
+  - begin: '16'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '37'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '651'
+    category: DOMAINS_AND_SITES
+    description: Interaction with HAX1
+    end: '672'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: REGION
+  - begin: '1311'
+    category: DOMAINS_AND_SITES
+    description: Mediates internalization from the plasma membrane
+    end: '1314'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22262466
+        id: '22262466'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22262466
+    molecule: ''
+    type: REGION
+  - begin: '455'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '462'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00434
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00434
+    ligand:
+      dbReference:
+        id: CHEBI:30616
+        name: ChEBI
+      label: '1'
+      name: ATP
+    molecule: ''
+    type: BINDING
+  - begin: '1113'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '1120'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00434
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00434
+    ligand:
+      dbReference:
+        id: CHEBI:30616
+        name: ChEBI
+      label: '2'
+      name: ATP
+    molecule: ''
+    type: BINDING
+  - begin: '586'
+    category: PTM
+    description: Phosphothreonine
+    end: '586'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24275569
+        id: '24275569'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24275569
+    molecule: ''
+    type: MOD_RES
+  - begin: '587'
+    category: PTM
+    description: Phosphoserine
+    end: '587'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24275569
+        id: '24275569'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24275569
+    molecule: ''
+    type: MOD_RES
+  - begin: '690'
+    category: PTM
+    description: Phosphoserine
+    end: '690'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q9QY30
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q9QY30
+    molecule: ''
+    type: MOD_RES
+  - begin: '701'
+    category: PTM
+    description: Phosphoserine
+    end: '701'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: O70127
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/O70127
+    molecule: ''
+    type: MOD_RES
+  - begin: '704'
+    category: PTM
+    description: Phosphoserine
+    end: '704'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24275569
+        id: '24275569'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24275569
+    molecule: ''
+    type: MOD_RES
+  - begin: '1214'
+    category: PTM
+    description: Phosphoserine
+    end: '1214'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24275569
+        id: '24275569'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24275569
+    molecule: ''
+    type: MOD_RES
+  - begin: '1321'
+    category: PTM
+    description: Phosphoserine
+    end: '1321'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: O70127
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/O70127
+    molecule: ''
+    type: MOD_RES
+  - begin: '109'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '109'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17082223
+        id: '17082223'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17082223
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '116'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '116'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17082223
+        id: '17082223'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17082223
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '122'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '122'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17082223
+        id: '17082223'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17082223
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '125'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '125'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17082223
+        id: '17082223'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17082223
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - alternativeSequence: L
+    begin: '56'
+    category: VARIANTS
+    description: does not affect taurocholate transport activity; does not affect
+      cell surface protein expression; dbSNP:rs11568361
+    end: '56'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20010382
+        id: '20010382'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20010382
+    ftId: VAR_055472
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: Y
+    begin: '129'
+    category: VARIANTS
+    description: in PFIC2; loss of cell membrane localization; significantly reduces
+      taurocholate transport activity
+    end: '129'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/29507376
+        id: '29507376'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/29507376
+    ftId: VAR_083783
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: G
+    begin: '186'
+    category: VARIANTS
+    description: in BRIC2; dbSNP:rs72551307
+    end: '186'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15300568
+        id: '15300568'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15300568
+    ftId: VAR_030386
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: V
+    begin: '206'
+    category: VARIANTS
+    description: impairs taurocholate transport activity; does not affect protein
+      expression; does not affect cell surface protein expression; does not affect
+      cell membrane localization; dbSNP:rs11568357
+    end: '206'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16763017
+        id: '16763017'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16763017
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20010382
+        id: '20010382'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20010382
+    ftId: VAR_030387
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: V
+    begin: '238'
+    category: VARIANTS
+    description: in PFIC2; dbSNP:rs72551306
+    end: '238'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10579978
+        id: '10579978'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10579978
+    ftId: VAR_030388
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: A
+    begin: '284'
+    category: VARIANTS
+    description: in dbSNP:rs200739891
+    end: '284'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16763017
+        id: '16763017'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16763017
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17264802
+        id: '17264802'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17264802
+    ftId: VAR_035349
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: L
+    begin: '284'
+    category: VARIANTS
+    description: in PFIC2
+    end: '284'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11815775
+        id: '11815775'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11815775
+    ftId: VAR_013332
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: G
+    begin: '297'
+    category: VARIANTS
+    description: in PFIC2 and BRIC2; reduces transport capacity for taurocholate;
+      decreases protein expression; affects maturation of protein in the reticulum
+      endoplasmic; does not affect apical membrane localization; does not affect cell
+      surface expression of the mature form; does not affect transport of taurocholate
+      and glycocholate; enhances ubiquitination susceptibility; reduces transport
+      activity of taurocholate in a low cholesterol environment; increases transport
+      activity of taurocholate in a high cholesterol environment; does not affect
+      protein expression; does not affect cell membrane localization; dbSNP:rs11568372
+    end: '297'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15300568
+        id: '15300568'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15300568
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15791618
+        id: '15791618'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15791618
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16039748
+        id: '16039748'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16039748
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18829893
+        id: '18829893'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18829893
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20010382
+        id: '20010382'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20010382
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24711118
+        id: '24711118'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24711118
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9806540
+        id: '9806540'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9806540
+    ftId: VAR_010271
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: K
+    begin: '299'
+    category: VARIANTS
+    description: in dbSNP:rs2287617
+    end: '299'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16763017
+        id: '16763017'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16763017
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/30431138
+        id: '30431138'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/30431138
+    ftId: VAR_030389
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: S
+    begin: '336'
+    category: VARIANTS
+    description: in PFIC2; dbSNP:rs72551305
+    end: '336'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10579978
+        id: '10579978'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10579978
+    ftId: VAR_030390
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: H
+    begin: '337'
+    category: VARIANTS
+    description: in PFIC2; uncertain significance
+    end: '337'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24969679
+        id: '24969679'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24969679
+    ftId: VAR_073967
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: Q
+    begin: '415'
+    category: VARIANTS
+    description: in dbSNP:rs371656014
+    end: '415'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15077010
+        id: '15077010'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15077010
+    ftId: VAR_043074
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: T
+    begin: '432'
+    category: VARIANTS
+    description: in BRIC2; reduced transport capacity for taurocholate; reduces transport
+      activity of taurocholate in a low cholesterol environment; increases transport
+      activity of taurocholate in a high cholesterol environment; dbSNP:rs121908935
+    end: '432'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16039748
+        id: '16039748'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16039748
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24711118
+        id: '24711118'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24711118
+    ftId: VAR_030391
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: A
+    begin: '444'
+    category: VARIANTS
+    description: does not affect transport capacity for taurocholate; increases transport
+      activity of taurocholate in a low cholesterol environment; increases transport
+      activity of taurocholate in a high cholesterol environment; does not affect
+      cell surface protein expression; does not affect protein expression; dbSNP:rs2287622
+    end: '444'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11829140
+        id: '11829140'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11829140
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15077010
+        id: '15077010'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15077010
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16763017
+        id: '16763017'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16763017
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16799996
+        id: '16799996'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16799996
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17264802
+        id: '17264802'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17264802
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20010382
+        id: '20010382'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20010382
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24711118
+        id: '24711118'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24711118
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24969679
+        id: '24969679'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24969679
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/30431138
+        id: '30431138'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/30431138
+    - code: ECO:0000269
+      source:
+        id: Ref.2
+        name: Citation
+        url: https://www.uniprot.org/uniprot/O95342#ref2
+    ftId: VAR_013333
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: D
+    begin: '444'
+    category: VARIANTS
+    description: in dbSNP:rs2287622
+    end: '444'
+    ftId: VAR_059106
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: G
+    begin: '444'
+    category: VARIANTS
+    description: in dbSNP:rs2287622
+    end: '444'
+    ftId: VAR_059107
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: E
+    begin: '461'
+    category: VARIANTS
+    description: in PFIC2; dbSNP:rs1274558905
+    end: '461'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9806540
+        id: '9806540'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9806540
+    ftId: VAR_013334
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: C
+    begin: '472'
+    category: VARIANTS
+    description: in PFIC2; dbSNP:rs369860506
+    end: '472'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24969679
+        id: '24969679'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24969679
+    ftId: VAR_073968
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: G
+    begin: '482'
+    category: VARIANTS
+    description: in PFIC2; decreases protein expression; affects maturation of protein
+      in the reticulum endoplasmic; decreases apical membrane localization; affects
+      cell surface expression; does not affect transport of taurocholate and glycocholate;
+      enhances ubiquitination susceptibility; dbSNP:rs72549402
+    end: '482'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15791618
+        id: '15791618'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15791618
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18829893
+        id: '18829893'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18829893
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9806540
+        id: '9806540'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9806540
+    ftId: VAR_013335
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: H
+    begin: '558'
+    category: VARIANTS
+    description: impairs taurocholate transport activity; does not affect protein
+      expression; does not affect cell surface protein expression; does not affect
+      cell membrane localization; dbSNP:rs11568369
+    end: '558'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20010382
+        id: '20010382'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20010382
+    ftId: VAR_083784
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: T
+    begin: '570'
+    category: VARIANTS
+    description: in BRIC2; dbSNP:rs886043807
+    end: '570'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15300568
+        id: '15300568'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15300568
+    ftId: VAR_030392
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: S
+    begin: '591'
+    category: VARIANTS
+    description: in a patient with intrahepatic cholestasis of pregnancy; impairs
+      taurocholate transport activity; does not affect protein expression; does not
+      affect cell surface protein expression; does not affect cell membrane localization;
+      dbSNP:rs11568367
+    end: '591'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15077010
+        id: '15077010'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15077010
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20010382
+        id: '20010382'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20010382
+    ftId: VAR_043075
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: Q
+    begin: '592'
+    category: VARIANTS
+    description: does not affect taurocholate transport activity; does not affect
+      protein expression; does not affect cell surface protein expression; dbSNP:rs11568370
+    end: '592'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20010382
+        id: '20010382'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20010382
+    ftId: VAR_083785
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: G
+    begin: '616'
+    category: VARIANTS
+    description: ''
+    end: '616'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16763017
+        id: '16763017'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16763017
+    ftId: VAR_035350
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: A
+    begin: '619'
+    category: VARIANTS
+    description: in dbSNP:rs912519986
+    end: '619'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16763017
+        id: '16763017'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16763017
+    ftId: VAR_035351
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: Y
+    begin: '676'
+    category: VARIANTS
+    description: in fluvastatin-induced cholestasis; does not affect transport capacity
+      for taurocholate
+    end: '676'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17264802
+        id: '17264802'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17264802
+    ftId: VAR_043076
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: V
+    begin: '677'
+    category: VARIANTS
+    description: does not affect taurocholate transport activity; does not affect
+      protein expression; does not affect cell surface protein expression; dbSNP:rs11568364
+    end: '677'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15077010
+        id: '15077010'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15077010
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16763017
+        id: '16763017'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16763017
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16799996
+        id: '16799996'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16799996
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17264802
+        id: '17264802'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17264802
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20010382
+        id: '20010382'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20010382
+    ftId: VAR_030393
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: W
+    begin: '696'
+    category: VARIANTS
+    description: in PFIC2; uncertain significance; dbSNP:rs376216286
+    end: '696'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24969679
+        id: '24969679'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24969679
+    ftId: VAR_073969
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: H
+    begin: '698'
+    category: VARIANTS
+    description: in dbSNP:rs138642043
+    end: '698'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16763017
+        id: '16763017'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16763017
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17264802
+        id: '17264802'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17264802
+    ftId: VAR_035352
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: R
+    begin: '855'
+    category: VARIANTS
+    description: in ethinylestradiol/gestodene-induced cholestasis; loss of transport
+      capacity for taurocholate
+    end: '855'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17264802
+        id: '17264802'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17264802
+    ftId: VAR_043077
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: V
+    begin: '865'
+    category: VARIANTS
+    description: deacreases localization to the cell membrane; decreases the trafficking
+      to the plasma membrane; dbSNP:rs118109635
+    end: '865'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16763017
+        id: '16763017'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16763017
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24969679
+        id: '24969679'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24969679
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/30431138
+        id: '30431138'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/30431138
+    ftId: VAR_035353
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: P
+    begin: '923'
+    category: VARIANTS
+    description: in BRIC2; dbSNP:rs777469571
+    end: '923'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15300568
+        id: '15300568'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15300568
+    ftId: VAR_030394
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: P
+    begin: '926'
+    category: VARIANTS
+    description: in BRIC2; dbSNP:rs72549400
+    end: '926'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15300568
+        id: '15300568'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15300568
+    ftId: VAR_030395
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: P
+    begin: '931'
+    category: VARIANTS
+    description: in PFIC2; uncertain significance
+    end: '931'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24969679
+        id: '24969679'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24969679
+    ftId: VAR_073970
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: Q
+    begin: '958'
+    category: VARIANTS
+    description: in dbSNP:rs761363245
+    end: '958'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16763017
+        id: '16763017'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16763017
+    ftId: VAR_035354
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: R
+    begin: '982'
+    category: VARIANTS
+    description: in PFIC2; impairs taurocholate transport activity; significantly
+      reduces protein expression; decreases cell surface protein expression; loss
+      of ell membrane localization; dbSNP:rs72549399
+    end: '982'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20010382
+        id: '20010382'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20010382
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9806540
+        id: '9806540'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9806540
+    ftId: VAR_013336
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: D
+    begin: '1004'
+    category: VARIANTS
+    description: in PFIC2
+    end: '1004'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11815775
+        id: '11815775'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11815775
+    ftId: VAR_013337
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: C
+    begin: '1050'
+    category: VARIANTS
+    description: in BRIC2; dbSNP:rs72549398
+    end: '1050'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15300568
+        id: '15300568'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15300568
+    ftId: VAR_030396
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: H
+    begin: '1128'
+    category: VARIANTS
+    description: in BRIC2; dbSNP:rs756220860
+    end: '1128'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15300568
+        id: '15300568'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15300568
+    ftId: VAR_030397
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: V
+    begin: '1131'
+    category: VARIANTS
+    description: in PFIC2
+    end: '1131'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24969679
+        id: '24969679'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24969679
+    ftId: VAR_073971
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: C
+    begin: '1153'
+    category: VARIANTS
+    description: in PFIC2; impairs taurocholate transport activity; significantly
+      reduces protein expression; decreases cell surface protein expression; loss
+      of ell membrane localization; dbSNP:rs72549395
+    end: '1153'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20010382
+        id: '20010382'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20010382
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9806540
+        id: '9806540'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9806540
+    ftId: VAR_013338
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: K
+    begin: '1186'
+    category: VARIANTS
+    description: impairs taurocholate transport activity; does not affect protein
+      expression; decreases cell surface protein expression; reduces plasma membrane
+      localization; dbSNP:rs1521808
+    end: '1186'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20010382
+        id: '20010382'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20010382
+    ftId: VAR_030398
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: R
+    begin: '1198'
+    category: VARIANTS
+    description: in PFIC2; uncertain significance
+    end: '1198'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24969679
+        id: '24969679'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24969679
+    ftId: VAR_073972
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: Q
+    begin: '1268'
+    category: VARIANTS
+    description: in PFIC2; dbSNP:rs72549394
+    end: '1268'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9806540
+        id: '9806540'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9806540
+    ftId: VAR_013339
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: ''
+    begin: '1'
+    category: MUTAGENESIS
+    description: Does not affect ATPase-coupled bile acid transport activity. Decreases
+      protein stability.
+    end: '441'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/32203132
+        id: '32203132'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/32203132
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A
+    begin: '1311'
+    category: MUTAGENESIS
+    description: Loss of interaction with AP2A1 and AP2A2. Promotes ABCB11 plasma
+      membrane trafficking. Does not affect plasma membrane localization. Inhibits
+      ABCB11 internalization.
+    end: '1311'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22262466
+        id: '22262466'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22262466
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: V
+    begin: '339'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; AAC77455
+    end: '339'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - begin: '47'
+    category: STRUCTURAL
+    end: '49'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '50'
+    category: STRUCTURAL
+    end: '53'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '56'
+    category: STRUCTURAL
+    end: '58'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '61'
+    category: STRUCTURAL
+    end: '63'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '64'
+    category: STRUCTURAL
+    end: '70'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '71'
+    category: STRUCTURAL
+    end: '75'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '76'
+    category: STRUCTURAL
+    end: '79'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '80'
+    category: STRUCTURAL
+    end: '83'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '84'
+    category: STRUCTURAL
+    end: '88'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '89'
+    category: STRUCTURAL
+    end: '99'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '105'
+    category: STRUCTURAL
+    end: '107'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '111'
+    category: STRUCTURAL
+    end: '115'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '119'
+    category: STRUCTURAL
+    end: '121'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '126'
+    category: STRUCTURAL
+    end: '129'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '135'
+    category: STRUCTURAL
+    end: '137'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '138'
+    category: STRUCTURAL
+    end: '140'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '141'
+    category: STRUCTURAL
+    end: '147'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '148'
+    category: STRUCTURAL
+    end: '154'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '155'
+    category: STRUCTURAL
+    end: '160'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '162'
+    category: STRUCTURAL
+    end: '170'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '174'
+    category: STRUCTURAL
+    end: '182'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '188'
+    category: STRUCTURAL
+    end: '191'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '195'
+    category: STRUCTURAL
+    end: '197'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '198'
+    category: STRUCTURAL
+    end: '200'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '201'
+    category: STRUCTURAL
+    end: '203'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '204'
+    category: STRUCTURAL
+    end: '211'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '212'
+    category: STRUCTURAL
+    end: '220'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '223'
+    category: STRUCTURAL
+    end: '225'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '228'
+    category: STRUCTURAL
+    end: '230'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '231'
+    category: STRUCTURAL
+    end: '237'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '241'
+    category: STRUCTURAL
+    end: '244'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '249'
+    category: STRUCTURAL
+    end: '256'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '259'
+    category: STRUCTURAL
+    end: '262'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '264'
+    category: STRUCTURAL
+    end: '266'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '267'
+    category: STRUCTURAL
+    end: '274'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '275'
+    category: STRUCTURAL
+    end: '277'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '278'
+    category: STRUCTURAL
+    end: '281'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '282'
+    category: STRUCTURAL
+    end: '284'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '288'
+    category: STRUCTURAL
+    end: '293'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '294'
+    category: STRUCTURAL
+    end: '308'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '309'
+    category: STRUCTURAL
+    end: '311'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '314'
+    category: STRUCTURAL
+    end: '320'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '321'
+    category: STRUCTURAL
+    end: '324'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '326'
+    category: STRUCTURAL
+    end: '328'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '330'
+    category: STRUCTURAL
+    end: '333'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '336'
+    category: STRUCTURAL
+    end: '343'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '344'
+    category: STRUCTURAL
+    end: '348'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '349'
+    category: STRUCTURAL
+    end: '352'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '360'
+    category: STRUCTURAL
+    end: '363'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '364'
+    category: STRUCTURAL
+    end: '375'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '378'
+    category: STRUCTURAL
+    end: '385'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '386'
+    category: STRUCTURAL
+    end: '390'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '393'
+    category: STRUCTURAL
+    end: '396'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '407'
+    category: STRUCTURAL
+    end: '410'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '420'
+    category: STRUCTURAL
+    end: '427'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '430'
+    category: STRUCTURAL
+    end: '432'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '437'
+    category: STRUCTURAL
+    end: '445'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '449'
+    category: STRUCTURAL
+    end: '452'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '456'
+    category: STRUCTURAL
+    end: '462'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '463'
+    category: STRUCTURAL
+    end: '466'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '467'
+    category: STRUCTURAL
+    end: '470'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '479'
+    category: STRUCTURAL
+    end: '486'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '491'
+    category: STRUCTURAL
+    end: '494'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '497'
+    category: STRUCTURAL
+    end: '501'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '513'
+    category: STRUCTURAL
+    end: '518'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '526'
+    category: STRUCTURAL
+    end: '534'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '538'
+    category: STRUCTURAL
+    end: '540'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '541'
+    category: STRUCTURAL
+    end: '543'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '544'
+    category: STRUCTURAL
+    end: '548'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '553'
+    category: STRUCTURAL
+    end: '557'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '561'
+    category: STRUCTURAL
+    end: '563'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '564'
+    category: STRUCTURAL
+    end: '574'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '578'
+    category: STRUCTURAL
+    end: '584'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '587'
+    category: STRUCTURAL
+    end: '589'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '591'
+    category: STRUCTURAL
+    end: '593'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '594'
+    category: STRUCTURAL
+    end: '602'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '607'
+    category: STRUCTURAL
+    end: '613'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '617'
+    category: STRUCTURAL
+    end: '619'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '620'
+    category: STRUCTURAL
+    end: '622'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '630'
+    category: STRUCTURAL
+    end: '632'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '641'
+    category: STRUCTURAL
+    end: '645'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '648'
+    category: STRUCTURAL
+    end: '652'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '653'
+    category: STRUCTURAL
+    end: '655'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '688'
+    category: STRUCTURAL
+    end: '700'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '701'
+    category: STRUCTURAL
+    end: '703'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '704'
+    category: STRUCTURAL
+    end: '706'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '711'
+    category: STRUCTURAL
+    end: '714'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '743'
+    category: STRUCTURAL
+    end: '746'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '749'
+    category: STRUCTURAL
+    end: '751'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '752'
+    category: STRUCTURAL
+    end: '762'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '763'
+    category: STRUCTURAL
+    end: '768'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '769'
+    category: STRUCTURAL
+    end: '775'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '776'
+    category: STRUCTURAL
+    end: '779'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '790'
+    category: STRUCTURAL
+    end: '801'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '803'
+    category: STRUCTURAL
+    end: '805'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '807'
+    category: STRUCTURAL
+    end: '810'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '811'
+    category: STRUCTURAL
+    end: '813'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '815'
+    category: STRUCTURAL
+    end: '817'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '820'
+    category: STRUCTURAL
+    end: '822'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '825'
+    category: STRUCTURAL
+    end: '827'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '829'
+    category: STRUCTURAL
+    end: '832'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '833'
+    category: STRUCTURAL
+    end: '835'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '836'
+    category: STRUCTURAL
+    end: '838'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '839'
+    category: STRUCTURAL
+    end: '841'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '844'
+    category: STRUCTURAL
+    end: '846'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '849'
+    category: STRUCTURAL
+    end: '852'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '854'
+    category: STRUCTURAL
+    end: '856'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '858'
+    category: STRUCTURAL
+    end: '860'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '861'
+    category: STRUCTURAL
+    end: '868'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '869'
+    category: STRUCTURAL
+    end: '875'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '876'
+    category: STRUCTURAL
+    end: '880'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '881'
+    category: STRUCTURAL
+    end: '885'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '886'
+    category: STRUCTURAL
+    end: '896'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '898'
+    category: STRUCTURAL
+    end: '903'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '905'
+    category: STRUCTURAL
+    end: '907'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '909'
+    category: STRUCTURAL
+    end: '912'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '913'
+    category: STRUCTURAL
+    end: '917'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '920'
+    category: STRUCTURAL
+    end: '925'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '926'
+    category: STRUCTURAL
+    end: '929'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '930'
+    category: STRUCTURAL
+    end: '935'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '936'
+    category: STRUCTURAL
+    end: '939'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '941'
+    category: STRUCTURAL
+    end: '944'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '947'
+    category: STRUCTURAL
+    end: '950'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '957'
+    category: STRUCTURAL
+    end: '961'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '962'
+    category: STRUCTURAL
+    end: '973'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '974'
+    category: STRUCTURAL
+    end: '979'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '980'
+    category: STRUCTURAL
+    end: '988'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '989'
+    category: STRUCTURAL
+    end: '991'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '992'
+    category: STRUCTURAL
+    end: '994'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '995'
+    category: STRUCTURAL
+    end: '1006'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '1007'
+    category: STRUCTURAL
+    end: '1010'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '1014'
+    category: STRUCTURAL
+    end: '1016'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '1017'
+    category: STRUCTURAL
+    end: '1020'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '1021'
+    category: STRUCTURAL
+    end: '1023'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '1026'
+    category: STRUCTURAL
+    end: '1028'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '1029'
+    category: STRUCTURAL
+    end: '1031'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '1032'
+    category: STRUCTURAL
+    end: '1034'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '1038'
+    category: STRUCTURAL
+    end: '1042'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '1043'
+    category: STRUCTURAL
+    end: '1048'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '1049'
+    category: STRUCTURAL
+    end: '1052'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '1079'
+    category: STRUCTURAL
+    end: '1082'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '1092'
+    category: STRUCTURAL
+    end: '1094'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '1115'
+    category: STRUCTURAL
+    end: '1120'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '1121'
+    category: STRUCTURAL
+    end: '1124'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '1127'
+    category: STRUCTURAL
+    end: '1130'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '1137'
+    category: STRUCTURAL
+    end: '1142'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '1144'
+    category: STRUCTURAL
+    end: '1147'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '1149'
+    category: STRUCTURAL
+    end: '1152'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '1155'
+    category: STRUCTURAL
+    end: '1159'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '1172'
+    category: STRUCTURAL
+    end: '1175'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '1179'
+    category: STRUCTURAL
+    end: '1181'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '1186'
+    category: STRUCTURAL
+    end: '1190'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '1193'
+    category: STRUCTURAL
+    end: '1196'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '1198'
+    category: STRUCTURAL
+    end: '1200'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '1201'
+    category: STRUCTURAL
+    end: '1203'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '1204'
+    category: STRUCTURAL
+    end: '1208'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '1213'
+    category: STRUCTURAL
+    end: '1216'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '1221'
+    category: STRUCTURAL
+    end: '1223'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '1225'
+    category: STRUCTURAL
+    end: '1232'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '1238'
+    category: STRUCTURAL
+    end: '1242'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '1251'
+    category: STRUCTURAL
+    end: '1263'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  - begin: '1266'
+    category: STRUCTURAL
+    end: '1269'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '1299'
+    category: STRUCTURAL
+    end: '1302'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: STRAND
+  - begin: '1303'
+    category: STRUCTURAL
+    end: '1305'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: TURN
+  - begin: '1309'
+    category: STRUCTURAL
+    end: '1313'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    molecule: ''
+    type: HELIX
+  gene:
+  - name:
+      evidences:
+      - code: ECO:0000312
+        source:
+          id: HGNC:42
+          name: HGNC
+          url: https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=HGNC:42
+      value: ABCB11
+    synonyms:
+    - evidences:
+      - code: ECO:0000303
+        source:
+          id: Ref.2
+          name: Citation
+          url: https://www.uniprot.org/uniprot/null#ref2
+      value: BSEP
+  id: ABCBB_HUMAN
+  info:
+    created: '2001-01-24'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 205
+  keywords:
+  - value: 3D-structure
+  - value: ATP-binding
+  - value: Cell membrane
+  - value: Disease variant
+  - value: Endosome
+  - value: Glycoprotein
+  - value: Intrahepatic cholestasis
+  - value: Lipid transport
+  - value: Membrane
+  - value: Nucleotide-binding
+  - value: Phosphoprotein
+  - value: Reference proteome
+  - value: Repeat
+  - value: Translocase
+  - value: Transmembrane
+  - value: Transmembrane helix
+  - value: Transport
+  - value: Ubl conjugation
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        value: ATP-binding cassette sub-family B member 11
+    recommendedName:
+      ecNumber:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15791618
+            id: '15791618'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15791618
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16332456
+            id: '16332456'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16332456
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/22262466
+            id: '22262466'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/22262466
+        value: 7.6.2.-
+      fullName:
+        evidences:
+        - code: ECO:0000303
+          source:
+            id: Ref.2
+            name: Citation
+            url: https://www.uniprot.org/uniprot/null#ref2
+        value: Bile salt export pump
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Strautnieks S.S.
+      - Bull L.N.
+      - Knisely A.S.
+      - Kocoshis S.A.
+      - Dahl N.
+      - Arnell H.
+      - Sokal E.M.
+      - Dahan K.
+      - Childs S.
+      - Ling V.
+      - Tanner M.S.
+      - Kagalwalla A.F.
+      - Nemeth A.
+      - Pawlowska J.
+      - Baker A.
+      - Mieli-Vergani G.
+      - Freimer N.B.
+      - Gardiner R.M.
+      - Thompson R.J.
+      dbReferences:
+      - id: '9806540'
+        type: PubMed
+      - id: 10.1038/3034
+        type: DOI
+      location:
+        firstPage: '233'
+        lastPage: '238'
+        volume: '20'
+      publication:
+        journalName: Nat. Genet.
+      publicationDate: '1998'
+      title: A gene encoding a liver-specific ABC transporter is mutated in progressive
+        familial intrahepatic cholestasis.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+    - VARIANTS PFIC2 GLY-297; GLU-461; GLY-482; ARG-982; CYS-1153 AND GLN-1268
+  - citation:
+      authors:
+      - Mol O.
+      - Hooiveld G.J.E.J.
+      - Jansen P.L.M.
+      - Muller M.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: MAR-1999
+      title: Cellular localization and functional characterization of the human bile
+        salt export pump (BSEP).
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+    - VARIANT ALA-444
+  - citation:
+      authors:
+      - Hillier L.W.
+      - Graves T.A.
+      - Fulton R.S.
+      - Fulton L.A.
+      - Pepin K.H.
+      - Minx P.
+      - Wagner-McPherson C.
+      - Layman D.
+      - Wylie K.
+      - Sekhon M.
+      - Becker M.C.
+      - Fewell G.A.
+      - Delehaunty K.D.
+      - Miner T.L.
+      - Nash W.E.
+      - Kremitzki C.
+      - Oddy L.
+      - Du H.
+      - Sun H.
+      - Bradshaw-Cordum H.
+      - Ali J.
+      - Carter J.
+      - Cordes M.
+      - Harris A.
+      - Isak A.
+      - van Brunt A.
+      - Nguyen C.
+      - Du F.
+      - Courtney L.
+      - Kalicki J.
+      - Ozersky P.
+      - Abbott S.
+      - Armstrong J.
+      - Belter E.A.
+      - Caruso L.
+      - Cedroni M.
+      - Cotton M.
+      - Davidson T.
+      - Desai A.
+      - Elliott G.
+      - Erb T.
+      - Fronick C.
+      - Gaige T.
+      - Haakenson W.
+      - Haglund K.
+      - Holmes A.
+      - Harkins R.
+      - Kim K.
+      - Kruchowski S.S.
+      - Strong C.M.
+      - Grewal N.
+      - Goyea E.
+      - Hou S.
+      - Levy A.
+      - Martinka S.
+      - Mead K.
+      - McLellan M.D.
+      - Meyer R.
+      - Randall-Maher J.
+      - Tomlinson C.
+      - Dauphin-Kohlberg S.
+      - Kozlowicz-Reilly A.
+      - Shah N.
+      - Swearengen-Shahid S.
+      - Snider J.
+      - Strong J.T.
+      - Thompson J.
+      - Yoakum M.
+      - Leonard S.
+      - Pearman C.
+      - Trani L.
+      - Radionenko M.
+      - Waligorski J.E.
+      - Wang C.
+      - Rock S.M.
+      - Tin-Wollam A.-M.
+      - Maupin R.
+      - Latreille P.
+      - Wendl M.C.
+      - Yang S.-P.
+      - Pohl C.
+      - Wallis J.W.
+      - Spieth J.
+      - Bieri T.A.
+      - Berkowicz N.
+      - Nelson J.O.
+      - Osborne J.
+      - Ding L.
+      - Meyer R.
+      - Sabo A.
+      - Shotland Y.
+      - Sinha P.
+      - Wohldmann P.E.
+      - Cook L.L.
+      - Hickenbotham M.T.
+      - Eldred J.
+      - Williams D.
+      - Jones T.A.
+      - She X.
+      - Ciccarelli F.D.
+      - Izaurralde E.
+      - Taylor J.
+      - Schmutz J.
+      - Myers R.M.
+      - Cox D.R.
+      - Huang X.
+      - McPherson J.D.
+      - Mardis E.R.
+      - Clifton S.W.
+      - Warren W.C.
+      - Chinwalla A.T.
+      - Eddy S.R.
+      - Marra M.A.
+      - Ovcharenko I.
+      - Furey T.S.
+      - Miller W.
+      - Eichler E.E.
+      - Bork P.
+      - Suyama M.
+      - Torrents D.
+      - Waterston R.H.
+      - Wilson R.K.
+      dbReferences:
+      - id: '15815621'
+        type: PubMed
+      - id: 10.1038/nature03466
+        type: DOI
+      location:
+        firstPage: '724'
+        lastPage: '731'
+        volume: '434'
+      publication:
+        journalName: Nature
+      publicationDate: '2005'
+      title: Generation and annotation of the DNA sequences of human chromosomes 2
+        and 4.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      authors:
+      - Hayashi H.
+      - Takada T.
+      - Suzuki H.
+      - Onuki R.
+      - Hofmann A.F.
+      - Sugiyama Y.
+      dbReferences:
+      - id: '16332456'
+        type: PubMed
+      - id: 10.1016/j.bbalip.2005.10.006
+        type: DOI
+      location:
+        firstPage: '54'
+        lastPage: '62'
+        volume: '1738'
+      publication:
+        journalName: Biochim. Biophys. Acta
+      publicationDate: '2005'
+      title: 'Transport by vesicles of glycine- and taurine-conjugated bile salts
+        and taurolithocholate 3-sulfate: a comparison of human BSEP with rat Bsep.'
+      type: journal article
+    scope:
+    - CATALYTIC ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - FUNCTION
+    - ACTIVITY REGULATION
+  - citation:
+      authors:
+      - Hirano M.
+      - Maeda K.
+      - Hayashi H.
+      - Kusuhara H.
+      - Sugiyama Y.
+      dbReferences:
+      - id: '15901796'
+        type: PubMed
+      - id: 10.1124/jpet.105.084830
+        type: DOI
+      location:
+        firstPage: '876'
+        lastPage: '882'
+        volume: '314'
+      publication:
+        journalName: J. Pharmacol. Exp. Ther.
+      publicationDate: '2005'
+      title: Bile salt export pump (BSEP/ABCB11) can transport a nonbile acid substrate,
+        pravastatin.
+      type: journal article
+    scope:
+    - CATALYTIC ACTIVITY
+    - FUNCTION
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - ACTIVITY REGULATION
+  - citation:
+      authors:
+      - Mochizuki K.
+      - Kagawa T.
+      - Numari A.
+      - Harris M.J.
+      - Itoh J.
+      - Watanabe N.
+      - Mine T.
+      - Arias I.M.
+      dbReferences:
+      - id: '17082223'
+        type: PubMed
+      - id: 10.1152/ajpgi.00415.2006
+        type: DOI
+      location:
+        firstPage: G818
+        lastPage: G828
+        volume: '292'
+      publication:
+        journalName: Am. J. Physiol.
+      publicationDate: '2007'
+      title: Two N-linked glycans are required to maintain the transport activity
+        of the bile salt export pump (ABCB11) in MDCK II cells.
+      type: journal article
+    scope:
+    - GLYCOSYLATION AT ASN-109; ASN-116; ASN-122 AND ASN-125
+  - citation:
+      authors:
+      - Yabuuchi H.
+      - Tanaka K.
+      - Maeda M.
+      - Takemura M.
+      - Oka M.
+      - Ohashi R.
+      - Tamai I.
+      dbReferences:
+      - id: '18985798'
+        type: PubMed
+      - id: 10.1002/bdd.629
+        type: DOI
+      location:
+        firstPage: '441'
+        lastPage: '448'
+        volume: '29'
+      publication:
+        journalName: Biopharm. Drug Dispos.
+      publicationDate: '2008'
+      title: Cloning of the dog bile salt export pump (BSEP; ABCB11) and functional
+        comparison with the human and rat proteins.
+      type: journal article
+    scope:
+    - CATALYTIC ACTIVITY
+    - FUNCTION
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - ACTIVITY REGULATION
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Matsushima S.
+      - Maeda K.
+      - Hayashi H.
+      - Debori Y.
+      - Schinkel A.H.
+      - Schuetz J.D.
+      - Kusuhara H.
+      - Sugiyama Y.
+      dbReferences:
+      - id: '18245269'
+        type: PubMed
+      - id: 10.1124/mol.107.041459
+        type: DOI
+      location:
+        firstPage: '1474'
+        lastPage: '1483'
+        volume: '73'
+      publication:
+        journalName: Mol. Pharmacol.
+      publicationDate: '2008'
+      title: Involvement of multiple efflux transporters in hepatic disposition of
+        fexofenadine.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+  - citation:
+      authors:
+      - Paulusma C.C.
+      - de Waart D.R.
+      - Kunne C.
+      - Mok K.S.
+      - Elferink R.P.
+      dbReferences:
+      - id: '19228692'
+        type: PubMed
+      - id: 10.1074/jbc.m808667200
+        type: DOI
+      location:
+        firstPage: '9947'
+        lastPage: '9954'
+        volume: '284'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2009'
+      title: Activity of the bile salt export pump (ABCB11) is critically dependent
+        on canalicular membrane cholesterol content.
+      type: journal article
+    scope:
+    - FUNCTION
+    - ACTIVITY REGULATION
+    - CATALYTIC ACTIVITY
+  - citation:
+      authors:
+      - Kato T.
+      - Hayashi H.
+      - Sugiyama Y.
+      dbReferences:
+      - id: '20398791'
+        type: PubMed
+      - id: 10.1016/j.bbalip.2010.04.002
+        type: DOI
+      location:
+        firstPage: '1005'
+        lastPage: '1012'
+        volume: '1801'
+      publication:
+        journalName: Biochim. Biophys. Acta
+      publicationDate: '2010'
+      title: Short- and medium-chain fatty acids enhance the cell surface expression
+        and transport capacity of the bile salt export pump (BSEP/ABCB11).
+      type: journal article
+    scope:
+    - SUBCELLULAR LOCATION
+    - ACTIVITY REGULATION
+    - CATALYTIC ACTIVITY
+    - FUNCTION
+  - citation:
+      authors:
+      - Hayashi H.
+      - Inamura K.
+      - Aida K.
+      - Naoi S.
+      - Horikawa R.
+      - Nagasaka H.
+      - Takatani T.
+      - Fukushima T.
+      - Hattori A.
+      - Yabuki T.
+      - Horii I.
+      - Sugiyama Y.
+      dbReferences:
+      - id: '22262466'
+        type: PubMed
+      - id: 10.1002/hep.25591
+        type: DOI
+      location:
+        firstPage: '1889'
+        lastPage: '1900'
+        volume: '55'
+      publication:
+        journalName: Hepatology
+      publicationDate: '2012'
+      title: AP2 adaptor complex mediates bile salt export pump internalization and
+        modulates its hepatocanalicular expression and transport function.
+      type: journal article
+    scope:
+    - SUBCELLULAR LOCATION
+    - INTERACTION WITH AP2A2 AND AP2A1
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - REGION
+    - MUTAGENESIS OF TYR-1311
+  - citation:
+      authors:
+      - Bian Y.
+      - Song C.
+      - Cheng K.
+      - Dong M.
+      - Wang F.
+      - Huang J.
+      - Sun D.
+      - Wang L.
+      - Ye M.
+      - Zou H.
+      dbReferences:
+      - id: '24275569'
+        type: PubMed
+      - id: 10.1016/j.jprot.2013.11.014
+        type: DOI
+      location:
+        firstPage: '253'
+        lastPage: '262'
+        volume: '96'
+      publication:
+        journalName: J. Proteomics
+      publicationDate: '2014'
+      title: An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+        phosphoproteome.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-586; SER-587; SER-704 AND SER-1214
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Wang L.
+      - Hou W.T.
+      - Chen L.
+      - Jiang Y.L.
+      - Xu D.
+      - Sun L.
+      - Zhou C.Z.
+      - Chen Y.
+      dbReferences:
+      - id: '32203132'
+        type: PubMed
+      - id: 10.1038/s41422-020-0302-0
+        type: DOI
+      location:
+        firstPage: '623'
+        lastPage: '625'
+        volume: '30'
+      publication:
+        journalName: Cell Res.
+      publicationDate: '2020'
+      title: Cryo-EM structure of human bile salts exporter ABCB11.
+      type: journal article
+    evidences:
+    - code: ECO:0007744
+      source:
+        id: 6LR0
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6LR0
+    scope:
+    - STRUCTURE BY ELECTRON MICROSCOPY (3.50 ANGSTROMS)
+    - CATALYTIC ACTIVITY
+    - FUNCTION
+    - ACTIVITY REGULATION
+    - MUTAGENESIS OF 1-MET--LEU-441
+  - citation:
+      authors:
+      - Jansen P.L.M.
+      - Strautnieks S.S.
+      - Jacquemin E.
+      - Hadchouel M.
+      - Sokal E.M.
+      - Hooiveld G.J.E.J.
+      - Koning J.H.
+      - De Jager-Krikken A.
+      - Kuipers F.
+      - Stellaard F.
+      - Bijleveld C.M.
+      - Gouw A.
+      - Van Goor H.
+      - Thompson R.J.
+      - Muller M.
+      dbReferences:
+      - id: '10579978'
+        type: PubMed
+      - id: 10.1016/s0016-5085(99)70287-8
+        type: DOI
+      location:
+        firstPage: '1370'
+        lastPage: '1379'
+        volume: '117'
+      publication:
+        journalName: Gastroenterology
+      publicationDate: '1999'
+      title: Hepatocanalicular bile salt export pump deficiency in patients with progressive
+        familial intrahepatic cholestasis.
+      type: journal article
+    scope:
+    - VARIANTS PFIC2 VAL-238 AND SER-336
+  - citation:
+      authors:
+      - Saito S.
+      - Iida A.
+      - Sekine A.
+      - Miura Y.
+      - Ogawa C.
+      - Kawauchi S.
+      - Higuchi S.
+      - Nakamura Y.
+      dbReferences:
+      - id: '11829140'
+        type: PubMed
+      - id: 10.1007/s10038-002-8653-6
+        type: DOI
+      location:
+        firstPage: '38'
+        lastPage: '50'
+        volume: '47'
+      publication:
+        journalName: J. Hum. Genet.
+      publicationDate: '2002'
+      title: Three hundred twenty-six genetic variations in genes encoding nine members
+        of ATP-binding cassette, subfamily B (ABCB/MDR/TAP), in the Japanese population.
+      type: journal article
+    scope:
+    - VARIANT ALA-444
+  - citation:
+      authors:
+      - Chen H.-L.
+      - Chang P.-S.
+      - Hsu H.-C.
+      - Ni Y.-H.
+      - Hsu H.-Y.
+      - Lee J.-H.
+      - Jeng Y.-M.
+      - Shau W.-Y.
+      - Chang M.-H.
+      dbReferences:
+      - id: '11815775'
+        type: PubMed
+      - id: 10.1067/mpd.2002.119993
+        type: DOI
+      location:
+        firstPage: '119'
+        lastPage: '124'
+        volume: '140'
+      publication:
+        journalName: J. Pediatr.
+      publicationDate: '2002'
+      title: FIC1 and BSEP defects in Taiwanese patients with chronic intrahepatic
+        cholestasis with low gamma-glutamyltranspeptidase levels.
+      type: journal article
+    scope:
+    - VARIANTS PFIC2 LEU-284 AND ASP-1004
+  - citation:
+      authors:
+      - van Mil S.W.C.
+      - van der Woerd W.L.
+      - van der Brugge G.
+      - Sturm E.
+      - Jansen P.L.M.
+      - Bull L.N.
+      - van den Berg I.E.T.
+      - Berger R.
+      - Houwen R.H.J.
+      - Klomp L.W.J.
+      dbReferences:
+      - id: '15300568'
+        type: PubMed
+      - id: 10.1053/j.gastro.2004.04.065
+        type: DOI
+      location:
+        firstPage: '379'
+        lastPage: '384'
+        volume: '127'
+      publication:
+        journalName: Gastroenterology
+      publicationDate: '2004'
+      title: Benign recurrent intrahepatic cholestasis type 2 is caused by mutations
+        in ABCB11.
+      type: journal article
+    scope:
+    - VARIANTS BRIC2 GLY-186; GLY-297; THR-570; PRO-923; PRO-926; CYS-1050 AND HIS-1128
+  - citation:
+      authors:
+      - Pauli-Magnus C.
+      - Lang T.
+      - Meier Y.
+      - Zodan-Marin T.
+      - Jung D.
+      - Breymann C.
+      - Zimmermann R.
+      - Kenngott S.
+      - Beuers U.
+      - Reichel C.
+      - Kerb R.
+      - Penger A.
+      - Meier P.J.
+      - Kullak-Ublick G.A.
+      dbReferences:
+      - id: '15077010'
+        type: PubMed
+      - id: 10.1097/00008571-200402000-00003
+        type: DOI
+      location:
+        firstPage: '91'
+        lastPage: '102'
+        volume: '14'
+      publication:
+        journalName: Pharmacogenetics
+      publicationDate: '2004'
+      title: Sequence analysis of bile salt export pump (ABCB11) and multidrug resistance
+        p-glycoprotein 3 (ABCB4, MDR3) in patients with intrahepatic cholestasis of
+        pregnancy.
+      type: journal article
+    scope:
+    - VARIANTS GLN-415; ALA-444; SER-591 AND VAL-677
+  - citation:
+      authors:
+      - Hayashi H.
+      - Takada T.
+      - Suzuki H.
+      - Akita H.
+      - Sugiyama Y.
+      dbReferences:
+      - id: '15791618'
+        type: PubMed
+      - id: 10.1002/hep.20627
+        type: DOI
+      location:
+        firstPage: '916'
+        lastPage: '924'
+        volume: '41'
+      publication:
+        journalName: Hepatology
+      publicationDate: '2005'
+      title: Two common PFIC2 mutations are associated with the impaired membrane
+        trafficking of BSEP/ABCB11.
+      type: journal article
+    scope:
+    - CHARACTERIZATION OF VARIANTS PFIC2 GLY-297 AND GLY-482
+    - CATALYTIC ACTIVITY
+    - FUNCTION
+    - SUBCELLULAR LOCATION
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - GLYCOSYLATION
+  - citation:
+      authors:
+      - Noe J.
+      - Kullak-Ublick G.A.
+      - Jochum W.
+      - Stieger B.
+      - Kerb R.
+      - Haberl M.
+      - Muellhaupt B.
+      - Meier P.J.
+      - Pauli-Magnus C.
+      dbReferences:
+      - id: '16039748'
+        type: PubMed
+      - id: 10.1016/j.jhep.2005.05.020
+        type: DOI
+      location:
+        firstPage: '536'
+        lastPage: '543'
+        volume: '43'
+      publication:
+        journalName: J. Hepatol.
+      publicationDate: '2005'
+      title: Impaired expression and function of the bile salt export pump due to
+        three novel ABCB11 mutations in intrahepatic cholestasis.
+      type: journal article
+    scope:
+    - VARIANTS BRIC2 GLY-297 AND THR-432
+    - CHARACTERIZATION OF VARIANTS BRIC2 GLY-297 AND THR-432
+  - citation:
+      authors:
+      - Lang T.
+      - Haberl M.
+      - Jung D.
+      - Drescher A.
+      - Schlagenhaufer R.
+      - Keil A.
+      - Mornhinweg E.
+      - Stieger B.
+      - Kullak-Ublick G.A.
+      - Kerb R.
+      dbReferences:
+      - id: '16763017'
+        type: PubMed
+      - id: 10.1124/dmd.105.008854
+        type: DOI
+      location:
+        firstPage: '1582'
+        lastPage: '1599'
+        volume: '34'
+      publication:
+        journalName: Drug Metab. Dispos.
+      publicationDate: '2006'
+      title: Genetic variability, haplotype structures, and ethnic diversity of hepatic
+        transporters MDR3 (ABCB4) and bile salt export pump (ABCB11).
+      type: journal article
+    scope:
+    - VARIANTS VAL-206; ALA-284; LYS-299; ALA-444; GLY-616; ALA-619; VAL-677; HIS-698;
+      VAL-865 AND GLN-958
+  - citation:
+      authors:
+      - Meier Y.
+      - Pauli-Magnus C.
+      - Zanger U.M.
+      - Klein K.
+      - Schaeffeler E.
+      - Nussler A.K.
+      - Nussler N.
+      - Eichelbaum M.
+      - Meier P.J.
+      - Stieger B.
+      dbReferences:
+      - id: '16799996'
+        type: PubMed
+      - id: 10.1002/hep.21214
+        type: DOI
+      location:
+        firstPage: '62'
+        lastPage: '74'
+        volume: '44'
+      publication:
+        journalName: Hepatology
+      publicationDate: '2006'
+      title: Interindividual variability of canalicular ATP-binding-cassette (ABC)-transporter
+        expression in human liver.
+      type: journal article
+    scope:
+    - VARIANTS ALA-444 AND VAL-677
+  - citation:
+      authors:
+      - Lang C.
+      - Meier Y.
+      - Stieger B.
+      - Beuers U.
+      - Lang T.
+      - Kerb R.
+      - Kullak-Ublick G.A.
+      - Meier P.J.
+      - Pauli-Magnus C.
+      dbReferences:
+      - id: '17264802'
+        type: PubMed
+      - id: 10.1097/01.fpc.0000230418.28091.76
+        type: DOI
+      location:
+        firstPage: '47'
+        lastPage: '60'
+        volume: '17'
+      publication:
+        journalName: Pharmacogenet. Genomics
+      publicationDate: '2007'
+      title: Mutations and polymorphisms in the bile salt export pump and the multidrug
+        resistance protein 3 associated with drug-induced liver injury.
+      type: journal article
+    scope:
+    - VARIANTS ALA-284; ALA-444; TYR-676; VAL-677; HIS-698 AND ARG-855
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - CHARACTERIZATION OF VARIANTS ALA-444; TYR-676; VAL-677 AND ARG-855
+  - citation:
+      authors:
+      - Hayashi H.
+      - Sugiyama Y.
+      dbReferences:
+      - id: '18829893'
+        type: PubMed
+      - id: 10.1124/mol.108.049288
+        type: DOI
+      location:
+        firstPage: '143'
+        lastPage: '150'
+        volume: '75'
+      publication:
+        journalName: Mol. Pharmacol.
+      publicationDate: '2009'
+      title: Short-chain ubiquitination is associated with the degradation rate of
+        a cell-surface-resident bile salt export pump (BSEP/ABCB11).
+      type: journal article
+    scope:
+    - CHARACTERIZATION OF VARIANT PFIC2 GLY-297
+    - UBIQUITINATION
+  - citation:
+      authors:
+      - Ho R.H.
+      - Leake B.F.
+      - Kilkenny D.M.
+      - Meyer Zu Schwabedissen H.E.
+      - Glaeser H.
+      - Kroetz D.L.
+      - Kim R.B.
+      dbReferences:
+      - id: '20010382'
+        type: PubMed
+      - id: 10.1097/fpc.0b013e3283349eb0
+        type: DOI
+      location:
+        firstPage: '45'
+        lastPage: '57'
+        volume: '20'
+      publication:
+        journalName: Pharmacogenet. Genomics
+      publicationDate: '2010'
+      title: 'Polymorphic variants in the human bile salt export pump (BSEP; ABCB11):
+        functional characterization and interindividual variability.'
+      type: journal article
+    scope:
+    - VARIANTS LEU-56; VAL-206; ALA-444; HIS-558; SER-591; GLN-592; VAL-677 AND LYS-1186
+    - CHARACTERIZATION OF VARIANTS LEU-56; VAL-206; ALA-444; HIS-558; SER-591; GLN-592;
+      VAL-677 AND LYS-1186
+    - VARIANT PFIC2 GLY-297
+    - CHARACTERIZATION OF VARIANTS PFIC2 GLY-297; ARG-982 AND CYS-1153
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - SUBCELLULAR LOCATION
+  - citation:
+      authors:
+      - Hu G.
+      - He P.
+      - Liu Z.
+      - Chen Q.
+      - Zheng B.
+      - Zhang Q.
+      dbReferences:
+      - id: '24969679'
+        type: PubMed
+      - id: 10.3892/mmr.2014.2349
+        type: DOI
+      location:
+        firstPage: '1264'
+        lastPage: '1274'
+        volume: '10'
+      publication:
+        journalName: Mol. Med. Report.
+      publicationDate: '2014'
+      title: Diagnosis of ABCB11 gene mutations in children with intrahepatic cholestasis
+        using high resolution melting analysis and direct sequencing.
+      type: journal article
+    scope:
+    - VARIANTS PFIC2 HIS-337; CYS-472; TRP-696; PRO-931; VAL-1131 AND ARG-1198
+    - VARIANTS ALA-444 AND VAL-865
+  - citation:
+      authors:
+      - Guyot C.
+      - Hofstetter L.
+      - Stieger B.
+      dbReferences:
+      - id: '24711118'
+        type: PubMed
+      - id: 10.1124/mol.114.092262
+        type: DOI
+      location:
+        firstPage: '909'
+        lastPage: '920'
+        volume: '85'
+      publication:
+        journalName: Mol. Pharmacol.
+      publicationDate: '2014'
+      title: Differential effects of membrane cholesterol content on the transport
+        activity of multidrug resistance-associated protein 2 (ABCC2) and of the bile
+        salt export pump (ABCB11).
+      type: journal article
+    scope:
+    - CHARACTERIZATION OF VARIANTS BRIC2 GLY-297 AND THR-432
+    - CHARACTERIZATION VARIANT ALA-444
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - ACTIVITY REGULATION
+  - citation:
+      authors:
+      - Imagawa K.
+      - Hayashi H.
+      - Sabu Y.
+      - Tanikawa K.
+      - Fujishiro J.
+      - Kajikawa D.
+      - Wada H.
+      - Kudo T.
+      - Kage M.
+      - Kusuhara H.
+      - Sumazaki R.
+      dbReferences:
+      - id: '29507376'
+        type: PubMed
+      - id: 10.1038/s10038-018-0431-1
+        type: DOI
+      location:
+        firstPage: '569'
+        lastPage: '577'
+        volume: '63'
+      publication:
+        journalName: J. Hum. Genet.
+      publicationDate: '2018'
+      title: Clinical phenotype and molecular analysis of a homozygous ABCB11 mutation
+        responsible for progressive infantile cholestasis.
+      type: journal article
+    scope:
+    - VARIANT PFIC2 TYR-129
+    - CHARACTERIZATION OF VARIANT PFIC2 TYR-129
+    - SUBCELLULAR LOCATION
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+  - citation:
+      authors:
+      - Gan L.
+      - Pan S.
+      - Cui J.
+      - Bai J.
+      - Jiang P.
+      - He Y.
+      dbReferences:
+      - id: '30431138'
+        type: PubMed
+      - id: 10.3892/mmr.2018.9661
+        type: DOI
+      location:
+        firstPage: '195'
+        lastPage: '204'
+        volume: '19'
+      publication:
+        journalName: Mol. Med. Report.
+      publicationDate: '2019'
+      title: Functional analysis of the correlation between ABCB11 gene mutation and
+        primary intrahepatic stone.
+      type: journal article
+    scope:
+    - VARIANTS LYS-299; ALA-444 AND VAL-865
+    - CHARACTERIZATION OF VARIANT VAL-865
+    - SUBCELLULAR LOCATION
+  secondaryAccession:
+  - Q53TL2
+  - Q9UNB2
+  sequence:
+    length: 1321
+    mass: 146407
+    modified: '2009-11-03'
+    sequence: MSDSVILRSIKKFGEENDGFESDKSYNNDKKSRLQDEKKGDGVRVGFFQLFRFSSSTDIWLMFVGSLCAFLHGIAQPGVLLIFGTMTDVFIDYDVELQELQIPGKACVNNTIVWTNSSLNQNMTNGTRCGLLNIESEMIKFASYYAGIAVAVLITGYIQICFWVIAAARQIQKMRKFYFRRIMRMEIGWFDCNSVGELNTRFSDDINKINDAIADQMALFIQRMTSTICGFLLGFFRGWKLTLVIISVSPLIGIGAATIGLSVSKFTDYELKAYAKAGVVADEVISSMRTVAAFGGEKREVERYEKNLVFAQRWGIRKGIVMGFFTGFVWCLIFLCYALAFWYGSTLVLDEGEYTPGTLVQIFLSVIVGALNLGNASPCLEAFATGRAAATSIFETIDRKPIIDCMSEDGYKLDRIKGEIEFHNVTFHYPSRPEVKILNDLNMVIKPGEMTALVGPSGAGKSTALQLIQRFYDPCEGMVTVDGHDIRSLNIQWLRDQIGIVEQEPVLFSTTIAENIRYGREDATMEDIVQAAKEANAYNFIMDLPQQFDTLVGEGGGQMSGGQKQRVAIARALIRNPKILLLDMATSALDNESEAMVQEVLSKIQHGHTIISVAHRLSTVRAADTIIGFEHGTAVERGTHEELLERKGVYFTLVTLQSQGNQALNEEDIKDATEDDMLARTFSRGSYQDSLRASIRQRSKSQLSYLVHEPPLAVVDHKSTYEEDRKDKDIPVQEEVEPAPVRRILKFSAPEWPYMLVGSVGAAVNGTVTPLYAFLFSQILGTFSIPDKEEQRSQINGVCLLFVAMGCVSLFTQFLQGYAFAKSGELLTKRLRKFGFRAMLGQDIAWFDDLRNSPGALTTRLATDASQVQGAAGSQIGMIVNSFTNVTVAMIIAFSFSWKLSLVILCFFPFLALSGATQTRMLTGFASRDKQALEMVGQITNEALSNIRTVAGIGKERRFIEALETELEKPFKTAIQKANIYGFCFAFAQCIMFIANSASYRYGGYLISNEGLHFSYVFRVISAVVLSATALGRAFSYTPSYAKAKISAARFFQLLDRQPPISVYNTAGEKWDNFQGKIDFVDCKFTYPSRPDSQVLNGLSVSISPGQTLAFVGSSGCGKSTSIQLLERFYDPDQGKVMIDGHDSKKVNVQFLRSNIGIVSQEPVLFACSIMDNIKYGDNTKEIPMERVIAAAKQAQLHDFVMSLPEKYETNVGSQGSQLSRGEKQRIAIARAIVRDPKILLLDEATSALDTESEKTVQVALDKAREGRTCIVIAHRLSTIQNADIIAVMAQGVVIEKGTHEELMAQKGAYYKLVTTGSPIS
+    version: 2
+uniprot_id: O95342

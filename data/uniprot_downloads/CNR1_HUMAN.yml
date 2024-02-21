@@ -1,0 +1,3298 @@
+data:
+  accession: P21554
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: O02777
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/O02777
+      - code: ECO:0000250
+        source:
+          id: P47746
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P47746
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15620723
+          id: '15620723'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15620723
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/1718258
+          id: '1718258'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/1718258
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17895407
+          id: '17895407'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17895407
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21895628
+          id: '21895628'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21895628
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/23955712
+          id: '23955712'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/23955712
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/27768894
+          id: '27768894'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/27768894
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/27851727
+          id: '27851727'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/27851727
+      value: G-protein coupled receptor for endogenous cannabinoids (eCBs), including
+        N-arachidonoylethanolamide (also called anandamide or AEA) and 2-arachidonoylglycerol
+        (2-AG), as well as phytocannabinoids, such as delta(9)-tetrahydrocannabinol
+        (THC) (PubMed:15620723, PubMed:27768894, PubMed:27851727). Mediates many cannabinoid-induced
+        effects, acting, among others, on food intake, memory loss, gastrointestinal
+        motility, catalepsy, ambulatory activity, anxiety, chronic pain. Signaling
+        typically involves reduction in cyclic AMP (PubMed:1718258, PubMed:21895628,
+        PubMed:27768894). In the hypothalamus, may have a dual effect on mitochondrial
+        respiration depending upon the agonist dose and possibly upon the cell type.
+        Increases respiration at low doses, while decreases respiration at high doses.
+        At high doses, CNR1 signal transduction involves G-protein alpha-i protein
+        activation and subsequent inhibition of mitochondrial soluble adenylate cyclase,
+        decrease in cyclic AMP concentration, inhibition of protein kinase A (PKA)-dependent
+        phosphorylation of specific subunits of the mitochondrial electron transport
+        system, including NDUFS2. In the hypothalamus, inhibits leptin-induced reactive
+        oxygen species (ROS) formation and mediates cannabinoid-induced increase in
+        SREBF1 and FASN gene expression. In response to cannabinoids, drives the release
+        of orexigenic beta-endorphin, but not that of melanocyte-stimulating hormone
+        alpha/alpha-MSH, from hypothalamic POMC neurons, hence promoting food intake.
+        In the hippocampus, regulates cellular respiration and energy production in
+        response to cannabinoids. Involved in cannabinoid-dependent depolarization-induced
+        suppression of inhibition (DSI), a process in which depolarization of CA1
+        postsynaptic pyramidal neurons mobilizes eCBs, which retrogradely activate
+        presynaptic CB1 receptors, transiently decreasing GABAergic inhibitory neurotransmission.
+        Also reduces excitatory synaptic transmission (By similarity). In superior
+        cervical ganglions and cerebral vascular smooth muscle cells, inhibits voltage-gated
+        Ca(2+) channels in a constitutive, as well as agonist-dependent manner (PubMed:17895407).
+        In cerebral vascular smooth muscle cells, cannabinoid-induced inhibition of
+        voltage-gated Ca(2+) channels leads to vasodilation and decreased vascular
+        tone (By similarity). Induces leptin production in adipocytes and reduces
+        LRP2-mediated leptin clearance in the kidney, hence participating in hyperleptinemia.
+        In adipose tissue, CNR1 signaling leads to increased expression of SREBF1,
+        ACACA and FASN genes (By similarity). In the liver, activation by endocannabinoids
+        leads to increased de novo lipogenesis and reduced fatty acid catabolism,
+        associated with increased expression of SREBF1/SREBP-1, GCK, ACACA, ACACB
+        and FASN genes. May also affect de novo cholesterol synthesis and HDL-cholesteryl
+        ether uptake. Peripherally modulates energy metabolism (By similarity). In
+        high carbohydrate diet-induced obesity, may decrease the expression of mitochondrial
+        dihydrolipoyl dehydrogenase/DLD in striated muscles, as well as that of selected
+        glucose/ pyruvate metabolic enzymes, hence affecting energy expenditure through
+        mitochondrial metabolism (By similarity). In response to cannabinoid anandamide,
+        elicits a pro-inflammatory response in macrophages, which involves NLRP3 inflammasome
+        activation and IL1B and IL18 secretion (By similarity). In macrophages infiltrating
+        pancreatic islets, this process may participate in the progression of type-2
+        diabetes and associated loss of pancreatic beta-cells (PubMed:23955712)
+    type: FUNCTION
+  - molecule: Isoform 1
+    text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15620723
+          id: '15620723'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15620723
+      value: Binds both 2-arachidonoylglycerol (2-AG) and anandamide
+    type: FUNCTION
+  - molecule: Isoform 2
+    text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15620723
+          id: '15620723'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15620723
+      value: Only binds 2-arachidonoylglycerol (2-AG) with high affinity. Contrary
+        to its effect on isoform 1, 2-AG behaves as an inverse agonist on isoform
+        2 in assays measuring GTP binding to membranes
+    type: FUNCTION
+  - molecule: Isoform 3
+    text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15620723
+          id: '15620723'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15620723
+      value: Only binds 2-arachidonoylglycerol (2-AG) with high affinity. Contrary
+        to its effect on isoform 1, 2-AG behaves as an inverse agonist on isoform
+        3 in assays measuring GTP binding to membranes
+    type: FUNCTION
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18077343
+          id: '18077343'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18077343
+      value: 'Hemopressin, a peptide derived from hemoglobin subunit alpha (HBA1 and/or
+        HBA2), acts as an antagonist peptide: hemopressin-binding efficiently blocks
+        cannabinoid receptor CNR1 and subsequent signaling'
+    type: ACTIVITY_REGULATION
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12237474
+          id: '12237474'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12237474
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17895407
+          id: '17895407'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17895407
+      value: Interacts (via C-terminus) with CNRIP1; this interaction attenuates constitutive,
+        but not agonist-dependent, inhibition of voltage-gated Ca(2+) channels in
+        neurons (PubMed:17895407). Associates with G protein alpha subunits, including
+        G(i) alpha-1/GNAI1, G(i) alpha-3/GNAI3 and G(o)-alpha/GNAO1; palmitoylation
+        is important for interaction with GNAI3 and GNAO1 (PubMed:12237474)
+    type: SUBUNIT
+  - interactions:
+    - accession1: P21554
+      accession2: P29274
+      experiments: 8
+      gene: ADORA2A
+      interactor1: EBI-2909859
+      interactor2: EBI-2902702
+      organismDiffer: false
+    - accession1: P21554
+      accession2: P21554
+      experiments: 8
+      gene: CNR1
+      interactor1: EBI-2909859
+      interactor2: EBI-2909859
+      organismDiffer: false
+    type: INTERACTION
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/21895628
+            id: '21895628'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/21895628
+        value: Cell membrane
+      topology:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/27768894
+            id: '27768894'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/27768894
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/27851727
+            id: '27851727'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/27851727
+        value: Multi-pass membrane protein
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/21895628
+            id: '21895628'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/21895628
+        value: Membrane raft
+    - location:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: P47746
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P47746
+        value: Mitochondrion outer membrane
+    - location:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: P20272
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P20272
+        value: Cell projection, axon
+    - location:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: P20272
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P20272
+        value: Presynapse
+    text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P20272
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P20272
+      - code: ECO:0000250
+        source:
+          id: P47746
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P47746
+      value: Unexpectedly, in the mitochondria, the C-terminus is located in the mitochondrial
+        intermembrane space, a compartment topologically considered as extracellular.
+        In canonical seven-transmembrane G-protein coupled receptors, the C-terminus
+        is cytosolic (By similarity). Found on presynaptic axon terminals in some
+        GABAergic neurons in the somatosensory cortex (By similarity)
+    type: SUBCELLULAR_LOCATION
+  - event:
+    - Alternative splicing
+    isoforms:
+    - ids:
+      - P21554-1
+      name:
+        value: '1'
+      sequenceStatus: displayed
+      synonyms:
+      - value: Long
+    - ids:
+      - P21554-2
+      name:
+        value: '2'
+      sequence:
+      - VSP_001868
+      sequenceStatus: described
+      synonyms:
+      - evidences:
+        - code: ECO:0000303
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15620723
+            id: '15620723'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15620723
+        value: CB1a
+      - value: Short
+    - ids:
+      - P21554-3
+      name:
+        value: '3'
+      sequence:
+      - VSP_016529
+      sequenceStatus: described
+      synonyms:
+      - evidences:
+        - code: ECO:0000303
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15620723
+            id: '15620723'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15620723
+        value: CB1b
+    type: ALTERNATIVE_PRODUCTS
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15620723
+          id: '15620723'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15620723
+      value: Widely expressed, with highest levels in fetal and adult brain. Expression
+        levels of isoform 2 and isoform 3 are much lower than those of isoform 1
+    type: TISSUE_SPECIFICITY
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/23955712
+          id: '23955712'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/23955712
+      value: Up-regulated by endocannabinoid anandamide
+    type: INDUCTION
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21895628
+          id: '21895628'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21895628
+      value: Palmitoylation at Cys-415 is important for recruitment at plasma membrane
+        and lipid rafts and association with G protein alpha subunits
+    type: PTM
+  - acronym: OBESITY
+    dbReference:
+      id: '601665'
+      type: MIM
+    description:
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18177726
+          id: '18177726'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18177726
+      value: A condition characterized by an increase of body weight beyond the limitation
+        of skeletal and physical requirements, as the result of excessive accumulation
+        of body fat.
+    diseaseId: Obesity
+    text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18177726
+          id: '18177726'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18177726
+      value: The protein represented in this entry may be involved in disease pathogenesis.
+        May contribute to the development of diet-induced obesity and several obesity-associated
+        features, such as dyslipidemia and liver steatosis, regulating peripheral
+        lipogenesis, energy expenditure and feeding behavior. CNR1 inverse agonists
+        have been shown to reduce body weight and improve metabolic abnormalities
+        in obese subjects, although adverse neuropsychiatric effects, including anxiety,
+        irritability, and depressed mood, halted their therapeutic development (PubMed:18177726).
+        In obese mice, peripherally restricted CNR1 inverse agonists have been shown
+        to normalize metabolic abnormalities, including insulin resistance and fatty
+        liver, and to reverse leptin resistance
+    type: DISEASE
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10828533
+          id: '10828533'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10828533
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19524019
+          id: '19524019'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19524019
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/30096288
+          id: '30096288'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/30096288
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/31342135
+          id: '31342135'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/31342135
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/32549916
+          id: '32549916'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/32549916
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8255419
+          id: '8255419'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8255419
+      value: Dysfunction of the endogenous cannabinoid system including CNR1 has been
+        implicated in the pathogenesis of a number of central nervous system disorders,
+        including Huntington disease, Parkinson disease, and Alzheimer disease (PubMed:32549916).
+        In post-mortem brains from Huntington disease patients, a progressive CNR1
+        loss has been observed in the caudate nucleus, putamen, and substantia nigra
+        pars reticulata, and altered expression and abnormal endocannabinoid levels
+        precede motor symptoms in a disease mouse model (PubMed:8255419, PubMed:10828533,
+        PubMed:19524019). In Parkinson disease, low CNR1 expression in mid-superior
+        frontal gyrus and mid-cingulate cortex has been associated with poor mind,
+        poor executive functioning and poor episode memory, while patients with more
+        severe visuospatial dysfunction showed decreased receptor availability in
+        the precuneus, mid-cingulate, supplementary motor cortex, inferior orbitofrontal
+        gyrus and thalamus (PubMed:31342135). In an animal model for Alzheimer disease,
+        CNR1 heterozygous deletion has been associated with decreased levels of postsynaptic
+        density protein 95 (DLG4/PSD95) and accelerated memory impairment, suggesting
+        synaptic dysfunction and a crucial role for CNR1 in the progression of disease
+        symptoms (PubMed:30096288, PubMed:8255419, PubMed:10828533, PubMed:19524019,
+        PubMed:31342135)
+    type: DISEASE
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P47746
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P47746
+      value: High-fat diet also increases the hepatic levels of CNR1 ligand anandamide,
+        but not that of 2-arachidonoylglycerol
+    type: MISCELLANEOUS
+  - molecule: Isoform 2
+    text:
+    - evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/1718258
+          id: '1718258'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/1718258
+      value: Dubious isoform. A putative downstream initiation AUG is used to produce
+        isoform 2 (PubMed:1718258). The use of the first AUG (same as isoform 1) gives
+        a truncated protein of 36 AA
+    type: MISCELLANEOUS
+  - text:
+    - evidences:
+      - code: ECO:0000255
+        source:
+          id: PRU00521
+          name: PROSITE-ProRule
+          url: https://prosite.expasy.org/unirule/PRU00521
+      value: Belongs to the G-protein coupled receptor 1 family
+    type: SIMILARITY
+  dbReferences:
+  - id: X54937
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAA38699.1
+    type: EMBL
+  - id: X81120
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAA57018.1
+    type: EMBL
+  - id: X81121
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAA57019.1
+    type: EMBL
+  - id: AY766182
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAV35030.1
+    type: EMBL
+  - id: AF107262
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAD34320.1
+    type: EMBL
+  - id: U73304
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB18200.1
+    type: EMBL
+  - id: DQ067455
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAY68486.1
+    type: EMBL
+  - id: AY225225
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAO67710.1
+    type: EMBL
+  - id: AL136096
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: AK313908
+    properties:
+      molecule type: mRNA
+      protein sequence ID: BAG36631.1
+    type: EMBL
+  - id: CH471051
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW48574.1
+    type: EMBL
+  - id: CH471051
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW48575.1
+    type: EMBL
+  - id: CH471051
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW48576.1
+    type: EMBL
+  - id: BC074811
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH74811.1
+    type: EMBL
+  - id: BC074812
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH74812.1
+    type: EMBL
+  - id: BC095513
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH95513.1
+    type: EMBL
+  - id: BC100968
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAI00969.1
+    type: EMBL
+  - id: BC100969
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAI00970.1
+    type: EMBL
+  - id: BC100970
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAI00971.1
+    type: EMBL
+  - id: BC100971
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAI00972.1
+    type: EMBL
+  - id: CCDS5015.1
+    isoform: P21554-1
+    type: CCDS
+  - id: CCDS5016.2
+    isoform: P21554-3
+    type: CCDS
+  - id: S17595
+    properties:
+      entry name: S17595
+    type: PIR
+  - id: NP_001153698.1
+    isoform: P21554-1
+    properties:
+      nucleotide sequence ID: NM_001160226.1
+    type: RefSeq
+  - id: NP_001153730.1
+    isoform: P21554-1
+    properties:
+      nucleotide sequence ID: NM_001160258.1
+    type: RefSeq
+  - id: NP_001153731.1
+    isoform: P21554-1
+    properties:
+      nucleotide sequence ID: NM_001160259.1
+    type: RefSeq
+  - id: NP_057167.2
+    isoform: P21554-1
+    properties:
+      nucleotide sequence ID: NM_016083.4
+    type: RefSeq
+  - id: NP_149421.2
+    isoform: P21554-3
+    properties:
+      nucleotide sequence ID: NM_033181.3
+    type: RefSeq
+  - id: XP_006715393.1
+    properties:
+      nucleotide sequence ID: XM_006715330.3
+    type: RefSeq
+  - id: XP_011533726.1
+    properties:
+      nucleotide sequence ID: XM_011535424.1
+    type: RefSeq
+  - id: XP_011533727.1
+    isoform: P21554-1
+    properties:
+      nucleotide sequence ID: XM_011535425.1
+    type: RefSeq
+  - id: XP_011533728.1
+    properties:
+      nucleotide sequence ID: XM_011535426.1
+    type: RefSeq
+  - id: XP_011533730.1
+    properties:
+      nucleotide sequence ID: XM_011535428.1
+    type: RefSeq
+  - id: XP_016865727.1
+    properties:
+      nucleotide sequence ID: XM_017010238.1
+    type: RefSeq
+  - id: XP_016865728.1
+    properties:
+      nucleotide sequence ID: XM_017010239.1
+    type: RefSeq
+  - id: XP_016865729.1
+    properties:
+      nucleotide sequence ID: XM_017010240.1
+    type: RefSeq
+  - id: 1LVQ
+    properties:
+      chains: A=338-346
+      method: NMR
+    type: PDB
+  - id: 1LVR
+    properties:
+      chains: A=338-346
+      method: NMR
+    type: PDB
+  - id: 2B0Y
+    properties:
+      chains: A=400-414
+      method: NMR
+    type: PDB
+  - id: 2KOE
+    properties:
+      chains: A=377-414
+      method: NMR
+    type: PDB
+  - id: 2MZ2
+    properties:
+      chains: A=400-414
+      method: NMR
+    type: PDB
+  - id: 2MZ3
+    properties:
+      chains: A=400-414
+      method: NMR
+    type: PDB
+  - id: 2MZA
+    properties:
+      chains: A=400-414
+      method: NMR
+    type: PDB
+  - id: 5TGZ
+    properties:
+      chains: A=99-306, A=332-414
+      method: X-ray
+      resolution: 2.80 A
+    type: PDB
+  - id: 5U09
+    properties:
+      chains: A=90-301, A=333-421
+      method: X-ray
+      resolution: 2.60 A
+    type: PDB
+  - id: 5XR8
+    properties:
+      chains: A=99-306, A=332-414
+      method: X-ray
+      resolution: 2.95 A
+    type: PDB
+  - id: 5XRA
+    properties:
+      chains: A=99-306, A=332-414
+      method: X-ray
+      resolution: 2.80 A
+    type: PDB
+  - id: 6KPG
+    properties:
+      chains: R=71-425
+      method: EM
+      resolution: 3.00 A
+    type: PDB
+  - id: 6KQI
+    properties:
+      chains: A=94-301, A=334-413
+      method: X-ray
+      resolution: 3.25 A
+    type: PDB
+  - id: 6N4B
+    properties:
+      chains: R=1-472
+      method: EM
+      resolution: 3.00 A
+    type: PDB
+  - id: 7FEE
+    properties:
+      chains: A=74-305, A=333-414
+      method: X-ray
+      resolution: 2.70 A
+    type: PDB
+  - id: 7V3Z
+    properties:
+      chains: A=102-306, A=336-414
+      method: X-ray
+      resolution: 3.29 A
+    type: PDB
+  - id: 7WV9
+    properties:
+      chains: R=1-472
+      method: EM
+      resolution: 3.36 A
+    type: PDB
+  - id: 8GHV
+    properties:
+      chains: D=1-472
+      method: EM
+      resolution: 2.80 A
+    type: PDB
+  - id: 1LVQ
+    type: PDBsum
+  - id: 1LVR
+    type: PDBsum
+  - id: 2B0Y
+    type: PDBsum
+  - id: 2KOE
+    type: PDBsum
+  - id: 2MZ2
+    type: PDBsum
+  - id: 2MZ3
+    type: PDBsum
+  - id: 2MZA
+    type: PDBsum
+  - id: 5TGZ
+    type: PDBsum
+  - id: 5U09
+    type: PDBsum
+  - id: 5XR8
+    type: PDBsum
+  - id: 5XRA
+    type: PDBsum
+  - id: 6KPG
+    type: PDBsum
+  - id: 6KQI
+    type: PDBsum
+  - id: 6N4B
+    type: PDBsum
+  - id: 7FEE
+    type: PDBsum
+  - id: 7V3Z
+    type: PDBsum
+  - id: 7WV9
+    type: PDBsum
+  - id: 8GHV
+    type: PDBsum
+  - id: P21554
+    type: AlphaFoldDB
+  - id: EMD-0339
+    type: EMDB
+  - id: EMD-0745
+    type: EMDB
+  - id: EMD-32850
+    type: EMDB
+  - id: P21554
+    type: SMR
+  - id: '107668'
+    properties:
+      interactions: '9'
+    type: BioGRID
+  - id: DIP-61575N
+    type: DIP
+  - id: P21554
+    properties:
+      interactions: '12'
+    type: IntAct
+  - id: 9606.ENSP00000358513
+    type: STRING
+  - id: P21554
+    type: BindingDB
+  - id: CHEMBL218
+    type: ChEMBL
+  - id: DB05750
+    properties:
+      generic name: AVE-1625
+    type: DrugBank
+  - id: DB09061
+    properties:
+      generic name: Cannabidiol
+    type: DrugBank
+  - id: DB00470
+    properties:
+      generic name: Dronabinol
+    type: DrugBank
+  - id: DB14009
+    properties:
+      generic name: Medical Cannabis
+    type: DrugBank
+  - id: DB00486
+    properties:
+      generic name: Nabilone
+    type: DrugBank
+  - id: DB14011
+    properties:
+      generic name: Nabiximols
+    type: DrugBank
+  - id: DB11745
+    properties:
+      generic name: Otenabant
+    type: DrugBank
+  - id: DB09288
+    properties:
+      generic name: Propacetamol
+    type: DrugBank
+  - id: DB02955
+    properties:
+      generic name: Ricinoleic acid
+    type: DrugBank
+  - id: DB06155
+    properties:
+      generic name: Rimonabant
+    type: DrugBank
+  - id: DB05077
+    properties:
+      generic name: SLV319
+    type: DrugBank
+  - id: DB11755
+    properties:
+      generic name: Tetrahydrocannabivarin
+    type: DrugBank
+  - id: DB05201
+    properties:
+      generic name: V24343
+    type: DrugBank
+  - id: P21554
+    type: DrugCentral
+  - id: '56'
+    type: GuidetoPHARMACOLOGY
+  - id: SLP:000001607
+    type: SwissLipids
+  - id: 9.A.14.2.2
+    properties:
+      family name: the g-protein-coupled receptor (gpcr) family
+    type: TCDB
+  - id: P21554
+    properties:
+      glycosylation: 2 sites, No reported glycans
+    type: GlyCosmos
+  - id: P21554
+    properties:
+      glycosylation: 2 sites
+    type: GlyGen
+  - id: P21554
+    type: iPTMnet
+  - id: P21554
+    type: PhosphoSitePlus
+  - id: P21554
+    type: SwissPalm
+  - id: CNR1
+    type: BioMuta
+  - id: '115562'
+    type: DMDM
+  - id: P21554
+    type: MassIVE
+  - id: 9606-ENSP00000358513
+    type: PaxDb
+  - id: P21554
+    type: PeptideAtlas
+  - id: '53875'
+    isoform: P21554-1
+    type: ProteomicsDB
+  - id: '53876'
+    isoform: P21554-2
+    type: ProteomicsDB
+  - id: '53877'
+    isoform: P21554-3
+    type: ProteomicsDB
+  - id: P21554
+    properties:
+      antibodies: 62 sequenced antibodies
+    type: ABCD
+  - id: '3355'
+    properties:
+      antibodies: 760 antibodies from 42 providers
+    type: Antibodypedia
+  - id: '1268'
+    type: DNASU
+  - id: ENST00000369499.3
+    isoform: P21554-1
+    properties:
+      gene ID: ENSG00000118432.13
+      protein sequence ID: ENSP00000358511.2
+    type: Ensembl
+  - id: ENST00000369501.3
+    isoform: P21554-1
+    properties:
+      gene ID: ENSG00000118432.13
+      protein sequence ID: ENSP00000358513.2
+    type: Ensembl
+  - id: ENST00000428600.3
+    isoform: P21554-1
+    properties:
+      gene ID: ENSG00000118432.13
+      protein sequence ID: ENSP00000412192.2
+    type: Ensembl
+  - id: ENST00000468898.2
+    isoform: P21554-3
+    properties:
+      gene ID: ENSG00000118432.13
+      protein sequence ID: ENSP00000420188.1
+    type: Ensembl
+  - id: ENST00000549890.2
+    isoform: P21554-1
+    properties:
+      gene ID: ENSG00000118432.13
+      protein sequence ID: ENSP00000446819.1
+    type: Ensembl
+  - id: ENST00000551417.2
+    isoform: P21554-1
+    properties:
+      gene ID: ENSG00000118432.13
+      protein sequence ID: ENSP00000446702.2
+    type: Ensembl
+  - id: '1268'
+    type: GeneID
+  - id: hsa:1268
+    type: KEGG
+  - id: ENST00000369501.3
+    properties:
+      RefSeq nucleotide sequence ID: NM_016083.6
+      RefSeq protein sequence ID: NP_057167.2
+      protein sequence ID: ENSP00000358513.2
+    type: MANE-Select
+  - id: HGNC:2159
+    type: AGR
+  - id: '1268'
+    type: CTD
+  - id: '1268'
+    type: DisGeNET
+  - id: CNR1
+    type: GeneCards
+  - id: HGNC:2159
+    properties:
+      gene designation: CNR1
+    type: HGNC
+  - id: ENSG00000118432
+    properties:
+      expression patterns: Tissue enhanced (adipose tissue, pituitary gland)
+    type: HPA
+  - id: '114610'
+    properties:
+      type: gene
+    type: MIM
+  - id: '601665'
+    properties:
+      type: phenotype
+    type: MIM
+  - id: NX_P21554
+    type: neXtProt
+  - id: ENSG00000118432
+    type: OpenTargets
+  - id: PA26681
+    type: PharmGKB
+  - id: HostDB:ENSG00000118432
+    type: VEuPathDB
+  - id: KOG3656
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT01060000248564
+    type: GeneTree
+  - id: CLU_009579_7_0_1
+    type: HOGENOM
+  - id: P21554
+    type: InParanoid
+  - id: ERCIKNT
+    type: OMA
+  - id: 5258261at2759
+    type: OrthoDB
+  - id: P21554
+    type: PhylomeDB
+  - id: TF330052
+    type: TreeFam
+  - id: P21554
+    type: PathwayCommons
+  - id: R-HSA-373076
+    properties:
+      pathway name: Class A/1 (Rhodopsin-like receptors)
+    type: Reactome
+  - id: R-HSA-418594
+    properties:
+      pathway name: G alpha (i) signalling events
+    type: Reactome
+  - id: P21554
+    type: SignaLink
+  - id: P21554
+    type: SIGNOR
+  - id: '1268'
+    properties:
+      hits: 19 hits in 1157 CRISPR screens
+    type: BioGRID-ORCS
+  - id: CNR1
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: P21554
+    type: EvolutionaryTrace
+  - id: Cannabinoid_receptor_type_1
+    type: GeneWiki
+  - id: '1268'
+    type: GenomeRNAi
+  - id: P21554
+    properties:
+      development level: Tclin
+    type: Pharos
+  - id: PR:P21554
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 6
+    type: Proteomes
+  - id: P21554
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000118432
+    properties:
+      expression patterns: Expressed in ganglionic eminence and 150 other cell types
+        or tissues
+    type: Bgee
+  - id: P21554
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: P21554
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - id: GO:0015629
+    properties:
+      source: IDA:HPA
+      term: C:actin cytoskeleton
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0005737
+    properties:
+      source: IBA:GO_Central
+      term: C:cytoplasm
+    type: GO
+  - id: GO:0098982
+    properties:
+      source: IEA:Ensembl
+      term: C:GABA-ergic synapse
+    type: GO
+  - id: GO:0098978
+    properties:
+      source: IEA:Ensembl
+      term: C:glutamatergic synapse
+    type: GO
+  - id: GO:0030426
+    properties:
+      source: IEA:Ensembl
+      term: C:growth cone
+    type: GO
+  - id: GO:0045121
+    properties:
+      source: IEA:UniProtKB-SubCell
+      term: C:membrane raft
+    type: GO
+  - id: GO:0005741
+    properties:
+      source: IEA:UniProtKB-SubCell
+      term: C:mitochondrial outer membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17895407
+        id: '17895407'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17895407
+    id: GO:0005886
+    properties:
+      source: IDA:HPA
+      term: C:plasma membrane
+    type: GO
+  - id: GO:0042734
+    properties:
+      source: IEA:Ensembl
+      term: C:presynaptic membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18761332
+        id: '18761332'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18761332
+    id: GO:0004949
+    properties:
+      source: IDA:UniProtKB
+      term: F:cannabinoid receptor activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0004930
+    properties:
+      source: IBA:GO_Central
+      term: F:G protein-coupled receptor activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20590567
+        id: '20590567'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20590567
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/28734930
+        id: '28734930'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/28734930
+    id: GO:0042802
+    properties:
+      source: IPI:IntAct
+      term: F:identical protein binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0007189
+    properties:
+      source: IBA:GO_Central
+      term: P:adenylate cyclase-activating G protein-coupled receptor signaling pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18761332
+        id: '18761332'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18761332
+    id: GO:0007188
+    properties:
+      source: IDA:UniProtKB
+      term: P:adenylate cyclase-modulating G protein-coupled receptor signaling pathway
+    type: GO
+  - id: GO:0007413
+    properties:
+      source: IEA:Ensembl
+      term: P:axonal fasciculation
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17895407
+        id: '17895407'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17895407
+    id: GO:0038171
+    properties:
+      source: IDA:UniProtKB
+      term: P:cannabinoid signaling pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1718258
+        id: '1718258'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1718258
+    id: GO:0007187
+    properties:
+      source: TAS:ProtInc
+      term: P:G protein-coupled receptor signaling pathway, coupled to cyclic nucleotide
+        second messenger
+    type: GO
+  - id: GO:0042593
+    properties:
+      source: IEA:Ensembl
+      term: P:glucose homeostasis
+    type: GO
+  - id: GO:0060135
+    properties:
+      source: IEA:Ensembl
+      term: P:maternal process involved in female pregnancy
+    type: GO
+  - id: GO:0007613
+    properties:
+      source: IEA:Ensembl
+      term: P:memory
+    type: GO
+  - id: GO:0045759
+    properties:
+      source: IEA:Ensembl
+      term: P:negative regulation of action potential
+    type: GO
+  - id: GO:0045776
+    properties:
+      source: IEA:Ensembl
+      term: P:negative regulation of blood pressure
+    type: GO
+  - id: GO:0033602
+    properties:
+      source: IEA:Ensembl
+      term: P:negative regulation of dopamine secretion
+    type: GO
+  - id: GO:0031999
+    properties:
+      source: IEA:Ensembl
+      term: P:negative regulation of fatty acid beta-oxidation
+    type: GO
+  - id: GO:0033004
+    properties:
+      source: IEA:Ensembl
+      term: P:negative regulation of mast cell activation
+    type: GO
+  - id: GO:0014063
+    properties:
+      source: IEA:Ensembl
+      term: P:negative regulation of serotonin secretion
+    type: GO
+  - id: GO:0002866
+    properties:
+      source: IEA:Ensembl
+      term: P:positive regulation of acute inflammatory response to antigenic stimulus
+    type: GO
+  - id: GO:0043065
+    properties:
+      source: IEA:Ensembl
+      term: P:positive regulation of apoptotic process
+    type: GO
+  - id: GO:0045777
+    properties:
+      source: IEA:Ensembl
+      term: P:positive regulation of blood pressure
+    type: GO
+  - id: GO:0031622
+    properties:
+      source: IEA:Ensembl
+      term: P:positive regulation of fever generation
+    type: GO
+  - id: GO:0010976
+    properties:
+      source: IEA:Ensembl
+      term: P:positive regulation of neuron projection development
+    type: GO
+  - id: GO:0060259
+    properties:
+      source: IEA:Ensembl
+      term: P:regulation of feeding behavior
+    type: GO
+  - id: GO:0050796
+    properties:
+      source: IEA:Ensembl
+      term: P:regulation of insulin secretion
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0019222
+    properties:
+      source: IBA:GO_Central
+      term: P:regulation of metabolic process
+    type: GO
+  - id: GO:0060405
+    properties:
+      source: IEA:Ensembl
+      term: P:regulation of penile erection
+    type: GO
+  - id: GO:0099509
+    properties:
+      source: IEA:Ensembl
+      term: P:regulation of presynaptic cytosolic calcium ion concentration
+    type: GO
+  - id: GO:0032228
+    properties:
+      source: IEA:Ensembl
+      term: P:regulation of synaptic transmission, GABAergic
+    type: GO
+  - id: GO:0051966
+    properties:
+      source: IEA:Ensembl
+      term: P:regulation of synaptic transmission, glutamatergic
+    type: GO
+  - id: GO:0042220
+    properties:
+      source: IEA:Ensembl
+      term: P:response to cocaine
+    type: GO
+  - id: GO:0045471
+    properties:
+      source: IEA:Ensembl
+      term: P:response to ethanol
+    type: GO
+  - id: GO:0032496
+    properties:
+      source: IEA:Ensembl
+      term: P:response to lipopolysaccharide
+    type: GO
+  - id: GO:0035094
+    properties:
+      source: IEA:Ensembl
+      term: P:response to nicotine
+    type: GO
+  - id: GO:0007584
+    properties:
+      source: IEA:Ensembl
+      term: P:response to nutrient
+    type: GO
+  - id: GO:0098921
+    properties:
+      source: IEA:Ensembl
+      term: P:retrograde trans-synaptic signaling by endocannabinoid
+    type: GO
+  - id: GO:0007283
+    properties:
+      source: IEA:Ensembl
+      term: P:spermatogenesis
+    type: GO
+  - id: GO:0099553
+    properties:
+      source: IEA:Ensembl
+      term: P:trans-synaptic signaling by endocannabinoid, modulating synaptic transmission
+    type: GO
+  - id: cd15340
+    properties:
+      entry name: 7tmA_CB1
+      match status: '1'
+    type: CDD
+  - id: 1.20.1070.10
+    properties:
+      entry name: Rhodopsin 7-helix transmembrane proteins
+      match status: '1'
+    type: Gene3D
+  - id: IPR000810
+    properties:
+      entry name: Canbinoid_rcpt_1
+    type: InterPro
+  - id: IPR002230
+    properties:
+      entry name: Cnbnoid_rcpt
+    type: InterPro
+  - id: IPR000276
+    properties:
+      entry name: GPCR_Rhodpsn
+    type: InterPro
+  - id: IPR017452
+    properties:
+      entry name: GPCR_Rhodpsn_7TM
+    type: InterPro
+  - id: PTHR22750:SF47
+    properties:
+      entry name: CANNABINOID RECEPTOR 1
+      match status: '1'
+    type: PANTHER
+  - id: PTHR22750
+    properties:
+      entry name: G-PROTEIN COUPLED RECEPTOR
+      match status: '1'
+    type: PANTHER
+  - id: PF00001
+    properties:
+      entry name: 7tm_1
+      match status: '1'
+    type: Pfam
+  - id: PIRSF037995
+    properties:
+      entry name: Cnoid_rcpt_1
+      match status: '1'
+    type: PIRSF
+  - id: PR00522
+    properties:
+      entry name: CANABINOID1R
+    type: PRINTS
+  - id: PR00362
+    properties:
+      entry name: CANNABINOIDR
+    type: PRINTS
+  - id: PR00237
+    properties:
+      entry name: GPCRRHODOPSN
+    type: PRINTS
+  - id: SM01381
+    properties:
+      entry name: 7TM_GPCR_Srsx
+      match status: '1'
+    type: SMART
+  - id: SSF81321
+    properties:
+      entry name: Family A G protein-coupled receptor-like
+      match status: '1'
+    type: SUPFAM
+  - id: PS00237
+    properties:
+      entry name: G_PROTEIN_RECEP_F1_1
+      match status: '1'
+    type: PROSITE
+  - id: PS50262
+    properties:
+      entry name: G_PROTEIN_RECEP_F1_2
+      match status: '1'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Cannabinoid receptor 1
+    end: '472'
+    ftId: PRO_0000069314
+    molecule: ''
+    type: CHAIN
+  - begin: '1'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '116'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27768894
+        id: '27768894'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27768894
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27851727
+        id: '27851727'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27851727
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '117'
+    category: TOPOLOGY
+    description: Helical; Name=1
+    end: '142'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27768894
+        id: '27768894'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27768894
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27851727
+        id: '27851727'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27851727
+    molecule: ''
+    type: TRANSMEM
+  - begin: '143'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '154'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27768894
+        id: '27768894'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27768894
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27851727
+        id: '27851727'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27851727
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '155'
+    category: TOPOLOGY
+    description: Helical; Name=2
+    end: '175'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27768894
+        id: '27768894'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27768894
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27851727
+        id: '27851727'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27851727
+    molecule: ''
+    type: TRANSMEM
+  - begin: '176'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '187'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27768894
+        id: '27768894'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27768894
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27851727
+        id: '27851727'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27851727
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '188'
+    category: TOPOLOGY
+    description: Helical; Name=3
+    end: '212'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27768894
+        id: '27768894'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27768894
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27851727
+        id: '27851727'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27851727
+    molecule: ''
+    type: TRANSMEM
+  - begin: '213'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '232'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27768894
+        id: '27768894'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27768894
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27851727
+        id: '27851727'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27851727
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '233'
+    category: TOPOLOGY
+    description: Helical; Name=4
+    end: '255'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27768894
+        id: '27768894'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27768894
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27851727
+        id: '27851727'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27851727
+    molecule: ''
+    type: TRANSMEM
+  - begin: '256'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '273'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27768894
+        id: '27768894'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27768894
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27851727
+        id: '27851727'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27851727
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '274'
+    category: TOPOLOGY
+    description: Helical; Name=5
+    end: '299'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27768894
+        id: '27768894'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27768894
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27851727
+        id: '27851727'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27851727
+    molecule: ''
+    type: TRANSMEM
+  - begin: '300'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '344'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27768894
+        id: '27768894'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27768894
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27851727
+        id: '27851727'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27851727
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '345'
+    category: TOPOLOGY
+    description: Helical; Name=6
+    end: '365'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27768894
+        id: '27768894'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27768894
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27851727
+        id: '27851727'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27851727
+    molecule: ''
+    type: TRANSMEM
+  - begin: '366'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '377'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27768894
+        id: '27768894'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27768894
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27851727
+        id: '27851727'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27851727
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '378'
+    category: TOPOLOGY
+    description: Helical; Name=7
+    end: '399'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27768894
+        id: '27768894'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27768894
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27851727
+        id: '27851727'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27851727
+    molecule: ''
+    type: TRANSMEM
+  - begin: '400'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '472'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27768894
+        id: '27768894'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27768894
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27851727
+        id: '27851727'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27851727
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '2'
+    category: DOMAINS_AND_SITES
+    description: Required for mitochondrial localization
+    end: '23'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: P47746
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/P47746
+    molecule: ''
+    type: REGION
+  - begin: '425'
+    category: PTM
+    description: Phosphoserine
+    end: '425'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: P47746
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/P47746
+    molecule: ''
+    type: MOD_RES
+  - begin: '429'
+    category: PTM
+    description: Phosphoserine
+    end: '429'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: P47746
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/P47746
+    molecule: ''
+    type: MOD_RES
+  - begin: '415'
+    category: PTM
+    description: S-palmitoyl cysteine
+    end: '415'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21895628
+        id: '21895628'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21895628
+    molecule: ''
+    type: LIPID
+  - begin: '77'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '77'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '83'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '83'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '1'
+    category: VARIANTS
+    end: '89'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/7876112
+        id: '7876112'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/7876112
+    ftId: VSP_001868
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '22'
+    category: VARIANTS
+    end: '54'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15620723
+        id: '15620723'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15620723
+    ftId: VSP_016529
+    molecule: ''
+    type: VAR_SEQ
+  - alternativeSequence: A
+    begin: '210'
+    category: MUTAGENESIS
+    description: 7-fold lower affinity for a synthetic agonist, CP55940, possibly
+      due the stabilization of an inactive conformation.
+    end: '210'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27851727
+        id: '27851727'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27851727
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: AL
+    begin: '341'
+    category: MUTAGENESIS
+    description: Loss of activity, when assayed for GNAI1 GTPase stimulatory activity.
+    end: '342'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12237474
+        id: '12237474'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12237474
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A
+    begin: '415'
+    category: MUTAGENESIS
+    description: Loss of palmitoylation, marked loss of association with lipid rafts
+      on the plasma membrane and loss of activity, when assayed for downstream GTP-binding
+      and reduction in cAMP levels.
+    end: '415'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21895628
+        id: '21895628'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21895628
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: G
+    begin: '94'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 12; AAH95513
+    end: '94'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: I
+    begin: '103'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 12; AAH95513
+    end: '103'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: R
+    begin: '149'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 12; AAH95513
+    end: '149'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: L
+    begin: '200'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 5; AAD34320
+    end: '200'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: V
+    begin: '216'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 5; AAD34320
+    end: '216'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: A
+    begin: '246'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 5; AAD34320
+    end: '246'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: P
+    begin: '298'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 12; AAH95513
+    end: '298'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: S
+    begin: '332'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 12; AAI00972
+    end: '332'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - begin: '100'
+    category: STRUCTURAL
+    end: '102'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7FEE
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7FEE
+    molecule: ''
+    type: STRAND
+  - begin: '105'
+    category: STRUCTURAL
+    end: '107'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5U09
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5U09
+    molecule: ''
+    type: HELIX
+  - begin: '113'
+    category: STRUCTURAL
+    end: '143'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5U09
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5U09
+    molecule: ''
+    type: HELIX
+  - begin: '145'
+    category: STRUCTURAL
+    end: '148'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5U09
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5U09
+    molecule: ''
+    type: HELIX
+  - begin: '151'
+    category: STRUCTURAL
+    end: '153'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5U09
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5U09
+    molecule: ''
+    type: HELIX
+  - begin: '154'
+    category: STRUCTURAL
+    end: '178'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5U09
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5U09
+    molecule: ''
+    type: HELIX
+  - begin: '186'
+    category: STRUCTURAL
+    end: '219'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5U09
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5U09
+    molecule: ''
+    type: HELIX
+  - begin: '221'
+    category: STRUCTURAL
+    end: '223'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5U09
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5U09
+    molecule: ''
+    type: TURN
+  - begin: '224'
+    category: STRUCTURAL
+    end: '227'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5U09
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5U09
+    molecule: ''
+    type: HELIX
+  - begin: '230'
+    category: STRUCTURAL
+    end: '249'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5U09
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5U09
+    molecule: ''
+    type: HELIX
+  - begin: '250'
+    category: STRUCTURAL
+    end: '253'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5U09
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5U09
+    molecule: ''
+    type: HELIX
+  - begin: '257'
+    category: STRUCTURAL
+    end: '260'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5U09
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5U09
+    molecule: ''
+    type: HELIX
+  - begin: '266'
+    category: STRUCTURAL
+    end: '268'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5U09
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5U09
+    molecule: ''
+    type: STRAND
+  - begin: '273'
+    category: STRUCTURAL
+    end: '300'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5U09
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5U09
+    molecule: ''
+    type: HELIX
+  - begin: '302'
+    category: STRUCTURAL
+    end: '305'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KPG
+    molecule: ''
+    type: HELIX
+  - begin: '307'
+    category: STRUCTURAL
+    end: '310'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KPG
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KPG
+    molecule: ''
+    type: HELIX
+  - begin: '334'
+    category: STRUCTURAL
+    end: '367'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5U09
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5U09
+    molecule: ''
+    type: HELIX
+  - begin: '375'
+    category: STRUCTURAL
+    end: '400'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5U09
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5U09
+    molecule: ''
+    type: HELIX
+  - begin: '402'
+    category: STRUCTURAL
+    end: '409'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 5U09
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5U09
+    molecule: ''
+    type: HELIX
+  - begin: '411'
+    category: STRUCTURAL
+    end: '415'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2B0Y
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2B0Y
+    molecule: ''
+    type: HELIX
+  gene:
+  - name:
+      value: CNR1
+    synonyms:
+    - value: CNR
+  id: CNR1_HUMAN
+  info:
+    created: '1991-05-01'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 225
+  keywords:
+  - value: 3D-structure
+  - value: Alternative splicing
+  - value: Cell membrane
+  - value: Cell projection
+  - value: G-protein coupled receptor
+  - value: Glycoprotein
+  - value: Lipoprotein
+  - value: Membrane
+  - value: Mitochondrion
+  - value: Mitochondrion outer membrane
+  - value: Neurodegeneration
+  - value: Obesity
+  - value: Palmitate
+  - value: Phosphoprotein
+  - value: Receptor
+  - value: Reference proteome
+  - value: Synapse
+  - value: Transducer
+  - value: Transmembrane
+  - value: Transmembrane helix
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        value: CANN6
+    recommendedName:
+      fullName:
+        value: Cannabinoid receptor 1
+      shortName:
+      - value: CB-R
+      - value: CB1
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Gerard C.
+      - Mollereau C.
+      - Vassart G.
+      - Parmentier M.
+      dbReferences:
+      - id: '2263478'
+        type: PubMed
+      - id: 10.1093/nar/18.23.7142
+        type: DOI
+      location:
+        firstPage: '7142'
+        lastPage: '7142'
+        volume: '18'
+      publication:
+        journalName: Nucleic Acids Res.
+      publicationDate: '1990'
+      title: Nucleotide sequence of a human cannabinoid receptor cDNA.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    source:
+      tissue:
+      - value: Brain stem
+  - citation:
+      authors:
+      - Gerard C.
+      - Mollereau C.
+      - Vassart G.
+      - Parmentier M.
+      dbReferences:
+      - id: '1718258'
+        type: PubMed
+      - id: 10.1042/bj2790129
+        type: DOI
+      location:
+        firstPage: '129'
+        lastPage: '134'
+        volume: '279'
+      publication:
+        journalName: Biochem. J.
+      publicationDate: '1991'
+      title: Molecular cloning of a human cannabinoid receptor which is also expressed
+        in testis.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    - FUNCTION
+    source:
+      tissue:
+      - value: Brain stem
+  - citation:
+      authors:
+      - Shire D.
+      - Carillon C.
+      - Kaghad M.
+      - Calandra B.
+      - Rinaldi-Carmona M.
+      - Le Fur G.
+      - Caput D.
+      - Ferrara P.
+      dbReferences:
+      - id: '7876112'
+        type: PubMed
+      - id: 10.1074/jbc.270.8.3726
+        type: DOI
+      location:
+        firstPage: '3726'
+        lastPage: '3731'
+        volume: '270'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '1995'
+      title: An amino-terminal variant of the central cannabinoid receptor resulting
+        from alternative splicing.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2)
+    source:
+      tissue:
+      - value: Lung
+  - citation:
+      authors:
+      - Ryberg E.
+      - Vu H.K.
+      - Larsson N.
+      - Groblewski T.
+      - Hjorth S.
+      - Elebring T.
+      - Sjoegren S.
+      - Greasley P.J.
+      dbReferences:
+      - id: '15620723'
+        type: PubMed
+      - id: 10.1016/j.febslet.2004.11.085
+        type: DOI
+      location:
+        firstPage: '259'
+        lastPage: '264'
+        volume: '579'
+      publication:
+        journalName: FEBS Lett.
+      publicationDate: '2005'
+      title: Identification and characterisation of a novel splice variant of the
+        human CB1 receptor.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 3)
+    - FUNCTION (ISOFORMS 1; 2 AND 3)
+    - TISSUE SPECIFICITY
+    source:
+      tissue:
+      - value: Fetal brain
+  - citation:
+      authors:
+      - Kathmann M.
+      - Schlicker E.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: NOV-1998
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    source:
+      tissue:
+      - value: Hippocampus
+  - citation:
+      authors:
+      - Bonner T.I.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: NOV-1996
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+  - citation:
+      authors:
+      - Kumar S.
+      - Gupta S.
+      - Sharma G.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: MAY-2005
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    source:
+      tissue:
+      - value: Brain tumor
+  - citation:
+      authors:
+      - Kopatz S.A.
+      - Aronstam R.S.
+      - Sharma S.V.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: JAN-2003
+      title: cDNA clones of human proteins involved in signal transduction sequenced
+        by the Guthrie cDNA resource center (www.cdna.org).
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)
+  - citation:
+      authors:
+      - Ota T.
+      - Suzuki Y.
+      - Nishikawa T.
+      - Otsuki T.
+      - Sugiyama T.
+      - Irie R.
+      - Wakamatsu A.
+      - Hayashi K.
+      - Sato H.
+      - Nagai K.
+      - Kimura K.
+      - Makita H.
+      - Sekine M.
+      - Obayashi M.
+      - Nishi T.
+      - Shibahara T.
+      - Tanaka T.
+      - Ishii S.
+      - Yamamoto J.
+      - Saito K.
+      - Kawai Y.
+      - Isono Y.
+      - Nakamura Y.
+      - Nagahari K.
+      - Murakami K.
+      - Yasuda T.
+      - Iwayanagi T.
+      - Wagatsuma M.
+      - Shiratori A.
+      - Sudo H.
+      - Hosoiri T.
+      - Kaku Y.
+      - Kodaira H.
+      - Kondo H.
+      - Sugawara M.
+      - Takahashi M.
+      - Kanda K.
+      - Yokoi T.
+      - Furuya T.
+      - Kikkawa E.
+      - Omura Y.
+      - Abe K.
+      - Kamihara K.
+      - Katsuta N.
+      - Sato K.
+      - Tanikawa M.
+      - Yamazaki M.
+      - Ninomiya K.
+      - Ishibashi T.
+      - Yamashita H.
+      - Murakawa K.
+      - Fujimori K.
+      - Tanai H.
+      - Kimata M.
+      - Watanabe M.
+      - Hiraoka S.
+      - Chiba Y.
+      - Ishida S.
+      - Ono Y.
+      - Takiguchi S.
+      - Watanabe S.
+      - Yosida M.
+      - Hotuta T.
+      - Kusano J.
+      - Kanehori K.
+      - Takahashi-Fujii A.
+      - Hara H.
+      - Tanase T.-O.
+      - Nomura Y.
+      - Togiya S.
+      - Komai F.
+      - Hara R.
+      - Takeuchi K.
+      - Arita M.
+      - Imose N.
+      - Musashino K.
+      - Yuuki H.
+      - Oshima A.
+      - Sasaki N.
+      - Aotsuka S.
+      - Yoshikawa Y.
+      - Matsunawa H.
+      - Ichihara T.
+      - Shiohata N.
+      - Sano S.
+      - Moriya S.
+      - Momiyama H.
+      - Satoh N.
+      - Takami S.
+      - Terashima Y.
+      - Suzuki O.
+      - Nakagawa S.
+      - Senoh A.
+      - Mizoguchi H.
+      - Goto Y.
+      - Shimizu F.
+      - Wakebe H.
+      - Hishigaki H.
+      - Watanabe T.
+      - Sugiyama A.
+      - Takemoto M.
+      - Kawakami B.
+      - Yamazaki M.
+      - Watanabe K.
+      - Kumagai A.
+      - Itakura S.
+      - Fukuzumi Y.
+      - Fujimori Y.
+      - Komiyama M.
+      - Tashiro H.
+      - Tanigami A.
+      - Fujiwara T.
+      - Ono T.
+      - Yamada K.
+      - Fujii Y.
+      - Ozaki K.
+      - Hirao M.
+      - Ohmori Y.
+      - Kawabata A.
+      - Hikiji T.
+      - Kobatake N.
+      - Inagaki H.
+      - Ikema Y.
+      - Okamoto S.
+      - Okitani R.
+      - Kawakami T.
+      - Noguchi S.
+      - Itoh T.
+      - Shigeta K.
+      - Senba T.
+      - Matsumura K.
+      - Nakajima Y.
+      - Mizuno T.
+      - Morinaga M.
+      - Sasaki M.
+      - Togashi T.
+      - Oyama M.
+      - Hata H.
+      - Watanabe M.
+      - Komatsu T.
+      - Mizushima-Sugano J.
+      - Satoh T.
+      - Shirai Y.
+      - Takahashi Y.
+      - Nakagawa K.
+      - Okumura K.
+      - Nagase T.
+      - Nomura N.
+      - Kikuchi H.
+      - Masuho Y.
+      - Yamashita R.
+      - Nakai K.
+      - Yada T.
+      - Nakamura Y.
+      - Ohara O.
+      - Isogai T.
+      - Sugano S.
+      dbReferences:
+      - id: '14702039'
+        type: PubMed
+      - id: 10.1038/ng1285
+        type: DOI
+      location:
+        firstPage: '40'
+        lastPage: '45'
+        volume: '36'
+      publication:
+        journalName: Nat. Genet.
+      publicationDate: '2004'
+      title: Complete sequencing and characterization of 21,243 full-length human
+        cDNAs.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)
+    source:
+      tissue:
+      - value: Hippocampus
+  - citation:
+      authors:
+      - Mungall A.J.
+      - Palmer S.A.
+      - Sims S.K.
+      - Edwards C.A.
+      - Ashurst J.L.
+      - Wilming L.
+      - Jones M.C.
+      - Horton R.
+      - Hunt S.E.
+      - Scott C.E.
+      - Gilbert J.G.R.
+      - Clamp M.E.
+      - Bethel G.
+      - Milne S.
+      - Ainscough R.
+      - Almeida J.P.
+      - Ambrose K.D.
+      - Andrews T.D.
+      - Ashwell R.I.S.
+      - Babbage A.K.
+      - Bagguley C.L.
+      - Bailey J.
+      - Banerjee R.
+      - Barker D.J.
+      - Barlow K.F.
+      - Bates K.
+      - Beare D.M.
+      - Beasley H.
+      - Beasley O.
+      - Bird C.P.
+      - Blakey S.E.
+      - Bray-Allen S.
+      - Brook J.
+      - Brown A.J.
+      - Brown J.Y.
+      - Burford D.C.
+      - Burrill W.
+      - Burton J.
+      - Carder C.
+      - Carter N.P.
+      - Chapman J.C.
+      - Clark S.Y.
+      - Clark G.
+      - Clee C.M.
+      - Clegg S.
+      - Cobley V.
+      - Collier R.E.
+      - Collins J.E.
+      - Colman L.K.
+      - Corby N.R.
+      - Coville G.J.
+      - Culley K.M.
+      - Dhami P.
+      - Davies J.
+      - Dunn M.
+      - Earthrowl M.E.
+      - Ellington A.E.
+      - Evans K.A.
+      - Faulkner L.
+      - Francis M.D.
+      - Frankish A.
+      - Frankland J.
+      - French L.
+      - Garner P.
+      - Garnett J.
+      - Ghori M.J.
+      - Gilby L.M.
+      - Gillson C.J.
+      - Glithero R.J.
+      - Grafham D.V.
+      - Grant M.
+      - Gribble S.
+      - Griffiths C.
+      - Griffiths M.N.D.
+      - Hall R.
+      - Halls K.S.
+      - Hammond S.
+      - Harley J.L.
+      - Hart E.A.
+      - Heath P.D.
+      - Heathcott R.
+      - Holmes S.J.
+      - Howden P.J.
+      - Howe K.L.
+      - Howell G.R.
+      - Huckle E.
+      - Humphray S.J.
+      - Humphries M.D.
+      - Hunt A.R.
+      - Johnson C.M.
+      - Joy A.A.
+      - Kay M.
+      - Keenan S.J.
+      - Kimberley A.M.
+      - King A.
+      - Laird G.K.
+      - Langford C.
+      - Lawlor S.
+      - Leongamornlert D.A.
+      - Leversha M.
+      - Lloyd C.R.
+      - Lloyd D.M.
+      - Loveland J.E.
+      - Lovell J.
+      - Martin S.
+      - Mashreghi-Mohammadi M.
+      - Maslen G.L.
+      - Matthews L.
+      - McCann O.T.
+      - McLaren S.J.
+      - McLay K.
+      - McMurray A.
+      - Moore M.J.F.
+      - Mullikin J.C.
+      - Niblett D.
+      - Nickerson T.
+      - Novik K.L.
+      - Oliver K.
+      - Overton-Larty E.K.
+      - Parker A.
+      - Patel R.
+      - Pearce A.V.
+      - Peck A.I.
+      - Phillimore B.J.C.T.
+      - Phillips S.
+      - Plumb R.W.
+      - Porter K.M.
+      - Ramsey Y.
+      - Ranby S.A.
+      - Rice C.M.
+      - Ross M.T.
+      - Searle S.M.
+      - Sehra H.K.
+      - Sheridan E.
+      - Skuce C.D.
+      - Smith S.
+      - Smith M.
+      - Spraggon L.
+      - Squares S.L.
+      - Steward C.A.
+      - Sycamore N.
+      - Tamlyn-Hall G.
+      - Tester J.
+      - Theaker A.J.
+      - Thomas D.W.
+      - Thorpe A.
+      - Tracey A.
+      - Tromans A.
+      - Tubby B.
+      - Wall M.
+      - Wallis J.M.
+      - West A.P.
+      - White S.S.
+      - Whitehead S.L.
+      - Whittaker H.
+      - Wild A.
+      - Willey D.J.
+      - Wilmer T.E.
+      - Wood J.M.
+      - Wray P.W.
+      - Wyatt J.C.
+      - Young L.
+      - Younger R.M.
+      - Bentley D.R.
+      - Coulson A.
+      - Durbin R.M.
+      - Hubbard T.
+      - Sulston J.E.
+      - Dunham I.
+      - Rogers J.
+      - Beck S.
+      dbReferences:
+      - id: '14574404'
+        type: PubMed
+      - id: 10.1038/nature02055
+        type: DOI
+      location:
+        firstPage: '805'
+        lastPage: '811'
+        volume: '425'
+      publication:
+        journalName: Nature
+      publicationDate: '2003'
+      title: The DNA sequence and analysis of human chromosome 6.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      authors:
+      - Mural R.J.
+      - Istrail S.
+      - Sutton G.G.
+      - Florea L.
+      - Halpern A.L.
+      - Mobarry C.M.
+      - Lippert R.
+      - Walenz B.
+      - Shatkay H.
+      - Dew I.
+      - Miller J.R.
+      - Flanigan M.J.
+      - Edwards N.J.
+      - Bolanos R.
+      - Fasulo D.
+      - Halldorsson B.V.
+      - Hannenhalli S.
+      - Turner R.
+      - Yooseph S.
+      - Lu F.
+      - Nusskern D.R.
+      - Shue B.C.
+      - Zheng X.H.
+      - Zhong F.
+      - Delcher A.L.
+      - Huson D.H.
+      - Kravitz S.A.
+      - Mouchard L.
+      - Reinert K.
+      - Remington K.A.
+      - Clark A.G.
+      - Waterman M.S.
+      - Eichler E.E.
+      - Adams M.D.
+      - Hunkapiller M.W.
+      - Myers E.W.
+      - Venter J.C.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: SEP-2005
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      consortiums:
+      - The MGC Project Team
+      dbReferences:
+      - id: '15489334'
+        type: PubMed
+      - id: 10.1101/gr.2596504
+        type: DOI
+      location:
+        firstPage: '2121'
+        lastPage: '2127'
+        volume: '14'
+      publication:
+        journalName: Genome Res.
+      publicationDate: '2004'
+      title: 'The status, quality, and expansion of the NIH full-length cDNA project:
+        the Mammalian Gene Collection (MGC).'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)
+    source:
+      tissue:
+      - value: Lung
+  - citation:
+      authors:
+      - Reddy V.
+      - Grogan D.
+      - Ahluwalia M.
+      - Salles E.L.
+      - Ahluwalia P.
+      - Khodadadi H.
+      - Alverson K.
+      - Nguyen A.
+      - Raju S.P.
+      - Gaur P.
+      - Braun M.
+      - Vale F.L.
+      - Costigliola V.
+      - Dhandapani K.
+      - Baban B.
+      - Vaibhav K.
+      dbReferences:
+      - id: '32549916'
+        type: PubMed
+      - id: 10.1007/s13167-020-00203-4
+        type: DOI
+      location:
+        firstPage: '217'
+        lastPage: '250'
+        volume: '11'
+      publication:
+        journalName: EPMA J.
+      publicationDate: '2020'
+      title: 'Targeting the endocannabinoid system: a predictive, preventive, and
+        personalized medicine-directed approach to the management of brain pathologies.'
+      type: journal article
+    scope:
+    - REVIEW ON INVOLVEMENT IN NERVOUS SYSTEM DISORDERS
+  - citation:
+      authors:
+      - Glass M.
+      - Faull R.L.
+      - Dragunow M.
+      dbReferences:
+      - id: '8255419'
+        type: PubMed
+      - id: 10.1016/0306-4522(93)90352-g
+        type: DOI
+      location:
+        firstPage: '523'
+        lastPage: '527'
+        volume: '56'
+      publication:
+        journalName: Neuroscience
+      publicationDate: '1993'
+      title: Loss of cannabinoid receptors in the substantia nigra in Huntington's
+        disease.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN HUNTINGTON DISEASE
+  - citation:
+      authors:
+      - Glass M.
+      - Dragunow M.
+      - Faull R.L.
+      dbReferences:
+      - id: '10828533'
+        type: PubMed
+      - id: 10.1016/s0306-4522(00)00008-7
+        type: DOI
+      location:
+        firstPage: '505'
+        lastPage: '519'
+        volume: '97'
+      publication:
+        journalName: Neuroscience
+      publicationDate: '2000'
+      title: 'The pattern of neurodegeneration in Huntington''s disease: a comparative
+        study of cannabinoid, dopamine, adenosine and GABA(A) receptor alterations
+        in the human basal ganglia in Huntington''s disease.'
+      type: journal article
+    scope:
+    - INVOLVEMENT IN HUNTINGTON DISEASE
+  - citation:
+      authors:
+      - Niehaus J.L.
+      - Liu Y.
+      - Wallis K.T.
+      - Egertova M.
+      - Bhartur S.G.
+      - Mukhopadhyay S.
+      - Shi S.
+      - He H.
+      - Selley D.E.
+      - Howlett A.C.
+      - Elphick M.R.
+      - Lewis D.L.
+      dbReferences:
+      - id: '17895407'
+        type: PubMed
+      - id: 10.1124/mol.107.039263
+        type: DOI
+      location:
+        firstPage: '1557'
+        lastPage: '1566'
+        volume: '72'
+      publication:
+        journalName: Mol. Pharmacol.
+      publicationDate: '2007'
+      title: CB1 cannabinoid receptor activity is modulated by the cannabinoid receptor
+        interacting protein CRIP 1a.
+      type: journal article
+    scope:
+    - FUNCTION
+    - INTERACTION WITH CNRIP1
+    source:
+      tissue:
+      - value: Brain
+  - citation:
+      authors:
+      - Heimann A.S.
+      - Gomes I.
+      - Dale C.S.
+      - Pagano R.L.
+      - Gupta A.
+      - de Souza L.L.
+      - Luchessi A.D.
+      - Castro L.M.
+      - Giorgi R.
+      - Rioli V.
+      - Ferro E.S.
+      - Devi L.A.
+      dbReferences:
+      - id: '18077343'
+        type: PubMed
+      - id: 10.1073/pnas.0706980105
+        type: DOI
+      location:
+        firstPage: '20588'
+        lastPage: '20593'
+        volume: '104'
+      publication:
+        journalName: Proc. Natl. Acad. Sci. U.S.A.
+      publicationDate: '2007'
+      title: Hemopressin is an inverse agonist of CB1 cannabinoid receptors.
+      type: journal article
+    scope:
+    - ACTIVITY REGULATION
+  - citation:
+      authors:
+      - Oddi S.
+      - Dainese E.
+      - Sandiford S.
+      - Fezza F.
+      - Lanuti M.
+      - Chiurchiu V.
+      - Totaro A.
+      - Catanzaro G.
+      - Barcaroli D.
+      - De Laurenzi V.
+      - Centonze D.
+      - Mukhopadhyay S.
+      - Selent J.
+      - Howlett A.C.
+      - Maccarrone M.
+      dbReferences:
+      - id: '21895628'
+        type: PubMed
+      - id: 10.1111/j.1476-5381.2011.01658.x
+        type: DOI
+      location:
+        firstPage: '2635'
+        lastPage: '2651'
+        volume: '165'
+      publication:
+        journalName: Br. J. Pharmacol.
+      publicationDate: '2012'
+      title: Effects of palmitoylation of Cys(415) in helix 8 of the CB(1) cannabinoid
+        receptor on membrane localization and signalling.
+      type: journal article
+    scope:
+    - FUNCTION
+    - SUBCELLULAR LOCATION
+    - PALMITOYLATION AT CYS-415
+    - MUTAGENESIS OF CYS-415
+  - citation:
+      authors:
+      - Addy C.
+      - Wright H.
+      - Van Laere K.
+      - Gantz I.
+      - Erondu N.
+      - Musser B.J.
+      - Lu K.
+      - Yuan J.
+      - Sanabria-Bohorquez S.M.
+      - Stoch A.
+      - Stevens C.
+      - Fong T.M.
+      - De Lepeleire I.
+      - Cilissen C.
+      - Cote J.
+      - Rosko K.
+      - Gendrano I.N. III
+      - Nguyen A.M.
+      - Gumbiner B.
+      - Rothenberg P.
+      - de Hoon J.
+      - Bormans G.
+      - Depre M.
+      - Eng W.S.
+      - Ravussin E.
+      - Klein S.
+      - Blundell J.
+      - Herman G.A.
+      - Burns H.D.
+      - Hargreaves R.J.
+      - Wagner J.
+      - Gottesdiener K.
+      - Amatruda J.M.
+      - Heymsfield S.B.
+      dbReferences:
+      - id: '18177726'
+        type: PubMed
+      - id: 10.1016/j.cmet.2007.11.012
+        type: DOI
+      location:
+        firstPage: '68'
+        lastPage: '78'
+        volume: '7'
+      publication:
+        journalName: Cell Metab.
+      publicationDate: '2008'
+      title: The acyclic CB1R inverse agonist taranabant mediates weight loss by increasing
+        energy expenditure and decreasing caloric intake.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN OBESITY
+  - citation:
+      authors:
+      - Dowie M.J.
+      - Bradshaw H.B.
+      - Howard M.L.
+      - Nicholson L.F.
+      - Faull R.L.
+      - Hannan A.J.
+      - Glass M.
+      dbReferences:
+      - id: '19524019'
+        type: PubMed
+      - id: 10.1016/j.neuroscience.2009.06.014
+        type: DOI
+      location:
+        firstPage: '456'
+        lastPage: '465'
+        volume: '163'
+      publication:
+        journalName: Neuroscience
+      publicationDate: '2009'
+      title: Altered CB1 receptor and endocannabinoid levels precede motor symptom
+        onset in a transgenic mouse model of Huntington's disease.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN HUNTINGTON DISEASE
+  - citation:
+      authors:
+      - Jourdan T.
+      - Godlewski G.
+      - Cinar R.
+      - Bertola A.
+      - Szanda G.
+      - Liu J.
+      - Tam J.
+      - Han T.
+      - Mukhopadhyay B.
+      - Skarulis M.C.
+      - Ju C.
+      - Aouadi M.
+      - Czech M.P.
+      - Kunos G.
+      dbReferences:
+      - id: '23955712'
+        type: PubMed
+      - id: 10.1038/nm.3265
+        type: DOI
+      location:
+        firstPage: '1132'
+        lastPage: '1140'
+        volume: '19'
+      publication:
+        journalName: Nat. Med.
+      publicationDate: '2013'
+      title: Activation of the Nlrp3 inflammasome in infiltrating macrophages by endocannabinoids
+        mediates beta cell loss in type 2 diabetes.
+      type: journal article
+    scope:
+    - FUNCTION
+    - INDUCTION BY ENDOCANNABINOID ANANDAMIDE
+  - citation:
+      authors:
+      - Aso E.
+      - Andres-Benito P.
+      - Ferrer I.
+      dbReferences:
+      - id: '30096288'
+        type: PubMed
+      - id: 10.1016/j.bcp.2018.08.007
+        type: DOI
+      location:
+        firstPage: '210'
+        lastPage: '216'
+        volume: '157'
+      publication:
+        journalName: Biochem. Pharmacol.
+      publicationDate: '2018'
+      title: Genetic deletion of CB1 cannabinoid receptors exacerbates the Alzheimer-like
+        symptoms in a transgenic animal model.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN ALZHEIMER DISEASE
+  - citation:
+      authors:
+      - Ceccarini J.
+      - Casteels C.
+      - Ahmad R.
+      - Crabbe M.
+      - Van de Vliet L.
+      - Vanhaute H.
+      - Vandenbulcke M.
+      - Vandenberghe W.
+      - Van Laere K.
+      dbReferences:
+      - id: '31342135'
+        type: PubMed
+      - id: 10.1007/s00259-019-04445-x
+        type: DOI
+      location:
+        firstPage: '2348'
+        lastPage: '2357'
+        volume: '46'
+      publication:
+        journalName: Eur. J. Nucl. Med. Mol. Imaging
+      publicationDate: '2019'
+      title: Regional changes in the type 1 cannabinoid receptor are associated with
+        cognitive dysfunction in Parkinson's disease.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN PARKINSON DISEASE
+  - citation:
+      authors:
+      - Ulfers A.L.
+      - McMurry J.L.
+      - Miller A.
+      - Wang L.
+      - Kendall D.A.
+      - Mierke D.F.
+      dbReferences:
+      - id: '12237474'
+        type: PubMed
+      - id: 10.1110/ps.0218402
+        type: DOI
+      location:
+        firstPage: '2526'
+        lastPage: '2531'
+        volume: '11'
+      publication:
+        journalName: Protein Sci.
+      publicationDate: '2002'
+      title: 'Cannabinoid receptor-G protein interactions: G(alphai1)-bound structures
+        of IC3 and a mutant with altered G protein specificity.'
+      type: journal article
+    scope:
+    - STRUCTURE BY NMR OF 338-346
+    - INTERACTION WITH GNAI1
+    - MUTAGENESIS OF 341-LEU-ALA-342
+  - citation:
+      authors:
+      - Hua T.
+      - Vemuri K.
+      - Pu M.
+      - Qu L.
+      - Han G.W.
+      - Wu Y.
+      - Zhao S.
+      - Shui W.
+      - Li S.
+      - Korde A.
+      - Laprairie R.B.
+      - Stahl E.L.
+      - Ho J.H.
+      - Zvonok N.
+      - Zhou H.
+      - Kufareva I.
+      - Wu B.
+      - Zhao Q.
+      - Hanson M.A.
+      - Bohn L.M.
+      - Makriyannis A.
+      - Stevens R.C.
+      - Liu Z.J.
+      dbReferences:
+      - id: '27768894'
+        type: PubMed
+      - id: 10.1016/j.cell.2016.10.004
+        type: DOI
+      location:
+        firstPage: '750'
+        lastPage: '762'
+        volume: '167'
+      publication:
+        journalName: Cell
+      publicationDate: '2016'
+      title: Crystal structure of the human cannabinoid receptor CB1.
+      type: journal article
+    evidences:
+    - code: ECO:0007744
+      source:
+        id: 5TGZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5TGZ
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (2.80 ANGSTROMS) OF 99-306 AND 332-414
+    - FUNCTION
+    - TOPOLOGY
+  - citation:
+      authors:
+      - Shao Z.
+      - Yin J.
+      - Chapman K.
+      - Grzemska M.
+      - Clark L.
+      - Wang J.
+      - Rosenbaum D.M.
+      dbReferences:
+      - id: '27851727'
+        type: PubMed
+      - id: 10.1038/nature20613
+        type: DOI
+      location:
+        firstPage: '602'
+        lastPage: '606'
+        volume: '540'
+      publication:
+        journalName: Nature
+      publicationDate: '2016'
+      title: High-resolution crystal structure of the human CB1 cannabinoid receptor.
+      type: journal article
+    evidences:
+    - code: ECO:0007744
+      source:
+        id: 5U09
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/5U09
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (2.60 ANGSTROMS) OF 90-301 AND 334-421 IN COMPLEX WITH
+      INVERSE AGONIST TARANABANT
+    - MUTAGENESIS OF THR-210
+    - TOPOLOGY
+    - FUNCTION
+  secondaryAccession:
+  - B2R9T4
+  - E1P512
+  - Q13949
+  - Q495Z0
+  - Q4PLI4
+  - Q4VBM6
+  - Q5JVL5
+  - Q5UB37
+  - Q9UNN0
+  sequence:
+    length: 472
+    mass: 52858
+    modified: '1991-05-01'
+    sequence: MKSILDGLADTTFRTITTDLLYVGSNDIQYEDIKGDMASKLGYFPQKFPLTSFRGSPFQEKMTAGDNPQLVPADQVNITEFYNKSLSSFKENEENIQCGENFMDIECFMVLNPSQQLAIAVLSLTLGTFTVLENLLVLCVILHSRSLRCRPSYHFIGSLAVADLLGSVIFVYSFIDFHVFHRKDSRNVFLFKLGGVTASFTASVGSLFLTAIDRYISIHRPLAYKRIVTRPKAVVAFCLMWTIAIVIAVLPLLGWNCEKLQSVCSDIFPHIDETYLMFWIGVTSVLLLFIVYAYMYILWKAHSHAVRMIQRGTQKSIIIHTSEDGKVQVTRPDQARMDIRLAKTLVLILVVLIICWGPLLAIMVYDVFGKMNKLIKTVFAFCSMLCLLNSTVNPIIYALRSKDLRHAFRSMFPSCEGTAQPLDNSMGDSDCLHKHANNAASVHRAAESCIKSTVKIAKVTMSVSTDTSAEAL
+    version: 1
+uniprot_id: P21554

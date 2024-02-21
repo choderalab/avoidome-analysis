@@ -1,0 +1,2138 @@
+data:
+  accession: Q14994
+  comments:
+  - text:
+    - value: Binds and transactivates the retinoic acid response elements that control
+        expression of the retinoic acid receptor beta 2 and alcohol dehydrogenase
+        3 genes. Transactivates both the phenobarbital responsive element module of
+        the human CYP2B6 gene and the CYP3A4 xenobiotic response element
+    type: FUNCTION
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: O35627
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/O35627
+      value: Interacts with ECT2 (By similarity). Heterodimer of NR1I3 and RXR. Interacts
+        with PSMC4. Directly interacts with DNAJC7. The DNAJC7-NR1I3 complex may also
+        include HSP90 (By similarity). Interacts with CRY1 (By similarity). Interacts
+        with CRY2 in a ligand-dependent manner (By similarity)
+    type: SUBUNIT
+  - interactions:
+    - accession1: Q14994
+      accession2: P01100
+      experiments: 3
+      gene: FOS
+      interactor1: EBI-960794
+      interactor2: EBI-852851
+      organismDiffer: false
+    type: INTERACTION
+  - locations:
+    - location:
+        value: Nucleus
+    - location:
+        value: Cytoplasm
+    - location:
+        value: Cytoplasm, cytoskeleton
+    text:
+    - evidences:
+      - code: ECO:0000250
+      value: Recruited to the cytoplasm by DNAJC7
+    type: SUBCELLULAR_LOCATION
+  - event:
+    - Alternative splicing
+    isoforms:
+    - ids:
+      - Q14994-1
+      name:
+        value: '1'
+      sequenceStatus: displayed
+    - ids:
+      - Q14994-2
+      name:
+        value: '2'
+      sequence:
+      - VSP_010634
+      sequenceStatus: described
+    - ids:
+      - Q14994-3
+      name:
+        value: '3'
+      sequence:
+      - VSP_043144
+      sequenceStatus: described
+    - ids:
+      - Q14994-4
+      name:
+        value: '4'
+      sequence:
+      - VSP_043730
+      - VSP_043731
+      sequenceStatus: described
+    - ids:
+      - Q14994-5
+      name:
+        value: '5'
+      sequence:
+      - VSP_043730
+      - VSP_010634
+      sequenceStatus: described
+    - ids:
+      - Q14994-6
+      name:
+        value: '6'
+      sequence:
+      - VSP_043730
+      - VSP_010634
+      - VSP_043732
+      sequenceStatus: described
+    - ids:
+      - Q14994-7
+      name:
+        value: '7'
+      sequence:
+      - VSP_043731
+      sequenceStatus: described
+    - ids:
+      - Q14994-8
+      name:
+        value: '8'
+      sequence:
+      - VSP_043732
+      sequenceStatus: described
+    - ids:
+      - Q14994-9
+      name:
+        value: '9'
+      sequence:
+      - VSP_043730
+      - VSP_010634
+      - VSP_046144
+      sequenceStatus: described
+    - ids:
+      - Q14994-10
+      name:
+        value: '10'
+      sequence:
+      - VSP_043730
+      - VSP_010634
+      - VSP_043732
+      - VSP_046144
+      sequenceStatus: described
+    - ids:
+      - Q14994-11
+      name:
+        value: '11'
+      sequence:
+      - VSP_043730
+      - VSP_043732
+      - VSP_046144
+      sequenceStatus: described
+    - ids:
+      - Q14994-12
+      name:
+        value: '12'
+      sequence:
+      - VSP_046144
+      sequenceStatus: described
+    - ids:
+      - Q14994-13
+      name:
+        value: '13'
+      sequence:
+      - VSP_055180
+      - VSP_043732
+      - VSP_046144
+      sequenceStatus: described
+    - ids:
+      - Q14994-15
+      name:
+        value: '14'
+      sequence:
+      - VSP_043731
+      - VSP_046144
+      sequenceStatus: described
+    - ids:
+      - Q14994-16
+      name:
+        value: '15'
+      sequence:
+      - VSP_043730
+      - VSP_043731
+      - VSP_046144
+      sequenceStatus: described
+    type: ALTERNATIVE_PRODUCTS
+  - text:
+    - value: Predominantly expressed in liver
+    type: TISSUE_SPECIFICITY
+  - text:
+    - value: By dexamethasone
+    type: INDUCTION
+  - text:
+    - value: Composed by a short N-terminal domain followed by the DNA binding, hinge,
+        and ligand binding/dimerization domains
+    type: DOMAIN
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19858220
+          id: '19858220'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19858220
+      value: Phosphorylated at Thr-38 by PKC, dephosphorylation of Thr-38 is required
+        for nuclear translocation and activation
+    type: PTM
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the nuclear hormone receptor family. NR1 subfamily
+    type: SIMILARITY
+  dbReferences:
+  - id: Z30425
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAA83016.1
+    type: EMBL
+  - id: AY572806
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAT47159.1
+    type: EMBL
+  - id: AY572808
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAT47161.1
+    type: EMBL
+  - id: AY572810
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAT47163.1
+    type: EMBL
+  - id: AY572811
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAT47164.1
+    type: EMBL
+  - id: AY572812
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAT47165.1
+    type: EMBL
+  - id: AY572813
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAT47166.1
+    type: EMBL
+  - id: AY572816
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAT47169.1
+    type: EMBL
+  - id: AY572817
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAT47170.1
+    type: EMBL
+  - id: AY572818
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAT47171.1
+    type: EMBL
+  - id: AY572819
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAT47172.1
+    type: EMBL
+  - id: AY572827
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAT47180.1
+    type: EMBL
+  - id: DQ022681
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAY56401.1
+    type: EMBL
+  - id: HQ692838
+    properties:
+      molecule type: mRNA
+      protein sequence ID: ADZ17349.1
+    type: EMBL
+  - id: HQ692839
+    properties:
+      molecule type: mRNA
+      protein sequence ID: ADZ17350.1
+    type: EMBL
+  - id: HQ692840
+    properties:
+      molecule type: mRNA
+      protein sequence ID: ADZ17351.1
+    type: EMBL
+  - id: HQ692841
+    properties:
+      molecule type: mRNA
+      protein sequence ID: ADZ17352.1
+    type: EMBL
+  - id: AL590714
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: CH471121
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW52608.1
+    type: EMBL
+  - id: CH471121
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW52609.1
+    type: EMBL
+  - id: BC069626
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH69626.1
+    type: EMBL
+  - id: BC121120
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAI21121.1
+    type: EMBL
+  - id: BC121121
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAI21122.1
+    type: EMBL
+  - id: CCDS1228.1
+    isoform: Q14994-2
+    type: CCDS
+  - id: CCDS41427.1
+    isoform: Q14994-6
+    type: CCDS
+  - id: CCDS41428.1
+    isoform: Q14994-3
+    type: CCDS
+  - id: CCDS41429.1
+    isoform: Q14994-8
+    type: CCDS
+  - id: CCDS41430.1
+    isoform: Q14994-1
+    type: CCDS
+  - id: CCDS44260.1
+    isoform: Q14994-12
+    type: CCDS
+  - id: CCDS44261.1
+    isoform: Q14994-13
+    type: CCDS
+  - id: CCDS44262.1
+    isoform: Q14994-7
+    type: CCDS
+  - id: CCDS53405.1
+    isoform: Q14994-15
+    type: CCDS
+  - id: CCDS53406.1
+    isoform: Q14994-16
+    type: CCDS
+  - id: CCDS53407.1
+    isoform: Q14994-4
+    type: CCDS
+  - id: CCDS53408.1
+    isoform: Q14994-9
+    type: CCDS
+  - id: CCDS53409.1
+    isoform: Q14994-5
+    type: CCDS
+  - id: CCDS53410.1
+    isoform: Q14994-10
+    type: CCDS
+  - id: CCDS53411.1
+    isoform: Q14994-11
+    type: CCDS
+  - id: A56197
+    properties:
+      entry name: A56197
+    type: PIR
+  - id: NP_001070937.1
+    isoform: Q14994-13
+    properties:
+      nucleotide sequence ID: NM_001077469.2
+    type: RefSeq
+  - id: NP_001070938.1
+    isoform: Q14994-4
+    properties:
+      nucleotide sequence ID: NM_001077470.2
+    type: RefSeq
+  - id: NP_001070939.1
+    isoform: Q14994-7
+    properties:
+      nucleotide sequence ID: NM_001077471.2
+    type: RefSeq
+  - id: NP_001070940.1
+    isoform: Q14994-6
+    properties:
+      nucleotide sequence ID: NM_001077472.2
+    type: RefSeq
+  - id: NP_001070941.1
+    isoform: Q14994-11
+    properties:
+      nucleotide sequence ID: NM_001077473.2
+    type: RefSeq
+  - id: NP_001070942.1
+    isoform: Q14994-15
+    properties:
+      nucleotide sequence ID: NM_001077474.2
+    type: RefSeq
+  - id: NP_001070943.1
+    isoform: Q14994-16
+    properties:
+      nucleotide sequence ID: NM_001077475.2
+    type: RefSeq
+  - id: NP_001070944.1
+    isoform: Q14994-10
+    properties:
+      nucleotide sequence ID: NM_001077476.2
+    type: RefSeq
+  - id: NP_001070945.1
+    isoform: Q14994-9
+    properties:
+      nucleotide sequence ID: NM_001077477.2
+    type: RefSeq
+  - id: NP_001070946.1
+    isoform: Q14994-12
+    properties:
+      nucleotide sequence ID: NM_001077478.2
+    type: RefSeq
+  - id: NP_001070947.1
+    isoform: Q14994-5
+    properties:
+      nucleotide sequence ID: NM_001077479.2
+    type: RefSeq
+  - id: NP_001070948.1
+    isoform: Q14994-1
+    properties:
+      nucleotide sequence ID: NM_001077480.2
+    type: RefSeq
+  - id: NP_001070949.1
+    isoform: Q14994-3
+    properties:
+      nucleotide sequence ID: NM_001077481.2
+    type: RefSeq
+  - id: NP_001070950.1
+    isoform: Q14994-8
+    properties:
+      nucleotide sequence ID: NM_001077482.2
+    type: RefSeq
+  - id: NP_005113.1
+    isoform: Q14994-2
+    properties:
+      nucleotide sequence ID: NM_005122.4
+    type: RefSeq
+  - id: 1XV9
+    properties:
+      chains: B/D=103-352
+      method: X-ray
+      resolution: 2.70 A
+    type: PDB
+  - id: 1XVP
+    properties:
+      chains: B/D=103-352
+      method: X-ray
+      resolution: 2.60 A
+    type: PDB
+  - id: 1XV9
+    type: PDBsum
+  - id: 1XVP
+    type: PDBsum
+  - id: Q14994
+    type: AlphaFoldDB
+  - id: Q14994
+    type: SASBDB
+  - id: Q14994
+    type: SMR
+  - id: '115295'
+    properties:
+      interactions: '39'
+    type: BioGRID
+  - id: Q14994
+    properties:
+      interactions: '20'
+    type: IntAct
+  - id: 9606.ENSP00000356959
+    type: STRING
+  - id: Q14994
+    type: BindingDB
+  - id: CHEMBL5503
+    type: ChEMBL
+  - id: DB01889
+    properties:
+      generic name: 16,17-Androstene-3-Ol
+    type: DrugBank
+  - id: DB07557
+    properties:
+      generic name: 3,20-Pregnanedione
+    type: DrugBank
+  - id: DB01076
+    properties:
+      generic name: Atorvastatin
+    type: DrugBank
+  - id: DB04540
+    properties:
+      generic name: Cholesterol
+    type: DrugBank
+  - id: DB00366
+    properties:
+      generic name: Doxylamine
+    type: DrugBank
+  - id: DB07931
+    properties:
+      generic name: Hexestrol
+    type: DrugBank
+  - id: DB01026
+    properties:
+      generic name: Ketoconazole
+    type: DrugBank
+  - id: DB00737
+    properties:
+      generic name: Meclizine
+    type: DrugBank
+  - id: DB01620
+    properties:
+      generic name: Pheniramine
+    type: DrugBank
+  - id: DB04824
+    properties:
+      generic name: Phenolphthalein
+    type: DrugBank
+  - id: DB01708
+    properties:
+      generic name: Prasterone
+    type: DrugBank
+  - id: DB02709
+    properties:
+      generic name: Resveratrol
+    type: DrugBank
+  - id: DB08604
+    properties:
+      generic name: Triclosan
+    type: DrugBank
+  - id: Q14994
+    type: DrugCentral
+  - id: '607'
+    type: GuidetoPHARMACOLOGY
+  - id: SLP:000001585
+    type: SwissLipids
+  - id: Q14994
+    type: iPTMnet
+  - id: Q14994
+    type: PhosphoSitePlus
+  - id: NR1I3
+    type: BioMuta
+  - id: '49066046'
+    type: DMDM
+  - id: Q14994
+    type: jPOST
+  - id: Q14994
+    type: MassIVE
+  - id: 9606-ENSP00000356959
+    type: PaxDb
+  - id: Q14994
+    type: PeptideAtlas
+  - id: '19747'
+    type: ProteomicsDB
+  - id: '20507'
+    type: ProteomicsDB
+  - id: '60278'
+    isoform: Q14994-1
+    type: ProteomicsDB
+  - id: '60279'
+    isoform: Q14994-2
+    type: ProteomicsDB
+  - id: '60280'
+    isoform: Q14994-3
+    type: ProteomicsDB
+  - id: '60281'
+    isoform: Q14994-4
+    type: ProteomicsDB
+  - id: '60282'
+    isoform: Q14994-5
+    type: ProteomicsDB
+  - id: '60283'
+    isoform: Q14994-6
+    type: ProteomicsDB
+  - id: '60284'
+    isoform: Q14994-7
+    type: ProteomicsDB
+  - id: '62261'
+    type: ProteomicsDB
+  - id: '20508'
+    properties:
+      antibodies: 531 antibodies from 32 providers
+    type: Antibodypedia
+  - id: '9970'
+    type: DNASU
+  - id: ENST00000367979.6
+    isoform: Q14994-8
+    properties:
+      gene ID: ENSG00000143257.12
+      protein sequence ID: ENSP00000356958.2
+    type: Ensembl
+  - id: ENST00000367980.6
+    isoform: Q14994-8
+    properties:
+      gene ID: ENSG00000143257.12
+      protein sequence ID: ENSP00000356959.2
+    type: Ensembl
+  - id: ENST00000367981.7
+    isoform: Q14994-6
+    properties:
+      gene ID: ENSG00000143257.12
+      protein sequence ID: ENSP00000356960.3
+    type: Ensembl
+  - id: ENST00000367982.8
+    isoform: Q14994-1
+    properties:
+      gene ID: ENSG00000143257.12
+      protein sequence ID: ENSP00000356961.4
+    type: Ensembl
+  - id: ENST00000367983.9
+    isoform: Q14994-2
+    properties:
+      gene ID: ENSG00000143257.12
+      protein sequence ID: ENSP00000356962.5
+    type: Ensembl
+  - id: ENST00000367984.8
+    isoform: Q14994-7
+    properties:
+      gene ID: ENSG00000143257.12
+      protein sequence ID: ENSP00000356963.4
+    type: Ensembl
+  - id: ENST00000367985.7
+    isoform: Q14994-3
+    properties:
+      gene ID: ENSG00000143257.12
+      protein sequence ID: ENSP00000356965.3
+    type: Ensembl
+  - id: ENST00000412844.6
+    isoform: Q14994-11
+    properties:
+      gene ID: ENSG00000143257.12
+      protein sequence ID: ENSP00000399361.2
+    type: Ensembl
+  - id: ENST00000428574.6
+    isoform: Q14994-13
+    properties:
+      gene ID: ENSG00000143257.12
+      protein sequence ID: ENSP00000412672.2
+    type: Ensembl
+  - id: ENST00000437437.6
+    isoform: Q14994-9
+    properties:
+      gene ID: ENSG00000143257.12
+      protein sequence ID: ENSP00000407446.2
+    type: Ensembl
+  - id: ENST00000442691.6
+    isoform: Q14994-12
+    properties:
+      gene ID: ENSG00000143257.12
+      protein sequence ID: ENSP00000406493.2
+    type: Ensembl
+  - id: ENST00000504010.5
+    isoform: Q14994-4
+    properties:
+      gene ID: ENSG00000143257.12
+      protein sequence ID: ENSP00000424345.1
+    type: Ensembl
+  - id: ENST00000505005.5
+    isoform: Q14994-15
+    properties:
+      gene ID: ENSG00000143257.12
+      protein sequence ID: ENSP00000424934.1
+    type: Ensembl
+  - id: ENST00000508740.5
+    isoform: Q14994-10
+    properties:
+      gene ID: ENSG00000143257.12
+      protein sequence ID: ENSP00000423666.1
+    type: Ensembl
+  - id: ENST00000511676.5
+    isoform: Q14994-5
+    properties:
+      gene ID: ENSG00000143257.12
+      protein sequence ID: ENSP00000427175.1
+    type: Ensembl
+  - id: ENST00000512372.5
+    isoform: Q14994-16
+    properties:
+      gene ID: ENSG00000143257.12
+      protein sequence ID: ENSP00000425417.1
+    type: Ensembl
+  - id: '9970'
+    type: GeneID
+  - id: hsa:9970
+    type: KEGG
+  - id: ENST00000367983.9
+    isoform: Q14994-2
+    properties:
+      RefSeq nucleotide sequence ID: NM_005122.5
+      RefSeq protein sequence ID: NP_005113.1
+      protein sequence ID: ENSP00000356962.5
+    type: MANE-Select
+  - id: uc001fzf.4
+    isoform: Q14994-1
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:7969
+    type: AGR
+  - id: '9970'
+    type: CTD
+  - id: '9970'
+    type: DisGeNET
+  - id: NR1I3
+    type: GeneCards
+  - id: HGNC:7969
+    properties:
+      gene designation: NR1I3
+    type: HGNC
+  - id: ENSG00000143257
+    properties:
+      expression patterns: Tissue enriched (liver)
+    type: HPA
+  - id: '603881'
+    properties:
+      type: gene
+    type: MIM
+  - id: NX_Q14994
+    type: neXtProt
+  - id: ENSG00000143257
+    type: OpenTargets
+  - id: PA391
+    type: PharmGKB
+  - id: HostDB:ENSG00000143257
+    type: VEuPathDB
+  - id: KOG3575
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000160641
+    type: GeneTree
+  - id: CLU_007368_12_0_1
+    type: HOGENOM
+  - id: Q14994
+    type: InParanoid
+  - id: VHAGFQE
+    type: OMA
+  - id: 5359733at2759
+    type: OrthoDB
+  - id: Q14994
+    type: PhylomeDB
+  - id: TF316304
+    type: TreeFam
+  - id: Q14994
+    type: PathwayCommons
+  - id: R-HSA-383280
+    properties:
+      pathway name: Nuclear Receptor transcription pathway
+    type: Reactome
+  - id: Q14994
+    type: SignaLink
+  - id: Q14994
+    type: SIGNOR
+  - id: '9970'
+    properties:
+      hits: 15 hits in 1174 CRISPR screens
+    type: BioGRID-ORCS
+  - id: NR1I3
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: Q14994
+    type: EvolutionaryTrace
+  - id: Constitutive_androstane_receptor
+    type: GeneWiki
+  - id: '9970'
+    type: GenomeRNAi
+  - id: Q14994
+    properties:
+      development level: Tchem
+    type: Pharos
+  - id: PR:Q14994
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 1
+    type: Proteomes
+  - id: Q14994
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000143257
+    properties:
+      expression patterns: Expressed in right lobe of liver and 100 other cell types
+        or tissues
+    type: Bgee
+  - id: Q14994
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: Q14994
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - id: GO:0000785
+    properties:
+      source: ISA:NTNU_SB
+      term: C:chromatin
+    type: GO
+  - id: GO:0005737
+    properties:
+      source: ISS:UniProtKB
+      term: C:cytoplasm
+    type: GO
+  - id: GO:0005856
+    properties:
+      source: IEA:UniProtKB-SubCell
+      term: C:cytoskeleton
+    type: GO
+  - id: GO:0005829
+    properties:
+      source: IEA:Ensembl
+      term: C:cytosol
+    type: GO
+  - id: GO:0005654
+    properties:
+      source: IDA:HPA
+      term: C:nucleoplasm
+    type: GO
+  - id: GO:0005634
+    properties:
+      source: ISS:UniProtKB
+      term: C:nucleus
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11114890
+        id: '11114890'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11114890
+    id: GO:0001228
+    properties:
+      source: IDA:NTNU_SB
+      term: F:DNA-binding transcription activator activity, RNA polymerase II-specific
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8020947
+        id: '8020947'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8020947
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8114692
+        id: '8114692'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8114692
+    id: GO:0003700
+    properties:
+      source: TAS:ProtInc
+      term: F:DNA-binding transcription factor activity
+    type: GO
+  - id: GO:0000981
+    properties:
+      source: ISA:NTNU_SB
+      term: F:DNA-binding transcription factor activity, RNA polymerase II-specific
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9783588
+        id: '9783588'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9783588
+    id: GO:0004879
+    properties:
+      source: IDA:GO_Central
+      term: F:nuclear receptor activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0000978
+    properties:
+      source: IBA:GO_Central
+      term: F:RNA polymerase II cis-regulatory region sequence-specific DNA binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11114890
+        id: '11114890'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11114890
+    id: GO:0000977
+    properties:
+      source: IDA:NTNU_SB
+      term: F:RNA polymerase II transcription regulatory region sequence-specific
+        DNA binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/28473536
+        id: '28473536'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/28473536
+    id: GO:1990837
+    properties:
+      source: IDA:ARUK-UCL
+      term: F:sequence-specific double-stranded DNA binding
+    type: GO
+  - id: GO:0008270
+    properties:
+      source: IEA:InterPro
+      term: F:zinc ion binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0030154
+    properties:
+      source: IBA:GO_Central
+      term: P:cell differentiation
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0000122
+    properties:
+      source: IBA:GO_Central
+      term: P:negative regulation of transcription by RNA polymerase II
+    type: GO
+  - id: GO:0001649
+    properties:
+      source: IEA:Ensembl
+      term: P:osteoblast differentiation
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11114890
+        id: '11114890'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11114890
+    id: GO:0045944
+    properties:
+      source: IDA:NTNU_SB
+      term: P:positive regulation of transcription by RNA polymerase II
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8020947
+        id: '8020947'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8020947
+    id: GO:0007165
+    properties:
+      source: TAS:ProtInc
+      term: P:signal transduction
+    type: GO
+  - id: cd07156
+    properties:
+      entry name: NR_DBD_VDR_like
+      match status: '1'
+    type: CDD
+  - id: cd06934
+    properties:
+      entry name: NR_LBD_PXR_like
+      match status: '1'
+    type: CDD
+  - id: 3.30.50.10
+    properties:
+      entry name: Erythroid Transcription Factor GATA-1, subunit A
+      match status: '1'
+    type: Gene3D
+  - id: 1.10.565.10
+    properties:
+      entry name: Retinoid X Receptor
+      match status: '1'
+    type: Gene3D
+  - id: IID00475
+    type: IDEAL
+  - id: IPR035500
+    properties:
+      entry name: NHR-like_dom_sf
+    type: InterPro
+  - id: IPR000536
+    properties:
+      entry name: Nucl_hrmn_rcpt_lig-bd
+    type: InterPro
+  - id: IPR001723
+    properties:
+      entry name: Nuclear_hrmn_rcpt
+    type: InterPro
+  - id: IPR001728
+    properties:
+      entry name: ThyrH_rcpt
+    type: InterPro
+  - id: IPR001628
+    properties:
+      entry name: Znf_hrmn_rcpt
+    type: InterPro
+  - id: IPR013088
+    properties:
+      entry name: Znf_NHR/GATA
+    type: InterPro
+  - id: PTHR24082
+    properties:
+      entry name: NUCLEAR HORMONE RECEPTOR
+      match status: '1'
+    type: PANTHER
+  - id: PTHR24082:SF231
+    properties:
+      entry name: NUCLEAR RECEPTOR SUBFAMILY 1 GROUP I MEMBER 3
+      match status: '1'
+    type: PANTHER
+  - id: PF00104
+    properties:
+      entry name: Hormone_recep
+      match status: '1'
+    type: Pfam
+  - id: PF00105
+    properties:
+      entry name: zf-C4
+      match status: '1'
+    type: Pfam
+  - id: PR00398
+    properties:
+      entry name: STRDHORMONER
+    type: PRINTS
+  - id: PR00047
+    properties:
+      entry name: STROIDFINGER
+    type: PRINTS
+  - id: PR00546
+    properties:
+      entry name: THYROIDHORMR
+    type: PRINTS
+  - id: SM00430
+    properties:
+      entry name: HOLI
+      match status: '1'
+    type: SMART
+  - id: SM00399
+    properties:
+      entry name: ZnF_C4
+      match status: '1'
+    type: SMART
+  - id: SSF57716
+    properties:
+      entry name: Glucocorticoid receptor-like (DNA-binding domain)
+      match status: '1'
+    type: SUPFAM
+  - id: SSF48508
+    properties:
+      entry name: Nuclear receptor ligand-binding domain
+      match status: '1'
+    type: SUPFAM
+  - id: PS51843
+    properties:
+      entry name: NR_LBD
+      match status: '1'
+    type: PROSITE
+  - id: PS00031
+    properties:
+      entry name: NUCLEAR_REC_DBD_1
+      match status: '1'
+    type: PROSITE
+  - id: PS51030
+    properties:
+      entry name: NUCLEAR_REC_DBD_2
+      match status: '1'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Nuclear receptor subfamily 1 group I member 3
+    end: '352'
+    ftId: PRO_0000053552
+    molecule: ''
+    type: CHAIN
+  - begin: '109'
+    category: DOMAINS_AND_SITES
+    description: NR LBD
+    end: '352'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU01189
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU01189
+    molecule: ''
+    type: DOMAIN
+  - begin: '8'
+    category: DOMAINS_AND_SITES
+    description: Nuclear receptor
+    end: '83'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00407
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00407
+    molecule: ''
+    type: DNA_BIND
+  - begin: '11'
+    category: DOMAINS_AND_SITES
+    description: NR C4-type
+    end: '31'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00407
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00407
+    molecule: ''
+    type: ZN_FING
+  - begin: '47'
+    category: DOMAINS_AND_SITES
+    description: NR C4-type
+    end: '71'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00407
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00407
+    molecule: ''
+    type: ZN_FING
+  - begin: '38'
+    category: PTM
+    description: Phosphothreonine; by PKC
+    end: '38'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19858220
+        id: '19858220'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19858220
+    molecule: ''
+    type: MOD_RES
+  - begin: '1'
+    category: VARIANTS
+    end: '35'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15194709
+        id: '15194709'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15194709
+    ftId: VSP_043730
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '232'
+    category: VARIANTS
+    end: '274'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15489334
+        id: '15489334'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15489334
+    - code: ECO:0000303
+      source:
+        id: Ref.4
+        name: Citation
+        url: https://www.uniprot.org/uniprot/Q14994#ref4
+    ftId: VSP_043144
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '232'
+    category: VARIANTS
+    end: '274'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15194709
+        id: '15194709'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15194709
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15489334
+        id: '15489334'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15489334
+    - code: ECO:0000303
+      source:
+        id: Ref.4
+        name: Citation
+        url: https://www.uniprot.org/uniprot/Q14994#ref4
+    ftId: VSP_043731
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '232'
+    category: VARIANTS
+    end: '235'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15194709
+        id: '15194709'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15194709
+    ftId: VSP_055180
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '233'
+    category: VARIANTS
+    end: '236'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15194709
+        id: '15194709'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15194709
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8114692
+        id: '8114692'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8114692
+    - code: ECO:0000303
+      source:
+        id: Ref.4
+        name: Citation
+        url: https://www.uniprot.org/uniprot/Q14994#ref4
+    ftId: VSP_010634
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '274'
+    category: VARIANTS
+    end: '274'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15194709
+        id: '15194709'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15194709
+    - code: ECO:0000303
+      source:
+        id: Ref.3
+        name: Citation
+        url: https://www.uniprot.org/uniprot/Q14994#ref3
+    ftId: VSP_043732
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '311'
+    category: VARIANTS
+    end: '352'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15194709
+        id: '15194709'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15194709
+    ftId: VSP_046144
+    molecule: ''
+    type: VAR_SEQ
+  - alternativeSequence: G
+    begin: '133'
+    category: VARIANTS
+    description: ''
+    end: '133'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15618763
+        id: '15618763'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15618763
+    ftId: VAR_018344
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: S
+    begin: '247'
+    category: VARIANTS
+    description: found in a patient with Kleefstra syndrome; uncertain significance;
+      dbSNP:rs398122411
+    end: '247'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22726846
+        id: '22726846'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22726846
+    ftId: VAR_080264
+    molecule: ''
+    type: VARIANT
+  - begin: '108'
+    category: STRUCTURAL
+    end: '122'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XVP
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XVP
+    molecule: ''
+    type: HELIX
+  - begin: '125'
+    category: STRUCTURAL
+    end: '127'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XVP
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XVP
+    molecule: ''
+    type: STRAND
+  - begin: '128'
+    category: STRUCTURAL
+    end: '135'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XVP
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XVP
+    molecule: ''
+    type: HELIX
+  - begin: '139'
+    category: STRUCTURAL
+    end: '141'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XVP
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XVP
+    molecule: ''
+    type: HELIX
+  - begin: '155'
+    category: STRUCTURAL
+    end: '176'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XVP
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XVP
+    molecule: ''
+    type: HELIX
+  - begin: '180'
+    category: STRUCTURAL
+    end: '184'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XVP
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XVP
+    molecule: ''
+    type: HELIX
+  - begin: '187'
+    category: STRUCTURAL
+    end: '206'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XVP
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XVP
+    molecule: ''
+    type: HELIX
+  - begin: '207'
+    category: STRUCTURAL
+    end: '209'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XVP
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XVP
+    molecule: ''
+    type: HELIX
+  - begin: '212'
+    category: STRUCTURAL
+    end: '215'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XVP
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XVP
+    molecule: ''
+    type: TURN
+  - begin: '216'
+    category: STRUCTURAL
+    end: '218'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XVP
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XVP
+    molecule: ''
+    type: STRAND
+  - begin: '222'
+    category: STRUCTURAL
+    end: '224'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XV9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XV9
+    molecule: ''
+    type: STRAND
+  - begin: '226'
+    category: STRUCTURAL
+    end: '232'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XVP
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XVP
+    molecule: ''
+    type: HELIX
+  - begin: '240'
+    category: STRUCTURAL
+    end: '255'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XVP
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XVP
+    molecule: ''
+    type: HELIX
+  - begin: '260'
+    category: STRUCTURAL
+    end: '271'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XVP
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XVP
+    molecule: ''
+    type: HELIX
+  - begin: '274'
+    category: STRUCTURAL
+    end: '276'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XVP
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XVP
+    molecule: ''
+    type: STRAND
+  - begin: '282'
+    category: STRUCTURAL
+    end: '301'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XVP
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XVP
+    molecule: ''
+    type: HELIX
+  - begin: '312'
+    category: STRUCTURAL
+    end: '336'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XVP
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XVP
+    molecule: ''
+    type: HELIX
+  - begin: '340'
+    category: STRUCTURAL
+    end: '343'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XVP
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XVP
+    molecule: ''
+    type: HELIX
+  - begin: '345'
+    category: STRUCTURAL
+    end: '350'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XVP
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XVP
+    molecule: ''
+    type: HELIX
+  gene:
+  - name:
+      value: NR1I3
+    synonyms:
+    - value: CAR
+  id: NR1I3_HUMAN
+  info:
+    created: '1999-07-15'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 217
+  keywords:
+  - value: 3D-structure
+  - value: Activator
+  - value: Alternative splicing
+  - value: Cytoplasm
+  - value: Cytoskeleton
+  - value: DNA-binding
+  - value: Metal-binding
+  - value: Nucleus
+  - value: Phosphoprotein
+  - value: Receptor
+  - value: Reference proteome
+  - value: Transcription
+  - value: Transcription regulation
+  - value: Zinc
+  - value: Zinc-finger
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        value: Constitutive activator of retinoid response
+      shortName:
+      - value: Constitutive active response
+    - fullName:
+        value: Constitutive androstane receptor
+      shortName:
+      - value: CAR
+    - fullName:
+        value: Orphan nuclear receptor MB67
+    recommendedName:
+      fullName:
+        value: Nuclear receptor subfamily 1 group I member 3
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Baes M.
+      - Gulick T.
+      - Choi H.S.
+      - Martinoli M.G.
+      - Simha D.
+      - Moore D.D.
+      dbReferences:
+      - id: '8114692'
+        type: PubMed
+      - id: 10.1128/mcb.14.3.1544-1552.1994
+        type: DOI
+      location:
+        firstPage: '1544'
+        lastPage: '1552'
+        volume: '14'
+      publication:
+        journalName: Mol. Cell. Biol.
+      publicationDate: '1994'
+      title: A new orphan member of the nuclear hormone receptor superfamily that
+        interacts with a subset of retinoic acid response elements.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2)
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Lamba J.K.
+      - Lamba V.
+      - Yasuda K.
+      - Lin Y.S.
+      - Assem M.
+      - Thompson E.
+      - Strom S.
+      - Schuetz E.G.
+      dbReferences:
+      - id: '15194709'
+        type: PubMed
+      - id: 10.1124/jpet.104.069310
+        type: DOI
+      location:
+        firstPage: '811'
+        lastPage: '821'
+        volume: '311'
+      publication:
+        journalName: J. Pharmacol. Exp. Ther.
+      publicationDate: '2004'
+      title: Expression of constitutive androstane receptor splice variants in human
+        tissues and their functional consequences.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 4; 5; 6 AND 7)
+    - NUCLEOTIDE SEQUENCE [MRNA] OF 1-288 (ISOFORM 9)
+    - NUCLEOTIDE SEQUENCE [MRNA] OF 1-293 (ISOFORM 10)
+    - NUCLEOTIDE SEQUENCE [MRNA] OF 1-297 (ISOFORM 11)
+    - NUCLEOTIDE SEQUENCE [MRNA] OF 1-321 (ISOFORM 12)
+    - NUCLEOTIDE SEQUENCE [MRNA] OF 1-322 (ISOFORM 13)
+    - NUCLEOTIDE SEQUENCE [MRNA] OF 1-279 (ISOFORM 14)
+    - NUCLEOTIDE SEQUENCE [MRNA] OF 1-266 (ISOFORM 15)
+    - ALTERNATIVE SPLICING
+  - citation:
+      authors:
+      - Zhou G.
+      - Nong W.
+      - Li H.
+      - Ke R.
+      - Shen C.
+      - Zhong G.
+      - Zheng Z.
+      - Liang M.
+      - Huang B.
+      - Lin L.
+      - Yang S.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: APR-2005
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 8)
+  - citation:
+      authors:
+      - Kaighin V.A.
+      - Martin A.L.
+      - Aronstam R.S.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: DEC-2010
+      title: Isolation of cDNA coding for multiple human nuclear receptor clones.
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1; 2; 3 AND 7)
+    source:
+      tissue:
+      - value: Eye
+      - value: Small intestine
+  - citation:
+      authors:
+      - Gregory S.G.
+      - Barlow K.F.
+      - McLay K.E.
+      - Kaul R.
+      - Swarbreck D.
+      - Dunham A.
+      - Scott C.E.
+      - Howe K.L.
+      - Woodfine K.
+      - Spencer C.C.A.
+      - Jones M.C.
+      - Gillson C.
+      - Searle S.
+      - Zhou Y.
+      - Kokocinski F.
+      - McDonald L.
+      - Evans R.
+      - Phillips K.
+      - Atkinson A.
+      - Cooper R.
+      - Jones C.
+      - Hall R.E.
+      - Andrews T.D.
+      - Lloyd C.
+      - Ainscough R.
+      - Almeida J.P.
+      - Ambrose K.D.
+      - Anderson F.
+      - Andrew R.W.
+      - Ashwell R.I.S.
+      - Aubin K.
+      - Babbage A.K.
+      - Bagguley C.L.
+      - Bailey J.
+      - Beasley H.
+      - Bethel G.
+      - Bird C.P.
+      - Bray-Allen S.
+      - Brown J.Y.
+      - Brown A.J.
+      - Buckley D.
+      - Burton J.
+      - Bye J.
+      - Carder C.
+      - Chapman J.C.
+      - Clark S.Y.
+      - Clarke G.
+      - Clee C.
+      - Cobley V.
+      - Collier R.E.
+      - Corby N.
+      - Coville G.J.
+      - Davies J.
+      - Deadman R.
+      - Dunn M.
+      - Earthrowl M.
+      - Ellington A.G.
+      - Errington H.
+      - Frankish A.
+      - Frankland J.
+      - French L.
+      - Garner P.
+      - Garnett J.
+      - Gay L.
+      - Ghori M.R.J.
+      - Gibson R.
+      - Gilby L.M.
+      - Gillett W.
+      - Glithero R.J.
+      - Grafham D.V.
+      - Griffiths C.
+      - Griffiths-Jones S.
+      - Grocock R.
+      - Hammond S.
+      - Harrison E.S.I.
+      - Hart E.
+      - Haugen E.
+      - Heath P.D.
+      - Holmes S.
+      - Holt K.
+      - Howden P.J.
+      - Hunt A.R.
+      - Hunt S.E.
+      - Hunter G.
+      - Isherwood J.
+      - James R.
+      - Johnson C.
+      - Johnson D.
+      - Joy A.
+      - Kay M.
+      - Kershaw J.K.
+      - Kibukawa M.
+      - Kimberley A.M.
+      - King A.
+      - Knights A.J.
+      - Lad H.
+      - Laird G.
+      - Lawlor S.
+      - Leongamornlert D.A.
+      - Lloyd D.M.
+      - Loveland J.
+      - Lovell J.
+      - Lush M.J.
+      - Lyne R.
+      - Martin S.
+      - Mashreghi-Mohammadi M.
+      - Matthews L.
+      - Matthews N.S.W.
+      - McLaren S.
+      - Milne S.
+      - Mistry S.
+      - Moore M.J.F.
+      - Nickerson T.
+      - O'Dell C.N.
+      - Oliver K.
+      - Palmeiri A.
+      - Palmer S.A.
+      - Parker A.
+      - Patel D.
+      - Pearce A.V.
+      - Peck A.I.
+      - Pelan S.
+      - Phelps K.
+      - Phillimore B.J.
+      - Plumb R.
+      - Rajan J.
+      - Raymond C.
+      - Rouse G.
+      - Saenphimmachak C.
+      - Sehra H.K.
+      - Sheridan E.
+      - Shownkeen R.
+      - Sims S.
+      - Skuce C.D.
+      - Smith M.
+      - Steward C.
+      - Subramanian S.
+      - Sycamore N.
+      - Tracey A.
+      - Tromans A.
+      - Van Helmond Z.
+      - Wall M.
+      - Wallis J.M.
+      - White S.
+      - Whitehead S.L.
+      - Wilkinson J.E.
+      - Willey D.L.
+      - Williams H.
+      - Wilming L.
+      - Wray P.W.
+      - Wu Z.
+      - Coulson A.
+      - Vaudin M.
+      - Sulston J.E.
+      - Durbin R.M.
+      - Hubbard T.
+      - Wooster R.
+      - Dunham I.
+      - Carter N.P.
+      - McVean G.
+      - Ross M.T.
+      - Harrow J.
+      - Olson M.V.
+      - Beck S.
+      - Rogers J.
+      - Bentley D.R.
+      dbReferences:
+      - id: '16710414'
+        type: PubMed
+      - id: 10.1038/nature04727
+        type: DOI
+      location:
+        firstPage: '315'
+        lastPage: '321'
+        volume: '441'
+      publication:
+        journalName: Nature
+      publicationDate: '2006'
+      title: The DNA sequence and biological annotation of human chromosome 1.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      authors:
+      - Mural R.J.
+      - Istrail S.
+      - Sutton G.G.
+      - Florea L.
+      - Halpern A.L.
+      - Mobarry C.M.
+      - Lippert R.
+      - Walenz B.
+      - Shatkay H.
+      - Dew I.
+      - Miller J.R.
+      - Flanigan M.J.
+      - Edwards N.J.
+      - Bolanos R.
+      - Fasulo D.
+      - Halldorsson B.V.
+      - Hannenhalli S.
+      - Turner R.
+      - Yooseph S.
+      - Lu F.
+      - Nusskern D.R.
+      - Shue B.C.
+      - Zheng X.H.
+      - Zhong F.
+      - Delcher A.L.
+      - Huson D.H.
+      - Kravitz S.A.
+      - Mouchard L.
+      - Reinert K.
+      - Remington K.A.
+      - Clark A.G.
+      - Waterman M.S.
+      - Eichler E.E.
+      - Adams M.D.
+      - Hunkapiller M.W.
+      - Myers E.W.
+      - Venter J.C.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: SEP-2005
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      consortiums:
+      - The MGC Project Team
+      dbReferences:
+      - id: '15489334'
+        type: PubMed
+      - id: 10.1101/gr.2596504
+        type: DOI
+      location:
+        firstPage: '2121'
+        lastPage: '2127'
+        volume: '14'
+      publication:
+        journalName: Genome Res.
+      publicationDate: '2004'
+      title: 'The status, quality, and expansion of the NIH full-length cDNA project:
+        the Mammalian Gene Collection (MGC).'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1; 3 AND 7)
+  - citation:
+      authors:
+      - Choi H.S.
+      - Seol W.
+      - Moore D.D.
+      dbReferences:
+      - id: '8603043'
+        type: PubMed
+      - id: 10.1016/0960-0760(95)00220-0
+        type: DOI
+      location:
+        firstPage: '23'
+        lastPage: '30'
+        volume: '56'
+      publication:
+        journalName: J. Steroid Biochem. Mol. Biol.
+      publicationDate: '1996'
+      title: A component of the 26S proteasome binds on orphan member of the nuclear
+        hormone receptor superfamily.
+      type: journal article
+    scope:
+    - INTERACTION WITH PSMC4
+  - citation:
+      authors:
+      - Kobayashi K.
+      - Sueyoshi T.
+      - Inoue K.
+      - Moore R.
+      - Negishi M.
+      dbReferences:
+      - id: '14573755'
+        type: PubMed
+      - id: 10.1124/mol.64.5.1069
+        type: DOI
+      location:
+        firstPage: '1069'
+        lastPage: '1075'
+        volume: '64'
+      publication:
+        journalName: Mol. Pharmacol.
+      publicationDate: '2003'
+      title: Cytoplasmic accumulation of the nuclear receptor CAR by a tetratricopeptide
+        repeat protein in HepG2 cells.
+      type: journal article
+    scope:
+    - INTERACTION WITH DNAJC7
+    - SUBCELLULAR LOCATION
+  - citation:
+      authors:
+      - Mutoh S.
+      - Osabe M.
+      - Inoue K.
+      - Moore R.
+      - Pedersen L.
+      - Perera L.
+      - Rebolloso Y.
+      - Sueyoshi T.
+      - Negishi M.
+      dbReferences:
+      - id: '19858220'
+        type: PubMed
+      - id: 10.1074/jbc.m109.048108
+        type: DOI
+      location:
+        firstPage: '34785'
+        lastPage: '34792'
+        volume: '284'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2009'
+      title: Dephosphorylation of threonine 38 is required for nuclear translocation
+        and activation of human xenobiotic receptor CAR (NR1I3).
+      type: journal article
+    scope:
+    - PHOSPHORYLATION AT THR-38
+    - SUBCELLULAR LOCATION
+  - citation:
+      authors:
+      - Xu R.X.
+      - Lambert M.H.
+      - Wisely B.B.
+      - Warren E.N.
+      - Weinert E.E.
+      - Waitt G.M.
+      - Williams J.D.
+      - Collins J.L.
+      - Moore L.B.
+      - Willson T.M.
+      - Moore J.T.
+      dbReferences:
+      - id: '15610735'
+        type: PubMed
+      - id: 10.1016/j.molcel.2004.11.042
+        type: DOI
+      location:
+        firstPage: '919'
+        lastPage: '928'
+        volume: '16'
+      publication:
+        journalName: Mol. Cell
+      publicationDate: '2004'
+      title: A structural basis for constitutive activity in the human CAR/RXRalpha
+        heterodimer.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (2.6 ANGSTROMS) OF 103-352
+  - citation:
+      authors:
+      - Ikeda S.
+      - Kurose K.
+      - Ozawa S.
+      - Sai K.
+      - Hasegawa R.
+      - Komamura K.
+      - Ueno K.
+      - Kamakura S.
+      - Kitakaze M.
+      - Tomoike H.
+      - Nakajima T.
+      - Matsumoto K.
+      - Saito H.
+      - Goto Y.
+      - Kimura H.
+      - Katoh M.
+      - Sugai K.
+      - Minami N.
+      - Shirao K.
+      - Tamura T.
+      - Yamamoto N.
+      - Minami H.
+      - Ohtsu A.
+      - Yoshida T.
+      - Saijo N.
+      - Saito Y.
+      - Sawada J.
+      dbReferences:
+      - id: '15618763'
+        type: PubMed
+      - id: 10.2133/dmpk.18.413
+        type: DOI
+      location:
+        firstPage: '413'
+        lastPage: '418'
+        volume: '18'
+      publication:
+        journalName: Drug Metab. Pharmacokinet.
+      publicationDate: '2003'
+      title: Twenty-six novel single nucleotide polymorphisms and their frequencies
+        of the NR1I3 (CAR) gene in a Japanese population.
+      type: journal article
+    scope:
+    - VARIANT GLY-133
+  - citation:
+      authors:
+      - Kleefstra T.
+      - Kramer J.M.
+      - Neveling K.
+      - Willemsen M.H.
+      - Koemans T.S.
+      - Vissers L.E.
+      - Wissink-Lindhout W.
+      - Fenckova M.
+      - van den Akker W.M.
+      - Kasri N.N.
+      - Nillesen W.M.
+      - Prescott T.
+      - Clark R.D.
+      - Devriendt K.
+      - van Reeuwijk J.
+      - de Brouwer A.P.
+      - Gilissen C.
+      - Zhou H.
+      - Brunner H.G.
+      - Veltman J.A.
+      - Schenck A.
+      - van Bokhoven H.
+      dbReferences:
+      - id: '22726846'
+        type: PubMed
+      - id: 10.1016/j.ajhg.2012.05.003
+        type: DOI
+      location:
+        firstPage: '73'
+        lastPage: '82'
+        volume: '91'
+      publication:
+        journalName: Am. J. Hum. Genet.
+      publicationDate: '2012'
+      title: Disruption of an EHMT1-associated chromatin-modification module causes
+        intellectual disability.
+      type: journal article
+    scope:
+    - VARIANT SER-247
+  secondaryAccession:
+  - E9PB75
+  - E9PC13
+  - E9PDU3
+  - E9PGH6
+  - E9PH10
+  - E9PHC8
+  - E9PHN4
+  - F1D8Q0
+  - F1D8Q1
+  - Q0VAC9
+  - Q4U0F0
+  - Q5VTW5
+  - Q5VTW6
+  - Q6GZ68
+  - Q6GZ76
+  - Q6GZ77
+  - Q6GZ78
+  - Q6GZ79
+  - Q6GZ82
+  - Q6GZ83
+  - Q6GZ84
+  - Q6GZ85
+  - Q6GZ87
+  - Q6GZ89
+  sequence:
+    length: 352
+    mass: 39942
+    modified: '2004-06-21'
+    sequence: MASREDELRNCVVCGDQATGYHFNALTCEGCKGFFRRTVSKSIGPTCPFAGSCEVSKTQRRHCPACRLQKCLDAGMRKDMILSAEALALRRAKQAQRRAQQTPVQLSKEQEELIRTLLGAHTRHMGTMFEQFVQFRPPAHLFIHHQPLPTLAPVLPLVTHFADINTFMVLQVIKFTKDLPVFRSLPIEDQISLLKGAAVEICHIVLNTTFCLQTQNFLCGPLRYTIEDGARVSPTVGFQVEFLELLFHFHGTLRKLQLQEPEYVLLAAMALFSPDRPGVTQRDEIDQLQEEMALTLQSYIKGQQRRPRDRFLYAKLLGLLAELRSINEAYGYQIQHIQGLSAMMPLLQEICS
+    version: 2
+uniprot_id: Q14994

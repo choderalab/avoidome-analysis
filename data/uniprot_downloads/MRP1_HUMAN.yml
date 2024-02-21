@@ -1,0 +1,5179 @@
+data:
+  accession: P33527
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: O35379
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/O35379
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10064732
+          id: '10064732'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10064732
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11114332
+          id: '11114332'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11114332
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16230346
+          id: '16230346'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16230346
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17050692
+          id: '17050692'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17050692
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/36070769
+          id: '36070769'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/36070769
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7961706
+          id: '7961706'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7961706
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9281595
+          id: '9281595'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9281595
+      value: Mediates export of organic anions and drugs from the cytoplasm (PubMed:7961706,
+        PubMed:16230346, PubMed:9281595, PubMed:10064732, PubMed:11114332). Mediates
+        ATP-dependent transport of glutathione and glutathione conjugates, leukotriene
+        C4, estradiol-17-beta-o-glucuronide, methotrexate, antiviral drugs and other
+        xenobiotics (PubMed:7961706, PubMed:16230346, PubMed:9281595, PubMed:10064732,
+        PubMed:11114332). Confers resistance to anticancer drugs by decreasing accumulation
+        of drug in cells, and by mediating ATP- and GSH-dependent drug export (PubMed:9281595).
+        Hydrolyzes ATP with low efficiency (PubMed:16230346). Catalyzes the export
+        of sphingosine 1-phosphate from mast cells independently of their degranulation
+        (PubMed:17050692). Participates in inflammatory response by allowing export
+        of leukotriene C4 from leukotriene C4-synthezing cells (By similarity). Mediates
+        ATP-dependent, GSH-independent cyclic GMP-AMP (cGAMP) export (PubMed:36070769).
+        Thus, by limiting intracellular cGAMP concentrations negatively regulates
+        the cGAS-STING pathway (PubMed:36070769)
+    type: FUNCTION
+  - reaction:
+      ecNumber: 7.6.2.2
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9281595
+          id: '9281595'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9281595
+      name: ATP + H2O + xenobioticSide 1 = ADP + phosphate + xenobioticSide 2.
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:19121
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:30616
+        type: ChEBI
+      - id: CHEBI:43474
+        type: ChEBI
+      - id: CHEBI:90779
+        type: ChEBI
+      - id: CHEBI:456216
+        type: ChEBI
+      ecNumber: 7.6.2.3
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: O35379
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/O35379
+      name: an S-substituted glutathione(in) + ATP + H2O = ADP + an S-substituted
+        glutathione(out) + H(+) + phosphate
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:38952
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17050692
+          id: '17050692'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17050692
+    reaction:
+      dbReferences:
+      - id: RHEA:38951
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:30616
+        type: ChEBI
+      - id: CHEBI:43474
+        type: ChEBI
+      - id: CHEBI:60119
+        type: ChEBI
+      - id: CHEBI:456216
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17050692
+          id: '17050692'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17050692
+      name: ATP + H2O + sphing-4-enine 1-phosphate(in) = ADP + H(+) + phosphate +
+        sphing-4-enine 1-phosphate(out)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:38964
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7961706
+          id: '7961706'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7961706
+    reaction:
+      dbReferences:
+      - id: RHEA:38963
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:30616
+        type: ChEBI
+      - id: CHEBI:43474
+        type: ChEBI
+      - id: CHEBI:57973
+        type: ChEBI
+      - id: CHEBI:456216
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7961706
+          id: '7961706'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7961706
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9281595
+          id: '9281595'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9281595
+      name: ATP + H2O + leukotriene C4(in) = ADP + H(+) + leukotriene C4(out) + phosphate
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:60129
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9281595
+          id: '9281595'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9281595
+    reaction:
+      dbReferences:
+      - id: RHEA:60128
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:30616
+        type: ChEBI
+      - id: CHEBI:43474
+        type: ChEBI
+      - id: CHEBI:82961
+        type: ChEBI
+      - id: CHEBI:456216
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9281595
+          id: '9281595'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9281595
+      name: 17beta-estradiol 17-O-(beta-D-glucuronate)(in) + ATP + H2O = 17beta-estradiol
+        17-O-(beta-D-glucuronate)(out) + ADP + H(+) + phosphate
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:33148
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9281595
+          id: '9281595'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9281595
+    reaction:
+      dbReferences:
+      - id: RHEA:33147
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:30616
+        type: ChEBI
+      - id: CHEBI:43474
+        type: ChEBI
+      - id: CHEBI:64677
+        type: ChEBI
+      - id: CHEBI:456216
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9281595
+          id: '9281595'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9281595
+      name: ATP + daunorubicin(in) + H2O = ADP + daunorubicin(out) + H(+) + phosphate
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:60161
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9281595
+          id: '9281595'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9281595
+    reaction:
+      dbReferences:
+      - id: RHEA:60160
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:30616
+        type: ChEBI
+      - id: CHEBI:43474
+        type: ChEBI
+      - id: CHEBI:143658
+        type: ChEBI
+      - id: CHEBI:456216
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9281595
+          id: '9281595'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9281595
+      name: ATP + H2O + vincristine(in) = ADP + H(+) + phosphate + vincristine(out)
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:74887
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:30616
+        type: ChEBI
+      - id: CHEBI:43474
+        type: ChEBI
+      - id: CHEBI:143093
+        type: ChEBI
+      - id: CHEBI:456216
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10064732
+          id: '10064732'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10064732
+      name: 2',3'-cGAMP(in) + ATP + H2O = 2',3'-cGAMP(out) + ADP + H(+) + phosphate
+    type: CATALYTIC_ACTIVITY
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17050692
+          id: '17050692'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17050692
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7961706
+          id: '7961706'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7961706
+      value: MK 571 inhibits sphingosine 1-phosphate and leukotriene C4 export
+    type: ACTIVITY_REGULATION
+  - kinetics:
+      km:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/7961706
+            id: '7961706'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/7961706
+        value: 97 nM for leukotriene C4
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/7961706
+            id: '7961706'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/7961706
+        value: 19 uM for ATP
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/9281595
+            id: '9281595'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/9281595
+        value: 98 nM for leukotriene C4
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/9281595
+            id: '9281595'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/9281595
+        value: 4.8 uM for 17beta-estradiol 17-glucosiduronic acid
+      vmax:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/7961706
+            id: '7961706'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/7961706
+        value: 100.0 pmol/min/mg enzyme for leukotriene C4 transport
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/9281595
+            id: '9281595'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/9281595
+        value: 920.0 pmol/min/mg enzyme for leukotriene C4 transport
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/9281595
+            id: '9281595'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/9281595
+        value: 1.4 nmol/min/mg enzyme for 17beta-estradiol 17-glucosiduronic acid
+          transport
+    type: BIOPHYSICOCHEMICAL_PROPERTIES
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/23580527
+          id: '23580527'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/23580527
+      value: (Microbial infection) Interacts with human cytomegalovirus protein UL138;
+        this interaction mediates MRP1 degradation via the lysosome
+    type: SUBUNIT
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16230346
+            id: '16230346'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16230346
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/31273342
+            id: '31273342'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/31273342
+        value: Cell membrane
+      topology:
+        evidences:
+        - code: ECO:0000255
+          source:
+            id: PRU00441
+            name: PROSITE-ProRule
+            url: https://prosite.expasy.org/unirule/PRU00441
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16230346
+            id: '16230346'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16230346
+        value: Multi-pass membrane protein
+    type: SUBCELLULAR_LOCATION
+  - comment:
+    - value: Additional isoforms seem to exist. Experimental confirmation may be lacking
+        for some isoforms.
+    event:
+    - Alternative splicing
+    isoforms:
+    - ids:
+      - P33527-1
+      name:
+        value: '1'
+      sequenceStatus: displayed
+      synonyms:
+      - value: Allexons
+    - ids:
+      - P33527-2
+      name:
+        value: '2'
+      sequence:
+      - VSP_000037
+      sequenceStatus: described
+      synonyms:
+      - value: Delexon-17
+    - ids:
+      - P33527-3
+      name:
+        value: '3'
+      sequence:
+      - VSP_000038
+      sequenceStatus: described
+      synonyms:
+      - value: Delexon-18
+    - ids:
+      - P33527-4
+      name:
+        value: '4'
+      sequence:
+      - VSP_000039
+      sequenceStatus: described
+      synonyms:
+      - value: Delexon-30
+    - ids:
+      - P33527-5
+      name:
+        value: '5'
+      sequence:
+      - VSP_000037
+      - VSP_000038
+      sequenceStatus: described
+      synonyms:
+      - value: Delexon-17-18
+    - ids:
+      - P33527-6
+      name:
+        value: '6'
+      sequence:
+      - VSP_000037
+      - VSP_000039
+      sequenceStatus: described
+      synonyms:
+      - value: Delexon-17-30
+    - ids:
+      - P33527-7
+      name:
+        value: '7'
+      sequence:
+      - VSP_000038
+      - VSP_000039
+      sequenceStatus: described
+      synonyms:
+      - value: Delexon-18-30
+    - ids:
+      - P33527-8
+      name:
+        value: '8'
+      sequence:
+      - VSP_000037
+      - VSP_000038
+      - VSP_000039
+      sequenceStatus: described
+      synonyms:
+      - value: Delexon-17-18-30
+    - ids:
+      - P33527-9
+      name:
+        value: '9'
+      sequence:
+      - VSP_017014
+      sequenceStatus: described
+    type: ALTERNATIVE_PRODUCTS
+  - text:
+    - value: Lung, testis and peripheral blood mononuclear cells
+    type: TISSUE_SPECIFICITY
+  - acronym: DFNA77
+    dbReference:
+      id: '618915'
+      type: MIM
+    description:
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/31273342
+          id: '31273342'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/31273342
+      value: A form of non-syndromic deafness characterized by adult onset of bilateral,
+        postlingual, mild-to-severe sensorineural hearing loss. Sensorineural hearing
+        loss results from damage to the neural receptors of the inner ear, the nerve
+        pathways to the brain, or the area of the brain that receives sound information.
+    diseaseId: Deafness, autosomal dominant, 77
+    text:
+    - value: The gene represented in this entry is involved in disease pathogenesis
+    type: DISEASE
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the ABC transporter superfamily. ABCC family. Conjugate transporter
+        (TC 3.A.1.208) subfamily
+    type: SIMILARITY
+  - name: Atlas of Genetics and Cytogenetics in Oncology and Haematology
+    type: WEBRESOURCE
+    url: https://atlasgeneticsoncology.org/gene/106/abcc1
+  - name: NIEHS-SNPs
+    type: WEBRESOURCE
+    url: http://egp.gs.washington.edu/data/abcc1/
+  - name: ABCMdb
+    text: Database for mutations in ABC proteins
+    type: WEBRESOURCE
+    url: http://abcm2.hegelab.org/search
+  dbReferences:
+  - id: L05628
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAB46616.1
+    type: EMBL
+  - id: AF022853
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+    type: EMBL
+  - id: AF022827
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022828
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022829
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022831
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022833
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022835
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022837
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022839
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022841
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022850
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022849
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022848
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022847
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022846
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022845
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022844
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022843
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022842
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022852
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022851
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022840
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022838
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022836
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022834
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022832
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022826
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022825
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022824
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022830
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83979.1
+      status: JOINED
+    type: EMBL
+  - id: AF022853
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+    type: EMBL
+  - id: AF022824
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022825
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022826
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022828
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022830
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022832
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022834
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022836
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022838
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022848
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022847
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022846
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022845
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022844
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022843
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022842
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022841
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022839
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022852
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022851
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022850
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022849
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022837
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022835
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022833
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022831
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022829
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022827
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83980.1
+      status: JOINED
+    type: EMBL
+  - id: AF022853
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+    type: EMBL
+  - id: AF022824
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022825
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022826
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022827
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022829
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022831
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022833
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022835
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022837
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022847
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022846
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022845
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022844
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022843
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022842
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022841
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022840
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022838
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022852
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022851
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022850
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022849
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022848
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022836
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022834
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022832
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022830
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022828
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83981.1
+      status: JOINED
+    type: EMBL
+  - id: AF022853
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+    type: EMBL
+  - id: AF022824
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022825
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022826
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022827
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022828
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022829
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022830
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022831
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022832
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022833
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022834
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022835
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022836
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022837
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022838
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022839
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022840
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022841
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022842
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022843
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022844
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022845
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022846
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022847
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022848
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022849
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022850
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: AF022851
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB83983.1
+      status: JOINED
+    type: EMBL
+  - id: EF419769
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: ABN79590.1
+    type: EMBL
+  - id: AC025778
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: AC130651
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: AC136624
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: AB209120
+    properties:
+      molecule type: mRNA
+      protein sequence ID: BAD92357.1
+    type: EMBL
+  - id: U91318
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAC15784.1
+    type: EMBL
+  - id: AC003026
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAC05808.1
+    type: EMBL
+  - id: CCDS42122.1
+    isoform: P33527-1
+    type: CCDS
+  - id: CCDS45427.1
+    isoform: P33527-2
+    type: CCDS
+  - id: A44231
+    properties:
+      entry name: DVHUAR
+    type: PIR
+  - id: NP_004987.2
+    isoform: P33527-1
+    properties:
+      nucleotide sequence ID: NM_004996.3
+    type: RefSeq
+  - id: 2CBZ
+    properties:
+      chains: A=642-871
+      method: X-ray
+      resolution: 1.50 A
+    type: PDB
+  - id: 4C3Z
+    properties:
+      chains: A=628-881
+      method: X-ray
+      resolution: 2.10 A
+    type: PDB
+  - id: 2CBZ
+    type: PDBsum
+  - id: 4C3Z
+    type: PDBsum
+  - id: P33527
+    type: AlphaFoldDB
+  - id: P33527
+    type: SMR
+  - id: '110503'
+    properties:
+      interactions: '162'
+    type: BioGRID
+  - id: P33527
+    properties:
+      interactions: '26'
+    type: IntAct
+  - id: P33527
+    type: MINT
+  - id: 9606.ENSP00000382342
+    type: STRING
+  - id: P33527
+    type: BindingDB
+  - id: CHEMBL3004
+    type: ChEMBL
+  - id: DB05812
+    properties:
+      generic name: Abiraterone
+    type: DrugBank
+  - id: DB13783
+    properties:
+      generic name: Acemetacin
+    type: DrugBank
+  - id: DB00345
+    properties:
+      generic name: Aminohippuric acid
+    type: DrugBank
+  - id: DB00701
+    properties:
+      generic name: Amprenavir
+    type: DrugBank
+  - id: DB01072
+    properties:
+      generic name: Atazanavir
+    type: DrugBank
+  - id: DB01076
+    properties:
+      generic name: Atorvastatin
+    type: DrugBank
+  - id: DB00171
+    properties:
+      generic name: ATP
+    type: DrugBank
+  - id: DB15719
+    properties:
+      generic name: Belantamab mafodotin
+    type: DrugBank
+  - id: DB04851
+    properties:
+      generic name: Biricodar
+    type: DrugBank
+  - id: DB09061
+    properties:
+      generic name: Cannabidiol
+    type: DrugBank
+  - id: DB14737
+    properties:
+      generic name: Cannabinol
+    type: DrugBank
+  - id: DB02659
+    properties:
+      generic name: Cholic Acid
+    type: DrugBank
+  - id: DB00845
+    properties:
+      generic name: Clofazimine
+    type: DrugBank
+  - id: DB00286
+    properties:
+      generic name: Conjugated estrogens
+    type: DrugBank
+  - id: DB00115
+    properties:
+      generic name: Cyanocobalamin
+    type: DrugBank
+  - id: DB00970
+    properties:
+      generic name: Dactinomycin
+    type: DrugBank
+  - id: DB00694
+    properties:
+      generic name: Daunorubicin
+    type: DrugBank
+  - id: DB09213
+    properties:
+      generic name: Dexibuprofen
+    type: DrugBank
+  - id: DB00586
+    properties:
+      generic name: Diclofenac
+    type: DrugBank
+  - id: DB01248
+    properties:
+      generic name: Docetaxel
+    type: DrugBank
+  - id: DB00997
+    properties:
+      generic name: Doxorubicin
+    type: DrugBank
+  - id: DB00470
+    properties:
+      generic name: Dronabinol
+    type: DrugBank
+  - id: DB00445
+    properties:
+      generic name: Epirubicin
+    type: DrugBank
+  - id: DB00773
+    properties:
+      generic name: Etoposide
+    type: DrugBank
+  - id: DB08868
+    properties:
+      generic name: Fingolimod
+    type: DrugBank
+  - id: DB00693
+    properties:
+      generic name: Fluorescein
+    type: DrugBank
+  - id: DB00499
+    properties:
+      generic name: Flutamide
+    type: DrugBank
+  - id: DB01645
+    properties:
+      generic name: Genistein
+    type: DrugBank
+  - id: DB00143
+    properties:
+      generic name: Glutathione
+    type: DrugBank
+  - id: DB01016
+    properties:
+      generic name: Glyburide
+    type: DrugBank
+  - id: DB00365
+    properties:
+      generic name: Grepafloxacin
+    type: DrugBank
+  - id: DB01050
+    properties:
+      generic name: Ibuprofen
+    type: DrugBank
+  - id: DB01177
+    properties:
+      generic name: Idarubicin
+    type: DrugBank
+  - id: DB00619
+    properties:
+      generic name: Imatinib
+    type: DrugBank
+  - id: DB00224
+    properties:
+      generic name: Indinavir
+    type: DrugBank
+  - id: DB00328
+    properties:
+      generic name: Indomethacin
+    type: DrugBank
+  - id: DB00762
+    properties:
+      generic name: Irinotecan
+    type: DrugBank
+  - id: DB00602
+    properties:
+      generic name: Ivermectin
+    type: DrugBank
+  - id: DB00709
+    properties:
+      generic name: Lamivudine
+    type: DrugBank
+  - id: DB08855
+    properties:
+      generic name: Leukotriene C4
+    type: DrugBank
+  - id: DB14009
+    properties:
+      generic name: Medical Cannabis
+    type: DrugBank
+  - id: DB00563
+    properties:
+      generic name: Methotrexate
+    type: DrugBank
+  - id: DB00834
+    properties:
+      generic name: Mifepristone
+    type: DrugBank
+  - id: DB01204
+    properties:
+      generic name: Mitoxantrone
+    type: DrugBank
+  - id: DB02375
+    properties:
+      generic name: Myricetin
+    type: DrugBank
+  - id: DB14011
+    properties:
+      generic name: Nabiximols
+    type: DrugBank
+  - id: DB03467
+    properties:
+      generic name: Naringenin
+    type: DrugBank
+  - id: DB01165
+    properties:
+      generic name: Ofloxacin
+    type: DrugBank
+  - id: DB01229
+    properties:
+      generic name: Paclitaxel
+    type: DrugBank
+  - id: DB01174
+    properties:
+      generic name: Phenobarbital
+    type: DrugBank
+  - id: DB01708
+    properties:
+      generic name: Prasterone
+    type: DrugBank
+  - id: DB01032
+    properties:
+      generic name: Probenecid
+    type: DrugBank
+  - id: DB00396
+    properties:
+      generic name: Progesterone
+    type: DrugBank
+  - id: DB04216
+    properties:
+      generic name: Quercetin
+    type: DrugBank
+  - id: DB03825
+    properties:
+      generic name: Rhodamine 6G
+    type: DrugBank
+  - id: DB01045
+    properties:
+      generic name: Rifampicin
+    type: DrugBank
+  - id: DB00503
+    properties:
+      generic name: Ritonavir
+    type: DrugBank
+  - id: DB06176
+    properties:
+      generic name: Romidepsin
+    type: DrugBank
+  - id: DB01232
+    properties:
+      generic name: Saquinavir
+    type: DrugBank
+  - id: DB06335
+    properties:
+      generic name: Saxagliptin
+    type: DrugBank
+  - id: DB01138
+    properties:
+      generic name: Sulfinpyrazone
+    type: DrugBank
+  - id: DB04348
+    properties:
+      generic name: Taurocholic acid
+    type: DrugBank
+  - id: DB09161
+    properties:
+      generic name: Technetium Tc-99m sestamibi
+    type: DrugBank
+  - id: DB14962
+    properties:
+      generic name: Trastuzumab deruxtecan
+    type: DrugBank
+  - id: DB05294
+    properties:
+      generic name: Vandetanib
+    type: DrugBank
+  - id: DB08881
+    properties:
+      generic name: Vemurafenib
+    type: DrugBank
+  - id: DB00661
+    properties:
+      generic name: Verapamil
+    type: DrugBank
+  - id: DB00570
+    properties:
+      generic name: Vinblastine
+    type: DrugBank
+  - id: DB00541
+    properties:
+      generic name: Vincristine
+    type: DrugBank
+  - id: DB00399
+    properties:
+      generic name: Zoledronic acid
+    type: DrugBank
+  - id: P33527
+    type: DrugCentral
+  - id: '779'
+    type: GuidetoPHARMACOLOGY
+  - id: SLP:000000404
+    type: SwissLipids
+  - id: 3.A.1.208.8
+    properties:
+      family name: the atp-binding cassette (abc) superfamily
+    type: TCDB
+  - id: P33527
+    properties:
+      glycosylation: 3 sites, No reported glycans
+    type: GlyCosmos
+  - id: P33527
+    properties:
+      glycosylation: 4 sites, 1 O-linked glycan (1 site)
+    type: GlyGen
+  - id: P33527
+    type: iPTMnet
+  - id: P33527
+    type: MetOSite
+  - id: P33527
+    type: PhosphoSitePlus
+  - id: P33527
+    type: SwissPalm
+  - id: ABCC1
+    type: BioMuta
+  - id: '296439301'
+    type: DMDM
+  - id: P33527
+    type: EPD
+  - id: P33527
+    type: jPOST
+  - id: P33527
+    type: MassIVE
+  - id: P33527
+    type: MaxQB
+  - id: 9606-ENSP00000382342
+    type: PaxDb
+  - id: P33527
+    type: PeptideAtlas
+  - id: '54912'
+    isoform: P33527-1
+    type: ProteomicsDB
+  - id: '54913'
+    isoform: P33527-2
+    type: ProteomicsDB
+  - id: '54914'
+    isoform: P33527-3
+    type: ProteomicsDB
+  - id: '54915'
+    isoform: P33527-4
+    type: ProteomicsDB
+  - id: '54916'
+    isoform: P33527-5
+    type: ProteomicsDB
+  - id: '54917'
+    isoform: P33527-6
+    type: ProteomicsDB
+  - id: '54918'
+    isoform: P33527-7
+    type: ProteomicsDB
+  - id: '54919'
+    isoform: P33527-8
+    type: ProteomicsDB
+  - id: '54920'
+    isoform: P33527-9
+    type: ProteomicsDB
+  - id: P33527
+    type: Pumba
+  - id: P33527
+    properties:
+      antibodies: 1 sequenced antibody
+    type: ABCD
+  - id: '4235'
+    properties:
+      antibodies: 666 antibodies from 50 providers
+    type: Antibodypedia
+  - id: '4363'
+    type: DNASU
+  - id: ENST00000399408.7
+    isoform: P33527-9
+    properties:
+      gene ID: ENSG00000103222.20
+      protein sequence ID: ENSP00000382340.4
+    type: Ensembl
+  - id: ENST00000399410.8
+    isoform: P33527-1
+    properties:
+      gene ID: ENSG00000103222.20
+      protein sequence ID: ENSP00000382342.3
+    type: Ensembl
+  - id: ENST00000572882.3
+    isoform: P33527-2
+    properties:
+      gene ID: ENSG00000103222.20
+      protein sequence ID: ENSP00000461615.2
+    type: Ensembl
+  - id: ENST00000621144.4
+    isoform: P33527-1
+    properties:
+      gene ID: ENSG00000278183.4
+      protein sequence ID: ENSP00000483316.1
+    type: Ensembl
+  - id: '4363'
+    type: GeneID
+  - id: hsa:4363
+    type: KEGG
+  - id: ENST00000399410.8
+    properties:
+      RefSeq nucleotide sequence ID: NM_004996.4
+      RefSeq protein sequence ID: NP_004987.2
+      protein sequence ID: ENSP00000382342.3
+    type: MANE-Select
+  - id: uc010bvi.4
+    isoform: P33527-1
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:51
+    type: AGR
+  - id: '4363'
+    type: CTD
+  - id: '4363'
+    type: DisGeNET
+  - id: ABCC1
+    type: GeneCards
+  - id: HGNC:51
+    properties:
+      gene designation: ABCC1
+    type: HGNC
+  - id: ENSG00000103222
+    properties:
+      expression patterns: Low tissue specificity
+    type: HPA
+  - id: ABCC1
+    type: MalaCards
+  - id: '158343'
+    properties:
+      type: gene
+    type: MIM
+  - id: '618915'
+    properties:
+      type: phenotype
+    type: MIM
+  - id: NX_P33527
+    type: neXtProt
+  - id: ENSG00000103222
+    type: OpenTargets
+  - id: '90635'
+    properties:
+      disease: Rare autosomal dominant non-syndromic sensorineural deafness type DFNA
+    type: Orphanet
+  - id: PA244
+    type: PharmGKB
+  - id: HostDB:ENSG00000103222
+    type: VEuPathDB
+  - id: KOG0054
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000160271
+    type: GeneTree
+  - id: P33527
+    type: InParanoid
+  - id: IRYDFTP
+    type: OMA
+  - id: 3384185at2759
+    type: OrthoDB
+  - id: P33527
+    type: PhylomeDB
+  - id: TF105199
+    type: TreeFam
+  - id: MetaCyc:ENSG00000103222-MONOMER
+    type: BioCyc
+  - id: 7.6.2.2
+    properties:
+      organism ID: '2681'
+    type: BRENDA
+  - id: 7.6.2.3
+    properties:
+      organism ID: '2681'
+    type: BRENDA
+  - id: P33527
+    type: PathwayCommons
+  - id: R-HSA-189483
+    properties:
+      pathway name: Heme degradation
+    type: Reactome
+  - id: R-HSA-2142691
+    properties:
+      pathway name: Synthesis of Leukotrienes (LT) and Eoxins (EX)
+    type: Reactome
+  - id: R-HSA-382556
+    properties:
+      pathway name: ABC-family proteins mediated transport
+    type: Reactome
+  - id: R-HSA-9707564
+    properties:
+      pathway name: Cytoprotection by HMOX1
+    type: Reactome
+  - id: R-HSA-9753281
+    properties:
+      pathway name: Paracetamol ADME
+    type: Reactome
+  - id: R-HSA-9758890
+    properties:
+      pathway name: Transport of RCbl within the body
+    type: Reactome
+  - id: R-HSA-9818032
+    properties:
+      pathway name: NFE2L2 regulating MDR associated enzymes
+    type: Reactome
+  - id: P33527
+    type: SignaLink
+  - id: P33527
+    type: SIGNOR
+  - id: '4363'
+    properties:
+      hits: 16 hits in 1168 CRISPR screens
+    type: BioGRID-ORCS
+  - id: ABCC1
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: P33527
+    type: EvolutionaryTrace
+  - id: ABCC1
+    type: GeneWiki
+  - id: '4363'
+    type: GenomeRNAi
+  - id: P33527
+    properties:
+      development level: Tchem
+    type: Pharos
+  - id: PR:P33527
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 16
+    type: Proteomes
+  - id: P33527
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000103222
+    properties:
+      expression patterns: Expressed in lower esophagus mucosa and 97 other cell types
+        or tissues
+    type: Bgee
+  - id: P33527
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: P33527
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/31791063
+        id: '31791063'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/31791063
+    id: GO:0016324
+    properties:
+      source: IDA:ARUK-UCL
+      term: C:apical plasma membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18619525
+        id: '18619525'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18619525
+    id: GO:0009925
+    properties:
+      source: IDA:ARUK-UCL
+      term: C:basal plasma membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24130369
+        id: '24130369'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24130369
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/31791063
+        id: '31791063'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/31791063
+    id: GO:0016323
+    properties:
+      source: IDA:CACAO
+      term: C:basolateral plasma membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20458337
+        id: '20458337'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20458337
+    id: GO:0070062
+    properties:
+      source: HDA:UniProtKB
+      term: C:extracellular exosome
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/31791063
+        id: '31791063'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/31791063
+    id: GO:0016328
+    properties:
+      source: IDA:ARUK-UCL
+      term: C:lateral plasma membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19946888
+        id: '19946888'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19946888
+    id: GO:0016020
+    properties:
+      source: HDA:UniProtKB
+      term: C:membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17050692
+        id: '17050692'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17050692
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23137377
+        id: '23137377'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23137377
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/28112518
+        id: '28112518'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/28112518
+    id: GO:0005886
+    properties:
+      source: IDA:BHF-UCL
+      term: C:plasma membrane
+    type: GO
+  - id: GO:0015431
+    properties:
+      source: ISS:UniProtKB
+      term: F:ABC-type glutathione S-conjugate transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/7961706
+        id: '7961706'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/7961706
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9281595
+        id: '9281595'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9281595
+    id: GO:0140359
+    properties:
+      source: IDA:UniProtKB
+      term: F:ABC-type transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21511966
+        id: '21511966'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21511966
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22547309
+        id: '22547309'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22547309
+    id: GO:0015420
+    properties:
+      source: EXP:Reactome
+      term: F:ABC-type vitamin B12 transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0008559
+    properties:
+      source: IBA:GO_Central
+      term: F:ABC-type xenobiotic transporter activity
+    type: GO
+  - id: GO:0005524
+    properties:
+      source: IEA:UniProtKB-KW
+      term: F:ATP binding
+    type: GO
+  - id: GO:0016887
+    properties:
+      source: IEA:InterPro
+      term: F:ATP hydrolysis activity
+    type: GO
+  - id: GO:0043225
+    properties:
+      source: TAS:Reactome
+      term: F:ATPase-coupled inorganic anion transmembrane transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17050692
+        id: '17050692'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17050692
+    id: GO:0034040
+    properties:
+      source: IMP:BHF-UCL
+      term: F:ATPase-coupled lipid transmembrane transporter activity
+    type: GO
+  - id: GO:0042626
+    properties:
+      source: TAS:Reactome
+      term: F:ATPase-coupled transmembrane transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25986174
+        id: '25986174'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25986174
+    id: GO:0046943
+    properties:
+      source: IMP:ARUK-UCL
+      term: F:carboxylic acid transmembrane transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25986174
+        id: '25986174'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25986174
+    id: GO:0015562
+    properties:
+      source: IMP:ARUK-UCL
+      term: F:efflux transmembrane transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26200696
+        id: '26200696'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26200696
+    id: GO:0034634
+    properties:
+      source: ISS:ARUK-UCL
+      term: F:glutathione transmembrane transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/7961706
+        id: '7961706'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/7961706
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9281595
+        id: '9281595'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9281595
+    id: GO:0042910
+    properties:
+      source: IDA:UniProtKB
+      term: F:xenobiotic transmembrane transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25986174
+        id: '25986174'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25986174
+    id: GO:1905039
+    properties:
+      source: IMP:ARUK-UCL
+      term: P:carboxylic acid transmembrane transport
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17050692
+        id: '17050692'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17050692
+    id: GO:0060326
+    properties:
+      source: ISS:BHF-UCL
+      term: P:cell chemotaxis
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26200696
+        id: '26200696'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26200696
+    id: GO:1904646
+    properties:
+      source: ISS:ARUK-UCL
+      term: P:cellular response to amyloid-beta
+    type: GO
+  - id: GO:0034599
+    properties:
+      source: TAS:Reactome
+      term: P:cellular response to oxidative stress
+    type: GO
+  - id: GO:0015889
+    properties:
+      source: TAS:Reactome
+      term: P:cobalamin transport
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/36070769
+        id: '36070769'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/36070769
+    id: GO:0070729
+    properties:
+      source: IMP:UniProtKB
+      term: P:cyclic nucleotide transport
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25986174
+        id: '25986174'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25986174
+    id: GO:0140115
+    properties:
+      source: IMP:ARUK-UCL
+      term: P:export across plasma membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0034775
+    properties:
+      source: IBA:GO_Central
+      term: P:glutathione transmembrane transport
+    type: GO
+  - id: GO:0042167
+    properties:
+      source: TAS:Reactome
+      term: P:heme catabolic process
+    type: GO
+  - id: GO:0006691
+    properties:
+      source: TAS:Reactome
+      term: P:leukotriene metabolic process
+    type: GO
+  - id: GO:0071716
+    properties:
+      source: ISS:UniProtKB
+      term: P:leukotriene transport
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17050692
+        id: '17050692'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17050692
+    id: GO:0045332
+    properties:
+      source: IMP:BHF-UCL
+      term: P:phospholipid translocation
+    type: GO
+  - id: GO:0050729
+    properties:
+      source: ISS:UniProtKB
+      term: P:positive regulation of inflammatory response
+    type: GO
+  - id: GO:0009410
+    properties:
+      source: ISS:UniProtKB
+      term: P:response to xenobiotic stimulus
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17050692
+        id: '17050692'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17050692
+    id: GO:0099039
+    properties:
+      source: IMP:BHF-UCL
+      term: P:sphingolipid translocation
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25986174
+        id: '25986174'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25986174
+    id: GO:0070633
+    properties:
+      source: IMP:ARUK-UCL
+      term: P:transepithelial transport
+    type: GO
+  - id: GO:0055085
+    properties:
+      source: TAS:Reactome
+      term: P:transmembrane transport
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26590417
+        id: '26590417'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26590417
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/30280653
+        id: '30280653'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/30280653
+    id: GO:0150104
+    properties:
+      source: NAS:ARUK-UCL
+      term: P:transport across blood-brain barrier
+    type: GO
+  - id: GO:0006805
+    properties:
+      source: TAS:Reactome
+      term: P:xenobiotic metabolic process
+    type: GO
+  - id: GO:0042908
+    properties:
+      source: ISS:ARUK-UCL
+      term: P:xenobiotic transport
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25986174
+        id: '25986174'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25986174
+    id: GO:1990962
+    properties:
+      source: IMP:ARUK-UCL
+      term: P:xenobiotic transport across blood-brain barrier
+    type: GO
+  - id: cd18595
+    properties:
+      entry name: ABC_6TM_MRP1_2_3_6_D1_like
+      match status: '1'
+    type: CDD
+  - id: cd18603
+    properties:
+      entry name: ABC_6TM_MRP1_2_3_6_D2_like
+      match status: '1'
+    type: CDD
+  - id: cd03250
+    properties:
+      entry name: ABCC_MRP_domain1
+      match status: '1'
+    type: CDD
+  - id: cd03244
+    properties:
+      entry name: ABCC_MRP_domain2
+      match status: '1'
+    type: CDD
+  - id: 1.20.1560.10
+    properties:
+      entry name: ABC transporter type 1, transmembrane domain
+      match status: '2'
+    type: Gene3D
+  - id: 3.40.50.300
+    properties:
+      entry name: P-loop containing nucleotide triphosphate hydrolases
+      match status: '2'
+    type: Gene3D
+  - id: IPR003593
+    properties:
+      entry name: AAA+_ATPase
+    type: InterPro
+  - id: IPR011527
+    properties:
+      entry name: ABC1_TM_dom
+    type: InterPro
+  - id: IPR036640
+    properties:
+      entry name: ABC1_TM_sf
+    type: InterPro
+  - id: IPR003439
+    properties:
+      entry name: ABC_transporter-like_ATP-bd
+    type: InterPro
+  - id: IPR017871
+    properties:
+      entry name: ABC_transporter-like_CS
+    type: InterPro
+  - id: IPR005292
+    properties:
+      entry name: MRP
+    type: InterPro
+  - id: IPR027417
+    properties:
+      entry name: P-loop_NTPase
+    type: InterPro
+  - id: TIGR00957
+    properties:
+      entry name: MRP_assoc_pro
+      match status: '1'
+    type: NCBIfam
+  - id: PTHR24223
+    properties:
+      entry name: ATP-BINDING CASSETTE SUB-FAMILY C
+      match status: '1'
+    type: PANTHER
+  - id: PTHR24223:SF241
+    properties:
+      entry name: MULTIDRUG RESISTANCE-ASSOCIATED PROTEIN 1
+      match status: '1'
+    type: PANTHER
+  - id: PF00664
+    properties:
+      entry name: ABC_membrane
+      match status: '2'
+    type: Pfam
+  - id: PF00005
+    properties:
+      entry name: ABC_tran
+      match status: '2'
+    type: Pfam
+  - id: SM00382
+    properties:
+      entry name: AAA
+      match status: '2'
+    type: SMART
+  - id: SSF90123
+    properties:
+      entry name: ABC transporter transmembrane region
+      match status: '2'
+    type: SUPFAM
+  - id: SSF52540
+    properties:
+      entry name: P-loop containing nucleoside triphosphate hydrolases
+      match status: '2'
+    type: SUPFAM
+  - id: PS50929
+    properties:
+      entry name: ABC_TM1F
+      match status: '2'
+    type: PROSITE
+  - id: PS00211
+    properties:
+      entry name: ABC_TRANSPORTER_1
+      match status: '2'
+    type: PROSITE
+  - id: PS50893
+    properties:
+      entry name: ABC_TRANSPORTER_2
+      match status: '2'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Multidrug resistance-associated protein 1
+    end: '1531'
+    ftId: PRO_0000093351
+    molecule: ''
+    type: CHAIN
+  - begin: '1'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '33'
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '34'
+    category: TOPOLOGY
+    description: Helical; Name=1
+    end: '54'
+    molecule: ''
+    type: TRANSMEM
+  - begin: '55'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '74'
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '75'
+    category: TOPOLOGY
+    description: Helical; Name=2
+    end: '95'
+    molecule: ''
+    type: TRANSMEM
+  - begin: '96'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '100'
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '101'
+    category: TOPOLOGY
+    description: Helical; Name=3
+    end: '121'
+    molecule: ''
+    type: TRANSMEM
+  - begin: '122'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '133'
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '134'
+    category: TOPOLOGY
+    description: Helical; Name=4
+    end: '154'
+    molecule: ''
+    type: TRANSMEM
+  - begin: '155'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '172'
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '173'
+    category: TOPOLOGY
+    description: Helical; Name=5
+    end: '193'
+    molecule: ''
+    type: TRANSMEM
+  - begin: '194'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '316'
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '317'
+    category: TOPOLOGY
+    description: Helical; Name=6
+    end: '337'
+    molecule: ''
+    type: TRANSMEM
+  - begin: '338'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '363'
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '364'
+    category: TOPOLOGY
+    description: Helical; Name=7
+    end: '384'
+    molecule: ''
+    type: TRANSMEM
+  - begin: '385'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '440'
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '441'
+    category: TOPOLOGY
+    description: Helical; Name=8
+    end: '461'
+    molecule: ''
+    type: TRANSMEM
+  - begin: '462'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '464'
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '465'
+    category: TOPOLOGY
+    description: Helical; Name=9
+    end: '485'
+    molecule: ''
+    type: TRANSMEM
+  - begin: '486'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '547'
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '548'
+    category: TOPOLOGY
+    description: Helical; Name=10
+    end: '568'
+    molecule: ''
+    type: TRANSMEM
+  - begin: '569'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '590'
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '591'
+    category: TOPOLOGY
+    description: Helical; Name=11
+    end: '611'
+    molecule: ''
+    type: TRANSMEM
+  - begin: '612'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '967'
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '968'
+    category: TOPOLOGY
+    description: Helical; Name=12
+    end: '988'
+    molecule: ''
+    type: TRANSMEM
+  - begin: '989'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '1025'
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '1026'
+    category: TOPOLOGY
+    description: Helical; Name=13
+    end: '1046'
+    molecule: ''
+    type: TRANSMEM
+  - begin: '1047'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '1089'
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '1090'
+    category: TOPOLOGY
+    description: Helical; Name=14
+    end: '1110'
+    molecule: ''
+    type: TRANSMEM
+  - begin: '1111'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '1111'
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '1112'
+    category: TOPOLOGY
+    description: Helical; Name=15
+    end: '1132'
+    molecule: ''
+    type: TRANSMEM
+  - begin: '1133'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '1203'
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '1204'
+    category: TOPOLOGY
+    description: Helical; Name=16
+    end: '1224'
+    molecule: ''
+    type: TRANSMEM
+  - begin: '1225'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '1226'
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '1227'
+    category: TOPOLOGY
+    description: Helical; Name=17
+    end: '1247'
+    molecule: ''
+    type: TRANSMEM
+  - begin: '1248'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '1531'
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '325'
+    category: DOMAINS_AND_SITES
+    description: ABC transmembrane type-1 1
+    end: '608'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00441
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00441
+    molecule: ''
+    type: DOMAIN
+  - begin: '644'
+    category: DOMAINS_AND_SITES
+    description: ABC transporter 1
+    end: '868'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00434
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00434
+    molecule: ''
+    type: DOMAIN
+  - begin: '975'
+    category: DOMAINS_AND_SITES
+    description: ABC transmembrane type-1 2
+    end: '1256'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00441
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00441
+    molecule: ''
+    type: DOMAIN
+  - begin: '1293'
+    category: DOMAINS_AND_SITES
+    description: ABC transporter 2
+    end: '1527'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00434
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00434
+    molecule: ''
+    type: DOMAIN
+  - begin: '653'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '653'
+    ligand:
+      dbReference:
+        id: CHEBI:30616
+        name: ChEBI
+      label: '1'
+      name: ATP
+    molecule: ''
+    type: BINDING
+  - begin: '678'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '685'
+    ligand:
+      dbReference:
+        id: CHEBI:30616
+        name: ChEBI
+      label: '1'
+      name: ATP
+    molecule: ''
+    type: BINDING
+  - begin: '713'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '713'
+    ligand:
+      dbReference:
+        id: CHEBI:30616
+        name: ChEBI
+      label: '1'
+      name: ATP
+    molecule: ''
+    type: BINDING
+  - begin: '1327'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '1334'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00434
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00434
+    ligand:
+      dbReference:
+        id: CHEBI:30616
+        name: ChEBI
+      label: '2'
+      name: ATP
+    molecule: ''
+    type: BINDING
+  - begin: '277'
+    category: PTM
+    description: Phosphotyrosine
+    end: '277'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: O35379
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/O35379
+    molecule: ''
+    type: MOD_RES
+  - begin: '289'
+    category: PTM
+    description: Phosphoserine
+    end: '289'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: O35379
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/O35379
+    molecule: ''
+    type: MOD_RES
+  - begin: '503'
+    category: PTM
+    description: N6-succinyllysine
+    end: '503'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: O35379
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/O35379
+    molecule: ''
+    type: MOD_RES
+  - begin: '905'
+    category: PTM
+    description: Phosphoserine
+    end: '905'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20068231
+        id: '20068231'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20068231
+    molecule: ''
+    type: MOD_RES
+  - begin: '915'
+    category: PTM
+    description: Phosphoserine
+    end: '915'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19690332
+        id: '19690332'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19690332
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23186163
+        id: '23186163'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23186163
+    molecule: ''
+    type: MOD_RES
+  - begin: '930'
+    category: PTM
+    description: Phosphoserine
+    end: '930'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20068231
+        id: '20068231'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20068231
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21406692
+        id: '21406692'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21406692
+    molecule: ''
+    type: MOD_RES
+  - begin: '19'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '19'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9295302
+        id: '9295302'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9295302
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '23'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '23'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9295302
+        id: '9295302'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9295302
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '1006'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '1006'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9295302
+        id: '9295302'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9295302
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '706'
+    category: VARIANTS
+    end: '764'
+    evidences:
+    - code: ECO:0000305
+    ftId: VSP_000037
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '765'
+    category: VARIANTS
+    end: '820'
+    evidences:
+    - code: ECO:0000305
+    ftId: VSP_000038
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '882'
+    category: VARIANTS
+    end: '882'
+    evidences:
+    - code: ECO:0000303
+      source:
+        id: Ref.6
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P33527#ref6
+    ftId: VSP_017014
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '1431'
+    category: VARIANTS
+    end: '1495'
+    evidences:
+    - code: ECO:0000305
+    ftId: VSP_000039
+    molecule: ''
+    type: VAR_SEQ
+  - alternativeSequence: S
+    begin: '43'
+    category: VARIANTS
+    description: in dbSNP:rs41395947
+    end: '43'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11266082
+        id: '11266082'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11266082
+    ftId: VAR_013317
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: I
+    begin: '73'
+    category: VARIANTS
+    description: in dbSNP:rs41494447
+    end: '73'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11266082
+        id: '11266082'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11266082
+    ftId: VAR_013318
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: T
+    begin: '117'
+    category: VARIANTS
+    description: ''
+    end: '117'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11139250
+        id: '11139250'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11139250
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1360704
+        id: '1360704'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1360704
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9344662
+        id: '9344662'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9344662
+    ftId: VAR_013319
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: D
+    begin: '231'
+    category: VARIANTS
+    description: in DFNA77; uncertain significance
+    end: '231'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/31273342
+        id: '31273342'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/31273342
+    ftId: VAR_083988
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: C
+    begin: '242'
+    category: VARIANTS
+    description: ''
+    end: '242'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/31273342
+        id: '31273342'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/31273342
+    ftId: VAR_083989
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: V
+    begin: '296'
+    category: VARIANTS
+    description: in DFNA77; uncertain significance
+    end: '296'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/31273342
+        id: '31273342'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/31273342
+    ftId: VAR_083990
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: S
+    begin: '433'
+    category: VARIANTS
+    description: in dbSNP:rs60782127
+    end: '433'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11721885
+        id: '11721885'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11721885
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18987736
+        id: '18987736'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18987736
+    ftId: VAR_013320
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: S
+    begin: '590'
+    category: VARIANTS
+    description: in DFNA77; changes protein subcellular localization expressed in
+      both membrane and cytoplasm; produces unstable mRNA
+    end: '590'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/31273342
+        id: '31273342'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/31273342
+    ftId: VAR_083991
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: Q
+    begin: '633'
+    category: VARIANTS
+    description: in dbSNP:rs112282109
+    end: '633'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10835642
+        id: '10835642'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10835642
+    ftId: VAR_011488
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: V
+    begin: '671'
+    category: VARIANTS
+    description: no effect on leukotriene C4 and estradiol glucuronide transport;
+      dbSNP:rs45511401
+    end: '671'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10811882
+        id: '10811882'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10811882
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10835642
+        id: '10835642'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10835642
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11721885
+        id: '11721885'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11721885
+    - code: ECO:0000269
+      source:
+        id: Ref.4
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P33527#ref4
+    ftId: VAR_011489
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: Q
+    begin: '723'
+    category: VARIANTS
+    description: in dbSNP:rs4148356
+    end: '723'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11266082
+        id: '11266082'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11266082
+    - code: ECO:0000269
+      source:
+        id: Ref.4
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P33527#ref4
+    ftId: VAR_013321
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: T
+    begin: '861'
+    category: VARIANTS
+    description: in dbSNP:rs45517537
+    end: '861'
+    evidences:
+    - code: ECO:0000269
+      source:
+        id: Ref.4
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P33527#ref4
+    ftId: VAR_055384
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: I
+    begin: '886'
+    category: VARIANTS
+    description: ''
+    end: '886'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/31273342
+        id: '31273342'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/31273342
+    ftId: VAR_083992
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: R
+    begin: '1007'
+    category: VARIANTS
+    description: ''
+    end: '1007'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/31273342
+        id: '31273342'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/31273342
+    ftId: VAR_083993
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: S
+    begin: '1047'
+    category: VARIANTS
+    description: in dbSNP:rs13337489
+    end: '1047'
+    evidences:
+    - code: ECO:0000269
+      source:
+        id: Ref.4
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P33527#ref4
+    ftId: VAR_055385
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: Q
+    begin: '1058'
+    category: VARIANTS
+    description: in dbSNP:rs41410450
+    end: '1058'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11266082
+        id: '11266082'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11266082
+    ftId: VAR_013322
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: T
+    begin: '1086'
+    category: VARIANTS
+    description: ''
+    end: '1086'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/31273342
+        id: '31273342'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/31273342
+    ftId: VAR_083994
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: I
+    begin: '1146'
+    category: VARIANTS
+    description: in dbSNP:rs28706727
+    end: '1146'
+    evidences:
+    - code: ECO:0000269
+      source:
+        id: Ref.4
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P33527#ref4
+    ftId: VAR_055386
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: L
+    begin: '1512'
+    category: VARIANTS
+    description: in dbSNP:rs369410659
+    end: '1512'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11139250
+        id: '11139250'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11139250
+    ftId: VAR_013323
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: A
+    begin: '580'
+    category: MUTAGENESIS
+    description: No effect.
+    end: '580'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15260484
+        id: '15260484'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15260484
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A
+    begin: '581'
+    category: MUTAGENESIS
+    description: No effect.
+    end: '581'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15260484
+        id: '15260484'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15260484
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A
+    begin: '585'
+    category: MUTAGENESIS
+    description: No effect.
+    end: '585'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15260484
+        id: '15260484'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15260484
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A
+    begin: '597'
+    category: MUTAGENESIS
+    description: Increases resistance to vincristine and decreases resistance to VP-16.
+    end: '597'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15260484
+        id: '15260484'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15260484
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A
+    begin: '604'
+    category: MUTAGENESIS
+    description: Increases estradiol glucuronide transport.
+    end: '604'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15260484
+        id: '15260484'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15260484
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A
+    begin: '605'
+    category: MUTAGENESIS
+    description: Decreases resistance to vincristine, VP-16 and doxorubicin.
+    end: '605'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15260484
+        id: '15260484'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15260484
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A
+    begin: '792'
+    category: MUTAGENESIS
+    description: Only partially affects protein maturation; impairs leukotriene C4
+      transport.
+    end: '792'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11469806
+        id: '11469806'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11469806
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: L
+    begin: '792'
+    category: MUTAGENESIS
+    description: Impairs protein maturation and leukotriene C4 transport.
+    end: '792'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11469806
+        id: '11469806'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11469806
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: L
+    begin: '793'
+    category: MUTAGENESIS
+    description: No effect on protein maturation and leukotriene C4 transport.
+    end: '793'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11469806
+        id: '11469806'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11469806
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: D
+    begin: '1046'
+    category: MUTAGENESIS
+    description: Slightly impairs leukotriene C4 and estradiol glucuronide transport.
+    end: '1046'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15208328
+        id: '15208328'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15208328
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: R
+    begin: '1084'
+    category: MUTAGENESIS
+    description: Impairs leukotriene C4 and estradiol glucuronide transport.
+    end: '1084'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15208328
+        id: '15208328'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15208328
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A,L,N,Q
+    begin: '1089'
+    category: MUTAGENESIS
+    description: Decreases resistance to anthracyclines.
+    end: '1089'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11278596
+        id: '11278596'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11278596
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: D
+    begin: '1089'
+    category: MUTAGENESIS
+    description: No effect.
+    end: '1089'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11278596
+        id: '11278596'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11278596
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: K
+    begin: '1089'
+    category: MUTAGENESIS
+    description: Abolishes resistance to anthracyclines.
+    end: '1089'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11278596
+        id: '11278596'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11278596
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: E
+    begin: '1131'
+    category: MUTAGENESIS
+    description: Slightly impairs leukotriene C4 and estradiol glucuronide transport.
+    end: '1131'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15208328
+        id: '15208328'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15208328
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: E,K
+    begin: '1138'
+    category: MUTAGENESIS
+    description: Strongly reduced transport of leukotriene C4, estradiol glucuronide
+      and of glutathione.
+    end: '1138'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16230346
+        id: '16230346'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16230346
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: E
+    begin: '1141'
+    category: MUTAGENESIS
+    description: Reduced transport of leukotriene C4 and of glutathione.
+    end: '1141'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16230346
+        id: '16230346'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16230346
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: R
+    begin: '1141'
+    category: MUTAGENESIS
+    description: Reduced transport of glutathione.
+    end: '1141'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16230346
+        id: '16230346'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16230346
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: E,K
+    begin: '1142'
+    category: MUTAGENESIS
+    description: Reduced transport of leukotriene C4, estradiol glucuronide and of
+      glutathione.
+    end: '1142'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16230346
+        id: '16230346'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16230346
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A,F,Y
+    begin: '1246'
+    category: MUTAGENESIS
+    description: Impairs estradiol glucuronide transport.
+    end: '1246'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11278867
+        id: '11278867'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11278867
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: C
+    begin: '1246'
+    category: MUTAGENESIS
+    description: Impairs estradiol glucuronide transport; loss of resistance to alkaloid
+      vincristine, cationic anthracyclines, epipodophyllotoxin VP-16, but not potassium
+      antimony tartrate; partial loss of resistance to sodium arsenite.
+    end: '1246'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11278867
+        id: '11278867'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11278867
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: L
+    begin: '1333'
+    category: MUTAGENESIS
+    description: Impairs leukotriene C4 transport.
+    end: '1333'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11469806
+        id: '11469806'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11469806
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: M
+    begin: '1333'
+    category: MUTAGENESIS
+    description: Reduced cGAMP export.
+    end: '1333'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/36070769
+        id: '36070769'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/36070769
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: LL
+    begin: '1454'
+    category: MUTAGENESIS
+    description: Impairs leukotriene C4 transport.
+    end: '1455'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11469806
+        id: '11469806'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11469806
+    molecule: ''
+    type: MUTAGEN
+  - begin: '644'
+    category: STRUCTURAL
+    end: '653'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: STRAND
+  - begin: '660'
+    category: STRUCTURAL
+    end: '668'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: STRAND
+  - begin: '673'
+    category: STRUCTURAL
+    end: '677'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: STRAND
+  - begin: '684'
+    category: STRUCTURAL
+    end: '691'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: HELIX
+  - begin: '695'
+    category: STRUCTURAL
+    end: '704'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: STRAND
+  - begin: '708'
+    category: STRUCTURAL
+    end: '711'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: STRAND
+  - begin: '719'
+    category: STRUCTURAL
+    end: '721'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: STRAND
+  - begin: '722'
+    category: STRUCTURAL
+    end: '727'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: HELIX
+  - begin: '736'
+    category: STRUCTURAL
+    end: '743'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: HELIX
+  - begin: '747'
+    category: STRUCTURAL
+    end: '750'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: HELIX
+  - begin: '756'
+    category: STRUCTURAL
+    end: '758'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: HELIX
+  - begin: '759'
+    category: STRUCTURAL
+    end: '762'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: STRAND
+  - begin: '770'
+    category: STRUCTURAL
+    end: '784'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: HELIX
+  - begin: '787'
+    category: STRUCTURAL
+    end: '793'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: STRAND
+  - begin: '794'
+    category: STRUCTURAL
+    end: '797'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: TURN
+  - begin: '800'
+    category: STRUCTURAL
+    end: '809'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: HELIX
+  - begin: '816'
+    category: STRUCTURAL
+    end: '819'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: TURN
+  - begin: '820'
+    category: STRUCTURAL
+    end: '825'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: STRAND
+  - begin: '832'
+    category: STRUCTURAL
+    end: '834'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: HELIX
+  - begin: '835'
+    category: STRUCTURAL
+    end: '842'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: STRAND
+  - begin: '845'
+    category: STRUCTURAL
+    end: '850'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: STRAND
+  - begin: '852'
+    category: STRUCTURAL
+    end: '858'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: HELIX
+  - begin: '861'
+    category: STRUCTURAL
+    end: '868'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 2CBZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/2CBZ
+    molecule: ''
+    type: HELIX
+  gene:
+  - name:
+      evidences:
+      - code: ECO:0000312
+        source:
+          id: HGNC:51
+          name: HGNC
+          url: https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=HGNC:51
+      value: ABCC1
+    synonyms:
+    - value: MRP
+    - value: MRP1
+  id: MRP1_HUMAN
+  info:
+    created: '1994-02-01'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 226
+  keywords:
+  - value: 3D-structure
+  - value: Alternative splicing
+  - value: ATP-binding
+  - value: Cell membrane
+  - value: Deafness
+  - value: Glycoprotein
+  - value: Hydrolase
+  - value: Lipid transport
+  - value: Membrane
+  - value: Non-syndromic deafness
+  - value: Nucleotide-binding
+  - value: Phosphoprotein
+  - value: Reference proteome
+  - value: Repeat
+  - value: Translocase
+  - value: Transmembrane
+  - value: Transmembrane helix
+  - value: Transport
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        value: ATP-binding cassette sub-family C member 1
+    - ecNumber:
+      - evidences:
+        - code: ECO:0000250
+          source:
+            id: O35379
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/O35379
+        value: 7.6.2.3
+      fullName:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: O35379
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/O35379
+        value: Glutathione-S-conjugate-translocating ATPase ABCC1
+    - fullName:
+        value: Leukotriene C(4) transporter
+      shortName:
+      - value: LTC4 transporter
+    recommendedName:
+      ecNumber:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/9281595
+            id: '9281595'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/9281595
+        value: 7.6.2.2
+      fullName:
+        evidences:
+        - code: ECO:0000305
+        value: Multidrug resistance-associated protein 1
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Cole S.P.C.
+      - Bhardwaj G.
+      - Gerlach J.H.
+      - Mackie J.E.
+      - Grant C.E.
+      - Almquist K.C.
+      - Stewart A.J.
+      - Kurz E.U.
+      - Duncan A.M.V.
+      - Deeley R.G.
+      dbReferences:
+      - id: '1360704'
+        type: PubMed
+      - id: 10.1126/science.1360704
+        type: DOI
+      location:
+        firstPage: '1650'
+        lastPage: '1654'
+        volume: '258'
+      publication:
+        journalName: Science
+      publicationDate: '1992'
+      title: Overexpression of a transporter gene in a multidrug-resistant human lung
+        cancer cell line.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    - VARIANT THR-117
+  - citation:
+      authors:
+      - Cole S.P.C.
+      - Deeley R.G.
+      dbReferences:
+      - id: '8098549'
+        type: PubMed
+      - id: 10.1126/science.8098549
+        type: DOI
+      location:
+        firstPage: '879'
+        lastPage: '879'
+        volume: '260'
+      publication:
+        journalName: Science
+      publicationDate: '1993'
+      title: 'Multidrug resistance-associated protein: sequence correction.'
+      type: journal article
+    scope:
+    - SEQUENCE REVISION
+  - citation:
+      authors:
+      - Grant C.E.
+      - Kurz E.U.
+      - Cole S.P.C.
+      - Deeley R.G.
+      dbReferences:
+      - id: '9344662'
+        type: PubMed
+      - id: 10.1006/geno.1997.4950
+        type: DOI
+      location:
+        firstPage: '368'
+        lastPage: '378'
+        volume: '45'
+      publication:
+        journalName: Genomics
+      publicationDate: '1997'
+      title: Analysis of the intron-exon organization of the human multidrug-resistance
+        protein gene (MRP) and alternative splicing of its mRNA.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+    - ALTERNATIVE SPLICING
+    - VARIANT THR-117
+  - citation:
+      consortiums:
+      - NIEHS SNPs program
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: FEB-2007
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+    - VARIANTS VAL-671; GLN-723; THR-861; SER-1047 AND ILE-1146
+  - citation:
+      authors:
+      - Martin J.
+      - Han C.
+      - Gordon L.A.
+      - Terry A.
+      - Prabhakar S.
+      - She X.
+      - Xie G.
+      - Hellsten U.
+      - Chan Y.M.
+      - Altherr M.
+      - Couronne O.
+      - Aerts A.
+      - Bajorek E.
+      - Black S.
+      - Blumer H.
+      - Branscomb E.
+      - Brown N.C.
+      - Bruno W.J.
+      - Buckingham J.M.
+      - Callen D.F.
+      - Campbell C.S.
+      - Campbell M.L.
+      - Campbell E.W.
+      - Caoile C.
+      - Challacombe J.F.
+      - Chasteen L.A.
+      - Chertkov O.
+      - Chi H.C.
+      - Christensen M.
+      - Clark L.M.
+      - Cohn J.D.
+      - Denys M.
+      - Detter J.C.
+      - Dickson M.
+      - Dimitrijevic-Bussod M.
+      - Escobar J.
+      - Fawcett J.J.
+      - Flowers D.
+      - Fotopulos D.
+      - Glavina T.
+      - Gomez M.
+      - Gonzales E.
+      - Goodstein D.
+      - Goodwin L.A.
+      - Grady D.L.
+      - Grigoriev I.
+      - Groza M.
+      - Hammon N.
+      - Hawkins T.
+      - Haydu L.
+      - Hildebrand C.E.
+      - Huang W.
+      - Israni S.
+      - Jett J.
+      - Jewett P.B.
+      - Kadner K.
+      - Kimball H.
+      - Kobayashi A.
+      - Krawczyk M.-C.
+      - Leyba T.
+      - Longmire J.L.
+      - Lopez F.
+      - Lou Y.
+      - Lowry S.
+      - Ludeman T.
+      - Manohar C.F.
+      - Mark G.A.
+      - McMurray K.L.
+      - Meincke L.J.
+      - Morgan J.
+      - Moyzis R.K.
+      - Mundt M.O.
+      - Munk A.C.
+      - Nandkeshwar R.D.
+      - Pitluck S.
+      - Pollard M.
+      - Predki P.
+      - Parson-Quintana B.
+      - Ramirez L.
+      - Rash S.
+      - Retterer J.
+      - Ricke D.O.
+      - Robinson D.L.
+      - Rodriguez A.
+      - Salamov A.
+      - Saunders E.H.
+      - Scott D.
+      - Shough T.
+      - Stallings R.L.
+      - Stalvey M.
+      - Sutherland R.D.
+      - Tapia R.
+      - Tesmer J.G.
+      - Thayer N.
+      - Thompson L.S.
+      - Tice H.
+      - Torney D.C.
+      - Tran-Gyamfi M.
+      - Tsai M.
+      - Ulanovsky L.E.
+      - Ustaszewska A.
+      - Vo N.
+      - White P.S.
+      - Williams A.L.
+      - Wills P.L.
+      - Wu J.-R.
+      - Wu K.
+      - Yang J.
+      - DeJong P.
+      - Bruce D.
+      - Doggett N.A.
+      - Deaven L.
+      - Schmutz J.
+      - Grimwood J.
+      - Richardson P.
+      - Rokhsar D.S.
+      - Eichler E.E.
+      - Gilna P.
+      - Lucas S.M.
+      - Myers R.M.
+      - Rubin E.M.
+      - Pennacchio L.A.
+      dbReferences:
+      - id: '15616553'
+        type: PubMed
+      - id: 10.1038/nature03187
+        type: DOI
+      location:
+        firstPage: '988'
+        lastPage: '994'
+        volume: '432'
+      publication:
+        journalName: Nature
+      publicationDate: '2004'
+      title: The sequence and analysis of duplication-rich human chromosome 16.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      authors:
+      - Totoki Y.
+      - Toyoda A.
+      - Takeda T.
+      - Sakaki Y.
+      - Tanaka A.
+      - Yokoyama S.
+      - Ohara O.
+      - Nagase T.
+      - Kikuno R.F.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: MAR-2005
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 103-1531 (ISOFORM 9)
+    source:
+      tissue:
+      - value: Brain
+  - citation:
+      authors:
+      - Loftus B.J.
+      - Kim U.-J.
+      - Sneddon V.P.
+      - Kalush F.
+      - Brandon R.
+      - Fuhrmann J.
+      - Mason T.
+      - Crosby M.L.
+      - Barnstead M.
+      - Cronin L.
+      - Mays A.D.
+      - Cao Y.
+      - Xu R.X.
+      - Kang H.-L.
+      - Mitchell S.
+      - Eichler E.E.
+      - Harris P.C.
+      - Venter J.C.
+      - Adams M.D.
+      dbReferences:
+      - id: '10493829'
+        type: PubMed
+      - id: 10.1006/geno.1999.5927
+        type: DOI
+      location:
+        firstPage: '295'
+        lastPage: '308'
+        volume: '60'
+      publication:
+        journalName: Genomics
+      publicationDate: '1999'
+      title: Genome duplications and other features in 12 Mb of DNA sequence from
+        human chromosome 16p and 16q.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA] OF 516-1531
+  - citation:
+      authors:
+      - Leier I.
+      - Jedlitschky G.
+      - Buchholz U.
+      - Cole S.P.
+      - Deeley R.G.
+      - Keppler D.
+      dbReferences:
+      - id: '7961706'
+        type: PubMed
+      - id: 10.1016/s0021-9258(18)46856-1
+        type: DOI
+      location:
+        firstPage: '27807'
+        lastPage: '27810'
+        volume: '269'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '1994'
+      title: The MRP gene encodes an ATP-dependent export pump for leukotriene C4
+        and structurally related conjugates.
+      type: journal article
+    scope:
+    - CATALYTIC ACTIVITY
+    - ACTIVITY REGULATION
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - FUNCTION
+  - citation:
+      authors:
+      - Hipfner D.R.
+      - Almquist K.C.
+      - Leslie E.M.
+      - Gerlach J.H.
+      - Grant C.E.
+      - Deeley R.G.
+      - Cole S.P.C.
+      dbReferences:
+      - id: '9295302'
+        type: PubMed
+      - id: 10.1074/jbc.272.38.23623
+        type: DOI
+      location:
+        firstPage: '23623'
+        lastPage: '23630'
+        volume: '272'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '1997'
+      title: Membrane topology of the multidrug resistance protein (MRP). A study
+        of glycosylation-site mutants reveals an extracytosolic NH2 terminus.
+      type: journal article
+    scope:
+    - TOPOLOGY
+    - GLYCOSYLATION AT ASN-19; ASN-23 AND ASN-1006
+  - citation:
+      authors:
+      - Kast C.
+      - Gros P.
+      dbReferences:
+      - id: '9334225'
+        type: PubMed
+      - id: 10.1074/jbc.272.42.26479
+        type: DOI
+      location:
+        firstPage: '26479'
+        lastPage: '26487'
+        volume: '272'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '1997'
+      title: Topology mapping of the amino-terminal half of multidrug resistance-associated
+        protein by epitope insertion and immunofluorescence.
+      type: journal article
+    scope:
+    - TOPOLOGY
+  - citation:
+      authors:
+      - Stride B.D.
+      - Grant C.E.
+      - Loe D.W.
+      - Hipfner D.R.
+      - Cole S.P.C.
+      - Deeley R.G.
+      dbReferences:
+      - id: '9281595'
+        type: PubMed
+      - id: 10.1124/mol.52.3.344
+        type: DOI
+      location:
+        firstPage: '344'
+        lastPage: '353'
+        volume: '52'
+      publication:
+        journalName: Mol. Pharmacol.
+      publicationDate: '1997'
+      title: Pharmacological characterization of the murine and human orthologs of
+        multidrug-resistance protein in transfected human embryonic kidney cells.
+      type: journal article
+    scope:
+    - CATALYTIC ACTIVITY
+    - FUNCTION
+    - BIOPHYSICOCHEMICAL PROPERTIES
+  - citation:
+      authors:
+      - Kast C.
+      - Gros P.
+      dbReferences:
+      - id: '9485377'
+        type: PubMed
+      - id: 10.1021/bi972332v
+        type: DOI
+      location:
+        firstPage: '2305'
+        lastPage: '2313'
+        volume: '37'
+      publication:
+        journalName: Biochemistry
+      publicationDate: '1998'
+      title: Epitope insertion favors a six transmembrane domain model for the carboxy-terminal
+        portion of the multidrug resistance-associated protein.
+      type: journal article
+    scope:
+    - TOPOLOGY
+  - citation:
+      authors:
+      - Sjoelinder M.
+      - Tornhamre S.
+      - Claesson H.-E.
+      - Hydman J.
+      - Lindgren J.A.
+      dbReferences:
+      - id: '10064732'
+        type: PubMed
+      location:
+        firstPage: '439'
+        lastPage: '446'
+        volume: '40'
+      publication:
+        journalName: J. Lipid Res.
+      publicationDate: '1999'
+      title: 'Characterization of a leukotriene C4 export mechanism in human platelets:
+        possible involvement of multidrug resistance-associated protein 1.'
+      type: journal article
+    scope:
+    - FUNCTION
+  - citation:
+      authors:
+      - Robbiani D.F.
+      - Finch R.A.
+      - Jaeger D.
+      - Muller W.A.
+      - Sartorelli A.C.
+      - Randolph G.J.
+      dbReferences:
+      - id: '11114332'
+        type: PubMed
+      - id: 10.1016/s0092-8674(00)00179-3
+        type: DOI
+      location:
+        firstPage: '757'
+        lastPage: '768'
+        volume: '103'
+      publication:
+        journalName: Cell
+      publicationDate: '2000'
+      title: The leukotriene C(4) transporter MRP1 regulates CCL19 (MIP-3beta, ELC)-dependent
+        mobilization of dendritic cells to lymph nodes.
+      type: journal article
+    scope:
+    - FUNCTION
+  - citation:
+      authors:
+      - Cui L.
+      - Hou Y.-X.
+      - Riordan J.R.
+      - Chang X.-B.
+      dbReferences:
+      - id: '11469806'
+        type: PubMed
+      - id: 10.1006/abbi.2001.2441
+        type: DOI
+      location:
+        firstPage: '153'
+        lastPage: '161'
+        volume: '392'
+      publication:
+        journalName: Arch. Biochem. Biophys.
+      publicationDate: '2001'
+      title: Mutations of the Walker B motif in the first nucleotide binding domain
+        of multidrug resistance protein MRP1 prevent conformational maturation.
+      type: journal article
+    scope:
+    - MUTAGENESIS OF ASP-792; ASP-793; LYS-1333 AND 1454-ASP-GLU-1455
+  - citation:
+      authors:
+      - Ito K.
+      - Olsen S.L.
+      - Qiu W.
+      - Deeley R.G.
+      - Cole S.P.C.
+      dbReferences:
+      - id: '11278867'
+        type: PubMed
+      - id: 10.1074/jbc.m011246200
+        type: DOI
+      location:
+        firstPage: '15616'
+        lastPage: '15624'
+        volume: '276'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2001'
+      title: Mutation of a single conserved tryptophan in multidrug resistance protein
+        1 (MRP1/ABCC1) results in loss of drug resistance and selective loss of organic
+        anion transport.
+      type: journal article
+    scope:
+    - MUTAGENESIS OF TRP-1246
+  - citation:
+      authors:
+      - Zhang D.-W.
+      - Cole S.P.C.
+      - Deeley R.G.
+      dbReferences:
+      - id: '11278596'
+        type: PubMed
+      - id: 10.1074/jbc.m010008200
+        type: DOI
+      location:
+        firstPage: '13231'
+        lastPage: '13239'
+        volume: '276'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2001'
+      title: Identification of an amino acid residue in multidrug resistance protein
+        1 critical for conferring resistance to anthracyclines.
+      type: journal article
+    scope:
+    - MUTAGENESIS OF GLU-1089
+  - citation:
+      authors:
+      - Situ D.
+      - Haimeur A.
+      - Conseil G.
+      - Sparks K.E.
+      - Zhang D.-W.
+      - Deeley R.G.
+      - Cole S.P.C.
+      dbReferences:
+      - id: '15208328'
+        type: PubMed
+      - id: 10.1074/jbc.m403832200
+        type: DOI
+      location:
+        firstPage: '38871'
+        lastPage: '38880'
+        volume: '279'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2004'
+      title: 'Mutational analysis of ionizable residues proximal to the cytoplasmic
+        interface of membrane spanning domain 3 of the multidrug resistance protein,
+        MRP1 (ABCC1): glutamate 1204 is important for both the expression and catalytic
+        activity of the transporter.'
+      type: journal article
+    scope:
+    - MUTAGENESIS OF ARG-1046; ASP-1084 AND ARG-1131
+  - citation:
+      authors:
+      - Zhang D.-W.
+      - Nunoya K.
+      - Vasa M.
+      - Gu H.-M.
+      - Theis A.
+      - Cole S.P.C.
+      - Deeley R.G.
+      dbReferences:
+      - id: '15260484'
+        type: PubMed
+      - id: 10.1021/bi0495230
+        type: DOI
+      location:
+        firstPage: '9413'
+        lastPage: '9425'
+        volume: '43'
+      publication:
+        journalName: Biochemistry
+      publicationDate: '2004'
+      title: 'Transmembrane helix 11 of multidrug resistance protein 1 (MRP1/ABCC1):
+        identification of polar amino acids important for substrate specificity and
+        binding of ATP at nucleotide binding domain 1.'
+      type: journal article
+    scope:
+    - MUTAGENESIS OF GLN-580; THR-581; SER-585; ASN-597; SER-604 AND SER-605
+  - citation:
+      authors:
+      - Olsen J.V.
+      - Blagoev B.
+      - Gnad F.
+      - Macek B.
+      - Kumar C.
+      - Mortensen P.
+      - Mann M.
+      dbReferences:
+      - id: '17081983'
+        type: PubMed
+      - id: 10.1016/j.cell.2006.09.026
+        type: DOI
+      location:
+        firstPage: '635'
+        lastPage: '648'
+        volume: '127'
+      publication:
+        journalName: Cell
+      publicationDate: '2006'
+      title: Global, in vivo, and site-specific phosphorylation dynamics in signaling
+        networks.
+      type: journal article
+    scope:
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Cervix carcinoma
+  - citation:
+      authors:
+      - Conseil G.
+      - Deeley R.G.
+      - Cole S.P.
+      dbReferences:
+      - id: '16230346'
+        type: PubMed
+      - id: 10.1074/jbc.m510143200
+        type: DOI
+      location:
+        firstPage: '43'
+        lastPage: '50'
+        volume: '281'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2006'
+      title: Functional importance of three basic residues clustered at the cytosolic
+        interface of transmembrane helix 15 in the multidrug and organic anion transporter
+        MRP1 (ABCC1).
+      type: journal article
+    scope:
+    - FUNCTION
+    - MUTAGENESIS OF ARG-1138; LYS-1141 AND ARG-1142
+    - SUBCELLULAR LOCATION
+  - citation:
+      authors:
+      - Mitra P.
+      - Oskeritzian C.A.
+      - Payne S.G.
+      - Beaven M.A.
+      - Milstien S.
+      - Spiegel S.
+      dbReferences:
+      - id: '17050692'
+        type: PubMed
+      - id: 10.1073/pnas.0603734103
+        type: DOI
+      location:
+        firstPage: '16394'
+        lastPage: '16399'
+        volume: '103'
+      publication:
+        journalName: Proc. Natl. Acad. Sci. U.S.A.
+      publicationDate: '2006'
+      title: Role of ABCC1 in export of sphingosine-1-phosphate from mast cells.
+      type: journal article
+    scope:
+    - CATALYTIC ACTIVITY
+    - ACTIVITY REGULATION
+    - FUNCTION
+  - citation:
+      authors:
+      - Daub H.
+      - Olsen J.V.
+      - Bairlein M.
+      - Gnad F.
+      - Oppermann F.S.
+      - Korner R.
+      - Greff Z.
+      - Keri G.
+      - Stemmann O.
+      - Mann M.
+      dbReferences:
+      - id: '18691976'
+        type: PubMed
+      - id: 10.1016/j.molcel.2008.07.007
+        type: DOI
+      location:
+        firstPage: '438'
+        lastPage: '448'
+        volume: '31'
+      publication:
+        journalName: Mol. Cell
+      publicationDate: '2008'
+      title: Kinase-selective enrichment enables quantitative phosphoproteomics of
+        the kinome across the cell cycle.
+      type: journal article
+    scope:
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Cervix carcinoma
+  - citation:
+      authors:
+      - Gauci S.
+      - Helbig A.O.
+      - Slijper M.
+      - Krijgsveld J.
+      - Heck A.J.
+      - Mohammed S.
+      dbReferences:
+      - id: '19413330'
+        type: PubMed
+      - id: 10.1021/ac9004309
+        type: DOI
+      location:
+        firstPage: '4493'
+        lastPage: '4501'
+        volume: '81'
+      publication:
+        journalName: Anal. Chem.
+      publicationDate: '2009'
+      title: Lys-N and trypsin cover complementary parts of the phosphoproteome in
+        a refined SCX-based approach.
+      type: journal article
+    scope:
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+  - citation:
+      authors:
+      - Mayya V.
+      - Lundgren D.H.
+      - Hwang S.-I.
+      - Rezaul K.
+      - Wu L.
+      - Eng J.K.
+      - Rodionov V.
+      - Han D.K.
+      dbReferences:
+      - id: '19690332'
+        type: PubMed
+      - id: 10.1126/scisignal.2000007
+        type: DOI
+      location:
+        firstPage: RA46
+        lastPage: RA46
+        volume: '2'
+      publication:
+        journalName: Sci. Signal.
+      publicationDate: '2009'
+      title: Quantitative phosphoproteomic analysis of T cell receptor signaling reveals
+        system-wide modulation of protein-protein interactions.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-915
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Leukemic T-cell
+  - citation:
+      authors:
+      - Olsen J.V.
+      - Vermeulen M.
+      - Santamaria A.
+      - Kumar C.
+      - Miller M.L.
+      - Jensen L.J.
+      - Gnad F.
+      - Cox J.
+      - Jensen T.S.
+      - Nigg E.A.
+      - Brunak S.
+      - Mann M.
+      dbReferences:
+      - id: '20068231'
+        type: PubMed
+      - id: 10.1126/scisignal.2000475
+        type: DOI
+      location:
+        firstPage: RA3
+        lastPage: RA3
+        volume: '3'
+      publication:
+        journalName: Sci. Signal.
+      publicationDate: '2010'
+      title: Quantitative phosphoproteomics reveals widespread full phosphorylation
+        site occupancy during mitosis.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-905 AND SER-930
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Cervix carcinoma
+  - citation:
+      authors:
+      - Burkard T.R.
+      - Planyavsky M.
+      - Kaupe I.
+      - Breitwieser F.P.
+      - Buerckstuemmer T.
+      - Bennett K.L.
+      - Superti-Furga G.
+      - Colinge J.
+      dbReferences:
+      - id: '21269460'
+        type: PubMed
+      - id: 10.1186/1752-0509-5-17
+        type: DOI
+      location:
+        firstPage: '17'
+        lastPage: '17'
+        volume: '5'
+      publication:
+        journalName: BMC Syst. Biol.
+      publicationDate: '2011'
+      title: Initial characterization of the human central proteome.
+      type: journal article
+    scope:
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+  - citation:
+      authors:
+      - Rigbolt K.T.
+      - Prokhorova T.A.
+      - Akimov V.
+      - Henningsen J.
+      - Johansen P.T.
+      - Kratchmarova I.
+      - Kassem M.
+      - Mann M.
+      - Olsen J.V.
+      - Blagoev B.
+      dbReferences:
+      - id: '21406692'
+        type: PubMed
+      - id: 10.1126/scisignal.2001570
+        type: DOI
+      location:
+        firstPage: RS3
+        lastPage: RS3
+        volume: '4'
+      publication:
+        journalName: Sci. Signal.
+      publicationDate: '2011'
+      title: System-wide temporal characterization of the proteome and phosphoproteome
+        of human embryonic stem cell differentiation.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-930
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+  - citation:
+      authors:
+      - Weekes M.P.
+      - Tan S.Y.
+      - Poole E.
+      - Talbot S.
+      - Antrobus R.
+      - Smith D.L.
+      - Montag C.
+      - Gygi S.P.
+      - Sinclair J.H.
+      - Lehner P.J.
+      dbReferences:
+      - id: '23580527'
+        type: PubMed
+      - id: 10.1126/science.1235047
+        type: DOI
+      location:
+        firstPage: '199'
+        lastPage: '202'
+        volume: '340'
+      publication:
+        journalName: Science
+      publicationDate: '2013'
+      title: Latency-associated degradation of the MRP1 drug transporter during latent
+        human cytomegalovirus infection.
+      type: journal article
+    scope:
+    - INTERACTION WITH HUMAN CYTOMEGALOVIRUS PROTEIN UL138 (MICROBIAL INFECTION)
+  - citation:
+      authors:
+      - Zhou H.
+      - Di Palma S.
+      - Preisinger C.
+      - Peng M.
+      - Polat A.N.
+      - Heck A.J.
+      - Mohammed S.
+      dbReferences:
+      - id: '23186163'
+        type: PubMed
+      - id: 10.1021/pr300630k
+        type: DOI
+      location:
+        firstPage: '260'
+        lastPage: '271'
+        volume: '12'
+      publication:
+        journalName: J. Proteome Res.
+      publicationDate: '2013'
+      title: Toward a comprehensive characterization of a human cancer cell phosphoproteome.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-915
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Cervix carcinoma
+      - value: Erythroleukemia
+  - citation:
+      authors:
+      - Bian Y.
+      - Song C.
+      - Cheng K.
+      - Dong M.
+      - Wang F.
+      - Huang J.
+      - Sun D.
+      - Wang L.
+      - Ye M.
+      - Zou H.
+      dbReferences:
+      - id: '24275569'
+        type: PubMed
+      - id: 10.1016/j.jprot.2013.11.014
+        type: DOI
+      location:
+        firstPage: '253'
+        lastPage: '262'
+        volume: '96'
+      publication:
+        journalName: J. Proteomics
+      publicationDate: '2014'
+      title: An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+        phosphoproteome.
+      type: journal article
+    scope:
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Maltbaek J.H.
+      - Cambier S.
+      - Snyder J.M.
+      - Stetson D.B.
+      dbReferences:
+      - id: '36070769'
+        type: PubMed
+      - id: 10.1016/j.immuni.2022.08.006
+        type: DOI
+      location:
+        firstPage: '1799'
+        lastPage: '1812'
+        volume: '55'
+      publication:
+        journalName: Immunity
+      publicationDate: '2022'
+      title: ABCC1 transporter exports the immunostimulatory cyclic dinucleotide cGAMP.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+    - MUTAGENESIS OF LYS-1333
+  - citation:
+      authors:
+      - Ramaen O.
+      - Leulliot N.
+      - Sizun C.
+      - Ulryck N.
+      - Pamlard O.
+      - Lallemand J.-Y.
+      - Tilbeurgh H.
+      - Jacquet E.
+      dbReferences:
+      - id: '16697012'
+        type: PubMed
+      - id: 10.1016/j.jmb.2006.04.005
+        type: DOI
+      location:
+        firstPage: '940'
+        lastPage: '949'
+        volume: '359'
+      publication:
+        journalName: J. Mol. Biol.
+      publicationDate: '2006'
+      title: Structure of the human multidrug resistance protein 1 nucleotide binding
+        domain 1 bound to Mg2+/ATP reveals a non-productive catalytic site.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (1.5 ANGSTROMS) OF 642-871 IN COMPLEX WITH MG-ATP
+  - citation:
+      authors:
+      - Le Saux O.
+      - Urban Z.
+      - Tschuch C.
+      - Csiszar K.
+      - Bacchelli B.
+      - Quaglino D.
+      - Pasquali-Ronchetti I.
+      - Pope F.M.
+      - Richards A.
+      - Terry S.
+      - Bercovitch L.
+      - de Paepe A.
+      - Boyd C.D.
+      dbReferences:
+      - id: '10835642'
+        type: PubMed
+      - id: 10.1038/76102
+        type: DOI
+      location:
+        firstPage: '223'
+        lastPage: '227'
+        volume: '25'
+      publication:
+        journalName: Nat. Genet.
+      publicationDate: '2000'
+      title: Mutations in a gene encoding an ABC transporter cause pseudoxanthoma
+        elasticum.
+      type: journal article
+    scope:
+    - VARIANTS GLN-633 AND VAL-671
+  - citation:
+      authors:
+      - Ringpfeil F.
+      - Lebwohl M.G.
+      - Christiano A.M.
+      - Uitto J.
+      dbReferences:
+      - id: '10811882'
+        type: PubMed
+      - id: 10.1073/pnas.100041297
+        type: DOI
+      location:
+        firstPage: '6001'
+        lastPage: '6006'
+        volume: '97'
+      publication:
+        journalName: Proc. Natl. Acad. Sci. U.S.A.
+      publicationDate: '2000'
+      title: 'Pseudoxanthoma elasticum: mutations in the MRP6 gene encoding a transmembrane
+        ATP-binding cassette (ABC) transporter.'
+      type: journal article
+    scope:
+    - VARIANT VAL-671
+  - citation:
+      authors:
+      - Conrad S.
+      - Kauffmann H.-M.
+      - Ito K.
+      - Deeley R.G.
+      - Cole S.P.C.
+      - Schrenk D.
+      dbReferences:
+      - id: '11721885'
+        type: PubMed
+      - id: 10.1007/s100380170017
+        type: DOI
+      location:
+        firstPage: '656'
+        lastPage: '663'
+        volume: '46'
+      publication:
+        journalName: J. Hum. Genet.
+      publicationDate: '2001'
+      title: Identification of human multidrug resistance protein 1 (MRP1) mutations
+        and characterization of a G671V substitution.
+      type: journal article
+    scope:
+    - VARIANT SER-433
+    - CHARACTERIZATION OF VARIANT VAL-671
+  - citation:
+      authors:
+      - Perdu J.
+      - Germain D.P.
+      dbReferences:
+      - id: '11139250'
+        type: PubMed
+      - id: 10.1002/1098-1004(2001)17:1<74::aid-humu14>3.0.co;2-f
+        type: DOI
+      location:
+        firstPage: '74'
+        lastPage: '75'
+        volume: '17'
+      publication:
+        journalName: Hum. Mutat.
+      publicationDate: '2001'
+      title: Identification of novel polymorphisms in the pM5 and MRP1 (ABCC1) genes
+        at locus 16p13.1 and exclusion of both genes as responsible for pseudoxanthoma
+        elasticum.
+      type: journal article
+    scope:
+    - VARIANTS THR-117 AND LEU-1512
+  - citation:
+      authors:
+      - Ito S.
+      - Ieiri I.
+      - Tanabe M.
+      - Suzuki A.
+      - Higuchi S.
+      - Otsubo K.
+      dbReferences:
+      - id: '11266082'
+        type: PubMed
+      - id: 10.1097/00008571-200103000-00008
+        type: DOI
+      location:
+        firstPage: '175'
+        lastPage: '184'
+        volume: '11'
+      publication:
+        journalName: Pharmacogenetics
+      publicationDate: '2001'
+      title: Polymorphism of the ABC transporter genes, MDR1, MRP1 and MRP2/cMOAT,
+        in healthy Japanese subjects.
+      type: journal article
+    scope:
+    - VARIANTS SER-43; ILE-73; GLN-723 AND GLN-1058
+  - citation:
+      authors:
+      - Ley T.J.
+      - Mardis E.R.
+      - Ding L.
+      - Fulton B.
+      - McLellan M.D.
+      - Chen K.
+      - Dooling D.
+      - Dunford-Shore B.H.
+      - McGrath S.
+      - Hickenbotham M.
+      - Cook L.
+      - Abbott R.
+      - Larson D.E.
+      - Koboldt D.C.
+      - Pohl C.
+      - Smith S.
+      - Hawkins A.
+      - Abbott S.
+      - Locke D.
+      - Hillier L.W.
+      - Miner T.
+      - Fulton L.
+      - Magrini V.
+      - Wylie T.
+      - Glasscock J.
+      - Conyers J.
+      - Sander N.
+      - Shi X.
+      - Osborne J.R.
+      - Minx P.
+      - Gordon D.
+      - Chinwalla A.
+      - Zhao Y.
+      - Ries R.E.
+      - Payton J.E.
+      - Westervelt P.
+      - Tomasson M.H.
+      - Watson M.
+      - Baty J.
+      - Ivanovich J.
+      - Heath S.
+      - Shannon W.D.
+      - Nagarajan R.
+      - Walter M.J.
+      - Link D.C.
+      - Graubert T.A.
+      - DiPersio J.F.
+      - Wilson R.K.
+      dbReferences:
+      - id: '18987736'
+        type: PubMed
+      - id: 10.1038/nature07485
+        type: DOI
+      location:
+        firstPage: '66'
+        lastPage: '72'
+        volume: '456'
+      publication:
+        journalName: Nature
+      publicationDate: '2008'
+      title: DNA sequencing of a cytogenetically normal acute myeloid leukaemia genome.
+      type: journal article
+    scope:
+    - VARIANT [LARGE SCALE ANALYSIS] SER-433
+  - citation:
+      authors:
+      - Li M.
+      - Mei L.
+      - He C.
+      - Chen H.
+      - Cai X.
+      - Liu Y.
+      - Tian R.
+      - Tian Q.
+      - Song J.
+      - Jiang L.
+      - Liu C.
+      - Wu H.
+      - Li T.
+      - Liu J.
+      - Li X.
+      - Yi Y.
+      - Yan D.
+      - Blanton S.H.
+      - Hu Z.
+      - Liu X.
+      - Li J.
+      - Ling J.
+      - Feng Y.
+      dbReferences:
+      - id: '31273342'
+        type: PubMed
+      - id: 10.1038/s41436-019-0594-y
+        type: DOI
+      location:
+        firstPage: '2744'
+        lastPage: '2754'
+        volume: '21'
+      publication:
+        journalName: Genet. Med.
+      publicationDate: '2019'
+      title: Extrusion pump ABCC1 was first linked with nonsyndromic hearing loss
+        in humans by stepwise genetic analysis.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN DFNA77
+    - VARIANTS DFNA77 ASP-231; VAL-296 AND SER-590
+    - SUBCELLULAR LOCATION
+    - CHARACTERIZATION OF VARIANT DFNA77 SER-590
+    - VARIANTS CYS-242; ILE-886; ARG-1007 AND THR-1086
+  secondaryAccession:
+  - A3RJX2
+  - C9JPJ4
+  - O14819
+  - O43333
+  - P78419
+  - Q59GI9
+  - Q9UQ97
+  - Q9UQ99
+  - Q9UQA0
+  sequence:
+    length: 1531
+    mass: 171591
+    modified: '2010-05-18'
+    sequence: MALRGFCSADGSDPLWDWNVTWNTSNPDFTKCFQNTVLVWVPCFYLWACFPFYFLYLSRHDRGYIQMTPLNKTKTALGFLLWIVCWADLFYSFWERSRGIFLAPVFLVSPTLLGITMLLATFLIQLERRKGVQSSGIMLTFWLVALVCALAILRSKIMTALKEDAQVDLFRDITFYVYFSLLLIQLVLSCFSDRSPLFSETIHDPNPCPESSASFLSRITFWWITGLIVRGYRQPLEGSDLWSLNKEDTSEQVVPVLVKNWKKECAKTRKQPVKVVYSSKDPAQPKESSKVDANEEVEALIVKSPQKEWNPSLFKVLYKTFGPYFLMSFFFKAIHDLMMFSGPQILKLLIKFVNDTKAPDWQGYFYTVLLFVTACLQTLVLHQYFHICFVSGMRIKTAVIGAVYRKALVITNSARKSSTVGEIVNLMSVDAQRFMDLATYINMIWSAPLQVILALYLLWLNLGPSVLAGVAVMVLMVPVNAVMAMKTKTYQVAHMKSKDNRIKLMNEILNGIKVLKLYAWELAFKDKVLAIRQEELKVLKKSAYLSAVGTFTWVCTPFLVALCTFAVYVTIDENNILDAQTAFVSLALFNILRFPLNILPMVISSIVQASVSLKRLRIFLSHEELEPDSIERRPVKDGGGTNSITVRNATFTWARSDPPTLNGITFSIPEGALVAVVGQVGCGKSSLLSALLAEMDKVEGHVAIKGSVAYVPQQAWIQNDSLRENILFGCQLEEPYYRSVIQACALLPDLEILPSGDRTEIGEKGVNLSGGQKQRVSLARAVYSNADIYLFDDPLSAVDAHVGKHIFENVIGPKGMLKNKTRILVTHSMSYLPQVDVIIVMSGGKISEMGSYQELLARDGAFAEFLRTYASTEQEQDAEENGVTGVSGPGKEAKQMENGMLVTDSAGKQLQRQLSSSSSYSGDISRHHNSTAELQKAEAKKEETWKLMEADKAQTGQVKLSVYWDYMKAIGLFISFLSIFLFMCNHVSALASNYWLSLWTDDPIVNGTQEHTKVRLSVYGALGISQGIAVFGYSMAVSIGGILASRCLHVDLLHSILRSPMSFFERTPSGNLVNRFSKELDTVDSMIPEVIKMFMGSLFNVIGACIVILLATPIAAIIIPPLGLIYFFVQRFYVASSRQLKRLESVSRSPVYSHFNETLLGVSVIRAFEEQERFIHQSDLKVDENQKAYYPSIVANRWLAVRLECVGNCIVLFAALFAVISRHSLSAGLVGLSVSYSLQVTTYLNWLVRMSSEMETNIVAVERLKEYSETEKEAPWQIQETAPPSSWPQVGRVEFRNYCLRYREDLDFVLRHINVTINGGEKVGIVGRTGAGKSSLTLGLFRINESAEGEIIIDGINIAKIGLHDLRFKITIIPQDPVLFSGSLRMNLDPFSQYSDEEVWTSLELAHLKDFVSALPDKLDHECAEGGENLSVGQRQLVCLARALLRKTKILVLDEATAAVDLETDDLIQSTIRTQFEDCTVLTIAHRLNTIMDYTRVIVLDKGEIQEYGAPSDLLQQRGLFYSMAKDAGLV
+    version: 3
+uniprot_id: P33527

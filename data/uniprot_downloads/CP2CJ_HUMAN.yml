@@ -1,0 +1,4465 @@
+data:
+  accession: P33261
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11950794
+          id: '11950794'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11950794
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18577768
+          id: '18577768'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18577768
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19965576
+          id: '19965576'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19965576
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20972997
+          id: '20972997'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20972997
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/23959307
+          id: '23959307'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/23959307
+      value: A cytochrome P450 monooxygenase involved in the metabolism of polyunsaturated
+        fatty acids (PUFA) (PubMed:18577768, PubMed:19965576, PubMed:20972997). Mechanistically,
+        uses molecular oxygen inserting one oxygen atom into a substrate, and reducing
+        the second into a water molecule, with two electrons provided by NADPH via
+        cytochrome P450 reductase (NADPH--hemoprotein reductase) (PubMed:18577768,
+        PubMed:19965576, PubMed:20972997). Catalyzes the hydroxylation of carbon-hydrogen
+        bonds. Hydroxylates PUFA specifically at the omega-1 position (PubMed:18577768).
+        Catalyzes the epoxidation of double bonds of PUFA (PubMed:20972997, PubMed:19965576).
+        Also metabolizes plant monoterpenes such as limonene. Oxygenates (R)- and
+        (S)-limonene to produce carveol and perillyl alcohol (PubMed:11950794). Responsible
+        for the metabolism of a number of therapeutic agents such as the anticonvulsant
+        drug S-mephenytoin, omeprazole, proguanil, certain barbiturates, diazepam,
+        propranolol, citalopram and imipramine. Hydroxylates fenbendazole at the 4'
+        position (PubMed:23959307)
+    type: FUNCTION
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:17150
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18577768
+          id: '18577768'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18577768
+    reaction:
+      dbReferences:
+      - id: RHEA:17149
+        type: Rhea
+      - id: RHEA-COMP:11964
+        type: Rhea
+      - id: RHEA-COMP:11965
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:30879
+        type: ChEBI
+      - id: CHEBI:57618
+        type: ChEBI
+      - id: CHEBI:58210
+        type: ChEBI
+      - id: CHEBI:142491
+        type: ChEBI
+      ecNumber: 1.14.14.1
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18577768
+          id: '18577768'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18577768
+      name: an organic molecule + O2 + reduced [NADPH--hemoprotein reductase] = an
+        alcohol + H(+) + H2O + oxidized [NADPH--hemoprotein reductase]
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:50077
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18577768
+          id: '18577768'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18577768
+    reaction:
+      dbReferences:
+      - id: RHEA:50076
+        type: Rhea
+      - id: RHEA-COMP:11964
+        type: Rhea
+      - id: RHEA-COMP:11965
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:57618
+        type: ChEBI
+      - id: CHEBI:58210
+        type: ChEBI
+      - id: CHEBI:78043
+        type: ChEBI
+      - id: CHEBI:132024
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18577768
+          id: '18577768'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18577768
+      name: (5Z,8Z,11Z)-eicosatrienoate + O2 + reduced [NADPH--hemoprotein reductase]
+        = 19-hydroxy-(5Z,8Z,11Z)-eicosatrienoate + H(+) + H2O + oxidized [NADPH--hemoprotein
+        reductase]
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:39760
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18577768
+          id: '18577768'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18577768
+    reaction:
+      dbReferences:
+      - id: RHEA:39759
+        type: Rhea
+      - id: RHEA-COMP:11964
+        type: Rhea
+      - id: RHEA-COMP:11965
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:32395
+        type: ChEBI
+      - id: CHEBI:57618
+        type: ChEBI
+      - id: CHEBI:58210
+        type: ChEBI
+      - id: CHEBI:76627
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10411572
+          id: '10411572'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10411572
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18577768
+          id: '18577768'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18577768
+      name: (5Z,8Z,11Z,14Z)-eicosatetraenoate + O2 + reduced [NADPH--hemoprotein reductase]
+        = 19-hydroxy-(5Z,8Z,11Z,14Z)-eicosatetraenoate + H(+) + H2O + oxidized [NADPH--hemoprotein
+        reductase]
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:39788
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18577768
+          id: '18577768'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18577768
+    reaction:
+      dbReferences:
+      - id: RHEA:39787
+        type: Rhea
+      - id: RHEA-COMP:11964
+        type: Rhea
+      - id: RHEA-COMP:11965
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:57618
+        type: ChEBI
+      - id: CHEBI:58210
+        type: ChEBI
+      - id: CHEBI:58562
+        type: ChEBI
+      - id: CHEBI:76636
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18577768
+          id: '18577768'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18577768
+      name: (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate + O2 + reduced [NADPH--hemoprotein
+        reductase] = 19-hydroxy-(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate + H(+) + H2O
+        + oxidized [NADPH--hemoprotein reductase]
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:50089
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18577768
+          id: '18577768'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18577768
+    reaction:
+      dbReferences:
+      - id: RHEA:50088
+        type: Rhea
+      - id: RHEA-COMP:11964
+        type: Rhea
+      - id: RHEA-COMP:11965
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:57618
+        type: ChEBI
+      - id: CHEBI:58210
+        type: ChEBI
+      - id: CHEBI:77016
+        type: ChEBI
+      - id: CHEBI:132025
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18577768
+          id: '18577768'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18577768
+      name: (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate + O2 + reduced [NADPH--hemoprotein
+        reductase] = 21-hydroxy-(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate + H(+) +
+        H2O + oxidized [NADPH--hemoprotein reductase]
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:49885
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20972997
+          id: '20972997'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20972997
+    reaction:
+      dbReferences:
+      - id: RHEA:49884
+        type: Rhea
+      - id: RHEA-COMP:11964
+        type: Rhea
+      - id: RHEA-COMP:11965
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:32395
+        type: ChEBI
+      - id: CHEBI:57618
+        type: ChEBI
+      - id: CHEBI:58210
+        type: ChEBI
+      - id: CHEBI:131975
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20972997
+          id: '20972997'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20972997
+      name: (5Z,8Z,11Z,14Z)-eicosatetraenoate + O2 + reduced [NADPH--hemoprotein reductase]
+        = (8R,9S)-epoxy-(5Z,11Z,14Z)-eicosatrienoate + H(+) + H2O + oxidized [NADPH--hemoprotein
+        reductase]
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:49881
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20972997
+          id: '20972997'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20972997
+    reaction:
+      dbReferences:
+      - id: RHEA:49880
+        type: Rhea
+      - id: RHEA-COMP:11964
+        type: Rhea
+      - id: RHEA-COMP:11965
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:32395
+        type: ChEBI
+      - id: CHEBI:57618
+        type: ChEBI
+      - id: CHEBI:58210
+        type: ChEBI
+      - id: CHEBI:131970
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20972997
+          id: '20972997'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20972997
+      name: (5Z,8Z,11Z,14Z)-eicosatetraenoate + O2 + reduced [NADPH--hemoprotein reductase]
+        = (11R,12S)-epoxy-(5Z,8Z,14Z)-eicosatrienoate + H(+) + H2O + oxidized [NADPH--hemoprotein
+        reductase]
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:49877
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20972997
+          id: '20972997'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20972997
+    reaction:
+      dbReferences:
+      - id: RHEA:49876
+        type: Rhea
+      - id: RHEA-COMP:11964
+        type: Rhea
+      - id: RHEA-COMP:11965
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:32395
+        type: ChEBI
+      - id: CHEBI:57618
+        type: ChEBI
+      - id: CHEBI:58210
+        type: ChEBI
+      - id: CHEBI:131969
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20972997
+          id: '20972997'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20972997
+      name: (5Z,8Z,11Z,14Z)-eicosatetraenoate + O2 + reduced [NADPH--hemoprotein reductase]
+        = (11S,12R)-epoxy-(5Z,8Z,14Z)-eicosatrienoate + H(+) + H2O + oxidized [NADPH--hemoprotein
+        reductase]
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:49861
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19965576
+          id: '19965576'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19965576
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20972997
+          id: '20972997'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20972997
+    reaction:
+      dbReferences:
+      - id: RHEA:49860
+        type: Rhea
+      - id: RHEA-COMP:11964
+        type: Rhea
+      - id: RHEA-COMP:11965
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:32395
+        type: ChEBI
+      - id: CHEBI:57618
+        type: ChEBI
+      - id: CHEBI:58210
+        type: ChEBI
+      - id: CHEBI:131965
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19965576
+          id: '19965576'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19965576
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20972997
+          id: '20972997'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20972997
+      name: (5Z,8Z,11Z,14Z)-eicosatetraenoate + O2 + reduced [NADPH--hemoprotein reductase]
+        = (14R,15S)-epoxy-(5Z,8Z,11Z)-eicosatrienoate + H(+) + H2O + oxidized [NADPH--hemoprotein
+        reductase]
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:39780
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19965576
+          id: '19965576'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19965576
+    reaction:
+      dbReferences:
+      - id: RHEA:39779
+        type: Rhea
+      - id: RHEA-COMP:11964
+        type: Rhea
+      - id: RHEA-COMP:11965
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:57618
+        type: ChEBI
+      - id: CHEBI:58210
+        type: ChEBI
+      - id: CHEBI:58562
+        type: ChEBI
+      - id: CHEBI:76634
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19965576
+          id: '19965576'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19965576
+      name: (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate + O2 + reduced [NADPH--hemoprotein
+        reductase] = (17R,18S)-epoxy-(5Z,8Z,11Z,14Z)-eicosatetraenoate + H(+) + H2O
+        + oxidized [NADPH--hemoprotein reductase]
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:52121
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19965576
+          id: '19965576'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19965576
+    reaction:
+      dbReferences:
+      - id: RHEA:52120
+        type: Rhea
+      - id: RHEA-COMP:11964
+        type: Rhea
+      - id: RHEA-COMP:11965
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:57618
+        type: ChEBI
+      - id: CHEBI:58210
+        type: ChEBI
+      - id: CHEBI:77016
+        type: ChEBI
+      - id: CHEBI:136410
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19965576
+          id: '19965576'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19965576
+      name: (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate + O2 + reduced [NADPH--hemoprotein
+        reductase] = (19R,20S)-epoxy-(4Z,7Z,10Z,13Z,16Z)-docosapentaenoate + H(+)
+        + H2O + oxidized [NADPH--hemoprotein reductase]
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:52125
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19965576
+          id: '19965576'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19965576
+    reaction:
+      dbReferences:
+      - id: RHEA:52124
+        type: Rhea
+      - id: RHEA-COMP:11964
+        type: Rhea
+      - id: RHEA-COMP:11965
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:57618
+        type: ChEBI
+      - id: CHEBI:58210
+        type: ChEBI
+      - id: CHEBI:77016
+        type: ChEBI
+      - id: CHEBI:136411
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19965576
+          id: '19965576'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19965576
+      name: (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate + O2 + reduced [NADPH--hemoprotein
+        reductase] = (19S,20R)-epoxy-(4Z,7Z,10Z,13Z,16Z)-docosapentaenoate + H(+)
+        + H2O + oxidized [NADPH--hemoprotein reductase]
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:18957
+        type: Rhea
+      - id: RHEA-COMP:11964
+        type: Rhea
+      - id: RHEA-COMP:11965
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:15382
+        type: ChEBI
+      - id: CHEBI:15388
+        type: ChEBI
+      - id: CHEBI:57618
+        type: ChEBI
+      - id: CHEBI:58210
+        type: ChEBI
+      ecNumber: 1.14.14.53
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11950794
+          id: '11950794'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11950794
+      name: (4R)-limonene + O2 + reduced [NADPH--hemoprotein reductase] = (1R,5S)-carveol
+        + H(+) + H2O + oxidized [NADPH--hemoprotein reductase]
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:17945
+        type: Rhea
+      - id: RHEA-COMP:11964
+        type: Rhea
+      - id: RHEA-COMP:11965
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:15383
+        type: ChEBI
+      - id: CHEBI:15389
+        type: ChEBI
+      - id: CHEBI:57618
+        type: ChEBI
+      - id: CHEBI:58210
+        type: ChEBI
+      ecNumber: 1.14.14.51
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11950794
+          id: '11950794'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11950794
+      name: (4S)-limonene + O2 + reduced [NADPH--hemoprotein reductase] = (1S,5R)-carveol
+        + H(+) + H2O + oxidized [NADPH--hemoprotein reductase]
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:23432
+        type: Rhea
+      - id: RHEA-COMP:11964
+        type: Rhea
+      - id: RHEA-COMP:11965
+        type: Rhea
+      - id: CHEBI:10782
+        type: ChEBI
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:15383
+        type: ChEBI
+      - id: CHEBI:57618
+        type: ChEBI
+      - id: CHEBI:58210
+        type: ChEBI
+      ecNumber: 1.14.14.52
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11950794
+          id: '11950794'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11950794
+      name: (4S)-limonene + O2 + reduced [NADPH--hemoprotein reductase] = (4S)-perillyl
+        alcohol + H(+) + H2O + oxidized [NADPH--hemoprotein reductase]
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:56292
+        type: Rhea
+      - id: RHEA-COMP:11964
+        type: Rhea
+      - id: RHEA-COMP:11965
+        type: Rhea
+      - id: CHEBI:15377
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:15379
+        type: ChEBI
+      - id: CHEBI:57618
+        type: ChEBI
+      - id: CHEBI:58210
+        type: ChEBI
+      - id: CHEBI:77092
+        type: ChEBI
+      - id: CHEBI:140184
+        type: ChEBI
+      ecNumber: 1.14.14.75
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/23959307
+          id: '23959307'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/23959307
+      name: fenbendazole + O2 + reduced [NADPH--hemoprotein reductase] = 4'-hydroxyfenbendazole
+        + H(+) + H2O + oxidized [NADPH--hemoprotein reductase]
+    type: CATALYTIC_ACTIVITY
+  - cofactors:
+    - dbReference:
+        id: CHEBI:30413
+        type: CHEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/23118231
+          id: '23118231'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/23118231
+      name: heme
+    type: COFACTOR
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18577768
+          id: '18577768'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18577768
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19965576
+          id: '19965576'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19965576
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20972997
+          id: '20972997'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20972997
+      value: Lipid metabolism; fatty acid metabolism
+    type: PATHWAY
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11950794
+          id: '11950794'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11950794
+      value: Terpene metabolism; (4R)-limonene degradation
+    type: PATHWAY
+  - locations:
+    - location:
+        value: Endoplasmic reticulum membrane
+      topology:
+        value: Peripheral membrane protein
+    - location:
+        value: Microsome membrane
+      topology:
+        value: Peripheral membrane protein
+    type: SUBCELLULAR_LOCATION
+  - text:
+    - value: P450 can be induced to high levels in liver and other tissues by various
+        foreign compounds, including drugs, pesticides, and carcinogens
+    type: INDUCTION
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/28378927
+          id: '28378927'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/28378927
+      value: Genetic variation in CYP2C19 is responsible for poor drug metabolism
+        [MIM:609535]. Individuals can be characterized as either extensive metabolizers
+        (EM) or poor metabolizers (PM). The PM phenotype is inherited in an autosomal
+        recessive manner, with the EM phenotype comprising both homozygous dominant
+        and heterozygote genotypes. There are marked interracial differences in the
+        frequency of this polymorphism. Poor metabolizers represent 2-5% of Caucasians,
+        13-23% of Asian populations, and as many as 38-79% of individuals of some
+        of the islands of Polynesia and Micronesia. At least 38 different alleles
+        are known including CYP2C19*1A, CYP2C19*1B, CYP2C19*1C, CYP2C19*2A (CYP2C19m1
+        or CYP2C19m1A), CYP2C19*2B (CYP2C19m1B), CYP2C19*2C (CYP2C19*21), CYP2C19*3A
+        (CYP2C19m2), CYP2C19*3B (CYP2C19*20), CYP2C19*4 (CYP2C19m3), CYP2C19*5A (CYP2C19m4),
+        CYP2C19*5B, CYP2C19*6, CYP2C19*7, CYP2C19*8, CYP2C19*9, CYP2C19*10, CYP2C19*11
+        CYP2C19*12, CYP2C19*13, CYP2C19*14 CYP2C19*15, CYP2C19*16, CYP2C19*18 and
+        CYP2C19*19. Defective CYP2C19*2 and CYP2C19*3 alleles are characterized by
+        a splice mutation and a stop codon, respectively, and account for most of
+        the PM alleles. The sequence shown is that of allele CYP2C19*1A
+    type: POLYMORPHISM
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the cytochrome P450 family
+    type: SIMILARITY
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: P450-254C was originally listed as a separate gene (CYP2C17). Resequencing
+        demonstrated that it is not a separate gene, but a chimera. The 5'-portion
+        corresponds to a partial 2C18 clone, and the 3'-portion corresponds to a partial
+        2C19 clone
+    type: CAUTION
+  - name: PharmVar Pharmacogen Variation Consortium
+    text: CYP2C19 alleles
+    type: WEBRESOURCE
+    url: https://www.pharmvar.org/gene/CYP2C19
+  - name: NIEHS-SNPs
+    type: WEBRESOURCE
+    url: http://egp.gs.washington.edu/data/cyp2c19/
+  dbReferences:
+  - id: M61854
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAB59426.1
+    type: EMBL
+  - id: M61858
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA52145.1
+      status: ALT_SEQ
+    type: EMBL
+  - id: L07093
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA36660.1
+      status: ALT_SEQ
+    type: EMBL
+  - id: AY796203
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAV41877.1
+    type: EMBL
+  - id: AL583836
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: AL133513
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: L39098
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAL31347.1
+    type: EMBL
+  - id: L39097
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAL31347.1
+      status: JOINED
+    type: EMBL
+  - id: L39102
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAL31348.1
+    type: EMBL
+  - id: L39099
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAL31348.1
+      status: JOINED
+    type: EMBL
+  - id: L39100
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAL31348.1
+      status: JOINED
+    type: EMBL
+  - id: L39101
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAL31348.1
+      status: JOINED
+    type: EMBL
+  - id: L31506
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: L31507
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: L32982
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: L32983
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: CCDS7436.1
+    type: CCDS
+  - id: F38462
+    properties:
+      entry name: F38462
+    type: PIR
+  - id: G38462
+    properties:
+      entry name: G38462
+    type: PIR
+  - id: I52418
+    properties:
+      entry name: I52418
+    type: PIR
+  - id: NP_000760.1
+    properties:
+      nucleotide sequence ID: NM_000769.2
+    type: RefSeq
+  - id: 4GQS
+    properties:
+      chains: A/B/C/D=23-489
+      method: X-ray
+      resolution: 2.87 A
+    type: PDB
+  - id: 4GQS
+    type: PDBsum
+  - id: P33261
+    type: AlphaFoldDB
+  - id: P33261
+    type: SMR
+  - id: '107935'
+    properties:
+      interactions: '4'
+    type: BioGRID
+  - id: P33261
+    properties:
+      interactions: '1'
+    type: IntAct
+  - id: 9606.ENSP00000360372
+    type: STRING
+  - id: P33261
+    type: BindingDB
+  - id: CHEMBL3622
+    type: ChEMBL
+  - id: DB08496
+    properties:
+      generic name: (R)-warfarin
+    type: DrugBank
+  - id: DB14055
+    properties:
+      generic name: (S)-Warfarin
+    type: DrugBank
+  - id: DB05812
+    properties:
+      generic name: Abiraterone
+    type: DrugBank
+  - id: DB14973
+    properties:
+      generic name: Abrocitinib
+    type: DrugBank
+  - id: DB01418
+    properties:
+      generic name: Acenocoumarol
+    type: DrugBank
+  - id: DB00945
+    properties:
+      generic name: Acetylsalicylic acid
+    type: DrugBank
+  - id: DB00546
+    properties:
+      generic name: Adinazolam
+    type: DrugBank
+  - id: DB00518
+    properties:
+      generic name: Albendazole
+    type: DrugBank
+  - id: DB00918
+    properties:
+      generic name: Almotriptan
+    type: DrugBank
+  - id: DB12015
+    properties:
+      generic name: Alpelisib
+    type: DrugBank
+  - id: DB06403
+    properties:
+      generic name: Ambrisentan
+    type: DrugBank
+  - id: DB00357
+    properties:
+      generic name: Aminoglutethimide
+    type: DrugBank
+  - id: DB01424
+    properties:
+      generic name: Aminophenazone
+    type: DrugBank
+  - id: DB01118
+    properties:
+      generic name: Amiodarone
+    type: DrugBank
+  - id: DB00321
+    properties:
+      generic name: Amitriptyline
+    type: DrugBank
+  - id: DB00701
+    properties:
+      generic name: Amprenavir
+    type: DrugBank
+  - id: DB01435
+    properties:
+      generic name: Antipyrine
+    type: DrugBank
+  - id: DB11901
+    properties:
+      generic name: Apalutamide
+    type: DrugBank
+  - id: DB06605
+    properties:
+      generic name: Apixaban
+    type: DrugBank
+  - id: DB00673
+    properties:
+      generic name: Aprepitant
+    type: DrugBank
+  - id: DB01274
+    properties:
+      generic name: Arformoterol
+    type: DrugBank
+  - id: DB06413
+    properties:
+      generic name: Armodafinil
+    type: DrugBank
+  - id: DB06697
+    properties:
+      generic name: Artemether
+    type: DrugBank
+  - id: DB11638
+    properties:
+      generic name: Artenimol
+    type: DrugBank
+  - id: DB12597
+    properties:
+      generic name: Asciminib
+    type: DrugBank
+  - id: DB11586
+    properties:
+      generic name: Asunaprevir
+    type: DrugBank
+  - id: DB00289
+    properties:
+      generic name: Atomoxetine
+    type: DrugBank
+  - id: DB01076
+    properties:
+      generic name: Atorvastatin
+    type: DrugBank
+  - id: DB06442
+    properties:
+      generic name: Avasimibe
+    type: DrugBank
+  - id: DB06626
+    properties:
+      generic name: Axitinib
+    type: DrugBank
+  - id: DB00972
+    properties:
+      generic name: Azelastine
+    type: DrugBank
+  - id: DB01483
+    properties:
+      generic name: Barbital
+    type: DrugBank
+  - id: DB16703
+    properties:
+      generic name: Belumosudil
+    type: DrugBank
+  - id: DB15463
+    properties:
+      generic name: Belzutifan
+    type: DrugBank
+  - id: DB12319
+    properties:
+      generic name: Benzbromarone
+    type: DrugBank
+  - id: DB01086
+    properties:
+      generic name: Benzocaine
+    type: DrugBank
+  - id: DB00443
+    properties:
+      generic name: Betamethasone
+    type: DrugBank
+  - id: DB01128
+    properties:
+      generic name: Bicalutamide
+    type: DrugBank
+  - id: DB11967
+    properties:
+      generic name: Binimetinib
+    type: DrugBank
+  - id: DB13746
+    properties:
+      generic name: Bioallethrin
+    type: DrugBank
+  - id: DB00188
+    properties:
+      generic name: Bortezomib
+    type: DrugBank
+  - id: DB12151
+    properties:
+      generic name: Brincidofovir
+    type: DrugBank
+  - id: DB05541
+    properties:
+      generic name: Brivaracetam
+    type: DrugBank
+  - id: DB01558
+    properties:
+      generic name: Bromazepam
+    type: DrugBank
+  - id: DB01222
+    properties:
+      generic name: Budesonide
+    type: DrugBank
+  - id: DB00297
+    properties:
+      generic name: Bupivacaine
+    type: DrugBank
+  - id: DB00921
+    properties:
+      generic name: Buprenorphine
+    type: DrugBank
+  - id: DB09061
+    properties:
+      generic name: Cannabidiol
+    type: DrugBank
+  - id: DB14737
+    properties:
+      generic name: Cannabinol
+    type: DrugBank
+  - id: DB08502
+    properties:
+      generic name: Capravirine
+    type: DrugBank
+  - id: DB00564
+    properties:
+      generic name: Carbamazepine
+    type: DrugBank
+  - id: DB06016
+    properties:
+      generic name: Cariprazine
+    type: DrugBank
+  - id: DB00395
+    properties:
+      generic name: Carisoprodol
+    type: DrugBank
+  - id: DB14984
+    properties:
+      generic name: Casimersen
+    type: DrugBank
+  - id: DB06119
+    properties:
+      generic name: Cenobamate
+    type: DrugBank
+  - id: DB00446
+    properties:
+      generic name: Chloramphenicol
+    type: DrugBank
+  - id: DB00672
+    properties:
+      generic name: Chlorpropamide
+    type: DrugBank
+  - id: DB01166
+    properties:
+      generic name: Cilostazol
+    type: DrugBank
+  - id: DB00501
+    properties:
+      generic name: Cimetidine
+    type: DrugBank
+  - id: DB00604
+    properties:
+      generic name: Cisapride
+    type: DrugBank
+  - id: DB00215
+    properties:
+      generic name: Citalopram
+    type: DrugBank
+  - id: DB12499
+    properties:
+      generic name: Clascoterone
+    type: DrugBank
+  - id: DB04920
+    properties:
+      generic name: Clevidipine
+    type: DrugBank
+  - id: DB14025
+    properties:
+      generic name: Clinafloxacin
+    type: DrugBank
+  - id: DB00349
+    properties:
+      generic name: Clobazam
+    type: DrugBank
+  - id: DB06470
+    properties:
+      generic name: Clomethiazole
+    type: DrugBank
+  - id: DB01242
+    properties:
+      generic name: Clomipramine
+    type: DrugBank
+  - id: DB00758
+    properties:
+      generic name: Clopidogrel
+    type: DrugBank
+  - id: DB01559
+    properties:
+      generic name: Clotiazepam
+    type: DrugBank
+  - id: DB00363
+    properties:
+      generic name: Clozapine
+    type: DrugBank
+  - id: DB14635
+    properties:
+      generic name: Curcumin sulfate
+    type: DrugBank
+  - id: DB00531
+    properties:
+      generic name: Cyclophosphamide
+    type: DrugBank
+  - id: DB00091
+    properties:
+      generic name: Cyclosporine
+    type: DrugBank
+  - id: DB08912
+    properties:
+      generic name: Dabrafenib
+    type: DrugBank
+  - id: DB00250
+    properties:
+      generic name: Dapsone
+    type: DrugBank
+  - id: DB00705
+    properties:
+      generic name: Delavirdine
+    type: DrugBank
+  - id: DB01234
+    properties:
+      generic name: Dexamethasone
+    type: DrugBank
+  - id: DB14649
+    properties:
+      generic name: Dexamethasone acetate
+    type: DrugBank
+  - id: DB09213
+    properties:
+      generic name: Dexibuprofen
+    type: DrugBank
+  - id: DB05351
+    properties:
+      generic name: Dexlansoprazole
+    type: DrugBank
+  - id: DB13762
+    properties:
+      generic name: Dexrabeprazole
+    type: DrugBank
+  - id: DB00514
+    properties:
+      generic name: Dextromethorphan
+    type: DrugBank
+  - id: DB00829
+    properties:
+      generic name: Diazepam
+    type: DrugBank
+  - id: DB00586
+    properties:
+      generic name: Diclofenac
+    type: DrugBank
+  - id: DB00343
+    properties:
+      generic name: Diltiazem
+    type: DrugBank
+  - id: DB01093
+    properties:
+      generic name: Dimethyl sulfoxide
+    type: DrugBank
+  - id: DB01075
+    properties:
+      generic name: Diphenhydramine
+    type: DrugBank
+  - id: DB09167
+    properties:
+      generic name: Dosulepin
+    type: DrugBank
+  - id: DB05928
+    properties:
+      generic name: Dovitinib
+    type: DrugBank
+  - id: DB00590
+    properties:
+      generic name: Doxazosin
+    type: DrugBank
+  - id: DB01142
+    properties:
+      generic name: Doxepin
+    type: DrugBank
+  - id: DB00470
+    properties:
+      generic name: Dronabinol
+    type: DrugBank
+  - id: DB00476
+    properties:
+      generic name: Duloxetine
+    type: DrugBank
+  - id: DB00625
+    properties:
+      generic name: Efavirenz
+    type: DrugBank
+  - id: DB00216
+    properties:
+      generic name: Eletriptan
+    type: DrugBank
+  - id: DB15444
+    properties:
+      generic name: Elexacaftor
+    type: DrugBank
+  - id: DB13874
+    properties:
+      generic name: Enasidenib
+    type: DrugBank
+  - id: DB11718
+    properties:
+      generic name: Encorafenib
+    type: DrugBank
+  - id: DB00109
+    properties:
+      generic name: Enfuvirtide
+    type: DrugBank
+  - id: DB08899
+    properties:
+      generic name: Enzalutamide
+    type: DrugBank
+  - id: DB01175
+    properties:
+      generic name: Escitalopram
+    type: DrugBank
+  - id: DB11823
+    properties:
+      generic name: Esketamine
+    type: DrugBank
+  - id: DB14575
+    properties:
+      generic name: Eslicarbazepine
+    type: DrugBank
+  - id: DB09119
+    properties:
+      generic name: Eslicarbazepine acetate
+    type: DrugBank
+  - id: DB00736
+    properties:
+      generic name: Esomeprazole
+    type: DrugBank
+  - id: DB00783
+    properties:
+      generic name: Estradiol
+    type: DrugBank
+  - id: DB13952
+    properties:
+      generic name: Estradiol acetate
+    type: DrugBank
+  - id: DB13953
+    properties:
+      generic name: Estradiol benzoate
+    type: DrugBank
+  - id: DB13954
+    properties:
+      generic name: Estradiol cypionate
+    type: DrugBank
+  - id: DB13955
+    properties:
+      generic name: Estradiol dienanthate
+    type: DrugBank
+  - id: DB13956
+    properties:
+      generic name: Estradiol valerate
+    type: DrugBank
+  - id: DB00330
+    properties:
+      generic name: Ethambutol
+    type: DrugBank
+  - id: DB00898
+    properties:
+      generic name: Ethanol
+    type: DrugBank
+  - id: DB00977
+    properties:
+      generic name: Ethinylestradiol
+    type: DrugBank
+  - id: DB09166
+    properties:
+      generic name: Etizolam
+    type: DrugBank
+  - id: DB01628
+    properties:
+      generic name: Etoricoxib
+    type: DrugBank
+  - id: DB06414
+    properties:
+      generic name: Etravirine
+    type: DrugBank
+  - id: DB12500
+    properties:
+      generic name: Fedratinib
+    type: DrugBank
+  - id: DB00949
+    properties:
+      generic name: Felbamate
+    type: DrugBank
+  - id: DB00574
+    properties:
+      generic name: Fenfluramine
+    type: DrugBank
+  - id: DB01039
+    properties:
+      generic name: Fenofibrate
+    type: DrugBank
+  - id: DB12265
+    properties:
+      generic name: Fexinidazole
+    type: DrugBank
+  - id: DB00196
+    properties:
+      generic name: Fluconazole
+    type: DrugBank
+  - id: DB01544
+    properties:
+      generic name: Flunitrazepam
+    type: DrugBank
+  - id: DB00472
+    properties:
+      generic name: Fluoxetine
+    type: DrugBank
+  - id: DB01095
+    properties:
+      generic name: Fluvastatin
+    type: DrugBank
+  - id: DB00176
+    properties:
+      generic name: Fluvoxamine
+    type: DrugBank
+  - id: DB00983
+    properties:
+      generic name: Formoterol
+    type: DrugBank
+  - id: DB01320
+    properties:
+      generic name: Fosphenytoin
+    type: DrugBank
+  - id: DB05087
+    properties:
+      generic name: Ganaxolone
+    type: DrugBank
+  - id: DB00317
+    properties:
+      generic name: Gefitinib
+    type: DrugBank
+  - id: DB01241
+    properties:
+      generic name: Gemfibrozil
+    type: DrugBank
+  - id: DB06730
+    properties:
+      generic name: Gestodene
+    type: DrugBank
+  - id: DB01120
+    properties:
+      generic name: Gliclazide
+    type: DrugBank
+  - id: DB01016
+    properties:
+      generic name: Glyburide
+    type: DrugBank
+  - id: DB00986
+    properties:
+      generic name: Glycopyrronium
+    type: DrugBank
+  - id: DB01018
+    properties:
+      generic name: Guanfacine
+    type: DrugBank
+  - id: DB00502
+    properties:
+      generic name: Haloperidol
+    type: DrugBank
+  - id: DB01355
+    properties:
+      generic name: Hexobarbital
+    type: DrugBank
+  - id: DB00956
+    properties:
+      generic name: Hydrocodone
+    type: DrugBank
+  - id: DB00741
+    properties:
+      generic name: Hydrocortisone
+    type: DrugBank
+  - id: DB06789
+    properties:
+      generic name: Hydroxyprogesterone caproate
+    type: DrugBank
+  - id: DB01050
+    properties:
+      generic name: Ibuprofen
+    type: DrugBank
+  - id: DB09054
+    properties:
+      generic name: Idelalisib
+    type: DrugBank
+  - id: DB01181
+    properties:
+      generic name: Ifosfamide
+    type: DrugBank
+  - id: DB00619
+    properties:
+      generic name: Imatinib
+    type: DrugBank
+  - id: DB00458
+    properties:
+      generic name: Imipramine
+    type: DrugBank
+  - id: DB00328
+    properties:
+      generic name: Indomethacin
+    type: DrugBank
+  - id: DB11633
+    properties:
+      generic name: Isavuconazole
+    type: DrugBank
+  - id: DB00951
+    properties:
+      generic name: Isoniazid
+    type: DrugBank
+  - id: DB09570
+    properties:
+      generic name: Ixazomib
+    type: DrugBank
+  - id: DB06738
+    properties:
+      generic name: Ketobemidone
+    type: DrugBank
+  - id: DB01026
+    properties:
+      generic name: Ketoconazole
+    type: DrugBank
+  - id: DB00598
+    properties:
+      generic name: Labetalol
+    type: DrugBank
+  - id: DB06218
+    properties:
+      generic name: Lacosamide
+    type: DrugBank
+  - id: DB00448
+    properties:
+      generic name: Lansoprazole
+    type: DrugBank
+  - id: DB01259
+    properties:
+      generic name: Lapatinib
+    type: DrugBank
+  - id: DB09078
+    properties:
+      generic name: Lenvatinib
+    type: DrugBank
+  - id: DB12070
+    properties:
+      generic name: Letermovir
+    type: DrugBank
+  - id: DB01006
+    properties:
+      generic name: Letrozole
+    type: DrugBank
+  - id: DB08918
+    properties:
+      generic name: Levomilnacipran
+    type: DrugBank
+  - id: DB09198
+    properties:
+      generic name: Lobeglitazone
+    type: DrugBank
+  - id: DB04948
+    properties:
+      generic name: Lofexidine
+    type: DrugBank
+  - id: DB06448
+    properties:
+      generic name: Lonafarnib
+    type: DrugBank
+  - id: DB16220
+    properties:
+      generic name: Lonapegsomatropin
+    type: DrugBank
+  - id: DB01601
+    properties:
+      generic name: Lopinavir
+    type: DrugBank
+  - id: DB00455
+    properties:
+      generic name: Loratadine
+    type: DrugBank
+  - id: DB04871
+    properties:
+      generic name: Lorcaserin
+    type: DrugBank
+  - id: DB12130
+    properties:
+      generic name: Lorlatinib
+    type: DrugBank
+  - id: DB00678
+    properties:
+      generic name: Losartan
+    type: DrugBank
+  - id: DB00227
+    properties:
+      generic name: Lovastatin
+    type: DrugBank
+  - id: DB08933
+    properties:
+      generic name: Luliconazole
+    type: DrugBank
+  - id: DB09280
+    properties:
+      generic name: Lumacaftor
+    type: DrugBank
+  - id: DB01283
+    properties:
+      generic name: Lumiracoxib
+    type: DrugBank
+  - id: DB12474
+    properties:
+      generic name: Lynestrenol
+    type: DrugBank
+  - id: DB08932
+    properties:
+      generic name: Macitentan
+    type: DrugBank
+  - id: DB09238
+    properties:
+      generic name: Manidipine
+    type: DrugBank
+  - id: DB14921
+    properties:
+      generic name: Mavacamten
+    type: DrugBank
+  - id: DB14009
+    properties:
+      generic name: Medical Cannabis
+    type: DrugBank
+  - id: DB01065
+    properties:
+      generic name: Melatonin
+    type: DrugBank
+  - id: DB01043
+    properties:
+      generic name: Memantine
+    type: DrugBank
+  - id: DB00170
+    properties:
+      generic name: Menadione
+    type: DrugBank
+  - id: DB00454
+    properties:
+      generic name: Meperidine
+    type: DrugBank
+  - id: DB00532
+    properties:
+      generic name: Mephenytoin
+    type: DrugBank
+  - id: DB00333
+    properties:
+      generic name: Methadone
+    type: DrugBank
+  - id: DB00763
+    properties:
+      generic name: Methimazole
+    type: DrugBank
+  - id: DB05246
+    properties:
+      generic name: Methsuximide
+    type: DrugBank
+  - id: DB09241
+    properties:
+      generic name: Methylene blue
+    type: DrugBank
+  - id: DB00849
+    properties:
+      generic name: Methylphenobarbital
+    type: DrugBank
+  - id: DB00959
+    properties:
+      generic name: Methylprednisolone
+    type: DrugBank
+  - id: DB01110
+    properties:
+      generic name: Miconazole
+    type: DrugBank
+  - id: DB06595
+    properties:
+      generic name: Midostaurin
+    type: DrugBank
+  - id: DB16236
+    properties:
+      generic name: Mitapivat
+    type: DrugBank
+  - id: DB01171
+    properties:
+      generic name: Moclobemide
+    type: DrugBank
+  - id: DB00745
+    properties:
+      generic name: Modafinil
+    type: DrugBank
+  - id: DB14011
+    properties:
+      generic name: Nabiximols
+    type: DrugBank
+  - id: DB09049
+    properties:
+      generic name: Naloxegol
+    type: DrugBank
+  - id: DB01183
+    properties:
+      generic name: Naloxone
+    type: DrugBank
+  - id: DB04861
+    properties:
+      generic name: Nebivolol
+    type: DrugBank
+  - id: DB00220
+    properties:
+      generic name: Nelfinavir
+    type: DrugBank
+  - id: DB00622
+    properties:
+      generic name: Nicardipine
+    type: DrugBank
+  - id: DB00184
+    properties:
+      generic name: Nicotine
+    type: DrugBank
+  - id: DB00665
+    properties:
+      generic name: Nilutamide
+    type: DrugBank
+  - id: DB06712
+    properties:
+      generic name: Nilvadipine
+    type: DrugBank
+  - id: DB00717
+    properties:
+      generic name: Norethisterone
+    type: DrugBank
+  - id: DB00540
+    properties:
+      generic name: Nortriptyline
+    type: DrugBank
+  - id: DB00334
+    properties:
+      generic name: Olanzapine
+    type: DrugBank
+  - id: DB14881
+    properties:
+      generic name: Oliceridine
+    type: DrugBank
+  - id: DB16267
+    properties:
+      generic name: Olutasidenib
+    type: DrugBank
+  - id: DB00338
+    properties:
+      generic name: Omeprazole
+    type: DrugBank
+  - id: DB11632
+    properties:
+      generic name: Opicapone
+    type: DrugBank
+  - id: DB04911
+    properties:
+      generic name: Oritavancin
+    type: DrugBank
+  - id: DB11837
+    properties:
+      generic name: Osilodrostat
+    type: DrugBank
+  - id: DB04938
+    properties:
+      generic name: Ospemifene
+    type: DrugBank
+  - id: DB00776
+    properties:
+      generic name: Oxcarbazepine
+    type: DrugBank
+  - id: DB00239
+    properties:
+      generic name: Oxiconazole
+    type: DrugBank
+  - id: DB00935
+    properties:
+      generic name: Oxymetazoline
+    type: DrugBank
+  - id: DB11697
+    properties:
+      generic name: Pacritinib
+    type: DrugBank
+  - id: DB05467
+    properties:
+      generic name: Palovarotene
+    type: DrugBank
+  - id: DB00213
+    properties:
+      generic name: Pantoprazole
+    type: DrugBank
+  - id: DB00715
+    properties:
+      generic name: Paroxetine
+    type: DrugBank
+  - id: DB00738
+    properties:
+      generic name: Pentamidine
+    type: DrugBank
+  - id: DB00312
+    properties:
+      generic name: Pentobarbital
+    type: DrugBank
+  - id: DB00850
+    properties:
+      generic name: Perphenazine
+    type: DrugBank
+  - id: DB03783
+    properties:
+      generic name: Phenacetin
+    type: DrugBank
+  - id: DB00780
+    properties:
+      generic name: Phenelzine
+    type: DrugBank
+  - id: DB01174
+    properties:
+      generic name: Phenobarbital
+    type: DrugBank
+  - id: DB00252
+    properties:
+      generic name: Phenytoin
+    type: DrugBank
+  - id: DB13941
+    properties:
+      generic name: Piperaquine
+    type: DrugBank
+  - id: DB01621
+    properties:
+      generic name: Pipotiazine
+    type: DrugBank
+  - id: DB04951
+    properties:
+      generic name: Pirfenidone
+    type: DrugBank
+  - id: DB06209
+    properties:
+      generic name: Prasugrel
+    type: DrugBank
+  - id: DB01058
+    properties:
+      generic name: Praziquantel
+    type: DrugBank
+  - id: DB14631
+    properties:
+      generic name: Prednisolone phosphate
+    type: DrugBank
+  - id: DB00635
+    properties:
+      generic name: Prednisone
+    type: DrugBank
+  - id: DB00794
+    properties:
+      generic name: Primidone
+    type: DrugBank
+  - id: DB00396
+    properties:
+      generic name: Progesterone
+    type: DrugBank
+  - id: DB01131
+    properties:
+      generic name: Proguanil
+    type: DrugBank
+  - id: DB00420
+    properties:
+      generic name: Promazine
+    type: DrugBank
+  - id: DB00818
+    properties:
+      generic name: Propofol
+    type: DrugBank
+  - id: DB00571
+    properties:
+      generic name: Propranolol
+    type: DrugBank
+  - id: DB01589
+    properties:
+      generic name: Quazepam
+    type: DrugBank
+  - id: DB04216
+    properties:
+      generic name: Quercetin
+    type: DrugBank
+  - id: DB01224
+    properties:
+      generic name: Quetiapine
+    type: DrugBank
+  - id: DB00468
+    properties:
+      generic name: Quinine
+    type: DrugBank
+  - id: DB01129
+    properties:
+      generic name: Rabeprazole
+    type: DrugBank
+  - id: DB00980
+    properties:
+      generic name: Ramelteon
+    type: DrugBank
+  - id: DB08896
+    properties:
+      generic name: Regorafenib
+    type: DrugBank
+  - id: DB02709
+    properties:
+      generic name: Resveratrol
+    type: DrugBank
+  - id: DB00615
+    properties:
+      generic name: Rifabutin
+    type: DrugBank
+  - id: DB01045
+    properties:
+      generic name: Rifampicin
+    type: DrugBank
+  - id: DB11753
+    properties:
+      generic name: Rifamycin
+    type: DrugBank
+  - id: DB01201
+    properties:
+      generic name: Rifapentine
+    type: DrugBank
+  - id: DB01220
+    properties:
+      generic name: Rifaximin
+    type: DrugBank
+  - id: DB08864
+    properties:
+      generic name: Rilpivirine
+    type: DrugBank
+  - id: DB00503
+    properties:
+      generic name: Ritonavir
+    type: DrugBank
+  - id: DB06176
+    properties:
+      generic name: Romidepsin
+    type: DrugBank
+  - id: DB05271
+    properties:
+      generic name: Rotigotine
+    type: DrugBank
+  - id: DB12332
+    properties:
+      generic name: Rucaparib
+    type: DrugBank
+  - id: DB11614
+    properties:
+      generic name: Rupatadine
+    type: DrugBank
+  - id: DB06654
+    properties:
+      generic name: Safinamide
+    type: DrugBank
+  - id: DB12543
+    properties:
+      generic name: Samidorphan
+    type: DrugBank
+  - id: DB12834
+    properties:
+      generic name: Secnidazole
+    type: DrugBank
+  - id: DB00418
+    properties:
+      generic name: Secobarbital
+    type: DrugBank
+  - id: DB01037
+    properties:
+      generic name: Selegiline
+    type: DrugBank
+  - id: DB11689
+    properties:
+      generic name: Selumetinib
+    type: DrugBank
+  - id: DB06731
+    properties:
+      generic name: Seproxetine
+    type: DrugBank
+  - id: DB06739
+    properties:
+      generic name: Seratrodast
+    type: DrugBank
+  - id: DB01104
+    properties:
+      generic name: Sertraline
+    type: DrugBank
+  - id: DB00203
+    properties:
+      generic name: Sildenafil
+    type: DrugBank
+  - id: DB00641
+    properties:
+      generic name: Simvastatin
+    type: DrugBank
+  - id: DB06268
+    properties:
+      generic name: Sitaxentan
+    type: DrugBank
+  - id: DB15093
+    properties:
+      generic name: Somapacitan
+    type: DrugBank
+  - id: DB00052
+    properties:
+      generic name: Somatotropin
+    type: DrugBank
+  - id: DB00398
+    properties:
+      generic name: Sorafenib
+    type: DrugBank
+  - id: DB01323
+    properties:
+      generic name: St. John's Wort
+    type: DrugBank
+  - id: DB09118
+    properties:
+      generic name: Stiripentol
+    type: DrugBank
+  - id: DB00675
+    properties:
+      generic name: Tamoxifen
+    type: DrugBank
+  - id: DB06204
+    properties:
+      generic name: Tapentadol
+    type: DrugBank
+  - id: DB06083
+    properties:
+      generic name: Tapinarof
+    type: DrugBank
+  - id: DB12020
+    properties:
+      generic name: Tecovirimat
+    type: DrugBank
+  - id: DB00966
+    properties:
+      generic name: Telmisartan
+    type: DrugBank
+  - id: DB12095
+    properties:
+      generic name: Telotristat ethyl
+    type: DrugBank
+  - id: DB00444
+    properties:
+      generic name: Teniposide
+    type: DrugBank
+  - id: DB00857
+    properties:
+      generic name: Terbinafine
+    type: DrugBank
+  - id: DB00624
+    properties:
+      generic name: Testosterone
+    type: DrugBank
+  - id: DB13943
+    properties:
+      generic name: Testosterone cypionate
+    type: DrugBank
+  - id: DB13944
+    properties:
+      generic name: Testosterone enanthate
+    type: DrugBank
+  - id: DB13946
+    properties:
+      generic name: Testosterone undecanoate
+    type: DrugBank
+  - id: DB01041
+    properties:
+      generic name: Thalidomide
+    type: DrugBank
+  - id: DB00599
+    properties:
+      generic name: Thiopental
+    type: DrugBank
+  - id: DB00679
+    properties:
+      generic name: Thioridazine
+    type: DrugBank
+  - id: DB00208
+    properties:
+      generic name: Ticlopidine
+    type: DrugBank
+  - id: DB00373
+    properties:
+      generic name: Timolol
+    type: DrugBank
+  - id: DB01007
+    properties:
+      generic name: Tioconazole
+    type: DrugBank
+  - id: DB00932
+    properties:
+      generic name: Tipranavir
+    type: DrugBank
+  - id: DB06137
+    properties:
+      generic name: Tirbanibulin
+    type: DrugBank
+  - id: DB08895
+    properties:
+      generic name: Tofacitinib
+    type: DrugBank
+  - id: DB01124
+    properties:
+      generic name: Tolbutamide
+    type: DrugBank
+  - id: DB01036
+    properties:
+      generic name: Tolterodine
+    type: DrugBank
+  - id: DB00273
+    properties:
+      generic name: Topiramate
+    type: DrugBank
+  - id: DB01685
+    properties:
+      generic name: Topiroxostat
+    type: DrugBank
+  - id: DB05109
+    properties:
+      generic name: Trabectedin
+    type: DrugBank
+  - id: DB00752
+    properties:
+      generic name: Tranylcypromine
+    type: DrugBank
+  - id: DB12245
+    properties:
+      generic name: Triclabendazole
+    type: DrugBank
+  - id: DB00347
+    properties:
+      generic name: Trimethadione
+    type: DrugBank
+  - id: DB00726
+    properties:
+      generic name: Trimipramine
+    type: DrugBank
+  - id: DB00197
+    properties:
+      generic name: Troglitazone
+    type: DrugBank
+  - id: DB15328
+    properties:
+      generic name: Ubrogepant
+    type: DrugBank
+  - id: DB00313
+    properties:
+      generic name: Valproic acid
+    type: DrugBank
+  - id: DB00285
+    properties:
+      generic name: Venlafaxine
+    type: DrugBank
+  - id: DB00661
+    properties:
+      generic name: Verapamil
+    type: DrugBank
+  - id: DB16349
+    properties:
+      generic name: Vicagrel
+    type: DrugBank
+  - id: DB06684
+    properties:
+      generic name: Vilazodone
+    type: DrugBank
+  - id: DB08828
+    properties:
+      generic name: Vismodegib
+    type: DrugBank
+  - id: DB11739
+    properties:
+      generic name: Vonoprazan
+    type: DrugBank
+  - id: DB00582
+    properties:
+      generic name: Voriconazole
+    type: DrugBank
+  - id: DB09068
+    properties:
+      generic name: Vortioxetine
+    type: DrugBank
+  - id: DB14975
+    properties:
+      generic name: Voxelotor
+    type: DrugBank
+  - id: DB00682
+    properties:
+      generic name: Warfarin
+    type: DrugBank
+  - id: DB00549
+    properties:
+      generic name: Zafirlukast
+    type: DrugBank
+  - id: DB00425
+    properties:
+      generic name: Zolpidem
+    type: DrugBank
+  - id: DB00909
+    properties:
+      generic name: Zonisamide
+    type: DrugBank
+  - id: DB09120
+    properties:
+      generic name: Zucapsaicin
+    type: DrugBank
+  - id: P33261
+    type: DrugCentral
+  - id: '1328'
+    type: GuidetoPHARMACOLOGY
+  - id: SLP:000001589
+    type: SwissLipids
+  - id: P33261
+    type: iPTMnet
+  - id: P33261
+    type: PhosphoSitePlus
+  - id: CYP2C19
+    type: BioMuta
+  - id: '60416369'
+    type: DMDM
+  - id: P33261
+    type: jPOST
+  - id: P33261
+    type: MassIVE
+  - id: 9606-ENSP00000360372
+    type: PaxDb
+  - id: P33261
+    type: PeptideAtlas
+  - id: '54907'
+    type: ProteomicsDB
+  - id: '3077'
+    properties:
+      antibodies: 276 antibodies from 31 providers
+    type: Antibodypedia
+  - id: '1557'
+    type: DNASU
+  - id: ENST00000371321.9
+    properties:
+      gene ID: ENSG00000165841.11
+      protein sequence ID: ENSP00000360372.3
+    type: Ensembl
+  - id: '1557'
+    type: GeneID
+  - id: hsa:1557
+    type: KEGG
+  - id: ENST00000371321.9
+    properties:
+      RefSeq nucleotide sequence ID: NM_000769.4
+      RefSeq protein sequence ID: NP_000760.1
+      protein sequence ID: ENSP00000360372.3
+    type: MANE-Select
+  - id: uc010qnz.3
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:2621
+    type: AGR
+  - id: '1557'
+    type: CTD
+  - id: '1557'
+    type: DisGeNET
+  - id: CYP2C19
+    type: GeneCards
+  - id: HGNC:2621
+    properties:
+      gene designation: CYP2C19
+    type: HGNC
+  - id: ENSG00000165841
+    properties:
+      expression patterns: Tissue enriched (liver)
+    type: HPA
+  - id: CYP2C19
+    type: MalaCards
+  - id: '124020'
+    properties:
+      type: gene
+    type: MIM
+  - id: '609535'
+    properties:
+      type: phenotype
+    type: MIM
+  - id: NX_P33261
+    type: neXtProt
+  - id: ENSG00000165841
+    type: OpenTargets
+  - id: PA124
+    type: PharmGKB
+  - id: HostDB:ENSG00000165841
+    type: VEuPathDB
+  - id: KOG0156
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000163209
+    type: GeneTree
+  - id: CLU_001570_22_3_1
+    type: HOGENOM
+  - id: P33261
+    type: InParanoid
+  - id: TPWIQIC
+    type: OMA
+  - id: 2900138at2759
+    type: OrthoDB
+  - id: P33261
+    type: PhylomeDB
+  - id: TF352043
+    type: TreeFam
+  - id: MetaCyc:HS09293-MONOMER
+    type: BioCyc
+  - id: 1.14.14.75
+    properties:
+      organism ID: '2681'
+    type: BRENDA
+  - id: P33261
+    type: PathwayCommons
+  - id: R-HSA-211981
+    properties:
+      pathway name: Xenobiotics
+    type: Reactome
+  - id: R-HSA-211999
+    properties:
+      pathway name: CYP2E1 reactions
+    type: Reactome
+  - id: R-HSA-2142670
+    properties:
+      pathway name: Synthesis of epoxy (EET) and dihydroxyeicosatrienoic acids (DHET)
+    type: Reactome
+  - id: R-HSA-2142816
+    properties:
+      pathway name: Synthesis of (16-20)-hydroxyeicosatetraenoic acids (HETE)
+    type: Reactome
+  - id: R-HSA-9749641
+    properties:
+      pathway name: Aspirin ADME
+    type: Reactome
+  - id: P33261
+    type: SABIO-RK
+  - id: P33261
+    type: SignaLink
+  - id: UPA00199
+    type: UniPathway
+  - id: UPA00987
+    type: UniPathway
+  - id: '1557'
+    properties:
+      hits: 4 hits in 1082 CRISPR screens
+    type: BioGRID-ORCS
+  - id: CYP2C19
+    type: GeneWiki
+  - id: '1557'
+    type: GenomeRNAi
+  - id: P33261
+    properties:
+      development level: Tchem
+    type: Pharos
+  - id: PR:P33261
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 10
+    type: Proteomes
+  - id: P33261
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000165841
+    properties:
+      expression patterns: Expressed in liver and 35 other cell types or tissues
+    type: Bgee
+  - id: P33261
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: P33261
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0005737
+    properties:
+      source: IBA:GO_Central
+      term: C:cytoplasm
+    type: GO
+  - id: GO:0005789
+    properties:
+      source: TAS:Reactome
+      term: C:endoplasmic reticulum membrane
+    type: GO
+  - id: GO:0043231
+    properties:
+      source: IDA:HPA
+      term: C:intracellular membrane-bounded organelle
+    type: GO
+  - id: GO:0005886
+    properties:
+      source: IDA:HPA
+      term: C:plasma membrane
+    type: GO
+  - id: GO:0052741
+    properties:
+      source: IEA:UniProtKB-EC
+      term: F:(R)-limonene 6-monooxygenase activity
+    type: GO
+  - id: GO:0018675
+    properties:
+      source: IEA:UniProtKB-EC
+      term: F:(S)-limonene 6-monooxygenase activity
+    type: GO
+  - id: GO:0018676
+    properties:
+      source: IEA:UniProtKB-EC
+      term: F:(S)-limonene 7-monooxygenase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0008392
+    properties:
+      source: IBA:GO_Central
+      term: F:arachidonic acid epoxygenase activity
+    type: GO
+  - id: GO:0070330
+    properties:
+      source: IEA:UniProtKB-EC
+      term: F:aromatase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15680923
+        id: '15680923'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15680923
+    id: GO:0019899
+    properties:
+      source: IPI:BHF-UCL
+      term: F:enzyme binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23118231
+        id: '23118231'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23118231
+    id: GO:0020037
+    properties:
+      source: IDA:UniProtKB
+      term: F:heme binding
+    type: GO
+  - id: GO:0005506
+    properties:
+      source: IEA:InterPro
+      term: F:iron ion binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18577768
+        id: '18577768'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18577768
+    id: GO:0120319
+    properties:
+      source: IDA:UniProtKB
+      term: F:long-chain fatty acid omega-1 hydroxylase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19651758
+        id: '19651758'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19651758
+    id: GO:0004497
+    properties:
+      source: IDA:BHF-UCL
+      term: F:monooxygenase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16401082
+        id: '16401082'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16401082
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19219744
+        id: '19219744'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19219744
+    id: GO:0016491
+    properties:
+      source: IDA:BHF-UCL
+      term: F:oxidoreductase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0016712
+    properties:
+      source: IBA:GO_Central
+      term: F:oxidoreductase activity, acting on paired donors, with incorporation
+        or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor,
+        and incorporation of one atom of oxygen
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/3442670
+        id: '3442670'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/3442670
+    id: GO:0019825
+    properties:
+      source: TAS:ProtInc
+      term: F:oxygen binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18356043
+        id: '18356043'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18356043
+    id: GO:0008395
+    properties:
+      source: IMP:BHF-UCL
+      term: F:steroid hydroxylase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0019373
+    properties:
+      source: IBA:GO_Central
+      term: P:epoxygenase P450 pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19651758
+        id: '19651758'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19651758
+    id: GO:0046483
+    properties:
+      source: IDA:BHF-UCL
+      term: P:heterocycle metabolic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18577768
+        id: '18577768'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18577768
+    id: GO:0001676
+    properties:
+      source: IDA:UniProtKB
+      term: P:long-chain fatty acid metabolic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16401082
+        id: '16401082'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16401082
+    id: GO:0016098
+    properties:
+      source: IDA:BHF-UCL
+      term: P:monoterpenoid metabolic process
+    type: GO
+  - id: GO:0097267
+    properties:
+      source: TAS:Reactome
+      term: P:omega-hydroxylase P450 pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18356043
+        id: '18356043'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18356043
+    id: GO:0008202
+    properties:
+      source: IMP:BHF-UCL
+      term: P:steroid metabolic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19029318
+        id: '19029318'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19029318
+    id: GO:0042178
+    properties:
+      source: IDA:BHF-UCL
+      term: P:xenobiotic catabolic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19219744
+        id: '19219744'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19219744
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19651758
+        id: '19651758'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19651758
+    id: GO:0006805
+    properties:
+      source: IDA:BHF-UCL
+      term: P:xenobiotic metabolic process
+    type: GO
+  - id: cd20665
+    properties:
+      entry name: CYP2C-like
+      match status: '1'
+    type: CDD
+  - id: 1.10.630.10
+    properties:
+      entry name: Cytochrome P450
+      match status: '1'
+    type: Gene3D
+  - id: IPR001128
+    properties:
+      entry name: Cyt_P450
+    type: InterPro
+  - id: IPR017972
+    properties:
+      entry name: Cyt_P450_CS
+    type: InterPro
+  - id: IPR002401
+    properties:
+      entry name: Cyt_P450_E_grp-I
+    type: InterPro
+  - id: IPR036396
+    properties:
+      entry name: Cyt_P450_sf
+    type: InterPro
+  - id: PTHR24300:SF360
+    properties:
+      entry name: CYTOCHROME P450 2C19
+      match status: '1'
+    type: PANTHER
+  - id: PTHR24300
+    properties:
+      entry name: CYTOCHROME P450 508A4-RELATED
+      match status: '1'
+    type: PANTHER
+  - id: PF00067
+    properties:
+      entry name: p450
+      match status: '1'
+    type: Pfam
+  - id: PR00463
+    properties:
+      entry name: EP450I
+    type: PRINTS
+  - id: PR00385
+    properties:
+      entry name: P450
+    type: PRINTS
+  - id: SSF48264
+    properties:
+      entry name: Cytochrome P450
+      match status: '1'
+    type: SUPFAM
+  - id: PS00086
+    properties:
+      entry name: CYTOCHROME_P450
+      match status: '1'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Cytochrome P450 2C19
+    end: '490'
+    ftId: PRO_0000051708
+    molecule: ''
+    type: CHAIN
+  - begin: '435'
+    category: DOMAINS_AND_SITES
+    description: axial binding residue
+    end: '435'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23118231
+        id: '23118231'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23118231
+    - code: ECO:0007744
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    ligand:
+      dbReference:
+        id: CHEBI:30413
+        name: ChEBI
+      name: heme
+    ligandPart:
+      dbReference:
+        id: CHEBI:18248
+        name: ChEBI
+      name: Fe
+    molecule: ''
+    type: BINDING
+  - alternativeSequence: P
+    begin: '17'
+    category: VARIANTS
+    description: in allele CYP2C19*14; dbSNP:rs55752064
+    end: '17'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12464799
+        id: '12464799'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12464799
+    ftId: VAR_021268
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: L
+    begin: '19'
+    category: VARIANTS
+    description: in allele CYP2C19*15; dbSNP:rs17882687
+    end: '19'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12464799
+        id: '12464799'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12464799
+    - code: ECO:0000269
+      source:
+        id: Ref.3
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P33261#ref3
+    ftId: VAR_021269
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: G
+    begin: '51'
+    category: VARIANTS
+    description: in allele CYP2C19*19; dbSNP:rs1564657013
+    end: '51'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16141610
+        id: '16141610'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16141610
+    ftId: VAR_024083
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: T
+    begin: '74'
+    category: VARIANTS
+    description: in dbSNP:rs28399505
+    end: '74'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15469410
+        id: '15469410'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15469410
+    ftId: VAR_024718
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: D
+    begin: '92'
+    category: VARIANTS
+    description: in dbSNP:rs17878459
+    end: '92'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9732415
+        id: '9732415'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9732415
+    - code: ECO:0000269
+      source:
+        id: Ref.3
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P33261#ref3
+    ftId: VAR_021270
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: R
+    begin: '120'
+    category: VARIANTS
+    description: in allele CYP2C19*8; loss of activity; dbSNP:rs41291556
+    end: '120'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10411572
+        id: '10411572'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10411572
+    ftId: VAR_008357
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: A
+    begin: '122'
+    category: VARIANTS
+    description: in dbSNP:rs17885179
+    end: '122'
+    evidences:
+    - code: ECO:0000269
+      source:
+        id: Ref.3
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P33261#ref3
+    ftId: VAR_021271
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: Q
+    begin: '132'
+    category: VARIANTS
+    description: in allele CYP2C19*6; loss of activity; dbSNP:rs72552267
+    end: '132'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9732415
+        id: '9732415'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9732415
+    ftId: VAR_008358
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: H
+    begin: '144'
+    category: VARIANTS
+    description: in allele CYP2C19*9; dbSNP:rs17884712
+    end: '144'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12464799
+        id: '12464799'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12464799
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15469410
+        id: '15469410'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15469410
+    - code: ECO:0000269
+      source:
+        id: Ref.3
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P33261#ref3
+    ftId: VAR_021272
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: H
+    begin: '150'
+    category: VARIANTS
+    description: in allele CYP2C19*11; dbSNP:rs58973490
+    end: '150'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12464799
+        id: '12464799'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12464799
+    ftId: VAR_021273
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: P
+    begin: '161'
+    category: VARIANTS
+    description: in dbSNP:rs181297724
+    end: '161'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16141610
+        id: '16141610'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16141610
+    ftId: VAR_024084
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: L
+    begin: '168'
+    category: VARIANTS
+    description: in dbSNP:rs28399510
+    end: '168'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15469410
+        id: '15469410'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15469410
+    ftId: VAR_024719
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: L
+    begin: '227'
+    category: VARIANTS
+    description: in allele CYP2C19*10; dbSNP:rs6413438
+    end: '227'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12464799
+        id: '12464799'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12464799
+    ftId: VAR_020123
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: H
+    begin: '329'
+    category: VARIANTS
+    description: in allele CYP2C19*18; dbSNP:rs138142612
+    end: '329'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16141610
+        id: '16141610'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16141610
+    ftId: VAR_024085
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: V
+    begin: '331'
+    category: VARIANTS
+    description: in allele CYP2C19*1B, allele CYP2C19*1C, allele CYP2C19*2A, allele
+      CYP2C19*2B, allele CYP2C19*2C, allele CYP2C19*2E, allele CYP2C19*2F, allele
+      CYP2C19*2G, allele CYP2C19*2H, allele CYP2C19*2J, allele CYP2C19*3A, allele
+      CYP2C19*3B, allele CYP2C19*3C, allele CYP2C19*4A, allele CYP2C19*4B, allele
+      CYP2C19*6, allele CYP2C19*9, allele CYP2C19*10, allele CYP2C19*11, allele CYP2C19*12,
+      allele CYP2C19*13, allele CYP2C19*14, allele CYP2C19*15, allele CYP2C19*18,
+      allele CYP2C19*19, allele CYP2C19*22, allele CYP2C19*23, allele CYP2C19*24,
+      allele CYP2C19*25, allele CYP2C19*26, allele CYP2C19*27, allele CYP2C19*28,
+      allele CYP2C19*29, allele CYP2C19*31, allele CYP2C19*32, allele CYP2C19*33 and
+      allele CYP2C19*35; dbSNP:rs3758581
+    end: '331'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15469410
+        id: '15469410'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15469410
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16141610
+        id: '16141610'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16141610
+    - code: ECO:0000269
+      source:
+        id: Ref.3
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P33261#ref3
+    - code: ECO:0000269
+      source:
+        id: Ref.5
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P33261#ref5
+    ftId: VAR_001255
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: C
+    begin: '410'
+    category: VARIANTS
+    description: in allele CYP2C19*13; dbSNP:rs17879685
+    end: '410'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12464799
+        id: '12464799'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12464799
+    - code: ECO:0000269
+      source:
+        id: Ref.3
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P33261#ref3
+    ftId: VAR_021274
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: W
+    begin: '433'
+    category: VARIANTS
+    description: in allele CYP2C19*5A and allele CYP2C19*5B; loss of activity; dbSNP:rs56337013
+    end: '433'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10022751
+        id: '10022751'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10022751
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9103550
+        id: '9103550'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9103550
+    ftId: VAR_008359
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: C
+    begin: '442'
+    category: VARIANTS
+    description: in allele CYP2C19*16; lowered catalytic activity; dbSNP:rs192154563
+    end: '442'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15499191
+        id: '15499191'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15499191
+    ftId: VAR_021275
+    molecule: ''
+    type: VARIANT
+  - begin: '37'
+    category: STRUCTURAL
+    end: '39'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: TURN
+  - begin: '42'
+    category: STRUCTURAL
+    end: '44'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '47'
+    category: STRUCTURAL
+    end: '49'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '50'
+    category: STRUCTURAL
+    end: '61'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '63'
+    category: STRUCTURAL
+    end: '69'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: STRAND
+  - begin: '72'
+    category: STRUCTURAL
+    end: '77'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: STRAND
+  - begin: '80'
+    category: STRUCTURAL
+    end: '87'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '88'
+    category: STRUCTURAL
+    end: '90'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: TURN
+  - begin: '91'
+    category: STRUCTURAL
+    end: '94'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '103'
+    category: STRUCTURAL
+    end: '106'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '107'
+    category: STRUCTURAL
+    end: '109'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: TURN
+  - begin: '117'
+    category: STRUCTURAL
+    end: '130'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '135'
+    category: STRUCTURAL
+    end: '139'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: STRAND
+  - begin: '141'
+    category: STRUCTURAL
+    end: '158'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '159'
+    category: STRUCTURAL
+    end: '161'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: TURN
+  - begin: '166'
+    category: STRUCTURAL
+    end: '168'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: TURN
+  - begin: '169'
+    category: STRUCTURAL
+    end: '182'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '183'
+    category: STRUCTURAL
+    end: '185'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: STRAND
+  - begin: '192'
+    category: STRUCTURAL
+    end: '209'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '211'
+    category: STRUCTURAL
+    end: '218'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '222'
+    category: STRUCTURAL
+    end: '225'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '228'
+    category: STRUCTURAL
+    end: '254'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '263'
+    category: STRUCTURAL
+    end: '273'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '274'
+    category: STRUCTURAL
+    end: '276'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: TURN
+  - begin: '284'
+    category: STRUCTURAL
+    end: '297'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '300'
+    category: STRUCTURAL
+    end: '315'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '317'
+    category: STRUCTURAL
+    end: '330'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '333'
+    category: STRUCTURAL
+    end: '335'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: STRAND
+  - begin: '339'
+    category: STRUCTURAL
+    end: '344'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '346'
+    category: STRUCTURAL
+    end: '359'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '377'
+    category: STRUCTURAL
+    end: '379'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: STRAND
+  - begin: '386'
+    category: STRUCTURAL
+    end: '389'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: STRAND
+  - begin: '391'
+    category: STRUCTURAL
+    end: '395'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '398'
+    category: STRUCTURAL
+    end: '400'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: TURN
+  - begin: '401'
+    category: STRUCTURAL
+    end: '403'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: STRAND
+  - begin: '409'
+    category: STRUCTURAL
+    end: '412'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '415'
+    category: STRUCTURAL
+    end: '417'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: STRAND
+  - begin: '438'
+    category: STRUCTURAL
+    end: '455'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: HELIX
+  - begin: '456'
+    category: STRUCTURAL
+    end: '462'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: STRAND
+  - begin: '464'
+    category: STRUCTURAL
+    end: '466'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: TURN
+  - begin: '475'
+    category: STRUCTURAL
+    end: '477'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: STRAND
+  - begin: '485'
+    category: STRUCTURAL
+    end: '489'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GQS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GQS
+    molecule: ''
+    type: STRAND
+  gene:
+  - name:
+      value: CYP2C19
+  id: CP2CJ_HUMAN
+  info:
+    created: '1994-02-01'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 209
+  keywords:
+  - value: 3D-structure
+  - value: Direct protein sequencing
+  - value: Endoplasmic reticulum
+  - value: Fatty acid metabolism
+  - value: Heme
+  - value: Iron
+  - value: Lipid metabolism
+  - value: Membrane
+  - value: Metal-binding
+  - value: Microsome
+  - value: Monooxygenase
+  - value: NADP
+  - value: Oxidoreductase
+  - value: Reference proteome
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - ecNumber:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/11950794
+            id: '11950794'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/11950794
+        value: 1.14.14.53
+      fullName:
+        value: (R)-limonene 6-monooxygenase
+    - ecNumber:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/11950794
+            id: '11950794'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/11950794
+        value: 1.14.14.51
+      fullName:
+        value: (S)-limonene 6-monooxygenase
+    - ecNumber:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/11950794
+            id: '11950794'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/11950794
+        value: 1.14.14.52
+      fullName:
+        value: (S)-limonene 7-monooxygenase
+    - fullName:
+        value: CYPIIC17
+    - fullName:
+        value: CYPIIC19
+    - fullName:
+        value: Cytochrome P450-11A
+    - fullName:
+        value: Cytochrome P450-254C
+    - ecNumber:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/23959307
+            id: '23959307'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/23959307
+        value: 1.14.14.75
+      fullName:
+        evidences:
+        - code: ECO:0000305
+        value: Fenbendazole monooxygenase (4'-hydroxylating)
+    - fullName:
+        value: Mephenytoin 4-hydroxylase
+    recommendedName:
+      ecNumber:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/18577768
+            id: '18577768'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/18577768
+        value: 1.14.14.1
+      fullName:
+        value: Cytochrome P450 2C19
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Romkes M.
+      - Faletto M.B.
+      - Blaisdell J.A.
+      - Raucy J.L.
+      - Goldstein J.A.
+      dbReferences:
+      - id: '2009263'
+        type: PubMed
+      - id: 10.1021/bi00227a012
+        type: DOI
+      location:
+        firstPage: '3247'
+        lastPage: '3255'
+        volume: '30'
+      publication:
+        journalName: Biochemistry
+      publicationDate: '1991'
+      title: Cloning and expression of complementary DNAs for multiple members of
+        the human cytochrome P450IIC subfamily.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ALLELE CYP2C19*1A)
+    - VARIANT VAL-331
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Romkes M.
+      - Faletto M.B.
+      - Blaisdell J.A.
+      - Raucy J.L.
+      - Goldstein J.A.
+      dbReferences:
+      - id: '8095407'
+        type: PubMed
+      - id: 10.1021/bi00056a025
+        type: DOI
+      location:
+        firstPage: '1390'
+        lastPage: '1390'
+        volume: '32'
+      publication:
+        journalName: Biochemistry
+      publicationDate: '1993'
+      type: journal article
+    scope:
+    - ERRATUM OF PUBMED:2009263
+    - SEQUENCE REVISION
+  - citation:
+      consortiums:
+      - NIEHS SNPs program
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: OCT-2004
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+    - VARIANTS LEU-19; ASP-92; ALA-122; HIS-144; VAL-331 AND CYS-410
+  - citation:
+      authors:
+      - Deloukas P.
+      - Earthrowl M.E.
+      - Grafham D.V.
+      - Rubenfield M.
+      - French L.
+      - Steward C.A.
+      - Sims S.K.
+      - Jones M.C.
+      - Searle S.
+      - Scott C.
+      - Howe K.
+      - Hunt S.E.
+      - Andrews T.D.
+      - Gilbert J.G.R.
+      - Swarbreck D.
+      - Ashurst J.L.
+      - Taylor A.
+      - Battles J.
+      - Bird C.P.
+      - Ainscough R.
+      - Almeida J.P.
+      - Ashwell R.I.S.
+      - Ambrose K.D.
+      - Babbage A.K.
+      - Bagguley C.L.
+      - Bailey J.
+      - Banerjee R.
+      - Bates K.
+      - Beasley H.
+      - Bray-Allen S.
+      - Brown A.J.
+      - Brown J.Y.
+      - Burford D.C.
+      - Burrill W.
+      - Burton J.
+      - Cahill P.
+      - Camire D.
+      - Carter N.P.
+      - Chapman J.C.
+      - Clark S.Y.
+      - Clarke G.
+      - Clee C.M.
+      - Clegg S.
+      - Corby N.
+      - Coulson A.
+      - Dhami P.
+      - Dutta I.
+      - Dunn M.
+      - Faulkner L.
+      - Frankish A.
+      - Frankland J.A.
+      - Garner P.
+      - Garnett J.
+      - Gribble S.
+      - Griffiths C.
+      - Grocock R.
+      - Gustafson E.
+      - Hammond S.
+      - Harley J.L.
+      - Hart E.
+      - Heath P.D.
+      - Ho T.P.
+      - Hopkins B.
+      - Horne J.
+      - Howden P.J.
+      - Huckle E.
+      - Hynds C.
+      - Johnson C.
+      - Johnson D.
+      - Kana A.
+      - Kay M.
+      - Kimberley A.M.
+      - Kershaw J.K.
+      - Kokkinaki M.
+      - Laird G.K.
+      - Lawlor S.
+      - Lee H.M.
+      - Leongamornlert D.A.
+      - Laird G.
+      - Lloyd C.
+      - Lloyd D.M.
+      - Loveland J.
+      - Lovell J.
+      - McLaren S.
+      - McLay K.E.
+      - McMurray A.
+      - Mashreghi-Mohammadi M.
+      - Matthews L.
+      - Milne S.
+      - Nickerson T.
+      - Nguyen M.
+      - Overton-Larty E.
+      - Palmer S.A.
+      - Pearce A.V.
+      - Peck A.I.
+      - Pelan S.
+      - Phillimore B.
+      - Porter K.
+      - Rice C.M.
+      - Rogosin A.
+      - Ross M.T.
+      - Sarafidou T.
+      - Sehra H.K.
+      - Shownkeen R.
+      - Skuce C.D.
+      - Smith M.
+      - Standring L.
+      - Sycamore N.
+      - Tester J.
+      - Thorpe A.
+      - Torcasso W.
+      - Tracey A.
+      - Tromans A.
+      - Tsolas J.
+      - Wall M.
+      - Walsh J.
+      - Wang H.
+      - Weinstock K.
+      - West A.P.
+      - Willey D.L.
+      - Whitehead S.L.
+      - Wilming L.
+      - Wray P.W.
+      - Young L.
+      - Chen Y.
+      - Lovering R.C.
+      - Moschonas N.K.
+      - Siebert R.
+      - Fechtel K.
+      - Bentley D.
+      - Durbin R.M.
+      - Hubbard T.
+      - Doucette-Stamm L.
+      - Beck S.
+      - Smith D.R.
+      - Rogers J.
+      dbReferences:
+      - id: '15164054'
+        type: PubMed
+      - id: 10.1038/nature02462
+        type: DOI
+      location:
+        firstPage: '375'
+        lastPage: '381'
+        volume: '429'
+      publication:
+        journalName: Nature
+      publicationDate: '2004'
+      title: The DNA sequence and comparative analysis of human chromosome 10.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      authors:
+      - de Morais S.M.F.
+      - Blaisdell J.A.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: NOV-2001
+      title: Gene structure, upstream region and allelic variants of cyp2c19, the
+        s-mephenytoin hydroxylase.
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-160 AND 274-490
+  - citation:
+      authors:
+      - Wrighton S.A.
+      - Stevens J.C.
+      - Becker G.W.
+      - VandenBranden M.
+      dbReferences:
+      - id: '8215410'
+        type: PubMed
+      - id: 10.1006/abbi.1993.1506
+        type: DOI
+      location:
+        firstPage: '240'
+        lastPage: '245'
+        volume: '306'
+      publication:
+        journalName: Arch. Biochem. Biophys.
+      publicationDate: '1993'
+      title: 'Isolation and characterization of human liver cytochrome P450 2C19:
+        correlation between 2C19 and S-mephenytoin 4''-hydroxylation.'
+      type: journal article
+    scope:
+    - PROTEIN SEQUENCE OF 1-16
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Miyazawa M.
+      - Shindo M.
+      - Shimada T.
+      dbReferences:
+      - id: '11950794'
+        type: PubMed
+      - id: 10.1124/dmd.30.5.602
+        type: DOI
+      location:
+        firstPage: '602'
+        lastPage: '607'
+        volume: '30'
+      publication:
+        journalName: Drug Metab. Dispos.
+      publicationDate: '2002'
+      title: Metabolism of (+)- and (-)-limonenes to respective carveols and perillyl
+        alcohols by CYP2C9 and CYP2C19 in human liver microsomes.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - PATHWAY
+  - citation:
+      authors:
+      - Fer M.
+      - Corcos L.
+      - Dreano Y.
+      - Plee-Gautier E.
+      - Salaun J.P.
+      - Berthou F.
+      - Amet Y.
+      dbReferences:
+      - id: '18577768'
+        type: PubMed
+      - id: 10.1194/jlr.m800199-jlr200
+        type: DOI
+      location:
+        firstPage: '2379'
+        lastPage: '2389'
+        volume: '49'
+      publication:
+        journalName: J. Lipid Res.
+      publicationDate: '2008'
+      title: 'Cytochromes P450 from family 4 are the main omega hydroxylating enzymes
+        in humans: CYP4F3B is the prominent player in PUFA metabolism.'
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - PATHWAY
+  - citation:
+      authors:
+      - Lucas D.
+      - Goulitquer S.
+      - Marienhagen J.
+      - Fer M.
+      - Dreano Y.
+      - Schwaneberg U.
+      - Amet Y.
+      - Corcos L.
+      dbReferences:
+      - id: '19965576'
+        type: PubMed
+      - id: 10.1194/jlr.m003061
+        type: DOI
+      location:
+        firstPage: '1125'
+        lastPage: '1133'
+        volume: '51'
+      publication:
+        journalName: J. Lipid Res.
+      publicationDate: '2010'
+      title: Stereoselective epoxidation of the last double bond of polyunsaturated
+        fatty acids by human cytochromes P450.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - PATHWAY
+  - citation:
+      authors:
+      - Mesaros C.
+      - Lee S.H.
+      - Blair I.A.
+      dbReferences:
+      - id: '20972997'
+        type: PubMed
+      - id: 10.1002/rcm.4760
+        type: DOI
+      location:
+        firstPage: '3237'
+        lastPage: '3247'
+        volume: '24'
+      publication:
+        journalName: Rapid Commun. Mass Spectrom.
+      publicationDate: '2010'
+      title: Analysis of epoxyeicosatrienoic acids by chiral liquid chromatography/electron
+        capture atmospheric pressure chemical ionization mass spectrometry using [13C]-analog
+        internal standards.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - PATHWAY
+  - citation:
+      authors:
+      - Wu Z.
+      - Lee D.
+      - Joo J.
+      - Shin J.H.
+      - Kang W.
+      - Oh S.
+      - Lee D.Y.
+      - Lee S.J.
+      - Yea S.S.
+      - Lee H.S.
+      - Lee T.
+      - Liu K.H.
+      dbReferences:
+      - id: '23959307'
+        type: PubMed
+      - id: 10.1128/aac.00843-13
+        type: DOI
+      location:
+        firstPage: '5448'
+        lastPage: '5456'
+        volume: '57'
+      publication:
+        journalName: Antimicrob. Agents Chemother.
+      publicationDate: '2013'
+      title: CYP2J2 and CYP2C19 are the major enzymes responsible for metabolism of
+        albendazole and fenbendazole in human liver microsomes and recombinant P450
+        assay systems.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+  - citation:
+      authors:
+      - Bian Y.
+      - Song C.
+      - Cheng K.
+      - Dong M.
+      - Wang F.
+      - Huang J.
+      - Sun D.
+      - Wang L.
+      - Ye M.
+      - Zou H.
+      dbReferences:
+      - id: '24275569'
+        type: PubMed
+      - id: 10.1016/j.jprot.2013.11.014
+        type: DOI
+      location:
+        firstPage: '253'
+        lastPage: '262'
+        volume: '96'
+      publication:
+        journalName: J. Proteomics
+      publicationDate: '2014'
+      title: An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+        phosphoproteome.
+      type: journal article
+    scope:
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Zhou Y.
+      - Ingelman-Sundberg M.
+      - Lauschke V.M.
+      dbReferences:
+      - id: '28378927'
+        type: PubMed
+      - id: 10.1002/cpt.690
+        type: DOI
+      location:
+        firstPage: '688'
+        lastPage: '700'
+        volume: '102'
+      publication:
+        journalName: Clin. Pharmacol. Ther.
+      publicationDate: '2017'
+      title: 'Worldwide Distribution of Cytochrome P450 Alleles: A Meta-analysis of
+        Population-scale Sequencing Projects.'
+      type: journal article
+    scope:
+    - POLYMORPHISM
+  - citation:
+      authors:
+      - Reynald R.L.
+      - Sansen S.
+      - Stout C.D.
+      - Johnson E.F.
+      dbReferences:
+      - id: '23118231'
+        type: PubMed
+      - id: 10.1074/jbc.m112.424895
+        type: DOI
+      location:
+        firstPage: '44581'
+        lastPage: '44591'
+        volume: '287'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2012'
+      title: 'Structural characterization of human cytochrome P450 2C19: active site
+        differences between P450s 2C8, 2C9, and 2C19.'
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (2.87 ANGSTROMS) OF 23-489 IN COMPLEX WITH HEME AND SYNTHETIC
+      INHIBITOR
+    - COFACTOR
+  - citation:
+      authors:
+      - de Morais S.M.F.
+      - Wilkinson G.R.
+      - Blaisdell J.
+      - Nakamura K.
+      - Meyer U.A.
+      - Goldstein J.A.
+      dbReferences:
+      - id: '8195181'
+        type: PubMed
+      - id: 10.1016/s0021-9258(17)40694-6
+        type: DOI
+      location:
+        firstPage: '15419'
+        lastPage: '15422'
+        volume: '269'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '1994'
+      title: The major genetic defect responsible for the polymorphism of S-mephenytoin
+        metabolism in humans.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN POOR DRUG METABOLISM
+    - IDENTIFICATION OF ALLELE CYP2C19*2A
+  - citation:
+      authors:
+      - De Morais S.M.F.
+      - Wilkinson G.R.
+      - Blaisdell J.
+      - Meyer U.A.
+      - Nakamura K.
+      - Goldstein J.A.
+      dbReferences:
+      - id: '7969038'
+        type: PubMed
+      location:
+        firstPage: '594'
+        lastPage: '598'
+        volume: '46'
+      publication:
+        journalName: Mol. Pharmacol.
+      publicationDate: '1994'
+      title: Identification of a new genetic defect responsible for the polymorphism
+        of (S)-mephenytoin metabolism in Japanese.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN POOR DRUG METABOLISM
+    - IDENTIFICATION OF ALLELE CYP2C19*3A
+  - citation:
+      authors:
+      - Xiao Z.S.
+      - Goldstein J.A.
+      - Xie H.G.
+      - Blaisdell J.
+      - Wang W.
+      - Jiang C.H.
+      - Yan F.X.
+      - He N.
+      - Huang S.L.
+      - Xu Z.H.
+      - Zhou H.H.
+      dbReferences:
+      - id: '9103550'
+        type: PubMed
+      location:
+        firstPage: '604'
+        lastPage: '609'
+        volume: '281'
+      publication:
+        journalName: J. Pharmacol. Exp. Ther.
+      publicationDate: '1997'
+      title: Differences in the incidence of the CYP2C19 polymorphism affecting the
+        S-mephenytoin phenotype in Chinese Han and Bai populations and identification
+        of a new rare CYP2C19 mutant allele.
+      type: journal article
+    scope:
+    - VARIANT TRP-433
+  - citation:
+      authors:
+      - Ibeanu G.C.
+      - Goldstein J.A.
+      - Meyer U.A.
+      - Benhamou S.
+      - Bouchardy C.
+      - Dayer P.
+      - Ghanayem B.I.
+      - Blaisdell J.
+      dbReferences:
+      - id: '9732415'
+        type: PubMed
+      location:
+        firstPage: '1490'
+        lastPage: '1495'
+        volume: '286'
+      publication:
+        journalName: J. Pharmacol. Exp. Ther.
+      publicationDate: '1998'
+      title: Identification of new human CYP2C19 alleles (CYP2C19*6 and CYP2C19*2B)
+        in a Caucasian poor metabolizer of mephenytoin.
+      type: journal article
+    scope:
+    - VARIANTS ASP-92 AND GLN-132
+  - citation:
+      authors:
+      - Ibeanu G.C.
+      - Blaisdell J.
+      - Ghanayem B.I.
+      - Beyeler C.
+      - Benhamou S.
+      - Bouchardy C.
+      - Wilkinson G.R.
+      - Dayer P.
+      - Daly A.K.
+      - Goldstein J.A.
+      dbReferences:
+      - id: '10022751'
+        type: PubMed
+      - id: 10.1097/00008571-199804000-00006
+        type: DOI
+      location:
+        firstPage: '129'
+        lastPage: '135'
+        volume: '8'
+      publication:
+        journalName: Pharmacogenetics
+      publicationDate: '1998'
+      title: An additional defective allele, CYP2C19*5, contributes to the S-mephenytoin
+        poor metabolizer phenotype in Caucasians.
+      type: journal article
+    scope:
+    - VARIANT TRP-433
+  - citation:
+      authors:
+      - Ibeanu G.C.
+      - Blaisdell J.
+      - Ferguson R.J.
+      - Ghanayem B.I.
+      - Brosen K.
+      - Benhamou S.
+      - Bouchardy C.
+      - Wilkinson G.R.
+      - Dayer P.
+      - Goldstein J.A.
+      dbReferences:
+      - id: '10411572'
+        type: PubMed
+      location:
+        firstPage: '635'
+        lastPage: '640'
+        volume: '290'
+      publication:
+        journalName: J. Pharmacol. Exp. Ther.
+      publicationDate: '1999'
+      title: A novel transversion in the intron 5 donor splice junction of CYP2C19
+        and a sequence polymorphism in exon 3 contribute to the poor metabolizer phenotype
+        for the anticonvulsant drug S-mephenytoin.
+      type: journal article
+    scope:
+    - VARIANT ARG-120
+  - citation:
+      authors:
+      - Blaisdell J.
+      - Mohrenweiser H.
+      - Jackson J.
+      - Ferguson S.
+      - Coulter S.
+      - Chanas B.
+      - Xi T.
+      - Ghanayem B.
+      - Goldstein J.A.
+      dbReferences:
+      - id: '12464799'
+        type: PubMed
+      - id: 10.1097/00008571-200212000-00004
+        type: DOI
+      location:
+        firstPage: '703'
+        lastPage: '711'
+        volume: '12'
+      publication:
+        journalName: Pharmacogenetics
+      publicationDate: '2002'
+      title: Identification and functional characterization of new potentially defective
+        alleles of human CYP2C19.
+      type: journal article
+    scope:
+    - VARIANTS PRO-17; LEU-19; HIS-144; HIS-150; LEU-227 AND CYS-410
+  - citation:
+      authors:
+      - Morita J.
+      - Kobayashi K.
+      - Wanibuchi A.
+      - Kimura M.
+      - Irie S.
+      - Ishizaki T.
+      - Chiba K.
+      dbReferences:
+      - id: '15499191'
+        type: PubMed
+      - id: 10.2133/dmpk.19.236
+        type: DOI
+      location:
+        firstPage: '236'
+        lastPage: '238'
+        volume: '19'
+      publication:
+        journalName: Drug Metab. Pharmacokinet.
+      publicationDate: '2004'
+      title: A novel single nucleotide polymorphism (SNP) of the CYP2C19 gene in a
+        Japanese subject with lowered capacity of mephobarbital 4'-hydroxylation.
+      type: journal article
+    scope:
+    - VARIANT CYS-442
+  - citation:
+      authors:
+      - Solus J.F.
+      - Arietta B.J.
+      - Harris J.R.
+      - Sexton D.P.
+      - Steward J.Q.
+      - McMunn C.
+      - Ihrie P.
+      - Mehall J.M.
+      - Edwards T.L.
+      - Dawson E.P.
+      dbReferences:
+      - id: '15469410'
+        type: PubMed
+      - id: 10.1517/14622416.5.7.895
+        type: DOI
+      location:
+        firstPage: '895'
+        lastPage: '931'
+        volume: '5'
+      publication:
+        journalName: Pharmacogenomics
+      publicationDate: '2004'
+      title: Genetic variation in eleven phase I drug metabolism genes in an ethnically
+        diverse population.
+      type: journal article
+    scope:
+    - VARIANTS THR-74; HIS-144 AND LEU-168
+  - citation:
+      authors:
+      - Fukushima-Uesaka H.
+      - Saito Y.
+      - Maekawa K.
+      - Ozawa S.
+      - Hasegawa R.
+      - Kajio H.
+      - Kuzuya N.
+      - Yasuda K.
+      - Kawamoto M.
+      - Kamatani N.
+      - Suzuki K.
+      - Yanagawa T.
+      - Tohkin M.
+      - Sawada J.
+      dbReferences:
+      - id: '16141610'
+        type: PubMed
+      - id: 10.2133/dmpk.20.300
+        type: DOI
+      location:
+        firstPage: '300'
+        lastPage: '307'
+        volume: '20'
+      publication:
+        journalName: Drug Metab. Pharmacokinet.
+      publicationDate: '2005'
+      title: Genetic variations and haplotypes of CYP2C19 in a Japanese population.
+      type: journal article
+    scope:
+    - VARIANTS GLY-51; PRO-161 AND HIS-329
+  secondaryAccession:
+  - P33259
+  - Q8WZB1
+  - Q8WZB2
+  - Q9UCD4
+  sequence:
+    length: 490
+    mass: 55945
+    modified: '2022-02-23'
+    sequence: MDPFVVLVLCLSCLLLLSIWRQSSGRGKLPPGPTPLPVIGNILQIDIKDVSKSLTNLSKIYGPVFTLYFGLERMVVLHGYEVVKEALIDLGEEFSGRGHFPLAERANRGFGIVFSNGKRWKEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICSIIFQKRFDYKDQQFLNLMEKLNENIRIVSTPWIQICNNFPTIIDYFPGTHNKLLKNLAFMESDILEKVKEHQESMDINNPRDFIDCFLIKMEKEKQNQQSEFTIENLVITAADLLGAGTETTSTTLRYALLLLLKHPEVTAKVQEEIERVIGRNRSPCMQDRGHMPYTDAVVHEVQRYIDLIPTSLPHAVTCDVKFRNYLIPKGTTILTSLTSVLHDNKEFPNPEMFDPRHFLDEGGNFKKSNYFMPFSAGKRICVGEGLARMELFLFLTFILQNFNLKSLIDPKDLDTTPVVNGFASVPPFYQLCFIPV
+    version: 4
+uniprot_id: P33261

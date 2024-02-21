@@ -1,0 +1,2894 @@
+data:
+  accession: P08913
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/23105096
+          id: '23105096'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/23105096
+      value: Alpha-2 adrenergic receptors mediate the catecholamine-induced inhibition
+        of adenylate cyclase through the action of G proteins. The rank order of potency
+        for agonists of this receptor is oxymetazoline > clonidine > epinephrine >
+        norepinephrine > phenylephrine > dopamine > p-synephrine > p-tyramine > serotonin
+        = p-octopamine. For antagonists, the rank order is yohimbine > phentolamine
+        = mianserine > chlorpromazine = spiperone = prazosin > propanolol > alprenolol
+        = pindolol
+    type: FUNCTION
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/23105096
+            id: '23105096'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/23105096
+        value: Cell membrane
+      topology:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/23105096
+            id: '23105096'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/23105096
+        value: Multi-pass membrane protein
+    type: SUBCELLULAR_LOCATION
+  - text:
+    - evidences:
+      - code: ECO:0000255
+        source:
+          id: PRU00521
+          name: PROSITE-ProRule
+          url: https://prosite.expasy.org/unirule/PRU00521
+      value: Belongs to the G-protein coupled receptor 1 family. Adrenergic receptor
+        subfamily. ADRA2A sub-subfamily
+    type: SIMILARITY
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: It is uncertain whether Met-1 or Met-16 is the initiator
+    type: CAUTION
+  - conflictType: ERRONEOUS_INITIATION
+    evidences:
+    - code: ECO:0000305
+    sequence: AAA51664.1
+    text: Truncated N-terminus.
+    type: SEQUENCE_CAUTION
+  - conflictType: FRAMESHIFT
+    evidences:
+    - code: ECO:0000305
+    sequence: AAA51664.1
+    type: SEQUENCE_CAUTION
+  - conflictType: ERRONEOUS_INITIATION
+    evidences:
+    - code: ECO:0000305
+    sequence: AAA51665.1
+    text: Truncated N-terminus.
+    type: SEQUENCE_CAUTION
+  - conflictType: FRAMESHIFT
+    evidences:
+    - code: ECO:0000305
+    sequence: AAA51665.1
+    type: SEQUENCE_CAUTION
+  - conflictType: ERRONEOUS_INITIATION
+    evidences:
+    - code: ECO:0000305
+    sequence: AAG00447.2
+    text: Truncated N-terminus.
+    type: SEQUENCE_CAUTION
+  - conflictType: ERRONEOUS_INITIATION
+    evidences:
+    - code: ECO:0000305
+    sequence: AAH35047.1
+    text: Truncated N-terminus.
+    type: SEQUENCE_CAUTION
+  - conflictType: ERRONEOUS_INITIATION
+    evidences:
+    - code: ECO:0000305
+    sequence: AAH50414.4
+    text: Truncated N-terminus.
+    type: SEQUENCE_CAUTION
+  - conflictType: ERRONEOUS_INITIATION
+    evidences:
+    - code: ECO:0000305
+    sequence: AAK26743.1
+    text: Truncated N-terminus.
+    type: SEQUENCE_CAUTION
+  - conflictType: ERRONEOUS_INITIATION
+    evidences:
+    - code: ECO:0000305
+    sequence: AAK51162.1
+    text: Truncated N-terminus.
+    type: SEQUENCE_CAUTION
+  - conflictType: ERRONEOUS_INITIATION
+    evidences:
+    - code: ECO:0000305
+    sequence: AAZ73101.1
+    text: Truncated N-terminus.
+    type: SEQUENCE_CAUTION
+  - conflictType: ERRONEOUS_INITIATION
+    evidences:
+    - code: ECO:0000305
+    sequence: ABB72683.1
+    text: Truncated N-terminus.
+    type: SEQUENCE_CAUTION
+  - conflictType: ERRONEOUS_INITIATION
+    evidences:
+    - code: ECO:0000305
+    sequence: ABY87535.1
+    text: Truncated N-terminus.
+    type: SEQUENCE_CAUTION
+  - name: SeattleSNPs
+    type: WEBRESOURCE
+    url: http://pga.gs.washington.edu/data/adra2a/
+  dbReferences:
+  - id: M23533
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA51665.1
+      status: ALT_SEQ
+    type: EMBL
+  - id: DQ149926
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAZ73101.1
+      status: ALT_INIT
+    type: EMBL
+  - id: AF284095
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAK26743.1
+      status: ALT_INIT
+    type: EMBL
+  - id: AF262016
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAG00447.2
+      status: ALT_INIT
+    type: EMBL
+  - id: AY032736
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAK51162.1
+      status: ALT_INIT
+    type: EMBL
+  - id: DQ285607
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: ABB72683.1
+      status: ALT_INIT
+    type: EMBL
+  - id: EU332846
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: ABY87535.1
+      status: ALT_INIT
+    type: EMBL
+  - id: AL158163
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: BC035047
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH35047.1
+      status: ALT_INIT
+    type: EMBL
+  - id: BC050414
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH50414.4
+      status: ALT_INIT
+    type: EMBL
+  - id: M18415
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA51664.1
+      status: ALT_SEQ
+    type: EMBL
+  - id: AF281308
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAF91441.1
+    type: EMBL
+  - id: AF316894
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAK01634.1
+    type: EMBL
+  - id: CCDS7569.2
+    type: CCDS
+  - id: A34169
+    properties:
+      entry name: A34169
+    type: PIR
+  - id: NP_000672.3
+    properties:
+      nucleotide sequence ID: NM_000681.3
+    type: RefSeq
+  - id: 1HLL
+    properties:
+      chains: A=133-164
+      method: NMR
+    type: PDB
+  - id: 1HO9
+    properties:
+      chains: A=133-164
+      method: NMR
+    type: PDB
+  - id: 1HOD
+    properties:
+      chains: A=133-164
+      method: NMR
+    type: PDB
+  - id: 1HOF
+    properties:
+      chains: A=133-164
+      method: NMR
+    type: PDB
+  - id: 6K42
+    properties:
+      chains: R=37-44
+      method: EM
+      resolution: 4.10 A
+    type: PDB
+  - id: 6KUX
+    properties:
+      chains: A=35-460
+      method: X-ray
+      resolution: 2.70 A
+    type: PDB
+  - id: 6KUY
+    properties:
+      chains: A=35-460
+      method: X-ray
+      resolution: 3.20 A
+    type: PDB
+  - id: 7EJ0
+    properties:
+      chains: R=1-465
+      method: EM
+      resolution: 3.20 A
+    type: PDB
+  - id: 7EJ8
+    properties:
+      chains: R=1-465
+      method: EM
+      resolution: 3.00 A
+    type: PDB
+  - id: 7EJA
+    properties:
+      chains: R=1-465
+      method: EM
+      resolution: 3.60 A
+    type: PDB
+  - id: 7EJK
+    properties:
+      chains: R=1-465
+      method: EM
+      resolution: 3.40 A
+    type: PDB
+  - id: 7W6P
+    properties:
+      chains: R=1-465
+      method: EM
+      resolution: 3.47 A
+    type: PDB
+  - id: 7W7E
+    properties:
+      chains: R=1-465
+      method: EM
+      resolution: 3.40 A
+    type: PDB
+  - id: 1HLL
+    type: PDBsum
+  - id: 1HO9
+    type: PDBsum
+  - id: 1HOD
+    type: PDBsum
+  - id: 1HOF
+    type: PDBsum
+  - id: 6K42
+    type: PDBsum
+  - id: 6KUX
+    type: PDBsum
+  - id: 6KUY
+    type: PDBsum
+  - id: 7EJ0
+    type: PDBsum
+  - id: 7EJ8
+    type: PDBsum
+  - id: 7EJA
+    type: PDBsum
+  - id: 7EJK
+    type: PDBsum
+  - id: 7W6P
+    type: PDBsum
+  - id: 7W7E
+    type: PDBsum
+  - id: P08913
+    type: AlphaFoldDB
+  - id: P08913
+    type: BMRB
+  - id: EMD-31147
+    type: EMDB
+  - id: EMD-31156
+    type: EMDB
+  - id: EMD-31157
+    type: EMDB
+  - id: EMD-31162
+    type: EMDB
+  - id: EMD-32331
+    type: EMDB
+  - id: EMD-32342
+    type: EMDB
+  - id: EMD-9912
+    type: EMDB
+  - id: P08913
+    type: SMR
+  - id: '106659'
+    properties:
+      interactions: '9'
+    type: BioGRID
+  - id: P08913
+    type: CORUM
+  - id: DIP-61452N
+    type: DIP
+  - id: P08913
+    properties:
+      interactions: '7'
+    type: IntAct
+  - id: 9606.ENSP00000280155
+    type: STRING
+  - id: P08913
+    type: BindingDB
+  - id: CHEMBL1867
+    type: ChEMBL
+  - id: DB01472
+    properties:
+      generic name: 4-Methoxyamphetamine
+    type: DrugBank
+  - id: DB00321
+    properties:
+      generic name: Amitriptyline
+    type: DrugBank
+  - id: DB00543
+    properties:
+      generic name: Amoxapine
+    type: DrugBank
+  - id: DB00182
+    properties:
+      generic name: Amphetamine
+    type: DrugBank
+  - id: DB00714
+    properties:
+      generic name: Apomorphine
+    type: DrugBank
+  - id: DB00964
+    properties:
+      generic name: Apraclonidine
+    type: DrugBank
+  - id: DB09229
+    properties:
+      generic name: Aranidipine
+    type: DrugBank
+  - id: DB01238
+    properties:
+      generic name: Aripiprazole
+    type: DrugBank
+  - id: DB14185
+    properties:
+      generic name: Aripiprazole lauroxil
+    type: DrugBank
+  - id: DB06216
+    properties:
+      generic name: Asenapine
+    type: DrugBank
+  - id: DB00865
+    properties:
+      generic name: Benzphetamine
+    type: DrugBank
+  - id: DB00217
+    properties:
+      generic name: Bethanidine
+    type: DrugBank
+  - id: DB00484
+    properties:
+      generic name: Brimonidine
+    type: DrugBank
+  - id: DB01200
+    properties:
+      generic name: Bromocriptine
+    type: DrugBank
+  - id: DB00248
+    properties:
+      generic name: Cabergoline
+    type: DrugBank
+  - id: DB01136
+    properties:
+      generic name: Carvedilol
+    type: DrugBank
+  - id: DB04846
+    properties:
+      generic name: Celiprolol
+    type: DrugBank
+  - id: DB00477
+    properties:
+      generic name: Chlorpromazine
+    type: DrugBank
+  - id: DB09202
+    properties:
+      generic name: Cirazoline
+    type: DrugBank
+  - id: DB00575
+    properties:
+      generic name: Clonidine
+    type: DrugBank
+  - id: DB00363
+    properties:
+      generic name: Clozapine
+    type: DrugBank
+  - id: DB01151
+    properties:
+      generic name: Desipramine
+    type: DrugBank
+  - id: DB00633
+    properties:
+      generic name: Dexmedetomidine
+    type: DrugBank
+  - id: DB01576
+    properties:
+      generic name: Dextroamphetamine
+    type: DrugBank
+  - id: DB11273
+    properties:
+      generic name: Dihydroergocornine
+    type: DrugBank
+  - id: DB13345
+    properties:
+      generic name: Dihydroergocristine
+    type: DrugBank
+  - id: DB00320
+    properties:
+      generic name: Dihydroergotamine
+    type: DrugBank
+  - id: DB00449
+    properties:
+      generic name: Dipivefrin
+    type: DrugBank
+  - id: DB11278
+    properties:
+      generic name: DL-Methylephedrine
+    type: DrugBank
+  - id: DB09167
+    properties:
+      generic name: Dosulepin
+    type: DrugBank
+  - id: DB04855
+    properties:
+      generic name: Dronedarone
+    type: DrugBank
+  - id: DB06262
+    properties:
+      generic name: Droxidopa
+    type: DrugBank
+  - id: DB01363
+    properties:
+      generic name: Ephedra sinica root
+    type: DrugBank
+  - id: DB05492
+    properties:
+      generic name: Epicept NP-1
+    type: DrugBank
+  - id: DB00751
+    properties:
+      generic name: Epinastine
+    type: DrugBank
+  - id: DB00668
+    properties:
+      generic name: Epinephrine
+    type: DrugBank
+  - id: DB01049
+    properties:
+      generic name: Ergoloid mesylate
+    type: DrugBank
+  - id: DB00696
+    properties:
+      generic name: Ergotamine
+    type: DrugBank
+  - id: DB01175
+    properties:
+      generic name: Escitalopram
+    type: DrugBank
+  - id: DB06678
+    properties:
+      generic name: Esmirtazapine
+    type: DrugBank
+  - id: DB09194
+    properties:
+      generic name: Etoperidone
+    type: DrugBank
+  - id: DB00800
+    properties:
+      generic name: Fenoldopam
+    type: DrugBank
+  - id: DB06623
+    properties:
+      generic name: Flupirtine
+    type: DrugBank
+  - id: DB00629
+    properties:
+      generic name: Guanabenz
+    type: DrugBank
+  - id: DB01018
+    properties:
+      generic name: Guanfacine
+    type: DrugBank
+  - id: DB00502
+    properties:
+      generic name: Haloperidol
+    type: DrugBank
+  - id: DB11577
+    properties:
+      generic name: Indigotindisulfonic acid
+    type: DrugBank
+  - id: DB00555
+    properties:
+      generic name: Lamotrigine
+    type: DrugBank
+  - id: DB06707
+    properties:
+      generic name: Levonordefrin
+    type: DrugBank
+  - id: DB00589
+    properties:
+      generic name: Lisuride
+    type: DrugBank
+  - id: DB04948
+    properties:
+      generic name: Lofexidine
+    type: DrugBank
+  - id: DB09195
+    properties:
+      generic name: Lorpiprazole
+    type: DrugBank
+  - id: DB00408
+    properties:
+      generic name: Loxapine
+    type: DrugBank
+  - id: DB08815
+    properties:
+      generic name: Lurasidone
+    type: DrugBank
+  - id: DB00934
+    properties:
+      generic name: Maprotiline
+    type: DrugBank
+  - id: DB01365
+    properties:
+      generic name: Mephentermine
+    type: DrugBank
+  - id: DB01577
+    properties:
+      generic name: Metamfetamine
+    type: DrugBank
+  - id: DB01403
+    properties:
+      generic name: Methotrimeprazine
+    type: DrugBank
+  - id: DB00968
+    properties:
+      generic name: Methyldopa
+    type: DrugBank
+  - id: DB06148
+    properties:
+      generic name: Mianserin
+    type: DrugBank
+  - id: DB00370
+    properties:
+      generic name: Mirtazapine
+    type: DrugBank
+  - id: DB09205
+    properties:
+      generic name: Moxisylyte
+    type: DrugBank
+  - id: DB09242
+    properties:
+      generic name: Moxonidine
+    type: DrugBank
+  - id: DB06711
+    properties:
+      generic name: Naphazoline
+    type: DrugBank
+  - id: DB01149
+    properties:
+      generic name: Nefazodone
+    type: DrugBank
+  - id: DB00368
+    properties:
+      generic name: Norepinephrine
+    type: DrugBank
+  - id: DB00540
+    properties:
+      generic name: Nortriptyline
+    type: DrugBank
+  - id: DB06229
+    properties:
+      generic name: Ocaperidone
+    type: DrugBank
+  - id: DB00935
+    properties:
+      generic name: Oxymetazoline
+    type: DrugBank
+  - id: DB01267
+    properties:
+      generic name: Paliperidone
+    type: DrugBank
+  - id: DB00715
+    properties:
+      generic name: Paroxetine
+    type: DrugBank
+  - id: DB01186
+    properties:
+      generic name: Pergolide
+    type: DrugBank
+  - id: DB01608
+    properties:
+      generic name: Periciazine
+    type: DrugBank
+  - id: DB00925
+    properties:
+      generic name: Phenoxybenzamine
+    type: DrugBank
+  - id: DB00692
+    properties:
+      generic name: Phentolamine
+    type: DrugBank
+  - id: DB00397
+    properties:
+      generic name: Phenylpropanolamine
+    type: DrugBank
+  - id: DB09286
+    properties:
+      generic name: Pipamperone
+    type: DrugBank
+  - id: DB09244
+    properties:
+      generic name: Pirlindole
+    type: DrugBank
+  - id: DB06153
+    properties:
+      generic name: Pizotifen
+    type: DrugBank
+  - id: DB00413
+    properties:
+      generic name: Pramipexole
+    type: DrugBank
+  - id: DB00457
+    properties:
+      generic name: Prazosin
+    type: DrugBank
+  - id: DB00433
+    properties:
+      generic name: Prochlorperazine
+    type: DrugBank
+  - id: DB01069
+    properties:
+      generic name: Promethazine
+    type: DrugBank
+  - id: DB00852
+    properties:
+      generic name: Pseudoephedrine
+    type: DrugBank
+  - id: DB01224
+    properties:
+      generic name: Quetiapine
+    type: DrugBank
+  - id: DB11124
+    properties:
+      generic name: Racepinephrine
+    type: DrugBank
+  - id: DB11738
+    properties:
+      generic name: Rilmenidine
+    type: DrugBank
+  - id: DB00268
+    properties:
+      generic name: Ropinirole
+    type: DrugBank
+  - id: DB09304
+    properties:
+      generic name: Setiptiline
+    type: DrugBank
+  - id: DB06764
+    properties:
+      generic name: Tetryzoline
+    type: DrugBank
+  - id: DB13025
+    properties:
+      generic name: Tiapride
+    type: DrugBank
+  - id: DB00697
+    properties:
+      generic name: Tizanidine
+    type: DrugBank
+  - id: DB00797
+    properties:
+      generic name: Tolazoline
+    type: DrugBank
+  - id: DB00193
+    properties:
+      generic name: Tramadol
+    type: DrugBank
+  - id: DB00656
+    properties:
+      generic name: Trazodone
+    type: DrugBank
+  - id: DB00726
+    properties:
+      generic name: Trimipramine
+    type: DrugBank
+  - id: DB11477
+    properties:
+      generic name: Xylazine
+    type: DrugBank
+  - id: DB06694
+    properties:
+      generic name: Xylometazoline
+    type: DrugBank
+  - id: DB01392
+    properties:
+      generic name: Yohimbine
+    type: DrugBank
+  - id: DB00246
+    properties:
+      generic name: Ziprasidone
+    type: DrugBank
+  - id: DB01624
+    properties:
+      generic name: Zuclopenthixol
+    type: DrugBank
+  - id: P08913
+    type: DrugCentral
+  - id: '25'
+    type: GuidetoPHARMACOLOGY
+  - id: 9.A.14.3.16
+    properties:
+      family name: the g-protein-coupled receptor (gpcr) family
+    type: TCDB
+  - id: P08913
+    properties:
+      glycosylation: 2 sites, No reported glycans
+    type: GlyCosmos
+  - id: P08913
+    properties:
+      glycosylation: 3 sites, 1 O-linked glycan (1 site)
+    type: GlyGen
+  - id: P08913
+    type: iPTMnet
+  - id: P08913
+    type: PhosphoSitePlus
+  - id: P08913
+    type: SwissPalm
+  - id: ADRA2A
+    type: BioMuta
+  - id: '1351829'
+    type: DMDM
+  - id: P08913
+    type: jPOST
+  - id: P08913
+    type: MassIVE
+  - id: 9606-ENSP00000280155
+    type: PaxDb
+  - id: P08913
+    type: PeptideAtlas
+  - id: '52176'
+    type: ProteomicsDB
+  - id: '31769'
+    properties:
+      antibodies: 375 antibodies from 37 providers
+    type: Antibodypedia
+  - id: '150'
+    type: DNASU
+  - id: ENST00000280155.4
+    properties:
+      gene ID: ENSG00000150594.7
+      protein sequence ID: ENSP00000280155.2
+    type: Ensembl
+  - id: '150'
+    type: GeneID
+  - id: hsa:150
+    type: KEGG
+  - id: ENST00000280155.4
+    properties:
+      RefSeq nucleotide sequence ID: NM_000681.4
+      RefSeq protein sequence ID: NP_000672.3
+      protein sequence ID: ENSP00000280155.2
+    type: MANE-Select
+  - id: uc001kzo.4
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:281
+    type: AGR
+  - id: '150'
+    type: CTD
+  - id: '150'
+    type: DisGeNET
+  - id: ADRA2A
+    type: GeneCards
+  - id: HGNC:281
+    properties:
+      gene designation: ADRA2A
+    type: HGNC
+  - id: ENSG00000150594
+    properties:
+      expression patterns: Tissue enhanced (adipose tissue, cervix)
+    type: HPA
+  - id: '104210'
+    properties:
+      type: gene
+    type: MIM
+  - id: NX_P08913
+    type: neXtProt
+  - id: ENSG00000150594
+    type: OpenTargets
+  - id: PA35
+    type: PharmGKB
+  - id: HostDB:ENSG00000150594
+    type: VEuPathDB
+  - id: KOG3656
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000161451
+    type: GeneTree
+  - id: CLU_009579_11_1_1
+    type: HOGENOM
+  - id: P08913
+    type: InParanoid
+  - id: FFTYMLM
+    type: OMA
+  - id: 3087922at2759
+    type: OrthoDB
+  - id: P08913
+    type: PhylomeDB
+  - id: TF316350
+    type: TreeFam
+  - id: P08913
+    type: PathwayCommons
+  - id: R-HSA-390696
+    properties:
+      pathway name: Adrenoceptors
+    type: Reactome
+  - id: R-HSA-392023
+    properties:
+      pathway name: Adrenaline signalling through Alpha-2 adrenergic receptor
+    type: Reactome
+  - id: R-HSA-400042
+    properties:
+      pathway name: Adrenaline,noradrenaline inhibits insulin secretion
+    type: Reactome
+  - id: R-HSA-418594
+    properties:
+      pathway name: G alpha (i) signalling events
+    type: Reactome
+  - id: R-HSA-418597
+    properties:
+      pathway name: G alpha (z) signalling events
+    type: Reactome
+  - id: R-HSA-5683826
+    properties:
+      pathway name: Surfactant metabolism
+    type: Reactome
+  - id: P08913
+    type: SignaLink
+  - id: P08913
+    type: SIGNOR
+  - id: '150'
+    properties:
+      hits: 9 hits in 1148 CRISPR screens
+    type: BioGRID-ORCS
+  - id: ADRA2A
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: P08913
+    type: EvolutionaryTrace
+  - id: Alpha-2A_adrenergic_receptor
+    type: GeneWiki
+  - id: '150'
+    type: GenomeRNAi
+  - id: P08913
+    properties:
+      development level: Tclin
+    type: Pharos
+  - id: PR:P08913
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 10
+    type: Proteomes
+  - id: P08913
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000150594
+    properties:
+      expression patterns: Expressed in cortical plate and 158 other cell types or
+        tissues
+    type: Bgee
+  - id: P08913
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - id: GO:0043679
+    properties:
+      source: IEA:Ensembl
+      term: C:axon terminus
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17655843
+        id: '17655843'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17655843
+    id: GO:0016323
+    properties:
+      source: TAS:BHF-UCL
+      term: C:basolateral plasma membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19477270
+        id: '19477270'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19477270
+    id: GO:0005737
+    properties:
+      source: IDA:BHF-UCL
+      term: C:cytoplasm
+    type: GO
+  - id: GO:0098691
+    properties:
+      source: IEA:Ensembl
+      term: C:dopaminergic synapse
+    type: GO
+  - id: GO:0098982
+    properties:
+      source: IEA:Ensembl
+      term: C:GABA-ergic synapse
+    type: GO
+  - id: GO:0098978
+    properties:
+      source: IEA:Ensembl
+      term: C:glutamatergic synapse
+    type: GO
+  - id: GO:0043025
+    properties:
+      source: IEA:Ensembl
+      term: C:neuronal cell body
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10948191
+        id: '10948191'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10948191
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10948198
+        id: '10948198'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10948198
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/2823383
+        id: '2823383'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/2823383
+    id: GO:0005886
+    properties:
+      source: IDA:BHF-UCL
+      term: C:plasma membrane
+    type: GO
+  - id: GO:0098839
+    properties:
+      source: IEA:Ensembl
+      term: C:postsynaptic density membrane
+    type: GO
+  - id: GO:0048787
+    properties:
+      source: IEA:Ensembl
+      term: C:presynaptic active zone membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10948191
+        id: '10948191'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10948191
+    id: GO:0043235
+    properties:
+      source: IDA:BHF-UCL
+      term: C:receptor complex
+    type: GO
+  - id: GO:0031692
+    properties:
+      source: ISS:BHF-UCL
+      term: F:alpha-1B adrenergic receptor binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16605244
+        id: '16605244'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16605244
+    id: GO:0031696
+    properties:
+      source: IPI:BHF-UCL
+      term: F:alpha-2C adrenergic receptor binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10948191
+        id: '10948191'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10948191
+    id: GO:0004938
+    properties:
+      source: IDA:BHF-UCL
+      term: F:alpha2-adrenergic receptor activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10948191
+        id: '10948191'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10948191
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/2823383
+        id: '2823383'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/2823383
+    id: GO:0051379
+    properties:
+      source: IDA:BHF-UCL
+      term: F:epinephrine binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10948191
+        id: '10948191'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10948191
+    id: GO:0032795
+    properties:
+      source: IDA:BHF-UCL
+      term: F:heterotrimeric G-protein binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/2823383
+        id: '2823383'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/2823383
+    id: GO:0051380
+    properties:
+      source: IDA:BHF-UCL
+      term: F:norepinephrine binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16605244
+        id: '16605244'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16605244
+    id: GO:0046982
+    properties:
+      source: IPI:BHF-UCL
+      term: F:protein heterodimerization activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16605244
+        id: '16605244'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16605244
+    id: GO:0042803
+    properties:
+      source: IDA:BHF-UCL
+      term: F:protein homodimerization activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15653687
+        id: '15653687'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15653687
+    id: GO:0019901
+    properties:
+      source: IPI:BHF-UCL
+      term: F:protein kinase binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19477270
+        id: '19477270'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19477270
+    id: GO:0031996
+    properties:
+      source: IPI:BHF-UCL
+      term: F:thioesterase binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9624180
+        id: '9624180'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9624180
+    id: GO:0030036
+    properties:
+      source: TAS:ProtInc
+      term: P:actin cytoskeleton organization
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15653687
+        id: '15653687'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15653687
+    id: GO:0032147
+    properties:
+      source: IDA:BHF-UCL
+      term: P:activation of protein kinase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17215105
+        id: '17215105'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17215105
+    id: GO:0032148
+    properties:
+      source: IDA:BHF-UCL
+      term: P:activation of protein kinase B activity
+    type: GO
+  - id: GO:0071880
+    properties:
+      source: ISS:BHF-UCL
+      term: P:adenylate cyclase-activating adrenergic receptor signaling pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12529373
+        id: '12529373'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12529373
+    id: GO:0007189
+    properties:
+      source: ISS:BHF-UCL
+      term: P:adenylate cyclase-activating G protein-coupled receptor signaling pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10948191
+        id: '10948191'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10948191
+    id: GO:0071881
+    properties:
+      source: IDA:BHF-UCL
+      term: P:adenylate cyclase-inhibiting adrenergic receptor signaling pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1354394
+        id: '1354394'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1354394
+    id: GO:0007193
+    properties:
+      source: ISS:BHF-UCL
+      term: P:adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10948191
+        id: '10948191'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10948191
+    id: GO:0071875
+    properties:
+      source: IDA:BHF-UCL
+      term: P:adrenergic receptor signaling pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10948198
+        id: '10948198'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10948198
+    id: GO:0032870
+    properties:
+      source: IGI:BHF-UCL
+      term: P:cellular response to hormone stimulus
+    type: GO
+  - id: GO:0006260
+    properties:
+      source: IEA:Ensembl
+      term: P:DNA replication
+    type: GO
+  - id: GO:0042596
+    properties:
+      source: IEA:Ensembl
+      term: P:fear response
+    type: GO
+  - id: GO:0007565
+    properties:
+      source: IEA:Ensembl
+      term: P:female pregnancy
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17215105
+        id: '17215105'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17215105
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17655843
+        id: '17655843'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17655843
+    id: GO:0007186
+    properties:
+      source: IDA:BHF-UCL
+      term: P:G protein-coupled receptor signaling pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10952463
+        id: '10952463'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10952463
+    id: GO:0042593
+    properties:
+      source: IMP:BHF-UCL
+      term: P:glucose homeostasis
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17655843
+        id: '17655843'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17655843
+    id: GO:0050892
+    properties:
+      source: TAS:BHF-UCL
+      term: P:intestinal absorption
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1354394
+        id: '1354394'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1354394
+    id: GO:1901020
+    properties:
+      source: ISS:BHF-UCL
+      term: P:negative regulation of calcium ion transmembrane transporter activity
+    type: GO
+  - id: GO:0051926
+    properties:
+      source: ISS:BHF-UCL
+      term: P:negative regulation of calcium ion transport
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10952463
+        id: '10952463'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10952463
+    id: GO:0045955
+    properties:
+      source: IC:BHF-UCL
+      term: P:negative regulation of calcium ion-dependent exocytosis
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16531006
+        id: '16531006'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16531006
+    id: GO:0032811
+    properties:
+      source: NAS:BHF-UCL
+      term: P:negative regulation of epinephrine secretion
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10952463
+        id: '10952463'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10952463
+    id: GO:0046676
+    properties:
+      source: IMP:BHF-UCL
+      term: P:negative regulation of insulin secretion
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19965390
+        id: '19965390'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19965390
+    id: GO:0061179
+    properties:
+      source: IMP:BHF-UCL
+      term: P:negative regulation of insulin secretion involved in cellular response
+        to glucose stimulus
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10948198
+        id: '10948198'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10948198
+    id: GO:0050995
+    properties:
+      source: IGI:BHF-UCL
+      term: P:negative regulation of lipid catabolic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19477270
+        id: '19477270'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19477270
+    id: GO:0010700
+    properties:
+      source: TAS:BHF-UCL
+      term: P:negative regulation of norepinephrine secretion
+    type: GO
+  - id: GO:0070473
+    properties:
+      source: IEA:Ensembl
+      term: P:negative regulation of uterine smooth muscle contraction
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10948191
+        id: '10948191'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10948191
+    id: GO:0071882
+    properties:
+      source: IDA:BHF-UCL
+      term: P:phospholipase C-activating adrenergic receptor signaling pathway
+    type: GO
+  - id: GO:0030168
+    properties:
+      source: IEA:InterPro
+      term: P:platelet activation
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17655843
+        id: '17655843'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17655843
+    id: GO:0030335
+    properties:
+      source: IMP:BHF-UCL
+      term: P:positive regulation of cell migration
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10896916
+        id: '10896916'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10896916
+    id: GO:0008284
+    properties:
+      source: TAS:ProtInc
+      term: P:positive regulation of cell population proliferation
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17655843
+        id: '17655843'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17655843
+    id: GO:0001819
+    properties:
+      source: IDA:BHF-UCL
+      term: P:positive regulation of cytokine production
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17655843
+        id: '17655843'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17655843
+    id: GO:0045742
+    properties:
+      source: IDA:BHF-UCL
+      term: P:positive regulation of epidermal growth factor receptor signaling pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19477270
+        id: '19477270'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19477270
+    id: GO:0043406
+    properties:
+      source: IDA:BHF-UCL
+      term: P:positive regulation of MAP kinase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10948191
+        id: '10948191'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10948191
+    id: GO:0043410
+    properties:
+      source: IDA:BHF-UCL
+      term: P:positive regulation of MAPK cascade
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17655843
+        id: '17655843'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17655843
+    id: GO:0051044
+    properties:
+      source: IDA:BHF-UCL
+      term: P:positive regulation of membrane protein ectodomain proteolysis
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1354394
+        id: '1354394'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1354394
+    id: GO:0043268
+    properties:
+      source: ISS:BHF-UCL
+      term: P:positive regulation of potassium ion transport
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17655843
+        id: '17655843'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17655843
+    id: GO:0090303
+    properties:
+      source: IMP:BHF-UCL
+      term: P:positive regulation of wound healing
+    type: GO
+  - id: GO:0099171
+    properties:
+      source: IEA:Ensembl
+      term: P:presynaptic modulation of chemical synaptic transmission
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8226727
+        id: '8226727'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8226727
+    id: GO:0007265
+    properties:
+      source: TAS:ProtInc
+      term: P:Ras protein signal transduction
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17215105
+        id: '17215105'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17215105
+    id: GO:0035624
+    properties:
+      source: IDA:BHF-UCL
+      term: P:receptor transactivation
+    type: GO
+  - id: GO:0019229
+    properties:
+      source: IEA:InterPro
+      term: P:regulation of vasoconstriction
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9624180
+        id: '9624180'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9624180
+    id: GO:0007266
+    properties:
+      source: TAS:ProtInc
+      term: P:Rho protein signal transduction
+    type: GO
+  - id: GO:0050955
+    properties:
+      source: IEA:Ensembl
+      term: P:thermoception
+    type: GO
+  - id: GO:0042311
+    properties:
+      source: IEA:Ensembl
+      term: P:vasodilation
+    type: GO
+  - id: cd15322
+    properties:
+      entry name: 7tmA_alpha2A_AR
+      match status: '1'
+    type: CDD
+  - id: 1.20.1070.10
+    properties:
+      entry name: Rhodopsin 7-helix transmembrane proteins
+      match status: '1'
+    type: Gene3D
+  - id: IPR002233
+    properties:
+      entry name: ADR_fam
+    type: InterPro
+  - id: IPR001946
+    properties:
+      entry name: ADRA2A_rcpt
+    type: InterPro
+  - id: IPR000276
+    properties:
+      entry name: GPCR_Rhodpsn
+    type: InterPro
+  - id: IPR017452
+    properties:
+      entry name: GPCR_Rhodpsn_7TM
+    type: InterPro
+  - id: PTHR24248
+    properties:
+      entry name: ADRENERGIC RECEPTOR-RELATED G-PROTEIN COUPLED RECEPTOR
+      match status: '1'
+    type: PANTHER
+  - id: PTHR24248:SF24
+    properties:
+      entry name: ALPHA-2A ADRENERGIC RECEPTOR
+      match status: '1'
+    type: PANTHER
+  - id: PF00001
+    properties:
+      entry name: 7tm_1
+      match status: '1'
+    type: Pfam
+  - id: PR01103
+    properties:
+      entry name: ADRENERGICR
+    type: PRINTS
+  - id: PR00558
+    properties:
+      entry name: ADRENRGCA2AR
+    type: PRINTS
+  - id: PR00237
+    properties:
+      entry name: GPCRRHODOPSN
+    type: PRINTS
+  - id: SM01381
+    properties:
+      entry name: 7TM_GPCR_Srsx
+      match status: '1'
+    type: SMART
+  - id: SSF81321
+    properties:
+      entry name: Family A G protein-coupled receptor-like
+      match status: '1'
+    type: SUPFAM
+  - id: PS00237
+    properties:
+      entry name: G_PROTEIN_RECEP_F1_1
+      match status: '1'
+    type: PROSITE
+  - id: PS50262
+    properties:
+      entry name: G_PROTEIN_RECEP_F1_2
+      match status: '1'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Alpha-2A adrenergic receptor
+    end: '465'
+    ftId: PRO_0000069080
+    molecule: ''
+    type: CHAIN
+  - begin: '1'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '48'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '49'
+    category: TOPOLOGY
+    description: Helical; Name=1
+    end: '74'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TRANSMEM
+  - begin: '75'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '85'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '86'
+    category: TOPOLOGY
+    description: Helical; Name=2
+    end: '111'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TRANSMEM
+  - begin: '112'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '121'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '122'
+    category: TOPOLOGY
+    description: Helical; Name=3
+    end: '144'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TRANSMEM
+  - begin: '145'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '166'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '167'
+    category: TOPOLOGY
+    description: Helical; Name=4
+    end: '187'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TRANSMEM
+  - begin: '188'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '209'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '210'
+    category: TOPOLOGY
+    description: Helical; Name=5
+    end: '232'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TRANSMEM
+  - begin: '233'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '389'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '390'
+    category: TOPOLOGY
+    description: Helical; Name=6
+    end: '410'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TRANSMEM
+  - begin: '411'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '424'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '425'
+    category: TOPOLOGY
+    description: Helical; Name=7
+    end: '444'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TRANSMEM
+  - begin: '445'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '465'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '242'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '368'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '303'
+    category: SEQUENCE_INFORMATION
+    description: Basic and acidic residues
+    end: '334'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '128'
+    category: DOMAINS_AND_SITES
+    description: Implicated in ligand binding
+    end: '128'
+    molecule: ''
+    type: SITE
+  - begin: '215'
+    category: DOMAINS_AND_SITES
+    description: Implicated in catechol agonist binding and receptor activation
+    end: '215'
+    molecule: ''
+    type: SITE
+  - begin: '219'
+    category: DOMAINS_AND_SITES
+    description: Implicated in catechol agonist binding and receptor activation
+    end: '219'
+    molecule: ''
+    type: SITE
+  - begin: '346'
+    category: PTM
+    description: Phosphoserine
+    end: '346'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: P22909
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/P22909
+    molecule: ''
+    type: MOD_RES
+  - begin: '368'
+    category: PTM
+    description: Omega-N-methylarginine
+    end: '368'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q01338
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q01338
+    molecule: ''
+    type: MOD_RES
+  - begin: '457'
+    category: PTM
+    description: S-palmitoyl cysteine
+    end: '457'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: LIPID
+  - begin: '25'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '25'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '29'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '29'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '121'
+    category: PTM
+    description: ''
+    end: '203'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00521
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00521
+    molecule: ''
+    type: DISULFID
+  - alternativeSequence: K
+    begin: '266'
+    category: VARIANTS
+    description: frequency in Caucasians 0.004 and in African-Americans 0.05; 40%
+      increase in agonist-promoted Gi coupling; dbSNP:rs1800035
+    end: '266'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10948191
+        id: '10948191'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10948191
+    - code: ECO:0000269
+      source:
+        id: Ref.7
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P08913#ref7
+    ftId: VAR_014957
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: S
+    begin: '416'
+    category: VARIANTS
+    description: in dbSNP:rs35658213
+    end: '416'
+    ftId: VAR_055908
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: N
+    begin: '94'
+    category: MUTAGENESIS
+    description: No change in binding affinity. eliminates guanine nucleotide-sensitive
+      agonist binding.
+    end: '94'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1678850
+        id: '1678850'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1678850
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: N
+    begin: '128'
+    category: MUTAGENESIS
+    description: No binding to yohimbine. Increase in adenylate cyclase activity.
+    end: '128'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1678850
+        id: '1678850'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1678850
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: N
+    begin: '145'
+    category: MUTAGENESIS
+    description: Lower affinity for agonists. Eliminates guanine nucleotide-sensitive
+      agonist binding.
+    end: '145'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1678850
+        id: '1678850'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1678850
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A
+    begin: '215'
+    category: MUTAGENESIS
+    description: Lower affinity for agonists. No change in guanine nucleotide-sensitive
+      agonist binding.
+    end: '215'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1678850
+        id: '1678850'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1678850
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A
+    begin: '219'
+    category: MUTAGENESIS
+    description: Lower affinity for agonists. Reduced guanine nucleotide-sensitive
+      agonist binding.
+    end: '219'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1678850
+        id: '1678850'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1678850
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: N
+    begin: '427'
+    category: MUTAGENESIS
+    description: 350-fold reduced affinity for alpha-2 antagonist yohimbine, 3000-fold
+      increase for beta-antagonist alprenolol.
+    end: '427'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1678390
+        id: '1678390'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1678390
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: T
+    begin: '119'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 11; AAA51664
+    end: '119'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: P
+    begin: '139'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 13
+    end: '139'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: C
+    begin: '172'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 11; AAA51664
+    end: '172'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: L
+    begin: '383'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 11; AAA51664
+    end: '383'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - begin: '45'
+    category: STRUCTURAL
+    end: '47'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7EJ8
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7EJ8
+    molecule: ''
+    type: STRAND
+  - begin: '49'
+    category: STRUCTURAL
+    end: '75'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '76'
+    category: STRUCTURAL
+    end: '78'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: STRAND
+  - begin: '82'
+    category: STRUCTURAL
+    end: '84'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '85'
+    category: STRUCTURAL
+    end: '99'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '102'
+    category: STRUCTURAL
+    end: '110'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '111'
+    category: STRUCTURAL
+    end: '113'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7EJ8
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7EJ8
+    molecule: ''
+    type: STRAND
+  - begin: '118'
+    category: STRUCTURAL
+    end: '151'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '153'
+    category: STRUCTURAL
+    end: '158'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '162'
+    category: STRUCTURAL
+    end: '180'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '209'
+    category: STRUCTURAL
+    end: '211'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: TURN
+  - begin: '212'
+    category: STRUCTURAL
+    end: '219'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '221'
+    category: STRUCTURAL
+    end: '242'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '255'
+    category: STRUCTURAL
+    end: '272'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '278'
+    category: STRUCTURAL
+    end: '296'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '308'
+    category: STRUCTURAL
+    end: '310'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: TURN
+  - begin: '326'
+    category: STRUCTURAL
+    end: '341'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '344'
+    category: STRUCTURAL
+    end: '350'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '351'
+    category: STRUCTURAL
+    end: '353'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: TURN
+  - begin: '355'
+    category: STRUCTURAL
+    end: '362'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '367'
+    category: STRUCTURAL
+    end: '377'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '383'
+    category: STRUCTURAL
+    end: '411'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '412'
+    category: STRUCTURAL
+    end: '414'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '420'
+    category: STRUCTURAL
+    end: '431'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '433'
+    category: STRUCTURAL
+    end: '444'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  - begin: '446'
+    category: STRUCTURAL
+    end: '457'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6KUX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6KUX
+    molecule: ''
+    type: HELIX
+  gene:
+  - name:
+      evidences:
+      - code: ECO:0000312
+        source:
+          id: HGNC:281
+          name: HGNC
+          url: https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=HGNC:281
+      value: ADRA2A
+    synonyms:
+    - value: ADRA2R
+    - value: ADRAR
+  id: ADA2A_HUMAN
+  info:
+    created: '1988-11-01'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 233
+  keywords:
+  - value: 3D-structure
+  - value: Cell membrane
+  - value: Direct protein sequencing
+  - value: Disulfide bond
+  - value: G-protein coupled receptor
+  - value: Glycoprotein
+  - value: Lipoprotein
+  - value: Membrane
+  - value: Methylation
+  - value: Palmitate
+  - value: Phosphoprotein
+  - value: Receptor
+  - value: Reference proteome
+  - value: Transducer
+  - value: Transmembrane
+  - value: Transmembrane helix
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        value: Alpha-2 adrenergic receptor subtype C10
+    - fullName:
+        value: Alpha-2A adrenoreceptor
+      shortName:
+      - value: Alpha-2A adrenoceptor
+      - value: Alpha-2AAR
+    recommendedName:
+      fullName:
+        evidences:
+        - code: ECO:0000305
+        value: Alpha-2A adrenergic receptor
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Fraser C.M.
+      - Arakawa S.
+      - McCombie W.R.
+      - Venter J.C.
+      dbReferences:
+      - id: '2568356'
+        type: PubMed
+      - id: 10.1016/s0021-9258(18)80130-2
+        type: DOI
+      location:
+        firstPage: '11754'
+        lastPage: '11761'
+        volume: '264'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '1989'
+      title: Cloning, sequence analysis, and permanent expression of a human alpha
+        2-adrenergic receptor in Chinese hamster ovary cells. Evidence for independent
+        pathways of receptor coupling to adenylate cyclase attenuation and activation.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+  - citation:
+      authors:
+      - Guyer C.A.
+      - Horstman D.A.
+      - Wilson A.L.
+      - Clark J.D.
+      - Kragoe E.J. Jr.
+      - Limbird L.E.
+      dbReferences:
+      - id: '2170371'
+        type: PubMed
+      - id: 10.1016/s0021-9258(17)44904-0
+        type: DOI
+      location:
+        firstPage: '17307'
+        lastPage: '17317'
+        volume: '265'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '1990'
+      title: Cloning, sequencing, and expression of the gene encoding the porcine
+        alpha 2-adrenergic receptor. Allosteric modulation by Na+, H+, and amiloride
+        analogs.
+      type: journal article
+    scope:
+    - SEQUENCE REVISION TO 333-365
+  - citation:
+      authors:
+      - Small K.M.
+      - Brown K.M.
+      - Seman C.A.
+      - Theiss C.T.
+      - Liggett S.B.
+      dbReferences:
+      - id: '16567612'
+        type: PubMed
+      - id: 10.1073/pnas.0601345103
+        type: DOI
+      location:
+        firstPage: '5472'
+        lastPage: '5477'
+        volume: '103'
+      publication:
+        journalName: Proc. Natl. Acad. Sci. U.S.A.
+      publicationDate: '2006'
+      title: Complex haplotypes derived from noncoding polymorphisms of the intronless
+        alpha-2A-adrenergic gene diversify receptor expression.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+  - citation:
+      authors:
+      - Mao Z.-M.
+      - Tang K.
+      - Li B.-M.
+      - Jing N.-H.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: JUL-2000
+      title: Cloning and expression of human alpha-2A adrenergic receptor in SY5Y
+        cells.
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+  - citation:
+      authors:
+      - Castellano M.
+      - Giacche' M.
+      - Rossi F.
+      - Rivadossi F.
+      - Perani C.
+      - Beschi M.
+      - Agabiti Rosei E.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: AUG-2000
+      title: A search for genetic variability in the human alpha-2 adrenergic receptor
+        on chromosome 10.
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+  - citation:
+      authors:
+      - Liu L.
+      - Yuan L.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: APR-2001
+      title: Human alpha-2A adrenergic receptor gene and the genotype of -1296 nucleotide
+        and motionsickness.
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+  - citation:
+      consortiums:
+      - SeattleSNPs variation discovery resource
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: NOV-2005
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+    - VARIANT LYS-266
+  - citation:
+      consortiums:
+      - NHLBI resequencing and genotyping service (RS&G)
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: DEC-2007
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+  - citation:
+      authors:
+      - Deloukas P.
+      - Earthrowl M.E.
+      - Grafham D.V.
+      - Rubenfield M.
+      - French L.
+      - Steward C.A.
+      - Sims S.K.
+      - Jones M.C.
+      - Searle S.
+      - Scott C.
+      - Howe K.
+      - Hunt S.E.
+      - Andrews T.D.
+      - Gilbert J.G.R.
+      - Swarbreck D.
+      - Ashurst J.L.
+      - Taylor A.
+      - Battles J.
+      - Bird C.P.
+      - Ainscough R.
+      - Almeida J.P.
+      - Ashwell R.I.S.
+      - Ambrose K.D.
+      - Babbage A.K.
+      - Bagguley C.L.
+      - Bailey J.
+      - Banerjee R.
+      - Bates K.
+      - Beasley H.
+      - Bray-Allen S.
+      - Brown A.J.
+      - Brown J.Y.
+      - Burford D.C.
+      - Burrill W.
+      - Burton J.
+      - Cahill P.
+      - Camire D.
+      - Carter N.P.
+      - Chapman J.C.
+      - Clark S.Y.
+      - Clarke G.
+      - Clee C.M.
+      - Clegg S.
+      - Corby N.
+      - Coulson A.
+      - Dhami P.
+      - Dutta I.
+      - Dunn M.
+      - Faulkner L.
+      - Frankish A.
+      - Frankland J.A.
+      - Garner P.
+      - Garnett J.
+      - Gribble S.
+      - Griffiths C.
+      - Grocock R.
+      - Gustafson E.
+      - Hammond S.
+      - Harley J.L.
+      - Hart E.
+      - Heath P.D.
+      - Ho T.P.
+      - Hopkins B.
+      - Horne J.
+      - Howden P.J.
+      - Huckle E.
+      - Hynds C.
+      - Johnson C.
+      - Johnson D.
+      - Kana A.
+      - Kay M.
+      - Kimberley A.M.
+      - Kershaw J.K.
+      - Kokkinaki M.
+      - Laird G.K.
+      - Lawlor S.
+      - Lee H.M.
+      - Leongamornlert D.A.
+      - Laird G.
+      - Lloyd C.
+      - Lloyd D.M.
+      - Loveland J.
+      - Lovell J.
+      - McLaren S.
+      - McLay K.E.
+      - McMurray A.
+      - Mashreghi-Mohammadi M.
+      - Matthews L.
+      - Milne S.
+      - Nickerson T.
+      - Nguyen M.
+      - Overton-Larty E.
+      - Palmer S.A.
+      - Pearce A.V.
+      - Peck A.I.
+      - Pelan S.
+      - Phillimore B.
+      - Porter K.
+      - Rice C.M.
+      - Rogosin A.
+      - Ross M.T.
+      - Sarafidou T.
+      - Sehra H.K.
+      - Shownkeen R.
+      - Skuce C.D.
+      - Smith M.
+      - Standring L.
+      - Sycamore N.
+      - Tester J.
+      - Thorpe A.
+      - Torcasso W.
+      - Tracey A.
+      - Tromans A.
+      - Tsolas J.
+      - Wall M.
+      - Walsh J.
+      - Wang H.
+      - Weinstock K.
+      - West A.P.
+      - Willey D.L.
+      - Whitehead S.L.
+      - Wilming L.
+      - Wray P.W.
+      - Young L.
+      - Chen Y.
+      - Lovering R.C.
+      - Moschonas N.K.
+      - Siebert R.
+      - Fechtel K.
+      - Bentley D.
+      - Durbin R.M.
+      - Hubbard T.
+      - Doucette-Stamm L.
+      - Beck S.
+      - Smith D.R.
+      - Rogers J.
+      dbReferences:
+      - id: '15164054'
+        type: PubMed
+      - id: 10.1038/nature02462
+        type: DOI
+      location:
+        firstPage: '375'
+        lastPage: '381'
+        volume: '429'
+      publication:
+        journalName: Nature
+      publicationDate: '2004'
+      title: The DNA sequence and comparative analysis of human chromosome 10.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      consortiums:
+      - The MGC Project Team
+      dbReferences:
+      - id: '15489334'
+        type: PubMed
+      - id: 10.1101/gr.2596504
+        type: DOI
+      location:
+        firstPage: '2121'
+        lastPage: '2127'
+        volume: '14'
+      publication:
+        journalName: Genome Res.
+      publicationDate: '2004'
+      title: 'The status, quality, and expansion of the NIH full-length cDNA project:
+        the Mammalian Gene Collection (MGC).'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]
+    source:
+      tissue:
+      - value: PNS
+      - value: Testis
+  - citation:
+      authors:
+      - Kobilka B.K.
+      - Matsui H.
+      - Kobilka T.S.
+      - Yang-Feng T.L.
+      - Francke U.
+      - Caron M.G.
+      - Lefkowitz R.J.
+      - Regan J.W.
+      dbReferences:
+      - id: '2823383'
+        type: PubMed
+      - id: 10.1126/science.2823383
+        type: DOI
+      location:
+        firstPage: '650'
+        lastPage: '656'
+        volume: '238'
+      publication:
+        journalName: Science
+      publicationDate: '1987'
+      title: Cloning, sequencing, and expression of the gene coding for the human
+        platelet alpha 2-adrenergic receptor.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 7-465
+    - PARTIAL PROTEIN SEQUENCE
+    source:
+      tissue:
+      - value: Platelet
+  - citation:
+      authors:
+      - Small K.M.
+      - Forbes S.L.
+      - Brown K.M.
+      - Liggett S.B.
+      dbReferences:
+      - id: '10948191'
+        type: PubMed
+      - id: 10.1074/jbc.m004550200
+        type: DOI
+      location:
+        firstPage: '38518'
+        lastPage: '38523'
+        volume: '275'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2000'
+      title: An Asn to Lys polymorphism in the third intracellular loop of the human
+        alpha 2A-adrenergic receptor imparts enhanced agonist-promoted Gi coupling.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 16-465
+    - VARIANT LYS-266
+  - citation:
+      authors:
+      - Chhajlani V.
+      - Rangel N.
+      - Uhlen S.
+      - Wikberg J.E.S.
+      dbReferences:
+      - id: '1849485'
+        type: PubMed
+      - id: 10.1016/0014-5793(91)80301-i
+        type: DOI
+      location:
+        firstPage: '241'
+        lastPage: '244'
+        volume: '280'
+      publication:
+        journalName: FEBS Lett.
+      publicationDate: '1991'
+      title: Identification of an additional gene belonging to the alpha 2 adrenergic
+        receptor family in the human genome by PCR.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 92-224
+  - citation:
+      authors:
+      - Suryanarayana S.
+      - Daunt D.A.
+      - von Zastrow M.
+      - Kobilka B.K.
+      dbReferences:
+      - id: '1678390'
+        type: PubMed
+      - id: 10.1016/s0021-9258(18)98642-4
+        type: DOI
+      location:
+        firstPage: '15488'
+        lastPage: '15492'
+        volume: '266'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '1991'
+      title: A point mutation in the seventh hydrophobic domain of the alpha 2 adrenergic
+        receptor increases its affinity for a family of beta receptor antagonists.
+      type: journal article
+    scope:
+    - MUTAGENESIS OF PHE-427
+  - citation:
+      authors:
+      - Wang C.-D.
+      - Buck M.A.
+      - Fraser C.M.
+      dbReferences:
+      - id: '1678850'
+        type: PubMed
+      location:
+        firstPage: '168'
+        lastPage: '179'
+        volume: '40'
+      publication:
+        journalName: Mol. Pharmacol.
+      publicationDate: '1991'
+      title: 'Site-directed mutagenesis of alpha 2a-adrenergic receptors: Identification
+        of amino acids involved in ligand binding and receptor activation by agonists.'
+      type: journal article
+    scope:
+    - MUTAGENESIS OF ASPARTIC ACID AND SERINE RESIDUES
+  - citation:
+      authors:
+      - Li C.
+      - Fan Y.
+      - Lan T.H.
+      - Lambert N.A.
+      - Wu G.
+      dbReferences:
+      - id: '23105096'
+        type: PubMed
+      - id: 10.1074/jbc.m112.410936
+        type: DOI
+      location:
+        firstPage: '42784'
+        lastPage: '42794'
+        volume: '287'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2012'
+      title: Rab26 modulates the cell surface transport of alpha2-adrenergic receptors
+        from the Golgi.
+      type: journal article
+    scope:
+    - FUNCTION
+    - SUBCELLULAR LOCATION
+  - citation:
+      authors:
+      - Chung D.A.
+      - Zuiderweg E.R.P.
+      - Fowler C.B.
+      - Soyer O.S.
+      - Mosberg H.I.
+      - Neubig R.R.
+      dbReferences:
+      - id: '11888275'
+        type: PubMed
+      - id: 10.1021/bi015811+
+        type: DOI
+      location:
+        firstPage: '3596'
+        lastPage: '3604'
+        volume: '41'
+      publication:
+        journalName: Biochemistry
+      publicationDate: '2002'
+      title: 'NMR structure of the second intracellular loop of the alpha 2A adrenergic
+        receptor: evidence for a novel cytoplasmic helix.'
+      type: journal article
+    scope:
+    - STRUCTURE BY NMR OF 133-164
+    - PROBABLE MEMBRANE TOPOLOGY
+  secondaryAccession:
+  - B0LPF6
+  - Q2I8G2
+  - Q2XN99
+  - Q86TH8
+  - Q9BZK1
+  sequence:
+    length: 465
+    mass: 50647
+    modified: '2019-12-11'
+    sequence: MFRQEQPLAEGSFAPMGSLQPDAGNASWNGTEAPGGGARATPYSLQVTLTLVCLAGLLMLLTVFGNVLVIIAVFTSRALKAPQNLFLVSLASADILVATLVIPFSLANEVMGYWYFGKAWCEIYLALDVLFCTSSIVHLCAISLDRYWSITQAIEYNLKRTPRRIKAIIITVWVISAVISFPPLISIEKKGGGGGPQPAEPRCEINDQKWYVISSCIGSFFAPCLIMILVYVRIYQIAKRRTRVPPSRRGPDAVAAPPGGTERRPNGLGPERSAGPGGAEAEPLPTQLNGAPGEPAPAGPRDTDALDLEESSSSDHAERPPGPRRPERGPRGKGKARASQVKPGDSLPRRGPGATGIGTPAAGPGEERVGAAKASRWRGRQNREKRFTFVLAVVIGVFVVCWFPFFFTYTLTAVGCSVPRTLFKFFFWFGYCNSSLNPVIYTIFNHDFRRAFKKILCRGDRKRIV
+    version: 4
+uniprot_id: P08913

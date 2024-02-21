@@ -1,0 +1,2810 @@
+data:
+  accession: Q96FL8
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16330770
+          id: '16330770'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17495125
+          id: '17495125'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17495125
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17509534
+          id: '17509534'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17582384
+          id: '17582384'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17582384
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18305230
+          id: '18305230'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18305230
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19158817
+          id: '19158817'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19158817
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21128598
+          id: '21128598'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21128598
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/24961373
+          id: '24961373'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/24961373
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/35307651
+          id: '35307651'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/35307651
+      value: Multidrug efflux pump that functions as a H(+)/organic cation antiporter
+        (PubMed:16330770, PubMed:17509534). Plays a physiological role in the excretion
+        of cationic compounds including endogenous metabolites, drugs, toxins through
+        the kidney and liver, into urine and bile respectively (PubMed:16330770, PubMed:17495125,
+        PubMed:17509534, PubMed:17582384, PubMed:18305230, PubMed:19158817, PubMed:21128598,
+        PubMed:24961373). Mediates the efflux of endogenous compounds such as creatinine,
+        vitamin B1/thiamine, agmatine and estrone-3-sulfate (PubMed:16330770, PubMed:17495125,
+        PubMed:17509534, PubMed:17582384, PubMed:18305230, PubMed:19158817, PubMed:21128598,
+        PubMed:24961373). May also contribute to regulate the transport of cationic
+        compounds in testis across the blood-testis-barrier (Probable)
+    type: FUNCTION
+  - reaction:
+      dbReferences:
+      - id: RHEA:71271
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:18385
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17509534
+          id: '17509534'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/24961373
+          id: '24961373'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/24961373
+      name: H(+)(in) + thiamine(out) = H(+)(out) + thiamine(in)
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:72139
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:60050
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17509534
+          id: '17509534'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+      name: estrone 3-sulfate(in) + H(+)(out) = estrone 3-sulfate(out) + H(+)(in)
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:72183
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:16737
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17509534
+          id: '17509534'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+      name: creatinine(in) + H(+)(out) = creatinine(out) + H(+)(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:72128
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21128598
+          id: '21128598'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21128598
+    - dbReference:
+        id: RHEA:72129
+        type: Rhea
+      direction: right-to-left
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21128598
+          id: '21128598'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21128598
+    reaction:
+      dbReferences:
+      - id: RHEA:72127
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:58145
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21128598
+          id: '21128598'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21128598
+      name: agmatine(in) + H(+)(out) = agmatine(out) + H(+)(in)
+    type: CATALYTIC_ACTIVITY
+  - kinetics:
+      km:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 0.38 mM for TEA
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/18305230
+            id: '18305230'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/18305230
+        value: 0.58 mM for TEA
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 0.1 mM for MPP
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 0.17 mM for cimetidine
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/18305230
+            id: '18305230'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/18305230
+        value: 7.4 uM for cimetidine
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 0.78 mM for metformin
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 2.1 mM for guanidine
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 1.23 mM for procainamide
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 0.07 mM for topotecan
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 0.47 mM for estrone sulfate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 2.64 mM for acyclovir
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/21128598
+            id: '21128598'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/21128598
+        value: 240 uM for agmatine (at pH 8.0)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/24961373
+            id: '24961373'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/24961373
+        value: 830 uM for thiamine
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 5.12 mM for ganciclovir
+      vmax:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/21128598
+            id: '21128598'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/21128598
+        value: 0.192 nmol/min/mg enzyme toward agmatine (at pH 8.0)
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/24961373
+            id: '24961373'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/24961373
+        value: 2.94 nmol/min/mg enzyme toward thiamine
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 1.185 nmol/min/mg enzyme toward TEA
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/18305230
+            id: '18305230'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/18305230
+        value: 0.81 nmol/min/mg enzyme toward TEA
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 0.735 nmol/min/mg enzyme toward MPP
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 0.135 nmol/min/mg enzyme toward cimetidine
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/18305230
+            id: '18305230'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/18305230
+        value: 0.104 nmol/min/mg enzyme toward cimetidine
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 2.23 nmol/min/mg enzyme toward metformin
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 0.89 nmol/min/mg enzyme toward guanidine
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 3.78 nmol/min/mg enzyme toward procainamide
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 0.21 nmol/min/mg enzyme toward topotecan
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 0.265 nmol/min/mg enzyme toward estrone sulfate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 0.62 nmol/min/mg enzyme toward acyclovir
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17509534
+            id: '17509534'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+        value: 1.08 nmol/min/mg enzyme toward ganciclovir
+    phDependence:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16330770
+          id: '16330770'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17509534
+          id: '17509534'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21128598
+          id: '21128598'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21128598
+      value: Optimum pH is 8.0 for agmatine uptake (PubMed:21128598). Optimum pH is
+        8.5. Active from pH 6 to 8.5.
+    type: BIOPHYSICOCHEMICAL_PROPERTIES
+  - interactions:
+    - accession1: Q96FL8
+      accession2: Q9H0Q3
+      experiments: 3
+      gene: FXYD6
+      interactor1: EBI-12887226
+      interactor2: EBI-713304
+      organismDiffer: false
+    type: INTERACTION
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16641166
+            id: '16641166'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16641166
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/18305230
+            id: '18305230'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/18305230
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/19158817
+            id: '19158817'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/19158817
+        value: Cell membrane
+      topology:
+        evidences:
+        - code: ECO:0000255
+        value: Multi-pass membrane protein
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        value: Apical cell membrane
+      topology:
+        evidences:
+        - code: ECO:0000255
+        value: Multi-pass membrane protein
+    text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16330770
+          id: '16330770'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+      value: Localizes to the plasma membrane; at the brush border membranes of the
+        proximal tubules (kidney) and at the bile caniculi (liver)
+    type: SUBCELLULAR_LOCATION
+  - event:
+    - Alternative splicing
+    isoforms:
+    - ids:
+      - Q96FL8-1
+      name:
+        value: '1'
+      sequenceStatus: displayed
+    - ids:
+      - Q96FL8-2
+      name:
+        value: '2'
+      sequence:
+      - VSP_029903
+      - VSP_029904
+      sequenceStatus: described
+    - ids:
+      - Q96FL8-3
+      name:
+        value: '3'
+      sequence:
+      - VSP_029905
+      sequenceStatus: described
+    type: ALTERNATIVE_PRODUCTS
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16330770
+          id: '16330770'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17509534
+          id: '17509534'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/35307651
+          id: '35307651'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/35307651
+      value: Widely expressed. The highest expression is found in adrenal gland, and
+        to a lower extent in liver, skeletal muscle and kidney. In testis, primarily
+        localized throughout the adluminal compartment of the seminiferous tubules
+        with expression at the peritubular myoid cells and Leydig cells (PubMed:35307651)
+    type: TISSUE_SPECIFICITY
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16330770
+          id: '16330770'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16914559
+          id: '16914559'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16914559
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17495125
+          id: '17495125'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17495125
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17509534
+          id: '17509534'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17582384
+          id: '17582384'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17582384
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18305230
+          id: '18305230'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18305230
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19158817
+          id: '19158817'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19158817
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21128598
+          id: '21128598'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21128598
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26979622
+          id: '26979622'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26979622
+      value: Mediates the efflux of cationic compounds such as the model cations,
+        tetraethylammonium (TEA), the neurotoxin 1-methyl-4-phenylpyridinium (MPP),
+        the platinum-based drugs cisplatin and oxaliplatin, the drugs procainamide,
+        acyclovir and topotecan, or weak bases that are positively charged at physiological
+        pH, such as cimetidine or the antidiabetic drug metformin
+    type: MISCELLANEOUS
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the multi antimicrobial extrusion (MATE) (TC 2.A.66.1) family
+    type: SIMILARITY
+  - conflictType: ERRONEOUS_INITIATION
+    evidences:
+    - code: ECO:0000305
+    sequence: AAH50592.1
+    text: Extended N-terminus.
+    type: SEQUENCE_CAUTION
+  dbReferences:
+  - id: AK001709
+    properties:
+      molecule type: mRNA
+      protein sequence ID: BAA91852.1
+    type: EMBL
+  - id: AK222625
+    properties:
+      molecule type: mRNA
+      protein sequence ID: BAD96345.1
+    type: EMBL
+  - id: CH471212
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW50893.1
+    type: EMBL
+  - id: CH471212
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW50894.1
+    type: EMBL
+  - id: BC010661
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH10661.1
+    type: EMBL
+  - id: BC050592
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH50592.1
+      status: ALT_INIT
+    type: EMBL
+  - id: BC058882
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH58882.1
+    type: EMBL
+  - id: CCDS11209.1
+    isoform: Q96FL8-1
+    type: CCDS
+  - id: NP_060712.2
+    isoform: Q96FL8-1
+    properties:
+      nucleotide sequence ID: NM_018242.2
+    type: RefSeq
+  - id: Q96FL8
+    type: AlphaFoldDB
+  - id: Q96FL8
+    type: SMR
+  - id: '120535'
+    properties:
+      interactions: '58'
+    type: BioGRID
+  - id: Q96FL8
+    properties:
+      interactions: '28'
+    type: IntAct
+  - id: 9606.ENSP00000270570
+    type: STRING
+  - id: Q96FL8
+    type: BindingDB
+  - id: CHEMBL1743126
+    type: ChEMBL
+  - id: DB12001
+    properties:
+      generic name: Abemaciclib
+    type: DrugBank
+  - id: DB00787
+    properties:
+      generic name: Acyclovir
+    type: DrugBank
+  - id: DB06288
+    properties:
+      generic name: Amisulpride
+    type: DrugBank
+  - id: DB11901
+    properties:
+      generic name: Apalutamide
+    type: DrugBank
+  - id: DB16098
+    properties:
+      generic name: Atogepant
+    type: DrugBank
+  - id: DB15233
+    properties:
+      generic name: Avapritinib
+    type: DrugBank
+  - id: DB11799
+    properties:
+      generic name: Bictegravir
+    type: DrugBank
+  - id: DB12267
+    properties:
+      generic name: Brigatinib
+    type: DrugBank
+  - id: DB11791
+    properties:
+      generic name: Capmatinib
+    type: DrugBank
+  - id: DB01333
+    properties:
+      generic name: Cefradine
+    type: DrugBank
+  - id: DB00567
+    properties:
+      generic name: Cephalexin
+    type: DrugBank
+  - id: DB00501
+    properties:
+      generic name: Cimetidine
+    type: DrugBank
+  - id: DB00537
+    properties:
+      generic name: Ciprofloxacin
+    type: DrugBank
+  - id: DB08930
+    properties:
+      generic name: Dolutegravir
+    type: DrugBank
+  - id: DB00879
+    properties:
+      generic name: Emtricitabine
+    type: DrugBank
+  - id: DB04574
+    properties:
+      generic name: Estrone sulfate
+    type: DrugBank
+  - id: DB00927
+    properties:
+      generic name: Famotidine
+    type: DrugBank
+  - id: DB12500
+    properties:
+      generic name: Fedratinib
+    type: DrugBank
+  - id: DB12265
+    properties:
+      generic name: Fexinidazole
+    type: DrugBank
+  - id: DB01195
+    properties:
+      generic name: Flecainide
+    type: DrugBank
+  - id: DB16628
+    properties:
+      generic name: Fosdenopterin
+    type: DrugBank
+  - id: DB01004
+    properties:
+      generic name: Ganciclovir
+    type: DrugBank
+  - id: DB12141
+    properties:
+      generic name: Gilteritinib
+    type: DrugBank
+  - id: DB11978
+    properties:
+      generic name: Glasdegib
+    type: DrugBank
+  - id: DB00986
+    properties:
+      generic name: Glycopyrronium
+    type: DrugBank
+  - id: DB01018
+    properties:
+      generic name: Guanfacine
+    type: DrugBank
+  - id: DB00536
+    properties:
+      generic name: Guanidine
+    type: DrugBank
+  - id: DB11886
+    properties:
+      generic name: Infigratinib
+    type: DrugBank
+  - id: DB11757
+    properties:
+      generic name: Istradefylline
+    type: DrugBank
+  - id: DB11732
+    properties:
+      generic name: Lasmiditan
+    type: DrugBank
+  - id: DB01137
+    properties:
+      generic name: Levofloxacin
+    type: DrugBank
+  - id: DB05667
+    properties:
+      generic name: Levoketoconazole
+    type: DrugBank
+  - id: DB04948
+    properties:
+      generic name: Lofexidine
+    type: DrugBank
+  - id: DB01043
+    properties:
+      generic name: Memantine
+    type: DrugBank
+  - id: DB00331
+    properties:
+      generic name: Metformin
+    type: DrugBank
+  - id: DB09241
+    properties:
+      generic name: Methylene blue
+    type: DrugBank
+  - id: DB08840
+    properties:
+      generic name: N-methylnicotinamide
+    type: DrugBank
+  - id: DB01203
+    properties:
+      generic name: Nadolol
+    type: DrugBank
+  - id: DB11793
+    properties:
+      generic name: Niraparib
+    type: DrugBank
+  - id: DB16267
+    properties:
+      generic name: Olutasidenib
+    type: DrugBank
+  - id: DB11837
+    properties:
+      generic name: Osilodrostat
+    type: DrugBank
+  - id: DB15102
+    properties:
+      generic name: Pemigatinib
+    type: DrugBank
+  - id: DB12978
+    properties:
+      generic name: Pexidartinib
+    type: DrugBank
+  - id: DB12615
+    properties:
+      generic name: Plazomicin
+    type: DrugBank
+  - id: DB15822
+    properties:
+      generic name: Pralsetinib
+    type: DrugBank
+  - id: DB01035
+    properties:
+      generic name: Procainamide
+    type: DrugBank
+  - id: DB00205
+    properties:
+      generic name: Pyrimethamine
+    type: DrugBank
+  - id: DB00243
+    properties:
+      generic name: Ranolazine
+    type: DrugBank
+  - id: DB12377
+    properties:
+      generic name: Relebactam
+    type: DrugBank
+  - id: DB14761
+    properties:
+      generic name: Remdesivir
+    type: DrugBank
+  - id: DB11753
+    properties:
+      generic name: Rifamycin
+    type: DrugBank
+  - id: DB12457
+    properties:
+      generic name: Rimegepant
+    type: DrugBank
+  - id: DB14840
+    properties:
+      generic name: Ripretinib
+    type: DrugBank
+  - id: DB15305
+    properties:
+      generic name: Risdiplam
+    type: DrugBank
+  - id: DB12332
+    properties:
+      generic name: Rucaparib
+    type: DrugBank
+  - id: DB15685
+    properties:
+      generic name: Selpercatinib
+    type: DrugBank
+  - id: DB00877
+    properties:
+      generic name: Sirolimus
+    type: DrugBank
+  - id: DB00391
+    properties:
+      generic name: Sulpiride
+    type: DrugBank
+  - id: DB06608
+    properties:
+      generic name: Tafenoquine
+    type: DrugBank
+  - id: DB12887
+    properties:
+      generic name: Tazemetostat
+    type: DrugBank
+  - id: DB15133
+    properties:
+      generic name: Tepotinib
+    type: DrugBank
+  - id: DB13946
+    properties:
+      generic name: Testosterone undecanoate
+    type: DrugBank
+  - id: DB08837
+    properties:
+      generic name: Tetraethylammonium
+    type: DrugBank
+  - id: DB09343
+    properties:
+      generic name: Tipiracil
+    type: DrugBank
+  - id: DB06137
+    properties:
+      generic name: Tirbanibulin
+    type: DrugBank
+  - id: DB01030
+    properties:
+      generic name: Topotecan
+    type: DrugBank
+  - id: DB15442
+    properties:
+      generic name: Trilaciclib
+    type: DrugBank
+  - id: DB00440
+    properties:
+      generic name: Trimethoprim
+    type: DrugBank
+  - id: DB11652
+    properties:
+      generic name: Tucatinib
+    type: DrugBank
+  - id: DB00661
+    properties:
+      generic name: Verapamil
+    type: DrugBank
+  - id: DB09185
+    properties:
+      generic name: Viloxazine
+    type: DrugBank
+  - id: Q96FL8
+    type: DrugCentral
+  - id: '1216'
+    type: GuidetoPHARMACOLOGY
+  - id: 2.A.66.1.14
+    properties:
+      family name: the multidrug/oligosaccharidyl-lipid/polysaccharide (mop) flippase
+        superfamily
+    type: TCDB
+  - id: Q96FL8
+    type: iPTMnet
+  - id: Q96FL8
+    type: PhosphoSitePlus
+  - id: SLC47A1
+    type: BioMuta
+  - id: '74731723'
+    type: DMDM
+  - id: Q96FL8
+    type: jPOST
+  - id: Q96FL8
+    type: MassIVE
+  - id: Q96FL8
+    type: MaxQB
+  - id: 9606-ENSP00000270570
+    type: PaxDb
+  - id: Q96FL8
+    type: PeptideAtlas
+  - id: '76538'
+    isoform: Q96FL8-1
+    type: ProteomicsDB
+  - id: '76539'
+    isoform: Q96FL8-2
+    type: ProteomicsDB
+  - id: '76540'
+    isoform: Q96FL8-3
+    type: ProteomicsDB
+  - id: Q96FL8
+    type: Pumba
+  - id: '13691'
+    properties:
+      antibodies: 169 antibodies from 30 providers
+    type: Antibodypedia
+  - id: '55244'
+    type: DNASU
+  - id: ENST00000270570.8
+    isoform: Q96FL8-1
+    properties:
+      gene ID: ENSG00000142494.13
+      protein sequence ID: ENSP00000270570.4
+    type: Ensembl
+  - id: ENST00000395585.5
+    isoform: Q96FL8-3
+    properties:
+      gene ID: ENSG00000142494.13
+      protein sequence ID: ENSP00000378951.1
+    type: Ensembl
+  - id: '55244'
+    type: GeneID
+  - id: hsa:55244
+    type: KEGG
+  - id: ENST00000270570.8
+    properties:
+      RefSeq nucleotide sequence ID: NM_018242.3
+      RefSeq protein sequence ID: NP_060712.2
+      protein sequence ID: ENSP00000270570.4
+    type: MANE-Select
+  - id: uc002gvx.4
+    isoform: Q96FL8-1
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:25588
+    type: AGR
+  - id: '55244'
+    type: CTD
+  - id: '55244'
+    type: DisGeNET
+  - id: SLC47A1
+    type: GeneCards
+  - id: HGNC:25588
+    properties:
+      gene designation: SLC47A1
+    type: HGNC
+  - id: ENSG00000142494
+    properties:
+      expression patterns: Tissue enhanced (adrenal gland, kidney, liver)
+    type: HPA
+  - id: '609832'
+    properties:
+      type: gene
+    type: MIM
+  - id: NX_Q96FL8
+    type: neXtProt
+  - id: ENSG00000142494
+    type: OpenTargets
+  - id: PA162403808
+    type: PharmGKB
+  - id: HostDB:ENSG00000142494
+    type: VEuPathDB
+  - id: KOG1347
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000161644
+    type: GeneTree
+  - id: Q96FL8
+    type: InParanoid
+  - id: WFFVWKL
+    type: OMA
+  - id: 10858at2759
+    type: OrthoDB
+  - id: Q96FL8
+    type: PhylomeDB
+  - id: TF324441
+    type: TreeFam
+  - id: Q96FL8
+    type: PathwayCommons
+  - id: R-HSA-425366
+    properties:
+      pathway name: Transport of bile salts and organic acids, metal ions and amine
+        compounds
+    type: Reactome
+  - id: Q96FL8
+    type: SignaLink
+  - id: '55244'
+    properties:
+      hits: 13 hits in 1150 CRISPR screens
+    type: BioGRID-ORCS
+  - id: SLC47A1
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: SLC47A1
+    type: GeneWiki
+  - id: '55244'
+    type: GenomeRNAi
+  - id: Q96FL8
+    properties:
+      development level: Tchem
+    type: Pharos
+  - id: PR:Q96FL8
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 17
+    type: Proteomes
+  - id: Q96FL8
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000142494
+    properties:
+      expression patterns: Expressed in right adrenal gland cortex and 152 other cell
+        types or tissues
+    type: Bgee
+  - id: Q96FL8
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: Q96FL8
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16330770
+        id: '16330770'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+    id: GO:0016324
+    properties:
+      source: IDA:UniProtKB
+      term: C:apical plasma membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/31791063
+        id: '31791063'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/31791063
+    id: GO:0016323
+    properties:
+      source: IDA:ARUK-UCL
+      term: C:basolateral plasma membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0016020
+    properties:
+      source: IBA:GO_Central
+      term: C:membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/28112518
+        id: '28112518'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/28112518
+    id: GO:0005886
+    properties:
+      source: IDA:ARUK-UCL
+      term: C:plasma membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16330770
+        id: '16330770'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17509534
+        id: '17509534'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+    id: GO:0015297
+    properties:
+      source: IDA:UniProtKB
+      term: F:antiporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23864433
+        id: '23864433'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23864433
+    id: GO:0015179
+    properties:
+      source: IMP:ARUK-UCL
+      term: F:L-amino acid transmembrane transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23864433
+        id: '23864433'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23864433
+    id: GO:0061459
+    properties:
+      source: IMP:ARUK-UCL
+      term: F:L-arginine transmembrane transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16330770
+        id: '16330770'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17509534
+        id: '17509534'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21128598
+        id: '21128598'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21128598
+    id: GO:0015101
+    properties:
+      source: IDA:UniProtKB
+      term: F:organic cation transmembrane transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16330770
+        id: '16330770'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17509534
+        id: '17509534'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+    id: GO:0140968
+    properties:
+      source: IDA:UniProtKB
+      term: F:polyspecific organic cation:proton antiporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21128598
+        id: '21128598'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21128598
+    id: GO:0015489
+    properties:
+      source: IDA:UniProtKB
+      term: F:putrescine transmembrane transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24961373
+        id: '24961373'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24961373
+    id: GO:0015234
+    properties:
+      source: IDA:UniProtKB
+      term: F:thiamine transmembrane transporter activity
+    type: GO
+  - id: GO:0022857
+    properties:
+      source: TAS:Reactome
+      term: F:transmembrane transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16330770
+        id: '16330770'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17509534
+        id: '17509534'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+    id: GO:0042910
+    properties:
+      source: IDA:UniProtKB
+      term: F:xenobiotic transmembrane transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23864433
+        id: '23864433'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23864433
+    id: GO:0089718
+    properties:
+      source: IMP:ARUK-UCL
+      term: P:amino acid import across plasma membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23864433
+        id: '23864433'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23864433
+    id: GO:1902475
+    properties:
+      source: IMP:ARUK-UCL
+      term: P:L-alpha-amino acid transmembrane transport
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23864433
+        id: '23864433'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23864433
+    id: GO:0097638
+    properties:
+      source: IMP:ARUK-UCL
+      term: P:L-arginine import across plasma membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16330770
+        id: '16330770'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17509534
+        id: '17509534'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17509534
+    id: GO:0015695
+    properties:
+      source: IDA:UniProtKB
+      term: P:organic cation transport
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21128598
+        id: '21128598'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21128598
+    id: GO:0015847
+    properties:
+      source: IDA:UniProtKB
+      term: P:putrescine transport
+    type: GO
+  - id: GO:0055085
+    properties:
+      source: TAS:Reactome
+      term: P:transmembrane transport
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16330770
+        id: '16330770'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+    id: GO:1990961
+    properties:
+      source: IDA:UniProtKB
+      term: P:xenobiotic detoxification by transmembrane export across the plasma
+        membrane
+    type: GO
+  - id: GO:0006855
+    properties:
+      source: IEA:Ensembl
+      term: P:xenobiotic transmembrane transport
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23864433
+        id: '23864433'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23864433
+    id: GO:0042908
+    properties:
+      source: IMP:ARUK-UCL
+      term: P:xenobiotic transport
+    type: GO
+  - id: cd13132
+    properties:
+      entry name: MATE_eukaryotic
+      match status: '1'
+    type: CDD
+  - id: IPR045069
+    properties:
+      entry name: MATE_euk
+    type: InterPro
+  - id: IPR002528
+    properties:
+      entry name: MATE_fam
+    type: InterPro
+  - id: TIGR00797
+    properties:
+      entry name: matE
+      match status: '1'
+    type: NCBIfam
+  - id: PTHR11206:SF73
+    properties:
+      entry name: MULTIDRUG AND TOXIN EXTRUSION PROTEIN 1
+      match status: '1'
+    type: PANTHER
+  - id: PTHR11206
+    properties:
+      entry name: MULTIDRUG RESISTANCE PROTEIN
+      match status: '1'
+    type: PANTHER
+  - id: PF01554
+    properties:
+      entry name: MatE
+      match status: '2'
+    type: Pfam
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Multidrug and toxin extrusion protein 1
+    end: '570'
+    ftId: PRO_0000312845
+    molecule: ''
+    type: CHAIN
+  - begin: '1'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '37'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '38'
+    category: TOPOLOGY
+    description: Helical
+    end: '58'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '59'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '72'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '73'
+    category: TOPOLOGY
+    description: Helical
+    end: '93'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '94'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '123'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '124'
+    category: TOPOLOGY
+    description: Helical
+    end: '144'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '145'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '152'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '153'
+    category: TOPOLOGY
+    description: Helical
+    end: '173'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '174'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '176'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '177'
+    category: TOPOLOGY
+    description: Helical
+    end: '197'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '198'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '216'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '217'
+    category: TOPOLOGY
+    description: Helical
+    end: '237'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '238'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '256'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '257'
+    category: TOPOLOGY
+    description: Helical
+    end: '276'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '277'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '295'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '296'
+    category: TOPOLOGY
+    description: Helical
+    end: '316'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '317'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '336'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '337'
+    category: TOPOLOGY
+    description: Helical
+    end: '357'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '358'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '370'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '371'
+    category: TOPOLOGY
+    description: Helical
+    end: '391'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '392'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '408'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '409'
+    category: TOPOLOGY
+    description: Helical
+    end: '429'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '430'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '437'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '438'
+    category: TOPOLOGY
+    description: Helical
+    end: '458'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '459'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '546'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '547'
+    category: TOPOLOGY
+    description: Helical
+    end: '567'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '568'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '570'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '508'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '534'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '1'
+    category: PTM
+    description: N-acetylmethionine
+    end: '1'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22814378
+        id: '22814378'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22814378
+    molecule: ''
+    type: MOD_RES
+  - begin: '286'
+    category: VARIANTS
+    end: '290'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15489334
+        id: '15489334'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15489334
+    ftId: VSP_029903
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '291'
+    category: VARIANTS
+    end: '570'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15489334
+        id: '15489334'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15489334
+    ftId: VSP_029904
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '559'
+    category: VARIANTS
+    end: '570'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15489334
+        id: '15489334'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15489334
+    ftId: VSP_029905
+    molecule: ''
+    type: VAR_SEQ
+  - alternativeSequence: L
+    begin: '10'
+    category: VARIANTS
+    description: does not affect plasma membrane expression; does not affect TEA and
+      metformin transport; dbSNP:rs555657341
+    end: '10'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19158817
+        id: '19158817'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19158817
+    ftId: VAR_087027
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: D
+    begin: '64'
+    category: VARIANTS
+    description: found in a patient with renal disease; uncertain significance; decreases
+      plasma membrane expression; transport of TEA and metformin are reduced by at
+      least 90%; dbSNP:rs77630697
+    end: '64'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19158817
+        id: '19158817'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19158817
+    ftId: VAR_087028
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: V
+    begin: '310'
+    category: VARIANTS
+    description: found in a patient with renal disease; uncertain significance; does
+      not affect plasma membrane expression; decreases TEA and metformin transport;
+      Vmax value for TEA transport is decreased; Km value for TEA is increased; dbSNP:rs1322335818
+    end: '310'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19158817
+        id: '19158817'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19158817
+    ftId: VAR_087029
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: A
+    begin: '328'
+    category: VARIANTS
+    description: found in a patient with renal disease; uncertain significance; decreases
+      plasma membrane expression; decreases TEA and metformin transport; Vmax value
+      for TEA transport is decreased; dbSNP:rs149774861
+    end: '328'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19158817
+        id: '19158817'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19158817
+    ftId: VAR_087030
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: I
+    begin: '338'
+    category: VARIANTS
+    description: in dbSNP:rs35790011
+    end: '338'
+    ftId: VAR_037587
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: S
+    begin: '474'
+    category: VARIANTS
+    description: found in a patient with renal disease; uncertain significance; does
+      not affect plasma membrane localization; decreases TEA transport; Km value for
+      TEA is increased; does not affect metformin transport; dbSNP:rs1480708114
+    end: '474'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19158817
+        id: '19158817'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19158817
+    ftId: VAR_087031
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: A
+    begin: '273'
+    category: MUTAGENESIS
+    description: Abolishes membrane subcellular location. Abolishes TEA transport.
+    end: '273'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18305230
+        id: '18305230'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18305230
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: D
+    begin: '273'
+    category: MUTAGENESIS
+    description: Does not affect membrane subcellular location. Decreases TEA transport.
+      Higher affinity for cimetidine and reduced affinity to TEA.
+    end: '273'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18305230
+        id: '18305230'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18305230
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: Q
+    begin: '273'
+    category: MUTAGENESIS
+    description: No change in subcellular location and abolition of MATE1-dependent
+      TEA transport activity.
+    end: '273'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16330770
+        id: '16330770'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A
+    begin: '278'
+    category: MUTAGENESIS
+    description: Does not affect membrane subcellular location. Abolishes TEA transport.
+    end: '278'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18305230
+        id: '18305230'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18305230
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: D
+    begin: '278'
+    category: MUTAGENESIS
+    description: Does not affect membrane subcellular location. Decreases TEA transport.
+    end: '278'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18305230
+        id: '18305230'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18305230
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: F
+    begin: '299'
+    category: MUTAGENESIS
+    description: Decreased TEA and metformin uptake.
+    end: '299'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26979622
+        id: '26979622'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26979622
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A,D
+    begin: '300'
+    category: MUTAGENESIS
+    description: Does not affect membrane subcellular location. Decreases TEA transport.
+    end: '300'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18305230
+        id: '18305230'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18305230
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A,D
+    begin: '389'
+    category: MUTAGENESIS
+    description: Does not affect membrane subcellular location. Decreases TEA transport.
+    end: '389'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18305230
+        id: '18305230'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18305230
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: R
+    begin: '50'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 2; BAD96345
+    end: '50'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: L
+    begin: '309'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; BAA91852
+    end: '309'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: L
+    begin: '448'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 2; BAD96345
+    end: '448'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: D
+    begin: '507'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 2; BAD96345
+    end: '507'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  gene:
+  - name:
+      evidences:
+      - code: ECO:0000312
+        source:
+          id: HGNC:25588
+          name: HGNC
+          url: https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=HGNC:25588
+      value: SLC47A1
+    synonyms:
+    - evidences:
+      - code: ECO:0000303
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16330770
+          id: '16330770'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+      value: MATE1
+  id: S47A1_HUMAN
+  info:
+    created: '2007-12-04'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 162
+  keywords:
+  - value: Acetylation
+  - value: Alternative splicing
+  - value: Antiport
+  - value: Cell membrane
+  - value: Membrane
+  - value: Reference proteome
+  - value: Transmembrane
+  - value: Transmembrane helix
+  - value: Transport
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        value: Solute carrier family 47 member 1
+    recommendedName:
+      fullName:
+        evidences:
+        - code: ECO:0000303
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16330770
+            id: '16330770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16330770
+        value: Multidrug and toxin extrusion protein 1
+      shortName:
+      - value: MATE-1
+      - value: hMATE-1
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Ota T.
+      - Suzuki Y.
+      - Nishikawa T.
+      - Otsuki T.
+      - Sugiyama T.
+      - Irie R.
+      - Wakamatsu A.
+      - Hayashi K.
+      - Sato H.
+      - Nagai K.
+      - Kimura K.
+      - Makita H.
+      - Sekine M.
+      - Obayashi M.
+      - Nishi T.
+      - Shibahara T.
+      - Tanaka T.
+      - Ishii S.
+      - Yamamoto J.
+      - Saito K.
+      - Kawai Y.
+      - Isono Y.
+      - Nakamura Y.
+      - Nagahari K.
+      - Murakami K.
+      - Yasuda T.
+      - Iwayanagi T.
+      - Wagatsuma M.
+      - Shiratori A.
+      - Sudo H.
+      - Hosoiri T.
+      - Kaku Y.
+      - Kodaira H.
+      - Kondo H.
+      - Sugawara M.
+      - Takahashi M.
+      - Kanda K.
+      - Yokoi T.
+      - Furuya T.
+      - Kikkawa E.
+      - Omura Y.
+      - Abe K.
+      - Kamihara K.
+      - Katsuta N.
+      - Sato K.
+      - Tanikawa M.
+      - Yamazaki M.
+      - Ninomiya K.
+      - Ishibashi T.
+      - Yamashita H.
+      - Murakawa K.
+      - Fujimori K.
+      - Tanai H.
+      - Kimata M.
+      - Watanabe M.
+      - Hiraoka S.
+      - Chiba Y.
+      - Ishida S.
+      - Ono Y.
+      - Takiguchi S.
+      - Watanabe S.
+      - Yosida M.
+      - Hotuta T.
+      - Kusano J.
+      - Kanehori K.
+      - Takahashi-Fujii A.
+      - Hara H.
+      - Tanase T.-O.
+      - Nomura Y.
+      - Togiya S.
+      - Komai F.
+      - Hara R.
+      - Takeuchi K.
+      - Arita M.
+      - Imose N.
+      - Musashino K.
+      - Yuuki H.
+      - Oshima A.
+      - Sasaki N.
+      - Aotsuka S.
+      - Yoshikawa Y.
+      - Matsunawa H.
+      - Ichihara T.
+      - Shiohata N.
+      - Sano S.
+      - Moriya S.
+      - Momiyama H.
+      - Satoh N.
+      - Takami S.
+      - Terashima Y.
+      - Suzuki O.
+      - Nakagawa S.
+      - Senoh A.
+      - Mizoguchi H.
+      - Goto Y.
+      - Shimizu F.
+      - Wakebe H.
+      - Hishigaki H.
+      - Watanabe T.
+      - Sugiyama A.
+      - Takemoto M.
+      - Kawakami B.
+      - Yamazaki M.
+      - Watanabe K.
+      - Kumagai A.
+      - Itakura S.
+      - Fukuzumi Y.
+      - Fujimori Y.
+      - Komiyama M.
+      - Tashiro H.
+      - Tanigami A.
+      - Fujiwara T.
+      - Ono T.
+      - Yamada K.
+      - Fujii Y.
+      - Ozaki K.
+      - Hirao M.
+      - Ohmori Y.
+      - Kawabata A.
+      - Hikiji T.
+      - Kobatake N.
+      - Inagaki H.
+      - Ikema Y.
+      - Okamoto S.
+      - Okitani R.
+      - Kawakami T.
+      - Noguchi S.
+      - Itoh T.
+      - Shigeta K.
+      - Senba T.
+      - Matsumura K.
+      - Nakajima Y.
+      - Mizuno T.
+      - Morinaga M.
+      - Sasaki M.
+      - Togashi T.
+      - Oyama M.
+      - Hata H.
+      - Watanabe M.
+      - Komatsu T.
+      - Mizushima-Sugano J.
+      - Satoh T.
+      - Shirai Y.
+      - Takahashi Y.
+      - Nakagawa K.
+      - Okumura K.
+      - Nagase T.
+      - Nomura N.
+      - Kikuchi H.
+      - Masuho Y.
+      - Yamashita R.
+      - Nakai K.
+      - Yada T.
+      - Nakamura Y.
+      - Ohara O.
+      - Isogai T.
+      - Sugano S.
+      dbReferences:
+      - id: '14702039'
+        type: PubMed
+      - id: 10.1038/ng1285
+        type: DOI
+      location:
+        firstPage: '40'
+        lastPage: '45'
+        volume: '36'
+      publication:
+        journalName: Nat. Genet.
+      publicationDate: '2004'
+      title: Complete sequencing and characterization of 21,243 full-length human
+        cDNAs.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)
+  - citation:
+      authors:
+      - Suzuki Y.
+      - Sugano S.
+      - Totoki Y.
+      - Toyoda A.
+      - Takeda T.
+      - Sakaki Y.
+      - Tanaka A.
+      - Yokoyama S.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: APR-2005
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)
+    source:
+      tissue:
+      - value: Cerebellum
+  - citation:
+      authors:
+      - Mural R.J.
+      - Istrail S.
+      - Sutton G.G.
+      - Florea L.
+      - Halpern A.L.
+      - Mobarry C.M.
+      - Lippert R.
+      - Walenz B.
+      - Shatkay H.
+      - Dew I.
+      - Miller J.R.
+      - Flanigan M.J.
+      - Edwards N.J.
+      - Bolanos R.
+      - Fasulo D.
+      - Halldorsson B.V.
+      - Hannenhalli S.
+      - Turner R.
+      - Yooseph S.
+      - Lu F.
+      - Nusskern D.R.
+      - Shue B.C.
+      - Zheng X.H.
+      - Zhong F.
+      - Delcher A.L.
+      - Huson D.H.
+      - Kravitz S.A.
+      - Mouchard L.
+      - Reinert K.
+      - Remington K.A.
+      - Clark A.G.
+      - Waterman M.S.
+      - Eichler E.E.
+      - Adams M.D.
+      - Hunkapiller M.W.
+      - Myers E.W.
+      - Venter J.C.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: JUL-2005
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      consortiums:
+      - The MGC Project Team
+      dbReferences:
+      - id: '15489334'
+        type: PubMed
+      - id: 10.1101/gr.2596504
+        type: DOI
+      location:
+        firstPage: '2121'
+        lastPage: '2127'
+        volume: '14'
+      publication:
+        journalName: Genome Res.
+      publicationDate: '2004'
+      title: 'The status, quality, and expansion of the NIH full-length cDNA project:
+        the Mammalian Gene Collection (MGC).'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1; 2 AND 3)
+    source:
+      tissue:
+      - value: Colon
+      - value: Eye
+  - citation:
+      authors:
+      - Otsuka M.
+      - Matsumoto T.
+      - Morimoto R.
+      - Arioka S.
+      - Omote H.
+      - Moriyama Y.
+      dbReferences:
+      - id: '16330770'
+        type: PubMed
+      - id: 10.1073/pnas.0506483102
+        type: DOI
+      location:
+        firstPage: '17923'
+        lastPage: '17928'
+        volume: '102'
+      publication:
+        journalName: Proc. Natl. Acad. Sci. U.S.A.
+      publicationDate: '2005'
+      title: A human transporter protein that mediates the final excretion step for
+        toxic organic cations.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+    - MUTAGENESIS OF GLU-273
+    - TISSUE SPECIFICITY
+    - SUBCELLULAR LOCATION
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - MISCELLANEOUS
+  - citation:
+      authors:
+      - Hiasa M.
+      - Matsumoto T.
+      - Komatsu T.
+      - Moriyama Y.
+      dbReferences:
+      - id: '16641166'
+        type: PubMed
+      - id: 10.1152/ajpcell.00090.2006
+        type: DOI
+      location:
+        firstPage: C678
+        lastPage: C686
+        volume: '291'
+      publication:
+        journalName: Am. J. Physiol.
+      publicationDate: '2006'
+      title: Wide variety of locations for rodent MATE1, a transporter protein that
+        mediates the final excretion step for toxic organic cations.
+      type: journal article
+    scope:
+    - SUBCELLULAR LOCATION
+  - citation:
+      authors:
+      - Yonezawa A.
+      - Masuda S.
+      - Yokoo S.
+      - Katsura T.
+      - Inui K.
+      dbReferences:
+      - id: '16914559'
+        type: PubMed
+      - id: 10.1124/jpet.106.110346
+        type: DOI
+      location:
+        firstPage: '879'
+        lastPage: '886'
+        volume: '319'
+      publication:
+        journalName: J. Pharmacol. Exp. Ther.
+      publicationDate: '2006'
+      title: Cisplatin and oxaliplatin, but not carboplatin and nedaplatin, are substrates
+        for human organic cation transporters (SLC22A1-3 and multidrug and toxin extrusion
+        family).
+      type: journal article
+    scope:
+    - MISCELLANEOUS
+  - citation:
+      authors:
+      - Tanihara Y.
+      - Masuda S.
+      - Sato T.
+      - Katsura T.
+      - Ogawa O.
+      - Inui K.
+      dbReferences:
+      - id: '17509534'
+        type: PubMed
+      - id: 10.1016/j.bcp.2007.04.010
+        type: DOI
+      location:
+        firstPage: '359'
+        lastPage: '371'
+        volume: '74'
+      publication:
+        journalName: Biochem. Pharmacol.
+      publicationDate: '2007'
+      title: Substrate specificity of MATE1 and MATE2-K, human multidrug and toxin
+        extrusions/H(+)-organic cation antiporters.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - TISSUE SPECIFICITY
+    - SUBSTRATE SPECIFICITY
+    - MISCELLANEOUS
+  - citation:
+      authors:
+      - Yokoo S.
+      - Yonezawa A.
+      - Masuda S.
+      - Fukatsu A.
+      - Katsura T.
+      - Inui K.
+      dbReferences:
+      - id: '17582384'
+        type: PubMed
+      - id: 10.1016/j.bcp.2007.03.004
+        type: DOI
+      location:
+        firstPage: '477'
+        lastPage: '487'
+        volume: '74'
+      publication:
+        journalName: Biochem. Pharmacol.
+      publicationDate: '2007'
+      title: Differential contribution of organic cation transporters, OCT2 and MATE1,
+        in platinum agent-induced nephrotoxicity.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+    - MISCELLANEOUS
+  - citation:
+      authors:
+      - Chen Y.
+      - Zhang S.
+      - Sorani M.
+      - Giacomini K.M.
+      dbReferences:
+      - id: '17495125'
+        type: PubMed
+      - id: 10.1124/jpet.107.123554
+        type: DOI
+      location:
+        firstPage: '695'
+        lastPage: '700'
+        volume: '322'
+      publication:
+        journalName: J. Pharmacol. Exp. Ther.
+      publicationDate: '2007'
+      title: Transport of paraquat by human organic cation transporters and multidrug
+        and toxic compound extrusion family.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+    - MISCELLANEOUS
+  - citation:
+      authors:
+      - Matsumoto T.
+      - Kanamoto T.
+      - Otsuka M.
+      - Omote H.
+      - Moriyama Y.
+      dbReferences:
+      - id: '18305230'
+        type: PubMed
+      - id: 10.1152/ajpcell.00504.2007
+        type: DOI
+      location:
+        firstPage: C1074
+        lastPage: C1078
+        volume: '294'
+      publication:
+        journalName: Am. J. Physiol.
+      publicationDate: '2008'
+      title: Role of glutamate residues in substrate recognition by human MATE1 polyspecific
+        H+/organic cation exporter.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+    - SUBCELLULAR LOCATION
+    - MISCELLANEOUS
+    - MUTAGENESIS OF GLU-273; GLU-278; GLU-300 AND GLU-389
+  - citation:
+      authors:
+      - Kajiwara M.
+      - Terada T.
+      - Ogasawara K.
+      - Iwano J.
+      - Katsura T.
+      - Fukatsu A.
+      - Doi T.
+      - Inui K.
+      dbReferences:
+      - id: '19158817'
+        type: PubMed
+      - id: 10.1038/jhg.2008.1
+        type: DOI
+      location:
+        firstPage: '40'
+        lastPage: '46'
+        volume: '54'
+      publication:
+        journalName: J. Hum. Genet.
+      publicationDate: '2009'
+      title: Identification of multidrug and toxin extrusion (MATE1 and MATE2-K) variants
+        with complete loss of transport activity.
+      type: journal article
+    scope:
+    - VARIANTS LEU-10; ASP-64; VAL-310; ALA-328 AND SER-474
+    - CHARACTERIZATION OF VARIANTS LEU-10; ASP-64; VAL-310; ALA-328 AND SER-474
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+    - SUBCELLULAR LOCATION
+    - MISCELLANEOUS
+  - citation:
+      authors:
+      - Winter T.N.
+      - Elmquist W.F.
+      - Fairbanks C.A.
+      dbReferences:
+      - id: '21128598'
+        type: PubMed
+      - id: 10.1021/mp100180a
+        type: DOI
+      location:
+        firstPage: '133'
+        lastPage: '142'
+        volume: '8'
+      publication:
+        journalName: Mol. Pharm.
+      publicationDate: '2011'
+      title: OCT2 and MATE1 provide bidirectional agmatine transport.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - MISCELLANEOUS
+  - citation:
+      authors:
+      - Van Damme P.
+      - Lasa M.
+      - Polevoda B.
+      - Gazquez C.
+      - Elosegui-Artola A.
+      - Kim D.S.
+      - De Juan-Pardo E.
+      - Demeyer K.
+      - Hole K.
+      - Larrea E.
+      - Timmerman E.
+      - Prieto J.
+      - Arnesen T.
+      - Sherman F.
+      - Gevaert K.
+      - Aldabe R.
+      dbReferences:
+      - id: '22814378'
+        type: PubMed
+      - id: 10.1073/pnas.1210303109
+        type: DOI
+      location:
+        firstPage: '12449'
+        lastPage: '12454'
+        volume: '109'
+      publication:
+        journalName: Proc. Natl. Acad. Sci. U.S.A.
+      publicationDate: '2012'
+      title: N-terminal acetylome analyses and functional insights of the N-terminal
+        acetyltransferase NatB.
+      type: journal article
+    scope:
+    - ACETYLATION [LARGE SCALE ANALYSIS] AT MET-1
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+  - citation:
+      authors:
+      - Chen L.
+      - Shu Y.
+      - Liang X.
+      - Chen E.C.
+      - Yee S.W.
+      - Zur A.A.
+      - Li S.
+      - Xu L.
+      - Keshari K.R.
+      - Lin M.J.
+      - Chien H.C.
+      - Zhang Y.
+      - Morrissey K.M.
+      - Liu J.
+      - Ostrem J.
+      - Younger N.S.
+      - Kurhanewicz J.
+      - Shokat K.M.
+      - Ashrafi K.
+      - Giacomini K.M.
+      dbReferences:
+      - id: '24961373'
+        type: PubMed
+      - id: 10.1073/pnas.1314939111
+        type: DOI
+      location:
+        firstPage: '9983'
+        lastPage: '9988'
+        volume: '111'
+      publication:
+        journalName: Proc. Natl. Acad. Sci. U.S.A.
+      publicationDate: '2014'
+      title: OCT1 is a high-capacity thiamine transporter that regulates hepatic steatosis
+        and is a target of metformin.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+  - citation:
+      authors:
+      - Sprowl J.A.
+      - Ong S.S.
+      - Gibson A.A.
+      - Hu S.
+      - Du G.
+      - Lin W.
+      - Li L.
+      - Bharill S.
+      - Ness R.A.
+      - Stecula A.
+      - Offer S.M.
+      - Diasio R.B.
+      - Nies A.T.
+      - Schwab M.
+      - Cavaletti G.
+      - Schlatter E.
+      - Ciarimboli G.
+      - Schellens J.H.M.
+      - Isacoff E.Y.
+      - Sali A.
+      - Chen T.
+      - Baker S.D.
+      - Sparreboom A.
+      - Pabla N.
+      dbReferences:
+      - id: '26979622'
+        type: PubMed
+      - id: 10.1038/ncomms10880
+        type: DOI
+      location:
+        firstPage: '10880'
+        lastPage: '10880'
+        volume: '7'
+      publication:
+        journalName: Nat. Commun.
+      publicationDate: '2016'
+      title: A phosphotyrosine switch regulates organic cation transporters.
+      type: journal article
+    scope:
+    - MUTAGENESIS OF TYR-299
+    - MISCELLANEOUS
+  - citation:
+      authors:
+      - Hau R.K.
+      - Klein R.R.
+      - Wright S.H.
+      - Cherrington N.J.
+      dbReferences:
+      - id: '35307651'
+        type: PubMed
+      - id: 10.1124/dmd.121.000748
+        type: DOI
+      location:
+        firstPage: '770'
+        lastPage: '780'
+        volume: '50'
+      publication:
+        journalName: Drug Metab. Dispos.
+      publicationDate: '2022'
+      title: Localization of Xenobiotic Transporters Expressed at the Human Blood-Testis
+        Barrier.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TISSUE SPECIFICITY
+  secondaryAccession:
+  - Q53HF5
+  - Q6PD77
+  - Q86VL4
+  - Q9NVA3
+  sequence:
+    length: 570
+    mass: 61922
+    modified: '2001-12-01'
+    sequence: MEAPEEPAPVRGGPEATLEVRGSRCLRLSAFREELRALLVLAGPAFLVQLMVFLISFISSVFCGHLGKLELDAVTLAIAVINVTGVSVGFGLSSACDTLISQTYGSQNLKHVGVILQRSALVLLLCCFPCWALFLNTQHILLLFRQDPDVSRLTQTYVTIFIPALPATFLYMLQVKYLLNQGIVLPQIVTGVAANLVNALANYLFLHQLHLGVIGSALANLISQYTLALLLFLYILGKKLHQATWGGWSLECLQDWASFLRLAIPSMLMLCMEWWAYEVGSFLSGILGMVELGAQSIVYELAIIVYMVPAGFSVAASVRVGNALGAGDMEQARKSSTVSLLITVLFAVAFSVLLLSCKDHVGYIFTTDRDIINLVAQVVPIYAVSHLFEALACTSGGVLRGSGNQKVGAIVNTIGYYVVGLPIGIALMFATTLGVMGLWSGIIICTVFQAVCFLGFIIQLNWKKACQQAQVHANLKVNNVPRSGNSALPQDPLHPGCPENLEGILTNDVGKTGEPQSDQQMRQEEPLPEHPQDGAKLSRKQLVLRRGLLLLGVFLILLVGILVRFYVRIQ
+    version: 1
+uniprot_id: Q96FL8

@@ -1,0 +1,2771 @@
+data:
+  accession: P14867
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P62812
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P62812
+      - code: ECO:0000250
+        source:
+          id: P62813
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P62813
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/23909897
+          id: '23909897'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/23909897
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/25489750
+          id: '25489750'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/25489750
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/29950725
+          id: '29950725'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/29950725
+      value: Ligand-gated chloride channel which is a component of the heteropentameric
+        receptor for GABA, the major inhibitory neurotransmitter in the brain (PubMed:23909897,
+        PubMed:25489750, PubMed:29950725). Plays an important role in the formation
+        of functional inhibitory GABAergic synapses in addition to mediating synaptic
+        inhibition as a GABA-gated ion channel (PubMed:23909897, PubMed:25489750).
+        The gamma2 subunit is necessary but not sufficient for a rapid formation of
+        active synaptic contacts and the synaptogenic effect of this subunit is influenced
+        by the type of alpha and beta subunits present in the receptor pentamer (By
+        similarity). The alpha1/beta2/gamma2 receptor and the alpha1/beta3/gamma2
+        receptor exhibit synaptogenic activity (PubMed:23909897, PubMed:25489750).
+        GABRA1-mediated plasticity in the orbitofrontal cortex regulates context-dependent
+        action selection (By similarity). Functions also as histamine receptor and
+        mediates cellular responses to histamine (By similarity)
+    type: FUNCTION
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P62813
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P62813
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/29950725
+          id: '29950725'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/29950725
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/30266951
+          id: '30266951'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/30266951
+      value: Allosterically activated by benzodiazepines and the anesthetic alphaxalone
+        (PubMed:30266951, PubMed:29950725). Allosterically activated by pentobarbital
+        (By similarity). Inhibited by the antagonist bicuculline (PubMed:29950725)
+    type: ACTIVITY_REGULATION
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P62812
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P62812
+      - code: ECO:0000250
+        source:
+          id: P62813
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P62813
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/28978485
+          id: '28978485'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/28978485
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/29742426
+          id: '29742426'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/29742426
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/29950725
+          id: '29950725'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/29950725
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/30266951
+          id: '30266951'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/30266951
+      value: Heteropentamer, formed by a combination of alpha, beta, gamma, delta
+        and rho chains (PubMed:29950725, PubMed:30266951). Interacts with UBQLN1 (By
+        similarity). Interacts with TRAK1 (By similarity). Interacts with KIF21B (By
+        similarity). Identified in a complex of 720 kDa composed of LHFPL4, NLGN2,
+        GABRA1, GABRB2, GABRG2 and GABRB3 (By similarity). Interacts with LHFPL4 (PubMed:28978485,
+        PubMed:29742426). Interacts with NLGN2 (By similarity). Interacts with SHISA7;
+        interaction leads regulation of GABA(A) receptor trafficking, channel deactivation
+        kinetics and pharmacology (By similarity)
+    type: SUBUNIT
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: P08219
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P08219
+        value: Postsynaptic cell membrane
+      topology:
+        evidences:
+        - code: ECO:0000255
+        value: Multi-pass membrane protein
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/2465923
+            id: '2465923'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/2465923
+        value: Cell membrane
+      topology:
+        evidences:
+        - code: ECO:0000255
+        value: Multi-pass membrane protein
+    - location:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: P62813
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P62813
+        value: Cytoplasmic vesicle membrane
+    type: SUBCELLULAR_LOCATION
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P62812
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P62812
+      value: The extracellular domain contributes to synaptic contact formation
+    type: DOMAIN
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P62812
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P62812
+      value: Glycosylated
+    type: PTM
+  - acronym: ECA4
+    dbReference:
+      id: '611136'
+      type: MIM
+    description:
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16718694
+          id: '16718694'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16718694
+      value: A subtype of idiopathic generalized epilepsy characterized by an onset
+        at age 6-7 years, frequent absence seizures (several per day) and bilateral,
+        synchronous, symmetric 3-Hz spike waves on EEG. Tonic-clonic seizures often
+        develop in adolescence. Absence seizures may either remit or persist into
+        adulthood.
+    diseaseId: Epilepsy, childhood absence 4
+    text:
+    - value: Disease susceptibility is associated with variants affecting the gene
+        represented in this entry
+    type: DISEASE
+  - acronym: EIG13
+    dbReference:
+      id: '611136'
+      type: MIM
+    description:
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21714819
+          id: '21714819'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21714819
+      value: A disorder characterized by recurring generalized seizures in the absence
+        of detectable brain lesions and/or metabolic abnormalities. Generalized seizures
+        arise diffusely and simultaneously from both hemispheres of the brain. Seizure
+        types include juvenile myoclonic seizures, absence seizures, and generalized
+        tonic-clonic seizures.
+    diseaseId: Epilepsy, idiopathic generalized 13
+    text:
+    - value: Disease susceptibility is associated with variants affecting the gene
+        represented in this entry
+    type: DISEASE
+  - acronym: EJM5
+    dbReference:
+      id: '611136'
+      type: MIM
+    description:
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11992121
+          id: '11992121'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11992121
+      value: A subtype of idiopathic generalized epilepsy. Patients have afebrile
+        seizures only, with onset in adolescence (rather than in childhood) and myoclonic
+        jerks which usually occur after awakening and are triggered by sleep deprivation
+        and fatigue.
+    diseaseId: Juvenile myoclonic epilepsy 5
+    text:
+    - value: Disease susceptibility is associated with variants affecting the gene
+        represented in this entry
+    type: DISEASE
+  - acronym: DEE19
+    dbReference:
+      id: '615744'
+      type: MIM
+    description:
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/24623842
+          id: '24623842'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/24623842
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/27864847
+          id: '27864847'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/27864847
+      value: A severe neurologic disorder characterized by onset of seizures in the
+        first months of life and usually associated with EEG abnormalities. Affected
+        infants have convulsive seizures (hemiclonic or generalized) that are often
+        prolonged and triggered by fever. Other seizure types include focal, myoclonic,
+        absence seizures, and drop attacks. Development is normal in the first year
+        of life with later slowing and intellectual disability.
+    diseaseId: Developmental and epileptic encephalopathy 19
+    text:
+    - value: The disease is caused by variants affecting the gene represented in this
+        entry
+    type: DISEASE
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the ligand-gated ion channel (TC 1.A.9) family. Gamma-aminobutyric
+        acid receptor (TC 1.A.9.5) subfamily. GABRA1 sub-subfamily
+    type: SIMILARITY
+  - name: Protein Spotlight
+    text: Forbidden fruit - Issue 56 of March 2005
+    type: WEBRESOURCE
+    url: https://web.expasy.org/spotlight/back_issues/056
+  dbReferences:
+  - id: X14766
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAA32874.1
+    type: EMBL
+  - id: CH471062
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW61538.1
+    type: EMBL
+  - id: CH471062
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW61539.1
+    type: EMBL
+  - id: BC030696
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH30696.1
+    type: EMBL
+  - id: X13584
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAA31925.1
+    type: EMBL
+  - id: CCDS4357.1
+    type: CCDS
+  - id: A31588
+    properties:
+      entry name: A31588
+    type: PIR
+  - id: A60652
+    properties:
+      entry name: A60652
+    type: PIR
+  - id: NP_000797.2
+    properties:
+      nucleotide sequence ID: NM_000806.5
+    type: RefSeq
+  - id: NP_001121115.1
+    properties:
+      nucleotide sequence ID: NM_001127643.1
+    type: RefSeq
+  - id: NP_001121116.1
+    properties:
+      nucleotide sequence ID: NM_001127644.1
+    type: RefSeq
+  - id: NP_001121117.1
+    properties:
+      nucleotide sequence ID: NM_001127645.1
+    type: RefSeq
+  - id: NP_001121120.1
+    properties:
+      nucleotide sequence ID: NM_001127648.1
+    type: RefSeq
+  - id: 6CDU
+    properties:
+      chains: A/B/C/D/E/F/G/H/I/J=249-340, A/B/C/D/E/F/G/H/I/J=415-444
+      method: X-ray
+      resolution: 3.45 A
+    type: PDB
+  - id: 6D1S
+    properties:
+      chains: A/B/C/D/E/F/G/H/I/J=249-340, A/B/C/D/E/F/G/H/I/J=415-444
+      method: X-ray
+      resolution: 3.20 A
+    type: PDB
+  - id: 6D6T
+    properties:
+      chains: B/D=28-339, B/D=418-456
+      method: EM
+      resolution: 3.80 A
+    type: PDB
+  - id: 6D6U
+    properties:
+      chains: B/D=28-339, B/D=418-456
+      method: EM
+      resolution: 3.80 A
+    type: PDB
+  - id: 6HUG
+    properties:
+      chains: A/D=28-456
+      method: EM
+      resolution: 3.10 A
+    type: PDB
+  - id: 6HUJ
+    properties:
+      chains: A/D=1-456
+      method: EM
+      resolution: 3.04 A
+    type: PDB
+  - id: 6HUK
+    properties:
+      chains: A/D=1-456
+      method: EM
+      resolution: 3.69 A
+    type: PDB
+  - id: 6HUO
+    properties:
+      chains: A/D=1-456
+      method: EM
+      resolution: 3.26 A
+    type: PDB
+  - id: 6HUP
+    properties:
+      chains: A/D=1-456
+      method: EM
+      resolution: 3.58 A
+    type: PDB
+  - id: 6I53
+    properties:
+      chains: A/D=1-456
+      method: EM
+      resolution: 3.20 A
+    type: PDB
+  - id: 6X3S
+    properties:
+      chains: B/D=28-339, B/D=418-456
+      method: EM
+      resolution: 3.12 A
+    type: PDB
+  - id: 6X3T
+    properties:
+      chains: B/D=28-339, B/D=419-456
+      method: EM
+      resolution: 2.55 A
+    type: PDB
+  - id: 6X3U
+    properties:
+      chains: B/D=28-339, B/D=419-456
+      method: EM
+      resolution: 3.49 A
+    type: PDB
+  - id: 6X3V
+    properties:
+      chains: B/D=28-339, B/D=418-456
+      method: EM
+      resolution: 3.50 A
+    type: PDB
+  - id: 6X3W
+    properties:
+      chains: B/D=28-339, B/D=418-456
+      method: EM
+      resolution: 3.30 A
+    type: PDB
+  - id: 6X3X
+    properties:
+      chains: B/D=28-339, B/D=418-456
+      method: EM
+      resolution: 2.92 A
+    type: PDB
+  - id: 6X3Z
+    properties:
+      chains: B/D=28-339, B/D=418-456
+      method: EM
+      resolution: 3.23 A
+    type: PDB
+  - id: 6X40
+    properties:
+      chains: B/D=28-339, B/D=418-456
+      method: EM
+      resolution: 2.86 A
+    type: PDB
+  - id: 7PBD
+    properties:
+      chains: A/D=32-339, A/D=418-456
+      method: EM
+      resolution: 3.04 A
+    type: PDB
+  - id: 7PBZ
+    properties:
+      chains: A/D=32-339, A/D=418-456
+      method: EM
+      resolution: 2.79 A
+    type: PDB
+  - id: 7PC0
+    properties:
+      chains: A/D=32-339, A/D=418-456
+      method: EM
+      resolution: 3.00 A
+    type: PDB
+  - id: 7QNE
+    properties:
+      chains: A/D=1-456
+      method: EM
+      resolution: 2.70 A
+    type: PDB
+  - id: 7T0W
+    properties:
+      chains: B/D=28-339, B/D=418-445
+      method: EM
+      resolution: 3.00 A
+    type: PDB
+  - id: 7T0Z
+    properties:
+      chains: B/D=28-339, B/D=418-445
+      method: EM
+      resolution: 3.00 A
+    type: PDB
+  - id: 8DD2
+    properties:
+      chains: B/D=28-339
+      method: EM
+      resolution: 2.90 A
+    type: PDB
+  - id: 8DD3
+    properties:
+      chains: B/D=28-339
+      method: EM
+      resolution: 2.90 A
+    type: PDB
+  - id: 8SGO
+    properties:
+      chains: B/D=28-339, B/D=418-456
+      method: EM
+      resolution: 2.65 A
+    type: PDB
+  - id: 8SI9
+    properties:
+      chains: B/D=28-339, B/D=418-456
+      method: EM
+      resolution: 2.98 A
+    type: PDB
+  - id: 8SID
+    properties:
+      chains: B/D=28-339, B/D=418-456
+      method: EM
+      resolution: 2.71 A
+    type: PDB
+  - id: 6CDU
+    type: PDBsum
+  - id: 6D1S
+    type: PDBsum
+  - id: 6D6T
+    type: PDBsum
+  - id: 6D6U
+    type: PDBsum
+  - id: 6HUG
+    type: PDBsum
+  - id: 6HUJ
+    type: PDBsum
+  - id: 6HUK
+    type: PDBsum
+  - id: 6HUO
+    type: PDBsum
+  - id: 6HUP
+    type: PDBsum
+  - id: 6I53
+    type: PDBsum
+  - id: 6X3S
+    type: PDBsum
+  - id: 6X3T
+    type: PDBsum
+  - id: 6X3U
+    type: PDBsum
+  - id: 6X3V
+    type: PDBsum
+  - id: 6X3W
+    type: PDBsum
+  - id: 6X3X
+    type: PDBsum
+  - id: 6X3Z
+    type: PDBsum
+  - id: 6X40
+    type: PDBsum
+  - id: 7PBD
+    type: PDBsum
+  - id: 7PBZ
+    type: PDBsum
+  - id: 7PC0
+    type: PDBsum
+  - id: 7QNE
+    type: PDBsum
+  - id: 7T0W
+    type: PDBsum
+  - id: 7T0Z
+    type: PDBsum
+  - id: 8DD2
+    type: PDBsum
+  - id: 8DD3
+    type: PDBsum
+  - id: 8SGO
+    type: PDBsum
+  - id: 8SI9
+    type: PDBsum
+  - id: 8SID
+    type: PDBsum
+  - id: P14867
+    type: AlphaFoldDB
+  - id: EMD-0275
+    type: EMDB
+  - id: EMD-0279
+    type: EMDB
+  - id: EMD-0280
+    type: EMDB
+  - id: EMD-0282
+    type: EMDB
+  - id: EMD-0283
+    type: EMDB
+  - id: EMD-13290
+    type: EMDB
+  - id: EMD-13314
+    type: EMDB
+  - id: EMD-13315
+    type: EMDB
+  - id: EMD-22031
+    type: EMDB
+  - id: EMD-22032
+    type: EMDB
+  - id: EMD-22033
+    type: EMDB
+  - id: EMD-22034
+    type: EMDB
+  - id: EMD-22035
+    type: EMDB
+  - id: EMD-22036
+    type: EMDB
+  - id: EMD-22037
+    type: EMDB
+  - id: EMD-22038
+    type: EMDB
+  - id: EMD-25583
+    type: EMDB
+  - id: EMD-25585
+    type: EMDB
+  - id: EMD-27332
+    type: EMDB
+  - id: EMD-27333
+    type: EMDB
+  - id: EMD-40462
+    type: EMDB
+  - id: EMD-40503
+    type: EMDB
+  - id: EMD-40506
+    type: EMDB
+  - id: EMD-4411
+    type: EMDB
+  - id: EMD-7816
+    type: EMDB
+  - id: EMD-7817
+    type: EMDB
+  - id: P14867
+    type: SMR
+  - id: '108828'
+    properties:
+      interactions: '134'
+    type: BioGRID
+  - id: CPX-2159
+    properties:
+      entry name: GABA-A receptor, alpha-1/beta-2/gamma-2
+    type: ComplexPortal
+  - id: CPX-2167
+    properties:
+      entry name: GABA-A receptor, alpha-1/beta-3/gamma-2
+    type: ComplexPortal
+  - id: P14867
+    type: CORUM
+  - id: P14867
+    properties:
+      interactions: '5'
+    type: IntAct
+  - id: P14867
+    type: MINT
+  - id: 9606.ENSP00000393097
+    type: STRING
+  - id: P14867
+    type: BindingDB
+  - id: CHEMBL1962
+    type: ChEMBL
+  - id: DB12537
+    properties:
+      generic name: 1,2-Benzodiazepine
+    type: DrugBank
+  - id: DB00546
+    properties:
+      generic name: Adinazolam
+    type: DrugBank
+  - id: DB06579
+    properties:
+      generic name: Adipiplon
+    type: DrugBank
+  - id: DB00404
+    properties:
+      generic name: Alprazolam
+    type: DrugBank
+  - id: DB01351
+    properties:
+      generic name: Amobarbital
+    type: DrugBank
+  - id: DB00543
+    properties:
+      generic name: Amoxapine
+    type: DrugBank
+  - id: DB11901
+    properties:
+      generic name: Apalutamide
+    type: DrugBank
+  - id: DB01352
+    properties:
+      generic name: Aprobarbital
+    type: DrugBank
+  - id: DB01483
+    properties:
+      generic name: Barbital
+    type: DrugBank
+  - id: DB14719
+    properties:
+      generic name: Bentazepam
+    type: DrugBank
+  - id: DB11859
+    properties:
+      generic name: Brexanolone
+    type: DrugBank
+  - id: DB01558
+    properties:
+      generic name: Bromazepam
+    type: DrugBank
+  - id: DB09017
+    properties:
+      generic name: Brotizolam
+    type: DrugBank
+  - id: DB00237
+    properties:
+      generic name: Butabarbital
+    type: DrugBank
+  - id: DB00241
+    properties:
+      generic name: Butalbital
+    type: DrugBank
+  - id: DB01353
+    properties:
+      generic name: Butobarbital
+    type: DrugBank
+  - id: DB01489
+    properties:
+      generic name: Camazepam
+    type: DrugBank
+  - id: DB00395
+    properties:
+      generic name: Carisoprodol
+    type: DrugBank
+  - id: DB00475
+    properties:
+      generic name: Chlordiazepoxide
+    type: DrugBank
+  - id: DB14715
+    properties:
+      generic name: Cinazepam
+    type: DrugBank
+  - id: DB01594
+    properties:
+      generic name: Cinolazepam
+    type: DrugBank
+  - id: DB00349
+    properties:
+      generic name: Clobazam
+    type: DrugBank
+  - id: DB06470
+    properties:
+      generic name: Clomethiazole
+    type: DrugBank
+  - id: DB01068
+    properties:
+      generic name: Clonazepam
+    type: DrugBank
+  - id: DB00628
+    properties:
+      generic name: Clorazepic acid
+    type: DrugBank
+  - id: DB01559
+    properties:
+      generic name: Clotiazepam
+    type: DrugBank
+  - id: DB01553
+    properties:
+      generic name: Cloxazolam
+    type: DrugBank
+  - id: DB01511
+    properties:
+      generic name: Delorazepam
+    type: DrugBank
+  - id: DB01189
+    properties:
+      generic name: Desflurane
+    type: DrugBank
+  - id: DB00829
+    properties:
+      generic name: Diazepam
+    type: DrugBank
+  - id: DB01496
+    properties:
+      generic name: Dihydro-2-thioxo-5-((5-(2-(trifluoromethyl)phenyl)-2-furanyl)methyl)-4,6(1H,5H)-pyrimidinedione
+    type: DrugBank
+  - id: DB01341
+    properties:
+      generic name: Dihydroquinidine barbiturate
+    type: DrugBank
+  - id: DB13837
+    properties:
+      generic name: Doxefazepam
+    type: DrugBank
+  - id: DB00228
+    properties:
+      generic name: Enflurane
+    type: DrugBank
+  - id: DB01215
+    properties:
+      generic name: Estazolam
+    type: DrugBank
+  - id: DB00402
+    properties:
+      generic name: Eszopiclone
+    type: DrugBank
+  - id: DB00898
+    properties:
+      generic name: Ethanol
+    type: DrugBank
+  - id: DB00189
+    properties:
+      generic name: Ethchlorvynol
+    type: DrugBank
+  - id: DB01545
+    properties:
+      generic name: Ethyl loflazepate
+    type: DrugBank
+  - id: DB09166
+    properties:
+      generic name: Etizolam
+    type: DrugBank
+  - id: DB00292
+    properties:
+      generic name: Etomidate
+    type: DrugBank
+  - id: DB01567
+    properties:
+      generic name: Fludiazepam
+    type: DrugBank
+  - id: DB01205
+    properties:
+      generic name: Flumazenil
+    type: DrugBank
+  - id: DB01544
+    properties:
+      generic name: Flunitrazepam
+    type: DrugBank
+  - id: DB00690
+    properties:
+      generic name: Flurazepam
+    type: DrugBank
+  - id: DB05087
+    properties:
+      generic name: Ganaxolone
+    type: DrugBank
+  - id: DB01381
+    properties:
+      generic name: Ginkgo biloba
+    type: DrugBank
+  - id: DB01437
+    properties:
+      generic name: Glutethimide
+    type: DrugBank
+  - id: DB00801
+    properties:
+      generic name: Halazepam
+    type: DrugBank
+  - id: DB01159
+    properties:
+      generic name: Halothane
+    type: DrugBank
+  - id: DB01354
+    properties:
+      generic name: Heptabarbital
+    type: DrugBank
+  - id: DB01355
+    properties:
+      generic name: Hexobarbital
+    type: DrugBank
+  - id: DB00753
+    properties:
+      generic name: Isoflurane
+    type: DrugBank
+  - id: DB01587
+    properties:
+      generic name: Ketazolam
+    type: DrugBank
+  - id: DB00555
+    properties:
+      generic name: Lamotrigine
+    type: DrugBank
+  - id: DB13643
+    properties:
+      generic name: Loprazolam
+    type: DrugBank
+  - id: DB00186
+    properties:
+      generic name: Lorazepam
+    type: DrugBank
+  - id: DB13872
+    properties:
+      generic name: Lormetazepam
+    type: DrugBank
+  - id: DB13437
+    properties:
+      generic name: Medazepam
+    type: DrugBank
+  - id: DB00603
+    properties:
+      generic name: Medroxyprogesterone acetate
+    type: DrugBank
+  - id: DB01043
+    properties:
+      generic name: Memantine
+    type: DrugBank
+  - id: DB00371
+    properties:
+      generic name: Meprobamate
+    type: DrugBank
+  - id: DB00463
+    properties:
+      generic name: Metharbital
+    type: DrugBank
+  - id: DB00474
+    properties:
+      generic name: Methohexital
+    type: DrugBank
+  - id: DB01028
+    properties:
+      generic name: Methoxyflurane
+    type: DrugBank
+  - id: DB00849
+    properties:
+      generic name: Methylphenobarbital
+    type: DrugBank
+  - id: DB01107
+    properties:
+      generic name: Methyprylon
+    type: DrugBank
+  - id: DB15489
+    properties:
+      generic name: Mexazolam
+    type: DrugBank
+  - id: DB00683
+    properties:
+      generic name: Midazolam
+    type: DrugBank
+  - id: DB12458
+    properties:
+      generic name: Muscimol
+    type: DrugBank
+  - id: DB01595
+    properties:
+      generic name: Nitrazepam
+    type: DrugBank
+  - id: DB14028
+    properties:
+      generic name: Nordazepam
+    type: DrugBank
+  - id: DB00334
+    properties:
+      generic name: Olanzapine
+    type: DrugBank
+  - id: DB00842
+    properties:
+      generic name: Oxazepam
+    type: DrugBank
+  - id: DB14672
+    properties:
+      generic name: Oxazepam acetate
+    type: DrugBank
+  - id: DB00312
+    properties:
+      generic name: Pentobarbital
+    type: DrugBank
+  - id: DB01174
+    properties:
+      generic name: Phenobarbital
+    type: DrugBank
+  - id: DB00252
+    properties:
+      generic name: Phenytoin
+    type: DrugBank
+  - id: DB00466
+    properties:
+      generic name: Picrotoxin
+    type: DrugBank
+  - id: DB13335
+    properties:
+      generic name: Pinazepam
+    type: DrugBank
+  - id: DB01708
+    properties:
+      generic name: Prasterone
+    type: DrugBank
+  - id: DB01588
+    properties:
+      generic name: Prazepam
+    type: DrugBank
+  - id: DB00794
+    properties:
+      generic name: Primidone
+    type: DrugBank
+  - id: DB00837
+    properties:
+      generic name: Progabide
+    type: DrugBank
+  - id: DB00818
+    properties:
+      generic name: Propofol
+    type: DrugBank
+  - id: DB01589
+    properties:
+      generic name: Quazepam
+    type: DrugBank
+  - id: DB01346
+    properties:
+      generic name: Quinidine barbiturate
+    type: DrugBank
+  - id: DB12404
+    properties:
+      generic name: Remimazolam
+    type: DrugBank
+  - id: DB00418
+    properties:
+      generic name: Secobarbital
+    type: DrugBank
+  - id: DB01236
+    properties:
+      generic name: Sevoflurane
+    type: DrugBank
+  - id: DB09118
+    properties:
+      generic name: Stiripentol
+    type: DrugBank
+  - id: DB00306
+    properties:
+      generic name: Talbutal
+    type: DrugBank
+  - id: DB01956
+    properties:
+      generic name: Taurine
+    type: DrugBank
+  - id: DB00231
+    properties:
+      generic name: Temazepam
+    type: DrugBank
+  - id: DB01154
+    properties:
+      generic name: Thiamylal
+    type: DrugBank
+  - id: DB11582
+    properties:
+      generic name: Thiocolchicoside
+    type: DrugBank
+  - id: DB00599
+    properties:
+      generic name: Thiopental
+    type: DrugBank
+  - id: DB00273
+    properties:
+      generic name: Topiramate
+    type: DrugBank
+  - id: DB00897
+    properties:
+      generic name: Triazolam
+    type: DrugBank
+  - id: DB00962
+    properties:
+      generic name: Zaleplon
+    type: DrugBank
+  - id: DB00425
+    properties:
+      generic name: Zolpidem
+    type: DrugBank
+  - id: DB00909
+    properties:
+      generic name: Zonisamide
+    type: DrugBank
+  - id: DB01198
+    properties:
+      generic name: Zopiclone
+    type: DrugBank
+  - id: P14867
+    type: DrugCentral
+  - id: '404'
+    type: GuidetoPHARMACOLOGY
+  - id: 1.A.9.5.4
+    properties:
+      family name: the neurotransmitter receptor, cys loop, ligand-gated ion channel
+        (lic) family
+    type: TCDB
+  - id: P14867
+    properties:
+      glycosylation: 2 sites, No reported glycans
+    type: GlyCosmos
+  - id: P14867
+    properties:
+      glycosylation: 2 sites
+    type: GlyGen
+  - id: P14867
+    type: iPTMnet
+  - id: P14867
+    type: PhosphoSitePlus
+  - id: GABRA1
+    type: BioMuta
+  - id: '27808653'
+    type: DMDM
+  - id: P14867
+    type: MassIVE
+  - id: P14867
+    type: MaxQB
+  - id: 9606-ENSP00000393097
+    type: PaxDb
+  - id: P14867
+    type: PeptideAtlas
+  - id: '53091'
+    type: ProteomicsDB
+  - id: P14867
+    properties:
+      antibodies: 4 sequenced antibodies
+    type: ABCD
+  - id: '4533'
+    properties:
+      antibodies: 557 antibodies from 44 providers
+    type: Antibodypedia
+  - id: '2554'
+    type: DNASU
+  - id: ENST00000023897.10
+    properties:
+      gene ID: ENSG00000022355.18
+      protein sequence ID: ENSP00000023897.6
+    type: Ensembl
+  - id: ENST00000393943.10
+    properties:
+      gene ID: ENSG00000022355.18
+      protein sequence ID: ENSP00000377517.4
+    type: Ensembl
+  - id: ENST00000428797.7
+    properties:
+      gene ID: ENSG00000022355.18
+      protein sequence ID: ENSP00000393097.2
+    type: Ensembl
+  - id: ENST00000437025.6
+    properties:
+      gene ID: ENSG00000022355.18
+      protein sequence ID: ENSP00000415441.2
+    type: Ensembl
+  - id: ENST00000635880.1
+    properties:
+      gene ID: ENSG00000022355.18
+      protein sequence ID: ENSP00000489738.1
+    type: Ensembl
+  - id: ENST00000636573.1
+    properties:
+      gene ID: ENSG00000022355.18
+      protein sequence ID: ENSP00000490320.1
+    type: Ensembl
+  - id: ENST00000637827.1
+    properties:
+      gene ID: ENSG00000022355.18
+      protein sequence ID: ENSP00000490804.1
+    type: Ensembl
+  - id: ENST00000638112.1
+    properties:
+      gene ID: ENSG00000022355.18
+      protein sequence ID: ENSP00000489839.1
+    type: Ensembl
+  - id: '2554'
+    type: GeneID
+  - id: hsa:2554
+    type: KEGG
+  - id: ENST00000393943.10
+    properties:
+      RefSeq nucleotide sequence ID: NM_001127644.2
+      RefSeq protein sequence ID: NP_001121116.1
+      protein sequence ID: ENSP00000377517.4
+    type: MANE-Select
+  - id: uc003lyx.5
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:4075
+    type: AGR
+  - id: '2554'
+    type: CTD
+  - id: '2554'
+    type: DisGeNET
+  - id: GABRA1
+    type: GeneCards
+  - id: HGNC:4075
+    properties:
+      gene designation: GABRA1
+    type: HGNC
+  - id: ENSG00000022355
+    properties:
+      expression patterns: Group enriched (brain, retina)
+    type: HPA
+  - id: GABRA1
+    type: MalaCards
+  - id: '137160'
+    properties:
+      type: gene
+    type: MIM
+  - id: '611136'
+    properties:
+      type: phenotype
+    type: MIM
+  - id: '615744'
+    properties:
+      type: phenotype
+    type: MIM
+  - id: NX_P14867
+    type: neXtProt
+  - id: ENSG00000022355
+    type: OpenTargets
+  - id: '64280'
+    properties:
+      disease: Childhood absence epilepsy
+    type: Orphanet
+  - id: '33069'
+    properties:
+      disease: Dravet syndrome
+    type: Orphanet
+  - id: '307'
+    properties:
+      disease: Juvenile myoclonic epilepsy
+    type: Orphanet
+  - id: PA28489
+    type: PharmGKB
+  - id: HostDB:ENSG00000022355
+    type: VEuPathDB
+  - id: KOG3642
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000159136
+    type: GeneTree
+  - id: CLU_010920_2_1_1
+    type: HOGENOM
+  - id: P14867
+    type: InParanoid
+  - id: YLWAYLF
+    type: OMA
+  - id: 4265336at2759
+    type: OrthoDB
+  - id: P14867
+    type: PhylomeDB
+  - id: TF315453
+    type: TreeFam
+  - id: P14867
+    type: PathwayCommons
+  - id: R-HSA-1236394
+    properties:
+      pathway name: Signaling by ERBB4
+    type: Reactome
+  - id: R-HSA-977443
+    properties:
+      pathway name: GABA receptor activation
+    type: Reactome
+  - id: P14867
+    type: SignaLink
+  - id: P14867
+    type: SIGNOR
+  - id: '2554'
+    properties:
+      hits: 8 hits in 1150 CRISPR screens
+    type: BioGRID-ORCS
+  - id: GABRA1
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: Gamma-aminobutyric_acid_(GABA)_A_receptor,_alpha_1
+    type: GeneWiki
+  - id: Gamma-aminobutyric_acid_receptor_subunit_alpha-1
+    type: GeneWiki
+  - id: '2554'
+    type: GenomeRNAi
+  - id: P14867
+    properties:
+      development level: Tclin
+    type: Pharos
+  - id: PR:P14867
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 5
+    type: Proteomes
+  - id: P14867
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000022355
+    properties:
+      expression patterns: Expressed in lateral nuclear group of thalamus and 105
+        other cell types or tissues
+    type: Bgee
+  - id: P14867
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: P14867
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - id: GO:0034707
+    properties:
+      source: IEA:UniProtKB-KW
+      term: C:chloride channel complex
+    type: GO
+  - id: GO:0030659
+    properties:
+      source: IEA:UniProtKB-SubCell
+      term: C:cytoplasmic vesicle membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0032590
+    properties:
+      source: IBA:GO_Central
+      term: C:dendrite membrane
+    type: GO
+  - id: GO:1902710
+    properties:
+      source: ISS:BHF-UCL
+      term: C:GABA receptor complex
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/30266951
+        id: '30266951'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/30266951
+    id: GO:1902711
+    properties:
+      source: IDA:UniProtKB
+      term: C:GABA-A receptor complex
+    type: GO
+  - id: GO:0098982
+    properties:
+      source: IEA:Ensembl
+      term: C:GABA-ergic synapse
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0043005
+    properties:
+      source: IBA:GO_Central
+      term: C:neuron projection
+    type: GO
+  - id: GO:0005886
+    properties:
+      source: ISS:BHF-UCL
+      term: C:plasma membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0098794
+    properties:
+      source: IBA:GO_Central
+      term: C:postsynapse
+    type: GO
+  - id: GO:0045211
+    properties:
+      source: IEA:UniProtKB-SubCell
+      term: C:postsynaptic membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0045202
+    properties:
+      source: IBA:GO_Central
+      term: C:synapse
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/2465923
+        id: '2465923'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/2465923
+    id: GO:0004890
+    properties:
+      source: TAS:ProtInc
+      term: F:GABA-A receptor activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9039914
+        id: '9039914'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9039914
+    id: GO:0022851
+    properties:
+      source: IDA:GO_Central
+      term: F:GABA-gated chloride ion channel activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0005237
+    properties:
+      source: IBA:GO_Central
+      term: F:inhibitory extracellular ligand-gated monoatomic ion channel activity
+    type: GO
+  - id: GO:1904315
+    properties:
+      source: IEA:Ensembl
+      term: F:transmitter-gated monoatomic ion channel activity involved in regulation
+        of postsynaptic membrane potential
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9039914
+        id: '9039914'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9039914
+    id: GO:1902476
+    properties:
+      source: IDA:GO_Central
+      term: P:chloride transmembrane transport
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/29950725
+        id: '29950725'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/29950725
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/30602789
+        id: '30602789'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/30602789
+    id: GO:0007214
+    properties:
+      source: IDA:ComplexPortal
+      term: P:gamma-aminobutyric acid signaling pathway
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23909897
+        id: '23909897'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23909897
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/25489750
+        id: '25489750'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/25489750
+    id: GO:1904862
+    properties:
+      source: IDA:UniProtKB
+      term: P:inhibitory synapse assembly
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0060078
+    properties:
+      source: IBA:GO_Central
+      term: P:regulation of postsynaptic membrane potential
+    type: GO
+  - id: GO:0051932
+    properties:
+      source: ISS:BHF-UCL
+      term: P:synaptic transmission, GABAergic
+    type: GO
+  - id: cd19034
+    properties:
+      entry name: LGIC_ECD_GABAAR_A1
+      match status: '1'
+    type: CDD
+  - id: cd19052
+    properties:
+      entry name: LGIC_TM_GABAAR_alpha
+      match status: '1'
+    type: CDD
+  - id: 2.70.170.10
+    properties:
+      entry name: Neurotransmitter-gated ion-channel ligand-binding domain
+      match status: '1'
+    type: Gene3D
+  - id: 1.20.58.390
+    properties:
+      entry name: Neurotransmitter-gated ion-channel transmembrane domain
+      match status: '1'
+    type: Gene3D
+  - id: IPR006028
+    properties:
+      entry name: GABAA/Glycine_rcpt
+    type: InterPro
+  - id: IPR001390
+    properties:
+      entry name: GABAAa_rcpt
+    type: InterPro
+  - id: IPR005431
+    properties:
+      entry name: GABBAa1_rcpt
+    type: InterPro
+  - id: IPR047024
+    properties:
+      entry name: Gabra-1-6_TM
+    type: InterPro
+  - id: IPR047079
+    properties:
+      entry name: GABRA1_ECD
+    type: InterPro
+  - id: IPR006202
+    properties:
+      entry name: Neur_chan_lig-bd
+    type: InterPro
+  - id: IPR036734
+    properties:
+      entry name: Neur_chan_lig-bd_sf
+    type: InterPro
+  - id: IPR006201
+    properties:
+      entry name: Neur_channel
+    type: InterPro
+  - id: IPR036719
+    properties:
+      entry name: Neuro-gated_channel_TM_sf
+    type: InterPro
+  - id: IPR038050
+    properties:
+      entry name: Neuro_actylchol_rec
+    type: InterPro
+  - id: IPR006029
+    properties:
+      entry name: Neurotrans-gated_channel_TM
+    type: InterPro
+  - id: IPR018000
+    properties:
+      entry name: Neurotransmitter_ion_chnl_CS
+    type: InterPro
+  - id: TIGR00860
+    properties:
+      entry name: LIC
+      match status: '1'
+    type: NCBIfam
+  - id: PTHR18945:SF514
+    properties:
+      entry name: GAMMA-AMINOBUTYRIC ACID RECEPTOR SUBUNIT ALPHA-1
+      match status: '1'
+    type: PANTHER
+  - id: PTHR18945
+    properties:
+      entry name: NEUROTRANSMITTER GATED ION CHANNEL
+      match status: '1'
+    type: PANTHER
+  - id: PF02931
+    properties:
+      entry name: Neur_chan_LBD
+      match status: '1'
+    type: Pfam
+  - id: PF02932
+    properties:
+      entry name: Neur_chan_memb
+      match status: '1'
+    type: Pfam
+  - id: PR01079
+    properties:
+      entry name: GABAARALPHA
+    type: PRINTS
+  - id: PR01614
+    properties:
+      entry name: GABAARALPHA1
+    type: PRINTS
+  - id: PR00253
+    properties:
+      entry name: GABAARECEPTR
+    type: PRINTS
+  - id: PR00252
+    properties:
+      entry name: NRIONCHANNEL
+    type: PRINTS
+  - id: SSF90112
+    properties:
+      entry name: Neurotransmitter-gated ion-channel transmembrane pore
+      match status: '1'
+    type: SUPFAM
+  - id: SSF63712
+    properties:
+      entry name: Nicotinic receptor ligand binding domain-like
+      match status: '1'
+    type: SUPFAM
+  - id: PS00236
+    properties:
+      entry name: NEUROTR_ION_CHANNEL
+      match status: '1'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: ''
+    end: '27'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: SIGNAL
+  - begin: '28'
+    category: MOLECULE_PROCESSING
+    description: Gamma-aminobutyric acid receptor subunit alpha-1
+    end: '456'
+    ftId: PRO_0000000428
+    molecule: ''
+    type: CHAIN
+  - begin: '28'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '251'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '252'
+    category: TOPOLOGY
+    description: Helical
+    end: '273'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TRANSMEM
+  - begin: '279'
+    category: TOPOLOGY
+    description: Helical
+    end: '300'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TRANSMEM
+  - begin: '313'
+    category: TOPOLOGY
+    description: Helical
+    end: '334'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TRANSMEM
+  - begin: '335'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '421'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '422'
+    category: TOPOLOGY
+    description: Helical
+    end: '443'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: TRANSMEM
+  - begin: '273'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '273'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/30266951
+        id: '30266951'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/30266951
+    ligand:
+      dbReference:
+        id: CHEBI:34531
+        name: ChEBI
+      name: alphaxolone
+      note: agonist
+    molecule: ''
+    type: BINDING
+  - begin: '38'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '38'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '138'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '138'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '166'
+    category: PTM
+    description: ''
+    end: '180'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: DISULFID
+  - alternativeSequence: Q
+    begin: '112'
+    category: VARIANTS
+    description: in DEE19; dbSNP:rs587777308
+    end: '112'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24623842
+        id: '24623842'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24623842
+    ftId: VAR_071809
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: M
+    begin: '146'
+    category: VARIANTS
+    description: in DEE19
+    end: '146'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/27864847
+        id: '27864847'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/27864847
+    ftId: VAR_078222
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: N
+    begin: '219'
+    category: VARIANTS
+    description: in EIG13; the mutant protein is partially retained in the endoplasmic
+      reticulum and has decreased expression at the plasma membrane; causes decreased
+      current amplitude in response to GABA compared to wild-type and alters receptor
+      gating kinetics including faster desensitization; dbSNP:rs587777364
+    end: '219'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21714819
+        id: '21714819'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21714819
+    ftId: VAR_071810
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: S
+    begin: '251'
+    category: VARIANTS
+    description: in DEE19; dbSNP:rs587777307
+    end: '251'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24623842
+        id: '24623842'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24623842
+    ftId: VAR_071811
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: T
+    begin: '306'
+    category: VARIANTS
+    description: in DEE19; dbSNP:rs587777309
+    end: '306'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/24623842
+        id: '24623842'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/24623842
+    ftId: VAR_071812
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: D
+    begin: '322'
+    category: VARIANTS
+    description: in EJM5; dbSNP:rs121434579
+    end: '322'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11992121
+        id: '11992121'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11992121
+    ftId: VAR_013642
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: L
+    begin: '269'
+    category: MUTAGENESIS
+    description: Reduced potentiation and activation by the agonist alphaxalone.
+    end: '269'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/30266951
+        id: '30266951'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/30266951
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: L
+    begin: '273'
+    category: MUTAGENESIS
+    description: Completely abolishes potentiation and activation by the agonist alphaxalone.
+    end: '273'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/30266951
+        id: '30266951'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/30266951
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A
+    begin: '333'
+    category: MUTAGENESIS
+    description: Reduced potentiation and activation by the agonist alphaxalone.
+    end: '333'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/30266951
+        id: '30266951'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/30266951
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: R
+    begin: '122'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; CAA32874
+    end: '122'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: ''
+    begin: '128'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 4; CAA31925
+    end: '140'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: H
+    begin: '204'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 4; CAA31925
+    end: '204'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: WDW
+    begin: '315'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 4; CAA31925
+    end: '315'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: FPNS
+    begin: '362'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 4; CAA31925
+    end: '365'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - begin: '39'
+    category: STRUCTURAL
+    end: '49'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: HELIX
+  - begin: '50'
+    category: STRUCTURAL
+    end: '52'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7QNE
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7QNE
+    molecule: ''
+    type: TURN
+  - begin: '59'
+    category: STRUCTURAL
+    end: '63'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: TURN
+  - begin: '66'
+    category: STRUCTURAL
+    end: '81'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: STRAND
+  - begin: '82'
+    category: STRUCTURAL
+    end: '85'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: TURN
+  - begin: '86'
+    category: STRUCTURAL
+    end: '98'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: STRAND
+  - begin: '100'
+    category: STRUCTURAL
+    end: '102'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: HELIX
+  - begin: '109'
+    category: STRUCTURAL
+    end: '113'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: STRAND
+  - begin: '117'
+    category: STRUCTURAL
+    end: '119'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: HELIX
+  - begin: '126'
+    category: STRUCTURAL
+    end: '128'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: STRAND
+  - begin: '131'
+    category: STRUCTURAL
+    end: '133'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: STRAND
+  - begin: '139'
+    category: STRUCTURAL
+    end: '141'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: STRAND
+  - begin: '144'
+    category: STRUCTURAL
+    end: '149'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: STRAND
+  - begin: '152'
+    category: STRUCTURAL
+    end: '165'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: STRAND
+  - begin: '171'
+    category: STRUCTURAL
+    end: '174'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: TURN
+  - begin: '177'
+    category: STRUCTURAL
+    end: '188'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: STRAND
+  - begin: '191'
+    category: STRUCTURAL
+    end: '193'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: TURN
+  - begin: '194'
+    category: STRUCTURAL
+    end: '200'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: STRAND
+  - begin: '202'
+    category: STRUCTURAL
+    end: '204'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: HELIX
+  - begin: '205'
+    category: STRUCTURAL
+    end: '208'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: STRAND
+  - begin: '216'
+    category: STRUCTURAL
+    end: '232'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: STRAND
+  - begin: '235'
+    category: STRUCTURAL
+    end: '248'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: STRAND
+  - begin: '251'
+    category: STRUCTURAL
+    end: '256'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: HELIX
+  - begin: '258'
+    category: STRUCTURAL
+    end: '270'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: HELIX
+  - begin: '271'
+    category: STRUCTURAL
+    end: '273'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: HELIX
+  - begin: '279'
+    category: STRUCTURAL
+    end: '301'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: HELIX
+  - begin: '312'
+    category: STRUCTURAL
+    end: '336'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: HELIX
+  - begin: '337'
+    category: STRUCTURAL
+    end: '339'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: TURN
+  - begin: '346'
+    category: STRUCTURAL
+    end: '348'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6I53
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6I53
+    molecule: ''
+    type: STRAND
+  - begin: '419'
+    category: STRUCTURAL
+    end: '444'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 6X3T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6X3T
+    molecule: ''
+    type: HELIX
+  gene:
+  - name:
+      value: GABRA1
+  id: GBRA1_HUMAN
+  info:
+    created: '1990-04-01'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 231
+  keywords:
+  - value: 3D-structure
+  - value: Cell membrane
+  - value: Chloride
+  - value: Chloride channel
+  - value: Cytoplasmic vesicle
+  - value: Disease variant
+  - value: Disulfide bond
+  - value: Epilepsy
+  - value: Glycoprotein
+  - value: Ion channel
+  - value: Ion transport
+  - value: Ligand-gated ion channel
+  - value: Membrane
+  - value: Postsynaptic cell membrane
+  - value: Receptor
+  - value: Reference proteome
+  - value: Signal
+  - value: Synapse
+  - value: Transmembrane
+  - value: Transmembrane helix
+  - value: Transport
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        value: GABA(A) receptor subunit alpha-1
+    recommendedName:
+      fullName:
+        value: Gamma-aminobutyric acid receptor subunit alpha-1
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Schofield P.R.
+      - Pritchett D.B.
+      - Sontheimer H.
+      - Kettenmann H.
+      - Seeburg P.H.
+      dbReferences:
+      - id: '2465923'
+        type: PubMed
+      - id: 10.1016/0014-5793(89)80563-0
+        type: DOI
+      location:
+        firstPage: '361'
+        lastPage: '364'
+        volume: '244'
+      publication:
+        journalName: FEBS Lett.
+      publicationDate: '1989'
+      title: Sequence and expression of human GABAA receptor alpha 1 and beta 1 subunits.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+    - SUBCELLULAR LOCATION
+  - citation:
+      authors:
+      - Mural R.J.
+      - Istrail S.
+      - Sutton G.G.
+      - Florea L.
+      - Halpern A.L.
+      - Mobarry C.M.
+      - Lippert R.
+      - Walenz B.
+      - Shatkay H.
+      - Dew I.
+      - Miller J.R.
+      - Flanigan M.J.
+      - Edwards N.J.
+      - Bolanos R.
+      - Fasulo D.
+      - Halldorsson B.V.
+      - Hannenhalli S.
+      - Turner R.
+      - Yooseph S.
+      - Lu F.
+      - Nusskern D.R.
+      - Shue B.C.
+      - Zheng X.H.
+      - Zhong F.
+      - Delcher A.L.
+      - Huson D.H.
+      - Kravitz S.A.
+      - Mouchard L.
+      - Reinert K.
+      - Remington K.A.
+      - Clark A.G.
+      - Waterman M.S.
+      - Eichler E.E.
+      - Adams M.D.
+      - Hunkapiller M.W.
+      - Myers E.W.
+      - Venter J.C.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: SEP-2005
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      consortiums:
+      - The MGC Project Team
+      dbReferences:
+      - id: '15489334'
+        type: PubMed
+      - id: 10.1101/gr.2596504
+        type: DOI
+      location:
+        firstPage: '2121'
+        lastPage: '2127'
+        volume: '14'
+      publication:
+        journalName: Genome Res.
+      publicationDate: '2004'
+      title: 'The status, quality, and expansion of the NIH full-length cDNA project:
+        the Mammalian Gene Collection (MGC).'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]
+    source:
+      tissue:
+      - value: Brain
+  - citation:
+      authors:
+      - Garrett K.M.
+      - Duman R.S.
+      - Saito N.
+      - Blume A.J.
+      - Vitek M.P.
+      - Tallman J.F.
+      dbReferences:
+      - id: '2847710'
+        type: PubMed
+      - id: 10.1016/s0006-291x(88)80949-5
+        type: DOI
+      location:
+        firstPage: '1039'
+        lastPage: '1045'
+        volume: '156'
+      publication:
+        journalName: Biochem. Biophys. Res. Commun.
+      publicationDate: '1988'
+      title: Isolation of a cDNA clone for the alpha subunit of the human GABA-A receptor.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] OF 1-365
+    source:
+      tissue:
+      - value: Cerebellum
+  - citation:
+      authors:
+      - Fuchs C.
+      - Abitbol K.
+      - Burden J.J.
+      - Mercer A.
+      - Brown L.
+      - Iball J.
+      - Anne Stephenson F.
+      - Thomson A.M.
+      - Jovanovic J.N.
+      dbReferences:
+      - id: '23909897'
+        type: PubMed
+      - id: 10.1111/ejn.12331
+        type: DOI
+      location:
+        firstPage: '3146'
+        lastPage: '3158'
+        volume: '38'
+      publication:
+        journalName: Eur. J. Neurosci.
+      publicationDate: '2013'
+      title: GABA(A) receptors can initiate the formation of functional inhibitory
+        GABAergic synapses.
+      type: journal article
+    scope:
+    - FUNCTION
+  - citation:
+      authors:
+      - Brown L.E.
+      - Fuchs C.
+      - Nicholson M.W.
+      - Stephenson F.A.
+      - Thomson A.M.
+      - Jovanovic J.N.
+      dbReferences:
+      - id: '25489750'
+        type: PubMed
+      - id: 10.3791/52115
+        type: DOI
+      location:
+        firstPage: E52115
+        lastPage: E52115
+        volume: '2014'
+      publication:
+        journalName: J. Vis. Exp.
+      publicationDate: '2014'
+      title: Inhibitory synapse formation in a co-culture model incorporating GABAergic
+        medium spiny neurons and HEK293 cells stably expressing GABAA receptors.
+      type: journal article
+    scope:
+    - FUNCTION
+  - citation:
+      authors:
+      - Chen Q.
+      - Wells M.M.
+      - Arjunan P.
+      - Tillman T.S.
+      - Cohen A.E.
+      - Xu Y.
+      - Tang P.
+      dbReferences:
+      - id: '30266951'
+        type: PubMed
+      - id: 10.1038/s41467-018-06361-4
+        type: DOI
+      location:
+        firstPage: '3972'
+        lastPage: '3972'
+        volume: '9'
+      publication:
+        journalName: Nat. Commun.
+      publicationDate: '2018'
+      title: Structural basis of neurosteroid anesthetic action on GABAA receptors.
+      type: journal article
+    evidences:
+    - code: ECO:0007744
+      source:
+        id: 6CDU
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6CDU
+    - code: ECO:0007744
+      source:
+        id: 6D1S
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6D1S
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (3.20 ANGSTROMS) OF 249-444 OF APOPROTEIN AND IN COMPLEX
+      WITH AGONIST ALPHAXALONE
+    - ACTIVITY REGULATION
+    - BINDING TO AGONIST ALPHAXALONE
+    - SUBUNIT
+    - MUTAGENESIS OF GLN-269; TRP-273 AND THR-333
+  - citation:
+      authors:
+      - Zhu S.
+      - Noviello C.M.
+      - Teng J.
+      - Walsh R.M. Jr.
+      - Kim J.J.
+      - Hibbs R.E.
+      dbReferences:
+      - id: '29950725'
+        type: PubMed
+      - id: 10.1038/s41586-018-0255-3
+        type: DOI
+      location:
+        firstPage: '67'
+        lastPage: '72'
+        volume: '559'
+      publication:
+        journalName: Nature
+      publicationDate: '2018'
+      title: Structure of a human synaptic GABAA receptor.
+      type: journal article
+    evidences:
+    - code: ECO:0007744
+      source:
+        id: 6D6T
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6D6T
+    - code: ECO:0007744
+      source:
+        id: 6D6U
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/6D6U
+    scope:
+    - STRUCTURE BY ELECTRON MICROSCOPY (3.80 ANGSTROMS) OF 28-456 IN COMPLEX WITH
+      GABA AND FLUMAZENIL
+    - FUNCTION
+    - ACTIVITY REGULATION
+    - SUBUNIT
+  - citation:
+      authors:
+      - Lachance-Touchette P.
+      - Brown P.
+      - Meloche C.
+      - Kinirons P.
+      - Lapointe L.
+      - Lacasse H.
+      - Lortie A.
+      - Carmant L.
+      - Bedford F.
+      - Bowie D.
+      - Cossette P.
+      dbReferences:
+      - id: '21714819'
+        type: PubMed
+      - id: 10.1111/j.1460-9568.2011.07767.x
+        type: DOI
+      location:
+        firstPage: '237'
+        lastPage: '249'
+        volume: '34'
+      publication:
+        journalName: Eur. J. Neurosci.
+      publicationDate: '2011'
+      title: Novel alpha1 and gamma2 GABAA receptor subunit mutations in families
+        with idiopathic generalized epilepsy.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN EIG13
+    - VARIANT EIG13 ASN-219
+    - CHARACTERIZATION OF VARIANT EIG13 ASN-219
+  - citation:
+      authors:
+      - Carvill G.L.
+      - Weckhuysen S.
+      - McMahon J.M.
+      - Hartmann C.
+      - Moller R.S.
+      - Hjalgrim H.
+      - Cook J.
+      - Geraghty E.
+      - O'Roak B.J.
+      - Petrou S.
+      - Clarke A.
+      - Gill D.
+      - Sadleir L.G.
+      - Muhle H.
+      - von Spiczak S.
+      - Nikanorova M.
+      - Hodgson B.L.
+      - Gazina E.V.
+      - Suls A.
+      - Shendure J.
+      - Dibbens L.M.
+      - De Jonghe P.
+      - Helbig I.
+      - Berkovic S.F.
+      - Scheffer I.E.
+      - Mefford H.C.
+      dbReferences:
+      - id: '24623842'
+        type: PubMed
+      - id: 10.1212/wnl.0000000000000291
+        type: DOI
+      location:
+        firstPage: '1245'
+        lastPage: '1253'
+        volume: '82'
+      publication:
+        journalName: Neurology
+      publicationDate: '2014'
+      title: 'GABRA1 and STXBP1: novel genetic causes of Dravet syndrome.'
+      type: journal article
+    scope:
+    - INVOLVEMENT IN DEE19
+    - VARIANTS DEE19 GLN-112; SER-251 AND THR-306
+  - citation:
+      authors:
+      - Cossette P.
+      - Liu L.
+      - Brisebois K.
+      - Dong H.
+      - Lortie A.
+      - Vanasse M.
+      - Saint-Hilaire J.-M.
+      - Carmant L.
+      - Verner A.
+      - Lu W.-Y.
+      - Tian Wang Y.
+      - Rouleau G.A.
+      dbReferences:
+      - id: '11992121'
+        type: PubMed
+      - id: 10.1038/ng885
+        type: DOI
+      location:
+        firstPage: '184'
+        lastPage: '189'
+        volume: '31'
+      publication:
+        journalName: Nat. Genet.
+      publicationDate: '2002'
+      title: Mutation of GABRA1 in an autosomal dominant form of juvenile myoclonic
+        epilepsy.
+      type: journal article
+    scope:
+    - VARIANT EJM5 ASP-322
+  - citation:
+      authors:
+      - Maljevic S.
+      - Krampfl K.
+      - Cobilanschi J.
+      - Tilgen N.
+      - Beyer S.
+      - Weber Y.G.
+      - Schlesinger F.
+      - Ursu D.
+      - Melzer W.
+      - Cossette P.
+      - Bufler J.
+      - Lerche H.
+      - Heils A.
+      dbReferences:
+      - id: '16718694'
+        type: PubMed
+      - id: 10.1002/ana.20874
+        type: DOI
+      location:
+        firstPage: '983'
+        lastPage: '987'
+        volume: '59'
+      publication:
+        journalName: Ann. Neurol.
+      publicationDate: '2006'
+      title: A mutation in the GABA(A) receptor alpha(1)-subunit is associated with
+        absence epilepsy.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN ECA4
+  - citation:
+      authors:
+      - Davenport E.C.
+      - Pendolino V.
+      - Kontou G.
+      - McGee T.P.
+      - Sheehan D.F.
+      - Lopez-Domenech G.
+      - Farrant M.
+      - Kittler J.T.
+      dbReferences:
+      - id: '28978485'
+        type: PubMed
+      - id: 10.1016/j.celrep.2017.09.025
+        type: DOI
+      location:
+        firstPage: '70'
+        lastPage: '83'
+        volume: '21'
+      publication:
+        journalName: Cell Rep.
+      publicationDate: '2017'
+      title: An essential role for the tetraspanin LHFPL4 in the cell-type-specific
+        targeting and clustering of synaptic GABAA ceceptors.
+      type: journal article
+    scope:
+    - INTERACTION WITH LHFPL4
+  - citation:
+      authors:
+      - Wu M.
+      - Tian H.L.
+      - Liu X.
+      - Lai J.H.C.
+      - Du S.
+      - Xia J.
+      dbReferences:
+      - id: '29742426'
+        type: PubMed
+      - id: 10.1016/j.celrep.2018.04.015
+        type: DOI
+      location:
+        firstPage: '1691'
+        lastPage: '1705'
+        volume: '23'
+      publication:
+        journalName: Cell Rep.
+      publicationDate: '2018'
+      title: Impairment of inhibitory synapse formation and motor behavior in mice
+        lacking the NL2 binding partner LHFPL4/GARLH4.
+      type: journal article
+    scope:
+    - INTERACTION WITH LHFLP4
+  - citation:
+      authors:
+      - Parrini E.
+      - Marini C.
+      - Mei D.
+      - Galuppi A.
+      - Cellini E.
+      - Pucatti D.
+      - Chiti L.
+      - Rutigliano D.
+      - Bianchini C.
+      - Virdo S.
+      - De Vita D.
+      - Bigoni S.
+      - Barba C.
+      - Mari F.
+      - Montomoli M.
+      - Pisano T.
+      - Rosati A.
+      - Guerrini R.
+      consortiums:
+      - Clinical Study Group
+      dbReferences:
+      - id: '27864847'
+        type: PubMed
+      - id: 10.1002/humu.23149
+        type: DOI
+      location:
+        firstPage: '216'
+        lastPage: '225'
+        volume: '38'
+      publication:
+        journalName: Hum. Mutat.
+      publicationDate: '2017'
+      title: Diagnostic targeted resequencing in 349 patients with drug-resistant
+        pediatric epilepsies identifies causative mutations in 30 different genes.
+      type: journal article
+    scope:
+    - VARIANT DEE19 MET-146
+  secondaryAccession:
+  - D3DQK6
+  - Q8N629
+  sequence:
+    length: 456
+    mass: 51802
+    modified: '2003-01-17'
+    sequence: MRKSPGLSDCLWAWILLLSTLTGRSYGQPSLQDELKDNTTVFTRILDRLLDGYDNRLRPGLGERVTEVKTDIFVTSFGPVSDHDMEYTIDVFFRQSWKDERLKFKGPMTVLRLNNLMASKIWTPDTFFHNGKKSVAHNMTMPNKLLRITEDGTLLYTMRLTVRAECPMHLEDFPMDAHACPLKFGSYAYTRAEVVYEWTREPARSVVVAEDGSRLNQYDLLGQTVDSGIVQSSTGEYVVMTTHFHLKRKIGYFVIQTYLPCIMTVILSQVSFWLNRESVPARTVFGVTTVLTMTTLSISARNSLPKVAYATAMDWFIAVCYAFVFSALIEFATVNYFTKRGYAWDGKSVVPEKPKKVKDPLIKKNNTYAPTATSYTPNLARGDPGLATIAKSATIEPKEVKPETKPPEPKKTFNSVSKIDRLSRIAFPLLFGIFNLVYWATYLNREPQLKAPTPHQ
+    version: 3
+uniprot_id: P14867

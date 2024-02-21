@@ -1,0 +1,930 @@
+data:
+  accession: Q9GZZ6
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11752216
+          id: '11752216'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11752216
+      value: Ionotropic receptor with a probable role in the modulation of auditory
+        stimuli. Agonist binding may induce an extensive change in conformation that
+        affects all subunits and leads to opening of an ion-conducting channel across
+        the plasma membrane. The channel is permeable to a range of divalent cations
+        including calcium, the influx of which may activate a potassium current which
+        hyperpolarizes the cell membrane. In the ear, this may lead to a reduction
+        in basilar membrane motion, altering the activity of auditory nerve fibers
+        and reducing the range of dynamic hearing. This may protect against acoustic
+        trauma
+    type: FUNCTION
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: Q9JLB5
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/Q9JLB5
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26395518
+          id: '26395518'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26395518
+      value: Forms heterooligomeric channels in conjunction with CHRNA9. The native
+        outer hair cell receptor may be composed of CHRNA9-CHRNA10 heterooligomers.
+        Interacts with the conotoxin GeXXA (PubMed:26395518). Interacts with the alpha-conotoxin
+        RgIA (By similarity)
+    type: SUBUNIT
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000305
+        value: Postsynaptic cell membrane
+      topology:
+        evidences:
+        - code: ECO:0000305
+        value: Multi-pass membrane protein
+    - location:
+        evidences:
+        - code: ECO:0000305
+        value: Cell membrane
+      topology:
+        evidences:
+        - code: ECO:0000305
+        value: Multi-pass membrane protein
+    type: SUBCELLULAR_LOCATION
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11752216
+          id: '11752216'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11752216
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15531379
+          id: '15531379'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15531379
+      value: Expressed in inner-ear tissue, tonsil, immortalized B-cells, cultured
+        T-cells and peripheral blood lymphocytes
+    type: TISSUE_SPECIFICITY
+  - text:
+    - value: The heterooligomeric receptor composed of CHRNA9 and CHRNA10 has an atypical
+        pharmacological profile, binding several non-nicotinic ligands including strychnine
+        (a glycine receptor antagonist) and atropine (a muscarinic acetylcholine receptor
+        antagonist)
+    type: MISCELLANEOUS
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the ligand-gated ion channel (TC 1.A.9) family. Acetylcholine
+        receptor (TC 1.A.9.1) subfamily. Alpha-10/CHRNA10 sub-subfamily
+    type: SIMILARITY
+  dbReferences:
+  - id: AJ278118
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAC20435.1
+    type: EMBL
+  - id: AF199235
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAG00795.2
+    type: EMBL
+  - id: AF327367
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAK14333.1
+    type: EMBL
+  - id: AJ295237
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAC16144.1
+    type: EMBL
+  - id: CCDS7745.1
+    type: CCDS
+  - id: NP_001289963.1
+    properties:
+      nucleotide sequence ID: NM_001303034.1
+    type: RefSeq
+  - id: NP_001289964.1
+    properties:
+      nucleotide sequence ID: NM_001303035.1
+    type: RefSeq
+  - id: NP_065135.2
+    properties:
+      nucleotide sequence ID: NM_020402.3
+    type: RefSeq
+  - id: Q9GZZ6
+    type: AlphaFoldDB
+  - id: Q9GZZ6
+    type: SMR
+  - id: '121345'
+    properties:
+      interactions: '18'
+    type: BioGRID
+  - id: CPX-2171
+    properties:
+      entry name: Neuronal nicotinic acetylcholine receptor complex, alpha9-alpha10
+    type: ComplexPortal
+  - id: Q9GZZ6
+    type: CORUM
+  - id: 9606.ENSP00000250699
+    type: STRING
+  - id: Q9GZZ6
+    type: BindingDB
+  - id: CHEMBL2109238
+    type: ChEMBL
+  - id: DB05069
+    properties:
+      generic name: ATG003
+    type: DrugBank
+  - id: DB00237
+    properties:
+      generic name: Butabarbital
+    type: DrugBank
+  - id: DB00565
+    properties:
+      generic name: Cisatracurium
+    type: DrugBank
+  - id: DB14783
+    properties:
+      generic name: Diroximel fumarate
+    type: DrugBank
+  - id: DB00898
+    properties:
+      generic name: Ethanol
+    type: DrugBank
+  - id: DB05137
+    properties:
+      generic name: Lobeline
+    type: DrugBank
+  - id: DB00184
+    properties:
+      generic name: Nicotine
+    type: DrugBank
+  - id: DB01090
+    properties:
+      generic name: Pentolinium
+    type: DrugBank
+  - id: DB05740
+    properties:
+      generic name: RPI-78M
+    type: DrugBank
+  - id: DB00202
+    properties:
+      generic name: Succinylcholine
+    type: DrugBank
+  - id: DB01116
+    properties:
+      generic name: Trimethaphan
+    type: DrugBank
+  - id: Q9GZZ6
+    type: DrugCentral
+  - id: '470'
+    type: GuidetoPHARMACOLOGY
+  - id: 1.A.9.1.22
+    properties:
+      family name: the neurotransmitter receptor, cys loop, ligand-gated ion channel
+        (lic) family
+    type: TCDB
+  - id: Q9GZZ6
+    properties:
+      glycosylation: 2 sites, No reported glycans
+    type: GlyCosmos
+  - id: Q9GZZ6
+    properties:
+      glycosylation: 2 sites
+    type: GlyGen
+  - id: Q9GZZ6
+    type: iPTMnet
+  - id: Q9GZZ6
+    type: PhosphoSitePlus
+  - id: CHRNA10
+    type: BioMuta
+  - id: '14916526'
+    type: DMDM
+  - id: Q9GZZ6
+    type: MassIVE
+  - id: 9606-ENSP00000250699
+    type: PaxDb
+  - id: Q9GZZ6
+    type: PeptideAtlas
+  - id: '57559'
+    properties:
+      antibodies: 235 antibodies from 25 providers
+    type: Antibodypedia
+  - id: '57053'
+    type: DNASU
+  - id: ENST00000250699.2
+    properties:
+      gene ID: ENSG00000129749.3
+      protein sequence ID: ENSP00000250699.2
+    type: Ensembl
+  - id: '57053'
+    type: GeneID
+  - id: hsa:57053
+    type: KEGG
+  - id: ENST00000250699.2
+    properties:
+      RefSeq nucleotide sequence ID: NM_020402.4
+      RefSeq protein sequence ID: NP_065135.2
+      protein sequence ID: ENSP00000250699.2
+    type: MANE-Select
+  - id: uc001lyf.3
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:13800
+    type: AGR
+  - id: '57053'
+    type: CTD
+  - id: '57053'
+    type: DisGeNET
+  - id: CHRNA10
+    type: GeneCards
+  - id: HGNC:13800
+    properties:
+      gene designation: CHRNA10
+    type: HGNC
+  - id: ENSG00000129749
+    properties:
+      expression patterns: Tissue enriched (skeletal)
+    type: HPA
+  - id: '606372'
+    properties:
+      type: gene
+    type: MIM
+  - id: NX_Q9GZZ6
+    type: neXtProt
+  - id: ENSG00000129749
+    type: OpenTargets
+  - id: PA26488
+    type: PharmGKB
+  - id: HostDB:ENSG00000129749
+    type: VEuPathDB
+  - id: KOG3645
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000160721
+    type: GeneTree
+  - id: CLU_018074_0_0_1
+    type: HOGENOM
+  - id: Q9GZZ6
+    type: InParanoid
+  - id: IFFCMAL
+    type: OMA
+  - id: 5489962at2759
+    type: OrthoDB
+  - id: Q9GZZ6
+    type: PhylomeDB
+  - id: TF315605
+    type: TreeFam
+  - id: Q9GZZ6
+    type: PathwayCommons
+  - id: R-HSA-9667769
+    properties:
+      pathway name: Acetylcholine inhibits contraction of outer hair cells
+    type: Reactome
+  - id: Q9GZZ6
+    type: SignaLink
+  - id: '57053'
+    properties:
+      hits: 15 hits in 1153 CRISPR screens
+    type: BioGRID-ORCS
+  - id: CHRNA10
+    type: GeneWiki
+  - id: '57053'
+    type: GenomeRNAi
+  - id: Q9GZZ6
+    properties:
+      development level: Tchem
+    type: Pharos
+  - id: PR:Q9GZZ6
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 11
+    type: Proteomes
+  - id: Q9GZZ6
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000129749
+    properties:
+      expression patterns: Expressed in gastrocnemius and 98 other cell types or tissues
+    type: Bgee
+  - id: Q9GZZ6
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: Q9GZZ6
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - id: GO:0030424
+    properties:
+      source: IEA:Ensembl
+      term: C:axon
+    type: GO
+  - id: GO:0098981
+    properties:
+      source: IEA:Ensembl
+      term: C:cholinergic synapse
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11350119
+        id: '11350119'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11350119
+    id: GO:0016020
+    properties:
+      source: TAS:UniProtKB
+      term: C:membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0043005
+    properties:
+      source: IBA:GO_Central
+      term: C:neuron projection
+    type: GO
+  - id: GO:0043204
+    properties:
+      source: IEA:Ensembl
+      term: C:perikaryon
+    type: GO
+  - id: GO:0099634
+    properties:
+      source: IEA:Ensembl
+      term: C:postsynaptic specialization membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0045202
+    properties:
+      source: IBA:GO_Central
+      term: C:synapse
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0022848
+    properties:
+      source: IBA:GO_Central
+      term: F:acetylcholine-gated monoatomic cation-selective channel activity
+    type: GO
+  - id: GO:0005262
+    properties:
+      source: IEA:UniProtKB-KW
+      term: F:calcium channel activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11350119
+        id: '11350119'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11350119
+    id: GO:0005102
+    properties:
+      source: TAS:UniProtKB
+      term: F:signaling receptor binding
+    type: GO
+  - id: GO:0004888
+    properties:
+      source: IEA:InterPro
+      term: F:transmembrane signaling receptor activity
+    type: GO
+  - id: GO:0050910
+    properties:
+      source: IEA:Ensembl
+      term: P:detection of mechanical stimulus involved in sensory perception of sound
+    type: GO
+  - id: GO:0042472
+    properties:
+      source: IEA:Ensembl
+      term: P:inner ear morphogenesis
+    type: GO
+  - id: GO:0051899
+    properties:
+      source: IEA:Ensembl
+      term: P:membrane depolarization
+    type: GO
+  - id: GO:0070373
+    properties:
+      source: IEA:Ensembl
+      term: P:negative regulation of ERK1 and ERK2 cascade
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18420419
+        id: '18420419'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18420419
+    id: GO:0007204
+    properties:
+      source: IGI:MGI
+      term: P:positive regulation of cytosolic calcium ion concentration
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11350119
+        id: '11350119'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11350119
+    id: GO:0042127
+    properties:
+      source: TAS:UniProtKB
+      term: P:regulation of cell population proliferation
+    type: GO
+  - id: GO:0010996
+    properties:
+      source: IEA:Ensembl
+      term: P:response to auditory stimulus
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11350119
+        id: '11350119'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11350119
+    id: GO:0007271
+    properties:
+      source: TAS:UniProtKB
+      term: P:synaptic transmission, cholinergic
+    type: GO
+  - id: cd19051
+    properties:
+      entry name: LGIC_TM_cation
+      match status: '1'
+    type: CDD
+  - id: 2.70.170.10
+    properties:
+      entry name: Neurotransmitter-gated ion-channel ligand-binding domain
+      match status: '1'
+    type: Gene3D
+  - id: 1.20.58.390
+    properties:
+      entry name: Neurotransmitter-gated ion-channel transmembrane domain
+      match status: '2'
+    type: Gene3D
+  - id: IPR006202
+    properties:
+      entry name: Neur_chan_lig-bd
+    type: InterPro
+  - id: IPR036734
+    properties:
+      entry name: Neur_chan_lig-bd_sf
+    type: InterPro
+  - id: IPR006201
+    properties:
+      entry name: Neur_channel
+    type: InterPro
+  - id: IPR036719
+    properties:
+      entry name: Neuro-gated_channel_TM_sf
+    type: InterPro
+  - id: IPR038050
+    properties:
+      entry name: Neuro_actylchol_rec
+    type: InterPro
+  - id: IPR006029
+    properties:
+      entry name: Neurotrans-gated_channel_TM
+    type: InterPro
+  - id: IPR018000
+    properties:
+      entry name: Neurotransmitter_ion_chnl_CS
+    type: InterPro
+  - id: IPR002394
+    properties:
+      entry name: Nicotinic_acetylcholine_rcpt
+    type: InterPro
+  - id: TIGR00860
+    properties:
+      entry name: LIC
+      match status: '1'
+    type: NCBIfam
+  - id: PTHR18945:SF889
+    properties:
+      entry name: NEURONAL ACETYLCHOLINE RECEPTOR SUBUNIT ALPHA-10
+      match status: '1'
+    type: PANTHER
+  - id: PTHR18945
+    properties:
+      entry name: NEUROTRANSMITTER GATED ION CHANNEL
+      match status: '1'
+    type: PANTHER
+  - id: PF02931
+    properties:
+      entry name: Neur_chan_LBD
+      match status: '1'
+    type: Pfam
+  - id: PF02932
+    properties:
+      entry name: Neur_chan_memb
+      match status: '1'
+    type: Pfam
+  - id: PR00254
+    properties:
+      entry name: NICOTINICR
+    type: PRINTS
+  - id: PR00252
+    properties:
+      entry name: NRIONCHANNEL
+    type: PRINTS
+  - id: SSF90112
+    properties:
+      entry name: Neurotransmitter-gated ion-channel transmembrane pore
+      match status: '1'
+    type: SUPFAM
+  - id: SSF63712
+    properties:
+      entry name: Nicotinic receptor ligand binding domain-like
+      match status: '1'
+    type: SUPFAM
+  - id: PS00236
+    properties:
+      entry name: NEUROTR_ION_CHANNEL
+      match status: '1'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: ''
+    end: '24'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: SIGNAL
+  - begin: '25'
+    category: MOLECULE_PROCESSING
+    description: Neuronal acetylcholine receptor subunit alpha-10
+    end: '450'
+    ftId: PRO_0000000376
+    molecule: ''
+    type: CHAIN
+  - begin: '25'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '237'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '238'
+    category: TOPOLOGY
+    description: Helical
+    end: '258'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '268'
+    category: TOPOLOGY
+    description: Helical
+    end: '288'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '302'
+    category: TOPOLOGY
+    description: Helical
+    end: '322'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '323'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '428'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '429'
+    category: TOPOLOGY
+    description: Helical
+    end: '449'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '355'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '380'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '362'
+    category: SEQUENCE_INFORMATION
+    description: Pro residues
+    end: '376'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '40'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '40'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '56'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '56'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '154'
+    category: PTM
+    description: ''
+    end: '168'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: DISULFID
+  - begin: '218'
+    category: PTM
+    description: Associated with receptor activation
+    end: '219'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: DISULFID
+  - alternativeSequence: A
+    begin: '355'
+    category: VARIANTS
+    description: in dbSNP:rs2231547
+    end: '355'
+    ftId: VAR_048172
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: H
+    begin: '31'
+    category: MUTAGENESIS
+    description: 11-fold increase in inhibition of the AChR composed of subunits CHRNA9
+      and CHRNA10 by the conotoxin GEXXA, and no change in activity on mAChR composed
+      of subunits CHRNA9 and CHRNA10 by the competitive conotoxin Vc1A.
+    end: '31'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26395518
+        id: '26395518'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26395518
+    molecule: ''
+    type: MUTAGEN
+  gene:
+  - name:
+      value: CHRNA10
+    synonyms:
+    - value: NACHRA10
+  id: ACH10_HUMAN
+  info:
+    created: '2001-07-11'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 190
+  keywords:
+  - value: Calcium
+  - value: Calcium channel
+  - value: Calcium transport
+  - value: Cell membrane
+  - value: Disulfide bond
+  - value: Glycoprotein
+  - value: Ion channel
+  - value: Ion transport
+  - value: Ligand-gated ion channel
+  - value: Membrane
+  - value: Postsynaptic cell membrane
+  - value: Receptor
+  - value: Reference proteome
+  - value: Signal
+  - value: Synapse
+  - value: Transmembrane
+  - value: Transmembrane helix
+  - value: Transport
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        value: Nicotinic acetylcholine receptor subunit alpha-10
+      shortName:
+      - value: NACHR alpha-10
+    recommendedName:
+      fullName:
+        value: Neuronal acetylcholine receptor subunit alpha-10
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Sgard F.
+      - Charpantier E.
+      - Bertrand S.
+      - Walker N.
+      - Caput D.
+      - Graham D.
+      - Bertrand D.
+      - Besnard F.
+      dbReferences:
+      - id: '11752216'
+        type: PubMed
+      - id: 10.1124/mol.61.1.150
+        type: DOI
+      location:
+        firstPage: '150'
+        lastPage: '159'
+        volume: '61'
+      publication:
+        journalName: Mol. Pharmacol.
+      publicationDate: '2002'
+      title: A novel human nicotinic receptor subunit, alpha10, that confers functionality
+        to the alpha9-subunit.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+    - FUNCTION
+    - INTERACTION WITH CHRNA9
+    - TISSUE SPECIFICITY
+    source:
+      tissue:
+      - value: Skeletal muscle
+  - citation:
+      authors:
+      - Lustig L.R.
+      - Peng H.
+      - Hiel H.
+      - Yamamoto T.
+      - Fuchs P.A.
+      dbReferences:
+      - id: '11350119'
+        type: PubMed
+      - id: 10.1006/geno.2000.6503
+        type: DOI
+      location:
+        firstPage: '272'
+        lastPage: '283'
+        volume: '73'
+      publication:
+        journalName: Genomics
+      publicationDate: '2001'
+      title: Molecular cloning and mapping of the human nicotinic acetylcholine receptor
+        alpha10 (CHRNA10).
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+    source:
+      tissue:
+      - value: Inner ear
+      - value: Tonsil
+  - citation:
+      authors:
+      - Vandenberk I.
+      - van der Helm L.
+      - Nieuwstraten D.M.
+      - Verfaille C.
+      - Kremer A.
+      - van der Spek P.
+      - Masure S.
+      - Hoefnagel E.
+      - Yon J.
+      - Groot Kormelink P.J.
+      - Luyten W.H.
+      - Grantham C.J.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: NOV-2000
+      title: Identification and functional characterisation of a novel human neuronal
+        nicotinic acetylcholine receptor subunit alpha 10.
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+  - citation:
+      authors:
+      - Peng H.
+      - Ferris R.L.
+      - Matthews T.
+      - Hiel H.
+      - Lopez-Albaitero A.
+      - Lustig L.R.
+      dbReferences:
+      - id: '15531379'
+        type: PubMed
+      - id: 10.1016/j.lfs.2004.05.031
+        type: DOI
+      location:
+        firstPage: '263'
+        lastPage: '280'
+        volume: '76'
+      publication:
+        journalName: Life Sci.
+      publicationDate: '2004'
+      title: Characterization of the human nicotinic acetylcholine receptor subunit
+        alpha (alpha) 9 (CHRNA9) and alpha (alpha) 10 (CHRNA10) in lymphocytes.
+      type: journal article
+    scope:
+    - TISSUE SPECIFICITY
+  - citation:
+      authors:
+      - Xu S.
+      - Zhang T.
+      - Kompella S.N.
+      - Yan M.
+      - Lu A.
+      - Wang Y.
+      - Shao X.
+      - Chi C.
+      - Adams D.J.
+      - Ding J.
+      - Wang C.
+      dbReferences:
+      - id: '26395518'
+        type: PubMed
+      - id: 10.1038/srep14261
+        type: DOI
+      location:
+        firstPage: '14261'
+        lastPage: '14268'
+        volume: '5'
+      publication:
+        journalName: Sci. Rep.
+      publicationDate: '2015'
+      title: Conotoxin alphaD-GeXXA utilizes a novel strategy to antagonize nicotinic
+        acetylcholine receptors.
+      type: journal article
+    scope:
+    - MUTAGENESIS OF LEU-31
+    - INTERACTION WITH THE CONOTOXIN GEXXA
+  sequence:
+    length: 450
+    mass: 49705
+    modified: '2001-03-01'
+    sequence: MGLRSHHLSLGLLLLFLLPAECLGAEGRLALKLFRDLFANYTSALRPVADTDQTLNVTLEVTLSQIIDMDERNQVLTLYLWIRQEWTDAYLRWDPNAYGGLDAIRIPSSLVWRPDIVLYNKADAQPPGSASTNVVLRHDGAVRWDAPAITRSSCRVDVAAFPFDAQHCGLTFGSWTHGGHQLDVRPRGAAASLADFVENVEWRVLGMPARRRVLTYGCCSEPYPDVTFTLLLRRRAAAYVCNLLLPCVLISLLAPLAFHLPADSGEKVSLGVTVLLALTVFQLLLAESMPPAESVPLIGKYYMATMTMVTFSTALTILIMNLHYCGPSVRPVPAWARALLLGHLARGLCVRERGEPCGQSRPPELSPSPQSPEGGAGPPAGPCHEPRCLCRQEALLHHVATIANTFRSHRAAQRCHEDWKRLARVMDRFFLAIFFSMALVMSLLVLVQAL
+    version: 1
+uniprot_id: Q9GZZ6

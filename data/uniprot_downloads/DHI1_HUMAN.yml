@@ -1,0 +1,4744 @@
+data:
+  accession: P28845
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10497248
+          id: '10497248'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12460758
+          id: '12460758'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12460758
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/14973125
+          id: '14973125'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15095019
+          id: '15095019'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15095019
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15152005
+          id: '15152005'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17593962
+          id: '17593962'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/27927697
+          id: '27927697'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/27927697
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/30902677
+          id: '30902677'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/30902677
+      - code: ECO:0000303
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10497248
+          id: '10497248'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+      - code: ECO:0000303
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11481269
+          id: '11481269'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11481269
+      - code: ECO:0000303
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12414862
+          id: '12414862'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12414862
+      - code: ECO:0000303
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12460758
+          id: '12460758'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12460758
+      - code: ECO:0000303
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15095019
+          id: '15095019'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15095019
+      - code: ECO:0000303
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15152005
+          id: '15152005'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+      - code: ECO:0000303
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+      value: Controls the reversible conversion of biologically active glucocorticoids
+        such as cortisone to cortisol, and 11-dehydrocorticosterone to corticosterone
+        in the presence of NADP(H) (PubMed:10497248, PubMed:12460758, PubMed:14973125,
+        PubMed:15152005, PubMed:15280030, PubMed:17593962, PubMed:21453287, PubMed:27927697,
+        PubMed:30902677). Participates in the corticosteroid receptor-mediated anti-inflammatory
+        response, as well as metabolic and homeostatic processes (PubMed:12414862,
+        PubMed:10497248, PubMed:15152005, PubMed:21453287). Plays a role in the secretion
+        of aqueous humor in the eye, maintaining a normotensive, intraocular environment
+        (PubMed:11481269). Bidirectional in vitro, predominantly functions as a reductase
+        in vivo, thereby increasing the concentration of active glucocorticoids (PubMed:12414862,
+        PubMed:10497248, PubMed:11481269, PubMed:12460758). It has broad substrate
+        specificity, besides glucocorticoids, it accepts other steroid and sterol
+        substrates (PubMed:15095019, PubMed:15152005, PubMed:17593962, PubMed:21453287).
+        Interconverts 7-oxo- and 7-hydroxy-neurosteroids such as 7-oxopregnenolone
+        and 7beta-hydroxypregnenolone, 7-oxodehydroepiandrosterone (3beta-hydroxy-5-androstene-7,17-dione)
+        and 7beta-hydroxydehydroepiandrosterone (3beta,7beta-dihydroxyandrost-5-en-17-one),
+        among others (PubMed:17593962). Catalyzes the stereo-specific conversion of
+        the major dietary oxysterol, 7-ketocholesterol (7-oxocholesterol), into the
+        more polar 7-beta-hydroxycholesterol metabolite (PubMed:15095019, PubMed:15152005).
+        7-oxocholesterol is one of the most important oxysterols, it participates
+        in several events such as induction of apoptosis, accumulation in atherosclerotic
+        lesions, lipid peroxidation, and induction of foam cell formation (PubMed:15095019).
+        Mediates the 7-oxo reduction of 7-oxolithocholate mainly to chenodeoxycholate,
+        and to a lesser extent to ursodeoxycholate, both in its free form and when
+        conjugated to glycine or taurine, providing a link between glucocorticoid
+        activation and bile acid metabolism (PubMed:21453287). Catalyzes the synthesis
+        of 7-beta-25-dihydroxycholesterol from 7-oxo-25-hydroxycholesterol in vitro,
+        which acts as a ligand for the G-protein-coupled receptor (GPCR) Epstein-Barr
+        virus-induced gene 2 (EBI2) and may thereby regulate immune cell migration
+        (PubMed:30902677)
+    type: FUNCTION
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:11389
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10497248
+          id: '10497248'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12460758
+          id: '12460758'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12460758
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/14973125
+          id: '14973125'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15152005
+          id: '15152005'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/30902677
+          id: '30902677'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/30902677
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8319583
+          id: '8319583'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8319583
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15280030
+          id: '15280030'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15280030
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17593962
+          id: '17593962'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/27927697
+          id: '27927697'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/27927697
+    - dbReference:
+        id: RHEA:11390
+        type: Rhea
+      direction: right-to-left
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10497248
+          id: '10497248'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11481269
+          id: '11481269'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11481269
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12460758
+          id: '12460758'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12460758
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/14973125
+          id: '14973125'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15152005
+          id: '15152005'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/30902677
+          id: '30902677'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/30902677
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8319583
+          id: '8319583'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8319583
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15280030
+          id: '15280030'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15280030
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17593962
+          id: '17593962'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/27927697
+          id: '27927697'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/27927697
+    reaction:
+      dbReferences:
+      - id: RHEA:11388
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:35346
+        type: ChEBI
+      - id: CHEBI:47787
+        type: ChEBI
+      - id: CHEBI:57783
+        type: ChEBI
+      - id: CHEBI:58349
+        type: ChEBI
+      ecNumber: 1.1.1.146
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10497248
+          id: '10497248'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11481269
+          id: '11481269'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11481269
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12460758
+          id: '12460758'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12460758
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/14973125
+          id: '14973125'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15152005
+          id: '15152005'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15280030
+          id: '15280030'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15280030
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17070044
+          id: '17070044'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17070044
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17593962
+          id: '17593962'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17919905
+          id: '17919905'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17919905
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/27927697
+          id: '27927697'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/27927697
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/30902677
+          id: '30902677'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/30902677
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8319583
+          id: '8319583'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8319583
+      name: an 11beta-hydroxysteroid + NADP(+) = an 11-oxosteroid + H(+) + NADPH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:68617
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11481269
+          id: '11481269'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11481269
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12460758
+          id: '12460758'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12460758
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15152005
+          id: '15152005'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/30902677
+          id: '30902677'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/30902677
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8319583
+          id: '8319583'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8319583
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15280030
+          id: '15280030'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15280030
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17593962
+          id: '17593962'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/27927697
+          id: '27927697'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/27927697
+    - dbReference:
+        id: RHEA:68618
+        type: Rhea
+      direction: right-to-left
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12460758
+          id: '12460758'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12460758
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15152005
+          id: '15152005'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/30902677
+          id: '30902677'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/30902677
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8319583
+          id: '8319583'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8319583
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15280030
+          id: '15280030'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15280030
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17593962
+          id: '17593962'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/27927697
+          id: '27927697'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/27927697
+    reaction:
+      dbReferences:
+      - id: RHEA:68616
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:16962
+        type: ChEBI
+      - id: CHEBI:17650
+        type: ChEBI
+      - id: CHEBI:57783
+        type: ChEBI
+      - id: CHEBI:58349
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11481269
+          id: '11481269'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11481269
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12460758
+          id: '12460758'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12460758
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15152005
+          id: '15152005'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15280030
+          id: '15280030'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15280030
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17593962
+          id: '17593962'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/27927697
+          id: '27927697'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/27927697
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/30902677
+          id: '30902677'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/30902677
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8319583
+          id: '8319583'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8319583
+      name: cortisone + H(+) + NADPH = cortisol + NADP(+)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:42201
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10497248
+          id: '10497248'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/14973125
+          id: '14973125'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+    - dbReference:
+        id: RHEA:42202
+        type: Rhea
+      direction: right-to-left
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10497248
+          id: '10497248'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/14973125
+          id: '14973125'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+    reaction:
+      dbReferences:
+      - id: RHEA:42200
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:16827
+        type: ChEBI
+      - id: CHEBI:57783
+        type: ChEBI
+      - id: CHEBI:58349
+        type: ChEBI
+      - id: CHEBI:78600
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10497248
+          id: '10497248'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/14973125
+          id: '14973125'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+      name: corticosterone + NADP(+) = 11-dehydrocorticosterone + H(+) + NADPH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:20235
+        type: Rhea
+      direction: right-to-left
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/14973125
+          id: '14973125'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15095019
+          id: '15095019'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15095019
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15152005
+          id: '15152005'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17593962
+          id: '17593962'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+    reaction:
+      dbReferences:
+      - id: RHEA:20233
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:35349
+        type: ChEBI
+      - id: CHEBI:47789
+        type: ChEBI
+      - id: CHEBI:57783
+        type: ChEBI
+      - id: CHEBI:58349
+        type: ChEBI
+      ecNumber: 1.1.1.201
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/14973125
+          id: '14973125'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15095019
+          id: '15095019'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15095019
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15152005
+          id: '15152005'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17593962
+          id: '17593962'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+      name: a 7beta-hydroxysteroid + NADP(+) = a 7-oxosteroid + H(+) + NADPH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:68657
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/14973125
+          id: '14973125'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15095019
+          id: '15095019'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15095019
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15152005
+          id: '15152005'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+    reaction:
+      dbReferences:
+      - id: RHEA:68656
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:42989
+        type: ChEBI
+      - id: CHEBI:57783
+        type: ChEBI
+      - id: CHEBI:58349
+        type: ChEBI
+      - id: CHEBI:64294
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/14973125
+          id: '14973125'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15095019
+          id: '15095019'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15095019
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15152005
+          id: '15152005'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+      name: 7-oxocholesterol + H(+) + NADPH = 7beta-hydroxycholesterol + NADP(+)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:53822
+        type: Rhea
+      direction: right-to-left
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+    reaction:
+      dbReferences:
+      - id: RHEA:53820
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:36234
+        type: ChEBI
+      - id: CHEBI:57783
+        type: ChEBI
+      - id: CHEBI:58349
+        type: ChEBI
+      - id: CHEBI:78605
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+      name: chenodeoxycholate + NADP(+) = 7-oxolithocholate + H(+) + NADPH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:47541
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+    reaction:
+      dbReferences:
+      - id: RHEA:47540
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:57783
+        type: ChEBI
+      - id: CHEBI:58349
+        type: ChEBI
+      - id: CHEBI:78604
+        type: ChEBI
+      - id: CHEBI:78605
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+      name: 7-oxolithocholate + H(+) + NADPH = NADP(+) + ursodeoxycholate
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:65058
+        type: Rhea
+      direction: right-to-left
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+    reaction:
+      dbReferences:
+      - id: RHEA:65056
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:36252
+        type: ChEBI
+      - id: CHEBI:57783
+        type: ChEBI
+      - id: CHEBI:58349
+        type: ChEBI
+      - id: CHEBI:137818
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+      name: glycochenodeoxycholate + NADP(+) = 7-oxoglycolithocholate + H(+) + NADPH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:65062
+        type: Rhea
+      direction: right-to-left
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+    reaction:
+      dbReferences:
+      - id: RHEA:65060
+        type: Rhea
+      - id: CHEBI:9407
+        type: ChEBI
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:57783
+        type: ChEBI
+      - id: CHEBI:58349
+        type: ChEBI
+      - id: CHEBI:137724
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+      name: NADP(+) + taurochenodeoxycholate = 7-oxotaurolithocholate + H(+) + NADPH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:68982
+        type: Rhea
+      direction: right-to-left
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+    reaction:
+      dbReferences:
+      - id: RHEA:68980
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:57783
+        type: ChEBI
+      - id: CHEBI:58349
+        type: ChEBI
+      - id: CHEBI:132028
+        type: ChEBI
+      - id: CHEBI:137724
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+      name: NADP(+) + tauroursodeoxycholate = 7-oxotaurolithocholate + H(+) + NADPH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:68978
+        type: Rhea
+      direction: right-to-left
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+    reaction:
+      dbReferences:
+      - id: RHEA:68976
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:57783
+        type: ChEBI
+      - id: CHEBI:58349
+        type: ChEBI
+      - id: CHEBI:132030
+        type: ChEBI
+      - id: CHEBI:137818
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+      name: glycoursodeoxycholate + NADP(+) = 7-oxoglycolithocholate + H(+) + NADPH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:69437
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17593962
+          id: '17593962'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+    reaction:
+      dbReferences:
+      - id: RHEA:69436
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:57783
+        type: ChEBI
+      - id: CHEBI:58349
+        type: ChEBI
+      - id: CHEBI:183806
+        type: ChEBI
+      - id: CHEBI:183807
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17593962
+          id: '17593962'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+      name: 7-oxopregnenolone + H(+) + NADPH = 7beta-hydroxypregnenolone + NADP(+)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:69441
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17593962
+          id: '17593962'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+    reaction:
+      dbReferences:
+      - id: RHEA:69440
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:57783
+        type: ChEBI
+      - id: CHEBI:58349
+        type: ChEBI
+      - id: CHEBI:81471
+        type: ChEBI
+      - id: CHEBI:183808
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17593962
+          id: '17593962'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+      name: 3beta,7alpha-dihydroxyandrost-5-en-17-one + NADP(+) = 3beta-hydroxy-5-androstene-7,17-dione
+        + H(+) + NADPH
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:69453
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17593962
+          id: '17593962'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+    reaction:
+      dbReferences:
+      - id: RHEA:69452
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:57783
+        type: ChEBI
+      - id: CHEBI:58349
+        type: ChEBI
+      - id: CHEBI:183368
+        type: ChEBI
+      - id: CHEBI:183808
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17593962
+          id: '17593962'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+      name: 3beta-hydroxy-5-androstene-7,17-dione + H(+) + NADPH = 3beta,7beta-dihydroxyandrost-5-en-17-one
+        + NADP(+)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:69457
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17593962
+          id: '17593962'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+    reaction:
+      dbReferences:
+      - id: RHEA:69456
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:57783
+        type: ChEBI
+      - id: CHEBI:58349
+        type: ChEBI
+      - id: CHEBI:79834
+        type: ChEBI
+      - id: CHEBI:183809
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17593962
+          id: '17593962'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+      name: 3beta-hydroxy-5alpha-androstane-7,17-dione + H(+) + NADPH = 3beta,7beta-dihydroxy-5alpha-androstan-17-one
+        + NADP(+)
+    type: CATALYTIC_ACTIVITY
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15280030
+          id: '15280030'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15280030
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17593962
+          id: '17593962'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+      value: Hexose-6-phosphate dehydrogenase (H6PD) provides cosubstrate NADPH, and
+        the glucose-6-phosphate transporter in the ER-membrane supplies the substrate
+        for H6PDH, their activities stimulate the reduction of cortisone and abolish
+        the oxidation of cortisol
+    type: ACTIVITY_REGULATION
+  - kinetics:
+      km:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/10497248
+            id: '10497248'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+        value: 163 nM for corticosterone
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/10497248
+            id: '10497248'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/14973125
+            id: '14973125'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+        value: 594 nM for 11-dehydrocorticosterone
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/14973125
+            id: '14973125'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+        value: 165 nM for corticosterone
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/14973125
+            id: '14973125'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+        value: 564 nM for 7-oxocholesterol
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/8319583
+            id: '8319583'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/8319583
+        value: 0.14 uM for cortisone
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/8319583
+            id: '8319583'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/8319583
+        value: 1.66 uM for cortisol
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12460758
+            id: '12460758'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12460758
+        value: 0.6 uM for cortisone
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12460758
+            id: '12460758'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12460758
+        value: 1.7 uM for cortisol
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15152005
+            id: '15152005'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+        value: 803 nM for cortisone
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15280030
+            id: '15280030'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15280030
+        value: 665 nM for cortisone
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15280030
+            id: '15280030'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15280030
+        value: 1093 nM for cortisol
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15152005
+            id: '15152005'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+        value: 826 nM for cortisol
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/21453287
+            id: '21453287'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+        value: 980 nM for 7-oxolithocholate
+      vmax:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/10497248
+            id: '10497248'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+        value: 0.42 nmol/min/mg enzyme with corticosterone as substrate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/10497248
+            id: '10497248'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/14973125
+            id: '14973125'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+        value: 0.51 nmol/min/mg enzyme with 11-dehydrocorticosterone as substrate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/14973125
+            id: '14973125'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+        value: 0.45 nmol/min/mg enzyme with corticosterone as substrate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/14973125
+            id: '14973125'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+        value: 0.21 nmol/min/mg enzyme with 7-oxocholesterol as substrate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/8319583
+            id: '8319583'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/8319583
+        value: 540.0 nmol/h/ug enzyme with cortisol as substrate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/8319583
+            id: '8319583'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/8319583
+        value: 0.216 nmol/min/mg enzyme with cortisone as substrate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15280030
+            id: '15280030'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15280030
+        value: 0.76 nmol/h/mg enzyme with cortisone as substrate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12460758
+            id: '12460758'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12460758
+        value: 3.8 nmol/min/mg enzyme with cortisone as substrate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15280030
+            id: '15280030'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15280030
+        value: 1.74 nmol/h/mg enzyme with cortisol as substrate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12460758
+            id: '12460758'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12460758
+        value: 69.8 nmol/min/mg enzyme with cortisol as substrate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15152005
+            id: '15152005'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+        value: 0.72 nmol/h/mg enzyme with cortisone as substrate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/30902677
+            id: '30902677'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/30902677
+        value: 1.59 nmol/h/mg enzyme with cortisone as substrate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15152005
+            id: '15152005'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+        value: 0.64 nmol/h/mg enzyme with cortisol as substrate
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/21453287
+            id: '21453287'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+        value: 2.8 nmol/h/mg enzyme with 7-oxolithocholate as substrate
+    type: BIOPHYSICOCHEMICAL_PROPERTIES
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Steroid metabolism
+    type: PATHWAY
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15513927
+          id: '15513927'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15513927
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17919905
+          id: '17919905'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17919905
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18069989
+          id: '18069989'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18069989
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18485702
+          id: '18485702'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18485702
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18553955
+          id: '18553955'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18553955
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19217779
+          id: '19217779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19217779
+      value: Homodimer
+    type: SUBUNIT
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/10497248
+            id: '10497248'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15280030
+            id: '15280030'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15280030
+        value: Endoplasmic reticulum membrane
+      topology:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/10497248
+            id: '10497248'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+        value: Single-pass type II membrane protein
+    type: SUBCELLULAR_LOCATION
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11481269
+          id: '11481269'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11481269
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/1885595
+          id: '1885595'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/1885595
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21453287
+          id: '21453287'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+      value: Widely expressed, highest expression in liver, lower in testis, ovary,
+        lung, foreskin fibroblasts, and much lower in kidney (PubMed:1885595). Expressed
+        in liver (at protein level) (PubMed:21453287). Expressed in the basal cells
+        of the corneal epithelium and in the ciliary nonpigmented epithelium (both
+        at mRNA and at protein level) (PubMed:11481269)
+    type: TISSUE_SPECIFICITY
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10497248
+          id: '10497248'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19159218
+          id: '19159218'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19159218
+      value: Glycosylated
+    type: PTM
+  - acronym: CORTRD2
+    dbReference:
+      id: '614662'
+      type: MIM
+    description:
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12858176
+          id: '12858176'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12858176
+      value: An autosomal dominant error of cortisone metabolism characterized by
+        a failure to regenerate cortisol from cortisone, resulting in increased cortisol
+        clearance, activation of the hypothalamic- pituitary axis and ACTH-mediated
+        adrenal androgen excess. Clinical features include hyperandrogenism resulting
+        in hirsutism, oligo- amenorrhea, and infertility in females and premature
+        pseudopuberty in males.
+    diseaseId: Cortisone reductase deficiency 2
+    text:
+    - value: The disease is caused by variants affecting the gene represented in this
+        entry
+    type: DISEASE
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the short-chain dehydrogenases/reductases (SDR) family
+    type: SIMILARITY
+  dbReferences:
+  - id: M76665
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAC31757.1
+    type: EMBL
+  - id: M76661
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAC31757.1
+      status: JOINED
+    type: EMBL
+  - id: M76662
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAC31757.1
+      status: JOINED
+    type: EMBL
+  - id: M76663
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAC31757.1
+      status: JOINED
+    type: EMBL
+  - id: M76664
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAC31757.1
+      status: JOINED
+    type: EMBL
+  - id: AY044084
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAK83653.1
+    type: EMBL
+  - id: AY044083
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAK83653.1
+      status: JOINED
+    type: EMBL
+  - id: AK313973
+    properties:
+      molecule type: mRNA
+      protein sequence ID: BAG36688.1
+    type: EMBL
+  - id: AL022398
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: AL031316
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: CH471100
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW93445.1
+    type: EMBL
+  - id: CH471100
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW93446.1
+    type: EMBL
+  - id: BC012593
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH12593.1
+    type: EMBL
+  - id: CCDS1489.1
+    type: CCDS
+  - id: A41173
+    properties:
+      entry name: DXHUBH
+    type: PIR
+  - id: NP_001193670.1
+    properties:
+      nucleotide sequence ID: NM_001206741.1
+    type: RefSeq
+  - id: NP_005516.1
+    properties:
+      nucleotide sequence ID: NM_005525.3
+    type: RefSeq
+  - id: NP_861420.1
+    properties:
+      nucleotide sequence ID: NM_181755.2
+    type: RefSeq
+  - id: 1XU7
+    properties:
+      chains: A/B/C/D=24-292
+      method: X-ray
+      resolution: 1.80 A
+    type: PDB
+  - id: 1XU9
+    properties:
+      chains: A/B/C/D=24-292
+      method: X-ray
+      resolution: 1.55 A
+    type: PDB
+  - id: 2BEL
+    properties:
+      chains: A/B/C/D=26-284
+      method: X-ray
+      resolution: 2.11 A
+    type: PDB
+  - id: 2ILT
+    properties:
+      chains: A=24-285
+      method: X-ray
+      resolution: 2.30 A
+    type: PDB
+  - id: 2IRW
+    properties:
+      chains: A/B/C/D/E/F/G/H=26-289
+      method: X-ray
+      resolution: 3.10 A
+    type: PDB
+  - id: 2RBE
+    properties:
+      chains: A/B/C/D=25-292
+      method: X-ray
+      resolution: 1.90 A
+    type: PDB
+  - id: 3BYZ
+    properties:
+      chains: A/B/C/D=25-292
+      method: X-ray
+      resolution: 2.69 A
+    type: PDB
+  - id: 3BZU
+    properties:
+      chains: A/B/C/D=24-292
+      method: X-ray
+      resolution: 2.25 A
+    type: PDB
+  - id: 3CH6
+    properties:
+      chains: A/B/D/E=24-292
+      method: X-ray
+      resolution: 2.35 A
+    type: PDB
+  - id: 3CZR
+    properties:
+      chains: A/B=24-292
+      method: X-ray
+      resolution: 2.35 A
+    type: PDB
+  - id: 3D3E
+    properties:
+      chains: A/B/C/D=24-292
+      method: X-ray
+      resolution: 2.60 A
+    type: PDB
+  - id: 3D4N
+    properties:
+      chains: A/B/C/D=24-292
+      method: X-ray
+      resolution: 2.50 A
+    type: PDB
+  - id: 3D5Q
+    properties:
+      chains: A/B/C/D=24-292
+      method: X-ray
+      resolution: 2.55 A
+    type: PDB
+  - id: 3EY4
+    properties:
+      chains: A/B/C/D=25-292
+      method: X-ray
+      resolution: 3.00 A
+    type: PDB
+  - id: 3FCO
+    properties:
+      chains: A/B=24-291
+      method: X-ray
+      resolution: 2.65 A
+    type: PDB
+  - id: 3FRJ
+    properties:
+      chains: A/B=24-292
+      method: X-ray
+      resolution: 2.30 A
+    type: PDB
+  - id: 3H6K
+    properties:
+      chains: A/B/C/D=24-292
+      method: X-ray
+      resolution: 2.19 A
+    type: PDB
+  - id: 3HFG
+    properties:
+      chains: A/B/C/D=24-292
+      method: X-ray
+      resolution: 2.30 A
+    type: PDB
+  - id: 3OQ1
+    properties:
+      chains: A/B/C/D=24-292
+      method: X-ray
+      resolution: 2.60 A
+    type: PDB
+  - id: 3PDJ
+    properties:
+      chains: A/B=24-292
+      method: X-ray
+      resolution: 2.30 A
+    type: PDB
+  - id: 3QQP
+    properties:
+      chains: A/B/C/D=24-292
+      method: X-ray
+      resolution: 2.72 A
+    type: PDB
+  - id: 3TFQ
+    properties:
+      chains: A/B/D/E=24-292
+      method: X-ray
+      resolution: 1.80 A
+    type: PDB
+  - id: 4BB5
+    properties:
+      chains: A/B/C/D=1-292
+      method: X-ray
+      resolution: 2.20 A
+    type: PDB
+  - id: 4BB6
+    properties:
+      chains: A/B=1-292
+      method: X-ray
+      resolution: 2.55 A
+    type: PDB
+  - id: 4C7J
+    properties:
+      chains: A/B/C/D=24-292
+      method: X-ray
+      resolution: 2.16 A
+    type: PDB
+  - id: 4C7K
+    properties:
+      chains: A/B/C/D=24-292
+      method: X-ray
+      resolution: 1.91 A
+    type: PDB
+  - id: 4HFR
+    properties:
+      chains: A/B=24-292
+      method: X-ray
+      resolution: 2.73 A
+    type: PDB
+  - id: 4HX5
+    properties:
+      chains: A/B/C/D=24-292
+      method: X-ray
+      resolution: 2.19 A
+    type: PDB
+  - id: 4IJU
+    properties:
+      chains: A/B/D/E=24-292
+      method: X-ray
+      resolution: 2.35 A
+    type: PDB
+  - id: 4IJV
+    properties:
+      chains: A/B/D/E=24-292
+      method: X-ray
+      resolution: 2.35 A
+    type: PDB
+  - id: 4IJW
+    properties:
+      chains: A/B/D/E=24-292
+      method: X-ray
+      resolution: 2.35 A
+    type: PDB
+  - id: 4K1L
+    properties:
+      chains: A/B/C/D=24-292
+      method: X-ray
+      resolution: 1.96 A
+    type: PDB
+  - id: 4P38
+    properties:
+      chains: A/B=26-290
+      method: X-ray
+      resolution: 2.80 A
+    type: PDB
+  - id: 4YYZ
+    properties:
+      chains: A/B=26-284
+      method: X-ray
+      resolution: 3.20 A
+    type: PDB
+  - id: 5PGU
+    properties:
+      chains: A/B/D/E=24-292
+      method: X-ray
+      resolution: 2.35 A
+    type: PDB
+  - id: 5PGV
+    properties:
+      chains: A/B/D/E=24-292
+      method: X-ray
+      resolution: 2.35 A
+    type: PDB
+  - id: 5PGW
+    properties:
+      chains: A/B/D/E=24-292
+      method: X-ray
+      resolution: 2.37 A
+    type: PDB
+  - id: 5PGX
+    properties:
+      chains: A/B/D/E=24-292
+      method: X-ray
+      resolution: 2.50 A
+    type: PDB
+  - id: 5PGY
+    properties:
+      chains: A/B/D/E=24-292
+      method: X-ray
+      resolution: 2.07 A
+    type: PDB
+  - id: 5QII
+    properties:
+      chains: A/B/D/E=24-292
+      method: X-ray
+      resolution: 2.45 A
+    type: PDB
+  - id: 1XU7
+    type: PDBsum
+  - id: 1XU9
+    type: PDBsum
+  - id: 2BEL
+    type: PDBsum
+  - id: 2ILT
+    type: PDBsum
+  - id: 2IRW
+    type: PDBsum
+  - id: 2RBE
+    type: PDBsum
+  - id: 3BYZ
+    type: PDBsum
+  - id: 3BZU
+    type: PDBsum
+  - id: 3CH6
+    type: PDBsum
+  - id: 3CZR
+    type: PDBsum
+  - id: 3D3E
+    type: PDBsum
+  - id: 3D4N
+    type: PDBsum
+  - id: 3D5Q
+    type: PDBsum
+  - id: 3EY4
+    type: PDBsum
+  - id: 3FCO
+    type: PDBsum
+  - id: 3FRJ
+    type: PDBsum
+  - id: 3H6K
+    type: PDBsum
+  - id: 3HFG
+    type: PDBsum
+  - id: 3OQ1
+    type: PDBsum
+  - id: 3PDJ
+    type: PDBsum
+  - id: 3QQP
+    type: PDBsum
+  - id: 3TFQ
+    type: PDBsum
+  - id: 4BB5
+    type: PDBsum
+  - id: 4BB6
+    type: PDBsum
+  - id: 4C7J
+    type: PDBsum
+  - id: 4C7K
+    type: PDBsum
+  - id: 4HFR
+    type: PDBsum
+  - id: 4HX5
+    type: PDBsum
+  - id: 4IJU
+    type: PDBsum
+  - id: 4IJV
+    type: PDBsum
+  - id: 4IJW
+    type: PDBsum
+  - id: 4K1L
+    type: PDBsum
+  - id: 4P38
+    type: PDBsum
+  - id: 4YYZ
+    type: PDBsum
+  - id: 5PGU
+    type: PDBsum
+  - id: 5PGV
+    type: PDBsum
+  - id: 5PGW
+    type: PDBsum
+  - id: 5PGX
+    type: PDBsum
+  - id: 5PGY
+    type: PDBsum
+  - id: 5QII
+    type: PDBsum
+  - id: P28845
+    type: AlphaFoldDB
+  - id: P28845
+    type: SMR
+  - id: '109523'
+    properties:
+      interactions: '24'
+    type: BioGRID
+  - id: DIP-59618N
+    type: DIP
+  - id: P28845
+    properties:
+      interactions: '5'
+    type: IntAct
+  - id: 9606.ENSP00000355995
+    type: STRING
+  - id: P28845
+    type: BindingDB
+  - id: CHEMBL4235
+    type: ChEMBL
+  - id: DB08280
+    properties:
+      generic name: (1S,3R,4S,5S,7S)-4-{[2-(4-METHOXYPHENOXY)-2-METHYLPROPANOYL]AMINO}ADAMANTANE-1-CARBOXAMIDE
+    type: DrugBank
+  - id: DB07049
+    properties:
+      generic name: (2R)-1-[(4-tert-butylphenyl)sulfonyl]-2-methyl-4-(4-nitrophenyl)piperazine
+    type: DrugBank
+  - id: DB06992
+    properties:
+      generic name: (3,3-dimethylpiperidin-1-yl)(6-(3-fluoro-4-methylphenyl)pyridin-2-yl)methanone
+    type: DrugBank
+  - id: DB08771
+    properties:
+      generic name: (5R)-2-[(2-Fluorophenyl)amino]-5-isopropyl-1,3-thiazol-4(5H)-one
+    type: DrugBank
+  - id: DB07866
+    properties:
+      generic name: (5S)-2-(Cyclooctylamino)-5-methyl-5-propyl-1,3-thiazol-4(5H)-one
+    type: DrugBank
+  - id: DB07310
+    properties:
+      generic name: (5S)-2-{[(1S)-1-(2-fluorophenyl)ethyl]amino}-5-methyl-5-(trifluoromethyl)-1,3-thiazol-4(5H)-one
+    type: DrugBank
+  - id: DB07017
+    properties:
+      generic name: (5S)-2-{[(1S)-1-(4-Fluorophenyl)ethyl]amino}-5-(2-hydroxy-2-propanyl)-5-methyl-1,3-thiazol-4(5H)-one
+    type: DrugBank
+  - id: DB07624
+    properties:
+      generic name: 1-{[(3R)-3-methyl-4-({4-[(1S)-2,2,2-trifluoro-1-hydroxy-1-methylethyl]phenyl}sulfonyl)piperazin-1-yl]methyl}cyclopropanecarboxamide
+    type: DrugBank
+  - id: DB08277
+    properties:
+      generic name: 2-(2-CHLORO-4-FLUOROPHENOXY)-2-METHYL-N-[(1R,2S,3S,5S,7S)-5-(METHYLSULFONYL)-2-ADAMANTYL]PROPANAMIDE
+    type: DrugBank
+  - id: DB07056
+    properties:
+      generic name: 2-(6-{[(3-chloro-2-methylphenyl)sulfonyl]amino}pyridin-2-yl)-N,N-diethylacetamide
+    type: DrugBank
+  - id: DB03814
+    properties:
+      generic name: 2-(N-morpholino)ethanesulfonic acid
+    type: DrugBank
+  - id: DB02329
+    properties:
+      generic name: Carbenoxolone
+    type: DrugBank
+  - id: DB04652
+    properties:
+      generic name: Corticosterone
+    type: DrugBank
+  - id: DB01234
+    properties:
+      generic name: Dexamethasone
+    type: DrugBank
+  - id: DB14649
+    properties:
+      generic name: Dexamethasone acetate
+    type: DrugBank
+  - id: DB00687
+    properties:
+      generic name: Fludrocortisone
+    type: DrugBank
+  - id: DB13751
+    properties:
+      generic name: Glycyrrhizic acid
+    type: DrugBank
+  - id: DB00741
+    properties:
+      generic name: Hydrocortisone
+    type: DrugBank
+  - id: DB05064
+    properties:
+      generic name: INCB13739
+    type: DrugBank
+  - id: DB16220
+    properties:
+      generic name: Lonapegsomatropin
+    type: DrugBank
+  - id: DB00959
+    properties:
+      generic name: Methylprednisolone
+    type: DrugBank
+  - id: DB07619
+    properties:
+      generic name: N-cyclopropyl-N-(trans-4-pyridin-3-ylcyclohexyl)-4-[(1S)-2,2,2-trifluoro-1-hydroxy-1-methylethyl]benzamide
+    type: DrugBank
+  - id: DB07316
+    properties:
+      generic name: N-{1-[(1-carbamoylcyclopropyl)methyl]piperidin-4-yl}-N-cyclopropyl-4-[(1S)-2,2,2-trifluoro-1-hydroxy-1-methylethyl]benzamide
+    type: DrugBank
+  - id: DB00461
+    properties:
+      generic name: Nabumetone
+    type: DrugBank
+  - id: DB00157
+    properties:
+      generic name: NADH
+    type: DrugBank
+  - id: DB03461
+    properties:
+      generic name: Nicotinamide adenine dinucleotide phosphate
+    type: DrugBank
+  - id: DB14631
+    properties:
+      generic name: Prednisolone phosphate
+    type: DrugBank
+  - id: DB00635
+    properties:
+      generic name: Prednisone
+    type: DrugBank
+  - id: DB15093
+    properties:
+      generic name: Somapacitan
+    type: DrugBank
+  - id: P28845
+    type: DrugCentral
+  - id: '2763'
+    type: GuidetoPHARMACOLOGY
+  - id: SLP:000000809
+    type: SwissLipids
+  - id: '1158'
+    properties:
+      glycosylation: 2 N-Linked glycans (2 sites)
+    type: GlyConnect
+  - id: P28845
+    properties:
+      glycosylation: 3 sites, 2 glycans
+    type: GlyCosmos
+  - id: P28845
+    properties:
+      glycosylation: 3 sites, 2 N-linked glycans (2 sites)
+    type: GlyGen
+  - id: P28845
+    type: iPTMnet
+  - id: P28845
+    type: PhosphoSitePlus
+  - id: HSD11B1
+    type: BioMuta
+  - id: '118569'
+    type: DMDM
+  - id: P28845
+    type: EPD
+  - id: P28845
+    type: jPOST
+  - id: P28845
+    type: MassIVE
+  - id: 9606-ENSP00000355995
+    type: PaxDb
+  - id: P28845
+    type: PeptideAtlas
+  - id: '54504'
+    type: ProteomicsDB
+  - id: '34595'
+    properties:
+      antibodies: 463 antibodies from 41 providers
+    type: Antibodypedia
+  - id: '3290'
+    type: DNASU
+  - id: ENST00000367027.5
+    properties:
+      gene ID: ENSG00000117594.10
+      protein sequence ID: ENSP00000355994.3
+    type: Ensembl
+  - id: ENST00000367028.6
+    properties:
+      gene ID: ENSG00000117594.10
+      protein sequence ID: ENSP00000355995.1
+    type: Ensembl
+  - id: '3290'
+    type: GeneID
+  - id: hsa:3290
+    type: KEGG
+  - id: ENST00000367027.5
+    properties:
+      RefSeq nucleotide sequence ID: NM_005525.4
+      RefSeq protein sequence ID: NP_005516.1
+      protein sequence ID: ENSP00000355994.3
+    type: MANE-Select
+  - id: HGNC:5208
+    type: AGR
+  - id: '3290'
+    type: CTD
+  - id: '3290'
+    type: DisGeNET
+  - id: HSD11B1
+    type: GeneCards
+  - id: HGNC:5208
+    properties:
+      gene designation: HSD11B1
+    type: HGNC
+  - id: ENSG00000117594
+    properties:
+      expression patterns: Tissue enriched (liver)
+    type: HPA
+  - id: HSD11B1
+    type: MalaCards
+  - id: '600713'
+    properties:
+      type: gene
+    type: MIM
+  - id: '614662'
+    properties:
+      type: phenotype
+    type: MIM
+  - id: NX_P28845
+    type: neXtProt
+  - id: ENSG00000117594
+    type: OpenTargets
+  - id: '168588'
+    properties:
+      disease: Hyperandrogenism due to cortisone reductase deficiency
+    type: Orphanet
+  - id: PA29476
+    type: PharmGKB
+  - id: HostDB:ENSG00000117594
+    type: VEuPathDB
+  - id: KOG1205
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000160097
+    type: GeneTree
+  - id: P28845
+    type: InParanoid
+  - id: SMEDMTF
+    type: OMA
+  - id: 2904540at2759
+    type: OrthoDB
+  - id: P28845
+    type: PhylomeDB
+  - id: TF329114
+    type: TreeFam
+  - id: MetaCyc:HS04154-MONOMER
+    type: BioCyc
+  - id: 1.1.1.146
+    properties:
+      organism ID: '2681'
+    type: BRENDA
+  - id: 1.1.1.B40
+    properties:
+      organism ID: '2681'
+    type: BRENDA
+  - id: P28845
+    type: PathwayCommons
+  - id: R-HSA-194002
+    properties:
+      pathway name: Glucocorticoid biosynthesis
+    type: Reactome
+  - id: R-HSA-9757110
+    properties:
+      pathway name: Prednisone ADME
+    type: Reactome
+  - id: P28845
+    type: SABIO-RK
+  - id: P28845
+    type: SignaLink
+  - id: P28845
+    type: SIGNOR
+  - id: '3290'
+    properties:
+      hits: 12 hits in 1155 CRISPR screens
+    type: BioGRID-ORCS
+  - id: HSD11B1
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: P28845
+    type: EvolutionaryTrace
+  - id: 11%CE%B2-hydroxysteroid_dehydrogenase_type_1
+    type: GeneWiki
+  - id: '3290'
+    type: GenomeRNAi
+  - id: P28845
+    properties:
+      development level: Tclin
+    type: Pharos
+  - id: PR:P28845
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 1
+    type: Proteomes
+  - id: P28845
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000117594
+    properties:
+      expression patterns: Expressed in decidua and 158 other cell types or tissues
+    type: Bgee
+  - id: P28845
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: P28845
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10497248
+        id: '10497248'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+    id: GO:0005789
+    properties:
+      source: IDA:UniProtKB
+      term: C:endoplasmic reticulum membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0043231
+    properties:
+      source: IBA:GO_Central
+      term: C:intracellular membrane-bounded organelle
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19946888
+        id: '19946888'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19946888
+    id: GO:0016020
+    properties:
+      source: HDA:UniProtKB
+      term: C:membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10497248
+        id: '10497248'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15152005
+        id: '15152005'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17070044
+        id: '17070044'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17070044
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17919905
+        id: '17919905'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17919905
+    id: GO:0070524
+    properties:
+      source: IDA:UniProtKB
+      term: F:11-beta-hydroxysteroid dehydrogenase (NADP+) activity
+    type: GO
+  - id: GO:0047022
+    properties:
+      source: IEA:RHEA
+      term: F:7-beta-hydroxysteroid dehydrogenase (NADP+) activity
+    type: GO
+  - id: GO:0102196
+    properties:
+      source: IEA:UniProtKB-EC
+      term: F:cortisol dehydrogenase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15513927
+        id: '15513927'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15513927
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17919905
+        id: '17919905'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17919905
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18069989
+        id: '18069989'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18069989
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18485702
+        id: '18485702'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18485702
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18553955
+        id: '18553955'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18553955
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19217779
+        id: '19217779'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19217779
+    id: GO:0050661
+    properties:
+      source: IDA:UniProtKB
+      term: F:NADP binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15513927
+        id: '15513927'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15513927
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17919905
+        id: '17919905'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17919905
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18069989
+        id: '18069989'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18069989
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18485702
+        id: '18485702'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18485702
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18553955
+        id: '18553955'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18553955
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19217779
+        id: '19217779'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19217779
+    id: GO:0042803
+    properties:
+      source: IDA:UniProtKB
+      term: F:protein homodimerization activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0005496
+    properties:
+      source: IBA:GO_Central
+      term: F:steroid binding
+    type: GO
+  - id: GO:0030324
+    properties:
+      source: IEA:Ensembl
+      term: P:lung development
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0006706
+    properties:
+      source: IBA:GO_Central
+      term: P:steroid catabolic process
+    type: GO
+  - id: cd05332
+    properties:
+      entry name: 11beta-HSD1_like_SDR_c
+      match status: '1'
+    type: CDD
+  - id: 3.40.50.720
+    properties:
+      entry name: NAD(P)-binding Rossmann-like Domain
+      match status: '1'
+    type: Gene3D
+  - id: IPR036291
+    properties:
+      entry name: NAD(P)-bd_dom_sf
+    type: InterPro
+  - id: IPR020904
+    properties:
+      entry name: Sc_DH/Rdtase_CS
+    type: InterPro
+  - id: IPR002347
+    properties:
+      entry name: SDR_fam
+    type: InterPro
+  - id: PTHR44279:SF1
+    properties:
+      entry name: CORTICOSTEROID 11-BETA-DEHYDROGENASE ISOZYME 1
+      match status: '1'
+    type: PANTHER
+  - id: PTHR44279
+    properties:
+      entry name: HYDROXYSTEROID (11-BETA) DEHYDROGENASE 1-LIKE B-RELATED
+      match status: '1'
+    type: PANTHER
+  - id: PF00106
+    properties:
+      entry name: adh_short
+      match status: '1'
+    type: Pfam
+  - id: PR00081
+    properties:
+      entry name: GDHRDH
+    type: PRINTS
+  - id: SSF51735
+    properties:
+      entry name: NAD(P)-binding Rossmann-fold domains
+      match status: '1'
+    type: SUPFAM
+  - id: PS00061
+    properties:
+      entry name: ADH_SHORT
+      match status: '1'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: 11-beta-hydroxysteroid dehydrogenase 1
+    end: '292'
+    ftId: PRO_0000054619
+    molecule: ''
+    type: CHAIN
+  - begin: '1'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '7'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '8'
+    category: TOPOLOGY
+    description: Helical; Signal-anchor for type II membrane protein
+    end: '24'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '25'
+    category: TOPOLOGY
+    description: Lumenal
+    end: '292'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '183'
+    category: DOMAINS_AND_SITES
+    description: Proton acceptor
+    end: '183'
+    molecule: ''
+    type: ACT_SITE
+  - begin: '41'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '67'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15513927
+        id: '15513927'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15513927
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17919905
+        id: '17919905'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17919905
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18069989
+        id: '18069989'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18069989
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18485702
+        id: '18485702'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18485702
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18553955
+        id: '18553955'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18553955
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19217779
+        id: '19217779'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19217779
+    ligand:
+      dbReference:
+        id: CHEBI:58349
+        name: ChEBI
+      name: NADP(+)
+    molecule: ''
+    type: BINDING
+  - begin: '92'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '93'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15513927
+        id: '15513927'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15513927
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17919905
+        id: '17919905'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17919905
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18069989
+        id: '18069989'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18069989
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18485702
+        id: '18485702'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18485702
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18553955
+        id: '18553955'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18553955
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19217779
+        id: '19217779'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19217779
+    ligand:
+      dbReference:
+        id: CHEBI:58349
+        name: ChEBI
+      name: NADP(+)
+    molecule: ''
+    type: BINDING
+  - begin: '119'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '121'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15513927
+        id: '15513927'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15513927
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17919905
+        id: '17919905'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17919905
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18069989
+        id: '18069989'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18069989
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18485702
+        id: '18485702'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18485702
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18553955
+        id: '18553955'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18553955
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19217779
+        id: '19217779'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19217779
+    ligand:
+      dbReference:
+        id: CHEBI:58349
+        name: ChEBI
+      name: NADP(+)
+    molecule: ''
+    type: BINDING
+  - begin: '170'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '170'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15513927
+        id: '15513927'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15513927
+    - code: ECO:0007744
+      source:
+        id: 1XU7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU7
+    - code: ECO:0007744
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    ligand:
+      name: substrate
+    molecule: ''
+    type: BINDING
+  - begin: '183'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '187'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15513927
+        id: '15513927'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15513927
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17919905
+        id: '17919905'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17919905
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18069989
+        id: '18069989'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18069989
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18485702
+        id: '18485702'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18485702
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18553955
+        id: '18553955'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18553955
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19217779
+        id: '19217779'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19217779
+    ligand:
+      dbReference:
+        id: CHEBI:58349
+        name: ChEBI
+      name: NADP(+)
+    molecule: ''
+    type: BINDING
+  - begin: '218'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '222'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15513927
+        id: '15513927'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15513927
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17919905
+        id: '17919905'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17919905
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18069989
+        id: '18069989'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18069989
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18485702
+        id: '18485702'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18485702
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18553955
+        id: '18553955'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18553955
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19217779
+        id: '19217779'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19217779
+    ligand:
+      dbReference:
+        id: CHEBI:58349
+        name: ChEBI
+      name: NADP(+)
+    molecule: ''
+    type: BINDING
+  - begin: '123'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '123'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19159218
+        id: '19159218'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19159218
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '162'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '162'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19159218
+        id: '19159218'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19159218
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '207'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '207'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - alternativeSequence: E
+    begin: '148'
+    category: VARIANTS
+    description: in a breast cancer sample; somatic mutation
+    end: '148'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16959974
+        id: '16959974'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16959974
+    ftId: VAR_035845
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: RR
+    begin: '5'
+    category: MUTAGENESIS
+    description: Predominantly inverted topology. No effect on activity.
+    end: '6'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10497248
+        id: '10497248'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15152005
+        id: '15152005'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: SS
+    begin: '5'
+    category: MUTAGENESIS
+    description: Inverted topology. Reduced Vmax.
+    end: '6'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10497248
+        id: '10497248'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15152005
+        id: '15152005'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: R
+    begin: '5'
+    category: MUTAGENESIS
+    description: Predominantly inverted topology. No effect on activity.
+    end: '5'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10497248
+        id: '10497248'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: S
+    begin: '5'
+    category: MUTAGENESIS
+    description: Inverted topology. No effect on activity.
+    end: '5'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10497248
+        id: '10497248'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: R
+    begin: '6'
+    category: MUTAGENESIS
+    description: No effect on topology. Increased Km for corticosterone.
+    end: '6'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10497248
+        id: '10497248'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: S
+    begin: '6'
+    category: MUTAGENESIS
+    description: No effect on topology or activity.
+    end: '6'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10497248
+        id: '10497248'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: AAAA
+    begin: '18'
+    category: MUTAGENESIS
+    description: No effect on topology. Reduced Vmax.
+    end: '21'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10497248
+        id: '10497248'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: FFFF
+    begin: '18'
+    category: MUTAGENESIS
+    description: No effect on topology or activity.
+    end: '21'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10497248
+        id: '10497248'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: AYA
+    begin: '19'
+    category: MUTAGENESIS
+    description: No effect on topology. Reduced Vmax.
+    end: '21'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10497248
+        id: '10497248'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: KK
+    begin: '25'
+    category: MUTAGENESIS
+    description: Inverted topology. Reduced Vmax.
+    end: '26'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15152005
+        id: '15152005'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: KQ
+    begin: '25'
+    category: MUTAGENESIS
+    description: No effect on topology. Reduced Vmax.
+    end: '26'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15152005
+        id: '15152005'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: QQ
+    begin: '25'
+    category: MUTAGENESIS
+    description: Reduced Vmax.
+    end: '26'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15152005
+        id: '15152005'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: K,Q
+    begin: '25'
+    category: MUTAGENESIS
+    description: No effect on activity.
+    end: '25'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15152005
+        id: '15152005'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: K
+    begin: '26'
+    category: MUTAGENESIS
+    description: No effect on activity.
+    end: '26'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15152005
+        id: '15152005'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: SS
+    begin: '35'
+    category: MUTAGENESIS
+    description: Complete loss of activity.
+    end: '36'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15152005
+        id: '15152005'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+    molecule: ''
+    type: MUTAGEN
+  - begin: '29'
+    category: STRUCTURAL
+    end: '32'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: HELIX
+  - begin: '36'
+    category: STRUCTURAL
+    end: '41'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: STRAND
+  - begin: '45'
+    category: STRUCTURAL
+    end: '56'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: HELIX
+  - begin: '60'
+    category: STRUCTURAL
+    end: '66'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: STRAND
+  - begin: '68'
+    category: STRUCTURAL
+    end: '81'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: HELIX
+  - begin: '84'
+    category: STRUCTURAL
+    end: '90'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: STRAND
+  - begin: '93'
+    category: STRUCTURAL
+    end: '95'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4YYZ
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4YYZ
+    molecule: ''
+    type: STRAND
+  - begin: '96'
+    category: STRUCTURAL
+    end: '110'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: HELIX
+  - begin: '114'
+    category: STRUCTURAL
+    end: '118'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: STRAND
+  - begin: '133'
+    category: STRUCTURAL
+    end: '143'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: HELIX
+  - begin: '145'
+    category: STRUCTURAL
+    end: '161'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: HELIX
+  - begin: '164'
+    category: STRUCTURAL
+    end: '170'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: STRAND
+  - begin: '171'
+    category: STRUCTURAL
+    end: '173'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: HELIX
+  - begin: '181'
+    category: STRUCTURAL
+    end: '204'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: HELIX
+  - begin: '209'
+    category: STRUCTURAL
+    end: '215'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: STRAND
+  - begin: '221'
+    category: STRUCTURAL
+    end: '226'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: HELIX
+  - begin: '229'
+    category: STRUCTURAL
+    end: '234'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: HELIX
+  - begin: '238'
+    category: STRUCTURAL
+    end: '250'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: HELIX
+  - begin: '254'
+    category: STRUCTURAL
+    end: '258'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: STRAND
+  - begin: '262'
+    category: STRUCTURAL
+    end: '267'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: HELIX
+  - begin: '271'
+    category: STRUCTURAL
+    end: '280'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: HELIX
+  - begin: '281'
+    category: STRUCTURAL
+    end: '283'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    molecule: ''
+    type: HELIX
+  - begin: '287'
+    category: STRUCTURAL
+    end: '290'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4C7J
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4C7J
+    molecule: ''
+    type: HELIX
+  gene:
+  - name:
+      evidences:
+      - code: ECO:0000312
+        source:
+          id: HGNC:5208
+          name: HGNC
+          url: https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=HGNC:5208
+      value: HSD11B1
+    synonyms:
+    - value: HSD11
+    - value: HSD11L
+    - value: SDR26C1
+  id: DHI1_HUMAN
+  info:
+    created: '1992-12-01'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 220
+  keywords:
+  - value: 3D-structure
+  - value: Disease variant
+  - value: Endoplasmic reticulum
+  - value: Glycoprotein
+  - value: Lipid metabolism
+  - value: Membrane
+  - value: NADP
+  - value: Oxidoreductase
+  - value: Reference proteome
+  - value: Signal-anchor
+  - value: Steroid metabolism
+  - value: Transmembrane
+  - value: Transmembrane helix
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - ecNumber:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/14973125
+            id: '14973125'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15095019
+            id: '15095019'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15095019
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15152005
+            id: '15152005'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17593962
+            id: '17593962'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17593962
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/21453287
+            id: '21453287'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+        value: 1.1.1.201
+      fullName:
+        value: 7-oxosteroid reductase
+    - fullName:
+        evidences:
+        - code: ECO:0000305
+        value: Corticosteroid 11-beta-dehydrogenase isozyme 1
+    - fullName:
+        value: Short chain dehydrogenase/reductase family 26C member 1
+    recommendedName:
+      ecNumber:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/10497248
+            id: '10497248'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12460758
+            id: '12460758'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12460758
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/14973125
+            id: '14973125'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15152005
+            id: '15152005'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15152005
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/21453287
+            id: '21453287'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/21453287
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/30902677
+            id: '30902677'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/30902677
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/8319583
+            id: '8319583'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/8319583
+        value: 1.1.1.146
+      fullName:
+        evidences:
+        - code: ECO:0000303
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/10497248
+            id: '10497248'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+        - code: ECO:0000303
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/14973125
+            id: '14973125'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+        value: 11-beta-hydroxysteroid dehydrogenase 1
+      shortName:
+      - value: 11-DH
+      - evidences:
+        - code: ECO:0000303
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/10497248
+            id: '10497248'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/10497248
+        - code: ECO:0000303
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/14973125
+            id: '14973125'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/14973125
+        - code: ECO:0000303
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/27927697
+            id: '27927697'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/27927697
+        value: 11-beta-HSD1
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Tannin G.M.
+      - Agarwal A.K.
+      - Monder C.
+      - New M.I.
+      - White P.C.
+      dbReferences:
+      - id: '1885595'
+        type: PubMed
+      - id: 10.1016/s0021-9258(18)55351-5
+        type: DOI
+      location:
+        firstPage: '16653'
+        lastPage: '16658'
+        volume: '266'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '1991'
+      title: The human gene for 11 beta-hydroxysteroid dehydrogenase. Structure, tissue
+        distribution, and chromosomal localization.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+    - TISSUE SPECIFICITY
+    source:
+      tissue:
+      - value: Testis
+  - citation:
+      authors:
+      - Draper N.
+      - Echwald S.M.
+      - Lavery G.G.
+      - Walker E.A.
+      - Fraser R.
+      - Davies E.
+      - Soerensen T.I.A.
+      - Astrup A.
+      - Adamski J.
+      - Hewison M.
+      - Connell J.M.
+      - Pedersen O.
+      - Stewart P.M.
+      dbReferences:
+      - id: '12414862'
+        type: PubMed
+      - id: 10.1210/jc.2001-011375
+        type: DOI
+      location:
+        firstPage: '4984'
+        lastPage: '4990'
+        volume: '87'
+      publication:
+        journalName: J. Clin. Endocrinol. Metab.
+      publicationDate: '2002'
+      title: Association studies between microsatellite markers within the gene encoding
+        human 11beta-hydroxysteroid dehydrogenase type 1 and body mass index, waist
+        to hip ratio, and glucocorticoid metabolism.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+    - FUNCTION
+  - citation:
+      authors:
+      - Ota T.
+      - Suzuki Y.
+      - Nishikawa T.
+      - Otsuki T.
+      - Sugiyama T.
+      - Irie R.
+      - Wakamatsu A.
+      - Hayashi K.
+      - Sato H.
+      - Nagai K.
+      - Kimura K.
+      - Makita H.
+      - Sekine M.
+      - Obayashi M.
+      - Nishi T.
+      - Shibahara T.
+      - Tanaka T.
+      - Ishii S.
+      - Yamamoto J.
+      - Saito K.
+      - Kawai Y.
+      - Isono Y.
+      - Nakamura Y.
+      - Nagahari K.
+      - Murakami K.
+      - Yasuda T.
+      - Iwayanagi T.
+      - Wagatsuma M.
+      - Shiratori A.
+      - Sudo H.
+      - Hosoiri T.
+      - Kaku Y.
+      - Kodaira H.
+      - Kondo H.
+      - Sugawara M.
+      - Takahashi M.
+      - Kanda K.
+      - Yokoi T.
+      - Furuya T.
+      - Kikkawa E.
+      - Omura Y.
+      - Abe K.
+      - Kamihara K.
+      - Katsuta N.
+      - Sato K.
+      - Tanikawa M.
+      - Yamazaki M.
+      - Ninomiya K.
+      - Ishibashi T.
+      - Yamashita H.
+      - Murakawa K.
+      - Fujimori K.
+      - Tanai H.
+      - Kimata M.
+      - Watanabe M.
+      - Hiraoka S.
+      - Chiba Y.
+      - Ishida S.
+      - Ono Y.
+      - Takiguchi S.
+      - Watanabe S.
+      - Yosida M.
+      - Hotuta T.
+      - Kusano J.
+      - Kanehori K.
+      - Takahashi-Fujii A.
+      - Hara H.
+      - Tanase T.-O.
+      - Nomura Y.
+      - Togiya S.
+      - Komai F.
+      - Hara R.
+      - Takeuchi K.
+      - Arita M.
+      - Imose N.
+      - Musashino K.
+      - Yuuki H.
+      - Oshima A.
+      - Sasaki N.
+      - Aotsuka S.
+      - Yoshikawa Y.
+      - Matsunawa H.
+      - Ichihara T.
+      - Shiohata N.
+      - Sano S.
+      - Moriya S.
+      - Momiyama H.
+      - Satoh N.
+      - Takami S.
+      - Terashima Y.
+      - Suzuki O.
+      - Nakagawa S.
+      - Senoh A.
+      - Mizoguchi H.
+      - Goto Y.
+      - Shimizu F.
+      - Wakebe H.
+      - Hishigaki H.
+      - Watanabe T.
+      - Sugiyama A.
+      - Takemoto M.
+      - Kawakami B.
+      - Yamazaki M.
+      - Watanabe K.
+      - Kumagai A.
+      - Itakura S.
+      - Fukuzumi Y.
+      - Fujimori Y.
+      - Komiyama M.
+      - Tashiro H.
+      - Tanigami A.
+      - Fujiwara T.
+      - Ono T.
+      - Yamada K.
+      - Fujii Y.
+      - Ozaki K.
+      - Hirao M.
+      - Ohmori Y.
+      - Kawabata A.
+      - Hikiji T.
+      - Kobatake N.
+      - Inagaki H.
+      - Ikema Y.
+      - Okamoto S.
+      - Okitani R.
+      - Kawakami T.
+      - Noguchi S.
+      - Itoh T.
+      - Shigeta K.
+      - Senba T.
+      - Matsumura K.
+      - Nakajima Y.
+      - Mizuno T.
+      - Morinaga M.
+      - Sasaki M.
+      - Togashi T.
+      - Oyama M.
+      - Hata H.
+      - Watanabe M.
+      - Komatsu T.
+      - Mizushima-Sugano J.
+      - Satoh T.
+      - Shirai Y.
+      - Takahashi Y.
+      - Nakagawa K.
+      - Okumura K.
+      - Nagase T.
+      - Nomura N.
+      - Kikuchi H.
+      - Masuho Y.
+      - Yamashita R.
+      - Nakai K.
+      - Yada T.
+      - Nakamura Y.
+      - Ohara O.
+      - Isogai T.
+      - Sugano S.
+      dbReferences:
+      - id: '14702039'
+        type: PubMed
+      - id: 10.1038/ng1285
+        type: DOI
+      location:
+        firstPage: '40'
+        lastPage: '45'
+        volume: '36'
+      publication:
+        journalName: Nat. Genet.
+      publicationDate: '2004'
+      title: Complete sequencing and characterization of 21,243 full-length human
+        cDNAs.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Gregory S.G.
+      - Barlow K.F.
+      - McLay K.E.
+      - Kaul R.
+      - Swarbreck D.
+      - Dunham A.
+      - Scott C.E.
+      - Howe K.L.
+      - Woodfine K.
+      - Spencer C.C.A.
+      - Jones M.C.
+      - Gillson C.
+      - Searle S.
+      - Zhou Y.
+      - Kokocinski F.
+      - McDonald L.
+      - Evans R.
+      - Phillips K.
+      - Atkinson A.
+      - Cooper R.
+      - Jones C.
+      - Hall R.E.
+      - Andrews T.D.
+      - Lloyd C.
+      - Ainscough R.
+      - Almeida J.P.
+      - Ambrose K.D.
+      - Anderson F.
+      - Andrew R.W.
+      - Ashwell R.I.S.
+      - Aubin K.
+      - Babbage A.K.
+      - Bagguley C.L.
+      - Bailey J.
+      - Beasley H.
+      - Bethel G.
+      - Bird C.P.
+      - Bray-Allen S.
+      - Brown J.Y.
+      - Brown A.J.
+      - Buckley D.
+      - Burton J.
+      - Bye J.
+      - Carder C.
+      - Chapman J.C.
+      - Clark S.Y.
+      - Clarke G.
+      - Clee C.
+      - Cobley V.
+      - Collier R.E.
+      - Corby N.
+      - Coville G.J.
+      - Davies J.
+      - Deadman R.
+      - Dunn M.
+      - Earthrowl M.
+      - Ellington A.G.
+      - Errington H.
+      - Frankish A.
+      - Frankland J.
+      - French L.
+      - Garner P.
+      - Garnett J.
+      - Gay L.
+      - Ghori M.R.J.
+      - Gibson R.
+      - Gilby L.M.
+      - Gillett W.
+      - Glithero R.J.
+      - Grafham D.V.
+      - Griffiths C.
+      - Griffiths-Jones S.
+      - Grocock R.
+      - Hammond S.
+      - Harrison E.S.I.
+      - Hart E.
+      - Haugen E.
+      - Heath P.D.
+      - Holmes S.
+      - Holt K.
+      - Howden P.J.
+      - Hunt A.R.
+      - Hunt S.E.
+      - Hunter G.
+      - Isherwood J.
+      - James R.
+      - Johnson C.
+      - Johnson D.
+      - Joy A.
+      - Kay M.
+      - Kershaw J.K.
+      - Kibukawa M.
+      - Kimberley A.M.
+      - King A.
+      - Knights A.J.
+      - Lad H.
+      - Laird G.
+      - Lawlor S.
+      - Leongamornlert D.A.
+      - Lloyd D.M.
+      - Loveland J.
+      - Lovell J.
+      - Lush M.J.
+      - Lyne R.
+      - Martin S.
+      - Mashreghi-Mohammadi M.
+      - Matthews L.
+      - Matthews N.S.W.
+      - McLaren S.
+      - Milne S.
+      - Mistry S.
+      - Moore M.J.F.
+      - Nickerson T.
+      - O'Dell C.N.
+      - Oliver K.
+      - Palmeiri A.
+      - Palmer S.A.
+      - Parker A.
+      - Patel D.
+      - Pearce A.V.
+      - Peck A.I.
+      - Pelan S.
+      - Phelps K.
+      - Phillimore B.J.
+      - Plumb R.
+      - Rajan J.
+      - Raymond C.
+      - Rouse G.
+      - Saenphimmachak C.
+      - Sehra H.K.
+      - Sheridan E.
+      - Shownkeen R.
+      - Sims S.
+      - Skuce C.D.
+      - Smith M.
+      - Steward C.
+      - Subramanian S.
+      - Sycamore N.
+      - Tracey A.
+      - Tromans A.
+      - Van Helmond Z.
+      - Wall M.
+      - Wallis J.M.
+      - White S.
+      - Whitehead S.L.
+      - Wilkinson J.E.
+      - Willey D.L.
+      - Williams H.
+      - Wilming L.
+      - Wray P.W.
+      - Wu Z.
+      - Coulson A.
+      - Vaudin M.
+      - Sulston J.E.
+      - Durbin R.M.
+      - Hubbard T.
+      - Wooster R.
+      - Dunham I.
+      - Carter N.P.
+      - McVean G.
+      - Ross M.T.
+      - Harrow J.
+      - Olson M.V.
+      - Beck S.
+      - Rogers J.
+      - Bentley D.R.
+      dbReferences:
+      - id: '16710414'
+        type: PubMed
+      - id: 10.1038/nature04727
+        type: DOI
+      location:
+        firstPage: '315'
+        lastPage: '321'
+        volume: '441'
+      publication:
+        journalName: Nature
+      publicationDate: '2006'
+      title: The DNA sequence and biological annotation of human chromosome 1.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      authors:
+      - Mural R.J.
+      - Istrail S.
+      - Sutton G.G.
+      - Florea L.
+      - Halpern A.L.
+      - Mobarry C.M.
+      - Lippert R.
+      - Walenz B.
+      - Shatkay H.
+      - Dew I.
+      - Miller J.R.
+      - Flanigan M.J.
+      - Edwards N.J.
+      - Bolanos R.
+      - Fasulo D.
+      - Halldorsson B.V.
+      - Hannenhalli S.
+      - Turner R.
+      - Yooseph S.
+      - Lu F.
+      - Nusskern D.R.
+      - Shue B.C.
+      - Zheng X.H.
+      - Zhong F.
+      - Delcher A.L.
+      - Huson D.H.
+      - Kravitz S.A.
+      - Mouchard L.
+      - Reinert K.
+      - Remington K.A.
+      - Clark A.G.
+      - Waterman M.S.
+      - Eichler E.E.
+      - Adams M.D.
+      - Hunkapiller M.W.
+      - Myers E.W.
+      - Venter J.C.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: SEP-2005
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      consortiums:
+      - The MGC Project Team
+      dbReferences:
+      - id: '15489334'
+        type: PubMed
+      - id: 10.1101/gr.2596504
+        type: DOI
+      location:
+        firstPage: '2121'
+        lastPage: '2127'
+        volume: '14'
+      publication:
+        journalName: Genome Res.
+      publicationDate: '2004'
+      title: 'The status, quality, and expansion of the NIH full-length cDNA project:
+        the Mammalian Gene Collection (MGC).'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]
+    source:
+      tissue:
+      - value: Brain
+  - citation:
+      authors:
+      - Moore C.C.
+      - Mellon S.H.
+      - Murai J.
+      - Siiteri P.K.
+      - Miller W.L.
+      dbReferences:
+      - id: '8319583'
+        type: PubMed
+      - id: 10.1210/endo.133.1.8319583
+        type: DOI
+      location:
+        firstPage: '368'
+        lastPage: '375'
+        volume: '133'
+      publication:
+        journalName: Endocrinology
+      publicationDate: '1993'
+      title: Structure and function of the hepatic form of 11 beta-hydroxysteroid
+        dehydrogenase in the squirrel monkey, an animal model of glucocorticoid resistance.
+      type: journal article
+    scope:
+    - CATALYTIC ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+  - citation:
+      authors:
+      - Odermatt A.
+      - Arnold P.
+      - Stauffer A.
+      - Frey B.M.
+      - Frey F.J.
+      dbReferences:
+      - id: '10497248'
+        type: PubMed
+      - id: 10.1074/jbc.274.40.28762
+        type: DOI
+      location:
+        firstPage: '28762'
+        lastPage: '28770'
+        volume: '274'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '1999'
+      title: The N-terminal anchor sequences of 11beta-hydroxysteroid dehydrogenases
+        determine their orientation in the endoplasmic reticulum membrane.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - SUBCELLULAR LOCATION
+    - TOPOLOGY
+    - GLYCOSYLATION
+    - MUTAGENESIS OF LYS-5; 5-LYS-LYS-6; LYS-6; 18-TYR--TYR-21 AND 19-TYR--TYR-21
+  - citation:
+      authors:
+      - Rauz S.
+      - Walker E.A.
+      - Shackleton C.H.
+      - Hewison M.
+      - Murray P.I.
+      - Stewart P.M.
+      dbReferences:
+      - id: '11481269'
+        type: PubMed
+      location:
+        firstPage: '2037'
+        lastPage: '2042'
+        volume: '42'
+      publication:
+        journalName: Invest. Ophthalmol. Vis. Sci.
+      publicationDate: '2001'
+      title: Expression and putative role of 11 beta-hydroxysteroid dehydrogenase
+        isozymes within the human eye.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - TISSUE SPECIFICITY
+  - citation:
+      authors:
+      - Nobel C.S.I.
+      - Dunas F.
+      - Abrahmsen L.B.
+      dbReferences:
+      - id: '12460758'
+        type: PubMed
+      - id: 10.1016/s1046-5928(02)00547-8
+        type: DOI
+      location:
+        firstPage: '349'
+        lastPage: '356'
+        volume: '26'
+      publication:
+        journalName: Protein Expr. Purif.
+      publicationDate: '2002'
+      title: Purification of full-length recombinant human and rat type 1 11beta-hydroxysteroid
+        dehydrogenases with retained oxidoreductase activities.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+  - citation:
+      authors:
+      - Draper N.
+      - Walker E.A.
+      - Bujalska I.J.
+      - Tomlinson J.W.
+      - Chalder S.M.
+      - Arlt W.
+      - Lavery G.G.
+      - Bedendo O.
+      - Ray D.W.
+      - Laing I.
+      - Malunowicz E.
+      - White P.C.
+      - Hewison M.
+      - Mason P.J.
+      - Connell J.M.
+      - Shackleton C.H.L.
+      - Stewart P.M.
+      dbReferences:
+      - id: '12858176'
+        type: PubMed
+      - id: 10.1038/ng1214
+        type: DOI
+      location:
+        firstPage: '434'
+        lastPage: '439'
+        volume: '34'
+      publication:
+        journalName: Nat. Genet.
+      publicationDate: '2003'
+      title: Mutations in the genes encoding 11beta-hydroxysteroid dehydrogenase type
+        1 and hexose-6-phosphate dehydrogenase interact to cause cortisone reductase
+        deficiency.
+      type: journal article
+    scope:
+    - INVOLVEMENT IN CORTRD2
+  - citation:
+      authors:
+      - Schweizer R.A.S.
+      - Zuercher M.
+      - Balazs Z.
+      - Dick B.
+      - Odermatt A.
+      dbReferences:
+      - id: '14973125'
+        type: PubMed
+      - id: 10.1074/jbc.m313615200
+        type: DOI
+      location:
+        firstPage: '18415'
+        lastPage: '18424'
+        volume: '279'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2004'
+      title: 'Rapid hepatic metabolism of 7-ketocholesterol by 11beta-hydroxysteroid
+        dehydrogenase type 1: species-specific differences between the rat, human,
+        and hamster enzyme.'
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+  - citation:
+      authors:
+      - Hult M.
+      - Elleby B.
+      - Shafqat N.
+      - Svensson S.
+      - Rane A.
+      - Joernvall H.
+      - Abrahmsen L.
+      - Oppermann U.
+      dbReferences:
+      - id: '15095019'
+        type: PubMed
+      - id: 10.1007/s00018-003-3476-y
+        type: DOI
+      location:
+        firstPage: '992'
+        lastPage: '999'
+        volume: '61'
+      publication:
+        journalName: Cell. Mol. Life Sci.
+      publicationDate: '2004'
+      title: Human and rodent type 1 11beta-hydroxysteroid dehydrogenases are 7beta-hydroxycholesterol
+        dehydrogenases involved in oxysterol metabolism.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+  - citation:
+      authors:
+      - Frick C.
+      - Atanasov A.G.
+      - Arnold P.
+      - Ozols J.
+      - Odermatt A.
+      dbReferences:
+      - id: '15152005'
+        type: PubMed
+      - id: 10.1074/jbc.m313666200
+        type: DOI
+      location:
+        firstPage: '31131'
+        lastPage: '31138'
+        volume: '279'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2004'
+      title: Appropriate function of 11beta-hydroxysteroid dehydrogenase type 1 in
+        the endoplasmic reticulum lumen is dependent on its N-terminal region sharing
+        similar topological determinants with 50-kDa esterase.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - TOPOLOGY
+    - MUTAGENESIS OF 5-LYS-LYS-6; GLU-25; 25-GLU-GLU-26; GLU-26 AND 35-LYS-LYS-36
+  - citation:
+      authors:
+      - Atanasov A.G.
+      - Nashev L.G.
+      - Schweizer R.A.
+      - Frick C.
+      - Odermatt A.
+      dbReferences:
+      - id: '15280030'
+        type: PubMed
+      - id: 10.1016/j.febslet.2004.06.065
+        type: DOI
+      location:
+        firstPage: '129'
+        lastPage: '133'
+        volume: '571'
+      publication:
+        journalName: FEBS Lett.
+      publicationDate: '2004'
+      title: Hexose-6-phosphate dehydrogenase determines the reaction direction of
+        11beta-hydroxysteroid dehydrogenase type 1 as an oxoreductase.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - ACTIVITY REGULATION
+    - SUBCELLULAR LOCATION
+  - citation:
+      authors:
+      - Nashev L.G.
+      - Chandsawangbhuwana C.
+      - Balazs Z.
+      - Atanasov A.G.
+      - Dick B.
+      - Frey F.J.
+      - Baker M.E.
+      - Odermatt A.
+      dbReferences:
+      - id: '17593962'
+        type: PubMed
+      - id: 10.1371/journal.pone.0000561
+        type: DOI
+      location:
+        firstPage: e561
+        lastPage: e561
+        volume: '2'
+      publication:
+        journalName: PLoS ONE
+      publicationDate: '2007'
+      title: Hexose-6-phosphate dehydrogenase modulates 11beta-hydroxysteroid dehydrogenase
+        type 1-dependent metabolism of 7-keto- and 7beta-hydroxy-neurosteroids.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - ACTIVITY REGULATION
+  - citation:
+      authors:
+      - Chen R.
+      - Jiang X.
+      - Sun D.
+      - Han G.
+      - Wang F.
+      - Ye M.
+      - Wang L.
+      - Zou H.
+      dbReferences:
+      - id: '19159218'
+        type: PubMed
+      - id: 10.1021/pr8008012
+        type: DOI
+      location:
+        firstPage: '651'
+        lastPage: '661'
+        volume: '8'
+      publication:
+        journalName: J. Proteome Res.
+      publicationDate: '2009'
+      title: Glycoproteomics analysis of human liver tissue by combination of multiple
+        enzyme digestion and hydrazide chemistry.
+      type: journal article
+    scope:
+    - GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-123 AND ASN-162
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Odermatt A.
+      - Da Cunha T.
+      - Penno C.A.
+      - Chandsawangbhuwana C.
+      - Reichert C.
+      - Wolf A.
+      - Dong M.
+      - Baker M.E.
+      dbReferences:
+      - id: '21453287'
+        type: PubMed
+      - id: 10.1042/bj20110022
+        type: DOI
+      location:
+        firstPage: '621'
+        lastPage: '629'
+        volume: '436'
+      publication:
+        journalName: Biochem. J.
+      publicationDate: '2011'
+      title: Hepatic reduction of the secondary bile acid 7-oxolithocholic acid is
+        mediated by 11beta-hydroxysteroid dehydrogenase 1.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - TISSUE SPECIFICITY
+  - citation:
+      authors:
+      - Bian Y.
+      - Song C.
+      - Cheng K.
+      - Dong M.
+      - Wang F.
+      - Huang J.
+      - Sun D.
+      - Wang L.
+      - Ye M.
+      - Zou H.
+      dbReferences:
+      - id: '24275569'
+        type: PubMed
+      - id: 10.1016/j.jprot.2013.11.014
+        type: DOI
+      location:
+        firstPage: '253'
+        lastPage: '262'
+        volume: '96'
+      publication:
+        journalName: J. Proteomics
+      publicationDate: '2014'
+      title: An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+        phosphoproteome.
+      type: journal article
+    scope:
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Tsachaki M.
+      - Meyer A.
+      - Weger B.
+      - Kratschmar D.V.
+      - Tokarz J.
+      - Adamski J.
+      - Belting H.G.
+      - Affolter M.
+      - Dickmeis T.
+      - Odermatt A.
+      dbReferences:
+      - id: '27927697'
+        type: PubMed
+      - id: 10.1530/joe-16-0495
+        type: DOI
+      location:
+        firstPage: '323'
+        lastPage: '335'
+        volume: '232'
+      publication:
+        journalName: J. Endocrinol.
+      publicationDate: '2017'
+      title: Absence of 11-keto reduction of cortisone and 11-ketotestosterone in
+        the model organism zebrafish.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+  - citation:
+      authors:
+      - Beck K.R.
+      - Kanagaratnam S.
+      - Kratschmar D.V.
+      - Birk J.
+      - Yamaguchi H.
+      - Sailer A.W.
+      - Seuwen K.
+      - Odermatt A.
+      dbReferences:
+      - id: '30902677'
+        type: PubMed
+      - id: 10.1016/j.jsbmb.2019.03.011
+        type: DOI
+      location:
+        firstPage: '19'
+        lastPage: '28'
+        volume: '190'
+      publication:
+        journalName: J. Steroid Biochem. Mol. Biol.
+      publicationDate: '2019'
+      title: Enzymatic interconversion of the oxysterols 7beta,25-dihydroxycholesterol
+        and 7-keto,25-hydroxycholesterol by 11beta-hydroxysteroid dehydrogenase type
+        1 and 2.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+  - citation:
+      authors:
+      - Hosfield D.J.
+      - Wu Y.
+      - Skene R.J.
+      - Hilgers M.
+      - Jennings A.
+      - Snell G.P.
+      - Aertgeerts K.
+      dbReferences:
+      - id: '15513927'
+        type: PubMed
+      - id: 10.1074/jbc.m411104200
+        type: DOI
+      location:
+        firstPage: '4639'
+        lastPage: '4648'
+        volume: '280'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2005'
+      title: Conformational flexibility in crystal structures of human 11beta-hydroxysteroid
+        dehydrogenase type I provide insights into glucocorticoid interconversion
+        and enzyme regulation.
+      type: journal article
+    evidences:
+    - code: ECO:0000312
+      source:
+        id: 1XU7
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU7
+    - code: ECO:0000312
+      source:
+        id: 1XU9
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1XU9
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (1.8 ANGSTROMS) OF 24-292 IN COMPLEX WITH NADP AND SUBSTRATE
+      ANALOG
+    - SUBUNIT
+  - citation:
+      authors:
+      - Sorensen B.
+      - Winn M.
+      - Rohde J.
+      - Shuai Q.
+      - Wang J.
+      - Fung S.
+      - Monzon K.
+      - Chiou W.
+      - Stolarik D.
+      - Imade H.
+      - Pan L.
+      - Deng X.
+      - Chovan L.
+      - Longenecker K.
+      - Judge R.
+      - Qin W.
+      - Brune M.
+      - Camp H.
+      - Frevert E.U.
+      - Jacobson P.
+      - Link J.T.
+      dbReferences:
+      - id: '17070044'
+        type: PubMed
+      - id: 10.1016/j.bmcl.2006.10.008
+        type: DOI
+      location:
+        firstPage: '527'
+        lastPage: '532'
+        volume: '17'
+      publication:
+        journalName: Bioorg. Med. Chem. Lett.
+      publicationDate: '2007'
+      title: Adamantane sulfone and sulfonamide 11-beta-HSD1 Inhibitors.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS) OF 24-284 IN COMPLEXES WITH ADAMANTANE
+      SULFONE AND SULFONAMIDE INHIBITORS
+    - CATALYTIC ACTIVITY
+  - citation:
+      authors:
+      - Yuan C.
+      - St Jean D.J. Jr.
+      - Liu Q.
+      - Cai L.
+      - Li A.
+      - Han N.
+      - Moniz G.
+      - Askew B.
+      - Hungate R.W.
+      - Johansson L.
+      - Tedenborg L.
+      - Pyring D.
+      - Williams M.
+      - Hale C.
+      - Chen M.
+      - Cupples R.
+      - Zhang J.
+      - Jordan S.
+      - Bartberger M.D.
+      - Sun Y.
+      - Emery M.
+      - Wang M.
+      - Fotsch C.
+      dbReferences:
+      - id: '17919905'
+        type: PubMed
+      - id: 10.1016/j.bmcl.2007.09.070
+        type: DOI
+      location:
+        firstPage: '6056'
+        lastPage: '6061'
+        volume: '17'
+      publication:
+        journalName: Bioorg. Med. Chem. Lett.
+      publicationDate: '2007'
+      title: The discovery of 2-anilinothiazolones as 11beta-HSD1 inhibitors.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) OF 25-292 IN COMPLEX WITH NADP AND INHIBITOR
+    - SUBUNIT
+    - CATALYTIC ACTIVITY
+  - citation:
+      authors:
+      - Wang H.
+      - Ruan Z.
+      - Li J.J.
+      - Simpkins L.M.
+      - Smirk R.A.
+      - Wu S.C.
+      - Hutchins R.D.
+      - Nirschl D.S.
+      - Van Kirk K.
+      - Cooper C.B.
+      - Sutton J.C.
+      - Ma Z.
+      - Golla R.
+      - Seethala R.
+      - Salyan M.E.K.
+      - Nayeem A.
+      - Krystek S.R. Jr.
+      - Sheriff S.
+      - Camac D.M.
+      - Morin P.E.
+      - Carpenter B.
+      - Robl J.A.
+      - Zahler R.
+      - Gordon D.A.
+      - Hamann L.G.
+      dbReferences:
+      - id: '18485702'
+        type: PubMed
+      - id: 10.1016/j.bmcl.2008.04.069
+        type: DOI
+      location:
+        firstPage: '3168'
+        lastPage: '3172'
+        volume: '18'
+      publication:
+        journalName: Bioorg. Med. Chem. Lett.
+      publicationDate: '2008'
+      title: Pyridine amides as potent and selective inhibitors of 11beta-hydroxysteroid
+        dehydrogenase type 1.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (2.35 ANGSTROMS) OF 24-292 IN COMPLEX WITH NADP AND INHIBITOR
+  - citation:
+      authors:
+      - Hale C.
+      - Veniant M.
+      - Wang Z.
+      - Chen M.
+      - McCormick J.
+      - Cupples R.
+      - Hickman D.
+      - Min X.
+      - Sudom A.
+      - Xu H.
+      - Matsumoto G.
+      - Fotsch C.
+      - St Jean D.J. Jr.
+      - Wang M.
+      dbReferences:
+      - id: '18069989'
+        type: PubMed
+      - id: 10.1111/j.1747-0285.2007.00603.x
+        type: DOI
+      location:
+        firstPage: '36'
+        lastPage: '44'
+        volume: '71'
+      publication:
+        journalName: Chem. Biol. Drug Des.
+      publicationDate: '2008'
+      title: Structural characterization and pharmacodynamic effects of an orally
+        active 11beta-hydroxysteroid dehydrogenase type 1 inhibitor.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (2.25 ANGSTROMS) OF 24-292 IN COMPLEX WITH NADP AND INHIBITOR
+  - citation:
+      authors:
+      - Julian L.D.
+      - Wang Z.
+      - Bostick T.
+      - Caille S.
+      - Choi R.
+      - DeGraffenreid M.
+      - Di Y.
+      - He X.
+      - Hungate R.W.
+      - Jaen J.C.
+      - Liu J.
+      - Monshouwer M.
+      - McMinn D.
+      - Rew Y.
+      - Sudom A.
+      - Sun D.
+      - Tu H.
+      - Ursu S.
+      - Walker N.
+      - Yan X.
+      - Ye Q.
+      - Powers J.P.
+      dbReferences:
+      - id: '18553955'
+        type: PubMed
+      - id: 10.1021/jm800310g
+        type: DOI
+      location:
+        firstPage: '3953'
+        lastPage: '3960'
+        volume: '51'
+      publication:
+        journalName: J. Med. Chem.
+      publicationDate: '2008'
+      title: Discovery of novel, potent benzamide inhibitors of 11beta-hydroxysteroid
+        dehydrogenase type 1 (11beta-HSD1) exhibiting oral activity in an enzyme inhibition
+        ex vivo model.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS) OF 24-292 IN COMPLEX WITH NADP AND INHIBITOR
+  - citation:
+      authors:
+      - Rew Y.
+      - McMinn D.L.
+      - Wang Z.
+      - He X.
+      - Hungate R.W.
+      - Jaen J.C.
+      - Sudom A.
+      - Sun D.
+      - Tu H.
+      - Ursu S.
+      - Villemure E.
+      - Walker N.P.C.
+      - Yan X.
+      - Ye Q.
+      - Powers J.P.
+      dbReferences:
+      - id: '19217779'
+        type: PubMed
+      - id: 10.1016/j.bmcl.2009.01.058
+        type: DOI
+      location:
+        firstPage: '1797'
+        lastPage: '1801'
+        volume: '19'
+      publication:
+        journalName: Bioorg. Med. Chem. Lett.
+      publicationDate: '2009'
+      title: Discovery and optimization of piperidyl benzamide derivatives as a novel
+        class of 11beta-HSD1 inhibitors.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS) OF 24-292 IN COMPLEX WITH NADP AND INHIBITOR
+  - citation:
+      authors:
+      - Sjoeblom T.
+      - Jones S.
+      - Wood L.D.
+      - Parsons D.W.
+      - Lin J.
+      - Barber T.D.
+      - Mandelker D.
+      - Leary R.J.
+      - Ptak J.
+      - Silliman N.
+      - Szabo S.
+      - Buckhaults P.
+      - Farrell C.
+      - Meeh P.
+      - Markowitz S.D.
+      - Willis J.
+      - Dawson D.
+      - Willson J.K.V.
+      - Gazdar A.F.
+      - Hartigan J.
+      - Wu L.
+      - Liu C.
+      - Parmigiani G.
+      - Park B.H.
+      - Bachman K.E.
+      - Papadopoulos N.
+      - Vogelstein B.
+      - Kinzler K.W.
+      - Velculescu V.E.
+      dbReferences:
+      - id: '16959974'
+        type: PubMed
+      - id: 10.1126/science.1133427
+        type: DOI
+      location:
+        firstPage: '268'
+        lastPage: '274'
+        volume: '314'
+      publication:
+        journalName: Science
+      publicationDate: '2006'
+      title: The consensus coding sequences of human breast and colorectal cancers.
+      type: journal article
+    scope:
+    - VARIANT [LARGE SCALE ANALYSIS] GLU-148
+  secondaryAccession:
+  - B2R9Z1
+  - D3DT89
+  sequence:
+    length: 292
+    mass: 32401
+    modified: '2007-01-23'
+    sequence: MAFMKKYLLPILGLFMAYYYYSANEEFRPEMLQGKKVIVTGASKGIGREMAYHLAKMGAHVVVTARSKETLQKVVSHCLELGAASAHYIAGTMEDMTFAEQFVAQAGKLMGGLDMLILNHITNTSLNLFHDDIHHVRKSMEVNFLSYVVLTVAALPMLKQSNGSIVVVSSLAGKVAYPMVAAYSASKFALDGFFSSIRKEYSVSRVNVSITLCVLGLIDTETAMKAVSGIVHMQAAPKEECALEIIKGGALRQEEVYYDSSLWTTLLIRNPCRKILEFLYSTSYNMDRFINK
+    version: 3
+uniprot_id: P28845

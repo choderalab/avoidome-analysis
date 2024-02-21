@@ -1,0 +1,1505 @@
+data:
+  accession: Q15070
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/17936786
+          id: '17936786'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/17936786
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7991568
+          id: '7991568'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7991568
+      value: Required for the insertion of integral membrane proteins into the mitochondrial
+        inner membrane. Essential for the activity and assembly of cytochrome oxidase.
+        Required for the correct biogenesis of ATP synthase and complex I in mitochondria
+    type: FUNCTION
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20601428
+          id: '20601428'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20601428
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20739282
+          id: '20739282'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20739282
+      value: Monomer; predominantly monomeric at low salt concentrations. Homooligomer;
+        predominantly homooligomeric at high salt concentrations. Homodimer. Homotetramer.
+        Interacts with MRPL13, MRPL20, MRPL28, MRPL48, MRPL49 and MRPL51. Associates
+        preferentially as a dimer with the large ribosomal subunit 39S of the mitochondrial
+        ribosome
+    type: SUBUNIT
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17936786
+            id: '17936786'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17936786
+        value: Mitochondrion inner membrane
+      topology:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/17936786
+            id: '17936786'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/17936786
+        value: Multi-pass membrane protein
+    type: SUBCELLULAR_LOCATION
+  - event:
+    - Alternative splicing
+    isoforms:
+    - ids:
+      - Q15070-1
+      name:
+        value: '1'
+      sequenceStatus: displayed
+    - ids:
+      - Q15070-2
+      name:
+        value: '2'
+      sequence:
+      - VSP_008942
+      sequenceStatus: described
+    - ids:
+      - Q15070-3
+      name:
+        value: '3'
+      sequence:
+      - VSP_008943
+      - VSP_008944
+      - VSP_008945
+      sequenceStatus: described
+    type: ALTERNATIVE_PRODUCTS
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the OXA1/ALB3/YidC family
+    type: SIMILARITY
+  - conflictType: ERRONEOUS_INITIATION
+    evidences:
+    - code: ECO:0000305
+    sequence: AAH01669.2
+    text: Extended N-terminus.
+    type: SEQUENCE_CAUTION
+  - conflictType: ERRONEOUS_PREDICTION
+    evidences:
+    - code: ECO:0000305
+    sequence: CAA05127.1
+    type: SEQUENCE_CAUTION
+  dbReferences:
+  - id: X80695
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAA56712.1
+    type: EMBL
+  - id: AJ001981
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA05127.1
+      status: ALT_SEQ
+    type: EMBL
+  - id: BX248001
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAD62333.1
+    type: EMBL
+  - id: BX248295
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAD62623.1
+    type: EMBL
+  - id: AK298249
+    properties:
+      molecule type: mRNA
+      protein sequence ID: BAG60514.1
+    type: EMBL
+  - id: AL135998
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: BC001669
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH01669.2
+      status: ALT_INIT
+    type: EMBL
+  - id: CCDS9573.2
+    isoform: Q15070-1
+    type: CCDS
+  - id: I38079
+    properties:
+      entry name: I38079
+    type: PIR
+  - id: NP_005006.3
+    properties:
+      nucleotide sequence ID: NM_005015.3
+    type: RefSeq
+  - id: 6ZM5
+    properties:
+      chains: u=1-435
+      method: EM
+      resolution: 2.89 A
+    type: PDB
+  - id: 7A5K
+    properties:
+      chains: A5=1-435
+      method: EM
+      resolution: 3.70 A
+    type: PDB
+  - id: 6ZM5
+    type: PDBsum
+  - id: 7A5K
+    type: PDBsum
+  - id: Q15070
+    type: AlphaFoldDB
+  - id: EMD-11278
+    type: EMDB
+  - id: EMD-11646
+    type: EMDB
+  - id: Q15070
+    type: SMR
+  - id: '111058'
+    properties:
+      interactions: '193'
+    type: BioGRID
+  - id: Q15070
+    properties:
+      interactions: '21'
+    type: IntAct
+  - id: Q15070
+    type: MINT
+  - id: 9606.ENSP00000285848
+    type: STRING
+  - id: 2.A.9.1.2
+    properties:
+      family name: the membrane protein insertase (yidc/alb3/oxa1) family
+    type: TCDB
+  - id: Q15070
+    type: iPTMnet
+  - id: Q15070
+    type: PhosphoSitePlus
+  - id: Q15070
+    type: SwissPalm
+  - id: OXA1L
+    type: BioMuta
+  - id: '38372882'
+    type: DMDM
+  - id: Q15070
+    type: EPD
+  - id: Q15070
+    type: jPOST
+  - id: Q15070
+    type: MassIVE
+  - id: Q15070
+    type: MaxQB
+  - id: 9606-ENSP00000483491
+    type: PaxDb
+  - id: Q15070
+    type: PeptideAtlas
+  - id: '60423'
+    isoform: Q15070-1
+    type: ProteomicsDB
+  - id: '60424'
+    isoform: Q15070-2
+    type: ProteomicsDB
+  - id: '60425'
+    isoform: Q15070-3
+    type: ProteomicsDB
+  - id: Q15070
+    type: Pumba
+  - id: '192'
+    properties:
+      antibodies: 221 antibodies from 26 providers
+    type: Antibodypedia
+  - id: '5018'
+    type: DNASU
+  - id: ENST00000358043.5
+    properties:
+      gene ID: ENSG00000155463.14
+      protein sequence ID: ENSP00000350740.5
+    type: Ensembl
+  - id: '5018'
+    type: GeneID
+  - id: hsa:5018
+    type: KEGG
+  - id: ENST00000612549.6
+    properties:
+      RefSeq nucleotide sequence ID: NM_005015.5
+      RefSeq protein sequence ID: NP_005006.4
+      protein sequence ID: ENSP00000483491.2
+    type: MANE-Select
+  - id: uc001wgp.3
+    isoform: Q15070-1
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:8526
+    type: AGR
+  - id: '5018'
+    type: CTD
+  - id: '5018'
+    type: DisGeNET
+  - id: OXA1L
+    type: GeneCards
+  - id: HGNC:8526
+    properties:
+      gene designation: OXA1L
+    type: HGNC
+  - id: ENSG00000155463
+    properties:
+      expression patterns: Low tissue specificity
+    type: HPA
+  - id: OXA1L
+    type: MalaCards
+  - id: '601066'
+    properties:
+      type: gene
+    type: MIM
+  - id: NX_Q15070
+    type: neXtProt
+  - id: PA32854
+    type: PharmGKB
+  - id: HostDB:ENSG00000155463
+    type: VEuPathDB
+  - id: KOG1239
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00530000063506
+    type: GeneTree
+  - id: Q15070
+    type: InParanoid
+  - id: GWKNAQT
+    type: OMA
+  - id: 5395681at2759
+    type: OrthoDB
+  - id: Q15070
+    type: PhylomeDB
+  - id: Q15070
+    type: PathwayCommons
+  - id: R-HSA-5368286
+    properties:
+      pathway name: Mitochondrial translation initiation
+    type: Reactome
+  - id: R-HSA-5389840
+    properties:
+      pathway name: Mitochondrial translation elongation
+    type: Reactome
+  - id: R-HSA-5419276
+    properties:
+      pathway name: Mitochondrial translation termination
+    type: Reactome
+  - id: Q15070
+    type: SignaLink
+  - id: '5018'
+    properties:
+      hits: 219 hits in 1168 CRISPR screens
+    type: BioGRID-ORCS
+  - id: OXA1L
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: '5018'
+    type: GenomeRNAi
+  - id: Q15070
+    properties:
+      development level: Tbio
+    type: Pharos
+  - id: PR:Q15070
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 14
+    type: Proteomes
+  - id: Q15070
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000155463
+    properties:
+      expression patterns: Expressed in hindlimb stylopod muscle and 204 other cell
+        types or tissues
+    type: Bgee
+  - id: Q15070
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: Q15070
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - id: GO:0005743
+    properties:
+      source: IEA:UniProtKB-SubCell
+      term: C:mitochondrial inner membrane
+    type: GO
+  - id: GO:0005759
+    properties:
+      source: TAS:Reactome
+      term: C:mitochondrial matrix
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17936786
+        id: '17936786'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17936786
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20601428
+        id: '20601428'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20601428
+    id: GO:0031966
+    properties:
+      source: IDA:UniProtKB
+      term: C:mitochondrial membrane
+    type: GO
+  - id: GO:0005739
+    properties:
+      source: IDA:HPA
+      term: C:mitochondrion
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17936786
+        id: '17936786'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17936786
+    id: GO:0032991
+    properties:
+      source: IDA:UniProtKB
+      term: C:protein-containing complex
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0032977
+    properties:
+      source: IBA:GO_Central
+      term: F:membrane insertase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20739282
+        id: '20739282'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20739282
+    id: GO:0097177
+    properties:
+      source: IDA:UniProtKB
+      term: F:mitochondrial ribosome binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20601428
+        id: '20601428'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20601428
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20739282
+        id: '20739282'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20739282
+    id: GO:0042803
+    properties:
+      source: IDA:UniProtKB
+      term: F:protein homodimerization activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/7991568
+        id: '7991568'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/7991568
+    id: GO:0009060
+    properties:
+      source: IMP:UniProtKB
+      term: P:aerobic respiration
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17936786
+        id: '17936786'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17936786
+    id: GO:0033615
+    properties:
+      source: IMP:UniProtKB
+      term: P:mitochondrial proton-transporting ATP synthase complex assembly
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17936786
+        id: '17936786'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17936786
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20601428
+        id: '20601428'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20601428
+    id: GO:0032981
+    properties:
+      source: IMP:UniProtKB
+      term: P:mitochondrial respiratory chain complex I assembly
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17936786
+        id: '17936786'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17936786
+    id: GO:0032780
+    properties:
+      source: IMP:UniProtKB
+      term: P:negative regulation of ATP-dependent activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/17936786
+        id: '17936786'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/17936786
+    id: GO:0051354
+    properties:
+      source: IMP:UniProtKB
+      term: P:negative regulation of oxidoreductase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0032979
+    properties:
+      source: IBA:GO_Central
+      term: P:protein insertion into mitochondrial inner membrane from matrix
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20601428
+        id: '20601428'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20601428
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20739282
+        id: '20739282'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20739282
+    id: GO:0051262
+    properties:
+      source: IDA:UniProtKB
+      term: P:protein tetramerization
+    type: GO
+  - id: cd20069
+    properties:
+      entry name: 5TM_Oxa1-like
+      match status: '1'
+    type: CDD
+  - id: IPR001708
+    properties:
+      entry name: YidC/ALB3/OXA1/COX18
+    type: InterPro
+  - id: IPR028055
+    properties:
+      entry name: YidC/Oxa/ALB_C
+    type: InterPro
+  - id: TIGR03592
+    properties:
+      entry name: yidC_oxa1_cterm
+      match status: '1'
+    type: NCBIfam
+  - id: PTHR12428:SF66
+    properties:
+      entry name: MITOCHONDRIAL INNER MEMBRANE PROTEIN OXA1L
+      match status: '1'
+    type: PANTHER
+  - id: PTHR12428
+    properties:
+      entry name: OXA1
+      match status: '1'
+    type: PANTHER
+  - id: PF02096
+    properties:
+      entry name: 60KD_IMP
+      match status: '1'
+    type: Pfam
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Mitochondrion
+    end: '~'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSIT
+  - begin: '~'
+    category: MOLECULE_PROCESSING
+    description: Mitochondrial inner membrane protein OXA1L
+    end: '435'
+    ftId: PRO_0000020352
+    molecule: ''
+    type: CHAIN
+  - begin: '1'
+    category: TOPOLOGY
+    description: Mitochondrial intermembrane
+    end: '113'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '114'
+    category: TOPOLOGY
+    description: Helical
+    end: '134'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '135'
+    category: TOPOLOGY
+    description: Mitochondrial matrix
+    end: '139'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '140'
+    category: TOPOLOGY
+    description: Helical
+    end: '160'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '161'
+    category: TOPOLOGY
+    description: Mitochondrial intermembrane
+    end: '212'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '213'
+    category: TOPOLOGY
+    description: Helical
+    end: '233'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '234'
+    category: TOPOLOGY
+    description: Mitochondrial matrix
+    end: '260'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '261'
+    category: TOPOLOGY
+    description: Helical
+    end: '281'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '282'
+    category: TOPOLOGY
+    description: Mitochondrial intermembrane
+    end: '299'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '300'
+    category: TOPOLOGY
+    description: Helical
+    end: '320'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '321'
+    category: TOPOLOGY
+    description: Mitochondrial matrix
+    end: '435'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '400'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '435'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '401'
+    category: SEQUENCE_INFORMATION
+    description: Polar residues
+    end: '427'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '364'
+    category: PTM
+    description: Phosphoserine
+    end: '364'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23186163
+        id: '23186163'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23186163
+    molecule: ''
+    type: MOD_RES
+  - begin: '400'
+    category: PTM
+    description: Phosphothreonine
+    end: '400'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23186163
+        id: '23186163'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23186163
+    molecule: ''
+    type: MOD_RES
+  - begin: '402'
+    category: PTM
+    description: Phosphothreonine
+    end: '402'
+    evidences:
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23186163
+        id: '23186163'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23186163
+    molecule: ''
+    type: MOD_RES
+  - begin: '1'
+    category: VARIANTS
+    end: '21'
+    evidences:
+    - code: ECO:0000303
+      source:
+        id: Ref.3
+        name: Citation
+        url: https://www.uniprot.org/uniprot/Q15070#ref3
+    ftId: VSP_008942
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '147'
+    category: VARIANTS
+    end: '149'
+    evidences:
+    - code: ECO:0000303
+      source:
+        id: Ref.3
+        name: Citation
+        url: https://www.uniprot.org/uniprot/Q15070#ref3
+    ftId: VSP_008943
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '224'
+    category: VARIANTS
+    end: '265'
+    evidences:
+    - code: ECO:0000303
+      source:
+        id: Ref.3
+        name: Citation
+        url: https://www.uniprot.org/uniprot/Q15070#ref3
+    ftId: VSP_008944
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '266'
+    category: VARIANTS
+    end: '435'
+    evidences:
+    - code: ECO:0000303
+      source:
+        id: Ref.3
+        name: Citation
+        url: https://www.uniprot.org/uniprot/Q15070#ref3
+    ftId: VSP_008945
+    molecule: ''
+    type: VAR_SEQ
+  - alternativeSequence: V
+    begin: '44'
+    category: VARIANTS
+    description: in dbSNP:rs8572
+    end: '44'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/14702039
+        id: '14702039'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/14702039
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15489334
+        id: '15489334'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15489334
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/7991568
+        id: '7991568'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/7991568
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9247084
+        id: '9247084'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9247084
+    - code: ECO:0000269
+      source:
+        id: Ref.3
+        name: Citation
+        url: https://www.uniprot.org/uniprot/Q15070#ref3
+    ftId: VAR_014932
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: I
+    begin: '91'
+    category: VARIANTS
+    description: in dbSNP:rs17619
+    end: '91'
+    ftId: VAR_014933
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: C
+    begin: '337'
+    category: MUTAGENESIS
+    description: Increases weakly homooligomer formation in presence or absence of
+      magnesium.
+    end: '337'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20739282
+        id: '20739282'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20739282
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: C
+    begin: '372'
+    category: MUTAGENESIS
+    description: Increases strongly homooligomer formation in presence of magnesium,
+      but weakly in absence of magnesium.
+    end: '372'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20739282
+        id: '20739282'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20739282
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: C
+    begin: '400'
+    category: MUTAGENESIS
+    description: Increases homooligomer formation in presence or absence of magnesium.
+    end: '400'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20739282
+        id: '20739282'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20739282
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: C
+    begin: '426'
+    category: MUTAGENESIS
+    description: Increases weakly homooligomer formation in presence of magnesium,
+      but strongly in absence of magnesium.
+    end: '426'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20739282
+        id: '20739282'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20739282
+    molecule: ''
+    type: MUTAGEN
+  gene:
+  - name:
+      value: OXA1L
+  id: OXA1L_HUMAN
+  info:
+    created: '2001-02-21'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 187
+  keywords:
+  - value: 3D-structure
+  - value: Alternative splicing
+  - value: Membrane
+  - value: Mitochondrion
+  - value: Mitochondrion inner membrane
+  - value: Phosphoprotein
+  - value: Reference proteome
+  - value: Transit peptide
+  - value: Transmembrane
+  - value: Transmembrane helix
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        value: Hsa
+    - fullName:
+        value: OXA1Hs
+    - fullName:
+        value: Oxidase assembly 1-like protein
+      shortName:
+      - value: OXA1-like protein
+    recommendedName:
+      fullName:
+        value: Mitochondrial inner membrane protein OXA1L
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Bonnefoy N.
+      - Kermorgant M.
+      - Groudinsky O.
+      - Minet M.
+      - Slonimski P.P.
+      - Dujardin G.
+      dbReferences:
+      - id: '7991568'
+        type: PubMed
+      - id: 10.1073/pnas.91.25.11978
+        type: DOI
+      location:
+        firstPage: '11978'
+        lastPage: '11982'
+        volume: '91'
+      publication:
+        journalName: Proc. Natl. Acad. Sci. U.S.A.
+      publicationDate: '1994'
+      title: Cloning of a human gene involved in cytochrome oxidase assembly by functional
+        complementation of an oxa1- mutation in Saccharomyces cerevisiae.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    - VARIANT VAL-44
+    - FUNCTION
+    source:
+      tissue:
+      - value: Cervix adenocarcinoma
+  - citation:
+      authors:
+      - Roetig A.
+      - Parfait B.
+      - Heidet L.
+      - Dujardin G.
+      - Rustin P.
+      - Munnich A.
+      dbReferences:
+      - id: '9247084'
+        type: PubMed
+      - id: 10.1016/s0925-4439(97)00031-8
+        type: DOI
+      location:
+        firstPage: '6'
+        lastPage: '10'
+        volume: '1361'
+      publication:
+        journalName: Biochim. Biophys. Acta
+      publicationDate: '1997'
+      title: Sequence and structure of the human OXA1L gene and its upstream elements.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+    - VARIANT VAL-44
+  - citation:
+      authors:
+      - Li W.B.
+      - Gruber C.
+      - Jessee J.
+      - Polayes D.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: FEB-2003
+      title: Full-length cDNA libraries and normalization.
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2)
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 2-435 (ISOFORM 3)
+    - VARIANT VAL-44
+    source:
+      tissue:
+      - value: Fetal liver
+      - value: T-cell
+  - citation:
+      authors:
+      - Ota T.
+      - Suzuki Y.
+      - Nishikawa T.
+      - Otsuki T.
+      - Sugiyama T.
+      - Irie R.
+      - Wakamatsu A.
+      - Hayashi K.
+      - Sato H.
+      - Nagai K.
+      - Kimura K.
+      - Makita H.
+      - Sekine M.
+      - Obayashi M.
+      - Nishi T.
+      - Shibahara T.
+      - Tanaka T.
+      - Ishii S.
+      - Yamamoto J.
+      - Saito K.
+      - Kawai Y.
+      - Isono Y.
+      - Nakamura Y.
+      - Nagahari K.
+      - Murakami K.
+      - Yasuda T.
+      - Iwayanagi T.
+      - Wagatsuma M.
+      - Shiratori A.
+      - Sudo H.
+      - Hosoiri T.
+      - Kaku Y.
+      - Kodaira H.
+      - Kondo H.
+      - Sugawara M.
+      - Takahashi M.
+      - Kanda K.
+      - Yokoi T.
+      - Furuya T.
+      - Kikkawa E.
+      - Omura Y.
+      - Abe K.
+      - Kamihara K.
+      - Katsuta N.
+      - Sato K.
+      - Tanikawa M.
+      - Yamazaki M.
+      - Ninomiya K.
+      - Ishibashi T.
+      - Yamashita H.
+      - Murakawa K.
+      - Fujimori K.
+      - Tanai H.
+      - Kimata M.
+      - Watanabe M.
+      - Hiraoka S.
+      - Chiba Y.
+      - Ishida S.
+      - Ono Y.
+      - Takiguchi S.
+      - Watanabe S.
+      - Yosida M.
+      - Hotuta T.
+      - Kusano J.
+      - Kanehori K.
+      - Takahashi-Fujii A.
+      - Hara H.
+      - Tanase T.-O.
+      - Nomura Y.
+      - Togiya S.
+      - Komai F.
+      - Hara R.
+      - Takeuchi K.
+      - Arita M.
+      - Imose N.
+      - Musashino K.
+      - Yuuki H.
+      - Oshima A.
+      - Sasaki N.
+      - Aotsuka S.
+      - Yoshikawa Y.
+      - Matsunawa H.
+      - Ichihara T.
+      - Shiohata N.
+      - Sano S.
+      - Moriya S.
+      - Momiyama H.
+      - Satoh N.
+      - Takami S.
+      - Terashima Y.
+      - Suzuki O.
+      - Nakagawa S.
+      - Senoh A.
+      - Mizoguchi H.
+      - Goto Y.
+      - Shimizu F.
+      - Wakebe H.
+      - Hishigaki H.
+      - Watanabe T.
+      - Sugiyama A.
+      - Takemoto M.
+      - Kawakami B.
+      - Yamazaki M.
+      - Watanabe K.
+      - Kumagai A.
+      - Itakura S.
+      - Fukuzumi Y.
+      - Fujimori Y.
+      - Komiyama M.
+      - Tashiro H.
+      - Tanigami A.
+      - Fujiwara T.
+      - Ono T.
+      - Yamada K.
+      - Fujii Y.
+      - Ozaki K.
+      - Hirao M.
+      - Ohmori Y.
+      - Kawabata A.
+      - Hikiji T.
+      - Kobatake N.
+      - Inagaki H.
+      - Ikema Y.
+      - Okamoto S.
+      - Okitani R.
+      - Kawakami T.
+      - Noguchi S.
+      - Itoh T.
+      - Shigeta K.
+      - Senba T.
+      - Matsumura K.
+      - Nakajima Y.
+      - Mizuno T.
+      - Morinaga M.
+      - Sasaki M.
+      - Togashi T.
+      - Oyama M.
+      - Hata H.
+      - Watanabe M.
+      - Komatsu T.
+      - Mizushima-Sugano J.
+      - Satoh T.
+      - Shirai Y.
+      - Takahashi Y.
+      - Nakagawa K.
+      - Okumura K.
+      - Nagase T.
+      - Nomura N.
+      - Kikuchi H.
+      - Masuho Y.
+      - Yamashita R.
+      - Nakai K.
+      - Yada T.
+      - Nakamura Y.
+      - Ohara O.
+      - Isogai T.
+      - Sugano S.
+      dbReferences:
+      - id: '14702039'
+        type: PubMed
+      - id: 10.1038/ng1285
+        type: DOI
+      location:
+        firstPage: '40'
+        lastPage: '45'
+        volume: '36'
+      publication:
+        journalName: Nat. Genet.
+      publicationDate: '2004'
+      title: Complete sequencing and characterization of 21,243 full-length human
+        cDNAs.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)
+    - VARIANT VAL-44
+    source:
+      tissue:
+      - value: Kidney
+  - citation:
+      authors:
+      - Heilig R.
+      - Eckenberg R.
+      - Petit J.-L.
+      - Fonknechten N.
+      - Da Silva C.
+      - Cattolico L.
+      - Levy M.
+      - Barbe V.
+      - De Berardinis V.
+      - Ureta-Vidal A.
+      - Pelletier E.
+      - Vico V.
+      - Anthouard V.
+      - Rowen L.
+      - Madan A.
+      - Qin S.
+      - Sun H.
+      - Du H.
+      - Pepin K.
+      - Artiguenave F.
+      - Robert C.
+      - Cruaud C.
+      - Bruels T.
+      - Jaillon O.
+      - Friedlander L.
+      - Samson G.
+      - Brottier P.
+      - Cure S.
+      - Segurens B.
+      - Aniere F.
+      - Samain S.
+      - Crespeau H.
+      - Abbasi N.
+      - Aiach N.
+      - Boscus D.
+      - Dickhoff R.
+      - Dors M.
+      - Dubois I.
+      - Friedman C.
+      - Gouyvenoux M.
+      - James R.
+      - Madan A.
+      - Mairey-Estrada B.
+      - Mangenot S.
+      - Martins N.
+      - Menard M.
+      - Oztas S.
+      - Ratcliffe A.
+      - Shaffer T.
+      - Trask B.
+      - Vacherie B.
+      - Bellemere C.
+      - Belser C.
+      - Besnard-Gonnet M.
+      - Bartol-Mavel D.
+      - Boutard M.
+      - Briez-Silla S.
+      - Combette S.
+      - Dufosse-Laurent V.
+      - Ferron C.
+      - Lechaplais C.
+      - Louesse C.
+      - Muselet D.
+      - Magdelenat G.
+      - Pateau E.
+      - Petit E.
+      - Sirvain-Trukniewicz P.
+      - Trybou A.
+      - Vega-Czarny N.
+      - Bataille E.
+      - Bluet E.
+      - Bordelais I.
+      - Dubois M.
+      - Dumont C.
+      - Guerin T.
+      - Haffray S.
+      - Hammadi R.
+      - Muanga J.
+      - Pellouin V.
+      - Robert D.
+      - Wunderle E.
+      - Gauguet G.
+      - Roy A.
+      - Sainte-Marthe L.
+      - Verdier J.
+      - Verdier-Discala C.
+      - Hillier L.W.
+      - Fulton L.
+      - McPherson J.
+      - Matsuda F.
+      - Wilson R.
+      - Scarpelli C.
+      - Gyapay G.
+      - Wincker P.
+      - Saurin W.
+      - Quetier F.
+      - Waterston R.
+      - Hood L.
+      - Weissenbach J.
+      dbReferences:
+      - id: '12508121'
+        type: PubMed
+      - id: 10.1038/nature01348
+        type: DOI
+      location:
+        firstPage: '601'
+        lastPage: '607'
+        volume: '421'
+      publication:
+        journalName: Nature
+      publicationDate: '2003'
+      title: The DNA sequence and analysis of human chromosome 14.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      consortiums:
+      - The MGC Project Team
+      dbReferences:
+      - id: '15489334'
+        type: PubMed
+      - id: 10.1101/gr.2596504
+        type: DOI
+      location:
+        firstPage: '2121'
+        lastPage: '2127'
+        volume: '14'
+      publication:
+        journalName: Genome Res.
+      publicationDate: '2004'
+      title: 'The status, quality, and expansion of the NIH full-length cDNA project:
+        the Mammalian Gene Collection (MGC).'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)
+    - VARIANT VAL-44
+    source:
+      tissue:
+      - value: Lung
+  - citation:
+      authors:
+      - Stiburek L.
+      - Fornuskova D.
+      - Wenchich L.
+      - Pejznochova M.
+      - Hansikova H.
+      - Zeman J.
+      dbReferences:
+      - id: '17936786'
+        type: PubMed
+      - id: 10.1016/j.jmb.2007.09.044
+        type: DOI
+      location:
+        firstPage: '506'
+        lastPage: '516'
+        volume: '374'
+      publication:
+        journalName: J. Mol. Biol.
+      publicationDate: '2007'
+      title: Knockdown of human Oxa1l impairs the biogenesis of F1Fo-ATP synthase
+        and NADH:ubiquinone oxidoreductase.
+      type: journal article
+    scope:
+    - FUNCTION
+    - SUBCELLULAR LOCATION
+  - citation:
+      authors:
+      - Haque M.E.
+      - Elmore K.B.
+      - Tripathy A.
+      - Koc H.
+      - Koc E.C.
+      - Spremulli L.L.
+      dbReferences:
+      - id: '20601428'
+        type: PubMed
+      - id: 10.1074/jbc.m110.148262
+        type: DOI
+      location:
+        firstPage: '28353'
+        lastPage: '28362'
+        volume: '285'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2010'
+      title: Properties of the C-terminal tail of human mitochondrial inner membrane
+        protein Oxa1L and its interactions with mammalian mitochondrial ribosomes.
+      type: journal article
+    scope:
+    - INTERACTION WITH MRPL13; MRPL20; MRPL28; MRPL48; MRPL49 AND MRPL51
+    - HOMOOLIGOMERIZATION
+    - SUBUNIT
+    - ASSOCIATION WITH MITOCHONDRIAL RIBOSOMES
+  - citation:
+      authors:
+      - Haque M.E.
+      - Spremulli L.L.
+      - Fecko C.J.
+      dbReferences:
+      - id: '20739282'
+        type: PubMed
+      - id: 10.1074/jbc.m110.163808
+        type: DOI
+      location:
+        firstPage: '34991'
+        lastPage: '34998'
+        volume: '285'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2010'
+      title: Identification of protein-protein and protein-ribosome interacting regions
+        of the C-terminal tail of human mitochondrial inner membrane protein Oxa1L.
+      type: journal article
+    scope:
+    - HOMOOLIGOMERIZATION
+    - SUBUNIT
+    - ASSOCIATION WITH MITOCHONDRIAL RIBOSOMES
+    - MUTAGENESIS OF ALA-337; ALA-372; THR-400 AND SER-426
+  - citation:
+      authors:
+      - Burkard T.R.
+      - Planyavsky M.
+      - Kaupe I.
+      - Breitwieser F.P.
+      - Buerckstuemmer T.
+      - Bennett K.L.
+      - Superti-Furga G.
+      - Colinge J.
+      dbReferences:
+      - id: '21269460'
+        type: PubMed
+      - id: 10.1186/1752-0509-5-17
+        type: DOI
+      location:
+        firstPage: '17'
+        lastPage: '17'
+        volume: '5'
+      publication:
+        journalName: BMC Syst. Biol.
+      publicationDate: '2011'
+      title: Initial characterization of the human central proteome.
+      type: journal article
+    scope:
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+  - citation:
+      authors:
+      - Zhou H.
+      - Di Palma S.
+      - Preisinger C.
+      - Peng M.
+      - Polat A.N.
+      - Heck A.J.
+      - Mohammed S.
+      dbReferences:
+      - id: '23186163'
+        type: PubMed
+      - id: 10.1021/pr300630k
+        type: DOI
+      location:
+        firstPage: '260'
+        lastPage: '271'
+        volume: '12'
+      publication:
+        journalName: J. Proteome Res.
+      publicationDate: '2013'
+      title: Toward a comprehensive characterization of a human cancer cell phosphoproteome.
+      type: journal article
+    scope:
+    - PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-364; THR-400 AND THR-402
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Cervix carcinoma
+      - value: Erythroleukemia
+  - citation:
+      authors:
+      - Vaca Jacome A.S.
+      - Rabilloud T.
+      - Schaeffer-Reiss C.
+      - Rompais M.
+      - Ayoub D.
+      - Lane L.
+      - Bairoch A.
+      - Van Dorsselaer A.
+      - Carapito C.
+      dbReferences:
+      - id: '25944712'
+        type: PubMed
+      - id: 10.1002/pmic.201400617
+        type: DOI
+      location:
+        firstPage: '2519'
+        lastPage: '2524'
+        volume: '15'
+      publication:
+        journalName: Proteomics
+      publicationDate: '2015'
+      title: N-terminome analysis of the human mitochondrial proteome.
+      type: journal article
+    scope:
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+  secondaryAccession:
+  - A0A087X0L7
+  - B4DPA2
+  sequence:
+    length: 435
+    mass: 48520
+    modified: '2024-01-24'
+    sequence: MAMGLMCGRRELLRLLQSGRRVHSVAGPSQWLGKPLTTRLLFPAAPCCCRPHYLFLAASGPRSLSTSAISFAEVQVQAPPVVAATPSPTAVPEVASGETADVVQTAAEQSFAELGLGSYTPVGLIQNLLEFMHVDLGLPWWGAIAACTVFARCLIFPLIVTGQREAARIHNHLPEIQKFSSRIREAKLAGDHIEYYKASSEMALYQKKHGIKLYKPLILPVTQAPIFISFFIALREMANLPVPSLQTGGLWWFQDLTVSDPIYILPLAVTATMWAVLELGAETGVQSSDLQWMRNVIRMMPLITLPITMHFPTAVFMYWLSSNLFSLVQVSCLRIPAVRTVLKIPQRVVHDLDKLPPREGFLESFKKGWKNAEMTRQLREREQRMRNQLELAARGPLRQTFTHNPLLQPGKDNPPNIPSSSSKPKSKYPWHDTLG
+    version: 4
+uniprot_id: Q15070

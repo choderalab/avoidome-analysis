@@ -1,0 +1,2577 @@
+data:
+  accession: P23975
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11093780
+          id: '11093780'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11093780
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/2008212
+          id: '2008212'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/2008212
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8125921
+          id: '8125921'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8125921
+      value: Mediates sodium- and chloride-dependent transport of norepinephrine (also
+        known as noradrenaline) (PubMed:2008212, PubMed:8125921). Can also mediate
+        sodium- and chloride-dependent transport of dopamine (PubMed:8125921, PubMed:11093780)
+    type: FUNCTION
+  - reaction:
+      dbReferences:
+      - id: RHEA:70923
+        type: Rhea
+      - id: CHEBI:17996
+        type: ChEBI
+      - id: CHEBI:29101
+        type: ChEBI
+      - id: CHEBI:72587
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/2008212
+          id: '2008212'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/2008212
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8125921
+          id: '8125921'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8125921
+      name: (R)-noradrenaline(out) + chloride(out) + Na(+)(out) = (R)-noradrenaline(in)
+        + chloride(in) + Na(+)(in)
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:70919
+        type: Rhea
+      - id: CHEBI:17996
+        type: ChEBI
+      - id: CHEBI:29101
+        type: ChEBI
+      - id: CHEBI:59905
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11093780
+          id: '11093780'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11093780
+      name: chloride(out) + dopamine(out) + Na(+)(out) = chloride(in) + dopamine(in)
+        + Na(+)(in)
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:70931
+        type: Rhea
+      - id: CHEBI:17996
+        type: ChEBI
+      - id: CHEBI:29101
+        type: ChEBI
+      - id: CHEBI:59905
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8125921
+          id: '8125921'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8125921
+      name: chloride(out) + dopamine(out) + 2 Na(+)(out) = chloride(in) + dopamine(in)
+        + 2 Na(+)(in)
+    type: CATALYTIC_ACTIVITY
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/2008212
+          id: '2008212'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/2008212
+      value: Inhibited by mazindol, desipramine, nomifensine and nortriptyline
+    type: ACTIVITY_REGULATION
+  - kinetics:
+      km:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/2008212
+            id: '2008212'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/2008212
+        value: 457 nM for noradrenaline
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/8125921
+            id: '8125921'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/8125921
+        value: 0.58 uM for noradrenaline
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/8125921
+            id: '8125921'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/8125921
+        value: 0.24 uM for dopamine
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/11093780
+            id: '11093780'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/11093780
+        value: 100 mM for Na(+) in dopamine transport
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/11093780
+            id: '11093780'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/11093780
+        value: 27 mM for Cl(-) in dopamine transport
+      vmax:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/8125921
+            id: '8125921'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/8125921
+        value: 17.0 pmol/min/mg enzyme for noradrenaline
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/8125921
+            id: '8125921'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/8125921
+        value: 32.0 pmol/min/mg enzyme for dopamine
+    type: BIOPHYSICOCHEMICAL_PROPERTIES
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/11343649
+          id: '11343649'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/11343649
+      value: Interacts with PRKCABP
+    type: SUBUNIT
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/11343649
+            id: '11343649'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/11343649
+        value: Cell membrane
+      topology:
+        evidences:
+        - code: ECO:0000255
+        value: Multi-pass membrane protein
+    type: SUBCELLULAR_LOCATION
+  - event:
+    - Alternative splicing
+    isoforms:
+    - ids:
+      - P23975-1
+      name:
+        value: '1'
+      sequenceStatus: displayed
+    - ids:
+      - P23975-2
+      name:
+        value: '2'
+      sequence:
+      - VSP_044479
+      sequenceStatus: described
+    - ids:
+      - P23975-3
+      name:
+        value: '3'
+      sequence:
+      - VSP_054119
+      sequenceStatus: described
+    type: ALTERNATIVE_PRODUCTS
+  - acronym: OI
+    dbReference:
+      id: '604715'
+      type: MIM
+    description:
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10684912
+          id: '10684912'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10684912
+      value: An autosomal dominant disorder characterized by lightheadedness, palpitations,
+        fatigue, blurred vision and tachycardia following postural change from a supine
+        to an upright position, in the absence of hypotension. A syncope with transient
+        cognitive impairment and dyspnea may also occur. Plasma norepinephrine concentration
+        is abnormally high.
+    diseaseId: Orthostatic intolerance
+    text:
+    - value: The disease is caused by variants affecting the gene represented in this
+        entry
+    type: DISEASE
+  - text:
+    - value: This protein is the target of psychomotor stimulants such as amphetamines
+        or cocaine
+    type: MISCELLANEOUS
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family.
+        SLC6A2 subfamily
+    type: SIMILARITY
+  dbReferences:
+  - id: M65105
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA59943.1
+    type: EMBL
+  - id: X91117
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA62566.1
+    type: EMBL
+  - id: X91120
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA62566.1
+      status: JOINED
+    type: EMBL
+  - id: X91121
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA62566.1
+      status: JOINED
+    type: EMBL
+  - id: X91122
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA62566.1
+      status: JOINED
+    type: EMBL
+  - id: X91123
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA62566.1
+      status: JOINED
+    type: EMBL
+  - id: X91124
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA62566.1
+      status: JOINED
+    type: EMBL
+  - id: X91125
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA62566.1
+      status: JOINED
+    type: EMBL
+  - id: X91126
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA62566.1
+      status: JOINED
+    type: EMBL
+  - id: X91127
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA62566.1
+      status: JOINED
+    type: EMBL
+  - id: X91118
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA62566.1
+      status: JOINED
+    type: EMBL
+  - id: X91119
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA62566.1
+      status: JOINED
+    type: EMBL
+  - id: X91117
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAC39181.1
+    type: EMBL
+  - id: X91118
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAC39181.1
+      status: JOINED
+    type: EMBL
+  - id: X91119
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAC39181.1
+      status: JOINED
+    type: EMBL
+  - id: X91120
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAC39181.1
+      status: JOINED
+    type: EMBL
+  - id: X91121
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAC39181.1
+      status: JOINED
+    type: EMBL
+  - id: X91122
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAC39181.1
+      status: JOINED
+    type: EMBL
+  - id: X91123
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAC39181.1
+      status: JOINED
+    type: EMBL
+  - id: X91124
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAC39181.1
+      status: JOINED
+    type: EMBL
+  - id: X91125
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAC39181.1
+      status: JOINED
+    type: EMBL
+  - id: X91126
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAC39181.1
+      status: JOINED
+    type: EMBL
+  - id: X91127
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAC39181.1
+      status: JOINED
+    type: EMBL
+  - id: AK301811
+    properties:
+      molecule type: mRNA
+      protein sequence ID: BAG63260.1
+    type: EMBL
+  - id: AK312793
+    properties:
+      molecule type: mRNA
+      protein sequence ID: BAG35654.1
+    type: EMBL
+  - id: AC136621
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: CH471092
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW82831.1
+    type: EMBL
+  - id: CH471092
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW82833.1
+    type: EMBL
+  - id: CH471092
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW82835.1
+    type: EMBL
+  - id: CCDS10754.1
+    isoform: P23975-1
+    type: CCDS
+  - id: CCDS54011.1
+    isoform: P23975-2
+    type: CCDS
+  - id: CCDS58463.1
+    isoform: P23975-3
+    type: CCDS
+  - id: S14278
+    properties:
+      entry name: S14278
+    type: PIR
+  - id: NP_001034.1
+    isoform: P23975-1
+    properties:
+      nucleotide sequence ID: NM_001043.3
+    type: RefSeq
+  - id: NP_001165972.1
+    isoform: P23975-1
+    properties:
+      nucleotide sequence ID: NM_001172501.1
+    type: RefSeq
+  - id: NP_001165973.1
+    isoform: P23975-3
+    properties:
+      nucleotide sequence ID: NM_001172502.1
+    type: RefSeq
+  - id: NP_001165975.1
+    isoform: P23975-2
+    properties:
+      nucleotide sequence ID: NM_001172504.1
+    type: RefSeq
+  - id: XP_006721326.1
+    isoform: P23975-2
+    properties:
+      nucleotide sequence ID: XM_006721263.2
+    type: RefSeq
+  - id: XP_011521597.1
+    isoform: P23975-2
+    properties:
+      nucleotide sequence ID: XM_011523295.1
+    type: RefSeq
+  - id: P23975
+    type: AlphaFoldDB
+  - id: P23975
+    type: SMR
+  - id: '112421'
+    properties:
+      interactions: '3'
+    type: BioGRID
+  - id: P23975
+    type: MINT
+  - id: 9606.ENSP00000219833
+    type: STRING
+  - id: P23975
+    type: BindingDB
+  - id: CHEMBL222
+    type: ChEMBL
+  - id: DB04836
+    properties:
+      generic name: Amineptine
+    type: DrugBank
+  - id: DB05964
+    properties:
+      generic name: Amitifadine
+    type: DrugBank
+  - id: DB00321
+    properties:
+      generic name: Amitriptyline
+    type: DrugBank
+  - id: DB00543
+    properties:
+      generic name: Amoxapine
+    type: DrugBank
+  - id: DB00182
+    properties:
+      generic name: Amphetamine
+    type: DrugBank
+  - id: DB00289
+    properties:
+      generic name: Atomoxetine
+    type: DrugBank
+  - id: DB00245
+    properties:
+      generic name: Benzatropine
+    type: DrugBank
+  - id: DB04889
+    properties:
+      generic name: Bicifadine
+    type: DrugBank
+  - id: DB01156
+    properties:
+      generic name: Bupropion
+    type: DrugBank
+  - id: DB01114
+    properties:
+      generic name: Chlorpheniramine
+    type: DrugBank
+  - id: DB01242
+    properties:
+      generic name: Clomipramine
+    type: DrugBank
+  - id: DB00907
+    properties:
+      generic name: Cocaine
+    type: DrugBank
+  - id: DB05688
+    properties:
+      generic name: CRx-119
+    type: DrugBank
+  - id: DB00924
+    properties:
+      generic name: Cyclobenzaprine
+    type: DrugBank
+  - id: DB12305
+    properties:
+      generic name: Dasotraline
+    type: DrugBank
+  - id: DB05642
+    properties:
+      generic name: DDP-225
+    type: DrugBank
+  - id: DB04840
+    properties:
+      generic name: Debrisoquine
+    type: DrugBank
+  - id: DB01151
+    properties:
+      generic name: Desipramine
+    type: DrugBank
+  - id: DB06700
+    properties:
+      generic name: Desvenlafaxine
+    type: DrugBank
+  - id: DB06701
+    properties:
+      generic name: Dexmethylphenidate
+    type: DrugBank
+  - id: DB01576
+    properties:
+      generic name: Dextroamphetamine
+    type: DrugBank
+  - id: DB00514
+    properties:
+      generic name: Dextromethorphan
+    type: DrugBank
+  - id: DB00937
+    properties:
+      generic name: Diethylpropion
+    type: DrugBank
+  - id: DB00988
+    properties:
+      generic name: Dopamine
+    type: DrugBank
+  - id: DB09167
+    properties:
+      generic name: Dosulepin
+    type: DrugBank
+  - id: DB01142
+    properties:
+      generic name: Doxepin
+    type: DrugBank
+  - id: DB06262
+    properties:
+      generic name: Droxidopa
+    type: DrugBank
+  - id: DB00476
+    properties:
+      generic name: Duloxetine
+    type: DrugBank
+  - id: DB01363
+    properties:
+      generic name: Ephedra sinica root
+    type: DrugBank
+  - id: DB01364
+    properties:
+      generic name: Ephedrine
+    type: DrugBank
+  - id: DB01175
+    properties:
+      generic name: Escitalopram
+    type: DrugBank
+  - id: DB09194
+    properties:
+      generic name: Etoperidone
+    type: DrugBank
+  - id: DB01381
+    properties:
+      generic name: Ginkgo biloba
+    type: DrugBank
+  - id: DB00226
+    properties:
+      generic name: Guanadrel
+    type: DrugBank
+  - id: DB01170
+    properties:
+      generic name: Guanethidine
+    type: DrugBank
+  - id: DB00458
+    properties:
+      generic name: Imipramine
+    type: DrugBank
+  - id: DB06704
+    properties:
+      generic name: Iobenguane
+    type: DrugBank
+  - id: DB09546
+    properties:
+      generic name: Iobenguane sulfate I-123
+    type: DrugBank
+  - id: DB01221
+    properties:
+      generic name: Ketamine
+    type: DrugBank
+  - id: DB08918
+    properties:
+      generic name: Levomilnacipran
+    type: DrugBank
+  - id: DB00408
+    properties:
+      generic name: Loxapine
+    type: DrugBank
+  - id: DB00934
+    properties:
+      generic name: Maprotiline
+    type: DrugBank
+  - id: DB00579
+    properties:
+      generic name: Mazindol
+    type: DrugBank
+  - id: DB00454
+    properties:
+      generic name: Meperidine
+    type: DrugBank
+  - id: DB01577
+    properties:
+      generic name: Metamfetamine
+    type: DrugBank
+  - id: DB00422
+    properties:
+      generic name: Methylphenidate
+    type: DrugBank
+  - id: DB06148
+    properties:
+      generic name: Mianserin
+    type: DrugBank
+  - id: DB01454
+    properties:
+      generic name: Midomafetamine
+    type: DrugBank
+  - id: DB04896
+    properties:
+      generic name: Milnacipran
+    type: DrugBank
+  - id: DB01442
+    properties:
+      generic name: MMDA
+    type: DrugBank
+  - id: DB01149
+    properties:
+      generic name: Nefazodone
+    type: DrugBank
+  - id: DB13931
+    properties:
+      generic name: Netarsudil
+    type: DrugBank
+  - id: DB04821
+    properties:
+      generic name: Nomifensine
+    type: DrugBank
+  - id: DB00368
+    properties:
+      generic name: Norepinephrine
+    type: DrugBank
+  - id: DB00540
+    properties:
+      generic name: Nortriptyline
+    type: DrugBank
+  - id: DB01173
+    properties:
+      generic name: Orphenadrine
+    type: DrugBank
+  - id: DB00715
+    properties:
+      generic name: Paroxetine
+    type: DrugBank
+  - id: DB01579
+    properties:
+      generic name: Phendimetrazine
+    type: DrugBank
+  - id: DB00830
+    properties:
+      generic name: Phenmetrazine
+    type: DrugBank
+  - id: DB00191
+    properties:
+      generic name: Phentermine
+    type: DrugBank
+  - id: DB00721
+    properties:
+      generic name: Procaine
+    type: DrugBank
+  - id: DB00344
+    properties:
+      generic name: Protriptyline
+    type: DrugBank
+  - id: DB00852
+    properties:
+      generic name: Pseudoephedrine
+    type: DrugBank
+  - id: DB09363
+    properties:
+      generic name: Rauwolfia serpentina root
+    type: DrugBank
+  - id: DB00234
+    properties:
+      generic name: Reboxetine
+    type: DrugBank
+  - id: DB16629
+    properties:
+      generic name: Serdexmethylphenidate
+    type: DrugBank
+  - id: DB01104
+    properties:
+      generic name: Sertraline
+    type: DrugBank
+  - id: DB01105
+    properties:
+      generic name: Sibutramine
+    type: DrugBank
+  - id: DB14754
+    properties:
+      generic name: Solriamfetol
+    type: DrugBank
+  - id: DB06204
+    properties:
+      generic name: Tapentadol
+    type: DrugBank
+  - id: DB06156
+    properties:
+      generic name: Tesofensine
+    type: DrugBank
+  - id: DB00193
+    properties:
+      generic name: Tramadol
+    type: DrugBank
+  - id: DB00726
+    properties:
+      generic name: Trimipramine
+    type: DrugBank
+  - id: DB06333
+    properties:
+      generic name: Trodusquemine
+    type: DrugBank
+  - id: DB00285
+    properties:
+      generic name: Venlafaxine
+    type: DrugBank
+  - id: DB09185
+    properties:
+      generic name: Viloxazine
+    type: DrugBank
+  - id: DB09068
+    properties:
+      generic name: Vortioxetine
+    type: DrugBank
+  - id: DB05012
+    properties:
+      generic name: XEN-2174
+    type: DrugBank
+  - id: DB09225
+    properties:
+      generic name: Zotepine
+    type: DrugBank
+  - id: P23975
+    type: DrugCentral
+  - id: '926'
+    type: GuidetoPHARMACOLOGY
+  - id: 2.A.22.1.2
+    properties:
+      family name: the neurotransmitter:sodium symporter (nss) family
+    type: TCDB
+  - id: P23975
+    properties:
+      glycosylation: 3 sites, No reported glycans
+    type: GlyCosmos
+  - id: P23975
+    properties:
+      glycosylation: 3 sites
+    type: GlyGen
+  - id: P23975
+    type: iPTMnet
+  - id: P23975
+    type: PhosphoSitePlus
+  - id: SLC6A2
+    type: BioMuta
+  - id: '128616'
+    type: DMDM
+  - id: P23975
+    type: MassIVE
+  - id: P23975
+    type: MaxQB
+  - id: 9606-ENSP00000219833
+    type: PaxDb
+  - id: P23975
+    type: PeptideAtlas
+  - id: '5409'
+    type: ProteomicsDB
+  - id: '54172'
+    isoform: P23975-1
+    type: ProteomicsDB
+  - id: '77077'
+    type: ProteomicsDB
+  - id: '1363'
+    properties:
+      antibodies: 151 antibodies from 28 providers
+    type: Antibodypedia
+  - id: '6530'
+    type: DNASU
+  - id: ENST00000219833.13
+    isoform: P23975-2
+    properties:
+      gene ID: ENSG00000103546.19
+      protein sequence ID: ENSP00000219833.8
+    type: Ensembl
+  - id: ENST00000379906.6
+    isoform: P23975-1
+    properties:
+      gene ID: ENSG00000103546.19
+      protein sequence ID: ENSP00000369237.2
+    type: Ensembl
+  - id: ENST00000567238.1
+    isoform: P23975-3
+    properties:
+      gene ID: ENSG00000103546.19
+      protein sequence ID: ENSP00000457375.1
+    type: Ensembl
+  - id: ENST00000568943.6
+    isoform: P23975-1
+    properties:
+      gene ID: ENSG00000103546.19
+      protein sequence ID: ENSP00000457473.1
+    type: Ensembl
+  - id: '6530'
+    type: GeneID
+  - id: hsa:6530
+    type: KEGG
+  - id: ENST00000568943.6
+    properties:
+      RefSeq nucleotide sequence ID: NM_001172501.3
+      RefSeq protein sequence ID: NP_001165972.1
+      protein sequence ID: ENSP00000457473.1
+    type: MANE-Select
+  - id: uc002eif.4
+    isoform: P23975-1
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:11048
+    type: AGR
+  - id: '6530'
+    type: CTD
+  - id: '6530'
+    type: DisGeNET
+  - id: SLC6A2
+    type: GeneCards
+  - id: HGNC:11048
+    properties:
+      gene designation: SLC6A2
+    type: HGNC
+  - id: ENSG00000103546
+    properties:
+      expression patterns: Tissue enhanced (adrenal gland, placenta, skin, testis)
+    type: HPA
+  - id: SLC6A2
+    type: MalaCards
+  - id: '163970'
+    properties:
+      type: gene
+    type: MIM
+  - id: '604715'
+    properties:
+      type: phenotype
+    type: MIM
+  - id: NX_P23975
+    type: neXtProt
+  - id: ENSG00000103546
+    type: OpenTargets
+  - id: '443236'
+    properties:
+      disease: Postural orthostatic tachycardia syndrome due to NET deficiency
+    type: Orphanet
+  - id: PA310
+    type: PharmGKB
+  - id: HostDB:ENSG00000103546
+    type: VEuPathDB
+  - id: KOG3659
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000158960
+    type: GeneTree
+  - id: CLU_006855_9_5_1
+    type: HOGENOM
+  - id: P23975
+    type: InParanoid
+  - id: NLWGFAY
+    type: OMA
+  - id: 3084493at2759
+    type: OrthoDB
+  - id: P23975
+    type: PhylomeDB
+  - id: TF343812
+    type: TreeFam
+  - id: P23975
+    type: PathwayCommons
+  - id: R-HSA-442660
+    properties:
+      pathway name: Na+/Cl- dependent neurotransmitter transporters
+    type: Reactome
+  - id: R-HSA-5619109
+    properties:
+      pathway name: Defective SLC6A2 causes orthostatic intolerance (OI)
+    type: Reactome
+  - id: P23975
+    type: SignaLink
+  - id: P23975
+    type: SIGNOR
+  - id: '6530'
+    properties:
+      hits: 14 hits in 1152 CRISPR screens
+    type: BioGRID-ORCS
+  - id: SLC6A2
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: Norepinephrine_transporter
+    type: GeneWiki
+  - id: '6530'
+    type: GenomeRNAi
+  - id: P23975
+    properties:
+      development level: Tclin
+    type: Pharos
+  - id: PR:P23975
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 16
+    type: Proteomes
+  - id: P23975
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000103546
+    properties:
+      expression patterns: Expressed in placenta and 97 other cell types or tissues
+    type: Bgee
+  - id: P23975
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: P23975
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - id: GO:0009986
+    properties:
+      source: IEA:Ensembl
+      term: C:cell surface
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/2008212
+        id: '2008212'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/2008212
+    id: GO:0016020
+    properties:
+      source: TAS:ProtInc
+      term: C:membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0043005
+    properties:
+      source: IBA:GO_Central
+      term: C:neuron projection
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0032809
+    properties:
+      source: IBA:GO_Central
+      term: C:neuronal cell body membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11343649
+        id: '11343649'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11343649
+    id: GO:0005886
+    properties:
+      source: IDA:UniProtKB
+      term: C:plasma membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0042734
+    properties:
+      source: IBA:GO_Central
+      term: C:presynaptic membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18331289
+        id: '18331289'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18331289
+    id: GO:0003779
+    properties:
+      source: IPI:ARUK-UCL
+      term: F:actin binding
+    type: GO
+  - id: GO:0043014
+    properties:
+      source: IEA:Ensembl
+      term: F:alpha-tubulin binding
+    type: GO
+  - id: GO:0048487
+    properties:
+      source: IEA:Ensembl
+      term: F:beta-tubulin binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/11093780
+        id: '11093780'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/11093780
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8125921
+        id: '8125921'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8125921
+    id: GO:0005330
+    properties:
+      source: IDA:UniProtKB
+      term: F:dopamine:sodium symporter activity
+    type: GO
+  - id: GO:0046872
+    properties:
+      source: IEA:UniProtKB-KW
+      term: F:metal ion binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16024787
+        id: '16024787'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16024787
+    id: GO:0008504
+    properties:
+      source: IDA:MGI
+      term: F:monoamine transmembrane transporter activity
+    type: GO
+  - id: GO:0005326
+    properties:
+      source: ISS:ARUK-UCL
+      term: F:neurotransmitter transmembrane transporter activity
+    type: GO
+  - id: GO:0005328
+    properties:
+      source: IEA:InterPro
+      term: F:neurotransmitter:sodium symporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/2008212
+        id: '2008212'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/2008212
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8125921
+        id: '8125921'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8125921
+    id: GO:0005334
+    properties:
+      source: IDA:UniProtKB
+      term: F:norepinephrine:sodium symporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/2008212
+        id: '2008212'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/2008212
+    id: GO:0007268
+    properties:
+      source: TAS:ProtInc
+      term: P:chemical synaptic transmission
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0051583
+    properties:
+      source: IBA:GO_Central
+      term: P:dopamine uptake involved in synaptic transmission
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16024787
+        id: '16024787'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16024787
+    id: GO:0015844
+    properties:
+      source: IDA:MGI
+      term: P:monoamine transport
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/18331289
+        id: '18331289'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/18331289
+    id: GO:0070050
+    properties:
+      source: TAS:ARUK-UCL
+      term: P:neuron cellular homeostasis
+    type: GO
+  - id: GO:0006836
+    properties:
+      source: ISS:ARUK-UCL
+      term: P:neurotransmitter transport
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0015874
+    properties:
+      source: IBA:GO_Central
+      term: P:norepinephrine transport
+    type: GO
+  - id: GO:0051620
+    properties:
+      source: ISS:ARUK-UCL
+      term: P:norepinephrine uptake
+    type: GO
+  - id: GO:0048265
+    properties:
+      source: IEA:Ensembl
+      term: P:response to pain
+    type: GO
+  - id: GO:0009410
+    properties:
+      source: IEA:Ensembl
+      term: P:response to xenobiotic stimulus
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0035725
+    properties:
+      source: IBA:GO_Central
+      term: P:sodium ion transmembrane transport
+    type: GO
+  - id: cd11512
+    properties:
+      entry name: SLC6sbd_NET
+      match status: '1'
+    type: CDD
+  - id: IPR000175
+    properties:
+      entry name: Na/ntran_symport
+    type: InterPro
+  - id: IPR002435
+    properties:
+      entry name: Na/ntran_symport_noradrenaline
+    type: InterPro
+  - id: IPR037272
+    properties:
+      entry name: SNS_sf
+    type: InterPro
+  - id: PTHR11616:SF307
+    properties:
+      entry name: SODIUM-DEPENDENT NORADRENALINE TRANSPORTER
+      match status: '1'
+    type: PANTHER
+  - id: PTHR11616
+    properties:
+      entry name: SODIUM/CHLORIDE DEPENDENT TRANSPORTER
+      match status: '1'
+    type: PANTHER
+  - id: PF00209
+    properties:
+      entry name: SNF
+      match status: '1'
+    type: Pfam
+  - id: PR00176
+    properties:
+      entry name: NANEUSMPORT
+    type: PRINTS
+  - id: PR01201
+    properties:
+      entry name: NORTRANSPORT
+    type: PRINTS
+  - id: SSF161070
+    properties:
+      entry name: SNF-like
+      match status: '1'
+    type: SUPFAM
+  - id: PS00610
+    properties:
+      entry name: NA_NEUROTRAN_SYMP_1
+      match status: '1'
+    type: PROSITE
+  - id: PS00754
+    properties:
+      entry name: NA_NEUROTRAN_SYMP_2
+      match status: '1'
+    type: PROSITE
+  - id: PS50267
+    properties:
+      entry name: NA_NEUROTRAN_SYMP_3
+      match status: '1'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Sodium-dependent noradrenaline transporter
+    end: '617'
+    ftId: PRO_0000214748
+    molecule: ''
+    type: CHAIN
+  - begin: '1'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '62'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '63'
+    category: TOPOLOGY
+    description: Helical; Name=1
+    end: '88'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TRANSMEM
+  - begin: '89'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '92'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '93'
+    category: TOPOLOGY
+    description: Helical; Name=2
+    end: '116'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TRANSMEM
+  - begin: '117'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '135'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '136'
+    category: TOPOLOGY
+    description: Helical; Name=3
+    end: '166'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TRANSMEM
+  - begin: '167'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '233'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '234'
+    category: TOPOLOGY
+    description: Helical; Name=4
+    end: '254'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TRANSMEM
+  - begin: '255'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '257'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '258'
+    category: TOPOLOGY
+    description: Helical; Name=5
+    end: '282'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TRANSMEM
+  - begin: '283'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '306'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '307'
+    category: TOPOLOGY
+    description: Helical; Name=6
+    end: '332'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TRANSMEM
+  - begin: '333'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '338'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '339'
+    category: TOPOLOGY
+    description: Helical; Name=7
+    end: '362'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TRANSMEM
+  - begin: '363'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '402'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '403'
+    category: TOPOLOGY
+    description: Helical; Name=8
+    end: '428'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TRANSMEM
+  - begin: '429'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '443'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '444'
+    category: TOPOLOGY
+    description: Helical; Name=9
+    end: '464'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TRANSMEM
+  - begin: '465'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '465'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '466'
+    category: TOPOLOGY
+    description: Helical; Name=10
+    end: '492'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TRANSMEM
+  - begin: '493'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '522'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '523'
+    category: TOPOLOGY
+    description: Helical; Name=11
+    end: '545'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TRANSMEM
+  - begin: '546'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '548'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '549'
+    category: TOPOLOGY
+    description: Helical; Name=12
+    end: '569'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TRANSMEM
+  - begin: '570'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '617'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '1'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '23'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '71'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '71'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '1'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '73'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '73'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '2'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '74'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '74'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '1'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '78'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '78'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '2'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '318'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '318'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '2'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '350'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '350'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '2'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '415'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '415'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '1'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '418'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '418'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '1'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '419'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '419'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    ligand:
+      dbReference:
+        id: CHEBI:29101
+        name: ChEBI
+      label: '1'
+      name: Na(+)
+    molecule: ''
+    type: BINDING
+  - begin: '184'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '184'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '192'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '192'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '198'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '198'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '176'
+    category: PTM
+    description: ''
+    end: '185'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q7K4Y6
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q7K4Y6
+    molecule: ''
+    type: DISULFID
+  - begin: '1'
+    category: VARIANTS
+    end: '135'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/14702039
+        id: '14702039'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/14702039
+    ftId: VSP_054119
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '611'
+    category: VARIANTS
+    end: '617'
+    evidences:
+    - code: ECO:0000305
+    ftId: VSP_044479
+    molecule: ''
+    type: VAR_SEQ
+  - alternativeSequence: K
+    begin: '7'
+    category: VARIANTS
+    description: in dbSNP:rs11568323
+    end: '7'
+    ftId: VAR_029157
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: I
+    begin: '69'
+    category: VARIANTS
+    description: in dbSNP:rs1805064
+    end: '69'
+    ftId: VAR_011756
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: I
+    begin: '99'
+    category: VARIANTS
+    description: in dbSNP:rs1805065
+    end: '99'
+    ftId: VAR_011757
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: I
+    begin: '245'
+    category: VARIANTS
+    description: in dbSNP:rs1805066
+    end: '245'
+    ftId: VAR_011758
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: R
+    begin: '283'
+    category: VARIANTS
+    description: in dbSNP:rs45564432
+    end: '283'
+    ftId: VAR_020048
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: T
+    begin: '292'
+    category: VARIANTS
+    description: in dbSNP:rs5563
+    end: '292'
+    ftId: VAR_011759
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: L
+    begin: '356'
+    category: VARIANTS
+    description: in dbSNP:rs5565
+    end: '356'
+    ftId: VAR_011760
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: P
+    begin: '369'
+    category: VARIANTS
+    description: in dbSNP:rs5566
+    end: '369'
+    ftId: VAR_011761
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: S
+    begin: '375'
+    category: VARIANTS
+    description: in dbSNP:rs5567
+    end: '375'
+    ftId: VAR_011762
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: I
+    begin: '449'
+    category: VARIANTS
+    description: in dbSNP:rs2234910
+    end: '449'
+    ftId: VAR_014800
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: P
+    begin: '457'
+    category: VARIANTS
+    description: in OI; loss of function; dbSNP:rs121918126
+    end: '457'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10684912
+        id: '10684912'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10684912
+    ftId: VAR_010022
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: R
+    begin: '463'
+    category: VARIANTS
+    description: in dbSNP:rs5570
+    end: '463'
+    ftId: VAR_011763
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: S
+    begin: '478'
+    category: VARIANTS
+    description: in dbSNP:rs1805067
+    end: '478'
+    ftId: VAR_011764
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: C
+    begin: '528'
+    category: VARIANTS
+    description: in dbSNP:rs5558
+    end: '528'
+    ftId: VAR_011765
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: H
+    begin: '548'
+    category: VARIANTS
+    description: in dbSNP:rs5559
+    end: '548'
+    ftId: VAR_011766
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: T
+    begin: '549'
+    category: VARIANTS
+    description: in dbSNP:rs3743788
+    end: '549'
+    ftId: VAR_021861
+    molecule: ''
+    type: VARIANT
+  gene:
+  - name:
+      value: SLC6A2
+    synonyms:
+    - value: NAT1
+    - value: NET1
+    - value: SLC6A5
+  id: SC6A2_HUMAN
+  info:
+    created: '1992-03-01'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 211
+  keywords:
+  - value: Alternative splicing
+  - value: Cell membrane
+  - value: Disease variant
+  - value: Disulfide bond
+  - value: Glycoprotein
+  - value: Membrane
+  - value: Metal-binding
+  - value: Neurotransmitter transport
+  - value: Reference proteome
+  - value: Sodium
+  - value: Symport
+  - value: Transmembrane
+  - value: Transmembrane helix
+  - value: Transport
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        value: Norepinephrine transporter
+      shortName:
+      - value: NET
+    - fullName:
+        value: Solute carrier family 6 member 2
+    recommendedName:
+      fullName:
+        value: Sodium-dependent noradrenaline transporter
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Pacholczyk T.
+      - Blakely R.D.
+      - Amara S.G.
+      dbReferences:
+      - id: '2008212'
+        type: PubMed
+      - id: 10.1038/350350a0
+        type: DOI
+      location:
+        firstPage: '350'
+        lastPage: '354'
+        volume: '350'
+      publication:
+        journalName: Nature
+      publicationDate: '1991'
+      title: Expression cloning of a cocaine- and antidepressant-sensitive human noradrenaline
+        transporter.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - ACTIVITY REGULATION
+  - citation:
+      authors:
+      - Poerzgen P.
+      - Boenisch H.
+      - Bruss M.
+      dbReferences:
+      - id: '7488042'
+        type: PubMed
+      - id: 10.1006/bbrc.1995.2582
+        type: DOI
+      location:
+        firstPage: '1145'
+        lastPage: '1150'
+        volume: '215'
+      publication:
+        journalName: Biochem. Biophys. Res. Commun.
+      publicationDate: '1995'
+      title: Molecular cloning and organization of the coding region of the human
+        norepinephrine transporter gene.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA]
+    source:
+      tissue:
+      - value: Lung
+  - citation:
+      authors:
+      - Porzgen P.
+      - Bonisch H.
+      - Hammermann R.
+      - Bruss M.
+      dbReferences:
+      - id: '9655936'
+        type: PubMed
+      - id: 10.1016/s0167-4781(98)00072-4
+        type: DOI
+      location:
+        firstPage: '365'
+        lastPage: '370'
+        volume: '1398'
+      publication:
+        journalName: Biochim. Biophys. Acta
+      publicationDate: '1998'
+      title: The human noradrenaline transporter gene contains multiple polyadenylation
+        sites and two alternatively spliced C-terminal exons.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORM 2)
+    - ALTERNATIVE SPLICING
+    source:
+      tissue:
+      - value: Lung
+  - citation:
+      authors:
+      - Ota T.
+      - Suzuki Y.
+      - Nishikawa T.
+      - Otsuki T.
+      - Sugiyama T.
+      - Irie R.
+      - Wakamatsu A.
+      - Hayashi K.
+      - Sato H.
+      - Nagai K.
+      - Kimura K.
+      - Makita H.
+      - Sekine M.
+      - Obayashi M.
+      - Nishi T.
+      - Shibahara T.
+      - Tanaka T.
+      - Ishii S.
+      - Yamamoto J.
+      - Saito K.
+      - Kawai Y.
+      - Isono Y.
+      - Nakamura Y.
+      - Nagahari K.
+      - Murakami K.
+      - Yasuda T.
+      - Iwayanagi T.
+      - Wagatsuma M.
+      - Shiratori A.
+      - Sudo H.
+      - Hosoiri T.
+      - Kaku Y.
+      - Kodaira H.
+      - Kondo H.
+      - Sugawara M.
+      - Takahashi M.
+      - Kanda K.
+      - Yokoi T.
+      - Furuya T.
+      - Kikkawa E.
+      - Omura Y.
+      - Abe K.
+      - Kamihara K.
+      - Katsuta N.
+      - Sato K.
+      - Tanikawa M.
+      - Yamazaki M.
+      - Ninomiya K.
+      - Ishibashi T.
+      - Yamashita H.
+      - Murakawa K.
+      - Fujimori K.
+      - Tanai H.
+      - Kimata M.
+      - Watanabe M.
+      - Hiraoka S.
+      - Chiba Y.
+      - Ishida S.
+      - Ono Y.
+      - Takiguchi S.
+      - Watanabe S.
+      - Yosida M.
+      - Hotuta T.
+      - Kusano J.
+      - Kanehori K.
+      - Takahashi-Fujii A.
+      - Hara H.
+      - Tanase T.-O.
+      - Nomura Y.
+      - Togiya S.
+      - Komai F.
+      - Hara R.
+      - Takeuchi K.
+      - Arita M.
+      - Imose N.
+      - Musashino K.
+      - Yuuki H.
+      - Oshima A.
+      - Sasaki N.
+      - Aotsuka S.
+      - Yoshikawa Y.
+      - Matsunawa H.
+      - Ichihara T.
+      - Shiohata N.
+      - Sano S.
+      - Moriya S.
+      - Momiyama H.
+      - Satoh N.
+      - Takami S.
+      - Terashima Y.
+      - Suzuki O.
+      - Nakagawa S.
+      - Senoh A.
+      - Mizoguchi H.
+      - Goto Y.
+      - Shimizu F.
+      - Wakebe H.
+      - Hishigaki H.
+      - Watanabe T.
+      - Sugiyama A.
+      - Takemoto M.
+      - Kawakami B.
+      - Yamazaki M.
+      - Watanabe K.
+      - Kumagai A.
+      - Itakura S.
+      - Fukuzumi Y.
+      - Fujimori Y.
+      - Komiyama M.
+      - Tashiro H.
+      - Tanigami A.
+      - Fujiwara T.
+      - Ono T.
+      - Yamada K.
+      - Fujii Y.
+      - Ozaki K.
+      - Hirao M.
+      - Ohmori Y.
+      - Kawabata A.
+      - Hikiji T.
+      - Kobatake N.
+      - Inagaki H.
+      - Ikema Y.
+      - Okamoto S.
+      - Okitani R.
+      - Kawakami T.
+      - Noguchi S.
+      - Itoh T.
+      - Shigeta K.
+      - Senba T.
+      - Matsumura K.
+      - Nakajima Y.
+      - Mizuno T.
+      - Morinaga M.
+      - Sasaki M.
+      - Togashi T.
+      - Oyama M.
+      - Hata H.
+      - Watanabe M.
+      - Komatsu T.
+      - Mizushima-Sugano J.
+      - Satoh T.
+      - Shirai Y.
+      - Takahashi Y.
+      - Nakagawa K.
+      - Okumura K.
+      - Nagase T.
+      - Nomura N.
+      - Kikuchi H.
+      - Masuho Y.
+      - Yamashita R.
+      - Nakai K.
+      - Yada T.
+      - Nakamura Y.
+      - Ohara O.
+      - Isogai T.
+      - Sugano S.
+      dbReferences:
+      - id: '14702039'
+        type: PubMed
+      - id: 10.1038/ng1285
+        type: DOI
+      location:
+        firstPage: '40'
+        lastPage: '45'
+        volume: '36'
+      publication:
+        journalName: Nat. Genet.
+      publicationDate: '2004'
+      title: Complete sequencing and characterization of 21,243 full-length human
+        cDNAs.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 3)
+    source:
+      tissue:
+      - value: Testis
+  - citation:
+      authors:
+      - Martin J.
+      - Han C.
+      - Gordon L.A.
+      - Terry A.
+      - Prabhakar S.
+      - She X.
+      - Xie G.
+      - Hellsten U.
+      - Chan Y.M.
+      - Altherr M.
+      - Couronne O.
+      - Aerts A.
+      - Bajorek E.
+      - Black S.
+      - Blumer H.
+      - Branscomb E.
+      - Brown N.C.
+      - Bruno W.J.
+      - Buckingham J.M.
+      - Callen D.F.
+      - Campbell C.S.
+      - Campbell M.L.
+      - Campbell E.W.
+      - Caoile C.
+      - Challacombe J.F.
+      - Chasteen L.A.
+      - Chertkov O.
+      - Chi H.C.
+      - Christensen M.
+      - Clark L.M.
+      - Cohn J.D.
+      - Denys M.
+      - Detter J.C.
+      - Dickson M.
+      - Dimitrijevic-Bussod M.
+      - Escobar J.
+      - Fawcett J.J.
+      - Flowers D.
+      - Fotopulos D.
+      - Glavina T.
+      - Gomez M.
+      - Gonzales E.
+      - Goodstein D.
+      - Goodwin L.A.
+      - Grady D.L.
+      - Grigoriev I.
+      - Groza M.
+      - Hammon N.
+      - Hawkins T.
+      - Haydu L.
+      - Hildebrand C.E.
+      - Huang W.
+      - Israni S.
+      - Jett J.
+      - Jewett P.B.
+      - Kadner K.
+      - Kimball H.
+      - Kobayashi A.
+      - Krawczyk M.-C.
+      - Leyba T.
+      - Longmire J.L.
+      - Lopez F.
+      - Lou Y.
+      - Lowry S.
+      - Ludeman T.
+      - Manohar C.F.
+      - Mark G.A.
+      - McMurray K.L.
+      - Meincke L.J.
+      - Morgan J.
+      - Moyzis R.K.
+      - Mundt M.O.
+      - Munk A.C.
+      - Nandkeshwar R.D.
+      - Pitluck S.
+      - Pollard M.
+      - Predki P.
+      - Parson-Quintana B.
+      - Ramirez L.
+      - Rash S.
+      - Retterer J.
+      - Ricke D.O.
+      - Robinson D.L.
+      - Rodriguez A.
+      - Salamov A.
+      - Saunders E.H.
+      - Scott D.
+      - Shough T.
+      - Stallings R.L.
+      - Stalvey M.
+      - Sutherland R.D.
+      - Tapia R.
+      - Tesmer J.G.
+      - Thayer N.
+      - Thompson L.S.
+      - Tice H.
+      - Torney D.C.
+      - Tran-Gyamfi M.
+      - Tsai M.
+      - Ulanovsky L.E.
+      - Ustaszewska A.
+      - Vo N.
+      - White P.S.
+      - Williams A.L.
+      - Wills P.L.
+      - Wu J.-R.
+      - Wu K.
+      - Yang J.
+      - DeJong P.
+      - Bruce D.
+      - Doggett N.A.
+      - Deaven L.
+      - Schmutz J.
+      - Grimwood J.
+      - Richardson P.
+      - Rokhsar D.S.
+      - Eichler E.E.
+      - Gilna P.
+      - Lucas S.M.
+      - Myers R.M.
+      - Rubin E.M.
+      - Pennacchio L.A.
+      dbReferences:
+      - id: '15616553'
+        type: PubMed
+      - id: 10.1038/nature03187
+        type: DOI
+      location:
+        firstPage: '988'
+        lastPage: '994'
+        volume: '432'
+      publication:
+        journalName: Nature
+      publicationDate: '2004'
+      title: The sequence and analysis of duplication-rich human chromosome 16.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      authors:
+      - Mural R.J.
+      - Istrail S.
+      - Sutton G.G.
+      - Florea L.
+      - Halpern A.L.
+      - Mobarry C.M.
+      - Lippert R.
+      - Walenz B.
+      - Shatkay H.
+      - Dew I.
+      - Miller J.R.
+      - Flanigan M.J.
+      - Edwards N.J.
+      - Bolanos R.
+      - Fasulo D.
+      - Halldorsson B.V.
+      - Hannenhalli S.
+      - Turner R.
+      - Yooseph S.
+      - Lu F.
+      - Nusskern D.R.
+      - Shue B.C.
+      - Zheng X.H.
+      - Zhong F.
+      - Delcher A.L.
+      - Huson D.H.
+      - Kravitz S.A.
+      - Mouchard L.
+      - Reinert K.
+      - Remington K.A.
+      - Clark A.G.
+      - Waterman M.S.
+      - Eichler E.E.
+      - Adams M.D.
+      - Hunkapiller M.W.
+      - Myers E.W.
+      - Venter J.C.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: JUL-2005
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      authors:
+      - Gu H.
+      - Wall S.C.
+      - Rudnick G.
+      dbReferences:
+      - id: '8125921'
+        type: PubMed
+      - id: 10.1016/s0021-9258(17)37256-3
+        type: DOI
+      location:
+        firstPage: '7124'
+        lastPage: '7130'
+        volume: '269'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '1994'
+      title: Stable expression of biogenic amine transporters reveals differences
+        in inhibitor sensitivity, kinetics, and ion dependence.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+  - citation:
+      authors:
+      - Syringas M.
+      - Janin F.
+      - Mezghanni S.
+      - Giros B.
+      - Costentin J.
+      - Bonnet J.J.
+      dbReferences:
+      - id: '11093780'
+        type: PubMed
+      - id: 10.1124/mol.58.6.1404
+        type: DOI
+      location:
+        firstPage: '1404'
+        lastPage: '1411'
+        volume: '58'
+      publication:
+        journalName: Mol. Pharmacol.
+      publicationDate: '2000'
+      title: Structural domains of chimeric dopamine-noradrenaline human transporters
+        involved in the Na(+)- and Cl(-)-dependence of dopamine transport.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+  - citation:
+      authors:
+      - Torres G.E.
+      - Yao W.-D.
+      - Mohn A.R.
+      - Quan H.
+      - Kim K.-M.
+      - Levey A.I.
+      - Staudinger J.
+      - Caron M.G.
+      dbReferences:
+      - id: '11343649'
+        type: PubMed
+      - id: 10.1016/s0896-6273(01)00267-7
+        type: DOI
+      location:
+        firstPage: '121'
+        lastPage: '134'
+        volume: '30'
+      publication:
+        journalName: Neuron
+      publicationDate: '2001'
+      title: Functional interaction between monoamine plasma membrane transporters
+        and the synaptic PDZ domain-containing protein PICK1.
+      type: journal article
+    scope:
+    - INTERACTION WITH PRKCABP
+    - SUBCELLULAR LOCATION
+  - citation:
+      authors:
+      - Shannon J.R.
+      - Flattem N.L.
+      - Jordan J.
+      - Jacob G.
+      - Black B.K.
+      - Biaggioni I.
+      - Blakely R.D.
+      - Robertson D.
+      dbReferences:
+      - id: '10684912'
+        type: PubMed
+      - id: 10.1056/nejm200002243420803
+        type: DOI
+      location:
+        firstPage: '541'
+        lastPage: '549'
+        volume: '342'
+      publication:
+        journalName: N. Engl. J. Med.
+      publicationDate: '2000'
+      title: Orthostatic intolerance and tachycardia associated with norepinephrine-transporter
+        deficiency.
+      type: journal article
+    scope:
+    - VARIANT OI PRO-457
+  secondaryAccession:
+  - B2R707
+  - B4DX48
+  - Q96KH8
+  sequence:
+    length: 617
+    mass: 69332
+    modified: '1992-03-01'
+    sequence: MLLARMNPQVQPENNGADTGPEQPLRARKTAELLVVKERNGVQCLLAPRDGDAQPRETWGKKIDFLLSVVGFAVDLANVWRFPYLCYKNGGGAFLIPYTLFLIIAGMPLFYMELALGQYNREGAATVWKICPFFKGVGYAVILIALYVGFYYNVIIAWSLYYLFSSFTLNLPWTDCGHTWNSPNCTDPKLLNGSVLGNHTKYSKYKFTPAAEFYERGVLHLHESSGIHDIGLPQWQLLLCLMVVVIVLYFSLWKGVKTSGKVVWITATLPYFVLFVLLVHGVTLPGASNGINAYLHIDFYRLKEATVWIDAATQIFFSLGAGFGVLIAFASYNKFDNNCYRDALLTSSINCITSFVSGFAIFSILGYMAHEHKVNIEDVATEGAGLVFILYPEAISTLSGSTFWAVVFFVMLLALGLDSSMGGMEAVITGLADDFQVLKRHRKLFTFGVTFSTFLLALFCITKGGIYVLTLLDTFAAGTSILFAVLMEAIGVSWFYGVDRFSNDIQQMMGFRPGLYWRLCWKFVSPAFLLFVVVVSIINFKPLTYDDYIFPPWANWVGWGIALSSMVLVPIYVIYKFLSTQGSLWERLAYGITPENEHHLVAQRDIRQFQLQHWLAI
+    version: 1
+uniprot_id: P23975

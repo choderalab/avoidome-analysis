@@ -1,0 +1,3316 @@
+data:
+  accession: P46059
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15521010
+          id: '15521010'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15521010
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18367661
+          id: '18367661'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18367661
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19685173
+          id: '19685173'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19685173
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8914574
+          id: '8914574'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8914574
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9835627
+          id: '9835627'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9835627
+      value: Electrogenic proton-coupled amino-acid transporter that transports oligopeptides
+        of 2 to 4 amino acids with a preference for dipeptides. Transports neutral
+        and monovalently charged peptides with a proton to peptide stoichiometry of
+        1:1 or 2:1 (PubMed:7896779, PubMed:9835627, PubMed:8914574, PubMed:15521010,
+        PubMed:18367661, PubMed:19685173, PubMed:26320580) (By similarity). Primarily
+        responsible for the absorption of dietary di- and tripeptides from the small
+        intestinal lumen (By similarity). Mediates transepithelial transport of muramyl
+        and N-formylated bacterial dipeptides contributing to recognition of pathogenic
+        bacteria by the mucosal immune system (PubMed:9835627, PubMed:15521010)
+    type: FUNCTION
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:64393
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15521010
+          id: '15521010'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15521010
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18367661
+          id: '18367661'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18367661
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19685173
+          id: '19685173'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19685173
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8914574
+          id: '8914574'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8914574
+    reaction:
+      dbReferences:
+      - id: RHEA:64392
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:90799
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15521010
+          id: '15521010'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15521010
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18367661
+          id: '18367661'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18367661
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19685173
+          id: '19685173'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19685173
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8914574
+          id: '8914574'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8914574
+      name: a dipeptide(out) + H(+)(out) = a dipeptide(in) + H(+)(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:64401
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9835627
+          id: '9835627'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9835627
+    reaction:
+      dbReferences:
+      - id: RHEA:64400
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:155837
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9835627
+          id: '9835627'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9835627
+      name: an L-amino acid tripeptide(out) + H(+)(out) = an L-amino acid tripeptide(in)
+        + H(+)(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:72612
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8914574
+          id: '8914574'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8914574
+    reaction:
+      dbReferences:
+      - id: RHEA:72611
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:192470
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8914574
+          id: '8914574'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8914574
+      name: H(+)(out) + L-alanyl-L-lysine(out) = H(+)(in) + L-alanyl-L-lysine(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:64421
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+    reaction:
+      dbReferences:
+      - id: RHEA:64420
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:155848
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+      name: H(+)(out) + L-alanyl-L-proline(out) = H(+)(in) + L-alanyl-L-proline(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:72616
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8914574
+          id: '8914574'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8914574
+    reaction:
+      dbReferences:
+      - id: RHEA:72615
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:192471
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8914574
+          id: '8914574'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8914574
+      name: H(+)(out) + L-alanyl-L-valine(out) = H(+)(in) + L-alanyl-L-valine(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:64405
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+    reaction:
+      dbReferences:
+      - id: RHEA:64404
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:57485
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+      name: carnosine(out) + H(+)(out) = carnosine(in) + H(+)(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:71672
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+    - dbReference:
+        id: RHEA:71673
+        type: Rhea
+      direction: right-to-left
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+    reaction:
+      dbReferences:
+      - id: RHEA:71671
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:74392
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+      name: glycyl-L-glutamine(out) + H(+)(out) = glycyl-L-glutamine(in) + H(+)(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:71676
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+    reaction:
+      dbReferences:
+      - id: RHEA:71675
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:143163
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+      name: glycyl-L-leucine(out) + H(+)(out) = glycyl-L-leucine(in) + H(+)(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:64429
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+    reaction:
+      dbReferences:
+      - id: RHEA:64428
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:73779
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+      name: glycyl-L-proline(out) + H(+)(out) = glycyl-L-proline(in) + H(+)(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:64397
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15521010
+          id: '15521010'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15521010
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18367661
+          id: '18367661'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18367661
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19685173
+          id: '19685173'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19685173
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26320580
+          id: '26320580'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26320580
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9835627
+          id: '9835627'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9835627
+    reaction:
+      dbReferences:
+      - id: RHEA:64396
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:155838
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15521010
+          id: '15521010'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15521010
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/18367661
+          id: '18367661'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/18367661
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/19685173
+          id: '19685173'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/19685173
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/26320580
+          id: '26320580'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/26320580
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9835627
+          id: '9835627'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9835627
+      name: glycyl-sarcosine(out) + H(+)(out) = glycyl-sarcosine(in) + H(+)(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:71716
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+    reaction:
+      dbReferences:
+      - id: RHEA:71715
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:191208
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+      name: H(+)(out) + L-leucyl-L-leucine(out) = H(+)(in) + L-leucyl-L-leucine(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:64425
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+    reaction:
+      dbReferences:
+      - id: RHEA:64424
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:155847
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+      name: H(+)(out) + L-leucyl-L-proline(out) = H(+)(in) + L-leucyl-L-proline(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:71700
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+    reaction:
+      dbReferences:
+      - id: RHEA:71699
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:190710
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+      name: H(+)(out) + L-phenylalanyl-L-leucine(out) = H(+)(in) + L-phenylalanyl-L-leucine(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:71708
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+    reaction:
+      dbReferences:
+      - id: RHEA:71707
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:191205
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+      name: H(+)(out) + L-phenylalanyl-L-phenylalanine(out) = H(+)(in) + L-phenylalanyl-L-phenylalanine(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:71680
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+    - dbReference:
+        id: RHEA:71681
+        type: Rhea
+      direction: right-to-left
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+    reaction:
+      dbReferences:
+      - id: RHEA:71679
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:191202
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+      name: H(+)(out) + L-lysyl-glycine(out) = H(+)(in) + L-lysyl-glycine(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:71712
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+    reaction:
+      dbReferences:
+      - id: RHEA:71711
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:191210
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+      name: H(+)(out) + L-tyrosylglycine(out) = H(+)(in) + L-tyrosylglycine(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:71696
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8914574
+          id: '8914574'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8914574
+    reaction:
+      dbReferences:
+      - id: RHEA:71695
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:74363
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8914574
+          id: '8914574'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8914574
+      name: 2 H(+)(out) + L-alanyl-L-aspartate(out) = 2 H(+)(in) + L-alanyl-L-aspartate(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:71684
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+    reaction:
+      dbReferences:
+      - id: RHEA:71683
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:191203
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+      name: 2 H(+)(out) + L-aspartyl-glycine(out) = 2 H(+)(in) + L-aspartyl-glycine(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:71688
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+    - dbReference:
+        id: RHEA:71689
+        type: Rhea
+      direction: right-to-left
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+    reaction:
+      dbReferences:
+      - id: RHEA:71687
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:191204
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+      name: glycyl-L-aspartate(out) + 2 H(+)(out) = glycyl-L-aspartate(in) + 2 H(+)(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:71692
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+    reaction:
+      dbReferences:
+      - id: RHEA:71691
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:73784
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+      name: glycyl-L-glutamate(out) + 2 H(+)(out) = glycyl-L-glutamate(in) + 2 H(+)(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:71724
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+    reaction:
+      dbReferences:
+      - id: RHEA:71723
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:191212
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+      name: H(+)(out) + L-alanyl-L-leucyl-L-alanine(out) = H(+)(in) + L-alanyl-L-leucyl-L-alanine(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:64433
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+    reaction:
+      dbReferences:
+      - id: RHEA:64432
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:155849
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+      name: H(+)(out) + L-alanyl-L-prolylglycine(out) = H(+)(in) + L-alanyl-L-prolylglycine(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:64437
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+    reaction:
+      dbReferences:
+      - id: RHEA:64436
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:155850
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+      name: glycylglycyl-L-isoleucine(out) + H(+)(out) = glycylglycyl-L-isoleucine(in)
+        + H(+)(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:64441
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+    reaction:
+      dbReferences:
+      - id: RHEA:64440
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:155851
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+      name: glycylglycyl-L-proline(out) + H(+)(out) = glycylglycyl-L-proline(in) +
+        H(+)(in)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:71720
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+    reaction:
+      dbReferences:
+      - id: RHEA:71719
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:191211
+        type: ChEBI
+      evidences:
+      - code: ECO:0000250
+        source:
+          id: P36836
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P36836
+      name: H(+)(out) + L-methionyl-L-phenylalanyl-L-methionine(out) = H(+)(in) +
+        L-methionyl-L-phenylalanyl-L-methionine(in)
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:64408
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:155830
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15521010
+          id: '15521010'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15521010
+      name: 2 H(+)(out) + N-acetyl-D-muramoyl-L-alanyl-D-isoglutamine(out) = 2 H(+)(in)
+        + N-acetyl-D-muramoyl-L-alanyl-D-isoglutamine(in)
+    type: CATALYTIC_ACTIVITY
+  - reaction:
+      dbReferences:
+      - id: RHEA:75399
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:194314
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9835627
+          id: '9835627'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9835627
+      name: 2 H(+)(out) + N-formyl-L-methionyl-L-leucyl-L-phenylalanine(out) = 2 H(+)(in)
+        + N-formyl-L-methionyl-L-leucyl-L-phenylalanine(in)
+    type: CATALYTIC_ACTIVITY
+  - kinetics:
+      km:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/26320580
+            id: '26320580'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/26320580
+        value: 0.78 mM for glycyl-sarcosine
+    type: BIOPHYSICOCHEMICAL_PROPERTIES
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: Q9JIP7
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/Q9JIP7
+      value: Interacts (via extracellular domain region) with trypsin
+    type: SUBUNIT
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/28408210
+            id: '28408210'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/28408210
+        value: Apical cell membrane
+      topology:
+        evidences:
+        - code: ECO:0000255
+        value: Multi-pass membrane protein
+    text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/28408210
+          id: '28408210'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/28408210
+      value: Localized to the apical membrane of enterocytes
+    type: SUBCELLULAR_LOCATION
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/28408210
+          id: '28408210'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/28408210
+      value: Expressed in small intestine
+    type: TISSUE_SPECIFICITY
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: Q9JIP7
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/Q9JIP7
+      value: The extracellular domain (ECD) region specifically binds trypsin
+    type: DOMAIN
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the major facilitator superfamily. Proton-dependent oligopeptide
+        transporter (POT/PTR) (TC 2.A.17) family
+    type: SIMILARITY
+  dbReferences:
+  - id: U13173
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAB61693.1
+    type: EMBL
+  - id: U21936
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA63797.1
+    type: EMBL
+  - id: AL391670
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: AL353574
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: BC096328
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH96328.1
+    type: EMBL
+  - id: BC096329
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH96329.1
+    type: EMBL
+  - id: CCDS9489.1
+    type: CCDS
+  - id: A56163
+    properties:
+      entry name: A56163
+    type: PIR
+  - id: NP_005064.1
+    properties:
+      nucleotide sequence ID: NM_005073.3
+    type: RefSeq
+  - id: 7PMW
+    properties:
+      chains: A=1-708
+      method: EM
+      resolution: 4.10 A
+    type: PDB
+  - id: 7PMX
+    properties:
+      chains: A=1-708
+      method: EM
+      resolution: 3.50 A
+    type: PDB
+  - id: 7PN1
+    properties:
+      chains: A=1-708
+      method: EM
+      resolution: 3.90 A
+    type: PDB
+  - id: 7PMW
+    type: PDBsum
+  - id: 7PMX
+    type: PDBsum
+  - id: 7PN1
+    type: PDBsum
+  - id: P46059
+    type: AlphaFoldDB
+  - id: EMD-13542
+    type: EMDB
+  - id: EMD-13543
+    type: EMDB
+  - id: EMD-13545
+    type: EMDB
+  - id: P46059
+    type: SMR
+  - id: '112452'
+    properties:
+      interactions: '82'
+    type: BioGRID
+  - id: P46059
+    properties:
+      interactions: '64'
+    type: IntAct
+  - id: 9606.ENSP00000365686
+    type: STRING
+  - id: P46059
+    type: BindingDB
+  - id: CHEMBL4605
+    type: ChEMBL
+  - id: DB00855
+    properties:
+      generic name: Aminolevulinic acid
+    type: DrugBank
+  - id: DB01060
+    properties:
+      generic name: Amoxicillin
+    type: DrugBank
+  - id: DB00415
+    properties:
+      generic name: Ampicillin
+    type: DrugBank
+  - id: DB08795
+    properties:
+      generic name: Azidocillin
+    type: DrugBank
+  - id: DB00542
+    properties:
+      generic name: Benazepril
+    type: DrugBank
+  - id: DB03793
+    properties:
+      generic name: Benzoic acid
+    type: DrugBank
+  - id: DB01053
+    properties:
+      generic name: Benzylpenicillin
+    type: DrugBank
+  - id: DB01197
+    properties:
+      generic name: Captopril
+    type: DrugBank
+  - id: DB00833
+    properties:
+      generic name: Cefaclor
+    type: DrugBank
+  - id: DB01140
+    properties:
+      generic name: Cefadroxil
+    type: DrugBank
+  - id: DB00456
+    properties:
+      generic name: Cefalotin
+    type: DrugBank
+  - id: DB00535
+    properties:
+      generic name: Cefdinir
+    type: DrugBank
+  - id: DB01413
+    properties:
+      generic name: Cefepime
+    type: DrugBank
+  - id: DB00671
+    properties:
+      generic name: Cefixime
+    type: DrugBank
+  - id: DB00274
+    properties:
+      generic name: Cefmetazole
+    type: DrugBank
+  - id: DB00493
+    properties:
+      generic name: Cefotaxime
+    type: DrugBank
+  - id: DB01333
+    properties:
+      generic name: Cefradine
+    type: DrugBank
+  - id: DB01415
+    properties:
+      generic name: Ceftibuten
+    type: DrugBank
+  - id: DB01332
+    properties:
+      generic name: Ceftizoxime
+    type: DrugBank
+  - id: DB01212
+    properties:
+      generic name: Ceftriaxone
+    type: DrugBank
+  - id: DB01112
+    properties:
+      generic name: Cefuroxime
+    type: DrugBank
+  - id: DB00567
+    properties:
+      generic name: Cephalexin
+    type: DrugBank
+  - id: DB00672
+    properties:
+      generic name: Chlorpropamide
+    type: DrugBank
+  - id: DB01340
+    properties:
+      generic name: Cilazapril
+    type: DrugBank
+  - id: DB01147
+    properties:
+      generic name: Cloxacillin
+    type: DrugBank
+  - id: DB01000
+    properties:
+      generic name: Cyclacillin
+    type: DrugBank
+  - id: DB09213
+    properties:
+      generic name: Dexibuprofen
+    type: DrugBank
+  - id: DB00485
+    properties:
+      generic name: Dicloxacillin
+    type: DrugBank
+  - id: DB00584
+    properties:
+      generic name: Enalapril
+    type: DrugBank
+  - id: DB01095
+    properties:
+      generic name: Fluvastatin
+    type: DrugBank
+  - id: DB00492
+    properties:
+      generic name: Fosinopril
+    type: DrugBank
+  - id: DB01016
+    properties:
+      generic name: Glyburide
+    type: DrugBank
+  - id: DB01235
+    properties:
+      generic name: Levodopa
+    type: DrugBank
+  - id: DB01255
+    properties:
+      generic name: Lisdexamfetamine
+    type: DrugBank
+  - id: DB00722
+    properties:
+      generic name: Lisinopril
+    type: DrugBank
+  - id: DB00447
+    properties:
+      generic name: Loracarbef
+    type: DrugBank
+  - id: DB00563
+    properties:
+      generic name: Methotrexate
+    type: DrugBank
+  - id: DB00968
+    properties:
+      generic name: Methyldopa
+    type: DrugBank
+  - id: DB00211
+    properties:
+      generic name: Midodrine
+    type: DrugBank
+  - id: DB00691
+    properties:
+      generic name: Moexipril
+    type: DrugBank
+  - id: DB00731
+    properties:
+      generic name: Nateglinide
+    type: DrugBank
+  - id: DB00198
+    properties:
+      generic name: Oseltamivir
+    type: DrugBank
+  - id: DB00713
+    properties:
+      generic name: Oxacillin
+    type: DrugBank
+  - id: DB00790
+    properties:
+      generic name: Perindopril
+    type: DrugBank
+  - id: DB00417
+    properties:
+      generic name: Phenoxymethylpenicillin
+    type: DrugBank
+  - id: DB00881
+    properties:
+      generic name: Quinapril
+    type: DrugBank
+  - id: DB00178
+    properties:
+      generic name: Ramipril
+    type: DrugBank
+  - id: DB01348
+    properties:
+      generic name: Spirapril
+    type: DrugBank
+  - id: DB01956
+    properties:
+      generic name: Taurine
+    type: DrugBank
+  - id: DB08836
+    properties:
+      generic name: Temocapril
+    type: DrugBank
+  - id: DB01124
+    properties:
+      generic name: Tolbutamide
+    type: DrugBank
+  - id: DB00519
+    properties:
+      generic name: Trandolapril
+    type: DrugBank
+  - id: DB03424
+    properties:
+      generic name: Ubenimex
+    type: DrugBank
+  - id: DB00577
+    properties:
+      generic name: Valaciclovir
+    type: DrugBank
+  - id: DB01610
+    properties:
+      generic name: Valganciclovir
+    type: DrugBank
+  - id: P46059
+    type: DrugCentral
+  - id: '984'
+    type: GuidetoPHARMACOLOGY
+  - id: 2.A.17.4.9
+    properties:
+      family name: the proton-dependent oligopeptide transporter (pot/ptr) family
+    type: TCDB
+  - id: P46059
+    properties:
+      glycosylation: 7 sites, No reported glycans
+    type: GlyCosmos
+  - id: P46059
+    properties:
+      glycosylation: 7 sites
+    type: GlyGen
+  - id: P46059
+    type: iPTMnet
+  - id: P46059
+    type: PhosphoSitePlus
+  - id: SLC15A1
+    type: BioMuta
+  - id: '1172435'
+    type: DMDM
+  - id: P46059
+    type: MassIVE
+  - id: 9606-ENSP00000365686
+    type: PaxDb
+  - id: P46059
+    type: PeptideAtlas
+  - id: '55711'
+    type: ProteomicsDB
+  - id: '10820'
+    properties:
+      antibodies: 273 antibodies from 31 providers
+    type: Antibodypedia
+  - id: '6564'
+    type: DNASU
+  - id: ENST00000376503.10
+    properties:
+      gene ID: ENSG00000088386.17
+      protein sequence ID: ENSP00000365686.4
+    type: Ensembl
+  - id: '6564'
+    type: GeneID
+  - id: hsa:6564
+    type: KEGG
+  - id: ENST00000376503.10
+    properties:
+      RefSeq nucleotide sequence ID: NM_005073.4
+      RefSeq protein sequence ID: NP_005064.1
+      protein sequence ID: ENSP00000365686.4
+    type: MANE-Select
+  - id: uc001vno.4
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:10920
+    type: AGR
+  - id: '6564'
+    type: CTD
+  - id: '6564'
+    type: DisGeNET
+  - id: SLC15A1
+    type: GeneCards
+  - id: HGNC:10920
+    properties:
+      gene designation: SLC15A1
+    type: HGNC
+  - id: ENSG00000088386
+    properties:
+      expression patterns: Tissue enriched (intestine)
+    type: HPA
+  - id: '600544'
+    properties:
+      type: gene
+    type: MIM
+  - id: NX_P46059
+    type: neXtProt
+  - id: ENSG00000088386
+    type: OpenTargets
+  - id: PA323
+    type: PharmGKB
+  - id: HostDB:ENSG00000088386
+    type: VEuPathDB
+  - id: KOG1237
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000155995
+    type: GeneTree
+  - id: CLU_004790_3_0_1
+    type: HOGENOM
+  - id: P46059
+    type: InParanoid
+  - id: FMTFDAD
+    type: OMA
+  - id: 930761at2759
+    type: OrthoDB
+  - id: P46059
+    type: PhylomeDB
+  - id: TF330897
+    type: TreeFam
+  - id: P46059
+    type: PathwayCommons
+  - id: R-HSA-427975
+    properties:
+      pathway name: Proton/oligopeptide cotransporters
+    type: Reactome
+  - id: P46059
+    type: SignaLink
+  - id: '6564'
+    properties:
+      hits: 11 hits in 1140 CRISPR screens
+    type: BioGRID-ORCS
+  - id: SLC15A1
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: Peptide_transporter_1
+    type: GeneWiki
+  - id: '6564'
+    type: GenomeRNAi
+  - id: P46059
+    properties:
+      development level: Tchem
+    type: Pharos
+  - id: PR:P46059
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 13
+    type: Proteomes
+  - id: P46059
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000088386
+    properties:
+      expression patterns: Expressed in duodenum and 106 other cell types or tissues
+    type: Bgee
+  - id: P46059
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: P46059
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/28408210
+        id: '28408210'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/28408210
+    id: GO:0016324
+    properties:
+      source: IDA:UniProtKB
+      term: C:apical plasma membrane
+    type: GO
+  - id: GO:0005903
+    properties:
+      source: IEA:Ensembl
+      term: C:brush border
+    type: GO
+  - id: GO:0016020
+    properties:
+      source: ISS:ARUK-UCL
+      term: C:membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23137377
+        id: '23137377'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23137377
+    id: GO:0005886
+    properties:
+      source: IDA:ARUK-UCL
+      term: C:plasma membrane
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19685173
+        id: '19685173'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19685173
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8914574
+        id: '8914574'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8914574
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9835627
+        id: '9835627'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9835627
+    id: GO:0071916
+    properties:
+      source: IDA:UniProtKB
+      term: F:dipeptide transmembrane transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19685173
+        id: '19685173'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19685173
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8914574
+        id: '8914574'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8914574
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9835627
+        id: '9835627'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9835627
+    id: GO:0015333
+    properties:
+      source: IDA:UniProtKB
+      term: F:peptide:proton symporter activity
+    type: GO
+  - id: GO:0005427
+    properties:
+      source: IEA:Ensembl
+      term: F:proton-dependent oligopeptide secondary active transmembrane transporter
+        activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9835627
+        id: '9835627'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9835627
+    id: GO:0042937
+    properties:
+      source: IDA:UniProtKB
+      term: F:tripeptide transmembrane transporter activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19685173
+        id: '19685173'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19685173
+    id: GO:0140206
+    properties:
+      source: IDA:UniProtKB
+      term: P:dipeptide import across plasma membrane
+    type: GO
+  - id: GO:0006811
+    properties:
+      source: TAS:Reactome
+      term: P:monoatomic ion transport
+    type: GO
+  - id: GO:0015031
+    properties:
+      source: IEA:UniProtKB-KW
+      term: P:protein transport
+    type: GO
+  - id: GO:0140207
+    properties:
+      source: ISS:ARUK-UCL
+      term: P:tripeptide import across plasma membrane
+    type: GO
+  - id: cd17412
+    properties:
+      entry name: MFS_SLC15A1
+      match status: '1'
+    type: CDD
+  - id: 1.20.1250.20
+    properties:
+      entry name: MFS general substrate transporter like domains
+      match status: '2'
+    type: Gene3D
+  - id: IPR036259
+    properties:
+      entry name: MFS_trans_sf
+    type: InterPro
+  - id: IPR004768
+    properties:
+      entry name: Oligopep_transport
+    type: InterPro
+  - id: IPR000109
+    properties:
+      entry name: POT_fam
+    type: InterPro
+  - id: IPR018456
+    properties:
+      entry name: PTR2_symporter_CS
+    type: InterPro
+  - id: TIGR00926
+    properties:
+      entry name: 2A1704
+      match status: '1'
+    type: NCBIfam
+  - id: PTHR11654
+    properties:
+      entry name: OLIGOPEPTIDE TRANSPORTER-RELATED
+      match status: '1'
+    type: PANTHER
+  - id: PTHR11654:SF89
+    properties:
+      entry name: SOLUTE CARRIER FAMILY 15 MEMBER 1
+      match status: '1'
+    type: PANTHER
+  - id: PF00854
+    properties:
+      entry name: PTR2
+      match status: '2'
+    type: Pfam
+  - id: SSF103473
+    properties:
+      entry name: MFS general substrate transporter
+      match status: '1'
+    type: SUPFAM
+  - id: PS01022
+    properties:
+      entry name: PTR2_1
+      match status: '1'
+    type: PROSITE
+  - id: PS01023
+    properties:
+      entry name: PTR2_2
+      match status: '1'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Solute carrier family 15 member 1
+    end: '708'
+    ftId: PRO_0000064304
+    molecule: ''
+    type: CHAIN
+  - begin: '1'
+    category: TOPOLOGY
+    description: Helical
+    end: '21'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '22'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '53'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '54'
+    category: TOPOLOGY
+    description: Helical
+    end: '74'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '75'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '82'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '83'
+    category: TOPOLOGY
+    description: Helical
+    end: '103'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '104'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '118'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '119'
+    category: TOPOLOGY
+    description: Helical
+    end: '139'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '140'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '161'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '162'
+    category: TOPOLOGY
+    description: Helical
+    end: '182'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '183'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '198'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '199'
+    category: TOPOLOGY
+    description: Helical
+    end: '219'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '220'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '276'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '277'
+    category: TOPOLOGY
+    description: Helical
+    end: '297'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '298'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '327'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '328'
+    category: TOPOLOGY
+    description: Helical
+    end: '348'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '349'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '361'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '362'
+    category: TOPOLOGY
+    description: Helical
+    end: '382'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '383'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '584'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '585'
+    category: TOPOLOGY
+    description: Helical
+    end: '605'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '606'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '619'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '620'
+    category: TOPOLOGY
+    description: Helical
+    end: '640'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '641'
+    category: TOPOLOGY
+    description: Extracellular
+    end: '645'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '646'
+    category: TOPOLOGY
+    description: Helical
+    end: '666'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TRANSMEM
+  - begin: '667'
+    category: TOPOLOGY
+    description: Cytoplasmic
+    end: '708'
+    evidences:
+    - code: ECO:0000255
+    molecule: ''
+    type: TOPO_DOM
+  - begin: '383'
+    category: DOMAINS_AND_SITES
+    description: Extracellular domain (ECD)
+    end: '584'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q9JIP7
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q9JIP7
+    molecule: ''
+    type: REGION
+  - begin: '50'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '50'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '404'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '404'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '408'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '408'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '439'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '439'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '509'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '509'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '514'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '514'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - begin: '562'
+    category: PTM
+    description: N-linked (GlcNAc...) asparagine
+    end: '562'
+    evidences:
+    - code: ECO:0000255
+    ftId: ''
+    molecule: ''
+    type: CARBOHYD
+  - alternativeSequence: I
+    begin: '21'
+    category: VARIANTS
+    description: in dbSNP:rs8187818
+    end: '21'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16258023
+        id: '16258023'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16258023
+    ftId: VAR_029321
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: Y
+    begin: '28'
+    category: VARIANTS
+    description: in dbSNP:rs8187817
+    end: '28'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16258023
+        id: '16258023'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16258023
+    ftId: VAR_029322
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: N
+    begin: '117'
+    category: VARIANTS
+    description: in dbSNP:rs2297322
+    end: '117'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12436193
+        id: '12436193'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12436193
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16258023
+        id: '16258023'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16258023
+    ftId: VAR_022147
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: R
+    begin: '117'
+    category: VARIANTS
+    description: in dbSNP:rs8187821
+    end: '117'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16258023
+        id: '16258023'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16258023
+    ftId: VAR_029323
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: M
+    begin: '122'
+    category: VARIANTS
+    description: in dbSNP:rs8187820
+    end: '122'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16258023
+        id: '16258023'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16258023
+    ftId: VAR_020456
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: A
+    begin: '419'
+    category: VARIANTS
+    description: in dbSNP:rs4646227
+    end: '419'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12436193
+        id: '12436193'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12436193
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16258023
+        id: '16258023'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16258023
+    ftId: VAR_020457
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: I
+    begin: '450'
+    category: VARIANTS
+    description: in dbSNP:rs2274828
+    end: '450'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16258023
+        id: '16258023'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16258023
+    ftId: VAR_022148
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: N
+    begin: '451'
+    category: VARIANTS
+    description: in dbSNP:rs8187838
+    end: '451'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16258023
+        id: '16258023'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16258023
+    ftId: VAR_020458
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: C
+    begin: '459'
+    category: VARIANTS
+    description: in dbSNP:rs2274827
+    end: '459'
+    ftId: VAR_022149
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: S
+    begin: '537'
+    category: VARIANTS
+    description: in dbSNP:rs8187830
+    end: '537'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16258023
+        id: '16258023'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16258023
+    ftId: VAR_029324
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: A
+    begin: '573'
+    category: MUTAGENESIS
+    description: Does not affect peptide transporter activity.
+    end: '573'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/26320580
+        id: '26320580'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/26320580
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: C
+    begin: '588'
+    category: MUTAGENESIS
+    description: Reduced peptide transporter activity.
+    end: '588'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19685173
+        id: '19685173'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19685173
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: A
+    begin: '594'
+    category: MUTAGENESIS
+    description: Does not affect peptide transporter activity.
+    end: '594'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19685173
+        id: '19685173'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19685173
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: C
+    begin: '594'
+    category: MUTAGENESIS
+    description: Nearly abolished peptide transporter activity.
+    end: '594'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19685173
+        id: '19685173'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19685173
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: V
+    begin: '594'
+    category: MUTAGENESIS
+    description: Abolished peptide transporter activity.
+    end: '594'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19685173
+        id: '19685173'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19685173
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: C
+    begin: '595'
+    category: MUTAGENESIS
+    description: Nearly abolished peptide transporter activity.
+    end: '595'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19685173
+        id: '19685173'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19685173
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: D
+    begin: '595'
+    category: MUTAGENESIS
+    description: Does not affect peptide transporter activity.
+    end: '595'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19685173
+        id: '19685173'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19685173
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: K,R
+    begin: '595'
+    category: MUTAGENESIS
+    description: Abolished peptide transporter activity.
+    end: '595'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19685173
+        id: '19685173'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19685173
+    molecule: ''
+    type: MUTAGEN
+  - begin: '13'
+    category: STRUCTURAL
+    end: '44'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '51'
+    category: STRUCTURAL
+    end: '55'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '56'
+    category: STRUCTURAL
+    end: '58'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: STRAND
+  - begin: '59'
+    category: STRUCTURAL
+    end: '61'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: TURN
+  - begin: '62'
+    category: STRUCTURAL
+    end: '65'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '67'
+    category: STRUCTURAL
+    end: '74'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '75'
+    category: STRUCTURAL
+    end: '78'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: TURN
+  - begin: '79'
+    category: STRUCTURAL
+    end: '107'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '118'
+    category: STRUCTURAL
+    end: '148'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '156'
+    category: STRUCTURAL
+    end: '184'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '198'
+    category: STRUCTURAL
+    end: '218'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '219'
+    category: STRUCTURAL
+    end: '222'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: TURN
+  - begin: '232'
+    category: STRUCTURAL
+    end: '248'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '262'
+    category: STRUCTURAL
+    end: '265'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '266'
+    category: STRUCTURAL
+    end: '268'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: TURN
+  - begin: '271'
+    category: STRUCTURAL
+    end: '285'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '290'
+    category: STRUCTURAL
+    end: '292'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '293'
+    category: STRUCTURAL
+    end: '297'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '299'
+    category: STRUCTURAL
+    end: '310'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '322'
+    category: STRUCTURAL
+    end: '326'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '327'
+    category: STRUCTURAL
+    end: '342'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '344'
+    category: STRUCTURAL
+    end: '350'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '357'
+    category: STRUCTURAL
+    end: '383'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '394'
+    category: STRUCTURAL
+    end: '401'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: STRAND
+  - begin: '403'
+    category: STRUCTURAL
+    end: '405'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: STRAND
+  - begin: '407'
+    category: STRUCTURAL
+    end: '411'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: STRAND
+  - begin: '414'
+    category: STRUCTURAL
+    end: '418'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: STRAND
+  - begin: '428'
+    category: STRUCTURAL
+    end: '431'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: STRAND
+  - begin: '432'
+    category: STRUCTURAL
+    end: '434'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '439'
+    category: STRUCTURAL
+    end: '441'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: STRAND
+  - begin: '458'
+    category: STRUCTURAL
+    end: '466'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: STRAND
+  - begin: '469'
+    category: STRUCTURAL
+    end: '474'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: STRAND
+  - begin: '482'
+    category: STRUCTURAL
+    end: '484'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '486'
+    category: STRUCTURAL
+    end: '492'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: STRAND
+  - begin: '494'
+    category: STRUCTURAL
+    end: '496'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: STRAND
+  - begin: '498'
+    category: STRUCTURAL
+    end: '502'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: STRAND
+  - begin: '505'
+    category: STRUCTURAL
+    end: '510'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: STRAND
+  - begin: '519'
+    category: STRUCTURAL
+    end: '521'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: STRAND
+  - begin: '527'
+    category: STRUCTURAL
+    end: '535'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: STRAND
+  - begin: '542'
+    category: STRUCTURAL
+    end: '544'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: STRAND
+  - begin: '553'
+    category: STRUCTURAL
+    end: '560'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: STRAND
+  - begin: '566'
+    category: STRUCTURAL
+    end: '574'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: STRAND
+  - begin: '581'
+    category: STRUCTURAL
+    end: '584'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '585'
+    category: STRUCTURAL
+    end: '609'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '615'
+    category: STRUCTURAL
+    end: '636'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '644'
+    category: STRUCTURAL
+    end: '650'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '651'
+    category: STRUCTURAL
+    end: '655'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: TURN
+  - begin: '656'
+    category: STRUCTURAL
+    end: '667'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '671'
+    category: STRUCTURAL
+    end: '673'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '676'
+    category: STRUCTURAL
+    end: '679'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  - begin: '680'
+    category: STRUCTURAL
+    end: '682'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7PMX
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7PMX
+    molecule: ''
+    type: HELIX
+  gene:
+  - name:
+      evidences:
+      - code: ECO:0000312
+        source:
+          id: HGNC:10920
+          name: HGNC
+          url: https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=HGNC:10920
+      value: SLC15A1
+    synonyms:
+    - evidences:
+      - code: ECO:0000303
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7896779
+          id: '7896779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+      value: PEPT1
+  id: S15A1_HUMAN
+  info:
+    created: '1995-11-01'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 181
+  keywords:
+  - value: 3D-structure
+  - value: Cell membrane
+  - value: Glycoprotein
+  - value: Membrane
+  - value: Peptide transport
+  - value: Protein transport
+  - value: Reference proteome
+  - value: Symport
+  - value: Transmembrane
+  - value: Transmembrane helix
+  - value: Transport
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        evidences:
+        - code: ECO:0000303
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/7896779
+            id: '7896779'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+        value: Intestinal H(+)/peptide cotransporter
+    - fullName:
+        evidences:
+        - code: ECO:0000303
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/7896779
+            id: '7896779'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+        value: Oligopeptide transporter, small intestine isoform
+    - fullName:
+        evidences:
+        - code: ECO:0000303
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/7896779
+            id: '7896779'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/7896779
+        value: Peptide transporter 1
+    recommendedName:
+      fullName:
+        evidences:
+        - code: ECO:0000305
+        value: Solute carrier family 15 member 1
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Liang R.
+      - Fei Y.-J.
+      - Prasad P.D.
+      - Ramamoorthy S.
+      - Han H.
+      - Yang-Feng T.L.
+      - Hediger M.A.
+      - Ganapathy V.
+      - Leibach F.H.
+      dbReferences:
+      - id: '7896779'
+        type: PubMed
+      - id: 10.1074/jbc.270.12.6456
+        type: DOI
+      location:
+        firstPage: '6456'
+        lastPage: '6463'
+        volume: '270'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '1995'
+      title: Human intestinal H+/peptide cotransporter. Cloning, functional expression,
+        and chromosomal localization.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA]
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+    source:
+      tissue:
+      - value: Intestine
+  - citation:
+      authors:
+      - Dunham A.
+      - Matthews L.H.
+      - Burton J.
+      - Ashurst J.L.
+      - Howe K.L.
+      - Ashcroft K.J.
+      - Beare D.M.
+      - Burford D.C.
+      - Hunt S.E.
+      - Griffiths-Jones S.
+      - Jones M.C.
+      - Keenan S.J.
+      - Oliver K.
+      - Scott C.E.
+      - Ainscough R.
+      - Almeida J.P.
+      - Ambrose K.D.
+      - Andrews D.T.
+      - Ashwell R.I.S.
+      - Babbage A.K.
+      - Bagguley C.L.
+      - Bailey J.
+      - Bannerjee R.
+      - Barlow K.F.
+      - Bates K.
+      - Beasley H.
+      - Bird C.P.
+      - Bray-Allen S.
+      - Brown A.J.
+      - Brown J.Y.
+      - Burrill W.
+      - Carder C.
+      - Carter N.P.
+      - Chapman J.C.
+      - Clamp M.E.
+      - Clark S.Y.
+      - Clarke G.
+      - Clee C.M.
+      - Clegg S.C.
+      - Cobley V.
+      - Collins J.E.
+      - Corby N.
+      - Coville G.J.
+      - Deloukas P.
+      - Dhami P.
+      - Dunham I.
+      - Dunn M.
+      - Earthrowl M.E.
+      - Ellington A.G.
+      - Faulkner L.
+      - Frankish A.G.
+      - Frankland J.
+      - French L.
+      - Garner P.
+      - Garnett J.
+      - Gilbert J.G.R.
+      - Gilson C.J.
+      - Ghori J.
+      - Grafham D.V.
+      - Gribble S.M.
+      - Griffiths C.
+      - Hall R.E.
+      - Hammond S.
+      - Harley J.L.
+      - Hart E.A.
+      - Heath P.D.
+      - Howden P.J.
+      - Huckle E.J.
+      - Hunt P.J.
+      - Hunt A.R.
+      - Johnson C.
+      - Johnson D.
+      - Kay M.
+      - Kimberley A.M.
+      - King A.
+      - Laird G.K.
+      - Langford C.J.
+      - Lawlor S.
+      - Leongamornlert D.A.
+      - Lloyd D.M.
+      - Lloyd C.
+      - Loveland J.E.
+      - Lovell J.
+      - Martin S.
+      - Mashreghi-Mohammadi M.
+      - McLaren S.J.
+      - McMurray A.
+      - Milne S.
+      - Moore M.J.F.
+      - Nickerson T.
+      - Palmer S.A.
+      - Pearce A.V.
+      - Peck A.I.
+      - Pelan S.
+      - Phillimore B.
+      - Porter K.M.
+      - Rice C.M.
+      - Searle S.
+      - Sehra H.K.
+      - Shownkeen R.
+      - Skuce C.D.
+      - Smith M.
+      - Steward C.A.
+      - Sycamore N.
+      - Tester J.
+      - Thomas D.W.
+      - Tracey A.
+      - Tromans A.
+      - Tubby B.
+      - Wall M.
+      - Wallis J.M.
+      - West A.P.
+      - Whitehead S.L.
+      - Willey D.L.
+      - Wilming L.
+      - Wray P.W.
+      - Wright M.W.
+      - Young L.
+      - Coulson A.
+      - Durbin R.M.
+      - Hubbard T.
+      - Sulston J.E.
+      - Beck S.
+      - Bentley D.R.
+      - Rogers J.
+      - Ross M.T.
+      dbReferences:
+      - id: '15057823'
+        type: PubMed
+      - id: 10.1038/nature02379
+        type: DOI
+      location:
+        firstPage: '522'
+        lastPage: '528'
+        volume: '428'
+      publication:
+        journalName: Nature
+      publicationDate: '2004'
+      title: The DNA sequence and analysis of human chromosome 13.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      consortiums:
+      - The MGC Project Team
+      dbReferences:
+      - id: '15489334'
+        type: PubMed
+      - id: 10.1101/gr.2596504
+        type: DOI
+      location:
+        firstPage: '2121'
+        lastPage: '2127'
+        volume: '14'
+      publication:
+        journalName: Genome Res.
+      publicationDate: '2004'
+      title: 'The status, quality, and expansion of the NIH full-length cDNA project:
+        the Mammalian Gene Collection (MGC).'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]
+  - citation:
+      authors:
+      - Mackenzie B.
+      - Fei Y.J.
+      - Ganapathy V.
+      - Leibach F.H.
+      dbReferences:
+      - id: '8914574'
+        type: PubMed
+      - id: 10.1016/s0005-2736(96)00170-8
+        type: DOI
+      location:
+        firstPage: '125'
+        lastPage: '128'
+        volume: '1284'
+      publication:
+        journalName: Biochim. Biophys. Acta
+      publicationDate: '1996'
+      title: The human intestinal H+/oligopeptide cotransporter hPEPT1 transports
+        differently-charged dipeptides with identical electrogenic properties.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+  - citation:
+      authors:
+      - Merlin D.
+      - Steel A.
+      - Gewirtz A.T.
+      - Si-Tahar M.
+      - Hediger M.A.
+      - Madara J.L.
+      dbReferences:
+      - id: '9835627'
+        type: PubMed
+      - id: 10.1172/jci4179
+        type: DOI
+      location:
+        firstPage: '2011'
+        lastPage: '2018'
+        volume: '102'
+      publication:
+        journalName: J. Clin. Invest.
+      publicationDate: '1998'
+      title: hPepT1-mediated epithelial transport of bacteria-derived chemotactic
+        peptides enhances neutrophil-epithelial interactions.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+  - citation:
+      authors:
+      - Vavricka S.R.
+      - Musch M.W.
+      - Chang J.E.
+      - Nakagawa Y.
+      - Phanvijhitsiri K.
+      - Waypa T.S.
+      - Merlin D.
+      - Schneewind O.
+      - Chang E.B.
+      dbReferences:
+      - id: '15521010'
+        type: PubMed
+      - id: 10.1053/j.gastro.2004.07.024
+        type: DOI
+      location:
+        firstPage: '1401'
+        lastPage: '1409'
+        volume: '127'
+      publication:
+        journalName: Gastroenterology
+      publicationDate: '2004'
+      title: hPepT1 transports muramyl dipeptide, activating NF-kappaB and stimulating
+        IL-8 secretion in human colonic Caco2/bbe cells.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+  - citation:
+      authors:
+      - Sala-Rabanal M.
+      - Loo D.D.
+      - Hirayama B.A.
+      - Wright E.M.
+      dbReferences:
+      - id: '18367661'
+        type: PubMed
+      - id: 10.1152/ajprenal.00030.2008
+        type: DOI
+      location:
+        firstPage: F1422
+        lastPage: F1432
+        volume: '294'
+      publication:
+        journalName: Am. J. Physiol.
+      publicationDate: '2008'
+      title: Molecular mechanism of dipeptide and drug transport by the human renal
+        H+/oligopeptide cotransporter hPEPT2.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+  - citation:
+      authors:
+      - Xu L.
+      - Haworth I.S.
+      - Kulkarni A.A.
+      - Bolger M.B.
+      - Davies D.L.
+      dbReferences:
+      - id: '19685173'
+        type: PubMed
+      - id: 10.1007/s11095-009-9952-9
+        type: DOI
+      location:
+        firstPage: '2358'
+        lastPage: '2366'
+        volume: '26'
+      publication:
+        journalName: Pharm. Res.
+      publicationDate: '2009'
+      title: Mutagenesis and cysteine scanning of transmembrane domain 10 of the human
+        dipeptide transporter.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+    - MUTAGENESIS OF TYR-588; GLY-594 AND GLU-595
+  - citation:
+      authors:
+      - Beale J.H.
+      - Parker J.L.
+      - Samsudin F.
+      - Barrett A.L.
+      - Senan A.
+      - Bird L.E.
+      - Scott D.
+      - Owens R.J.
+      - Sansom M.S.P.
+      - Tucker S.J.
+      - Meredith D.
+      - Fowler P.W.
+      - Newstead S.
+      dbReferences:
+      - id: '26320580'
+        type: PubMed
+      - id: 10.1016/j.str.2015.07.016
+        type: DOI
+      location:
+        firstPage: '1889'
+        lastPage: '1899'
+        volume: '23'
+      publication:
+        journalName: Structure
+      publicationDate: '2015'
+      title: Crystal structures of the extracellular domain from PepT1 and PepT2 provide
+        novel insights into mammalian peptide transport.
+      type: journal article
+    scope:
+    - FUNCTION
+    - TRANSPORTER ACTIVITY
+    - BIOPHYSICOCHEMICAL PROPERTIES
+    - MUTAGENESIS OF ASP-573
+  - citation:
+      authors:
+      - Keiser M.
+      - Kaltheuner L.
+      - Wildberg C.
+      - Mueller J.
+      - Grube M.
+      - Partecke L.I.
+      - Heidecke C.D.
+      - Oswald S.
+      dbReferences:
+      - id: '28408210'
+        type: PubMed
+      - id: 10.1016/j.xphs.2017.04.001
+        type: DOI
+      location:
+        firstPage: '2657'
+        lastPage: '2663'
+        volume: '106'
+      publication:
+        journalName: J. Pharm. Sci.
+      publicationDate: '2017'
+      title: The Organic Anion-Transporting Peptide 2B1 Is Localized in the Basolateral
+        Membrane of the Human Jejunum and Caco-2 Monolayers.
+      type: journal article
+    scope:
+    - SUBCELLULAR LOCATION
+    - TISSUE SPECIFICITY
+  - citation:
+      authors:
+      - Saito S.
+      - Iida A.
+      - Sekine A.
+      - Ogawa C.
+      - Kawauchi S.
+      - Higuchi S.
+      - Nakamura Y.
+      dbReferences:
+      - id: '12436193'
+        type: PubMed
+      - id: 10.1007/s100380200088
+        type: DOI
+      location:
+        firstPage: '576'
+        lastPage: '584'
+        volume: '47'
+      publication:
+        journalName: J. Hum. Genet.
+      publicationDate: '2002'
+      title: Catalog of 238 variations among six human genes encoding solute carriers
+        (hSLCs) in the Japanese population.
+      type: journal article
+    scope:
+    - VARIANTS ASN-117 AND ALA-419
+  - citation:
+      authors:
+      - Anderle P.
+      - Nielsen C.U.
+      - Pinsonneault J.
+      - Krog P.L.
+      - Brodin B.
+      - Sadee W.
+      dbReferences:
+      - id: '16258023'
+        type: PubMed
+      - id: 10.1124/jpet.105.094615
+        type: DOI
+      location:
+        firstPage: '636'
+        lastPage: '646'
+        volume: '316'
+      publication:
+        journalName: J. Pharmacol. Exp. Ther.
+      publicationDate: '2006'
+      title: Genetic variants of the human dipeptide transporter PEPT1.
+      type: journal article
+    scope:
+    - VARIANTS ILE-21; TYR-28; ASN-117; ARG-117; MET-122; ALA-419; ILE-450; ASN-451
+      AND SER-537
+  secondaryAccession:
+  - Q5VW82
+  sequence:
+    length: 708
+    mass: 78806
+    modified: '1995-11-01'
+    sequence: MGMSKSHSFFGYPLSIFFIVVNEFCERFSYYGMRAILILYFTNFISWDDNLSTAIYHTFVALCYLTPILGALIADSWLGKFKTIVSLSIVYTIGQAVTSVSSINDLTDHNHDGTPDSLPVHVVLSLIGLALIALGTGGIKPCVSAFGGDQFEEGQEKQRNRFFSIFYLAINAGSLLSTIITPMLRVQQCGIHSKQACYPLAFGVPAALMAVALIVFVLGSGMYKKFKPQGNIMGKVAKCIGFAIKNRFRHRSKAFPKREHWLDWAKEKYDERLISQIKMVTRVMFLYIPLPMFWALFDQQGSRWTLQATTMSGKIGALEIQPDQMQTVNAILIVIMVPIFDAVLYPLIAKCGFNFTSLKKMAVGMVLASMAFVVAAIVQVEIDKTLPVFPKGNEVQIKVLNIGNNTMNISLPGEMVTLGPMSQTNAFMTFDVNKLTRINISSPGSPVTAVTDDFKQGQRHTLLVWAPNHYQVVKDGLNQKPEKGENGIRFVNTFNELITITMSGKVYANISSYNASTYQFFPSGIKGFTISSTEIPPQCQPNFNTFYLEFGSAYTYIVQRKNDSCPEVKVFEDISANTVNMALQIPQYFLLTCGEVVFSVTGLEFSYSQAPSNMKSVLQAGWLLTVAVGNIIVLIVAGAGQFSKQWAEYILFAALLLVVCVIFAIMARFYTYINPAEIEAQFDEDEKKNRLEKSNPYFMSGANSQKQM
+    version: 1
+uniprot_id: P46059

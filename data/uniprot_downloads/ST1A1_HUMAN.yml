@@ -1,0 +1,2874 @@
+data:
+  accession: P50225
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P17988
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P17988
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10199779
+          id: '10199779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10199779
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12471039
+          id: '12471039'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12471039
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16221673
+          id: '16221673'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16221673
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21723874
+          id: '21723874'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21723874
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22069470
+          id: '22069470'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22069470
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/35165440
+          id: '35165440'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/35165440
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7834621
+          id: '7834621'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7834621
+      value: Sulfotransferase that utilizes 3'-phospho-5'-adenylyl sulfate (PAPS)
+        as sulfonate donor to catalyze the sulfate conjugation of a wide variety of
+        acceptor molecules bearing a hydroxyl or an amine groupe. Sulfonation increases
+        the water solubility of most compounds, and therefore their renal excretion,
+        but it can also result in bioactivation to form active metabolites. Displays
+        broad substrate specificity for small phenolic compounds. Plays an important
+        role in the sulfonation of endogenous molecules such as steroid hormones and
+        3,3'-diiodothyronin (PubMed:16221673, PubMed:12471039, PubMed:22069470, PubMed:21723874,
+        PubMed:10199779, PubMed:7834621). Mediates the sulfate conjugation of a variety
+        of xenobiotics, including the drugs acetaminophen and minoxidil (By similarity).
+        Mediates also the metabolic activation of carcinogenic N-hydroxyarylamines
+        leading to highly reactive intermediates capable of forming DNA adducts, potentially
+        resulting in mutagenesis (PubMed:7834621). May play a role in gut microbiota-host
+        metabolic interaction. O-sulfonates 4-ethylphenol (4-EP), a dietary tyrosine-derived
+        metabolite produced by gut bacteria. The product 4-EPS crosses the blood-brain
+        barrier and may negatively regulate oligodendrocyte maturation and myelination,
+        affecting the functional connectivity of different brain regions associated
+        with the limbic system
+    type: FUNCTION
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:12165
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16221673
+          id: '16221673'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16221673
+    reaction:
+      dbReferences:
+      - id: RHEA:12164
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:33853
+        type: ChEBI
+      - id: CHEBI:58339
+        type: ChEBI
+      - id: CHEBI:58343
+        type: ChEBI
+      - id: CHEBI:140317
+        type: ChEBI
+      ecNumber: 2.8.2.1
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10199779
+          id: '10199779'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10199779
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12471039
+          id: '12471039'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12471039
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16221673
+          id: '16221673'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16221673
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/21723874
+          id: '21723874'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/21723874
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/22069470
+          id: '22069470'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/22069470
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/7834621
+          id: '7834621'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/7834621
+      name: 3'-phosphoadenylyl sulfate + a phenol = adenosine 3',5'-bisphosphate +
+        an aryl sulfate + H(+)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:52373
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16221673
+          id: '16221673'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16221673
+    reaction:
+      dbReferences:
+      - id: RHEA:52372
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:16469
+        type: ChEBI
+      - id: CHEBI:58339
+        type: ChEBI
+      - id: CHEBI:58343
+        type: ChEBI
+      - id: CHEBI:136582
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16221673
+          id: '16221673'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16221673
+      name: 17beta-estradiol + 3'-phosphoadenylyl sulfate = 17beta-estradiol 3-sulfate
+        + adenosine 3',5'-bisphosphate + H(+)
+    type: CATALYTIC_ACTIVITY
+  - physiologicalReactions:
+    - dbReference:
+        id: RHEA:70608
+        type: Rhea
+      direction: left-to-right
+      evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/35165440
+          id: '35165440'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/35165440
+    reaction:
+      dbReferences:
+      - id: RHEA:70607
+        type: Rhea
+      - id: CHEBI:15378
+        type: ChEBI
+      - id: CHEBI:49584
+        type: ChEBI
+      - id: CHEBI:58339
+        type: ChEBI
+      - id: CHEBI:58343
+        type: ChEBI
+      - id: CHEBI:133681
+        type: ChEBI
+      evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/35165440
+          id: '35165440'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/35165440
+      name: 3'-phosphoadenylyl sulfate + 4-ethylphenol = 4-ethylphenyl sulfate + adenosine
+        3',5'-bisphosphate + H(+)
+    type: CATALYTIC_ACTIVITY
+  - kinetics:
+      km:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/10199779
+            id: '10199779'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/10199779
+        value: 0.12 uM for 3,3'-diiodothyronin
+      vmax:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/10199779
+            id: '10199779'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/10199779
+        value: 465.0 umol/min/mg enzyme with 3,3'-diiodothyronin as substrate
+    type: BIOPHYSICOCHEMICAL_PROPERTIES
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/12471039
+          id: '12471039'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/12471039
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/16221673
+          id: '16221673'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/16221673
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/20417180
+          id: '20417180'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/20417180
+      value: Homodimer
+    type: SUBUNIT
+  - interactions:
+    - accession1: P50225
+      accession2: O00204
+      experiments: 7
+      gene: SULT2B1
+      interactor1: EBI-2814403
+      interactor2: EBI-749441
+      organismDiffer: false
+    type: INTERACTION
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: P17988
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P17988
+        value: Cytoplasm
+    type: SUBCELLULAR_LOCATION
+  - event:
+    - Alternative splicing
+    isoforms:
+    - ids:
+      - P50225-1
+      name:
+        value: '1'
+      sequenceStatus: displayed
+    - ids:
+      - P50225-2
+      name:
+        value: '2'
+      sequence:
+      - VSP_040101
+      sequenceStatus: described
+    type: ALTERNATIVE_PRODUCTS
+  - text:
+    - value: Liver, lung, adrenal, brain, platelets and skin
+    type: TISSUE_SPECIFICITY
+  - text:
+    - evidences:
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/10762004
+          id: '10762004'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/10762004
+      - code: ECO:0000305
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/9345314
+          id: '9345314'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/9345314
+      value: There are several alleles. The sequence shown is that of allele SULT1A1*3
+    type: POLYMORPHISM
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the sulfotransferase 1 family
+    type: SIMILARITY
+  dbReferences:
+  - id: U09031
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA18613.1
+    type: EMBL
+  - id: L19955
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA02935.1
+    type: EMBL
+  - id: L10819
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA35562.1
+    type: EMBL
+  - id: L19999
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA99892.1
+    type: EMBL
+  - id: U26309
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA67895.1
+    type: EMBL
+  - id: X84654
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAA59147.1
+    type: EMBL
+  - id: X78283
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAA55089.1
+    type: EMBL
+  - id: U71086
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB09597.1
+    type: EMBL
+  - id: U54701
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAC50480.1
+    type: EMBL
+  - id: AJ007418
+    properties:
+      molecule type: mRNA
+      protein sequence ID: CAA07495.1
+    type: EMBL
+  - id: U52852
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAC51816.1
+    type: EMBL
+  - id: AB062428
+    properties:
+      molecule type: mRNA
+      protein sequence ID: BAB93491.1
+    type: EMBL
+  - id: BT007324
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAP35988.1
+    type: EMBL
+  - id: CR608214
+    properties:
+      molecule type: mRNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: AC020765
+    properties:
+      molecule type: Genomic_DNA
+      status: NOT_ANNOTATED_CDS
+    type: EMBL
+  - id: BC000923
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH00923.1
+    type: EMBL
+  - id: BC110887
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAI10888.1
+    type: EMBL
+  - id: L15346
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAA60595.1
+    type: EMBL
+  - id: CCDS32420.1
+    isoform: P50225-1
+    type: CCDS
+  - id: I57945
+    properties:
+      entry name: I57945
+    type: PIR
+  - id: JC2523
+    properties:
+      entry name: JC2523
+    type: PIR
+  - id: JC5248
+    properties:
+      entry name: JC5248
+    type: PIR
+  - id: S52399
+    properties:
+      entry name: S52399
+    type: PIR
+  - id: S52794
+    properties:
+      entry name: S52794
+    type: PIR
+  - id: NP_001046.2
+    isoform: P50225-1
+    properties:
+      nucleotide sequence ID: NM_001055.3
+    type: RefSeq
+  - id: NP_803565.1
+    isoform: P50225-1
+    properties:
+      nucleotide sequence ID: NM_177529.2
+    type: RefSeq
+  - id: NP_803566.1
+    isoform: P50225-1
+    properties:
+      nucleotide sequence ID: NM_177530.2
+    type: RefSeq
+  - id: NP_803878.1
+    isoform: P50225-1
+    properties:
+      nucleotide sequence ID: NM_177534.2
+    type: RefSeq
+  - id: NP_803880.1
+    properties:
+      nucleotide sequence ID: NM_177536.3
+    type: RefSeq
+  - id: XP_016879095.1
+    properties:
+      nucleotide sequence ID: XM_017023606.1
+    type: RefSeq
+  - id: XP_016879100.1
+    properties:
+      nucleotide sequence ID: XM_017023611.1
+    type: RefSeq
+  - id: XP_016879101.1
+    properties:
+      nucleotide sequence ID: XM_017023612.1
+    type: RefSeq
+  - id: XP_016879102.1
+    properties:
+      nucleotide sequence ID: XM_017023613.1
+    type: RefSeq
+  - id: 1LS6
+    properties:
+      chains: A=1-295
+      method: X-ray
+      resolution: 1.90 A
+    type: PDB
+  - id: 1Z28
+    properties:
+      chains: A=1-295
+      method: X-ray
+      resolution: 2.30 A
+    type: PDB
+  - id: 2D06
+    properties:
+      chains: A/B=1-295
+      method: X-ray
+      resolution: 2.30 A
+    type: PDB
+  - id: 3QVU
+    properties:
+      chains: A/B=1-295
+      method: X-ray
+      resolution: 2.50 A
+    type: PDB
+  - id: 3QVV
+    properties:
+      chains: A/B=1-295
+      method: X-ray
+      resolution: 2.35 A
+    type: PDB
+  - id: 3U3J
+    properties:
+      chains: A/B=1-294
+      method: X-ray
+      resolution: 2.70 A
+    type: PDB
+  - id: 3U3K
+    properties:
+      chains: A/B=1-295
+      method: X-ray
+      resolution: 2.36 A
+    type: PDB
+  - id: 3U3M
+    properties:
+      chains: A=1-295
+      method: X-ray
+      resolution: 2.30 A
+    type: PDB
+  - id: 3U3O
+    properties:
+      chains: A=1-295
+      method: X-ray
+      resolution: 2.00 A
+    type: PDB
+  - id: 3U3R
+    properties:
+      chains: A=1-295
+      method: X-ray
+      resolution: 2.36 A
+    type: PDB
+  - id: 4GRA
+    properties:
+      chains: A/B=1-295
+      method: X-ray
+      resolution: 2.56 A
+    type: PDB
+  - id: 1LS6
+    type: PDBsum
+  - id: 1Z28
+    type: PDBsum
+  - id: 2D06
+    type: PDBsum
+  - id: 3QVU
+    type: PDBsum
+  - id: 3QVV
+    type: PDBsum
+  - id: 3U3J
+    type: PDBsum
+  - id: 3U3K
+    type: PDBsum
+  - id: 3U3M
+    type: PDBsum
+  - id: 3U3O
+    type: PDBsum
+  - id: 3U3R
+    type: PDBsum
+  - id: 4GRA
+    type: PDBsum
+  - id: P50225
+    type: AlphaFoldDB
+  - id: P50225
+    type: SMR
+  - id: '112686'
+    properties:
+      interactions: '67'
+    type: BioGRID
+  - id: P50225
+    properties:
+      interactions: '11'
+    type: IntAct
+  - id: P50225
+    type: MINT
+  - id: 9606.ENSP00000378972
+    type: STRING
+  - id: P50225
+    type: BindingDB
+  - id: CHEMBL1743291
+    type: ChEMBL
+  - id: DB00316
+    properties:
+      generic name: Acetaminophen
+    type: DrugBank
+  - id: DB01812
+    properties:
+      generic name: Adenosine 3',5'-diphosphate
+    type: DrugBank
+  - id: DB00714
+    properties:
+      generic name: Apomorphine
+    type: DrugBank
+  - id: DB12243
+    properties:
+      generic name: Edaravone
+    type: DrugBank
+  - id: DB12471
+    properties:
+      generic name: Ibrexafungerp
+    type: DrugBank
+  - id: DB00968
+    properties:
+      generic name: Methyldopa
+    type: DrugBank
+  - id: DB04417
+    properties:
+      generic name: P-Nitrophenol
+    type: DrugBank
+  - id: DB00960
+    properties:
+      generic name: Pindolol
+    type: DrugBank
+  - id: DB11077
+    properties:
+      generic name: Polyethylene glycol 400
+    type: DrugBank
+  - id: DB09288
+    properties:
+      generic name: Propacetamol
+    type: DrugBank
+  - id: DB00867
+    properties:
+      generic name: Ritodrine
+    type: DrugBank
+  - id: DB00675
+    properties:
+      generic name: Tamoxifen
+    type: DrugBank
+  - id: DB00871
+    properties:
+      generic name: Terbutaline
+    type: DrugBank
+  - id: DB09100
+    properties:
+      generic name: Thyroid, porcine
+    type: DrugBank
+  - id: DB09070
+    properties:
+      generic name: Tibolone
+    type: DrugBank
+  - id: SLP:000001651
+    type: SwissLipids
+  - id: P50225
+    type: iPTMnet
+  - id: P50225
+    type: PhosphoSitePlus
+  - id: SULT1A1
+    type: BioMuta
+  - id: '313104286'
+    type: DMDM
+  - id: P50225
+    type: OGP
+  - id: P50225
+    type: EPD
+  - id: P50225
+    type: jPOST
+  - id: P50225
+    type: MassIVE
+  - id: P50225
+    type: MaxQB
+  - id: 9606-ENSP00000378972
+    type: PaxDb
+  - id: P50225
+    type: PeptideAtlas
+  - id: '56209'
+    isoform: P50225-1
+    type: ProteomicsDB
+  - id: '56210'
+    isoform: P50225-2
+    type: ProteomicsDB
+  - id: P50225
+    type: Pumba
+  - id: '26492'
+    properties:
+      antibodies: 536 antibodies from 32 providers
+    type: Antibodypedia
+  - id: '6817'
+    type: DNASU
+  - id: ENST00000314752.12
+    isoform: P50225-1
+    properties:
+      gene ID: ENSG00000196502.14
+      protein sequence ID: ENSP00000321988.7
+    type: Ensembl
+  - id: ENST00000569554.5
+    isoform: P50225-1
+    properties:
+      gene ID: ENSG00000196502.14
+      protein sequence ID: ENSP00000457912.1
+    type: Ensembl
+  - id: '6817'
+    type: GeneID
+  - id: hsa:6817
+    type: KEGG
+  - id: ENST00000314752.12
+    properties:
+      RefSeq nucleotide sequence ID: NM_001055.4
+      RefSeq protein sequence ID: NP_001046.2
+      protein sequence ID: ENSP00000321988.7
+    type: MANE-Select
+  - id: uc002dqi.4
+    isoform: P50225-1
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:11453
+    type: AGR
+  - id: '6817'
+    type: CTD
+  - id: '6817'
+    type: DisGeNET
+  - id: SULT1A1
+    type: GeneCards
+  - id: HGNC:11453
+    properties:
+      gene designation: SULT1A1
+    type: HGNC
+  - id: ENSG00000196502
+    properties:
+      expression patterns: Tissue enhanced (liver)
+    type: HPA
+  - id: '171150'
+    properties:
+      type: gene
+    type: MIM
+  - id: NX_P50225
+    type: neXtProt
+  - id: ENSG00000196502
+    type: OpenTargets
+  - id: PA343
+    type: PharmGKB
+  - id: HostDB:ENSG00000196502
+    type: VEuPathDB
+  - id: HostDB:ENSG00000288656
+    type: VEuPathDB
+  - id: KOG1584
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00940000163450
+    type: GeneTree
+  - id: CLU_027239_6_1_1
+    type: HOGENOM
+  - id: P50225
+    type: InParanoid
+  - id: DHAAEYW
+    type: OMA
+  - id: 3083090at2759
+    type: OrthoDB
+  - id: P50225
+    type: PhylomeDB
+  - id: TF321745
+    type: TreeFam
+  - id: MetaCyc:HS09898-MONOMER
+    type: BioCyc
+  - id: 2.8.2.1
+    properties:
+      organism ID: '2681'
+    type: BRENDA
+  - id: 2.8.2.2
+    properties:
+      organism ID: '2681'
+    type: BRENDA
+  - id: P50225
+    type: PathwayCommons
+  - id: R-HSA-156584
+    properties:
+      pathway name: Cytosolic sulfonation of small molecules
+    type: Reactome
+  - id: R-HSA-9753281
+    properties:
+      pathway name: Paracetamol ADME
+    type: Reactome
+  - id: P50225
+    type: SABIO-RK
+  - id: P50225
+    type: SignaLink
+  - id: '6817'
+    properties:
+      hits: 12 hits in 1093 CRISPR screens
+    type: BioGRID-ORCS
+  - id: SULT1A1
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: P50225
+    type: EvolutionaryTrace
+  - id: SULT1A1
+    type: GeneWiki
+  - id: '6817'
+    type: GenomeRNAi
+  - id: P50225
+    properties:
+      development level: Tchem
+    type: Pharos
+  - id: PR:P50225
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 16
+    type: Proteomes
+  - id: P50225
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000196502
+    properties:
+      expression patterns: Expressed in mucosa of transverse colon and 116 other cell
+        types or tissues
+    type: Bgee
+  - id: P50225
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: P50225
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0005737
+    properties:
+      source: IBA:GO_Central
+      term: C:cytoplasm
+    type: GO
+  - id: GO:0005829
+    properties:
+      source: ISS:UniProtKB
+      term: C:cytosol
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12471039
+        id: '12471039'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12471039
+    id: GO:0050656
+    properties:
+      source: IDA:UniProtKB
+      term: F:3'-phosphoadenosine 5'-phosphosulfate binding
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12471039
+        id: '12471039'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12471039
+    id: GO:0004062
+    properties:
+      source: IDA:UniProtKB
+      term: F:aryl sulfotransferase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20056724
+        id: '20056724'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20056724
+    id: GO:0047894
+    properties:
+      source: IDA:BHF-UCL
+      term: F:flavonol 3-sulfotransferase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16221673
+        id: '16221673'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16221673
+    id: GO:0050294
+    properties:
+      source: IDA:UniProtKB
+      term: F:steroid sulfotransferase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19548878
+        id: '19548878'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19548878
+    id: GO:0008146
+    properties:
+      source: IDA:MGI
+      term: F:sulfotransferase activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12471039
+        id: '12471039'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12471039
+    id: GO:0050427
+    properties:
+      source: IDA:UniProtKB
+      term: P:3'-phosphoadenosine 5'-phosphosulfate metabolic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8661000
+        id: '8661000'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8661000
+    id: GO:0009308
+    properties:
+      source: TAS:ProtInc
+      term: P:amine metabolic process
+    type: GO
+  - id: GO:0006584
+    properties:
+      source: IEA:UniProtKB-KW
+      term: P:catecholamine metabolic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16221673
+        id: '16221673'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16221673
+    id: GO:0008210
+    properties:
+      source: IDA:UniProtKB
+      term: P:estrogen metabolic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23207770
+        id: '23207770'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23207770
+    id: GO:0006068
+    properties:
+      source: IDA:CAFA
+      term: P:ethanol catabolic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20056724
+        id: '20056724'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20056724
+    id: GO:0009812
+    properties:
+      source: IDA:BHF-UCL
+      term: P:flavonoid metabolic process
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/19548878
+        id: '19548878'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/19548878
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/20056724
+        id: '20056724'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/20056724
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/23207770
+        id: '23207770'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/23207770
+    id: GO:0051923
+    properties:
+      source: IDA:MGI
+      term: P:sulfation
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12471039
+        id: '12471039'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12471039
+    id: GO:0006805
+    properties:
+      source: IDA:UniProtKB
+      term: P:xenobiotic metabolic process
+    type: GO
+  - id: 3.40.50.300
+    properties:
+      entry name: P-loop containing nucleotide triphosphate hydrolases
+      match status: '1'
+    type: Gene3D
+  - id: IPR027417
+    properties:
+      entry name: P-loop_NTPase
+    type: InterPro
+  - id: IPR000863
+    properties:
+      entry name: Sulfotransferase_dom
+    type: InterPro
+  - id: PTHR11783:SF156
+    properties:
+      entry name: SULFOTRANSFERASE 1A1
+      match status: '1'
+    type: PANTHER
+  - id: PTHR11783
+    properties:
+      entry name: SULFOTRANSFERASE SULT
+      match status: '1'
+    type: PANTHER
+  - id: PF00685
+    properties:
+      entry name: Sulfotransfer_1
+      match status: '1'
+    type: Pfam
+  - id: SSF52540
+    properties:
+      entry name: P-loop containing nucleoside triphosphate hydrolases
+      match status: '1'
+    type: SUPFAM
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Sulfotransferase 1A1
+    end: '295'
+    ftId: PRO_0000085127
+    molecule: ''
+    type: CHAIN
+  - begin: '108'
+    category: DOMAINS_AND_SITES
+    description: Proton acceptor
+    end: '108'
+    evidences:
+    - code: ECO:0000250
+    molecule: ''
+    type: ACT_SITE
+  - begin: '48'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '53'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12471039
+        id: '12471039'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12471039
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16221673
+        id: '16221673'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16221673
+    ligand:
+      dbReference:
+        id: CHEBI:58339
+        name: ChEBI
+      name: 3'-phosphoadenylyl sulfate
+    molecule: ''
+    type: BINDING
+  - begin: '106'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '108'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12471039
+        id: '12471039'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12471039
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16221673
+        id: '16221673'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16221673
+    ligand:
+      name: substrate
+    molecule: ''
+    type: BINDING
+  - begin: '130'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '130'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12471039
+        id: '12471039'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12471039
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16221673
+        id: '16221673'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16221673
+    ligand:
+      dbReference:
+        id: CHEBI:58339
+        name: ChEBI
+      name: 3'-phosphoadenylyl sulfate
+    molecule: ''
+    type: BINDING
+  - begin: '138'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '138'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12471039
+        id: '12471039'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12471039
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16221673
+        id: '16221673'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16221673
+    ligand:
+      dbReference:
+        id: CHEBI:58339
+        name: ChEBI
+      name: 3'-phosphoadenylyl sulfate
+    molecule: ''
+    type: BINDING
+  - begin: '193'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '193'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12471039
+        id: '12471039'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12471039
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16221673
+        id: '16221673'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16221673
+    ligand:
+      dbReference:
+        id: CHEBI:58339
+        name: ChEBI
+      name: 3'-phosphoadenylyl sulfate
+    molecule: ''
+    type: BINDING
+  - begin: '227'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '232'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12471039
+        id: '12471039'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12471039
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16221673
+        id: '16221673'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16221673
+    ligand:
+      dbReference:
+        id: CHEBI:58339
+        name: ChEBI
+      name: 3'-phosphoadenylyl sulfate
+    molecule: ''
+    type: BINDING
+  - begin: '255'
+    category: DOMAINS_AND_SITES
+    description: ''
+    end: '259'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/12471039
+        id: '12471039'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/12471039
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16221673
+        id: '16221673'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16221673
+    ligand:
+      dbReference:
+        id: CHEBI:58339
+        name: ChEBI
+      name: 3'-phosphoadenylyl sulfate
+    molecule: ''
+    type: BINDING
+  - begin: '138'
+    category: PTM
+    description: Phosphoserine
+    end: '138'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: P17988
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/P17988
+    molecule: ''
+    type: MOD_RES
+  - begin: '1'
+    category: VARIANTS
+    end: '124'
+    evidences:
+    - code: ECO:0000303
+      source:
+        id: Ref.14
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P50225#ref14
+    ftId: VSP_040101
+    molecule: ''
+    type: VAR_SEQ
+  - alternativeSequence: Q
+    begin: '37'
+    category: VARIANTS
+    description: in dbSNP:rs72547527
+    end: '37'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9345314
+        id: '9345314'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9345314
+    ftId: VAR_009302
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: D
+    begin: '151'
+    category: VARIANTS
+    description: in dbSNP:rs1042014
+    end: '151'
+    ftId: VAR_028721
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: Q
+    begin: '151'
+    category: VARIANTS
+    description: in dbSNP:rs1042011
+    end: '151'
+    ftId: VAR_057339
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: H
+    begin: '213'
+    category: VARIANTS
+    description: in allele SULT1A1*2; has a lower sulfotransferase activity; dbSNP:rs1042028
+    end: '213'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/10762004
+        id: '10762004'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/10762004
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9345314
+        id: '9345314'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9345314
+    - code: ECO:0000269
+      source:
+        id: Ref.12
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P50225#ref12
+    - code: ECO:0000269
+      source:
+        id: Ref.13
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P50225#ref13
+    ftId: VAR_007425
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: M
+    begin: '223'
+    category: VARIANTS
+    description: in dbSNP:rs1801030
+    end: '223'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/15489334
+        id: '15489334'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/15489334
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/7581483
+        id: '7581483'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/7581483
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/7695643
+        id: '7695643'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/7695643
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/7864863
+        id: '7864863'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/7864863
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8033246
+        id: '8033246'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8033246
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8363592
+        id: '8363592'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8363592
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8423770
+        id: '8423770'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8423770
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8484775
+        id: '8484775'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8484775
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8912648
+        id: '8912648'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8912648
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8924211
+        id: '8924211'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8924211
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9345314
+        id: '9345314'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9345314
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/9855620
+        id: '9855620'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/9855620
+    - code: ECO:0000269
+      source:
+        id: Ref.11
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P50225#ref11
+    - code: ECO:0000269
+      source:
+        id: Ref.12
+        name: Citation
+        url: https://www.uniprot.org/uniprot/P50225#ref12
+    - code: ECO:0007744
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21269460
+        id: '21269460'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21269460
+    ftId: VAR_009303
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: T
+    begin: '235'
+    category: VARIANTS
+    description: in dbSNP:rs35728980
+    end: '235'
+    ftId: VAR_014889
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: K
+    begin: '282'
+    category: VARIANTS
+    description: in dbSNP:rs36043491
+    end: '282'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8423770
+        id: '8423770'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8423770
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8924211
+        id: '8924211'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8924211
+    ftId: VAR_061886
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: S
+    begin: '70'
+    category: MUTAGENESIS
+    description: Increased sensitivity of enzyme activity to heat inactivation.
+    end: '70'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8033270
+        id: '8033270'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8033270
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: G
+    begin: '249'
+    category: MUTAGENESIS
+    description: Increased activity towards p-nitrophenol.
+    end: '249'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22069470
+        id: '22069470'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22069470
+    molecule: ''
+    type: MUTAGEN
+  - alternativeSequence: L
+    begin: '90'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA67895
+    end: '90'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: T
+    begin: '146'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 5; CAA59147
+    end: '146'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: G
+    begin: '181'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 5; CAA59147
+    end: '181'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: A
+    begin: '243'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA67895
+    end: '243'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: T
+    begin: '290'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA99892 and 9; AAC50480
+    end: '290'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - begin: '13'
+    category: STRUCTURAL
+    end: '15'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: STRAND
+  - begin: '18'
+    category: STRUCTURAL
+    end: '20'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: STRAND
+  - begin: '22'
+    category: STRUCTURAL
+    end: '31'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: HELIX
+  - begin: '41'
+    category: STRUCTURAL
+    end: '46'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: STRAND
+  - begin: '51'
+    category: STRUCTURAL
+    end: '62'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: HELIX
+  - begin: '63'
+    category: STRUCTURAL
+    end: '65'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: TURN
+  - begin: '67'
+    category: STRUCTURAL
+    end: '70'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: HELIX
+  - begin: '75'
+    category: STRUCTURAL
+    end: '78'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: HELIX
+  - begin: '87'
+    category: STRUCTURAL
+    end: '89'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 4GRA
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/4GRA
+    molecule: ''
+    type: STRAND
+  - begin: '92'
+    category: STRUCTURAL
+    end: '97'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: HELIX
+  - begin: '104'
+    category: STRUCTURAL
+    end: '107'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: STRAND
+  - begin: '111'
+    category: STRUCTURAL
+    end: '113'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: TURN
+  - begin: '116'
+    category: STRUCTURAL
+    end: '120'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: HELIX
+  - begin: '124'
+    category: STRUCTURAL
+    end: '129'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: STRAND
+  - begin: '132'
+    category: STRUCTURAL
+    end: '145'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: HELIX
+  - begin: '155'
+    category: STRUCTURAL
+    end: '164'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: HELIX
+  - begin: '172'
+    category: STRUCTURAL
+    end: '182'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: HELIX
+  - begin: '183'
+    category: STRUCTURAL
+    end: '185'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: TURN
+  - begin: '188'
+    category: STRUCTURAL
+    end: '192'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: STRAND
+  - begin: '193'
+    category: STRUCTURAL
+    end: '198'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: HELIX
+  - begin: '200'
+    category: STRUCTURAL
+    end: '211'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: HELIX
+  - begin: '217'
+    category: STRUCTURAL
+    end: '226'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: HELIX
+  - begin: '229'
+    category: STRUCTURAL
+    end: '234'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: HELIX
+  - begin: '236'
+    category: STRUCTURAL
+    end: '238'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: TURN
+  - begin: '245'
+    category: STRUCTURAL
+    end: '247'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: TURN
+  - begin: '250'
+    category: STRUCTURAL
+    end: '252'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: TURN
+  - begin: '263'
+    category: STRUCTURAL
+    end: '266'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: HELIX
+  - begin: '270'
+    category: STRUCTURAL
+    end: '283'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: HELIX
+  - begin: '284'
+    category: STRUCTURAL
+    end: '286'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 1LS6
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/1LS6
+    molecule: ''
+    type: TURN
+  gene:
+  - name:
+      value: SULT1A1
+    orfNames:
+    - value: OK/SW-cl.88
+    synonyms:
+    - value: STP
+    - value: STP1
+  id: ST1A1_HUMAN
+  info:
+    created: '1996-10-01'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 208
+  keywords:
+  - value: 3D-structure
+  - value: Alternative splicing
+  - value: Catecholamine metabolism
+  - value: Cytoplasm
+  - value: Direct protein sequencing
+  - value: Lipid metabolism
+  - value: Phosphoprotein
+  - value: Reference proteome
+  - value: Steroid metabolism
+  - value: Transferase
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        evidences:
+        - code: ECO:0000303
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/8363592
+            id: '8363592'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/8363592
+        value: Aryl sulfotransferase 1
+    - fullName:
+        value: HAST1/HAST2
+    - fullName:
+        value: Phenol sulfotransferase 1
+    - fullName:
+        evidences:
+        - code: ECO:0000303
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/8423770
+            id: '8423770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/8423770
+        value: Phenol-sulfating phenol sulfotransferase 1
+      shortName:
+      - evidences:
+        - code: ECO:0000303
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/8423770
+            id: '8423770'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/8423770
+        value: P-PST 1
+    - fullName:
+        value: ST1A3
+    - fullName:
+        value: Thermostable phenol sulfotransferase
+      shortName:
+      - value: Ts-PST
+    recommendedName:
+      ecNumber:
+      - evidences:
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/10199779
+            id: '10199779'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/10199779
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/12471039
+            id: '12471039'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/12471039
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/16221673
+            id: '16221673'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/16221673
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/21723874
+            id: '21723874'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/21723874
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/22069470
+            id: '22069470'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/22069470
+        - code: ECO:0000269
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/7834621
+            id: '7834621'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/7834621
+        value: 2.8.2.1
+      fullName:
+        value: Sulfotransferase 1A1
+      shortName:
+      - value: ST1A1
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Zhu X.
+      - Veronese M.E.
+      - Bernard C.C.
+      - Sansom L.N.
+      - McManus M.E.
+      dbReferences:
+      - id: '8363592'
+        type: PubMed
+      - id: 10.1006/bbrc.1993.2018
+        type: DOI
+      location:
+        firstPage: '120'
+        lastPage: '127'
+        volume: '195'
+      publication:
+        journalName: Biochem. Biophys. Res. Commun.
+      publicationDate: '1993'
+      title: Identification of two human brain aryl sulfotransferase cDNAs.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    - VARIANT MET-223
+    source:
+      tissue:
+      - value: Brain
+  - citation:
+      authors:
+      - Zhu X.
+      - Veronese M.E.
+      - Sansom L.N.
+      - McManus M.E.
+      dbReferences:
+      - id: '8484775'
+        type: PubMed
+      - id: 10.1006/bbrc.1993.1467
+        type: DOI
+      location:
+        firstPage: '671'
+        lastPage: '676'
+        volume: '192'
+      publication:
+        journalName: Biochem. Biophys. Res. Commun.
+      publicationDate: '1993'
+      title: Molecular characterisation of a human aryl sulfotransferase cDNA.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    - VARIANT MET-223
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Wilborn T.W.
+      - Comer K.A.
+      - Dooley T.P.
+      - Reardon I.M.
+      - Heinrikson R.L.
+      - Falany C.N.
+      dbReferences:
+      - id: '8423770'
+        type: PubMed
+      location:
+        firstPage: '70'
+        lastPage: '77'
+        volume: '43'
+      publication:
+        journalName: Mol. Pharmacol.
+      publicationDate: '1993'
+      title: Sequence analysis and expression of the cDNA for the phenol-sulfating
+        form of human liver phenol sulfotransferase.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    - PARTIAL PROTEIN SEQUENCE
+    - VARIANTS MET-223 AND LYS-282
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Yamazoe Y.
+      - Nagata K.
+      - Ozawa S.
+      - Kato R.
+      dbReferences:
+      - id: '8033246'
+        type: PubMed
+      - id: 10.1016/0009-2797(94)90057-4
+        type: DOI
+      location:
+        firstPage: '107'
+        lastPage: '117'
+        volume: '92'
+      publication:
+        journalName: Chem. Biol. Interact.
+      publicationDate: '1994'
+      title: Structural similarity and diversity of sulfotransferases.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    - VARIANT MET-223
+  - citation:
+      authors:
+      - Hwang S.-R.
+      - Kohn A.B.
+      - Hook V.Y.H.
+      dbReferences:
+      - id: '7864863'
+        type: PubMed
+      - id: 10.1006/bbrc.1995.1244
+        type: DOI
+      location:
+        firstPage: '701'
+        lastPage: '707'
+        volume: '207'
+      publication:
+        journalName: Biochem. Biophys. Res. Commun.
+      publicationDate: '1995'
+      title: Molecular cloning of an isoform of phenol sulfotransferase from human
+        brain hippocampus.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    - VARIANT MET-223
+    source:
+      tissue:
+      - value: Hippocampus
+  - citation:
+      authors:
+      - Jones A.L.
+      - Hagen M.
+      - Coughtrie M.W.H.
+      - Roberts R.C.
+      - Glatt H.
+      dbReferences:
+      - id: '7695643'
+        type: PubMed
+      - id: 10.1006/bbrc.1995.1414
+        type: DOI
+      location:
+        firstPage: '855'
+        lastPage: '862'
+        volume: '208'
+      publication:
+        journalName: Biochem. Biophys. Res. Commun.
+      publicationDate: '1995'
+      title: 'Human platelet phenolsulfotransferases: cDNA cloning, stable expression
+        in V79 cells and identification of a novel allelic variant of the phenol-sulfating
+        form.'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    - VARIANT MET-223
+    source:
+      tissue:
+      - value: Blood
+  - citation:
+      authors:
+      - Ozawa S.
+      - Nagata K.
+      - Shimada M.
+      - Ueda M.
+      - Tsuzuki T.
+      - Yamazoe Y.
+      - Kato R.
+      dbReferences:
+      - id: '7581483'
+        type: PubMed
+      - id: 10.1097/00008571-199512001-00015
+        type: DOI
+      location:
+        firstPage: S135
+        lastPage: S140
+        volume: '5'
+      publication:
+        journalName: Pharmacogenetics
+      publicationDate: '1995'
+      title: Primary structures and properties of two related forms of aryl sulfotransferases
+        in human liver.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    - VARIANT MET-223
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Dooley T.P.
+      - Huang Z.
+      dbReferences:
+      - id: '8912648'
+        type: PubMed
+      - id: 10.1006/bbrc.1996.1628
+        type: DOI
+      location:
+        firstPage: '134'
+        lastPage: '140'
+        volume: '228'
+      publication:
+        journalName: Biochem. Biophys. Res. Commun.
+      publicationDate: '1996'
+      title: Genomic organization and DNA sequences of two human phenol sulfotransferase
+        genes (STP1 and STP2) on the short arm of chromosome 16.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORM 1)
+    - VARIANT MET-223
+  - citation:
+      authors:
+      - Bernier F.
+      - Soucy P.
+      - Luu-The V.
+      dbReferences:
+      - id: '8924211'
+        type: PubMed
+      - id: 10.1089/dna.1996.15.367
+        type: DOI
+      location:
+        firstPage: '367'
+        lastPage: '375'
+        volume: '15'
+      publication:
+        journalName: DNA Cell Biol.
+      publicationDate: '1996'
+      title: 'Human phenol sulfotransferase gene contains two alternative promoters:
+        structure and expression of the gene.'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORM 1)
+    - VARIANTS MET-223 AND LYS-282
+  - citation:
+      authors:
+      - Dajani R.
+      - Hood A.M.
+      - Coughtrie M.W.
+      dbReferences:
+      - id: '9855620'
+        type: PubMed
+      - id: 10.1124/mol.54.6.942
+        type: DOI
+      location:
+        firstPage: '942'
+        lastPage: '948'
+        volume: '54'
+      publication:
+        journalName: Mol. Pharmacol.
+      publicationDate: '1998'
+      title: A single amino acid, Glu146, governs the substrate specificity of a human
+        dopamine sulfotransferase, SULT1A3.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    - VARIANT MET-223
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Raftogianis R.B.
+      - Her C.
+      - Weinshilboum R.M.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: MAR-1997
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORM 1)
+    - VARIANT MET-223
+  - citation:
+      authors:
+      - Shichijo S.
+      - Itoh K.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: MAY-2001
+      title: Identification of immuno-peptidmics that are recognized by tumor-reactive
+        CTL generated from TIL of colon cancer patients.
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]
+    - VARIANTS HIS-213 AND MET-223
+    source:
+      tissue:
+      - value: Colon adenocarcinoma
+  - citation:
+      authors:
+      - Kalnine N.
+      - Chen X.
+      - Rolfs A.
+      - Halleck A.
+      - Hines L.
+      - Eisenstein S.
+      - Koundinya M.
+      - Raphael J.
+      - Moreira D.
+      - Kelley T.
+      - LaBaer J.
+      - Lin Y.
+      - Phelan M.
+      - Farmer A.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: MAY-2003
+      title: Cloning of human full-length CDSs in BD Creator(TM) system donor vector.
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)
+    - VARIANT HIS-213
+  - citation:
+      authors:
+      - Li W.B.
+      - Gruber C.
+      - Jessee J.
+      - Polayes D.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: JUL-2004
+      title: Full-length cDNA libraries and normalization.
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2)
+  - citation:
+      authors:
+      - Martin J.
+      - Han C.
+      - Gordon L.A.
+      - Terry A.
+      - Prabhakar S.
+      - She X.
+      - Xie G.
+      - Hellsten U.
+      - Chan Y.M.
+      - Altherr M.
+      - Couronne O.
+      - Aerts A.
+      - Bajorek E.
+      - Black S.
+      - Blumer H.
+      - Branscomb E.
+      - Brown N.C.
+      - Bruno W.J.
+      - Buckingham J.M.
+      - Callen D.F.
+      - Campbell C.S.
+      - Campbell M.L.
+      - Campbell E.W.
+      - Caoile C.
+      - Challacombe J.F.
+      - Chasteen L.A.
+      - Chertkov O.
+      - Chi H.C.
+      - Christensen M.
+      - Clark L.M.
+      - Cohn J.D.
+      - Denys M.
+      - Detter J.C.
+      - Dickson M.
+      - Dimitrijevic-Bussod M.
+      - Escobar J.
+      - Fawcett J.J.
+      - Flowers D.
+      - Fotopulos D.
+      - Glavina T.
+      - Gomez M.
+      - Gonzales E.
+      - Goodstein D.
+      - Goodwin L.A.
+      - Grady D.L.
+      - Grigoriev I.
+      - Groza M.
+      - Hammon N.
+      - Hawkins T.
+      - Haydu L.
+      - Hildebrand C.E.
+      - Huang W.
+      - Israni S.
+      - Jett J.
+      - Jewett P.B.
+      - Kadner K.
+      - Kimball H.
+      - Kobayashi A.
+      - Krawczyk M.-C.
+      - Leyba T.
+      - Longmire J.L.
+      - Lopez F.
+      - Lou Y.
+      - Lowry S.
+      - Ludeman T.
+      - Manohar C.F.
+      - Mark G.A.
+      - McMurray K.L.
+      - Meincke L.J.
+      - Morgan J.
+      - Moyzis R.K.
+      - Mundt M.O.
+      - Munk A.C.
+      - Nandkeshwar R.D.
+      - Pitluck S.
+      - Pollard M.
+      - Predki P.
+      - Parson-Quintana B.
+      - Ramirez L.
+      - Rash S.
+      - Retterer J.
+      - Ricke D.O.
+      - Robinson D.L.
+      - Rodriguez A.
+      - Salamov A.
+      - Saunders E.H.
+      - Scott D.
+      - Shough T.
+      - Stallings R.L.
+      - Stalvey M.
+      - Sutherland R.D.
+      - Tapia R.
+      - Tesmer J.G.
+      - Thayer N.
+      - Thompson L.S.
+      - Tice H.
+      - Torney D.C.
+      - Tran-Gyamfi M.
+      - Tsai M.
+      - Ulanovsky L.E.
+      - Ustaszewska A.
+      - Vo N.
+      - White P.S.
+      - Williams A.L.
+      - Wills P.L.
+      - Wu J.-R.
+      - Wu K.
+      - Yang J.
+      - DeJong P.
+      - Bruce D.
+      - Doggett N.A.
+      - Deaven L.
+      - Schmutz J.
+      - Grimwood J.
+      - Richardson P.
+      - Rokhsar D.S.
+      - Eichler E.E.
+      - Gilna P.
+      - Lucas S.M.
+      - Myers R.M.
+      - Rubin E.M.
+      - Pennacchio L.A.
+      dbReferences:
+      - id: '15616553'
+        type: PubMed
+      - id: 10.1038/nature03187
+        type: DOI
+      location:
+        firstPage: '988'
+        lastPage: '994'
+        volume: '432'
+      publication:
+        journalName: Nature
+      publicationDate: '2004'
+      title: The sequence and analysis of duplication-rich human chromosome 16.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      consortiums:
+      - The MGC Project Team
+      dbReferences:
+      - id: '15489334'
+        type: PubMed
+      - id: 10.1101/gr.2596504
+        type: DOI
+      location:
+        firstPage: '2121'
+        lastPage: '2127'
+        volume: '14'
+      publication:
+        journalName: Genome Res.
+      publicationDate: '2004'
+      title: 'The status, quality, and expansion of the NIH full-length cDNA project:
+        the Mammalian Gene Collection (MGC).'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)
+    - VARIANT MET-223
+    source:
+      tissue:
+      - value: Colon
+      - value: Placenta
+  - citation:
+      authors:
+      - Dooley T.P.
+      - Obermoeller R.D.
+      - Leiter E.H.
+      - Chapman H.D.
+      - Falany C.N.
+      - Deng Z.
+      - Siciliano M.J.
+      dbReferences:
+      - id: '8288252'
+        type: PubMed
+      - id: 10.1006/geno.1993.1494
+        type: DOI
+      location:
+        firstPage: '440'
+        lastPage: '443'
+        volume: '18'
+      publication:
+        journalName: Genomics
+      publicationDate: '1993'
+      title: Mapping of the phenol sulfotransferase gene (STP) to human chromosome
+        16p12.1-p11.2 and to mouse chromosome 7.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-107 (ISOFORM 1)
+  - citation:
+      authors:
+      - Veronese M.E.
+      - Burgess W.
+      - Zhu X.
+      - McManus M.E.
+      dbReferences:
+      - id: '8093002'
+        type: PubMed
+      - id: 10.1042/bj3020497
+        type: DOI
+      location:
+        firstPage: '497'
+        lastPage: '502'
+        volume: '302'
+      publication:
+        journalName: Biochem. J.
+      publicationDate: '1994'
+      title: 'Functional characterization of two human sulphotransferase cDNAs that
+        encode monoamine- and phenol-sulphating forms of phenol sulphotransferase:
+        substrate kinetics, thermal-stability and inhibitor-sensitivity studies.'
+      type: journal article
+    scope:
+    - CHARACTERIZATION
+  - citation:
+      authors:
+      - Falany C.N.
+      - Zhuang W.
+      - Falany J.L.
+      dbReferences:
+      - id: '8033270'
+        type: PubMed
+      - id: 10.1016/0009-2797(94)90053-1
+        type: DOI
+      location:
+        firstPage: '57'
+        lastPage: '66'
+        volume: '92'
+      publication:
+        journalName: Chem. Biol. Interact.
+      publicationDate: '1994'
+      title: 'Characterization of expressed human phenol-sulfating phenol sulfotransferase:
+        effect of mutating cys70 on activity and thermostability.'
+      type: journal article
+    scope:
+    - MUTAGENESIS OF CYS-70
+  - citation:
+      authors:
+      - Chou H.C.
+      - Lang N.P.
+      - Kadlubar F.F.
+      dbReferences:
+      - id: '7834621'
+        type: PubMed
+      location:
+        firstPage: '525'
+        lastPage: '529'
+        volume: '55'
+      publication:
+        journalName: Cancer Res.
+      publicationDate: '1995'
+      title: Metabolic activation of N-hydroxy arylamines and N-hydroxy heterocyclic
+        amines by human sulfotransferase(s).
+      type: journal article
+    scope:
+    - CATALYTIC ACTIVITY
+    - FUNCTION
+  - citation:
+      authors:
+      - Kester M.H.
+      - Kaptein E.
+      - Roest T.J.
+      - van Dijk C.H.
+      - Tibboel D.
+      - Meinl W.
+      - Glatt H.
+      - Coughtrie M.W.
+      - Visser T.J.
+      dbReferences:
+      - id: '10199779'
+        type: PubMed
+      - id: 10.1210/jcem.84.4.5590
+        type: DOI
+      location:
+        firstPage: '1357'
+        lastPage: '1364'
+        volume: '84'
+      publication:
+        journalName: J. Clin. Endocrinol. Metab.
+      publicationDate: '1999'
+      title: Characterization of human iodothyronine sulfotransferases.
+      type: journal article
+    scope:
+    - CATALYTIC ACTIVITY
+    - FUNCTION
+    - BIOPHYSICOCHEMICAL PROPERTIES
+  - citation:
+      authors:
+      - Bian Y.
+      - Song C.
+      - Cheng K.
+      - Dong M.
+      - Wang F.
+      - Huang J.
+      - Sun D.
+      - Wang L.
+      - Ye M.
+      - Zou H.
+      dbReferences:
+      - id: '24275569'
+        type: PubMed
+      - id: 10.1016/j.jprot.2013.11.014
+        type: DOI
+      location:
+        firstPage: '253'
+        lastPage: '262'
+        volume: '96'
+      publication:
+        journalName: J. Proteomics
+      publicationDate: '2014'
+      title: An enzyme assisted RP-RPLC approach for in-depth analysis of human liver
+        phosphoproteome.
+      type: journal article
+    scope:
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+    source:
+      tissue:
+      - value: Liver
+  - citation:
+      authors:
+      - Vaca Jacome A.S.
+      - Rabilloud T.
+      - Schaeffer-Reiss C.
+      - Rompais M.
+      - Ayoub D.
+      - Lane L.
+      - Bairoch A.
+      - Van Dorsselaer A.
+      - Carapito C.
+      dbReferences:
+      - id: '25944712'
+        type: PubMed
+      - id: 10.1002/pmic.201400617
+        type: DOI
+      location:
+        firstPage: '2519'
+        lastPage: '2524'
+        volume: '15'
+      publication:
+        journalName: Proteomics
+      publicationDate: '2015'
+      title: N-terminome analysis of the human mitochondrial proteome.
+      type: journal article
+    scope:
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+  - citation:
+      authors:
+      - Needham B.D.
+      - Funabashi M.
+      - Adame M.D.
+      - Wang Z.
+      - Boktor J.C.
+      - Haney J.
+      - Wu W.L.
+      - Rabut C.
+      - Ladinsky M.S.
+      - Hwang S.J.
+      - Guo Y.
+      - Zhu Q.
+      - Griffiths J.A.
+      - Knight R.
+      - Bjorkman P.J.
+      - Shapiro M.G.
+      - Geschwind D.H.
+      - Holschneider D.P.
+      - Fischbach M.A.
+      - Mazmanian S.K.
+      dbReferences:
+      - id: '35165440'
+        type: PubMed
+      - id: 10.1038/s41586-022-04396-8
+        type: DOI
+      location:
+        firstPage: '647'
+        lastPage: '653'
+        volume: '602'
+      publication:
+        journalName: Nature
+      publicationDate: '2022'
+      title: A gut-derived metabolite alters brain activity and anxiety behaviour
+        in mice.
+      type: journal article
+    scope:
+    - FUNCTION
+    - CATALYTIC ACTIVITY
+  - citation:
+      authors:
+      - Gamage N.U.
+      - Duggleby R.G.
+      - Barnett A.C.
+      - Tresillian M.
+      - Latham C.F.
+      - Liyou N.E.
+      - McManus M.E.
+      - Martin J.L.
+      dbReferences:
+      - id: '12471039'
+        type: PubMed
+      - id: 10.1074/jbc.m207246200
+        type: DOI
+      location:
+        firstPage: '7655'
+        lastPage: '7662'
+        volume: '278'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2003'
+      title: Structure of a human carcinogen-converting enzyme, SULT1A1. Structural
+        and kinetic implications of substrate inhibition.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) IN COMPLEX WITH ADENOSINE-3'-5'-DIPHOSPHATE
+      (PAP) AND P-NITROPHENOL
+    - CATALYTIC ACTIVITY
+    - FUNCTION
+  - citation:
+      authors:
+      - Gamage N.U.
+      - Tsvetanov S.
+      - Duggleby R.G.
+      - McManus M.E.
+      - Martin J.L.
+      dbReferences:
+      - id: '16221673'
+        type: PubMed
+      - id: 10.1074/jbc.m508289200
+        type: DOI
+      location:
+        firstPage: '41482'
+        lastPage: '41486'
+        volume: '280'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '2005'
+      title: The structure of human SULT1A1 crystallized with estradiol. An insight
+        into active site plasticity and substrate inhibition with multi-ring substrates.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (2.30 ANGSTROMS) IN COMPLEX WITH ADENOSINE-3'-5'-DIPHOSPHATE
+      AND ESTRADIOL
+    - CATALYTIC ACTIVITY
+    - FUNCTION
+  - citation:
+      authors:
+      - Lu J.
+      - Li H.
+      - Zhang J.
+      - Li M.
+      - Liu M.Y.
+      - An X.
+      - Liu M.C.
+      - Chang W.
+      dbReferences:
+      - id: '20417180'
+        type: PubMed
+      - id: 10.1016/j.bbrc.2010.04.109
+        type: DOI
+      location:
+        firstPage: '429'
+        lastPage: '434'
+        volume: '396'
+      publication:
+        journalName: Biochem. Biophys. Res. Commun.
+      publicationDate: '2010'
+      title: 'Crystal structures of SULT1A2 and SULT1A1 *3: insights into the substrate
+        inhibition and the role of Tyr149 in SULT1A2.'
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (2.30 ANGSTROMS) IN COMPLEX WITH ADENOSINE-3'-5'-DIPHOSPHATE
+  - citation:
+      authors:
+      - Alcolombri U.
+      - Elias M.
+      - Tawfik D.S.
+      dbReferences:
+      - id: '21723874'
+        type: PubMed
+      - id: 10.1016/j.jmb.2011.06.037
+        type: DOI
+      location:
+        firstPage: '837'
+        lastPage: '853'
+        volume: '411'
+      publication:
+        journalName: J. Mol. Biol.
+      publicationDate: '2011'
+      title: Directed evolution of sulfotransferases and paraoxonases by ancestral
+        libraries.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (2.35 ANGSTROMS) IN COMPLEXES WITH ADENOSINE-3'-5'-DIPHOSPHATE
+      AND P-NITROPHENOL
+    - CATALYTIC ACTIVITY
+    - FUNCTION
+  - citation:
+      authors:
+      - Berger I.
+      - Guttman C.
+      - Amar D.
+      - Zarivach R.
+      - Aharoni A.
+      dbReferences:
+      - id: '22069470'
+        type: PubMed
+      - id: 10.1371/journal.pone.0026794
+        type: DOI
+      location:
+        firstPage: E26794
+        lastPage: E26794
+        volume: '6'
+      publication:
+        journalName: PLoS ONE
+      publicationDate: '2011'
+      title: The molecular basis for the broad substrate specificity of human sulfotransferase
+        1A1.
+      type: journal article
+    scope:
+    - X-RAY CRYSTALLOGRAPHY (2.00 ANGSTROMS) IN COMPLEXES WITH ADENOSINE-3'-5'-DIPHOSPHATE
+      AND P-NITROPHENOL
+    - CATALYTIC ACTIVITY
+    - FUNCTION
+    - MUTAGENESIS OF ASP-249
+  - citation:
+      authors:
+      - Raftogianis R.B.
+      - Wood T.C.
+      - Otterness D.M.
+      - Van Loon J.A.
+      - Weinshilboum R.M.
+      dbReferences:
+      - id: '9345314'
+        type: PubMed
+      - id: 10.1006/bbrc.1997.7466
+        type: DOI
+      location:
+        firstPage: '298'
+        lastPage: '304'
+        volume: '239'
+      publication:
+        journalName: Biochem. Biophys. Res. Commun.
+      publicationDate: '1997'
+      title: 'Phenol sulfotransferase pharmacogenetics in humans: association of common
+        SULT1A1 alleles with TS PST phenotype.'
+      type: journal article
+    scope:
+    - VARIANTS GLN-37; HIS-213 AND MET-223
+  - citation:
+      authors:
+      - Engelke C.E.
+      - Meinl W.
+      - Boeing H.
+      - Glatt H.
+      dbReferences:
+      - id: '10762004'
+        type: PubMed
+      - id: 10.1097/00008571-200003000-00008
+        type: DOI
+      location:
+        firstPage: '163'
+        lastPage: '169'
+        volume: '10'
+      publication:
+        journalName: Pharmacogenetics
+      publicationDate: '2000'
+      title: Association between functional genetic polymorphisms of human sulfotransferases
+        1A1 and 1A2.
+      type: journal article
+    scope:
+    - VARIANT HIS-213
+  - citation:
+      authors:
+      - Burkard T.R.
+      - Planyavsky M.
+      - Kaupe I.
+      - Breitwieser F.P.
+      - Buerckstuemmer T.
+      - Bennett K.L.
+      - Superti-Furga G.
+      - Colinge J.
+      dbReferences:
+      - id: '21269460'
+        type: PubMed
+      - id: 10.1186/1752-0509-5-17
+        type: DOI
+      location:
+        firstPage: '17'
+        lastPage: '17'
+        volume: '5'
+      publication:
+        journalName: BMC Syst. Biol.
+      publicationDate: '2011'
+      title: Initial characterization of the human central proteome.
+      type: journal article
+    scope:
+    - VARIANT [LARGE SCALE ANALYSIS] MET-223
+    - IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]
+  secondaryAccession:
+  - Q2NL71
+  - Q86U58
+  - Q92818
+  - Q9BVU6
+  - Q9UGG7
+  sequence:
+    length: 295
+    mass: 34165
+    modified: '2010-11-30'
+    sequence: MELIQDTSRPPLEYVKGVPLIKYFAEALGPLQSFQARPDDLLISTYPKSGTTWVSQILDMIYQGGDLEKCHRAPIFMRVPFLEFKAPGIPSGMETLKDTPAPRLLKTHLPLALLPQTLLDQKVKVVYVARNAKDVAVSYYHFYHMAKVHPEPGTWDSFLEKFMVGEVSYGSWYQHVQEWWELSRTHPVLYLFYEDMKENPKREIQKILEFVGRSLPEETVDFVVQHTSFKEMKKNPMTNYTTVPQEFMDHSISPFMRKGMAGDWKTTFTVAQNERFDADYAEKMAGCSLSFRSEL
+    version: 3
+uniprot_id: P50225

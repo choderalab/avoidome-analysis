@@ -1,0 +1,2391 @@
+data:
+  accession: Q02641
+  comments:
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P19517
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P19517
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/1309651
+          id: '1309651'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/1309651
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15615847
+          id: '15615847'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15615847
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8107964
+          id: '8107964'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8107964
+      value: Regulatory subunit of L-type calcium channels (PubMed:1309651, PubMed:8107964,
+        PubMed:15615847). Regulates the activity of L-type calcium channels that contain
+        CACNA1A as pore-forming subunit (By similarity). Regulates the activity of
+        L-type calcium channels that contain CACNA1C as pore-forming subunit and increases
+        the presence of the channel complex at the cell membrane (PubMed:15615847).
+        Required for functional expression L-type calcium channels that contain CACNA1D
+        as pore-forming subunit (PubMed:1309651). Regulates the activity of L-type
+        calcium channels that contain CACNA1B as pore-forming subunit (PubMed:8107964)
+    type: FUNCTION
+  - text:
+    - evidences:
+      - code: ECO:0000250
+        source:
+          id: P19517
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P19517
+      - code: ECO:0000250
+        source:
+          id: P54283
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/P54283
+      - code: ECO:0000250
+        source:
+          id: Q8R3Z5
+          name: UniProtKB
+          url: https://www.uniprot.org/uniprot/Q8R3Z5
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/1309651
+          id: '1309651'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/1309651
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15615847
+          id: '15615847'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15615847
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8107964
+          id: '8107964'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8107964
+      value: Regulatory subunit of L-type calcium channels that consist of a pore-forming
+        alpha subunit and auxiliary beta, gamma and delta subunits (By similarity).
+        Interacts with CACNA1A, CACNA1B, CACNA1C and CACNA1S (By similarity). Component
+        of a calcium channel complex consisting of a pore-forming alpha subunit (CACNA1S)
+        and the ancillary subunits CACNB1 or CACNB2, CACNG1 and CACNA2D1. Identified
+        in a complex with CACNA1C (PubMed:15615847). Identified in a complex with
+        the L-type calcium channel subunits CACNA1C, CACNA2D1, CACNB1 and one of the
+        gamma subunits (CACNG4, CACNG6, CACNG7, or CACNG8) (By similarity). Part of
+        a L-type calcium channel complex that contains CACNA1D, CACNA2D1 and CACNB1
+        (PubMed:1309651). Part of a L-type calcium channel complex that contains CACNA1B,
+        CACNA2D1 and CACNB1 (PubMed:8107964). Interacts with JSRP1. Interacts with
+        RYR1 (By similarity). Interacts with CBARP (By similarity)
+    type: SUBUNIT
+  - interactions:
+    - accession1: Q02641
+      accession2: P56545-3
+      experiments: 3
+      gene: CTBP2
+      interactor1: EBI-947514
+      interactor2: EBI-10171902
+      organismDiffer: false
+    - accession1: Q02641
+      accession2: P55040
+      experiments: 3
+      gene: GEM
+      interactor1: EBI-947514
+      interactor2: EBI-744104
+      organismDiffer: false
+    - accession1: Q02641-1
+      accession2: Q13936
+      experiments: 2
+      gene: CACNA1C
+      interactor1: EBI-15707950
+      interactor2: EBI-1038838
+      organismDiffer: false
+    type: INTERACTION
+  - locations:
+    - location:
+        evidences:
+        - code: ECO:0000305
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/15615847
+            id: '15615847'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/15615847
+        value: Cell membrane, sarcolemma
+      orientation:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: P19517
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P19517
+        value: Cytoplasmic side
+      topology:
+        evidences:
+        - code: ECO:0000250
+          source:
+            id: P19517
+            name: UniProtKB
+            url: https://www.uniprot.org/uniprot/P19517
+        value: Peripheral membrane protein
+    - location:
+        evidences:
+        - code: ECO:0000305
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/1309651
+            id: '1309651'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/1309651
+        value: Cell membrane
+      topology:
+        evidences:
+        - code: ECO:0000305
+          source:
+            alternativeUrl: https://europepmc.org/abstract/MED/1309651
+            id: '1309651'
+            name: PubMed
+            url: http://www.ncbi.nlm.nih.gov/pubmed/1309651
+        value: Peripheral membrane protein
+    type: SUBCELLULAR_LOCATION
+  - event:
+    - Alternative splicing
+    isoforms:
+    - ids:
+      - Q02641-1
+      name:
+        value: '1'
+      sequenceStatus: displayed
+      synonyms:
+      - value: Beta-1b2
+      - value: BetaA
+      - value: Beta-1B
+      - value: Beta1-2
+    - ids:
+      - Q02641-2
+      name:
+        value: '2'
+      sequence:
+      - VSP_000623
+      - VSP_000624
+      - VSP_000625
+      sequenceStatus: described
+      synonyms:
+      - value: Beta-1M
+      - value: BetaC
+      - value: Beta-1a
+    - ids:
+      - Q02641-3
+      name:
+        value: '3'
+      sequence:
+      - VSP_000624
+      - VSP_000625
+      sequenceStatus: described
+      synonyms:
+      - value: Beta-1b1
+      - value: BetaB
+      - value: Beta-1c
+      - value: Beta1-3
+    type: ALTERNATIVE_PRODUCTS
+  - text:
+    - evidences:
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/15615847
+          id: '15615847'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/15615847
+      - code: ECO:0000269
+        source:
+          alternativeUrl: https://europepmc.org/abstract/MED/8107964
+          id: '8107964'
+          name: PubMed
+          url: http://www.ncbi.nlm.nih.gov/pubmed/8107964
+      value: Detected in heart ventricle (at protein level) (PubMed:15615847). Isoform
+        1 and isoform 3 are expressed in brain, heart, spleen, central nervous system
+        and neuroblastoma cells. Isoform 2 is expressed in skeletal muscle
+    type: TISSUE_SPECIFICITY
+  - text:
+    - evidences:
+      - code: ECO:0000305
+      value: Belongs to the calcium channel beta subunit family
+    type: SIMILARITY
+  - conflictType: ERRONEOUS_INITIATION
+    evidences:
+    - code: ECO:0000305
+    sequence: CAA79825.1
+    type: SEQUENCE_CAUTION
+  dbReferences:
+  - id: M92303
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA35633.1
+    type: EMBL
+  - id: M92301
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA35631.1
+    type: EMBL
+  - id: M92302
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA35632.1
+    type: EMBL
+  - id: M76560
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA51894.1
+    type: EMBL
+  - id: L06110
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA36167.1
+    type: EMBL
+  - id: L06111
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA36168.1
+    type: EMBL
+  - id: L06112
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAA36169.1
+    type: EMBL
+  - id: AB054985
+    properties:
+      molecule type: mRNA
+      protein sequence ID: BAB21444.1
+    type: EMBL
+  - id: U86960
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58779.1
+    type: EMBL
+  - id: U86952
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58779.1
+      status: JOINED
+    type: EMBL
+  - id: U86953
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58779.1
+      status: JOINED
+    type: EMBL
+  - id: U86954
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58779.1
+      status: JOINED
+    type: EMBL
+  - id: U86955
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58779.1
+      status: JOINED
+    type: EMBL
+  - id: U86956
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58779.1
+      status: JOINED
+    type: EMBL
+  - id: U86957
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58779.1
+      status: JOINED
+    type: EMBL
+  - id: U86958
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58779.1
+      status: JOINED
+    type: EMBL
+  - id: U86959
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58779.1
+      status: JOINED
+    type: EMBL
+  - id: U86960
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58780.1
+    type: EMBL
+  - id: U86952
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58780.1
+      status: JOINED
+    type: EMBL
+  - id: U86953
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58780.1
+      status: JOINED
+    type: EMBL
+  - id: U86954
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58780.1
+      status: JOINED
+    type: EMBL
+  - id: U86955
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58780.1
+      status: JOINED
+    type: EMBL
+  - id: U86956
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58780.1
+      status: JOINED
+    type: EMBL
+  - id: U86957
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58780.1
+      status: JOINED
+    type: EMBL
+  - id: U86958
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58780.1
+      status: JOINED
+    type: EMBL
+  - id: U86959
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58780.1
+      status: JOINED
+    type: EMBL
+  - id: U86961
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58781.1
+      status: ALT_SEQ
+    type: EMBL
+  - id: U86952
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58781.1
+      status: JOINED
+    type: EMBL
+  - id: U86953
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58781.1
+      status: JOINED
+    type: EMBL
+  - id: U86954
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58781.1
+      status: JOINED
+    type: EMBL
+  - id: U86955
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58781.1
+      status: JOINED
+    type: EMBL
+  - id: U86956
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58781.1
+      status: JOINED
+    type: EMBL
+  - id: U86957
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58781.1
+      status: JOINED
+    type: EMBL
+  - id: U86958
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58781.1
+      status: JOINED
+    type: EMBL
+  - id: U86959
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58781.1
+      status: JOINED
+    type: EMBL
+  - id: U86960
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: AAB58781.1
+      status: JOINED
+    type: EMBL
+  - id: AK289729
+    properties:
+      molecule type: mRNA
+      protein sequence ID: BAF82418.1
+    type: EMBL
+  - id: CH471152
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: EAW60562.1
+    type: EMBL
+  - id: BC037311
+    properties:
+      molecule type: mRNA
+      protein sequence ID: AAH37311.2
+    type: EMBL
+  - id: Z21725
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA79824.1
+    type: EMBL
+  - id: Z21726
+    properties:
+      molecule type: Genomic_DNA
+      protein sequence ID: CAA79825.1
+      status: ALT_INIT
+    type: EMBL
+  - id: CCDS11334.1
+    isoform: Q02641-2
+    type: CCDS
+  - id: CCDS42311.1
+    isoform: Q02641-1
+    type: CCDS
+  - id: CCDS45665.1
+    isoform: Q02641-3
+    type: CCDS
+  - id: A44461
+    properties:
+      entry name: A44461
+    type: PIR
+  - id: B44461
+    properties:
+      entry name: B44461
+    type: PIR
+  - id: C44461
+    properties:
+      entry name: C44461
+    type: PIR
+  - id: I38002
+    properties:
+      entry name: I38002
+    type: PIR
+  - id: I52859
+    properties:
+      entry name: I52859
+    type: PIR
+  - id: I65766
+    properties:
+      entry name: I65766
+    type: PIR
+  - id: I65767
+    properties:
+      entry name: I65767
+    type: PIR
+  - id: JH0566
+    properties:
+      entry name: JH0566
+    type: PIR
+  - id: NP_000714.3
+    isoform: Q02641-1
+    properties:
+      nucleotide sequence ID: NM_000723.4
+    type: RefSeq
+  - id: NP_954855.1
+    isoform: Q02641-2
+    properties:
+      nucleotide sequence ID: NM_199247.2
+    type: RefSeq
+  - id: NP_954856.1
+    isoform: Q02641-3
+    properties:
+      nucleotide sequence ID: NM_199248.2
+    type: RefSeq
+  - id: 7VFS
+    properties:
+      chains: D=1-598
+      method: EM
+      resolution: 2.80 A
+    type: PDB
+  - id: 7VFU
+    properties:
+      chains: D=1-598
+      method: EM
+      resolution: 3.00 A
+    type: PDB
+  - id: 7VFV
+    properties:
+      chains: D=1-598
+      method: EM
+      resolution: 3.00 A
+    type: PDB
+  - id: 7VFW
+    properties:
+      chains: D=1-598
+      method: EM
+      resolution: 3.30 A
+    type: PDB
+  - id: 7XLQ
+    properties:
+      chains: B=1-598
+      method: EM
+      resolution: 3.10 A
+    type: PDB
+  - id: 7VFS
+    type: PDBsum
+  - id: 7VFU
+    type: PDBsum
+  - id: 7VFV
+    type: PDBsum
+  - id: 7VFW
+    type: PDBsum
+  - id: 7XLQ
+    type: PDBsum
+  - id: Q02641
+    type: AlphaFoldDB
+  - id: EMD-31958
+    type: EMDB
+  - id: EMD-31959
+    type: EMDB
+  - id: EMD-31960
+    type: EMDB
+  - id: EMD-31961
+    type: EMDB
+  - id: EMD-33285
+    type: EMDB
+  - id: Q02641
+    type: SMR
+  - id: '107236'
+    properties:
+      interactions: '14'
+    type: BioGRID
+  - id: CPX-3192
+    properties:
+      entry name: Skeletal muscle VGCC complex
+    type: ComplexPortal
+  - id: Q02641
+    type: CORUM
+  - id: Q02641
+    properties:
+      interactions: '10'
+    type: IntAct
+  - id: Q02641
+    type: MINT
+  - id: 9606.ENSP00000377840
+    type: STRING
+  - id: Q02641
+    type: BindingDB
+  - id: CHEMBL3988638
+    type: ChEMBL
+  - id: CHEMBL3988640
+    type: ChEMBL
+  - id: CHEMBL4106160
+    type: ChEMBL
+  - id: DB01118
+    properties:
+      generic name: Amiodarone
+    type: DrugBank
+  - id: DB00381
+    properties:
+      generic name: Amlodipine
+    type: DrugBank
+  - id: DB09230
+    properties:
+      generic name: Azelnidipine
+    type: DrugBank
+  - id: DB09231
+    properties:
+      generic name: Benidipine
+    type: DrugBank
+  - id: DB13746
+    properties:
+      generic name: Bioallethrin
+    type: DrugBank
+  - id: DB11148
+    properties:
+      generic name: Butamben
+    type: DrugBank
+  - id: DB11093
+    properties:
+      generic name: Calcium citrate
+    type: DrugBank
+  - id: DB11348
+    properties:
+      generic name: Calcium Phosphate
+    type: DrugBank
+  - id: DB14481
+    properties:
+      generic name: Calcium phosphate dihydrate
+    type: DrugBank
+  - id: DB09232
+    properties:
+      generic name: Cilnidipine
+    type: DrugBank
+  - id: DB04855
+    properties:
+      generic name: Dronedarone
+    type: DrugBank
+  - id: DB06751
+    properties:
+      generic name: Drotaverine
+    type: DrugBank
+  - id: DB09235
+    properties:
+      generic name: Efonidipine
+    type: DrugBank
+  - id: DB00228
+    properties:
+      generic name: Enflurane
+    type: DrugBank
+  - id: DB00153
+    properties:
+      generic name: Ergocalciferol
+    type: DrugBank
+  - id: DB00898
+    properties:
+      generic name: Ethanol
+    type: DrugBank
+  - id: DB13961
+    properties:
+      generic name: Fish oil
+    type: DrugBank
+  - id: DB00308
+    properties:
+      generic name: Ibutilide
+    type: DrugBank
+  - id: DB09236
+    properties:
+      generic name: Lacidipine
+    type: DrugBank
+  - id: DB00825
+    properties:
+      generic name: Levomenthol
+    type: DrugBank
+  - id: DB00653
+    properties:
+      generic name: Magnesium sulfate
+    type: DrugBank
+  - id: DB09238
+    properties:
+      generic name: Manidipine
+    type: DrugBank
+  - id: DB01388
+    properties:
+      generic name: Mibefradil
+    type: DrugBank
+  - id: DB01110
+    properties:
+      generic name: Miconazole
+    type: DrugBank
+  - id: DB00622
+    properties:
+      generic name: Nicardipine
+    type: DrugBank
+  - id: DB06712
+    properties:
+      generic name: Nilvadipine
+    type: DrugBank
+  - id: DB00393
+    properties:
+      generic name: Nimodipine
+    type: DrugBank
+  - id: DB01054
+    properties:
+      generic name: Nitrendipine
+    type: DrugBank
+  - id: DB00252
+    properties:
+      generic name: Phenytoin
+    type: DrugBank
+  - id: DB00243
+    properties:
+      generic name: Ranolazine
+    type: DrugBank
+  - id: DB00421
+    properties:
+      generic name: Spironolactone
+    type: DrugBank
+  - id: DB00273
+    properties:
+      generic name: Topiramate
+    type: DrugBank
+  - id: DB09089
+    properties:
+      generic name: Trimebutine
+    type: DrugBank
+  - id: DB00661
+    properties:
+      generic name: Verapamil
+    type: DrugBank
+  - id: Q02641
+    properties:
+      glycosylation: 1 site, 1 O-linked glycan (1 site)
+    type: GlyGen
+  - id: Q02641
+    type: iPTMnet
+  - id: Q02641
+    type: PhosphoSitePlus
+  - id: CACNB1
+    type: BioMuta
+  - id: '20455481'
+    type: DMDM
+  - id: Q02641
+    type: jPOST
+  - id: Q02641
+    type: MassIVE
+  - id: Q02641
+    type: MaxQB
+  - id: 9606-ENSP00000377840
+    type: PaxDb
+  - id: Q02641
+    type: PeptideAtlas
+  - id: '58113'
+    isoform: Q02641-1
+    type: ProteomicsDB
+  - id: '58114'
+    isoform: Q02641-2
+    type: ProteomicsDB
+  - id: '58115'
+    isoform: Q02641-3
+    type: ProteomicsDB
+  - id: Q02641
+    properties:
+      antibodies: 1 sequenced antibody
+    type: ABCD
+  - id: '4063'
+    properties:
+      antibodies: 457 antibodies from 35 providers
+    type: Antibodypedia
+  - id: '782'
+    type: DNASU
+  - id: ENST00000344140.6
+    isoform: Q02641-2
+    properties:
+      gene ID: ENSG00000067191.17
+      protein sequence ID: ENSP00000345461.5
+    type: Ensembl
+  - id: ENST00000394303.8
+    isoform: Q02641-1
+    properties:
+      gene ID: ENSG00000067191.17
+      protein sequence ID: ENSP00000377840.3
+    type: Ensembl
+  - id: ENST00000394310.7
+    isoform: Q02641-3
+    properties:
+      gene ID: ENSG00000067191.17
+      protein sequence ID: ENSP00000377847.3
+    type: Ensembl
+  - id: '782'
+    type: GeneID
+  - id: ENST00000394303.8
+    properties:
+      RefSeq nucleotide sequence ID: NM_000723.5
+      RefSeq protein sequence ID: NP_000714.3
+      protein sequence ID: ENSP00000377840.3
+    type: MANE-Select
+  - id: uc002hrm.2
+    isoform: Q02641-1
+    properties:
+      organism name: human
+    type: UCSC
+  - id: HGNC:1401
+    type: AGR
+  - id: '782'
+    type: CTD
+  - id: '782'
+    type: DisGeNET
+  - id: CACNB1
+    type: GeneCards
+  - id: HGNC:1401
+    properties:
+      gene designation: CACNB1
+    type: HGNC
+  - id: ENSG00000067191
+    properties:
+      expression patterns: Group enriched (skeletal muscle, tongue)
+    type: HPA
+  - id: '114207'
+    properties:
+      type: gene
+    type: MIM
+  - id: NX_Q02641
+    type: neXtProt
+  - id: ENSG00000067191
+    type: OpenTargets
+  - id: PA87
+    type: PharmGKB
+  - id: HostDB:ENSG00000067191
+    type: VEuPathDB
+  - id: KOG3812
+    properties:
+      taxonomic scope: Eukaryota
+    type: eggNOG
+  - id: ENSGT00950000182837
+    type: GeneTree
+  - id: CLU_021995_3_0_1
+    type: HOGENOM
+  - id: Q02641
+    type: InParanoid
+  - id: MDLWPGM
+    type: OMA
+  - id: 2953516at2759
+    type: OrthoDB
+  - id: Q02641
+    type: PhylomeDB
+  - id: TF316195
+    type: TreeFam
+  - id: Q02641
+    type: PathwayCommons
+  - id: R-HSA-112308
+    properties:
+      pathway name: Presynaptic depolarization and calcium channel opening
+    type: Reactome
+  - id: R-HSA-419037
+    properties:
+      pathway name: NCAM1 interactions
+    type: Reactome
+  - id: R-HSA-5576892
+    properties:
+      pathway name: Phase 0 - rapid depolarisation
+    type: Reactome
+  - id: R-HSA-5576893
+    properties:
+      pathway name: Phase 2 - plateau phase
+    type: Reactome
+  - id: Q02641
+    type: SignaLink
+  - id: Q02641
+    type: SIGNOR
+  - id: '782'
+    properties:
+      hits: 17 hits in 1161 CRISPR screens
+    type: BioGRID-ORCS
+  - id: CACNB1
+    properties:
+      organism name: human
+    type: ChiTaRS
+  - id: CACNB1
+    type: GeneWiki
+  - id: '782'
+    type: GenomeRNAi
+  - id: Q02641
+    properties:
+      development level: Tbio
+    type: Pharos
+  - id: PR:Q02641
+    type: PRO
+  - id: UP000005640
+    properties:
+      component: Chromosome 17
+    type: Proteomes
+  - id: Q02641
+    properties:
+      molecule type: Protein
+    type: RNAct
+  - id: ENSG00000067191
+    properties:
+      expression patterns: Expressed in gastrocnemius and 150 other cell types or
+        tissues
+    type: Bgee
+  - id: Q02641
+    properties:
+      expression patterns: baseline and differential
+    type: ExpressionAtlas
+  - id: Q02641
+    properties:
+      organism ID: HS
+    type: Genevisible
+  - id: GO:1990454
+    properties:
+      source: ISO:ComplexPortal
+      term: C:L-type voltage-gated calcium channel complex
+    type: GO
+  - id: GO:0005886
+    properties:
+      source: TAS:Reactome
+      term: C:plasma membrane
+    type: GO
+  - id: GO:0045202
+    properties:
+      source: IEA:GOC
+      term: C:synapse
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0005891
+    properties:
+      source: IBA:GO_Central
+      term: C:voltage-gated calcium channel complex
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0008331
+    properties:
+      source: IBA:GO_Central
+      term: F:high voltage-gated calcium channel activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21883149
+        id: '21883149'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21883149
+    id: GO:0005245
+    properties:
+      source: IGI:ARUK-UCL
+      term: F:voltage-gated calcium channel activity
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22982493
+        id: '22982493'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22982493
+    id: GO:0070588
+    properties:
+      source: NAS:ComplexPortal
+      term: P:calcium ion transmembrane transport
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21883149
+        id: '21883149'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21883149
+    id: GO:1904646
+    properties:
+      source: IGI:ARUK-UCL
+      term: P:cellular response to amyloid-beta
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0007268
+    properties:
+      source: IBA:GO_Central
+      term: P:chemical synaptic transmission
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21873635
+        id: '21873635'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21873635
+    id: GO:0007528
+    properties:
+      source: IBA:GO_Central
+      term: P:neuromuscular junction development
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/22982493
+        id: '22982493'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/22982493
+    id: GO:0045933
+    properties:
+      source: NAS:ComplexPortal
+      term: P:positive regulation of muscle contraction
+    type: GO
+  - evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/21883149
+        id: '21883149'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/21883149
+    id: GO:1902514
+    properties:
+      source: IGI:ARUK-UCL
+      term: P:regulation of calcium ion transmembrane transport via high voltage-gated
+        calcium channel
+    type: GO
+  - id: 3.40.50.300
+    properties:
+      entry name: P-loop containing nucleotide triphosphate hydrolases
+      match status: '1'
+    type: Gene3D
+  - id: 2.30.30.40
+    properties:
+      entry name: SH3 Domains
+      match status: '1'
+    type: Gene3D
+  - id: IPR046937
+    properties:
+      entry name: CAB1-4_N_A-dom
+    type: InterPro
+  - id: IPR008145
+    properties:
+      entry name: GK/Ca_channel_bsu
+    type: InterPro
+  - id: IPR027417
+    properties:
+      entry name: P-loop_NTPase
+    type: InterPro
+  - id: IPR036028
+    properties:
+      entry name: SH3-like_dom_sf
+    type: InterPro
+  - id: IPR001452
+    properties:
+      entry name: SH3_domain
+    type: InterPro
+  - id: IPR005443
+    properties:
+      entry name: VDCC_L_b1su
+    type: InterPro
+  - id: IPR000584
+    properties:
+      entry name: VDCC_L_bsu
+    type: InterPro
+  - id: PTHR11824
+    properties:
+      entry name: VOLTAGE-DEPENDENT CALCIUM CHANNEL BETA SUBUNIT
+      match status: '1'
+    type: PANTHER
+  - id: PTHR11824:SF17
+    properties:
+      entry name: VOLTAGE-DEPENDENT L-TYPE CALCIUM CHANNEL SUBUNIT BETA-1
+      match status: '1'
+    type: PANTHER
+  - id: PF00625
+    properties:
+      entry name: Guanylate_kin
+      match status: '1'
+    type: Pfam
+  - id: PF12052
+    properties:
+      entry name: VGCC_beta4Aa_N
+      match status: '1'
+    type: Pfam
+  - id: PR01626
+    properties:
+      entry name: LCACHANNELB
+    type: PRINTS
+  - id: PR01627
+    properties:
+      entry name: LCACHANNELB1
+    type: PRINTS
+  - id: SM00072
+    properties:
+      entry name: GuKc
+      match status: '1'
+    type: SMART
+  - id: SSF52540
+    properties:
+      entry name: P-loop containing nucleoside triphosphate hydrolases
+      match status: '1'
+    type: SUPFAM
+  - id: SSF50044
+    properties:
+      entry name: SH3-domain
+      match status: '1'
+    type: SUPFAM
+  - id: PS50002
+    properties:
+      entry name: SH3
+      match status: '1'
+    type: PROSITE
+  features:
+  - begin: '1'
+    category: MOLECULE_PROCESSING
+    description: Voltage-dependent L-type calcium channel subunit beta-1
+    end: '598'
+    ftId: PRO_0000144046
+    molecule: ''
+    type: CHAIN
+  - begin: '100'
+    category: DOMAINS_AND_SITES
+    description: SH3
+    end: '169'
+    evidences:
+    - code: ECO:0000255
+      source:
+        id: PRU00192
+        name: PROSITE-ProRule
+        url: https://prosite.expasy.org/unirule/PRU00192
+    molecule: ''
+    type: DOMAIN
+  - begin: '1'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '76'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '179'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '223'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '466'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '490'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '518'
+    category: DOMAINS_AND_SITES
+    description: Disordered
+    end: '589'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: REGION
+  - begin: '43'
+    category: SEQUENCE_INFORMATION
+    description: Polar residues
+    end: '69'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '179'
+    category: SEQUENCE_INFORMATION
+    description: Polar residues
+    end: '216'
+    evidences:
+    - code: ECO:0000256
+      source:
+        id: MobiDB-lite
+        name: SAM
+        url: https://www.uniprot.org/help/sam
+    molecule: ''
+    type: COMPBIAS
+  - begin: '44'
+    category: PTM
+    description: Phosphoserine
+    end: '44'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: P54283
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/P54283
+    molecule: ''
+    type: MOD_RES
+  - begin: '47'
+    category: PTM
+    description: Phosphoserine
+    end: '47'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: P54283
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/P54283
+    molecule: ''
+    type: MOD_RES
+  - begin: '73'
+    category: PTM
+    description: Phosphoserine
+    end: '73'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: P54283
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/P54283
+    molecule: ''
+    type: MOD_RES
+  - begin: '186'
+    category: PTM
+    description: Phosphoserine
+    end: '186'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q8R3Z5
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q8R3Z5
+    molecule: ''
+    type: MOD_RES
+  - begin: '193'
+    category: PTM
+    description: Phosphoserine
+    end: '193'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: P54283
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/P54283
+    molecule: ''
+    type: MOD_RES
+  - begin: '499'
+    category: PTM
+    description: Phosphothreonine
+    end: '499'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q8R3Z5
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q8R3Z5
+    molecule: ''
+    type: MOD_RES
+  - begin: '547'
+    category: PTM
+    description: Phosphoserine
+    end: '547'
+    evidences:
+    - code: ECO:0000250
+      source:
+        id: Q8R3Z5
+        name: UniProtKB
+        url: https://www.uniprot.org/uniprot/Q8R3Z5
+    molecule: ''
+    type: MOD_RES
+  - begin: '210'
+    category: VARIANTS
+    end: '216'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1385409
+        id: '1385409'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1385409
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/7916667
+        id: '7916667'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/7916667
+    ftId: VSP_000623
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '445'
+    category: VARIANTS
+    end: '478'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1309651
+        id: '1309651'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1309651
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1385409
+        id: '1385409'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1385409
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/7916667
+        id: '7916667'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/7916667
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8107964
+        id: '8107964'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8107964
+    ftId: VSP_000624
+    molecule: ''
+    type: VAR_SEQ
+  - begin: '479'
+    category: VARIANTS
+    end: '598'
+    evidences:
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1309651
+        id: '1309651'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1309651
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/1385409
+        id: '1385409'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/1385409
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/7916667
+        id: '7916667'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/7916667
+    - code: ECO:0000303
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/8107964
+        id: '8107964'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/8107964
+    ftId: VSP_000625
+    molecule: ''
+    type: VAR_SEQ
+  - alternativeSequence: L
+    begin: '339'
+    category: VARIANTS
+    description: in a colorectal cancer sample; somatic mutation; dbSNP:rs1266205915
+    end: '339'
+    evidences:
+    - code: ECO:0000269
+      source:
+        alternativeUrl: https://europepmc.org/abstract/MED/16959974
+        id: '16959974'
+        name: PubMed
+        url: http://www.ncbi.nlm.nih.gov/pubmed/16959974
+    ftId: VAR_036349
+    molecule: ''
+    type: VARIANT
+  - alternativeSequence: SG
+    begin: '5'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36167
+    end: '6'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: G
+    begin: '21'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 2; AAA51894
+    end: '21'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: ''
+    begin: '28'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36168/AAA36169
+    end: '28'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: R
+    begin: '29'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36167/AAA36168/AAA36169
+    end: '29'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: D
+    begin: '135'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36167
+    end: '135'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: TV
+    begin: '175'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36167
+    end: '176'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: S
+    begin: '182'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36167
+    end: '182'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: S
+    begin: '217'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36167
+    end: '217'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: T
+    begin: '264'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 8; AAH37311
+    end: '264'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: LQHT
+    begin: '293'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36167
+    end: '296'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: L
+    begin: '344'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36167
+    end: '344'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: H
+    begin: '381'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 8; AAH37311
+    end: '381'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: I
+    begin: '428'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36167
+    end: '428'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: RR
+    begin: '434'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; AAA35631/AAA35632/AAA35633 and 5; AAB58779/AAB58780/AAB58781
+    end: '435'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: D
+    begin: '456'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36167
+    end: '456'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: V
+    begin: '465'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36167
+    end: '465'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: N
+    begin: '482'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36167
+    end: '482'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: W
+    begin: '492'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36167
+    end: '492'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: P
+    begin: '515'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36167
+    end: '515'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: P
+    begin: '532'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36167
+    end: '532'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: A
+    begin: '539'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; AAA35633 and 5; AAB58781
+    end: '541'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: ''
+    begin: '550'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36167
+    end: '550'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: M
+    begin: '559'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36167
+    end: '559'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: WP
+    begin: '573'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 1; AAA35633 and 5; AAB58781
+    end: '574'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - alternativeSequence: Q
+    begin: '593'
+    category: SEQUENCE_INFORMATION
+    description: in Ref. 3; AAA36167
+    end: '593'
+    evidences:
+    - code: ECO:0000305
+    molecule: ''
+    type: CONFLICT
+  - begin: '231'
+    category: STRUCTURAL
+    end: '235'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7VFS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7VFS
+    molecule: ''
+    type: STRAND
+  - begin: '243'
+    category: STRUCTURAL
+    end: '259'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7VFS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7VFS
+    molecule: ''
+    type: HELIX
+  - begin: '261'
+    category: STRUCTURAL
+    end: '263'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7VFS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7VFS
+    molecule: ''
+    type: TURN
+  - begin: '264'
+    category: STRUCTURAL
+    end: '268'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7VFS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7VFS
+    molecule: ''
+    type: STRAND
+  - begin: '273'
+    category: STRUCTURAL
+    end: '275'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7VFS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7VFS
+    molecule: ''
+    type: HELIX
+  - begin: '302'
+    category: STRUCTURAL
+    end: '313'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7VFS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7VFS
+    molecule: ''
+    type: HELIX
+  - begin: '318'
+    category: STRUCTURAL
+    end: '322'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7VFS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7VFS
+    molecule: ''
+    type: STRAND
+  - begin: '330'
+    category: STRUCTURAL
+    end: '332'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7VFS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7VFS
+    molecule: ''
+    type: HELIX
+  - begin: '333'
+    category: STRUCTURAL
+    end: '337'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7VFS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7VFS
+    molecule: ''
+    type: STRAND
+  - begin: '340'
+    category: STRUCTURAL
+    end: '344'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7VFS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7VFS
+    molecule: ''
+    type: STRAND
+  - begin: '349'
+    category: STRUCTURAL
+    end: '358'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7VFS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7VFS
+    molecule: ''
+    type: HELIX
+  - begin: '360'
+    category: STRUCTURAL
+    end: '362'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7VFS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7VFS
+    molecule: ''
+    type: TURN
+  - begin: '363'
+    category: STRUCTURAL
+    end: '366'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7VFS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7VFS
+    molecule: ''
+    type: HELIX
+  - begin: '367'
+    category: STRUCTURAL
+    end: '379'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7VFS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7VFS
+    molecule: ''
+    type: HELIX
+  - begin: '382'
+    category: STRUCTURAL
+    end: '384'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7VFS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7VFS
+    molecule: ''
+    type: HELIX
+  - begin: '385'
+    category: STRUCTURAL
+    end: '389'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7VFS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7VFS
+    molecule: ''
+    type: STRAND
+  - begin: '394'
+    category: STRUCTURAL
+    end: '411'
+    evidences:
+    - code: ECO:0007829
+      source:
+        id: 7VFS
+        name: PDB
+        url: https://www.ebi.ac.uk/pdbe-srv/view/entry/7VFS
+    molecule: ''
+    type: HELIX
+  gene:
+  - name:
+      value: CACNB1
+    synonyms:
+    - value: CACNLB1
+  id: CACB1_HUMAN
+  info:
+    created: '1994-06-01'
+    modified: '2024-01-24'
+    type: Swiss-Prot
+    version: 217
+  keywords:
+  - value: 3D-structure
+  - value: Alternative splicing
+  - value: Calcium
+  - value: Calcium channel
+  - value: Calcium transport
+  - value: Cell membrane
+  - value: Ion channel
+  - value: Ion transport
+  - value: Membrane
+  - value: Phosphoprotein
+  - value: Reference proteome
+  - value: SH3 domain
+  - value: Transport
+  - value: Voltage-gated channel
+  organism:
+    lineage:
+    - Eukaryota
+    - Metazoa
+    - Chordata
+    - Craniata
+    - Vertebrata
+    - Euteleostomi
+    - Mammalia
+    - Eutheria
+    - Euarchontoglires
+    - Primates
+    - Haplorrhini
+    - Catarrhini
+    - Hominidae
+    - Homo
+    names:
+    - type: scientific
+      value: Homo sapiens
+    - type: common
+      value: Human
+    taxonomy: 9606
+  protein:
+    alternativeName:
+    - fullName:
+        value: Calcium channel voltage-dependent subunit beta 1
+    recommendedName:
+      fullName:
+        value: Voltage-dependent L-type calcium channel subunit beta-1
+      shortName:
+      - value: CAB1
+  proteinExistence: Evidence at protein level
+  references:
+  - citation:
+      authors:
+      - Powers P.A.
+      - Liu S.
+      - Hogan K.
+      - Gregg R.G.
+      dbReferences:
+      - id: '1385409'
+        type: PubMed
+      - id: 10.1016/s0021-9258(18)50042-9
+        type: DOI
+      location:
+        firstPage: '22967'
+        lastPage: '22972'
+        volume: '267'
+      publication:
+        journalName: J. Biol. Chem.
+      publicationDate: '1992'
+      title: Skeletal muscle and brain isoforms of a beta-subunit of human voltage-dependent
+        calcium channels are encoded by a single gene.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1; 2 AND 3)
+    source:
+      tissue:
+      - value: Hippocampus
+      - value: Skeletal muscle
+  - citation:
+      authors:
+      - Williams M.E.
+      - Feldman D.H.
+      - McCue A.F.
+      - Brenner R.
+      - Velicelebi G.
+      - Ellis S.B.
+      - Harpold M.M.
+      dbReferences:
+      - id: '1309651'
+        type: PubMed
+      - id: 10.1016/0896-6273(92)90109-q
+        type: DOI
+      location:
+        firstPage: '71'
+        lastPage: '84'
+        volume: '8'
+      publication:
+        journalName: Neuron
+      publicationDate: '1992'
+      title: Structure and functional expression of alpha 1, alpha 2, and beta subunits
+        of a novel human neuronal calcium channel subtype.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 3)
+    - FUNCTION
+    - SUBUNIT
+    - SUBCELLULAR LOCATION
+  - citation:
+      authors:
+      - Collin T.
+      - Wang J.
+      - Nargeot J.
+      - Schwartz A.
+      dbReferences:
+      - id: '7916667'
+        type: PubMed
+      - id: 10.1161/01.res.72.6.1337
+        type: DOI
+      location:
+        firstPage: '1337'
+        lastPage: '1344'
+        volume: '72'
+      publication:
+        journalName: Circ. Res.
+      publicationDate: '1993'
+      title: Molecular cloning of three isoforms of the L-type voltage-dependent calcium
+        channel beta subunit from normal human heart.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1; 2 AND 3)
+    source:
+      tissue:
+      - value: Heart
+  - citation:
+      authors:
+      - Fukuda K.
+      - Kaneko S.
+      - Yada N.
+      - Kikuwaka M.
+      - Akaike A.
+      - Satoh M.
+      dbReferences:
+      - id: '8905728'
+        type: PubMed
+      - id: 10.1016/0304-3940(96)13055-x
+        type: DOI
+      location:
+        firstPage: '13'
+        lastPage: '16'
+        volume: '217'
+      publication:
+        journalName: Neurosci. Lett.
+      publicationDate: '1996'
+      title: Cyclic AMP-dependent modulation of N- and Q-type Ca2+ channels expressed
+        in Xenopus oocytes.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)
+    source:
+      tissue:
+      - value: Brain cortex
+  - citation:
+      authors:
+      - Hogan K.
+      - Greg R.G.
+      - Powers P.A.
+      dbReferences:
+      - id: '10624822'
+        type: PubMed
+      - id: 10.1016/s0304-3940(99)00851-4
+        type: DOI
+      location:
+        firstPage: '111'
+        lastPage: '114'
+        volume: '277'
+      publication:
+        journalName: Neurosci. Lett.
+      publicationDate: '1999'
+      title: Structure and alternative splicing of the gene encoding the human beta1
+        subunit of voltage dependent calcium channels.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORMS 1; 2 AND 3)
+  - citation:
+      authors:
+      - Ota T.
+      - Suzuki Y.
+      - Nishikawa T.
+      - Otsuki T.
+      - Sugiyama T.
+      - Irie R.
+      - Wakamatsu A.
+      - Hayashi K.
+      - Sato H.
+      - Nagai K.
+      - Kimura K.
+      - Makita H.
+      - Sekine M.
+      - Obayashi M.
+      - Nishi T.
+      - Shibahara T.
+      - Tanaka T.
+      - Ishii S.
+      - Yamamoto J.
+      - Saito K.
+      - Kawai Y.
+      - Isono Y.
+      - Nakamura Y.
+      - Nagahari K.
+      - Murakami K.
+      - Yasuda T.
+      - Iwayanagi T.
+      - Wagatsuma M.
+      - Shiratori A.
+      - Sudo H.
+      - Hosoiri T.
+      - Kaku Y.
+      - Kodaira H.
+      - Kondo H.
+      - Sugawara M.
+      - Takahashi M.
+      - Kanda K.
+      - Yokoi T.
+      - Furuya T.
+      - Kikkawa E.
+      - Omura Y.
+      - Abe K.
+      - Kamihara K.
+      - Katsuta N.
+      - Sato K.
+      - Tanikawa M.
+      - Yamazaki M.
+      - Ninomiya K.
+      - Ishibashi T.
+      - Yamashita H.
+      - Murakawa K.
+      - Fujimori K.
+      - Tanai H.
+      - Kimata M.
+      - Watanabe M.
+      - Hiraoka S.
+      - Chiba Y.
+      - Ishida S.
+      - Ono Y.
+      - Takiguchi S.
+      - Watanabe S.
+      - Yosida M.
+      - Hotuta T.
+      - Kusano J.
+      - Kanehori K.
+      - Takahashi-Fujii A.
+      - Hara H.
+      - Tanase T.-O.
+      - Nomura Y.
+      - Togiya S.
+      - Komai F.
+      - Hara R.
+      - Takeuchi K.
+      - Arita M.
+      - Imose N.
+      - Musashino K.
+      - Yuuki H.
+      - Oshima A.
+      - Sasaki N.
+      - Aotsuka S.
+      - Yoshikawa Y.
+      - Matsunawa H.
+      - Ichihara T.
+      - Shiohata N.
+      - Sano S.
+      - Moriya S.
+      - Momiyama H.
+      - Satoh N.
+      - Takami S.
+      - Terashima Y.
+      - Suzuki O.
+      - Nakagawa S.
+      - Senoh A.
+      - Mizoguchi H.
+      - Goto Y.
+      - Shimizu F.
+      - Wakebe H.
+      - Hishigaki H.
+      - Watanabe T.
+      - Sugiyama A.
+      - Takemoto M.
+      - Kawakami B.
+      - Yamazaki M.
+      - Watanabe K.
+      - Kumagai A.
+      - Itakura S.
+      - Fukuzumi Y.
+      - Fujimori Y.
+      - Komiyama M.
+      - Tashiro H.
+      - Tanigami A.
+      - Fujiwara T.
+      - Ono T.
+      - Yamada K.
+      - Fujii Y.
+      - Ozaki K.
+      - Hirao M.
+      - Ohmori Y.
+      - Kawabata A.
+      - Hikiji T.
+      - Kobatake N.
+      - Inagaki H.
+      - Ikema Y.
+      - Okamoto S.
+      - Okitani R.
+      - Kawakami T.
+      - Noguchi S.
+      - Itoh T.
+      - Shigeta K.
+      - Senba T.
+      - Matsumura K.
+      - Nakajima Y.
+      - Mizuno T.
+      - Morinaga M.
+      - Sasaki M.
+      - Togashi T.
+      - Oyama M.
+      - Hata H.
+      - Watanabe M.
+      - Komatsu T.
+      - Mizushima-Sugano J.
+      - Satoh T.
+      - Shirai Y.
+      - Takahashi Y.
+      - Nakagawa K.
+      - Okumura K.
+      - Nagase T.
+      - Nomura N.
+      - Kikuchi H.
+      - Masuho Y.
+      - Yamashita R.
+      - Nakai K.
+      - Yada T.
+      - Nakamura Y.
+      - Ohara O.
+      - Isogai T.
+      - Sugano S.
+      dbReferences:
+      - id: '14702039'
+        type: PubMed
+      - id: 10.1038/ng1285
+        type: DOI
+      location:
+        firstPage: '40'
+        lastPage: '45'
+        volume: '36'
+      publication:
+        journalName: Nat. Genet.
+      publicationDate: '2004'
+      title: Complete sequencing and characterization of 21,243 full-length human
+        cDNAs.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)
+    source:
+      tissue:
+      - value: Brain
+  - citation:
+      authors:
+      - Mural R.J.
+      - Istrail S.
+      - Sutton G.G.
+      - Florea L.
+      - Halpern A.L.
+      - Mobarry C.M.
+      - Lippert R.
+      - Walenz B.
+      - Shatkay H.
+      - Dew I.
+      - Miller J.R.
+      - Flanigan M.J.
+      - Edwards N.J.
+      - Bolanos R.
+      - Fasulo D.
+      - Halldorsson B.V.
+      - Hannenhalli S.
+      - Turner R.
+      - Yooseph S.
+      - Lu F.
+      - Nusskern D.R.
+      - Shue B.C.
+      - Zheng X.H.
+      - Zhong F.
+      - Delcher A.L.
+      - Huson D.H.
+      - Kravitz S.A.
+      - Mouchard L.
+      - Reinert K.
+      - Remington K.A.
+      - Clark A.G.
+      - Waterman M.S.
+      - Eichler E.E.
+      - Adams M.D.
+      - Hunkapiller M.W.
+      - Myers E.W.
+      - Venter J.C.
+      publication:
+        submissionDatabase: EMBL/GenBank/DDBJ databases
+      publicationDate: JUL-2005
+      type: submission
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]
+  - citation:
+      consortiums:
+      - The MGC Project Team
+      dbReferences:
+      - id: '15489334'
+        type: PubMed
+      - id: 10.1101/gr.2596504
+        type: DOI
+      location:
+        firstPage: '2121'
+        lastPage: '2127'
+        volume: '14'
+      publication:
+        journalName: Genome Res.
+      publicationDate: '2004'
+      title: 'The status, quality, and expansion of the NIH full-length cDNA project:
+        the Mammalian Gene Collection (MGC).'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)
+    source:
+      tissue:
+      - value: Hippocampus
+  - citation:
+      authors:
+      - Iles D.E.
+      - Segers B.
+      - Sengers R.C.A.
+      - Monsieurs K.
+      - Heytens L.
+      - Halsall P.J.
+      - Hopkins P.M.
+      - Ellis F.R.
+      - Hall-Curran J.L.
+      - Stewart A.D.
+      - Wieringa B.
+      dbReferences:
+      - id: '8395940'
+        type: PubMed
+      - id: 10.1093/hmg/2.7.863
+        type: DOI
+      location:
+        firstPage: '863'
+        lastPage: '868'
+        volume: '2'
+      publication:
+        journalName: Hum. Mol. Genet.
+      publicationDate: '1993'
+      title: Genetic mapping of the beta 1- and gamma-subunits of the human skeletal
+        muscle L-type voltage-dependent calcium channel on chromosome 17q and exclusion
+        as candidate genes for malignant hyperthermia susceptibility.
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 146-209
+  - citation:
+      authors:
+      - Brust P.F.
+      - Simerson S.
+      - McCue A.F.
+      - Deal C.R.
+      - Schoonmaker S.
+      - Williams M.E.
+      - Velicelebi G.
+      - Johnson E.C.
+      - Harpold M.M.
+      - Ellis S.B.
+      dbReferences:
+      - id: '8107964'
+        type: PubMed
+      - id: 10.1016/0028-3908(93)90004-m
+        type: DOI
+      location:
+        firstPage: '1089'
+        lastPage: '1102'
+        volume: '32'
+      publication:
+        journalName: Neuropharmacology
+      publicationDate: '1993'
+      title: 'Human neuronal voltage-dependent calcium channels: studies on subunit
+        structure and role in channel assembly.'
+      type: journal article
+    scope:
+    - NUCLEOTIDE SEQUENCE [MRNA] OF 445-598 (ISOFORMS 1 AND 3)
+    - FUNCTION
+    - SUBUNIT
+    - TISSUE SPECIFICITY
+    - ALTERNATIVE SPLICING
+  - citation:
+      authors:
+      - Cohen R.M.
+      - Foell J.D.
+      - Balijepalli R.C.
+      - Shah V.
+      - Hell J.W.
+      - Kamp T.J.
+      dbReferences:
+      - id: '15615847'
+        type: PubMed
+      - id: 10.1152/ajpheart.00348.2004
+        type: DOI
+      location:
+        firstPage: H2363
+        lastPage: H2374
+        volume: '288'
+      publication:
+        journalName: Am. J. Physiol.
+      publicationDate: '2005'
+      title: Unique modulation of L-type Ca2+ channels by short auxiliary beta1d subunit
+        present in cardiac muscle.
+      type: journal article
+    scope:
+    - SUBUNIT
+    - SUBCELLULAR LOCATION
+    - FUNCTION
+    - TISSUE SPECIFICITY
+  - citation:
+      authors:
+      - Sjoeblom T.
+      - Jones S.
+      - Wood L.D.
+      - Parsons D.W.
+      - Lin J.
+      - Barber T.D.
+      - Mandelker D.
+      - Leary R.J.
+      - Ptak J.
+      - Silliman N.
+      - Szabo S.
+      - Buckhaults P.
+      - Farrell C.
+      - Meeh P.
+      - Markowitz S.D.
+      - Willis J.
+      - Dawson D.
+      - Willson J.K.V.
+      - Gazdar A.F.
+      - Hartigan J.
+      - Wu L.
+      - Liu C.
+      - Parmigiani G.
+      - Park B.H.
+      - Bachman K.E.
+      - Papadopoulos N.
+      - Vogelstein B.
+      - Kinzler K.W.
+      - Velculescu V.E.
+      dbReferences:
+      - id: '16959974'
+        type: PubMed
+      - id: 10.1126/science.1133427
+        type: DOI
+      location:
+        firstPage: '268'
+        lastPage: '274'
+        volume: '314'
+      publication:
+        journalName: Science
+      publicationDate: '2006'
+      title: The consensus coding sequences of human breast and colorectal cancers.
+      type: journal article
+    scope:
+    - VARIANT [LARGE SCALE ANALYSIS] LEU-339
+  secondaryAccession:
+  - A8K114
+  - O15331
+  - Q02639
+  - Q02640
+  - Q8N3X9
+  - Q9C085
+  - Q9UD79
+  sequence:
+    length: 598
+    mass: 65714
+    modified: '2002-05-02'
+    sequence: MVQKTSMSRGPYPPSQEIPMEVFDPSPQGKYSKRKGRFKRSDGSTSSDTTSNSFVRQGSAESYTSRPSDSDVSLEEDREALRKEAERQALAQLEKAKTKPVAFAVRTNVGYNPSPGDEVPVQGVAITFEPKDFLHIKEKYNNDWWIGRLVKEGCEVGFIPSPVKLDSLRLLQEQKLRQNRLGSSKSGDNSSSSLGDVVTGTRRPTPPASAKQKQKSTEHVPPYDVVPSMRPIILVGPSLKGYEVTDMMQKALFDFLKHRFDGRISITRVTADISLAKRSVLNNPSKHIIIERSNTRSSLAEVQSEIERIFELARTLQLVALDADTINHPAQLSKTSLAPIIVYIKITSPKVLQRLIKSRGKSQSKHLNVQIAASEKLAQCPPEMFDIILDENQLEDACEHLAEYLEAYWKATHPPSSTPPNPLLNRTMATAALAASPAPVSNLQGPYLASGDQPLERATGEHASMHEYPGELGQPPGLYPSSHPPGRAGTLRALSRQDTFDADTPGSRNSAYTELGDSCVDMETDPSEGPGLGDPAGGGTPPARQGSWEDEEEDYEEELTDNRNRGRNKARYCAEGGGPVLGRNKNELEGWGRGVYIR
+    version: 3
+uniprot_id: Q02641

@@ -27,3 +27,32 @@ nicotinic nAChR
 Phosphodiesterase 3A
 GABA alpha 1
 Histamine H1
+
+### HERE IS THE ORIGINAL LIST OF GENES ###
+LARGER SET - 54 targets
+Metabolism – oxidation / reduction
+CYP1A2, CYP2B6, CYP2C9, CYP2C19, CYP2D6, CYP3A4
+Aldehyde oxidase, xanthine oxidase, monoamine oxidase A and or B
+Aldehyde dehydrogenase ALDH1A1, alcohol dehydrogenase 1A
+Hydroxysteroid dehydrogenase 11beta (HSD11B1)
+Aldehyde reductase, flavin monooxygenase FMO1
+Metabolism – induction of CYOs
+AHR (aryl hydrocarbon receptor), CAR (constitutive androstane receptor) and PXR (pregnane X receptor)
+Metabolism – other
+Sulfotransferase SULT1A1, Glutathione transferase GSTA1
+Absorption, Elimination - Plasma protein binding
+HSA, alpha1-acid glycoprotein
+Absorption, Distribution, Elimination - Transporters
+P-gp (aka MDR1/ABCB1), BCRP (ABC-G2), MRP1 (ABC-C1), BSEP (ABC-B11), OAT1 (SLC22A6), OAT3 (SLC22A8), OATP1B1, OATP1B3, PEPT1 (SLC15A1), MATE (SLC47A1)
+Tox
+HERG (Kv11.1), NaV1.5, Calcium L-channel, CaV 1.2, HTR2B (5-hydroxytryptamine; serotonin) - agonist
+Serotonin transporter (SERT; SLC6A4)
+dopamine transporter (DAT1; SLC6A3),
+norepinephrine transporter (NET aka noradrenaline transporter NAT; SLC6A2)
+Adrenergic receptors – A1, A2, B1, B2
+Cannabinoid receptor CB1 (CB2)
+Muscarinic receptor M1 (M2,M3)
+nicotinic nAChR
+Phosphodiesterase 3A
+GABA alpha 1
+Histamine H1

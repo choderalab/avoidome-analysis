@@ -2,234 +2,291 @@
 # I'm checking to make sure that the uniprot entries correspond to the gene names in genes_of_interest.txt
 # I'm also manually labeling the protein with the corresponding ADMET category
 - name: CYP1A2
+  grant_name: Cytochrome P450 1A2
   alternatives: CP1A2_HUMAN, Cytochrome P450 1A2
   uniprot: P05177
   admet_category: metabolism
 - name:  CYP2B6
+  grant_name: Cytochrome P450 2B6
   alternatives: CP2B6_HUMAN, Cytochrome P450 2B6
   uniprot: P20813
   admet_category: metabolism
 - name:  CYP2C9
+  grant_name: Cytochrome P450 2C9
   alternatives: CP2C9_HUMAN, Cytochrome P450 2C9
   uniprot: P11712
   admet_category: metabolism
 - name:  CYP2C19
+  grant_name: Cytochrome P450 2C19
   alternatives: CP2CJ_HUMAN, Cytochrome P450 2C19
   uniprot: P33261
   admet_category: metabolism
 - name:  CYP2D6
+  grant_name: Cytochrome P450 2D6
   alternatives: CP2D6_HUMAN, Cytochrome P450 2D6
   uniprot: P10635
   admet_category: metabolism
 - name:  CYP3A4
+  grant_name: Cytochrome P450 3A4
   alternatives: CP3A4_HUMAN, Cytochrome P450 3A4
   uniprot: P08684
   admet_category: metabolism
 - name: Aldehyde oxidase
+  grant_name: Aldehyde oxidase
   alternatives: AOXA_HUMAN, Aldehyde oxidase
   uniprot: Q06278
   admet_category: metabolism
 - name:  xanthine oxidase
+  grant_name: Xanthine oxidase
   alternatives: XDH_HUMAN, Xanthine dehydrogenase/oxidase
   uniprot: P47989
   admet_category: metabolism
 - name:  monoamine oxidase A
+  grant_name: Monoamine oxidase A
   alternatives: AOFA_HUMAN, Amine oxidase [flavin-containing] A
   uniprot: P21397
   admet_category: metabolism
 - name:  monoamine oxidase B
+  grant_name: Monoamine oxidase B
   alternatives: AOFB_HUMAN, Amine oxidase [flavin-containing] B
   uniprot: P27338
   admet_category: metabolism
 - name: Aldehyde dehydrogenase ALDH1A1
+  grant_name: Aldehyde dehydrogenase 1A1
   alternatives: AL1A1_HUMAN, Aldehyde dehydrogenase 1A1
   uniprot: P00352
   admet_category: metabolism
 - name:  alcohol dehydrogenase 1A
+  grant_name: Alcohol dehydrogenase 1A
   alternatives: ADH1A_HUMAN, Alcohol dehydrogenase 1A
   uniprot: P07327
   admet_category: metabolism
 - name: Hydroxysteroid dehydrogenase 11beta (HSD11B1)
+  grant_name: Hydroxysteroid dehydrogenase 11-beta
   alternatives: DHI1_HUMAN, 11-beta-hydroxysteroid dehydrogenase 1
   uniprot: P28845
   admet_category: metabolism
 - name: Aldehyde reductase
+  grant_name: Aldehyde reductase
   alternatives: ARK73_HUMAN, Aflatoxin B1 aldehyde reductase member 3
   uniprot: O95154
   admet_category: metabolism
 - name:  flavin monooxygenase FMO1
+  grant_name: Flavin monooxygenase 1
   alternatives: FMO1_HUMAN, Flavin-containing monooxygenase 1
   uniprot: Q01740
   admet_category: metabolism
 - name: AHR (aryl hydrocarbon receptor)
+  grant_name: Aryl hydrocarbon receptor
   alternatives: AHR_HUMAN, Aryl hydrocarbon receptor
   uniprot: P35869
   admet_category: metabolism
 - name:  CAR (constitutive androstane receptor)
+  grant_name: Constitutive androstane receptor
   alternatives: NR1I3_HUMAN, Nuclear receptor subfamily 1 group I member 3
   uniprot: Q14994
   admet_category: metabolism
 - name:  PXR (pregnane X receptor)
+  grant_name: Pregnane X receptor
   alternatives: NR1I2_HUMAN, Nuclear receptor subfamily 1 group I member 2
   uniprot: O75469
   admet_category: metabolism
 - name: Sulfotransferase SULT1A1
+  grant_name: Sulfotransferase 1A1
   alternatives: ST1A1_HUMAN, Sulfotransferase 1A1
   uniprot: P50225
   admet_category: metabolism
 - name:  Glutathione transferase GSTA1
+  grant_name: Glutathione S-transferase A1
   alternatives: GSTA1_HUMAN, Glutathione S-transferase A1
   uniprot: P08263
   admet_category: metabolism
 - name: HSA
-  alternatives: OXA1L_HUMAN, Mitochondrial inner membrane protein OXA1L
-  uniprot: Q15070
+  grant_name: Human serum albumin
+  alternatives: ALBU_HUMAN, Serum albumin
+  uniprot: P02768
   admet_category: distribution
 - name:  alpha1-acid glycoprotein
+  grant_name: Alpha-1-acid glycoprotein
   alternatives: A1AG1_HUMAN, Alpha-1-acid glycoprotein 1
   uniprot: P02763
   admet_category: distribution
 - name: HERG (Kv11.1)
+  grant_name: HERG (Kv11.1)
   alternatives: KCNH2_HUMAN, Potassium voltage-gated channel subfamily H member 2
   uniprot: Q12809
   admet_category: toxicity
 - name:  NaV1.5
+  grant_name: NaV1.5
   alternatives: SCN5A_HUMAN, Sodium channel protein type 5 subunit alpha
   uniprot: Q14524
   admet_category: toxicity
 - name:  Calcium L-channel
+  grant_name: Calcium L-channel
   alternatives: CACB1_HUMAN, Voltage-dependent L-type calcium channel subunit beta-1
   uniprot: Q02641
   admet_category: toxicity
 # this one is different - changed from caveolin
 - name:  CaV 1.2
+  grant_name: CaV 1.2
   alternatives: Voltage-dependent L-type calcium channel subunit alpha-1C
   uniprot: Q13936
   admet_category: toxicity
 - name:  HTR2B
+  grant_name: HTR2B
   alternatives: 5HT2B_HUMAN, 5-hydroxytryptamine receptor 2B
   uniprot: P41595
   admet_category: toxicity
 - name: SLC6A4
+  grant_name: Serotonin transporter
   alternatives: SC6A4_HUMAN, Sodium-dependent serotonin transporter
   uniprot: P31645
   admet_category: toxicity
 # this one is also different - changed from death-inducer obliterator
 - name: DAT1
+  grant_name: Dopamine transporter
   alternatives: Sodium-dependent dopamine transporter, SLC6A3
   uniprot: Q01959
   admet_category: toxicity
 - name: NET noradrenaline transporter
+  grant_name: Noradrenaline transporter
   alternatives: SC6A2_HUMAN, Sodium-dependent noradrenaline transporter
   uniprot: P23975
   admet_category: toxicity
 - name: Adrenergic receptor A1
+  grant_name: Adrenergic receptor A1
   alternatives: ADA1A_HUMAN, Alpha-1A adrenergic receptor
   uniprot: P35348
   admet_category: toxicity
 - name: Adrenergic receptor A2
+  grant_name: Adrenergic receptor A2
   alternatives: ADA2A_HUMAN, Alpha-2A adrenergic receptor
   uniprot: P08913
   admet_category: toxicity
 - name: Adrenergic receptor B1
+  grant_name: Adrenergic receptor B1
   alternatives: ADRB1_HUMAN, Beta-1 adrenergic receptor
   uniprot: P08588
   admet_category: toxicity
 - name: Adrenergic receptor B2
+  grant_name: Adrenergic receptor B2
   alternatives: ADRB2_HUMAN, Beta-2 adrenergic receptor
   uniprot: P07550
   admet_category: toxicity
 # Changed from cannabinoid receptor-interacting protein 1
 - name: Cannabinoid receptor CB1
+  grant_name: Cannabinoid receptor CB1
   alternatives: Cannabinoid receptor 1, CB-R, CB1
   uniprot: P21554
   admet_category: toxicity
 - name: Cannabinoid receptor CB2
+  grant_name: Cannabinoid receptor CB2
   alternatives: CNR2_HUMAN, Cannabinoid receptor 2
   uniprot: P34972
   admet_category: toxicity
 - name: Muscarinic receptor M1
+  grant_name: Muscarinic receptor M1
   alternatives: ACM1_HUMAN, Muscarinic acetylcholine receptor M1
   uniprot: P11229
   admet_category: toxicity
 - name: Muscarinic receptor M2
+  grant_name: Muscarinic receptor M2
   alternatives: ACM2_HUMAN, Muscarinic acetylcholine receptor M2
   uniprot: P08172
   admet_category: toxicity
 - name: Muscarinic receptor M3
+  grant_name: Muscarinic receptor M3
   alternatives: ACM3_HUMAN, Muscarinic acetylcholine receptor M3
   uniprot: P20309
   admet_category: toxicity
 - name: nicotinic nAChR
+  grant_name: Nicotinic nAChR alpha-10
   alternatives: ACH10_HUMAN Neuronal acetylcholine receptor subunit alpha-10
   uniprot: Q9GZZ6
   admet_category: toxicity
 - name: nicotinic nAChR
+  grant_name: Nicotinic nAChR alpha-9
   alternatives: ACHA9_HUMAN Neuronal acetylcholine receptor subunit alpha-9
   uniprot: Q9UGM1
   admet_category: toxicity
 - name: nicotinic nAChR
+  grant_name: Nicotinic nAChR alpha-7
   alternatives: ACHA7_HUMAN Neuronal acetylcholine receptor subunit alpha-7
   uniprot: P36544
   admet_category: toxicity
 - name: nicotinic nAChR
+  grant_name: Nicotinic nAChR alpha-3
   alternatives: ACHA3_HUMAN Neuronal acetylcholine receptor subunit alpha-3
   uniprot: P32297
   admet_category: toxicity
 - name: nicotinic nAChR
+  grant_name: Nicotinic nAChR alpha-5
   alternatives: ACHA5_HUMAN Neuronal acetylcholine receptor subunit alpha-5
   uniprot: P30532
   admet_category: toxicity
 - name: Phosphodiesterase 3A
+  grant_name: Phosphodiesterase 3A
   alternatives: ASM3A_HUMAN, Acid sphingomyelinase-like phosphodiesterase 3a
   uniprot: Q92484
   admet_category: toxicity
 - name: GABA alpha 1
+  grant_name: GABA receptor alpha-1
   alternatives: Gamma-aminobutyric acid receptor subunit alpha-1, GABA(A) receptor subunit alpha-1
   uniprot: P14867
   admet_category: toxicity
 - name: Histamine H1
+  grant_name: Histamine H1 receptor
   alternatives: HRH1_HUMAN, Histamine H1 receptor
   uniprot: P35367
   admet_category: toxicity
 # All of the transporters were missing from adme_names.yml but are in transporter_names.yml
 - name: ABCB1
+  grant_name: P-gp
   alternatives: P-gp, MDR1
   uniprot: P08183
   admet_category: transporters
 - name: ABCG2
+  grant_name: BCRP
   alternatives: BCRP, ABC-G2
   uniprot: Q9UNQ0
   admet_category: transporters
 - name: ABCC1
+  grant_name: MRP1
   alternatives: MRP1
   uniprot: P33527
   admet_category: transporters
 - name: ABCB11
+  grant_name: BSEP
   alternatives: BSEP
   uniprot: O95342
   admet_category: transporters
 - name: SLC22A6
+  grant_name: OAT1
   alternatives: OAT1
   uniprot: Q4U2R8
   admet_category: transporters
 - name: SLC22A8
+  grant_name: OAT3
   alternatives: OAT3
   uniprot: Q8TCC7
   admet_category: transporters
 - name: OATP1B1
+  grant_name: OATP1B1
   alternatives:
   uniprot: Q9Y6L6
   admet_category: transporters
 - name: OATP1B3
+  grant_name: OATP1B3
   alternatives:
   uniprot: Q9NPD5
   admet_category: transporters
 - name: SLC15A1
+  grant_name: PEPT1
   alternatives: PEPT1
   uniprot: P46059
   admet_category: transporters
 - name: SLC47A1
+  grant_name: MATE
   alternatives: MATE
   uniprot: Q96FL8
   admet_category: transporters

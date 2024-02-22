@@ -4,63 +4,63 @@
 - name: CYP1A2
   alternatives: CP1A2_HUMAN, Cytochrome P450 1A2
   uniprot: P05177
-  admet_category: metabolism_redox
+  admet_category: metabolism
 - name:  CYP2B6
   alternatives: CP2B6_HUMAN, Cytochrome P450 2B6
   uniprot: P20813
-  admet_category: metabolism_redox
+  admet_category: metabolism
 - name:  CYP2C9
   alternatives: CP2C9_HUMAN, Cytochrome P450 2C9
   uniprot: P11712
-  admet_category: metabolism_redox
+  admet_category: metabolism
 - name:  CYP2C19
   alternatives: CP2CJ_HUMAN, Cytochrome P450 2C19
   uniprot: P33261
-  admet_category: metabolism_redox
+  admet_category: metabolism
 - name:  CYP2D6
   alternatives: CP2D6_HUMAN, Cytochrome P450 2D6
   uniprot: P10635
-  admet_category: metabolism_redox
+  admet_category: metabolism
 - name:  CYP3A4
   alternatives: CP3A4_HUMAN, Cytochrome P450 3A4
   uniprot: P08684
-  admet_category: metabolism_redox
+  admet_category: metabolism
 - name: Aldehyde oxidase
   alternatives: AOXA_HUMAN, Aldehyde oxidase
   uniprot: Q06278
-  admet_category: metabolism_redox
+  admet_category: metabolism
 - name:  xanthine oxidase
   alternatives: XDH_HUMAN, Xanthine dehydrogenase/oxidase
   uniprot: P47989
-  admet_category: metabolism_redox
+  admet_category: metabolism
 - name:  monoamine oxidase A
   alternatives: AOFA_HUMAN, Amine oxidase [flavin-containing] A
   uniprot: P21397
-  admet_category: metabolism_redox
+  admet_category: metabolism
 - name:  monoamine oxidase B
   alternatives: AOFB_HUMAN, Amine oxidase [flavin-containing] B
   uniprot: P27338
-  admet_category: metabolism_redox
+  admet_category: metabolism
 - name: Aldehyde dehydrogenase ALDH1A1
   alternatives: AL1A1_HUMAN, Aldehyde dehydrogenase 1A1
   uniprot: P00352
-  admet_category: metabolism_redox
+  admet_category: metabolism
 - name:  alcohol dehydrogenase 1A
   alternatives: ADH1A_HUMAN, Alcohol dehydrogenase 1A
   uniprot: P07327
-  admet_category: metabolism_redox
+  admet_category: metabolism
 - name: Hydroxysteroid dehydrogenase 11beta (HSD11B1)
   alternatives: DHI1_HUMAN, 11-beta-hydroxysteroid dehydrogenase 1
   uniprot: P28845
-  admet_category: metabolism_redox
+  admet_category: metabolism
 - name: Aldehyde reductase
   alternatives: ARK73_HUMAN, Aflatoxin B1 aldehyde reductase member 3
   uniprot: O95154
-  admet_category: metabolism_redox
+  admet_category: metabolism
 - name:  flavin monooxygenase FMO1
   alternatives: FMO1_HUMAN, Flavin-containing monooxygenase 1
   uniprot: Q01740
-  admet_category: metabolism_redox
+  admet_category: metabolism
 - name: AHR (aryl hydrocarbon receptor)
   alternatives: AHR_HUMAN, Aryl hydrocarbon receptor
   uniprot: P35869
@@ -84,11 +84,11 @@
 - name: HSA
   alternatives: OXA1L_HUMAN, Mitochondrial inner membrane protein OXA1L
   uniprot: Q15070
-  admet_category: absorption
+  admet_category: distribution
 - name:  alpha1-acid glycoprotein
   alternatives: A1AG1_HUMAN, Alpha-1-acid glycoprotein 1
   uniprot: P02763
-  admet_category: absorption
+  admet_category: distribution
 - name: HERG (Kv11.1)
   alternatives: KCNH2_HUMAN, Potassium voltage-gated channel subfamily H member 2
   uniprot: Q12809
@@ -196,41 +196,41 @@
 - name: ABCB1
   alternatives: P-gp, MDR1
   uniprot: P08183
-  admet_category: drug_transporter
+  admet_category: transporters
 - name: ABCG2
   alternatives: BCRP, ABC-G2
   uniprot: Q9UNQ0
-  admet_category: drug_transporter
+  admet_category: transporters
 - name: ABCC1
   alternatives: MRP1
   uniprot: P33527
-  admet_category: drug_transporter
+  admet_category: transporters
 - name: ABCB11
   alternatives: BSEP
   uniprot: O95342
-  admet_category: drug_transporter
+  admet_category: transporters
 - name: SLC22A6
   alternatives: OAT1
   uniprot: Q4U2R8
-  admet_category: drug_transporter
+  admet_category: transporters
 - name: SLC22A8
   alternatives: OAT3
   uniprot: Q8TCC7
-  admet_category: drug_transporter
+  admet_category: transporters
 - name: OATP1B1
   alternatives:
   uniprot: Q9Y6L6
-  admet_category: drug_transporter
+  admet_category: transporters
 - name: OATP1B3
   alternatives:
   uniprot: Q9NPD5
-  admet_category: drug_transporter
+  admet_category: transporters
 - name: SLC15A1
   alternatives: PEPT1
   uniprot: P46059
-  admet_category: drug_transporter
+  admet_category: transporters
 - name: SLC47A1
   alternatives: MATE
   uniprot: Q96FL8
-  admet_category: drug_transporter
+  admet_category: transporters
 

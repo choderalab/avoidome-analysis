@@ -84,7 +84,7 @@ class UniprotEntry(schema_base.DataModelAbstractBase):
         """
         experimental_structures = []
         for ref in self.data["dbReferences"]:
-            if ref["type"] == "PDB" and ref["properties"]["method"] != "NMR":
+            if ref["type"] == "PDB" and ref["properties"].get("resolution"):
                 properties = ref["properties"]
                 chain_str = properties["chains"]
 
@@ -102,15 +102,17 @@ class UniprotEntry(schema_base.DataModelAbstractBase):
                                 end=int(end),
                             )
                         )
-
-                experimental_structures.append(
-                    ExperimentalStructure(
-                        pdb_id=ref["id"],
-                        method=properties["method"],
-                        resolution=properties["resolution"].split(" ")[0],
-                        components=components,
+                try:
+                    experimental_structures.append(
+                        ExperimentalStructure(
+                            pdb_id=ref["id"],
+                            method=properties["method"],
+                            resolution=properties["resolution"].split(" ")[0],
+                            components=components,
+                        )
                     )
-                )
+                except KeyError:
+                    print(f"Error parsing {ref}")
         return experimental_structures
 
     def get_alphafold_structures(self):

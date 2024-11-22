@@ -59,3 +59,15 @@ class TargetStructureData(BaseModel):
             structures=uniprot.get_experimental_structures()
             + uniprot.get_alphafold_structures(),
         )
+
+    @classmethod
+    def from_dict(cls, data: dict):
+        return cls(
+            uniprot_id=data["uniprot_id"],
+            target_name=data["target_name"],
+            sequence=data["sequence"],
+            structures=[
+                ExperimentalStructure(**s) if "pdb_id" in s else PredictedStructure(**s)
+                for s in data["structures"]
+            ],
+        )
